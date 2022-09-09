@@ -1,0 +1,63 @@
+---
+title: FixedLayoutFormats
+second_title: GroupDocs.Editor for .NET API Reference
+description: Encapsulates all fixedlayout also know as fixedpage formats which includes PDF and XPS this does not include raster images
+type: docs
+weight: 80
+url: /net/groupdocs.editor.formats/fixedlayoutformats/
+---
+## FixedLayoutFormats structure
+
+Encapsulates all fixed-layout (also know as "fixed-page") formats, which includes PDF and XPS (this does not include raster images)
+
+```csharp
+public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormats>
+```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Extension](../../groupdocs.editor.formats/fixedlayoutformats/extension) { get; } | Returns an extension (without leading dot character) of this fixed-layout format in lower case |
+| [Mime](../../groupdocs.editor.formats/fixedlayoutformats/mime) { get; } | Returns a MIME code for this format |
+| [Name](../../groupdocs.editor.formats/fixedlayoutformats/name) { get; } | Returns a formal full name of this fixed layout format |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Returns instance of [`FixedLayoutFormats`](../fixedlayoutformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Determines whether this instance is equal to the other specified FixedLayoutFormats instance |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
+| override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed FixedLayoutFormats |
+| override [GetHashCode](../../groupdocs.editor.formats/fixedlayoutformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
+| override [ToString](../../groupdocs.editor.formats/fixedlayoutformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
+| [operator ==](../../groupdocs.editor.formats/fixedlayoutformats/op_equality) | Checks two given FixedLayoutFormats instances on equality |
+| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit#op_explicit) | Returns a byte value from underlying field of specified FixedLayoutFormats instance (2 operators) |
+| [operator !=](../../groupdocs.editor.formats/fixedlayoutformats/op_inequality) | Checks two given FixedLayoutFormats instances on inequality |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here](https://docs.fileformat.com/pdf/). |
+| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. It was developed as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format [here](https://docs.fileformat.com/page-description-language/xps/). |
+| static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | Returns an internal class, that provides enumerable possibilities over all existing fixed-layout formats |
+
+## Other Members
+
+| Name | Description |
+| --- | --- |
+| class [AllEnumerable](fixedlayoutformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the FixedLayoutFormats type |
+
+### Remarks
+
+Various document viewing or publishing applications allow users to open (Adobe Acrobat, XPS Viewer), and sometimes edit (Adobe InDesign) documents of specific formats. These applications typically produce so-called “fixed-page” format documents. Such a document format describes precisely where a document’s content is placed on every page. Internally, the PDF or XPS format contains a description of every page, as well as drawing instructions, specifying the layout of the content on the page. This is similar to image formats, describing where the content is shown either in raster or vector form.
+
+### See Also
+
+* interface [IDocumentFormat](../idocumentformat)
+* namespace [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
+* assembly [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.editor.dll -->

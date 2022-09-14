@@ -1,10 +1,7 @@
 ---
 title: FillRule
 second_title: GroupDocs.Editor for Java API Reference
-description:  The fill-rule attribute is a presentation attribute defining the algorithm to
- use to determine the 
-iinside/i
- part of a shape.
+description:  The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the iinside part of a shape.
 type: docs
 weight: 19
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/fillrule/

@@ -1,8 +1,7 @@
 ---
 title: Length
 second_title: GroupDocs.Editor for Java API Reference
-description:     Represents a CSS length value in any supportable unit including percentage
-    and unitless type.
+description: Represents a CSS length value in any supportable unit including percentage    and unitless type.
 type: docs
 weight: 21
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/length/

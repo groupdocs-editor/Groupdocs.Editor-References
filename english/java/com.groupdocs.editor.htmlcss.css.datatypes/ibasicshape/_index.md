@@ -1,8 +1,7 @@
 ---
 title: IBasicShape
 second_title: GroupDocs.Editor for Java API Reference
-description:  basic-shape CSS data type represents a shape used in the clip-path
- shape-outside and offset-path properties
+description: basic-shape CSS data type represents a shape used in the clip-path shape-outside and offset-path properties
 type: docs
 weight: 28
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/ibasicshape/

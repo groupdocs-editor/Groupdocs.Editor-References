@@ -1,8 +1,7 @@
 ---
 title: JpegImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one image in JPEG Joint Photographic Experts Group format with
- its metadata and additional methods
+description: Represents one image in JPEG Joint Photographic Experts Group format with its metadata and additional methods
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/jpegimage/

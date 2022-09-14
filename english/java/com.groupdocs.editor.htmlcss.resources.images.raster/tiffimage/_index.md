@@ -1,8 +1,7 @@
 ---
 title: TiffImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one image in TIFF Tagged Image File Format format with its
- metadata and additional methods
+description: Represents one image in TIFF Tagged Image File Format format with its metadata and additional methods
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/tiffimage/

@@ -1,7 +1,7 @@
 ---
 title: OtfFont
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one font in the OTF Open Type Format format
+description: Represents one font in the OTF Open Type Format format
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/otffont/
@@ -32,7 +32,7 @@ Represents one font in the OTF (Open Type Format) format
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid OTF font |
 | [isValidInternal(System.IO.Stream binaryContent)](#isValidInternal-com.aspose.ms.System.IO.Stream-) |  |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid OTF font |
-| [getType()](#getType--) | Returns \`\`\` FontType.Otf \`\`\`([FontType\#getOtf](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype\#getOtf)) |
+| [getType()](#getType--) | Returns  FontType.Otf ([FontType\#getOtf](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype\#getOtf)) |
 ### OtfFont(String name, String contentInBase64) {#OtfFont-java.lang.String-java.lang.String-}
 ```
 public OtfFont(String name, String contentInBase64)
@@ -134,7 +134,7 @@ public FontType getType()
 ```
 
 
-Returns \`\`\` FontType.Otf \`\`\`([FontType\#getOtf](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype\#getOtf))
+Returns  FontType.Otf ([FontType\#getOtf](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype\#getOtf))
 
 **Returns:**
 [FontType](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype) - 

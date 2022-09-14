@@ -1,7 +1,7 @@
 ---
 title: EmailEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing documents in the different electronic mail email formats
+description: Allows to specify custom options for editing documents in the different electronic mail email formats
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.options/emaileditoptions/
@@ -21,7 +21,7 @@ Allows to specify custom options for editing documents in the different electron
 | Constructor | Description |
 | --- | --- |
 | [EmailEditOptions()](#EmailEditOptions--) | Initializes a new instance of the [EmailEditOptions](../../com.groupdocs.editor.options/emaileditoptions) class, where all options are set to their default values |
-| [EmailEditOptions(int mailMessageOutput)](#EmailEditOptions-int-) | Initializes a new instance of the [EmailEditOptions](../../com.groupdocs.editor.options/emaileditoptions) class with \`\`\` MailMessageOutput \`\`\`([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter |
+| [EmailEditOptions(int mailMessageOutput)](#EmailEditOptions-int-) | Initializes a new instance of the [EmailEditOptions](../../com.groupdocs.editor.options/emaileditoptions) class with  MailMessageOutput ([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter |
 ## Methods
 
 | Method | Description |
@@ -42,7 +42,7 @@ public EmailEditOptions(int mailMessageOutput)
 ```
 
 
-Initializes a new instance of the [EmailEditOptions](../../com.groupdocs.editor.options/emaileditoptions) class with \`\`\` MailMessageOutput \`\`\`([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter
+Initializes a new instance of the [EmailEditOptions](../../com.groupdocs.editor.options/emaileditoptions) class with  MailMessageOutput ([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ public final int getMailMessageOutput()
 
 Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML
 
-Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is \`\`\` MailMessageOutput.All \`\`\`
+Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
 **Returns:**
 int
@@ -69,7 +69,7 @@ public final void setMailMessageOutput(int value)
 
 Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML
 
-Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is \`\`\` MailMessageOutput.All \`\`\`
+Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
 **Parameters:**
 | Parameter | Type | Description |

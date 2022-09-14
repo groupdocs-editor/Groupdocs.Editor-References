@@ -1,7 +1,7 @@
 ---
 title: BoxShadowItem
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents a single box-shadow value.
+description: Represents a single box-shadow value.
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/boxshadowitem/

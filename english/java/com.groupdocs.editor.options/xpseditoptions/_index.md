@@ -1,7 +1,7 @@
 ---
 title: XpsEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing XML Paper Specifications documents
+description: Allows to specify custom options for editing XML Paper Specifications documents
 type: docs
 weight: 52
 url: /java/com.groupdocs.editor.options/xpseditoptions/

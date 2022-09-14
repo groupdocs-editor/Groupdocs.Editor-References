@@ -1,8 +1,7 @@
 ---
 title: ICssRule
 second_title: GroupDocs.Editor for Java API Reference
-description:  Common interface for all CSS rules including rulesets and At-rules of all
- kinds
+description: Common interface for all CSS rules including rulesets and At-rules of all kinds
 type: docs
 weight: 19
 url: /java/com.groupdocs.editor.htmlcss.css/icssrule/

@@ -1,7 +1,7 @@
 ---
 title: FontType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one supportable font type
+description: Represents one supportable font type
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/fonttype/

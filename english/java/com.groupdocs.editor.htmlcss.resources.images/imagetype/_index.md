@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one supportable image type format supports both raster and vector formats
+description: Represents one supportable image type format supports both raster and vector formats
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources.images/imagetype/

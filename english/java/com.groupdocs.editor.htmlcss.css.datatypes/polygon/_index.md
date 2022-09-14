@@ -1,8 +1,7 @@
 ---
 title: Polygon
 second_title: GroupDocs.Editor for Java API Reference
-description:  Holds a list of coordinates where each coordinate is represented as a pair
- of Length arguments.
+description: Holds a list of coordinates where each coordinate is represented as a pair of Length arguments.
 type: docs
 weight: 22
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/polygon/

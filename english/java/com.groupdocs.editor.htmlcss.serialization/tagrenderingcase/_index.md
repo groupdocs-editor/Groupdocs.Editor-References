@@ -1,7 +1,7 @@
 ---
 title: TagRenderingCase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents different types of serialization the HTML tag names
+description: Represents different types of serialization the HTML tag names
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.htmlcss.serialization/tagrenderingcase/

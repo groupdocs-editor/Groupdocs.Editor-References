@@ -1,8 +1,7 @@
 ---
 title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for generating and saving
- WordProcessing-compliant documents after they were edited
+description: Allows to specify custom options for generating and saving WordProcessing-compliant documents after they were edited
 type: docs
 weight: 46
 url: /java/com.groupdocs.editor.options/wordprocessingsaveoptions/

@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.htmlcss.exceptions
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.htmlcss.exceptions/b namespace provides exceptions that is thrown when trying to open load save or process somehow else some content.
+description: The com.groupdocs.editor.htmlcss.exceptions namespace provides exceptions that is thrown when trying to open load save or process somehow else some content.
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.exceptions/

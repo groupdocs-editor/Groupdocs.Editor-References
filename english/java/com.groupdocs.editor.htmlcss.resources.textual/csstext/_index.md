@@ -1,7 +1,7 @@
 ---
 title: CssText
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one CSS textual resource
+description: Represents one CSS textual resource
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.resources.textual/csstext/

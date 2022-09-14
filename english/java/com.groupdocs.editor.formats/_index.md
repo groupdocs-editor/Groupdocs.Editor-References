@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.formats
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.formats/b namespace provides interfaces and classes that describes supported document formats.
+description: The com.groupdocs.editor.formats namespace provides interfaces and classes that describes supported document formats.
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.formats/

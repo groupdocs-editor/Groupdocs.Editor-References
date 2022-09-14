@@ -1,7 +1,7 @@
 ---
 title: Side
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents four sides of the rectangular area.
+description: Represents four sides of the rectangular area.
 type: docs
 weight: 26
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/side/

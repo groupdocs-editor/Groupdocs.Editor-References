@@ -1,7 +1,7 @@
 ---
 title: FillRule
 second_title: GroupDocs.Editor for Java API Reference
-description:  The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the iinside part of a shape.
+description: The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the inside part of a shape.
 type: docs
 weight: 19
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/fillrule/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FillRule extends System.Enum
 ```
 
-The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the \`\`\` *inside* \`\`\` part of a shape.
+The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the  *inside*  part of a shape.
 
 --------------------
 

@@ -1,8 +1,7 @@
 ---
 title: Serializator
 second_title: GroupDocs.Editor for Java API Reference
-description:  Utility static stateless class which contains pure methods for serializing
- components of HTML and CSS documents
+description: Utility static stateless class which contains pure methods for serializing components of HTML and CSS documents
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.serialization/serializator/

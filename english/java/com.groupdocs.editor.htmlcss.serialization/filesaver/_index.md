@@ -1,7 +1,7 @@
 ---
 title: FileSaver
 second_title: GroupDocs.Editor for Java API Reference
-description:  Responsible for saving different resources from HTML and CSS to the files
+description: Responsible for saving different resources from HTML and CSS to the files
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.serialization/filesaver/

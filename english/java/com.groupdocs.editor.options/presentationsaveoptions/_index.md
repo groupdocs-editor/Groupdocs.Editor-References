@@ -1,8 +1,7 @@
 ---
 title: PresentationSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for generating and saving Presentation
- PowerPoint-compatible documents
+description: Allows to specify custom options for generating and saving Presentation PowerPoint-compatible documents
 type: docs
 weight: 33
 url: /java/com.groupdocs.editor.options/presentationsaveoptions/
@@ -30,8 +29,8 @@ Allows to specify custom options for generating and saving Presentation (PowerPo
 | [setPassword(String value)](#setPassword-java.lang.String-) | Allows to specify, modify and obtain the password, which will be used for encoding the resultant Presentation document. |
 | [getSlideNumber()](#getSlideNumber--) | Allows to insert edited slide into existing presentation instead of creating a new single-slide presentation (default behavior). |
 | [setSlideNumber(int value)](#setSlideNumber-int-) | Allows to insert edited slide into existing presentation instead of creating a new single-slide presentation (default behavior). |
-| [getInsertAsNewSlide()](#getInsertAsNewSlide--) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. |
-| [setInsertAsNewSlide(boolean value)](#setInsertAsNewSlide-boolean-) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. |
+| [getInsertAsNewSlide()](#getInsertAsNewSlide--) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. |
+| [setInsertAsNewSlide(boolean value)](#setInsertAsNewSlide-boolean-) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. |
 | [getOutputFormat()](#getOutputFormat--) | Allows to specify a Presentation format, which will be used for saving the document |
 | [setOutputFormat(PresentationFormats value)](#setOutputFormat-com.groupdocs.editor.formats.PresentationFormats-) | Allows to specify a Presentation format, which will be used for saving the document |
 ### PresentationSaveOptions(PresentationFormats outputFormat) {#PresentationSaveOptions-com.groupdocs.editor.formats.PresentationFormats-}
@@ -97,7 +96,7 @@ Allows to insert edited slide into existing presentation instead of creating a n
 
 --------------------
 
-\`\`\` *SlideNumber* \`\`\` integer property, if it is not in default state (reserved value '0'), represents a slide number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last slide. Negative values are also allowed and count slides from end. For example, "-1" implies last slide in a presentation, "-2" \\u2014 last but one, etc. Like with positive values, when negative slide number exceeds the total count of slides in the given presentation, it will be adjusted to the first slide. The \`\`\` InsertAsNewSlide \`\`\`([\#getInsertAsNewSlide](../../null/\#getInsertAsNewSlide)/[\#setInsertAsNewSlide(boolean)](../../null/\#setInsertAsNewSlide-boolean-)) boolean property is tightly coupled with this one.
+ *SlideNumber*  integer property, if it is not in default state (reserved value '0'), represents a slide number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last slide. Negative values are also allowed and count slides from end. For example, "-1" implies last slide in a presentation, "-2" \\u2014 last but one, etc. Like with positive values, when negative slide number exceeds the total count of slides in the given presentation, it will be adjusted to the first slide. The  InsertAsNewSlide ([\#getInsertAsNewSlide](../../null/\#getInsertAsNewSlide)/[\#setInsertAsNewSlide(boolean)](../../null/\#setInsertAsNewSlide-boolean-)) boolean property is tightly coupled with this one.
 
 **Returns:**
 int
@@ -128,7 +127,7 @@ Allows to insert edited slide into existing presentation instead of creating a n
 
 --------------------
 
-\`\`\` *SlideNumber* \`\`\` integer property, if it is not in default state (reserved value '0'), represents a slide number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last slide. Negative values are also allowed and count slides from end. For example, "-1" implies last slide in a presentation, "-2" \\u2014 last but one, etc. Like with positive values, when negative slide number exceeds the total count of slides in the given presentation, it will be adjusted to the first slide. The \`\`\` InsertAsNewSlide \`\`\`([\#getInsertAsNewSlide](../../null/\#getInsertAsNewSlide)/[\#setInsertAsNewSlide(boolean)](../../null/\#setInsertAsNewSlide-boolean-)) boolean property is tightly coupled with this one.
+ *SlideNumber*  integer property, if it is not in default state (reserved value '0'), represents a slide number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last slide. Negative values are also allowed and count slides from end. For example, "-1" implies last slide in a presentation, "-2" \\u2014 last but one, etc. Like with positive values, when negative slide number exceeds the total count of slides in the given presentation, it will be adjusted to the first slide. The  InsertAsNewSlide ([\#getInsertAsNewSlide](../../null/\#getInsertAsNewSlide)/[\#setInsertAsNewSlide(boolean)](../../null/\#setInsertAsNewSlide-boolean-)) boolean property is tightly coupled with this one.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -141,11 +140,11 @@ public final boolean getInsertAsNewSlide()
 ```
 
 
-Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false \\u2014 existing slide will be replaced. This property is ignored, if value of \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property is set to '0'.
+Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false \\u2014 existing slide will be replaced. This property is ignored, if value of  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property is set to '0'.
 
 --------------------
 
-By default slide is replaced. This means that if given presentation has 5 slides, and \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-))=4, then 4th slide will be replaced with the new edited slide, while the total amount of slides in presentation (5) will remain untouched. However, if value of this property is set to \`\`\` *true* \`\`\`, the new edited slide will be injected as 4th slide, and all subsequent slides wil be shifter to the end: "old" 4th slide becomes 5th, and 5th becomes 6th, and the total amount of slides in presentation will be incremented by one and equal to 6.
+By default slide is replaced. This means that if given presentation has 5 slides, and  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-))=4, then 4th slide will be replaced with the new edited slide, while the total amount of slides in presentation (5) will remain untouched. However, if value of this property is set to  *true* , the new edited slide will be injected as 4th slide, and all subsequent slides wil be shifter to the end: "old" 4th slide becomes 5th, and 5th becomes 6th, and the total amount of slides in presentation will be incremented by one and equal to 6.
 
 **Returns:**
 boolean
@@ -155,11 +154,11 @@ public final void setInsertAsNewSlide(boolean value)
 ```
 
 
-Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false \\u2014 existing slide will be replaced. This property is ignored, if value of \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property is set to '0'.
+Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false \\u2014 existing slide will be replaced. This property is ignored, if value of  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-)) property is set to '0'.
 
 --------------------
 
-By default slide is replaced. This means that if given presentation has 5 slides, and \`\`\` SlideNumber \`\`\`([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-))=4, then 4th slide will be replaced with the new edited slide, while the total amount of slides in presentation (5) will remain untouched. However, if value of this property is set to \`\`\` *true* \`\`\`, the new edited slide will be injected as 4th slide, and all subsequent slides wil be shifter to the end: "old" 4th slide becomes 5th, and 5th becomes 6th, and the total amount of slides in presentation will be incremented by one and equal to 6.
+By default slide is replaced. This means that if given presentation has 5 slides, and  SlideNumber ([\#getSlideNumber](../../null/\#getSlideNumber)/[\#setSlideNumber(int)](../../null/\#setSlideNumber-int-))=4, then 4th slide will be replaced with the new edited slide, while the total amount of slides in presentation (5) will remain untouched. However, if value of this property is set to  *true* , the new edited slide will be injected as 4th slide, and all subsequent slides wil be shifter to the end: "old" 4th slide becomes 5th, and 5th becomes 6th, and the total amount of slides in presentation will be incremented by one and equal to 6.
 
 **Parameters:**
 | Parameter | Type | Description |

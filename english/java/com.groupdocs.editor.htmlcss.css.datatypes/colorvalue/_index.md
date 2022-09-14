@@ -1,7 +1,7 @@
 ---
 title: ColorValue
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents CSS color value with converters and serializers
+description: Represents CSS color value with converters and serializers
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/colorvalue/

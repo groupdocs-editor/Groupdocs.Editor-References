@@ -1,7 +1,7 @@
 ---
 title: CssDeclarationBlock
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one CSS declaration block list of declarations
+description: Represents one CSS declaration block list of declarations
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.css/cssdeclarationblock/
@@ -101,7 +101,7 @@ Determines whether this declaration block doesn't contain specified CSS property
 | clazz | java.lang.Class<TDecl> |  |
 
 **Returns:**
-boolean - \`\`\` TDecl \`\`\`: ICssDeclaration inheritor, which should have a constant string fileld 'Name' with ObfuscationAttribute(Feature = "renaming")
+boolean -  TDecl : ICssDeclaration inheritor, which should have a constant string fileld 'Name' with ObfuscationAttribute(Feature = "renaming")
 ### upsert(ICssDeclaration newDeclaration) {#upsert-com.groupdocs.editor.htmlcss.css.ICssDeclaration-}
 ```
 public final boolean upsert(ICssDeclaration newDeclaration)
@@ -131,7 +131,7 @@ Tries to find and return a declaration of specified type via generic type argume
 | typeOfTDecl | java.lang.Class<TDecl> |  |
 
 **Returns:**
-TDecl - \`\`\` TDecl \`\`\`:
+TDecl -  TDecl :
 ### <TDecl>tryGet(Class<TDecl> typeOfTDecl, String declarationName) {#-TDecl-tryGet-java.lang.Class-TDecl--java.lang.String-}
 ```
 public final TDecl <TDecl>tryGet(Class<TDecl> typeOfTDecl, String declarationName)
@@ -144,7 +144,7 @@ Tries to find and return a declaration of specified type (via generic type argum
 | Parameter | Type | Description |
 | --- | --- | --- |
 | typeOfTDecl | java.lang.Class<TDecl> |  |
-| declarationName | java.lang.String | \`\`\` TDecl \`\`\`: |
+| declarationName | java.lang.String |  TDecl : |
 
 **Returns:**
 TDecl - 

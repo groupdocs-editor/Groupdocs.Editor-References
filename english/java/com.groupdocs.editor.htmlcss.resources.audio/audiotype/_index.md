@@ -1,7 +1,7 @@
 ---
 title: AudioType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one supportable audio type format
+description: Represents one supportable audio type format
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.resources.audio/audiotype/

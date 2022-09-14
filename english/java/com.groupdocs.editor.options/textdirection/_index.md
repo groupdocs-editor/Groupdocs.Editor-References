@@ -1,8 +1,7 @@
 ---
 title: TextDirection
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents 3 possible variants how to treat text direction in the plain text
- documents
+description: Represents 3 possible variants how to treat text direction in the plain text documents
 type: docs
 weight: 37
 url: /java/com.groupdocs.editor.options/textdirection/

@@ -1,7 +1,7 @@
 ---
 title: CssNumber.LeadingSignType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents the leading sign of a parsed number.
+description: Represents the leading sign of a parsed number.
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/cssnumber.leadingsigntype/

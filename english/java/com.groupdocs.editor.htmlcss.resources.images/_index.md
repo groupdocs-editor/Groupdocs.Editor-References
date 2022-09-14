@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.htmlcss.resources.images
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.htmlcss.resources.images/b namespace provides classes that represent image resources of all types in general.
+description: The com.groupdocs.editor.htmlcss.resources.images namespace provides classes that represent image resources of all types in general.
 type: docs
 weight: 18
 url: /java/com.groupdocs.editor.htmlcss.resources.images/

@@ -1,7 +1,7 @@
 ---
 title: CssOmSet
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents an ordered set of CSSOM resources for the HTML document.
+description: Represents an ordered set of CSSOM resources for the HTML document.
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.css/cssomset/

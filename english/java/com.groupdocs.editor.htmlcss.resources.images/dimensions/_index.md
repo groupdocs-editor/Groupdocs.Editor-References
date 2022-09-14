@@ -1,8 +1,7 @@
 ---
 title: Dimensions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents the linear dimensions width and height of one raster rectangular
- image in arbitrary unit.
+description: Represents the linear dimensions width and height of one raster rectangular image in arbitrary unit.
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.resources.images/dimensions/

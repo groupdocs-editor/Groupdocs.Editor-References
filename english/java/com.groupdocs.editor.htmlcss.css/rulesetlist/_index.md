@@ -1,8 +1,7 @@
 ---
 title: RulesetList
 second_title: GroupDocs.Editor for Java API Reference
-description:  Ordered indexed list of rulesets which are accessible by selector or by
- positive or negative index.
+description: Ordered indexed list of rulesets which are accessible by selector or by positive or negative index.
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.htmlcss.css/rulesetlist/
@@ -31,7 +30,7 @@ Ordered indexed list of rulesets, which are accessible by selector or by positiv
 | [append(Ruleset ruleset)](#append-com.groupdocs.editor.htmlcss.css.Ruleset-) |  |
 | [prepend(Ruleset ruleset)](#prepend-com.groupdocs.editor.htmlcss.css.Ruleset-) |  |
 | [insertAt(int index, Ruleset ruleset)](#insertAt-int-com.groupdocs.editor.htmlcss.css.Ruleset-) | Inserts a new ruleset at specified position with specified 1-based index or appends at the end, if specified index is greater then max existing items. |
-| [upsert(Ruleset newRuleset, boolean overwriteExistingDeclarations)](#upsert-com.groupdocs.editor.htmlcss.css.Ruleset-boolean-) | Upserts the input presentation into this RulesetList by appending it if not exists or merging its declarations list into existing in accordance to \`\`\` overwriteExistingDeclarations \`\`\` parameter value |
+| [upsert(Ruleset newRuleset, boolean overwriteExistingDeclarations)](#upsert-com.groupdocs.editor.htmlcss.css.Ruleset-boolean-) | Upserts the input presentation into this RulesetList by appending it if not exists or merging its declarations list into existing in accordance to  overwriteExistingDeclarations  parameter value |
 | [contains(ISelector selector)](#contains-com.groupdocs.editor.htmlcss.css.selectors.ISelector-) | Determines whether ruleset with specified selector exists in this ruleset list |
 | [indexOf(ISelector selector)](#indexOf-com.groupdocs.editor.htmlcss.css.selectors.ISelector-) | Returns 1-based index of ruleset with specified selector, if it exists, or returns 0, if it doesn't exist in this ruleset list |
 | [get_Item(int index)](#get-Item-int-) | Getter allows to obtain a ruleset, and setter allows to replace (update) a ruleset by specified 1-based positive or negative index. |
@@ -129,7 +128,7 @@ public final void upsert(Ruleset newRuleset, boolean overwriteExistingDeclaratio
 ```
 
 
-Upserts the input presentation into this RulesetList by appending it if not exists or merging its declarations list into existing in accordance to \`\`\` overwriteExistingDeclarations \`\`\` parameter value
+Upserts the input presentation into this RulesetList by appending it if not exists or merging its declarations list into existing in accordance to  overwriteExistingDeclarations  parameter value
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -211,7 +210,7 @@ Returns a ruleset by specified selector. Additional flag indicates how to cope w
 | throwIfNotFound | boolean | Determines how to cope with situation when this ruleset list doesn't contains a ruleset with specified selector: throw exception when 'true' or return NULL when 'false'. |
 
 **Returns:**
-[Ruleset](../../com.groupdocs.editor.htmlcss.css/ruleset) - One instance of Ruleset, which may be NULL only when it was not found \`\`\` *and* \`\`\` \`\`\` throwIfNotFound \`\`\` flag is set to 'true'
+[Ruleset](../../com.groupdocs.editor.htmlcss.css/ruleset) - One instance of Ruleset, which may be NULL only when it was not found  *and*   throwIfNotFound  flag is set to 'true'
 ### get_Item(ISelector selector, boolean throwIfNotFound) {#get-Item-com.groupdocs.editor.htmlcss.css.selectors.ISelector-boolean-}
 ```
 public final Ruleset get_Item(ISelector selector, boolean throwIfNotFound)
@@ -227,7 +226,7 @@ Returns a ruleset by specified selector. Additional flag indicates how to cope w
 | throwIfNotFound | boolean | Determines how to cope with situation when this ruleset list doesn't contains a ruleset with specified selector: throw exception when 'true' or return NULL when 'false'. |
 
 **Returns:**
-[Ruleset](../../com.groupdocs.editor.htmlcss.css/ruleset) - One instance of Ruleset, which may be NULL only when it was not found \`\`\` *and* \`\`\` \`\`\` throwIfNotFound \`\`\` flag is set to 'true'
+[Ruleset](../../com.groupdocs.editor.htmlcss.css/ruleset) - One instance of Ruleset, which may be NULL only when it was not found  *and*   throwIfNotFound  flag is set to 'true'
 ### deleteAt(int index) {#deleteAt-int-}
 ```
 public final Ruleset deleteAt(int index)

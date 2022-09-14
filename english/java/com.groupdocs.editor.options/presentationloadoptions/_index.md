@@ -1,8 +1,7 @@
 ---
 title: PresentationLoadOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for loading documents of all supportable
- Presentation formats like PPTX PPTM PPSX etc.
+description: Allows to specify custom options for loading documents of all supportable Presentation formats like PPTX PPTM PPSX etc.
 type: docs
 weight: 32
 url: /java/com.groupdocs.editor.options/presentationloadoptions/

@@ -1,7 +1,7 @@
 ---
 title: EmailSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for generating and saving electronic mail email documents
+description: Allows to specify custom options for generating and saving electronic mail email documents
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.options/emailsaveoptions/
@@ -21,7 +21,7 @@ Allows to specify custom options for generating and saving electronic mail (emai
 | Constructor | Description |
 | --- | --- |
 | [EmailSaveOptions()](#EmailSaveOptions--) | Initializes a new instance of the [EmailSaveOptions](../../com.groupdocs.editor.options/emailsaveoptions) class, where all options are set to their default values |
-| [EmailSaveOptions(int mailMessageOutput)](#EmailSaveOptions-int-) | Initializes a new instance of the [EmailSaveOptions](../../com.groupdocs.editor.options/emailsaveoptions) class with \`\`\` MailMessageOutput \`\`\`([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter |
+| [EmailSaveOptions(int mailMessageOutput)](#EmailSaveOptions-int-) | Initializes a new instance of the [EmailSaveOptions](../../com.groupdocs.editor.options/emailsaveoptions) class with  MailMessageOutput ([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter |
 ## Methods
 
 | Method | Description |
@@ -42,7 +42,7 @@ public EmailSaveOptions(int mailMessageOutput)
 ```
 
 
-Initializes a new instance of the [EmailSaveOptions](../../com.groupdocs.editor.options/emailsaveoptions) class with \`\`\` MailMessageOutput \`\`\`([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter
+Initializes a new instance of the [EmailSaveOptions](../../com.groupdocs.editor.options/emailsaveoptions) class with  MailMessageOutput ([\#getMailMessageOutput](../../null/\#getMailMessageOutput)/[\#setMailMessageOutput](../../null/\#setMailMessageOutput)) parameter
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ public final int getMailMessageOutput()
 
 Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor\#save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method
 
-Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is \`\`\` MailMessageOutput.All \`\`\`
+Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
 **Returns:**
 int
@@ -69,7 +69,7 @@ public final void setMailMessageOutput(int value)
 
 Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor\#save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method
 
-Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is \`\`\` MailMessageOutput.All \`\`\`
+Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
 **Parameters:**
 | Parameter | Type | Description |

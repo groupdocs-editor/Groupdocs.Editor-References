@@ -1,7 +1,7 @@
 ---
 title: EBookFormats
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates all eBook formats.
+description: Encapsulates all eBook formats.
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.formats/ebookformats/

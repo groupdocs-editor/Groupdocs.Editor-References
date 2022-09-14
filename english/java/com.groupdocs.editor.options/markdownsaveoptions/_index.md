@@ -1,8 +1,7 @@
 ---
 title: MarkdownSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for generating and saving Markdown documents
- after they were edited
+description: Allows to specify custom options for generating and saving Markdown documents after they were edited
 type: docs
 weight: 23
 url: /java/com.groupdocs.editor.options/markdownsaveoptions/

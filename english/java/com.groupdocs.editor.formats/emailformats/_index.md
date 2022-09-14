@@ -1,7 +1,7 @@
 ---
 title: EmailFormats
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates all emails formats.
+description: Encapsulates all emails formats.
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.formats/emailformats/
@@ -19,7 +19,7 @@ Encapsulates all emails formats. Includes the following file types: [EmailFormat
 
 --------------------
 
-Learn more about emails format \`\`\` [here][] \`\`\`.
+Learn more about emails format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/
@@ -75,7 +75,7 @@ public static final EmailFormats Tnef
 ```
 
 
-Transport Neutral Encapsulation Format (TNEF) is a Microsoft proprietary, for encapsulating email attachments based on Messaging Application Programming Interface (MAPI). Learn more about this file format \`\`\` [here][] \`\`\`.
+Transport Neutral Encapsulation Format (TNEF) is a Microsoft proprietary, for encapsulating email attachments based on Messaging Application Programming Interface (MAPI). Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/tnef/
@@ -86,7 +86,7 @@ public static final EmailFormats Eml
 ```
 
 
-EML file format represents email messages saved using Outlook and other relevant applications. Learn more about this file format \`\`\` [here][] \`\`\`.
+EML file format represents email messages saved using Outlook and other relevant applications. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/eml/
@@ -97,7 +97,7 @@ public static final EmailFormats Emlx
 ```
 
 
-The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format \`\`\` [here][] \`\`\`.
+The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/emlx/
@@ -108,7 +108,7 @@ public static final EmailFormats Msg
 ```
 
 
-MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Learn more about this file format \`\`\` [here][] \`\`\`.
+MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/msg/
@@ -135,7 +135,7 @@ public static final EmailFormats Ics
 ```
 
 
-The Internet Calendaring and Scheduling Core Object Specification (iCalendar) is an internet standard (RFC 2445) for exchanging and deploying the calendaring events and scheduling. Learn more about this file format \`\`\` [here][] \`\`\`.
+The Internet Calendaring and Scheduling Core Object Specification (iCalendar) is an internet standard (RFC 2445) for exchanging and deploying the calendaring events and scheduling. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/ics/
@@ -146,7 +146,7 @@ public static final EmailFormats Vcf
 ```
 
 
-VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. Learn more about this file format \`\`\` [here][] \`\`\`.
+VCF (Virtual Card Format) or vCard is a digital file format for storing contact information. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/vcf/
@@ -157,7 +157,7 @@ public static final EmailFormats Pst
 ```
 
 
-Files with .pst extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format \`\`\` [here][] \`\`\`.
+Files with .pst extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/pst/
@@ -168,7 +168,7 @@ public static final EmailFormats Mbox
 ```
 
 
-MBox file format is a generic term that represents a container for collection of electronic mail messages. Learn more about this file format \`\`\` [here][] \`\`\`.
+MBox file format is a generic term that represents a container for collection of electronic mail messages. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/mbox/
@@ -179,7 +179,7 @@ public static final EmailFormats Oft
 ```
 
 
-Files with .oft extension are template files that are created using Microsoft Outlook. Learn more about this file format \`\`\` [here][] \`\`\`.
+Files with .oft extension are template files that are created using Microsoft Outlook. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/email/oft/

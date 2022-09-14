@@ -1,8 +1,7 @@
 ---
 title: ISerializable
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents an object which supports serialization to a string or to any
- TextWriter implementation using specific serialization options
+description: Represents an object which supports serialization to a string or to any TextWriter implementation using specific serialization options
 type: docs
 weight: 17
 url: /java/com.groupdocs.editor.htmlcss.serialization/iserializable/

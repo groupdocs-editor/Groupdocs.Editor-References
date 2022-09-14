@@ -1,7 +1,7 @@
 ---
 title: FixedLayoutFormats
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates all fixed-layout also know as fixed-page formats which includes PDF and XPS this does not include raster images
+description: Encapsulates all fixed-layout also know as fixed-page formats which includes PDF and XPS this does not include raster images
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.formats/fixedlayoutformats/
@@ -65,7 +65,7 @@ public static final FixedLayoutFormats Pdf
 ```
 
 
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format \`\`\` [here][] \`\`\`.
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/pdf/
@@ -76,7 +76,7 @@ public static final FixedLayoutFormats Xps
 ```
 
 
-XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. It was developed as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format \`\`\` [here][] \`\`\`.
+XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. It was developed as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format  [here][] .
 
 
 [here]: https://docs.fileformat.com/page-description-language/xps/

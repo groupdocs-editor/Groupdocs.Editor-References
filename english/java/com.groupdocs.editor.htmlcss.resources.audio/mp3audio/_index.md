@@ -1,7 +1,7 @@
 ---
 title: Mp3Audio
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one audio resource of arbitrary format
+description: Represents one audio resource of arbitrary format
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources.audio/mp3audio/

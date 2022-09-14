@@ -1,8 +1,7 @@
 ---
 title: MobiEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing documents in MOBI MobiPocket
- format.
+description: Allows to specify custom options for editing documents in MOBI MobiPocket format.
 type: docs
 weight: 25
 url: /java/com.groupdocs.editor.options/mobieditoptions/

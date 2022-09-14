@@ -1,7 +1,7 @@
 ---
 title: WordProcessingFormats.AllEnumerable
 second_title: GroupDocs.Editor for Java API Reference
-description:  Implements IEnumerable generic interface that enables a foreach possibility for the WordProcessingFormats type
+description: Implements IEnumerable generic interface that enables a foreach possibility for the WordProcessingFormats type
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.formats/wordprocessingformats.allenumerable/

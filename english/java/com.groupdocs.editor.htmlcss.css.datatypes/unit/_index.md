@@ -1,7 +1,7 @@
 ---
 title: Resolution.Unit
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents all resolution units including spacial invalid unit
+description: Represents all resolution units including spacial invalid unit
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/resolution.unit/

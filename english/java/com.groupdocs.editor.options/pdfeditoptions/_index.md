@@ -1,7 +1,7 @@
 ---
 title: PdfEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing PDF documents
+description: Allows to specify custom options for editing PDF documents
 type: docs
 weight: 28
 url: /java/com.groupdocs.editor.options/pdfeditoptions/

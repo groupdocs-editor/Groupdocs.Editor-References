@@ -1,7 +1,7 @@
 ---
 title: IncorrectPasswordException
 second_title: GroupDocs.Editor for Java API Reference
-description:  The exception that is thrown when specified password is incorrect.
+description: The exception that is thrown when specified password is incorrect.
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor/incorrectpasswordexception/

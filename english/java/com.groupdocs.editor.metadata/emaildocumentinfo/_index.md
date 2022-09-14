@@ -1,7 +1,7 @@
 ---
 title: EmailDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents metadata of one email document of any supported email format
+description: Represents metadata of one email document of any supported email format
 type: docs
 weight: 17
 url: /java/com.groupdocs.editor.metadata/emaildocumentinfo/

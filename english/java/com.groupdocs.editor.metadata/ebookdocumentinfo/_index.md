@@ -1,7 +1,7 @@
 ---
 title: EbookDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents metadata of one EBook document
+description: Represents metadata of one EBook document
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.metadata/ebookdocumentinfo/

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: GroupDocs.Editor for Java API Reference
-description:  Position CSS data type specifies the position of a object area e.g.
+description: Position CSS data type specifies the position of a object area e.g.
 type: docs
 weight: 23
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/position/

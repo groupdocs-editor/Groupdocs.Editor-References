@@ -1,7 +1,7 @@
 ---
 title: UnknownCssDeclaration
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one unknown CSS declaration with its property key and value.
+description: Represents one unknown CSS declaration with its property key and value.
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.htmlcss.css/unknowncssdeclaration/

@@ -1,8 +1,7 @@
 ---
 title: Ruleset
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one ruleset which contains a selector and a declaration block and
- supports serialization
+description: Represents one ruleset which contains a selector and a declaration block and supports serialization
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.css/ruleset/

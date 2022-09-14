@@ -1,7 +1,7 @@
 ---
 title: IDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
-description:  Common interface for all file metadata wrappers
+description: Common interface for all file metadata wrappers
 type: docs
 weight: 26
 url: /java/com.groupdocs.editor.metadata/idocumentinfo/

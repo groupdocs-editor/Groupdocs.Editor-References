@@ -1,7 +1,7 @@
 ---
 title: CssPropertyAnimationType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents all possible animation types for CSS properties.
+description: Represents all possible animation types for CSS properties.
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.htmlcss.css/csspropertyanimationtype/

@@ -1,7 +1,7 @@
 ---
 title: EotFont
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one font in the EOT Embedded OpenType format
+description: Represents one font in the EOT Embedded OpenType format
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/eotfont/

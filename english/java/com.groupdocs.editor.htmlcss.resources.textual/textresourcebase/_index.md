@@ -1,7 +1,7 @@
 ---
 title: TextResourceBase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Base class for any supported text resource with text content and encoding
+description: Base class for any supported text resource with text content and encoding
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources.textual/textresourcebase/

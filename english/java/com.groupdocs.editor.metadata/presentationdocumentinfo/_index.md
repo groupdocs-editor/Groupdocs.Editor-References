@@ -1,7 +1,7 @@
 ---
 title: PresentationDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents metadata of one Presentation document
+description: Represents metadata of one Presentation document
 type: docs
 weight: 21
 url: /java/com.groupdocs.editor.metadata/presentationdocumentinfo/

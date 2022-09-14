@@ -1,8 +1,7 @@
 ---
 title: PngImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one image in PNG Portable Network Graphics format with its
- metadata and additional methods
+description: Represents one image in PNG Portable Network Graphics format with its metadata and additional methods
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/pngimage/

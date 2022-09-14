@@ -1,8 +1,7 @@
 ---
 title: IMarkdownImageSavingCallback
 second_title: GroupDocs.Editor for Java API Reference
-description:  Implement this interface if you want to control how GroupDocs.Editor saves
- images when saving a document to Markdown.
+description: Implement this interface if you want to control how GroupDocs.Editor saves images when saving a document to Markdown.
 type: docs
 weight: 57
 url: /java/com.groupdocs.editor.options/imarkdownimagesavingcallback/

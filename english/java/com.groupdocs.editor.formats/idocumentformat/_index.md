@@ -1,7 +1,7 @@
 ---
 title: IDocumentFormat
 second_title: GroupDocs.Editor for Java API Reference
-description:  Root interface for all supporting document formats
+description: Root interface for all supporting document formats
 type: docs
 weight: 17
 url: /java/com.groupdocs.editor.formats/idocumentformat/

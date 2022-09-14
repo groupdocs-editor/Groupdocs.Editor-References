@@ -1,8 +1,7 @@
 ---
 title: EllipseRadii
 second_title: GroupDocs.Editor for Java API Reference
-description:  Pair of non-negative ellipse radii the x-axis and y-axis radii of the
- ellipse in that order
+description: Pair of non-negative ellipse radii the x-axis and y-axis radii of the ellipse in that order
 type: docs
 weight: 18
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/ellipseradii/

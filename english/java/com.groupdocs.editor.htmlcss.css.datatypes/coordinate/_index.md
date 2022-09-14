@@ -1,7 +1,7 @@
 ---
 title: Coordinate
 second_title: GroupDocs.Editor for Java API Reference
-description:  Pair of Length values that represents coordinates of some object
+description: Pair of Length values that represents coordinates of some object
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/coordinate/

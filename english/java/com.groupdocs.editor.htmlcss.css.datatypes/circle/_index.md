@@ -1,7 +1,7 @@
 ---
 title: Circle
 second_title: GroupDocs.Editor for Java API Reference
-description:  Defines the circle.
+description: Defines the circle.
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/circle/

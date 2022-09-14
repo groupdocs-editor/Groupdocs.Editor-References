@@ -1,7 +1,7 @@
 ---
 title: CssOm
 second_title: GroupDocs.Editor for Java API Reference
-description:  CSS document which is represented in a form of hierarchical Object Model with ability to manipulate its structure.
+description: CSS document which is represented in a form of hierarchical Object Model with ability to manipulate its structure.
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.css/cssom/

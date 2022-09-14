@@ -1,7 +1,7 @@
 ---
 title: IImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Image CSS data type represents a two-dimensional image
+description: Image CSS data type represents a two-dimensional image
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources.images/iimage/

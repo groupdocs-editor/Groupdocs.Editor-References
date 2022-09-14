@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.htmlcss.css.datatypes
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.htmlcss.css.datatypes/b namespace provides classes that represent CSS data types.
+description: The com.groupdocs.editor.htmlcss.css.datatypes namespace provides classes that represent CSS data types.
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/
@@ -32,7 +32,7 @@ The **com.groupdocs.editor.htmlcss.css.datatypes** namespace provides classes th
 | [CssNumber.NumberType](../com.groupdocs.editor.htmlcss.css.datatypes/cssnumber.numbertype) | Represent two types of CSS numbers - integer or float |
 | [Ellipse](../com.groupdocs.editor.htmlcss.css.datatypes/ellipse) | Defines the ellipse. |
 | [EllipseRadii](../com.groupdocs.editor.htmlcss.css.datatypes/ellipseradii) | Pair of non-negative ellipse radii (the x-axis and y-axis radii of the ellipse, in that order) |
-| [FillRule](../com.groupdocs.editor.htmlcss.css.datatypes/fillrule) | The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the \`\`\` *inside* \`\`\` part of a shape. |
+| [FillRule](../com.groupdocs.editor.htmlcss.css.datatypes/fillrule) | The fill-rule attribute is a presentation attribute defining the algorithm to use to determine the  *inside*  part of a shape. |
 | [Inset](../com.groupdocs.editor.htmlcss.css.datatypes/inset) | Defines an inset rectangle. |
 | [Length](../com.groupdocs.editor.htmlcss.css.datatypes/length) | Represents a CSS length value in any supportable unit, including percentage and unitless type. |
 | [Length.Unit](../com.groupdocs.editor.htmlcss.css.datatypes/length.unit) | All supported length units |

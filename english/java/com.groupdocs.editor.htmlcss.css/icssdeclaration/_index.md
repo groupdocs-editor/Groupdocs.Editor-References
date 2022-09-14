@@ -1,7 +1,7 @@
 ---
 title: ICssDeclaration
 second_title: GroupDocs.Editor for Java API Reference
-description:  Common interface for all CSS declarations including short-hand and long-hand
+description: Common interface for all CSS declarations including short-hand and long-hand
 type: docs
 weight: 17
 url: /java/com.groupdocs.editor.htmlcss.css/icssdeclaration/

@@ -1,7 +1,7 @@
 ---
 title: UniversalImageHandler
 second_title: GroupDocs.Editor for Java API Reference
-description:  Contains utility methods which can be applied to images of all kinds
+description: Contains utility methods which can be applied to images of all kinds
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.resources.images/universalimagehandler/

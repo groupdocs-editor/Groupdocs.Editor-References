@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.htmlcss.resources.textual
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.htmlcss.resources.textual/b namespace provides classes that represent text resources.
+description: The com.groupdocs.editor.htmlcss.resources.textual namespace provides classes that represent text resources.
 type: docs
 weight: 24
 url: /java/com.groupdocs.editor.htmlcss.resources.textual/

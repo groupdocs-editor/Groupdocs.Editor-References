@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetFormats
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates all binary XML and textual Spreadsheet formats excluding all textual delimiter-based formats with separator like CSV TSV semicolon-delimited etc. in which the workbook can be saved.
+description: Encapsulates all binary XML and textual Spreadsheet formats excluding all textual delimiter-based formats with separator like CSV TSV semicolon-delimited etc. in which the workbook can be saved.
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.formats/spreadsheetformats/

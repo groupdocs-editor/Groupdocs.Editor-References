@@ -1,8 +1,7 @@
 ---
 title: SvgImagesEmbedding
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents three possible ways how to reference SVG images in HTML document
- during serialization
+description: Represents three possible ways how to reference SVG images in HTML document during serialization
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.htmlcss.serialization/svgimagesembedding/

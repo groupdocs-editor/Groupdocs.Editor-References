@@ -1,7 +1,7 @@
 ---
 title: EditableDocument
 second_title: GroupDocs.Editor for Java API Reference
-description:  Intermediate document that contains content before and after editing
+description: Intermediate document that contains content before and after editing
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor/editabledocument/
@@ -356,7 +356,7 @@ Static factory, that creates an instance of EditableDocument from specified HTML
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newHtmlContent | java.lang.String | String, that contains raw HTML markup, that should be parsed. Cannot be NULL, empty or invalid. |
-| resources | java.util.List<com.groupdocs.editor.htmlcss.resources.IHtmlResource> | Collection of all resources (images, stylesheets, fonts), that are used in the HTML-document, specified in \`\`\` newHtmlContent \`\`\` parameter. May be absent (NULL or empty collection). |
+| resources | java.util.List<com.groupdocs.editor.htmlcss.resources.IHtmlResource> | Collection of all resources (images, stylesheets, fonts), that are used in the HTML-document, specified in  newHtmlContent  parameter. May be absent (NULL or empty collection). |
 
 **Returns:**
 [EditableDocument](../../com.groupdocs.editor/editabledocument) - New non-null instance of EditableDocument
@@ -398,9 +398,9 @@ Static factory, that creates an instance of EditableDocument from a specified HT
 
 In general a well-formed HTML document contains an HTML Document Definition (DOCTYPE) and a root HTML element, that, in turn, has two and only two children: HEAD (with document meta-information) and a BODY (with document content). All stylesheets are included and/or embedded in the HEAD element (LINK and/or STYLE elements respectively), and are 'used by' content markup (by using 'class' and 'id' attributes, in most cases).
 
-However, most of client-side WYSIWYG HTML-editors like TinyMCE and CKEditor are working only with inner content of BODY element: they can obtain only such markup on input and produce such markup on output. For passing a HTML->BODY markup \`\`\` *into* \`\`\` the HTML-editor there is a [\#getBodyContent](../../null/\#getBodyContent) method. And, in counterpart, for obtaining HTML markup \`\`\` *from* \`\`\` HTML-editor this method exists.
+However, most of client-side WYSIWYG HTML-editors like TinyMCE and CKEditor are working only with inner content of BODY element: they can obtain only such markup on input and produce such markup on output. For passing a HTML->BODY markup  *into*  the HTML-editor there is a [\#getBodyContent](../../null/\#getBodyContent) method. And, in counterpart, for obtaining HTML markup  *from*  HTML-editor this method exists.
 
-First string parameter obtains an inner content of HTML->BODY element, while 2nd parameter \\u2014 \`\`\` resourceFolderPath \`\`\` \\u2014 is a full path to the existing folder, that contains all HTML resources, used by HTML markup. GroupDocs.Editor will scan this folder and include all valid \*.css files as stylesheets for the document.
+First string parameter obtains an inner content of HTML->BODY element, while 2nd parameter \\u2014  resourceFolderPath  \\u2014 is a full path to the existing folder, that contains all HTML resources, used by HTML markup. GroupDocs.Editor will scan this folder and include all valid \*.css files as stylesheets for the document.
 
 Use 'fromMarkupAndResourceFolder' static method instead |
 

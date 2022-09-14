@@ -1,7 +1,7 @@
 ---
 title: PageRange
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates one page range which can have open or closed bounds.
+description: Encapsulates one page range which can have open or closed bounds.
 type: docs
 weight: 26
 url: /java/com.groupdocs.editor.options/pagerange/
@@ -176,7 +176,7 @@ Creates a page range, that starts from the specified page number (inclusively) a
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startPageNumber | int | Page number, from which page range starts, inclusively. Page numbers are 1-based, so must be strictly bigger than zero |
-| endPageNumber | int | Page number, until which page range continues, exclusively. Page numbers are 1-based, so must be strictly bigger than zero, and also must be strictly greater than \`\`\` startPageNumber \`\`\` |
+| endPageNumber | int | Page number, until which page range continues, exclusively. Page numbers are 1-based, so must be strictly bigger than zero, and also must be strictly greater than  startPageNumber  |
 
 **Returns:**
 [PageRange](../../com.groupdocs.editor.options/pagerange) - 

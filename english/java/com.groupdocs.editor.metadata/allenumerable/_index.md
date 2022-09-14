@@ -1,7 +1,7 @@
 ---
 title: AsposeGdSupFormats.AllEnumerable
 second_title: GroupDocs.Editor for Java API Reference
-description:  Implements IEnumerable generic interface that enables a foreach possibility for all values of the AsposeGdSupFormats type
+description: Implements IEnumerable generic interface that enables a foreach possibility for all values of the AsposeGdSupFormats type
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.metadata/asposegdsupformats.allenumerable/

@@ -1,7 +1,7 @@
 ---
 title: Angle
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one angle with numeric value and measurement unit.
+description: Represents one angle with numeric value and measurement unit.
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/angle/

@@ -1,8 +1,7 @@
 ---
 title: SvgImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one vector image in SVG Scalable Vector Graphics format with its
- metadata and additional methods
+description: Represents one vector image in SVG Scalable Vector Graphics format with its metadata and additional methods
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.resources.images.vector/svgimage/

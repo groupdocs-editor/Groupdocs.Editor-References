@@ -1,7 +1,7 @@
 ---
 title: IconImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one image in ICON format with its metadata and additional methods
+description: Represents one image in ICON format with its metadata and additional methods
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/iconimage/

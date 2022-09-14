@@ -1,7 +1,7 @@
 ---
 title: ImageLoadingAction
 second_title: GroupDocs.Editor for Java API Reference
-description:  Specifies the mode of resource loading.
+description: Specifies the mode of resource loading.
 type: docs
 weight: 18
 url: /java/com.groupdocs.editor.options/imageloadingaction/
@@ -19,7 +19,7 @@ Specifies the mode of resource loading.
 | --- | --- |
 | [Default](#Default) | GroupDocs.Editor will load this resource as usual. |
 | [Skip](#Skip) | GroupDocs.Editor will skip loading of this image. |
-| [UserProvided](#UserProvided) | GroupDocs.Editor will use byte array provided by user in \`\`\` M:GroupDocs.Editor.Options.MarkdownImageLoadArgs.SetData(System.Byte[]) \`\`\` as image data. |
+| [UserProvided](#UserProvided) | GroupDocs.Editor will use byte array provided by user in  M:GroupDocs.Editor.Options.MarkdownImageLoadArgs.SetData(System.Byte[])  as image data. |
 ### Default {#Default}
 ```
 public static final byte Default
@@ -42,5 +42,5 @@ public static final byte UserProvided
 ```
 
 
-GroupDocs.Editor will use byte array provided by user in \`\`\` M:GroupDocs.Editor.Options.MarkdownImageLoadArgs.SetData(System.Byte[]) \`\`\` as image data.
+GroupDocs.Editor will use byte array provided by user in  M:GroupDocs.Editor.Options.MarkdownImageLoadArgs.SetData(System.Byte[])  as image data.
 

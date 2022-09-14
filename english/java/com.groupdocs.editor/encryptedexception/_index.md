@@ -1,7 +1,7 @@
 ---
 title: EncryptedException
 second_title: GroupDocs.Editor for Java API Reference
-description:  The exception that is thrown when user tries to open a document that was encrypted using the X509Certificates.
+description: The exception that is thrown when user tries to open a document that was encrypted using the X509Certificates.
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor/encryptedexception/

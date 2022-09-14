@@ -1,7 +1,7 @@
 ---
 title: TextType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one supportable textual resource type
+description: Represents one supportable textual resource type
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.resources.textual/texttype/

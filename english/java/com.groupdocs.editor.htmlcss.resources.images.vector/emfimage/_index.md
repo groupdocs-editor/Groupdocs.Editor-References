@@ -1,8 +1,7 @@
 ---
 title: EmfImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one vector image in Enhanced metafile format EMF format with its
- metadata and additional methods
+description: Represents one vector image in Enhanced metafile format EMF format with its metadata and additional methods
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.htmlcss.resources.images.vector/emfimage/

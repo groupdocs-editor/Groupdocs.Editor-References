@@ -1,8 +1,7 @@
 ---
 title: WmfImage
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one vector image in WMF Windows MetaFile format with its
- metadata and additional methods
+description: Represents one vector image in WMF Windows MetaFile format with its metadata and additional methods
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources.images.vector/wmfimage/

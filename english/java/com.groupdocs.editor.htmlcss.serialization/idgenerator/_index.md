@@ -1,8 +1,7 @@
 ---
 title: IdGenerator
 second_title: GroupDocs.Editor for Java API Reference
-description:  Responsible for generating unique sequential ID for HTML elements images and
- style sheets
+description: Responsible for generating unique sequential ID for HTML elements images and style sheets
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.serialization/idgenerator/
@@ -145,7 +144,7 @@ Returns an ID for specified type of HTML element, using current 'IdGenerator'
 | typeOfT | java.lang.Class<T> |  |
 
 **Returns:**
-java.lang.String - \`\`\` T \`\`\`:
+java.lang.String -  T :
 ### getImageId() {#getImageId--}
 ```
 public final String getImageId()

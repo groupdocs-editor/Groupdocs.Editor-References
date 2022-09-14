@@ -1,7 +1,7 @@
 ---
 title: FixedLayoutEditOptionsBase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS
+description: Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.options/fixedlayouteditoptionsbase/

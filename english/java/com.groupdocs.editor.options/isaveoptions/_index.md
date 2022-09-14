@@ -1,7 +1,7 @@
 ---
 title: ISaveOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Interface for all saving options for all documents types
+description: Interface for all saving options for all documents types
 type: docs
 weight: 58
 url: /java/com.groupdocs.editor.options/isaveoptions/

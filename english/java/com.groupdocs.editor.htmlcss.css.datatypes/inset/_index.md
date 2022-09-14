@@ -1,7 +1,7 @@
 ---
 title: Inset
 second_title: GroupDocs.Editor for Java API Reference
-description:  Defines an inset rectangle.
+description: Defines an inset rectangle.
 type: docs
 weight: 20
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/inset/

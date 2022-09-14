@@ -1,8 +1,7 @@
 ---
 title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Options for loading text-based Spreadsheet documents CSV Tab-based etc.
- that use a separator delimiter
+description: Options for loading text-based Spreadsheet documents CSV Tab-based etc. that use a separator delimiter
 type: docs
 weight: 10
 url: /java/com.groupdocs.editor.options/delimitedtexteditoptions/

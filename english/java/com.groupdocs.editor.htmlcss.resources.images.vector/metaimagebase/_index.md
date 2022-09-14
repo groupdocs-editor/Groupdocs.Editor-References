@@ -1,7 +1,7 @@
 ---
 title: MetaImageBase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Base abstract class for WMF and EMF image formats
+description: Base abstract class for WMF and EMF image formats
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/

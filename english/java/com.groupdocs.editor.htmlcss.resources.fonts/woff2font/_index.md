@@ -1,7 +1,7 @@
 ---
 title: Woff2Font
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one font in the WOFF2 Web Open Font Format format
+description: Represents one font in the WOFF2 Web Open Font Format format
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/woff2font/

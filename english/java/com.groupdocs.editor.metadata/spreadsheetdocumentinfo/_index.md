@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents metadata of one Spreadsheet document
+description: Represents metadata of one Spreadsheet document
 type: docs
 weight: 23
 url: /java/com.groupdocs.editor.metadata/spreadsheetdocumentinfo/

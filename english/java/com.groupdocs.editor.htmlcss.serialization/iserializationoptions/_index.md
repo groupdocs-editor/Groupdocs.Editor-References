@@ -1,9 +1,7 @@
 ---
 title: ISerializationOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents a set of all serialization options which are used during
- serialization process and which specify how exactly will be serialized
- different things.
+description: Represents a set of all serialization options which are used during serialization process and which specify how exactly will be serialized different things.
 type: docs
 weight: 18
 url: /java/com.groupdocs.editor.htmlcss.serialization/iserializationoptions/

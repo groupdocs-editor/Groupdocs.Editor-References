@@ -1,8 +1,7 @@
 ---
 title: WordProcessingEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing documents of all supportable
- WordProcessing Words-compliant formats like DOCX RTF ODT etc.
+description: Allows to specify custom options for editing documents of all supportable WordProcessing Words-compliant formats like DOCX RTF ODT etc.
 type: docs
 weight: 42
 url: /java/com.groupdocs.editor.options/wordprocessingeditoptions/
@@ -112,7 +111,7 @@ public final boolean getExtractOnlyUsedFont()
 
 Gets or sets a value indicating whether extract only font resources that are used in the textual content of the document.
 
-Value: \`\`\` true \`\`\` if it is required to extract only those font resources, which are used in text content of the document; otherwise, \`\`\` false \`\`\`. Default value is \`\`\` false \`\`\`.
+Value:  true  if it is required to extract only those font resources, which are used in text content of the document; otherwise,  false . Default value is  false .
 
 --------------------
 
@@ -128,7 +127,7 @@ public final void setExtractOnlyUsedFont(boolean value)
 
 Gets or sets a value indicating whether extract only font resources that are used in the textual content of the document.
 
-Value: \`\`\` true \`\`\` if it is required to extract only those font resources, which are used in text content of the document; otherwise, \`\`\` false \`\`\`. Default value is \`\`\` false \`\`\`.
+Value:  true  if it is required to extract only those font resources, which are used in text content of the document; otherwise,  false . Default value is  false .
 
 --------------------
 

@@ -1,7 +1,7 @@
 ---
 title: WorksheetProtectionType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents Spreadsheet worksheet tab protection types
+description: Represents Spreadsheet worksheet tab protection types
 type: docs
 weight: 48
 url: /java/com.groupdocs.editor.options/worksheetprotectiontype/

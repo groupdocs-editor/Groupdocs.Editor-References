@@ -1,9 +1,7 @@
 ---
 title: FontParser
 second_title: GroupDocs.Editor for Java API Reference
-description:  Contains a font parser which obtains an input font of unknown type as a byte
- stream or base64-encoded text and returns its type-defined object
- representation
+description: Contains a font parser which obtains an input font of unknown type as a byte stream or base64-encoded text and returns its type-defined object representation
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/fontparser/

@@ -1,7 +1,7 @@
 ---
 title: TtfFont
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one font in the TTF TrueType Font format
+description: Represents one font in the TTF TrueType Font format
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/ttffont/

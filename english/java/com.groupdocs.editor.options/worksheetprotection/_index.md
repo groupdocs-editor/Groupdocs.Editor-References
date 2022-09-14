@@ -1,9 +1,7 @@
 ---
 title: WorksheetProtection
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates worksheet protection options which allow to protect a worksheet
- in the output Spreadsheet document from modification of specified type with a
- specified password.
+description: Encapsulates worksheet protection options which allow to protect a worksheet in the output Spreadsheet document from modification of specified type with a specified password.
 type: docs
 weight: 47
 url: /java/com.groupdocs.editor.options/worksheetprotection/

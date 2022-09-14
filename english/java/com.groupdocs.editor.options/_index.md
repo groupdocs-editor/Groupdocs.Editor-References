@@ -1,7 +1,7 @@
 ---
 title: com.groupdocs.editor.options
 second_title: GroupDocs.Editor for Java API Reference
-description: The bcom.groupdocs.editor.options/b namespace provides interfaces for load and save options.
+description: The com.groupdocs.editor.options namespace provides interfaces for load and save options.
 type: docs
 weight: 21
 url: /java/com.groupdocs.editor.options/
@@ -25,8 +25,8 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [ImageLoadingAction](../com.groupdocs.editor.options/imageloadingaction) | Specifies the mode of resource loading. |
 | [MailMessageOutput](../com.groupdocs.editor.options/mailmessageoutput) | Controls which parts of the mail message should be delivered to the output processing |
 | [MarkdownEditOptions](../com.groupdocs.editor.options/markdowneditoptions) | Allows to specify custom options for editing documents in Markdown format. |
-| [MarkdownImageLoadArgs](../com.groupdocs.editor.options/markdownimageloadargs) | Provides data for the \`\`\` M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs) \`\`\` event. |
-| [MarkdownImageSavingArgs](../com.groupdocs.editor.options/markdownimagesavingargs) | Provides data for the \`\`\` M:GroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSaving(ImageSavingArgs) \`\`\` event. |
+| [MarkdownImageLoadArgs](../com.groupdocs.editor.options/markdownimageloadargs) | Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  event. |
+| [MarkdownImageSavingArgs](../com.groupdocs.editor.options/markdownimagesavingargs) | Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSaving(ImageSavingArgs)  event. |
 | [MarkdownSaveOptions](../com.groupdocs.editor.options/markdownsaveoptions) | Allows to specify custom options for generating and saving Markdown documents after they were edited |
 | [MarkdownTableContentAlignment](../com.groupdocs.editor.options/markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
 | [MobiEditOptions](../com.groupdocs.editor.options/mobieditoptions) | Allows to specify custom options for editing documents in MOBI (MobiPocket) format. |

@@ -1,7 +1,7 @@
 ---
 title: QuoteType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents quote characters - single quote  and double quote 
+description: Represents quote characters - single quote  and double quote
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.serialization/quotetype/

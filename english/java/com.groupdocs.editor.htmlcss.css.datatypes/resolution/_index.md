@@ -1,8 +1,7 @@
 ---
 title: Resolution
 second_title: GroupDocs.Editor for Java API Reference
-description:  Resolution CSS data type is used for describing resolutions in media queries
- denotes the pixel density of an output device i.e. its resolution.
+description: Resolution CSS data type is used for describing resolutions in media queries denotes the pixel density of an output device i.e. its resolution.
 type: docs
 weight: 25
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/resolution/

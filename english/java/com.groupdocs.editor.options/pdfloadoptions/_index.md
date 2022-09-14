@@ -1,7 +1,7 @@
 ---
 title: PdfLoadOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Contains options for loading PDF documents into Editor class
+description: Contains options for loading PDF documents into Editor class
 type: docs
 weight: 29
 url: /java/com.groupdocs.editor.options/pdfloadoptions/

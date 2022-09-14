@@ -1,7 +1,7 @@
 ---
 title: ColorValue.KnownColors
 second_title: GroupDocs.Editor for Java API Reference
-description:  Contains all known colors that have fixed unique name and value
+description: Contains all known colors that have fixed unique name and value
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/colorvalue.knowncolors/

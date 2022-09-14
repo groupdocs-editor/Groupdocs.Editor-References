@@ -1,8 +1,7 @@
 ---
 title: FontResourceBase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Base class for any supported font type as a resource for the HTML document
- with all its properties
+description: Base class for any supported font type as a resource for the HTML document with all its properties
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/

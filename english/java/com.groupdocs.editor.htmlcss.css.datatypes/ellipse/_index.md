@@ -1,7 +1,7 @@
 ---
 title: Ellipse
 second_title: GroupDocs.Editor for Java API Reference
-description:  Defines the ellipse.
+description: Defines the ellipse.
 type: docs
 weight: 17
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/ellipse/

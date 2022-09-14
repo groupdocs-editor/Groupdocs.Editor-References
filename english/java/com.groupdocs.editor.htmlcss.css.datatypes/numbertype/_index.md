@@ -1,7 +1,7 @@
 ---
 title: CssNumber.NumberType
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represent two types of CSS numbers - integer or float
+description: Represent two types of CSS numbers - integer or float
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/cssnumber.numbertype/

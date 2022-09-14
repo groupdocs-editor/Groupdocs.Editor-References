@@ -1,8 +1,7 @@
 ---
 title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor for Java API Reference
-description:  Allows to specify custom options for editing documents of all supportable
- Spreadsheet Excel-compatible formats
+description: Allows to specify custom options for editing documents of all supportable Spreadsheet Excel-compatible formats
 type: docs
 weight: 34
 url: /java/com.groupdocs.editor.options/spreadsheeteditoptions/
@@ -77,7 +76,7 @@ Allows to exclude hidden worksheets in the input Spreadsheet document, so they w
 
 --------------------
 
-Several binary Spreadsheet formats (like XLSX) support hidden worksheets (tabs) concept. Document of such format, if it has more then one worksheet, may contain additional hidden worksheets. By default such hidden worksheets are available for processing, but with this option it is able to ignore them, like these hidden worksheets are absent and don't exist. When this option is enabled, you cannot select hidden worksheet with the '\`\`\` WorksheetIndex \`\`\`([\#getWorksheetIndex](../../null/\#getWorksheetIndex)/[\#setWorksheetIndex(int)](../../null/\#setWorksheetIndex-int-))' property.
+Several binary Spreadsheet formats (like XLSX) support hidden worksheets (tabs) concept. Document of such format, if it has more then one worksheet, may contain additional hidden worksheets. By default such hidden worksheets are available for processing, but with this option it is able to ignore them, like these hidden worksheets are absent and don't exist. When this option is enabled, you cannot select hidden worksheet with the ' WorksheetIndex ([\#getWorksheetIndex](../../null/\#getWorksheetIndex)/[\#setWorksheetIndex(int)](../../null/\#setWorksheetIndex-int-))' property.
 
 **Returns:**
 boolean
@@ -91,7 +90,7 @@ Allows to exclude hidden worksheets in the input Spreadsheet document, so they w
 
 --------------------
 
-Several binary Spreadsheet formats (like XLSX) support hidden worksheets (tabs) concept. Document of such format, if it has more then one worksheet, may contain additional hidden worksheets. By default such hidden worksheets are available for processing, but with this option it is able to ignore them, like these hidden worksheets are absent and don't exist. When this option is enabled, you cannot select hidden worksheet with the '\`\`\` WorksheetIndex \`\`\`([\#getWorksheetIndex](../../null/\#getWorksheetIndex)/[\#setWorksheetIndex(int)](../../null/\#setWorksheetIndex-int-))' property.
+Several binary Spreadsheet formats (like XLSX) support hidden worksheets (tabs) concept. Document of such format, if it has more then one worksheet, may contain additional hidden worksheets. By default such hidden worksheets are available for processing, but with this option it is able to ignore them, like these hidden worksheets are absent and don't exist. When this option is enabled, you cannot select hidden worksheet with the ' WorksheetIndex ([\#getWorksheetIndex](../../null/\#getWorksheetIndex)/[\#setWorksheetIndex(int)](../../null/\#setWorksheetIndex-int-))' property.
 
 **Parameters:**
 | Parameter | Type | Description |

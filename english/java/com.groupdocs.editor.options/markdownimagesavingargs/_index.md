@@ -1,11 +1,7 @@
 ---
 title: MarkdownImageSavingArgs
 second_title: GroupDocs.Editor for Java API Reference
-description:  Provides data for the
- 
-MGroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSavingImageSavingArgs
-
- event.
+description: Provides data for the MGroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSavingImageSavingArgs event.
 type: docs
 weight: 22
 url: /java/com.groupdocs.editor.options/markdownimagesavingargs/
@@ -16,7 +12,7 @@ java.lang.Object
 public class MarkdownImageSavingArgs
 ```
 
-Provides data for the \`\`\` M:GroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSaving(ImageSavingArgs) \`\`\` event.
+Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSaving(ImageSavingArgs)  event.
 ## Constructors
 
 | Constructor | Description |

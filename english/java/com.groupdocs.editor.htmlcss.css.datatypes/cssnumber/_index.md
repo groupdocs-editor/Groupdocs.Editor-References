@@ -1,8 +1,7 @@
 ---
 title: CssNumber
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents a CSS number which may be an integer of float and is used in the
- CSS declaration and tokens during CSS tokenization procedure
+description: Represents a CSS number which may be an integer of float and is used in the CSS declaration and tokens during CSS tokenization procedure
 type: docs
 weight: 16
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/cssnumber/

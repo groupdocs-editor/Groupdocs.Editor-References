@@ -1,8 +1,7 @@
 ---
 title: RasterImageResourceBase
 second_title: GroupDocs.Editor for Java API Reference
-description:  Base class for any supported raster image with fixed name dimensions aspect
- ratio type size and content.
+description: Base class for any supported raster image with fixed name dimensions aspect ratio type size and content.
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/

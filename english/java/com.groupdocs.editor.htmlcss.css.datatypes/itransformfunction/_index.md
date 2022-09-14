@@ -1,8 +1,7 @@
 ---
 title: ITransformFunction
 second_title: GroupDocs.Editor for Java API Reference
-description:  transform-function CSS data type represents a transformation that affects an
- elements appearance.
+description: transform-function CSS data type represents a transformation that affects an elements appearance.
 type: docs
 weight: 30
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/itransformfunction/

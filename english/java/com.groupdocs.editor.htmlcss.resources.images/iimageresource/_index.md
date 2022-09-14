@@ -1,7 +1,7 @@
 ---
 title: IImageResource
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents image resource of any type raster or vector
+description: Represents image resource of any type raster or vector
 type: docs
 weight: 15
 url: /java/com.groupdocs.editor.htmlcss.resources.images/iimageresource/

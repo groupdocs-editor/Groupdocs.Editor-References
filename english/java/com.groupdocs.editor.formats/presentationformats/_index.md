@@ -1,7 +1,7 @@
 ---
 title: PresentationFormats
 second_title: GroupDocs.Editor for Java API Reference
-description:  Encapsulates all Presentation formats.
+description: Encapsulates all Presentation formats.
 type: docs
 weight: 13
 url: /java/com.groupdocs.editor.formats/presentationformats/
@@ -79,7 +79,7 @@ public static final PresentationFormats Ppt
 ```
 
 
-PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. Learn more about this file format \`\`\` [here][] \`\`\`.
+PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/ppt
@@ -90,7 +90,7 @@ public static final PresentationFormats Pptx
 ```
 
 
-PowerPoint Open XML Presentation (.pptx) is a presentation file created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format \`\`\` [here][] \`\`\`.
+PowerPoint Open XML Presentation (.pptx) is a presentation file created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/pptx
@@ -101,7 +101,7 @@ public static final PresentationFormats Pptm
 ```
 
 
-Microsoft Office Open XML PresentationML Macro-Enabled Document (PPTM) files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft Office Open XML PresentationML Macro-Enabled Document (PPTM) files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/pptm
@@ -112,7 +112,7 @@ public static final PresentationFormats Pps
 ```
 
 
-Microsoft PowerPoint 97-2003 SlideShow (PPS) files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft PowerPoint 97-2003 SlideShow (PPS) files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/pps
@@ -123,7 +123,7 @@ public static final PresentationFormats Ppsx
 ```
 
 
-Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX) file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX) file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/ppsx
@@ -134,7 +134,7 @@ public static final PresentationFormats Ppsm
 ```
 
 
-Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) files are created with Microsoft PowerPoint 2007 or higher. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) files are created with Microsoft PowerPoint 2007 or higher. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/ppsm
@@ -145,7 +145,7 @@ public static final PresentationFormats Pot
 ```
 
 
-Microsoft PowerPoint 97-2003 Presentation Template (POT) file represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft PowerPoint 97-2003 Presentation Template (POT) file represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/pot
@@ -156,7 +156,7 @@ public static final PresentationFormats Potx
 ```
 
 
-Microsoft Office Open XML PresentationML Macro-Free Template (POTX) file represents Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft Office Open XML PresentationML Macro-Free Template (POTX) file represents Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/potx
@@ -167,7 +167,7 @@ public static final PresentationFormats Potm
 ```
 
 
-Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM) are files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format \`\`\` [here][] \`\`\`.
+Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM) are files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/potm
@@ -178,7 +178,7 @@ public static final PresentationFormats Odp
 ```
 
 
-OpenDocument Presentation (ODP) file represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format \`\`\` [here][] \`\`\`.
+OpenDocument Presentation (ODP) file represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/odp
@@ -189,7 +189,7 @@ public static final PresentationFormats Otp
 ```
 
 
-OpenDocument Presentation template (OTP) file represents presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format \`\`\` [here][] \`\`\`.
+OpenDocument Presentation template (OTP) file represents presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format  [here][] .
 
 
 [here]: https://wiki.fileformat.com/presentation/otp

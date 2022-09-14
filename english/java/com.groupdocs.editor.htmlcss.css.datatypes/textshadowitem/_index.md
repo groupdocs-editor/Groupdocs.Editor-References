@@ -1,7 +1,7 @@
 ---
 title: TextShadowItem
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents a single text-shadow value.
+description: Represents a single text-shadow value.
 type: docs
 weight: 27
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/textshadowitem/
@@ -40,7 +40,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow\#Values
 | [equals(TextShadowItem other)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.TextShadowItem-) |  |
 | [equals(ICssDataType other)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.ICssDataType-) |  |
 | [equals(Object other)](#equals-java.lang.Object-) |  |
-| [hashCode()](#hashCode--) | \`\`\`  \`\`\` |
+| [hashCode()](#hashCode--) |    |
 | [op_Equality(TextShadowItem first, TextShadowItem second)](#op-Equality-com.groupdocs.editor.htmlcss.css.datatypes.TextShadowItem-com.groupdocs.editor.htmlcss.css.datatypes.TextShadowItem-) | Checks two "TextShadowItem" instances on equality |
 | [op_Inequality(TextShadowItem first, TextShadowItem second)](#op-Inequality-com.groupdocs.editor.htmlcss.css.datatypes.TextShadowItem-com.groupdocs.editor.htmlcss.css.datatypes.TextShadowItem-) | Checks two "TextShadowItem" instances on inequality |
 | [create(Length offsetX, Length offsetY)](#create-com.groupdocs.editor.htmlcss.css.datatypes.Length-com.groupdocs.editor.htmlcss.css.datatypes.Length-) |  |
@@ -188,7 +188,7 @@ public int hashCode()
 ```
 
 
-\`\`\`  \`\`\`
+  
 
 **Returns:**
 int

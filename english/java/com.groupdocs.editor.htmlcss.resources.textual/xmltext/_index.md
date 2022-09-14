@@ -1,7 +1,7 @@
 ---
 title: XmlText
 second_title: GroupDocs.Editor for Java API Reference
-description:  Represents one textual resource which is a XML.
+description: Represents one textual resource which is a XML.
 type: docs
 weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources.textual/xmltext/

@@ -1,7 +1,7 @@
 ---
 title: ICssDeclarationBlock
 second_title: GroupDocs.Editor for Java API Reference
-description:  Common interface for all declaration blocks
+description: Common interface for all declaration blocks
 type: docs
 weight: 18
 url: /java/com.groupdocs.editor.htmlcss.css/icssdeclarationblock/

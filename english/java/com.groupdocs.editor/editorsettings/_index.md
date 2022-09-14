@@ -1,7 +1,7 @@
 ---
 title: EditorSettings
 second_title: GroupDocs.Editor for Java API Reference
-description:  Defines settings for customizing  behaviour.
+description: Defines settings for customizing  behaviour.
 type: docs
 weight: 12
 url: /java/com.groupdocs.editor/editorsettings/

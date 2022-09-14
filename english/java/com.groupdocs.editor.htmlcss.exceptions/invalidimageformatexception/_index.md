@@ -1,9 +1,7 @@
 ---
 title: InvalidImageFormatException
 second_title: GroupDocs.Editor for Java API Reference
-description:  The exception that is thrown when trying to open load save or process
- somehow else some content that presumably is an image raster or vector
- but actually is an image of unexpected type or not an image at all.
+description: The exception that is thrown when trying to open load save or process somehow else some content that presumably is an image raster or vector but actually is an image of unexpected type or not an image at all.
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/

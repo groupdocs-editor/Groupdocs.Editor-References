@@ -3,7 +3,7 @@ title: com.groupdocs.editor.formats
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.formats namespace provides interfaces and classes that describes supported document formats.
 type: docs
-weight: 16
+weight: 11
 url: /java/com.groupdocs.editor.formats/
 ---
 

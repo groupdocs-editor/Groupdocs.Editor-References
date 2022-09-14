@@ -3,7 +3,7 @@ title: com.groupdocs.editor.handler
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.handler namespace provides handlers.
 type: docs
-weight: 17
+weight: 12
 url: /java/com.groupdocs.editor.handler/
 ---
 

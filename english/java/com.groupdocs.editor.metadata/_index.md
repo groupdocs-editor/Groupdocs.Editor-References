@@ -3,7 +3,7 @@ title: com.groupdocs.editor.metadata
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.metadata namespace provides classes for describing basic document properties dependent on document type.
 type: docs
-weight: 20
+weight: 24
 url: /java/com.groupdocs.editor.metadata/
 ---
 

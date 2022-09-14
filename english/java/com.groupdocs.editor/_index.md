@@ -3,7 +3,7 @@ title: com.groupdocs.editor
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor namespace is a root namespace which provides classes for editing multiple document formats in your Java applications.
 type: docs
-weight: 13
+weight: 10
 url: /java/com.groupdocs.editor/
 ---
 

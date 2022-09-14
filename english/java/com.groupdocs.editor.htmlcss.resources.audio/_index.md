@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.audio
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.audio namespace provides classes that represent audio resources.
 type: docs
-weight: 10
+weight: 16
 url: /java/com.groupdocs.editor.htmlcss.resources.audio/
 ---
 

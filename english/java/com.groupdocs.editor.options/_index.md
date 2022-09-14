@@ -3,7 +3,7 @@ title: com.groupdocs.editor.options
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.options namespace provides interfaces for load and save options.
 type: docs
-weight: 21
+weight: 25
 url: /java/com.groupdocs.editor.options/
 ---
 

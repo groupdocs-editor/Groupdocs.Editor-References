@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.css.datatypes
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.css.datatypes namespace provides classes that represent CSS data types.
 type: docs
-weight: 12
+weight: 14
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/
 ---
 

@@ -46,7 +46,7 @@ Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spread
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | com.groupdocs.editor.formats.SpreadsheetFormats | Mandatory output format, in which the Spreadsheet document should be saved |
+| outputFormat | [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) | Mandatory output format, in which the Spreadsheet document should be saved |
 
 ### getPassword() {#getPassword--}
 ```
@@ -176,7 +176,7 @@ public final SpreadsheetFormats getOutputFormat()
 Allows to specify a Spreadsheet format, which will be used for saving the document
 
 **Returns:**
-com.groupdocs.editor.formats.SpreadsheetFormats - 
+[SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) - 
 ### setOutputFormat(SpreadsheetFormats value) {#setOutputFormat-com.groupdocs.editor.formats.SpreadsheetFormats-}
 ```
 public final void setOutputFormat(SpreadsheetFormats value)
@@ -188,7 +188,7 @@ Allows to specify a Spreadsheet format, which will be used for saving the docume
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.editor.formats.SpreadsheetFormats |  |
+| value | [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) |  |
 
 ### getWorksheetProtection() {#getWorksheetProtection--}
 ```

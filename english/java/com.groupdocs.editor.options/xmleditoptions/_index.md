@@ -225,7 +225,7 @@ public final XmlFormattingOptions getFormattingOptions()
 Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 XML will be translated to the HTML "as is", without formatting.
 
 **Returns:**
-com.groupdocs.editor.options.XmlFormattingOptions
+[XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions)
 ### setFormattingOptions(XmlFormattingOptions value) {#setFormattingOptions-com.groupdocs.editor.options.XmlFormattingOptions-}
 ```
 public final void setFormattingOptions(XmlFormattingOptions value)
@@ -237,5 +237,5 @@ Allows to enable and adjust the XML formatting, that will be applied to the XML 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.editor.options.XmlFormattingOptions |  |
+| value | [XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions) |  |
 

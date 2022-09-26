@@ -59,7 +59,7 @@ Creates a new instance of WordProcessingSaveOptions with specified mandatory Wor
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | com.groupdocs.editor.formats.WordProcessingFormats | Mandatory output format, in which the WordProcessing document should be saved |
+| outputFormat | [WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) | Mandatory output format, in which the WordProcessing document should be saved |
 
 ### getEnablePagination() {#getEnablePagination--}
 ```
@@ -116,7 +116,7 @@ public final WordProcessingFormats getOutputFormat()
 Allows to specify a WordProcessing format, which will be used for saving the document
 
 **Returns:**
-com.groupdocs.editor.formats.WordProcessingFormats - 
+[WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) - 
 ### setOutputFormat(WordProcessingFormats value) {#setOutputFormat-com.groupdocs.editor.formats.WordProcessingFormats-}
 ```
 public final void setOutputFormat(WordProcessingFormats value)
@@ -128,7 +128,7 @@ Allows to specify a WordProcessing format, which will be used for saving the doc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.editor.formats.WordProcessingFormats |  |
+| value | [WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) |  |
 
 ### getLocale() {#getLocale--}
 ```

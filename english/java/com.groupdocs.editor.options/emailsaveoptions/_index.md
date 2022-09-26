@@ -26,8 +26,8 @@ Allows to specify custom options for generating and saving electronic mail (emai
 
 | Method | Description |
 | --- | --- |
-| [getMailMessageOutput()](#getMailMessageOutput--) | Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the Editor\#save(EditableDocument,Stream,ISaveOptions).save(EditableDocument,Stream,ISaveOptions) method |
-| [setMailMessageOutput(int value)](#setMailMessageOutput-int-) | Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the Editor\#save(EditableDocument,Stream,ISaveOptions).save(EditableDocument,Stream,ISaveOptions) method |
+| [getMailMessageOutput()](#getMailMessageOutput--) | Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor.save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method |
+| [setMailMessageOutput(int value)](#setMailMessageOutput-int-) | Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor.save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method |
 ### EmailSaveOptions() {#EmailSaveOptions--}
 ```
 public EmailSaveOptions()
@@ -55,7 +55,7 @@ public final int getMailMessageOutput()
 ```
 
 
-Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the Editor\#save(EditableDocument,Stream,ISaveOptions).save(EditableDocument,Stream,ISaveOptions) method
+Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor.save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method
 
 Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
@@ -67,7 +67,7 @@ public final void setMailMessageOutput(int value)
 ```
 
 
-Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the Editor\#save(EditableDocument,Stream,ISaveOptions).save(EditableDocument,Stream,ISaveOptions) method
+Allows to control which parts of the mail message should be delivered to the output email document, which will be generated and saved with the [Editor.save(EditableDocument,Stream,ISaveOptions)](../../com.groupdocs.editor/editor\#save-EditableDocument-Stream-ISaveOptions-) method
 
 Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 

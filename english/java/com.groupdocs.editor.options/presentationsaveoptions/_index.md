@@ -44,7 +44,7 @@ Creates a new instance of PresentationSaveOptions with specified mandatory Prese
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | com.groupdocs.editor.formats.PresentationFormats | Mandatory output format, in which the Presentation document should be saved |
+| outputFormat | [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) | Mandatory output format, in which the Presentation document should be saved |
 
 ### getPassword() {#getPassword--}
 ```
@@ -178,7 +178,7 @@ Allows to specify a Presentation format, which will be used for saving the docum
 Output format is usually set in the constructor of this class, because it is mandatory. This property allows to obtain or modify the output format later, when instance of [PresentationSaveOptions](../../com.groupdocs.editor.options/presentationsaveoptions) class was already created.
 
 **Returns:**
-com.groupdocs.editor.formats.PresentationFormats
+[PresentationFormats](../../com.groupdocs.editor.formats/presentationformats)
 ### setOutputFormat(PresentationFormats value) {#setOutputFormat-com.groupdocs.editor.formats.PresentationFormats-}
 ```
 public final void setOutputFormat(PresentationFormats value)
@@ -194,5 +194,5 @@ Output format is usually set in the constructor of this class, because it is man
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.groupdocs.editor.formats.PresentationFormats |  |
+| value | [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) |  |
 

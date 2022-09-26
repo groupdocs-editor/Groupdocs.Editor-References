@@ -26,8 +26,8 @@ Allows to specify custom options for editing documents in the different electron
 
 | Method | Description |
 | --- | --- |
-| [getMailMessageOutput()](#getMailMessageOutput--) | Allows to control which parts of the mail message should be delivered to the output EditableDocument and then to the emitted HTML |
-| [setMailMessageOutput(int value)](#setMailMessageOutput-int-) | Allows to control which parts of the mail message should be delivered to the output EditableDocument and then to the emitted HTML |
+| [getMailMessageOutput()](#getMailMessageOutput--) | Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML |
+| [setMailMessageOutput(int value)](#setMailMessageOutput-int-) | Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML |
 ### EmailEditOptions() {#EmailEditOptions--}
 ```
 public EmailEditOptions()
@@ -55,7 +55,7 @@ public final int getMailMessageOutput()
 ```
 
 
-Allows to control which parts of the mail message should be delivered to the output EditableDocument and then to the emitted HTML
+Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML
 
 Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 
@@ -67,7 +67,7 @@ public final void setMailMessageOutput(int value)
 ```
 
 
-Allows to control which parts of the mail message should be delivered to the output EditableDocument and then to the emitted HTML
+Allows to control which parts of the mail message should be delivered to the output [EditableDocument](../../com.groupdocs.editor/editabledocument) and then to the emitted HTML
 
 Value: Flagged enum that controls the parts of the mail message, which should be processed. Default value is  MailMessageOutput.All 
 

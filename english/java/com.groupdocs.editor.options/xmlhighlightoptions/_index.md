@@ -87,7 +87,7 @@ public final Color getXmlTagsFontColor()
 Defines color for the font of XML tags (angle brackets with tag names)
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setXmlTagsFontColor(Color value) {#setXmlTagsFontColor-java.awt.Color-}
 ```
 public final void setXmlTagsFontColor(Color value)
@@ -133,7 +133,7 @@ public final Color getAttributeNamesFontColor()
 Defines color for the font of attribute names
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setAttributeNamesFontColor(Color value) {#setAttributeNamesFontColor-java.awt.Color-}
 ```
 public final void setAttributeNamesFontColor(Color value)
@@ -179,7 +179,7 @@ public final Color getAttributeValuesFontColor()
 Defines color for the font of attribute values
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setAttributeValuesFontColor(Color value) {#setAttributeValuesFontColor-java.awt.Color-}
 ```
 public final void setAttributeValuesFontColor(Color value)
@@ -225,7 +225,7 @@ public final Color getInnerTextFontColor()
 Defines color for the font of inner-tag text
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setInnerTextFontColor(Color value) {#setInnerTextFontColor-java.awt.Color-}
 ```
 public final void setInnerTextFontColor(Color value)
@@ -271,7 +271,7 @@ public final Color getHtmlCommentsFontColor()
 Defines color for the font of HTML comments (including pair of opening and closing tags)
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setHtmlCommentsFontColor(Color value) {#setHtmlCommentsFontColor-java.awt.Color-}
 ```
 public final void setHtmlCommentsFontColor(Color value)
@@ -317,7 +317,7 @@ public final Color getCDataFontColor()
 Defines color for the font of CDATA sections (including pair of opening and closing tags)
 
 **Returns:**
-java.awt.Color
+[Color](../../java.awt/color)
 ### setCDataFontColor(Color value) {#setCDataFontColor-java.awt.Color-}
 ```
 public final void setCDataFontColor(Color value)

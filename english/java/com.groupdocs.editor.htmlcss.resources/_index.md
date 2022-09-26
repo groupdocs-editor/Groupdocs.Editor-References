@@ -20,6 +20,6 @@ The **com.groupdocs.editor.htmlcss.resources** namespace provides classes that r
 
 | Interface | Description |
 | --- | --- |
-| [IAuxDisposable](../com.groupdocs.editor.htmlcss.resources/iauxdisposable) | Expands the standard System.IDisposable interface, allows to obtain a current state of an object and subscribe to disposing event |
+| [IAuxDisposable](../com.groupdocs.editor.htmlcss.resources/iauxdisposable) | Expands the standard IDisposable interface, allows to obtain a current state of an object and subscribe to disposing event |
 | [IHtmlResource](../com.groupdocs.editor.htmlcss.resources/ihtmlresource) | Represents one instance of the unknown HTML resource (raster or vector image, stylesheet, font, text resource (CSS, XML) etc.) |
 | [IResourceType](../com.groupdocs.editor.htmlcss.resources/iresourcetype) | Represents one instance of the unknown resource type/format (image, font, text) |

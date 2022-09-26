@@ -24,7 +24,6 @@ Utility static methods for detecting resource types (formats)
 | --- | --- |
 | [detectTypeFromFilename(String filename)](#detectTypeFromFilename-java.lang.String-) | Detects a type from specified filename and returns an instance of respective IResourceType |
 | [tryDetectResource(InputStream inputResourceStream, String name, IResourceType assumptiveFormat)](#tryDetectResource-java.io.InputStream-java.lang.String-com.groupdocs.editor.htmlcss.resources.IResourceType-) | Tries to analyze an input stream and creates one of supportable HTML resources from it, taking into account a specified assumptive type, if it is not null |
-| [tryDetectResourceInternal(System.IO.Stream inputResourceStream, String name, IResourceType assumptiveFormat)](#tryDetectResourceInternal-com.aspose.ms.System.IO.Stream-java.lang.String-com.groupdocs.editor.htmlcss.resources.IResourceType-) |  |
 ### ResourceTypeDetector() {#ResourceTypeDetector--}
 ```
 public ResourceTypeDetector()
@@ -63,20 +62,3 @@ Tries to analyze an input stream and creates one of supportable HTML resources f
 
 **Returns:**
 [IHtmlResource](../../com.groupdocs.editor.htmlcss.resources/ihtmlresource) - Instance, which implements 'IHtmlResource' interface and represents one of supportable HTML resources on success, or NULL on failure
-### tryDetectResourceInternal(System.IO.Stream inputResourceStream, String name, IResourceType assumptiveFormat) {#tryDetectResourceInternal-com.aspose.ms.System.IO.Stream-java.lang.String-com.groupdocs.editor.htmlcss.resources.IResourceType-}
-```
-public static IHtmlResource tryDetectResourceInternal(System.IO.Stream inputResourceStream, String name, IResourceType assumptiveFormat)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputResourceStream | com.aspose.ms.System.IO.Stream |  |
-| name | java.lang.String |  |
-| assumptiveFormat | [IResourceType](../../com.groupdocs.editor.htmlcss.resources/iresourcetype) |  |
-
-**Returns:**
-[IHtmlResource](../../com.groupdocs.editor.htmlcss.resources/ihtmlresource)

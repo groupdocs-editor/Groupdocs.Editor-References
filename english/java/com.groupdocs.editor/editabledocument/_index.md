@@ -19,7 +19,7 @@ Intermediate document, that contains content before and after editing
 
 --------------------
 
-Instance of EditableDocument class can be produced by the Editor.Edit() method or created by the user himself using static factories. EditableDocument internally stores document in its own closed format, which is compatible (convertible) with all import and export formats, that GroupDocs.Editor supports. In order to make document editable in any WYSIWYG client-side editor (like CKEditor or TinyMCE), EditableDocument provides methods for generating HTML markup and producing resources, that can be accepted by the user.
+Instance of EditableDocument class can be produced by the Editor.edit() method or created by the user himself using static factories. EditableDocument internally stores document in its own closed format, which is compatible (convertible) with all import and export formats, that GroupDocs.Editor supports. In order to make document editable in any WYSIWYG client-side editor (like CKEditor or TinyMCE), EditableDocument provides methods for generating HTML markup and producing resources, that can be accepted by the user.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: IAuxDisposable
 second_title: GroupDocs.Editor for Java API Reference
-description: Expands the standard System.IDisposable interface allows to obtain a current state of an object and subscribe to disposing event
+description: Expands the standard IDisposable interface allows to obtain a current state of an object and subscribe to disposing event
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor.htmlcss.resources/iauxdisposable/
@@ -12,7 +12,7 @@ url: /java/com.groupdocs.editor.htmlcss.resources/iauxdisposable/
 public interface IAuxDisposable extends IDisposable
 ```
 
-Expands the standard System.IDisposable interface, allows to obtain a current state of an object and subscribe to disposing event
+Expands the standard IDisposable interface, allows to obtain a current state of an object and subscribe to disposing event
 ## Fields
 
 | Field | Description |

@@ -34,8 +34,8 @@ public final class Editor implements IAuxDisposable
 | [edit(IEditOptions editOptions)](#edit-com.groupdocs.editor.options.IEditOptions-) | Opens a previously loaded document for editing using specified format-specific options by generating and returning an instance of '' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [edit()](#edit--) | Opens a previously loaded document for editing using default options by generating and returning an instance of 'EditableDocument' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [save(EditableDocument inputDocument, OutputStream outputDocument, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.io.OutputStream-com.groupdocs.editor.options.ISaveOptions-) | Converts specified edited document, represented as instance of 'EditableDocument', to the resultant document of specified format and saves its content to specified stream |
-| [save(EditableDocument inputDocument, String filePath, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.lang.String-com.groupdocs.editor.options.ISaveOptions-) |  |
-| [getDocumentInfo(String password)](#getDocumentInfo-java.lang.String-) |  |
+| [save(EditableDocument inputDocument, String filePath, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.lang.String-com.groupdocs.editor.options.ISaveOptions-) | Converts specified edited document, represented as instance of '', to the resultant document of specified format and saves its content to file by specified file path |
+| [getDocumentInfo(String password)](#getDocumentInfo-java.lang.String-) | Returns metadata about the document, that was loaded to this 'Editor' instance |
 | [dispose()](#dispose--) | Disposes this instance of Editor, so that it releases all internal resources and becomes unavailable for further usage |
 | [isDisposed()](#isDisposed--) | Indicates whether this Editor instance was already disposed and cannot be used anymore (true) or not and is active (false) |
 ### Editor(InputStream document) {#Editor-java.io.InputStream-}
@@ -52,11 +52,11 @@ Initializes new Editor instance with specified input document (as a stream)
 | document | java.io.InputStream | Delegate, that should return a stream with document content. Should not be NULL. **Learn more**
 
  *  More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor][]
- *  More about GroupDocs.Editor for .NET features: [Developer Guide][]
+ *  More about GroupDocs.Editor for Java features: [Developer Guide][]
 
 
 [Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Supported+Document+Formats
-[Developer Guide]: https://docs.groupdocs.com/display/editornet/Developer+Guide |
+[Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/ |
 
 ### Editor(InputStream document, ILoadOptions loadOptions) {#Editor-java.io.InputStream-com.groupdocs.editor.options.ILoadOptions-}
 ```
@@ -73,13 +73,13 @@ Initializes new Editor instance with specified input document (as a stream) with
 | loadOptions | [ILoadOptions](../../com.groupdocs.editor.options/iloadoptions) | Delegate, that should return a document load options. May be NULL and may return null - in that case document type will be detected automatically and default load options for that type will be applied. **Learn more**
 
  *  More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor][]
- *  More about GroupDocs.Editor for .NET features: [Developer Guide][]
+ *  More about GroupDocs.Editor for Java features: [Developer Guide][]
  *  More about how to open and edit password-protected documents and document from different storages: [Load and edit documents using GroupDocs.Editor][]
 
 
-[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Supported+Document+Formats
-[Developer Guide]: https://docs.groupdocs.com/display/editornet/Developer+Guide
-[Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Load+document |
+[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/supported-document-formats/
+[Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/
+[Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/load-document/ |
 
 ### Editor(String filePath) {#Editor-java.lang.String-}
 ```
@@ -95,11 +95,11 @@ Initializes new Editor instance with specified input document (as a full file pa
 | filePath | java.lang.String | Full path to the file. Should not be NULL. Should be valid, and file should exist. **Learn more**
 
  *  More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor][]
- *  More about GroupDocs.Editor for .NET features: [Developer Guide][]
+ *  More about GroupDocs.Editor for Java features: [Developer Guide][]
 
 
-[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Supported+Document+Formats
-[Developer Guide]: https://docs.groupdocs.com/display/editornet/Developer+Guide |
+[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/supported-document-formats/
+[Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/ |
 
 ### Editor(String filePath, ILoadOptions loadOptions) {#Editor-java.lang.String-com.groupdocs.editor.options.ILoadOptions-}
 ```
@@ -116,13 +116,13 @@ Initializes new Editor instance with specified input document (as a full file pa
 | loadOptions | [ILoadOptions](../../com.groupdocs.editor.options/iloadoptions) | Delegate, that should return a document load options. May be NULL and may return null - in that case document type will be detected automatically and default load options for that type will be applied. **Learn more**
 
  *  More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor][]
- *  More about GroupDocs.Editor for .NET features: [Developer Guide][]
+ *  More about GroupDocs.Editor for Java features: [Developer Guide][]
  *  More about how to open and edit password-protected documents and document from different storages: [Load and edit documents using GroupDocs.Editor][]
 
 
-[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Supported+Document+Formats
-[Developer Guide]: https://docs.groupdocs.com/display/editornet/Developer+Guide
-[Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Load+document |
+[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/supported-document-formats/
+[Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/
+[Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/load-document/ |
 
 ### Disposed {#Disposed}
 ```
@@ -178,7 +178,7 @@ When input original document is loaded to the 'Editor' instance through the cons
  *  More about editing documents using GroupDocs.Editor: [How to edit document using GroupDocs.Editor][]
 
 
-[How to edit document using GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Edit+document
+[How to edit document using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/edit-document/
 ### save(EditableDocument inputDocument, OutputStream outputDocument, ISaveOptions saveOptions) {#save-com.groupdocs.editor.EditableDocument-java.io.OutputStream-com.groupdocs.editor.options.ISaveOptions-}
 ```
 public final void save(EditableDocument inputDocument, OutputStream outputDocument, ISaveOptions saveOptions)
@@ -205,14 +205,19 @@ public final void save(EditableDocument inputDocument, String filePath, ISaveOpt
 ```
 
 
-
+Converts specified edited document, represented as instance of '', to the resultant document of specified format and saves its content to file by specified file path
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputDocument | [EditableDocument](../../com.groupdocs.editor/editabledocument) |  |
-| filePath | java.lang.String |  |
-| saveOptions | [ISaveOptions](../../com.groupdocs.editor.options/isaveoptions) |  |
+| inputDocument | [EditableDocument](../../com.groupdocs.editor/editabledocument) | Version of the input document, that was edited in WYSIWYG HTML-editor and is stored as instance of '' class, which should be converted to output document of some specific format. Must not be null or disposed. |
+| filePath | java.lang.String | Path to the file, in which the output document will be saved. It file with the same name exists, it will be completely rewritten. String with path must not be null, empty or contain only whitespaces. |
+| saveOptions | [ISaveOptions](../../com.groupdocs.editor.options/isaveoptions) | Document saving options, which define the format of the resultant document, and also general and format-specific saving options. Must not be null. **Learn more**
+
+ *  More about saving document after edit using GroupDocs.Editor: [How to save edited document using GroupDocs.Editor][]
+
+
+[How to save edited document using GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Save+document |
 
 ### getDocumentInfo(String password) {#getDocumentInfo-java.lang.String-}
 ```
@@ -220,12 +225,17 @@ public final IDocumentInfo getDocumentInfo(String password)
 ```
 
 
-
+Returns metadata about the document, that was loaded to this 'Editor' instance
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String |  |
+| password | java.lang.String | User can specify a password for a document, if this document is encrypted with the password. May be NULL or empty string, that is equivalent to the absent password. For those document formats, which do not have a password protection feature, this argument will be ignored. If the document is encrypted, and password in not specified in this parameter, but it was specified before in the load options while creating this  instance, it will be used. **Learn more**
+
+ *  Learn more about obtaining document specific properties in code: [How to get document info using GroupDocs.Editor][]
+
+
+[How to get document info using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/extracting-document-metainfo/ |
 
 **Returns:**
 [IDocumentInfo](../../com.groupdocs.editor.metadata/idocumentinfo)

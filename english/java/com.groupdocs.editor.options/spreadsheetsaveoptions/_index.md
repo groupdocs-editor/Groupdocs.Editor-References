@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving Spreadsheet Excel-compliant documents
 type: docs
-weight: 36
+weight: 26
 url: /java/com.groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 **Inheritance:**
@@ -29,8 +29,8 @@ Allows to specify custom options for generating and saving Spreadsheet (Excel-co
 | [setPassword(String value)](#setPassword-java.lang.String-) | Allows to specify, modify, obtain, or remove a password, which will be used to encode the generated Spreadsheet document, if tis document format supports password protection. |
 | [getWorksheetNumber()](#getWorksheetNumber--) | Allows to insert edited worksheet into copy of existing spreadsheet instead of creating a new single-worksheet spreadsheet (default behavior). |
 | [setWorksheetNumber(int value)](#setWorksheetNumber-int-) | Allows to insert edited worksheet into copy of existing spreadsheet instead of creating a new single-worksheet spreadsheet (default behavior). |
-| [getInsertAsNewWorksheet()](#getInsertAsNewWorksheet--) | Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property, or it should be injected between existing worksheet and previous one, without replacing its content. |
-| [setInsertAsNewWorksheet(boolean value)](#setInsertAsNewWorksheet-boolean-) | Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property, or it should be injected between existing worksheet and previous one, without replacing its content. |
+| [getInsertAsNewWorksheet()](#getInsertAsNewWorksheet--) | Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property, or it should be injected between existing worksheet and previous one, without replacing its content. |
+| [setInsertAsNewWorksheet(boolean value)](#setInsertAsNewWorksheet-boolean-) | Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property, or it should be injected between existing worksheet and previous one, without replacing its content. |
 | [getOutputFormat()](#getOutputFormat--) | Allows to specify a Spreadsheet format, which will be used for saving the document |
 | [setOutputFormat(SpreadsheetFormats value)](#setOutputFormat-com.groupdocs.editor.formats.SpreadsheetFormats-) | Allows to specify a Spreadsheet format, which will be used for saving the document |
 | [getWorksheetProtection()](#getWorksheetProtection--) | Allows to enable a worksheet protection for the output Spreadsheet document. |
@@ -46,7 +46,7 @@ Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spread
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) | Mandatory output format, in which the Spreadsheet document should be saved |
+| outputFormat | com.groupdocs.editor.formats.SpreadsheetFormats | Mandatory output format, in which the Spreadsheet document should be saved |
 
 ### getPassword() {#getPassword--}
 ```
@@ -98,7 +98,7 @@ Allows to insert edited worksheet into copy of existing spreadsheet instead of c
 
 --------------------
 
- *WorksheetNumber*  integer property, if it is not in default state (reserved value '0'), represents a worksheet number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last worksheet. Negative values are also allowed and count worksheets from end. For example, "-1" implies last worksheet in a spreadsheet, "-2" \\u2014 last but one, etc. Like with positive values, when negative worksheet number exceeds the total count of worksheets in the given spreadsheet, it will be adjusted to the first worksheet. The  InsertAsNewWorksheet ([\#getInsertAsNewWorksheet](../../null/\#getInsertAsNewWorksheet)/[\#setInsertAsNewWorksheet(boolean)](../../null/\#setInsertAsNewWorksheet-boolean-)) boolean property is tightly coupled with this one.
+ *WorksheetNumber*  integer property, if it is not in default state (reserved value '0'), represents a worksheet number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last worksheet. Negative values are also allowed and count worksheets from end. For example, "-1" implies last worksheet in a spreadsheet, "-2" \\u2014 last but one, etc. Like with positive values, when negative worksheet number exceeds the total count of worksheets in the given spreadsheet, it will be adjusted to the first worksheet. The  InsertAsNewWorksheet (\#getInsertAsNewWorksheet.getInsertAsNewWorksheet/\#setInsertAsNewWorksheet(boolean).setInsertAsNewWorksheet(boolean)) boolean property is tightly coupled with this one.
 
 **Returns:**
 int - 
@@ -129,7 +129,7 @@ Allows to insert edited worksheet into copy of existing spreadsheet instead of c
 
 --------------------
 
- *WorksheetNumber*  integer property, if it is not in default state (reserved value '0'), represents a worksheet number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last worksheet. Negative values are also allowed and count worksheets from end. For example, "-1" implies last worksheet in a spreadsheet, "-2" \\u2014 last but one, etc. Like with positive values, when negative worksheet number exceeds the total count of worksheets in the given spreadsheet, it will be adjusted to the first worksheet. The  InsertAsNewWorksheet ([\#getInsertAsNewWorksheet](../../null/\#getInsertAsNewWorksheet)/[\#setInsertAsNewWorksheet(boolean)](../../null/\#setInsertAsNewWorksheet-boolean-)) boolean property is tightly coupled with this one.
+ *WorksheetNumber*  integer property, if it is not in default state (reserved value '0'), represents a worksheet number, so it starts from 1, not from zero, and its max value is the amount of all existing slides in a presentation. However, if specified value is greater then amount of all slides, GroupDocs.Editor will adjust it to mark the last worksheet. Negative values are also allowed and count worksheets from end. For example, "-1" implies last worksheet in a spreadsheet, "-2" \\u2014 last but one, etc. Like with positive values, when negative worksheet number exceeds the total count of worksheets in the given spreadsheet, it will be adjusted to the first worksheet. The  InsertAsNewWorksheet (\#getInsertAsNewWorksheet.getInsertAsNewWorksheet/\#setInsertAsNewWorksheet(boolean).setInsertAsNewWorksheet(boolean)) boolean property is tightly coupled with this one.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -142,11 +142,11 @@ public final boolean getInsertAsNewWorksheet()
 ```
 
 
-Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property, or it should be injected between existing worksheet and previous one, without replacing its content. By default is false \\u2014 existing worksheet will be replaced. This property is ignored, if value of  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property is set to '0'.
+Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property, or it should be injected between existing worksheet and previous one, without replacing its content. By default is false \\u2014 existing worksheet will be replaced. This property is ignored, if value of  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property is set to '0'.
 
 --------------------
 
-By default worksheet is replaced. This means that if given spreadsheet has 5 worksheets, and  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-))=4, then 4th worksheet will be replaced with the new edited worksheet, while the total amount of worksheets in spreadsheet (5) will remain untouched. However, if value of this property is set to  *true* , the new edited worksheet will be injected as 4th worksheet, and all subsequent worksheets will be shifted to the end: "old" 4th worksheet becomes 5th, and 5th becomes 6th, and the total amount of worksheets in spreadsheet will be incremented by one and equal to 6.
+By default worksheet is replaced. This means that if given spreadsheet has 5 worksheets, and  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int))=4, then 4th worksheet will be replaced with the new edited worksheet, while the total amount of worksheets in spreadsheet (5) will remain untouched. However, if value of this property is set to  *true* , the new edited worksheet will be injected as 4th worksheet, and all subsequent worksheets will be shifted to the end: "old" 4th worksheet becomes 5th, and 5th becomes 6th, and the total amount of worksheets in spreadsheet will be incremented by one and equal to 6.
 
 **Returns:**
 boolean - 
@@ -156,11 +156,11 @@ public final void setInsertAsNewWorksheet(boolean value)
 ```
 
 
-Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property, or it should be injected between existing worksheet and previous one, without replacing its content. By default is false \\u2014 existing worksheet will be replaced. This property is ignored, if value of  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-)) property is set to '0'.
+Boolean flag, which specifies whether edited worksheet should replace the existing worksheet in original spreadsheet on the position, specified by the  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property, or it should be injected between existing worksheet and previous one, without replacing its content. By default is false \\u2014 existing worksheet will be replaced. This property is ignored, if value of  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int)) property is set to '0'.
 
 --------------------
 
-By default worksheet is replaced. This means that if given spreadsheet has 5 worksheets, and  WorksheetNumber ([\#getWorksheetNumber](../../null/\#getWorksheetNumber)/[\#setWorksheetNumber(int)](../../null/\#setWorksheetNumber-int-))=4, then 4th worksheet will be replaced with the new edited worksheet, while the total amount of worksheets in spreadsheet (5) will remain untouched. However, if value of this property is set to  *true* , the new edited worksheet will be injected as 4th worksheet, and all subsequent worksheets will be shifted to the end: "old" 4th worksheet becomes 5th, and 5th becomes 6th, and the total amount of worksheets in spreadsheet will be incremented by one and equal to 6.
+By default worksheet is replaced. This means that if given spreadsheet has 5 worksheets, and  WorksheetNumber (\#getWorksheetNumber.getWorksheetNumber/\#setWorksheetNumber(int).setWorksheetNumber(int))=4, then 4th worksheet will be replaced with the new edited worksheet, while the total amount of worksheets in spreadsheet (5) will remain untouched. However, if value of this property is set to  *true* , the new edited worksheet will be injected as 4th worksheet, and all subsequent worksheets will be shifted to the end: "old" 4th worksheet becomes 5th, and 5th becomes 6th, and the total amount of worksheets in spreadsheet will be incremented by one and equal to 6.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -176,7 +176,7 @@ public final SpreadsheetFormats getOutputFormat()
 Allows to specify a Spreadsheet format, which will be used for saving the document
 
 **Returns:**
-[SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) - 
+com.groupdocs.editor.formats.SpreadsheetFormats - 
 ### setOutputFormat(SpreadsheetFormats value) {#setOutputFormat-com.groupdocs.editor.formats.SpreadsheetFormats-}
 ```
 public final void setOutputFormat(SpreadsheetFormats value)
@@ -188,7 +188,7 @@ Allows to specify a Spreadsheet format, which will be used for saving the docume
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) |  |
+| value | com.groupdocs.editor.formats.SpreadsheetFormats |  |
 
 ### getWorksheetProtection() {#getWorksheetProtection--}
 ```

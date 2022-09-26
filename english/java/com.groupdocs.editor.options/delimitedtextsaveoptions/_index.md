@@ -32,9 +32,7 @@ https://en.wikipedia.org/wiki/Delimiter-separated\_values
 | [getSeparator()](#getSeparator--) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
 | [setSeparator(String value)](#setSeparator-java.lang.String-) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
 | [getEncoding()](#getEncoding--) | Allows to set an encoding for the text-based Spreadsheet document. |
-| [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Allows to set an encoding for the text-based Spreadsheet document. |
-| [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 | [getTrimLeadingBlankRowAndColumn()](#getTrimLeadingBlankRowAndColumn--) | Indicates whether leading blank rows and columns should be trimmed like what MS Excel does |
 | [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | Indicates whether leading blank rows and columns should be trimmed like what MS Excel does |
 | [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row. |
@@ -85,16 +83,6 @@ Allows to set an encoding for the text-based Spreadsheet document. By default (a
 
 **Returns:**
 java.nio.charset.Charset - 
-### getEncodingInternal() {#getEncodingInternal--}
-```
-public System.Text.Encoding getEncodingInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Text.Encoding
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -107,19 +95,6 @@ Allows to set an encoding for the text-based Spreadsheet document. By default (a
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncodingInternal(System.Text.Encoding value) {#setEncodingInternal-com.aspose.ms.System.Text.Encoding-}
-```
-public void setEncodingInternal(System.Text.Encoding value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Text.Encoding |  |
 
 ### getTrimLeadingBlankRowAndColumn() {#getTrimLeadingBlankRowAndColumn--}
 ```

@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Font embedding options control which font resources should be embedded into the output WordProcessing document
 type: docs
-weight: 16
+weight: 15
 url: /java/com.groupdocs.editor.options/fontembeddingoptions/
 ---
 **Inheritance:**
@@ -23,7 +23,7 @@ Font embedding options are applied during document saving (from intermediate Edi
 | --- | --- |
 | [NotEmbed](#NotEmbed) | Do not embed any font resource neither from EditableDocument nor from the system. |
 | [EmbedAll](#EmbedAll) | Analize document content from input EditableDocument, find all used fonts and embed them into output WordProcessing document. |
-| [EmbedWithoutSystem](#EmbedWithoutSystem) | Exact to [FontEmbeddingOptions\#EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll), but exclude those fonts, which are treated by OS as system fonts |
+| [EmbedWithoutSystem](#EmbedWithoutSystem) | Exact to [EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll), but exclude those fonts, which are treated by OS as system fonts |
 ## Methods
 
 | Method | Description |
@@ -55,11 +55,11 @@ public static final byte EmbedWithoutSystem
 ```
 
 
-Exact to [FontEmbeddingOptions\#EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll), but exclude those fonts, which are treated by OS as system fonts
+Exact to [EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll), but exclude those fonts, which are treated by OS as system fonts
 
 --------------------
 
-MS Windows has a concept of system fonts, which are the most basic and used fonts by Windows itself. When using this option, the GroupDocs.Editor acts like for [FontEmbeddingOptions\#EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll) case, but finally reviews a set of obtained fonts and excludes those, which are treated by OS as system fonts. This option resembles the "Embed fonts in the file" + "Do not embed common system fonts" options in Microsoft Word 2007 and higher
+MS Windows has a concept of system fonts, which are the most basic and used fonts by Windows itself. When using this option, the GroupDocs.Editor acts like for [EmbedAll](../../com.groupdocs.editor.options/fontembeddingoptions\#EmbedAll) case, but finally reviews a set of obtained fonts and excludes those, which are treated by OS as system fonts. This option resembles the "Embed fonts in the file" + "Do not embed common system fonts" options in Microsoft Word 2007 and higher
 
 ### getFontEmbeddingOptions() {#getFontEmbeddingOptions--}
 ```

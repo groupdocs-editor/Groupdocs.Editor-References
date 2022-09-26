@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving plain text TXT documents
 type: docs
-weight: 40
+weight: 30
 url: /java/com.groupdocs.editor.options/textsaveoptions/
 ---
 **Inheritance:**
@@ -26,9 +26,7 @@ Allows to specify custom options for generating and saving plain text (TXT) docu
 | Method | Description |
 | --- | --- |
 | [getEncoding()](#getEncoding--) | Character encoding of the text document, which will be applied for its saving |
-| [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Character encoding of the text document, which will be applied for its saving |
-| [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 | [getAddBidiMarks()](#getAddBidiMarks--) | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. |
 | [setAddBidiMarks(boolean value)](#setAddBidiMarks-boolean-) | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format |
 | [getPreserveTableLayout()](#getPreserveTableLayout--) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. |
@@ -49,16 +47,6 @@ Character encoding of the text document, which will be applied for its saving
 
 **Returns:**
 java.nio.charset.Charset - 
-### getEncodingInternal() {#getEncodingInternal--}
-```
-public System.Text.Encoding getEncodingInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Text.Encoding
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -71,19 +59,6 @@ Character encoding of the text document, which will be applied for its saving
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncodingInternal(System.Text.Encoding value) {#setEncodingInternal-com.aspose.ms.System.Text.Encoding-}
-```
-public void setEncodingInternal(System.Text.Encoding value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Text.Encoding |  |
 
 ### getAddBidiMarks() {#getAddBidiMarks--}
 ```

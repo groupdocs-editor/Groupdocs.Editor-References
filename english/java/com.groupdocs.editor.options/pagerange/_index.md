@@ -3,16 +3,13 @@ title: PageRange
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates one page range which can have open or closed bounds.
 type: docs
-weight: 26
+weight: 18
 url: /java/com.groupdocs.editor.options/pagerange/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
-
-**All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable
+java.lang.Object
 ```
-public class PageRange extends Struct<PageRange> implements System.IEquatable<PageRange>
+public class PageRange
 ```
 
 Encapsulates one page range, which can have open or closed bounds. By default is "fully open" - it includes all existing pages. Page numbering starts from 1, not from 0.
@@ -44,11 +41,6 @@ Immutable struct, that encapsulates a page range, which is not related to any sp
 | [fromStartPageWithCount(int startPageNumber, int pageCount)](#fromStartPageWithCount-int-int-) | Creates a page range, that starts from the specified page number and has specified amount of pages, or unlimited page count (till the end) |
 | [fromStartPageTillEndPage(int startPageNumber, int endPageNumber)](#fromStartPageTillEndPage-int-int-) | Creates a page range, that starts from the specified page number (inclusively) and continues until the specified page number (exclusively) |
 | [convertToAspose()](#convertToAspose--) |  |
-| [CloneTo(PageRange that)](#CloneTo-com.groupdocs.editor.options.PageRange-) |  |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [equals(PageRange obj1, PageRange obj2)](#equals-com.groupdocs.editor.options.PageRange-com.groupdocs.editor.options.PageRange-) |  |
 ### PageRange() {#PageRange--}
 ```
 public PageRange()
@@ -190,67 +182,3 @@ public final System.Collections.Generic.KeyValuePair<Integer,Integer> convertToA
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Integer,java.lang.Integer>
-### CloneTo(PageRange that) {#CloneTo-com.groupdocs.editor.options.PageRange-}
-```
-public void CloneTo(PageRange that)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [PageRange](../../com.groupdocs.editor.options/pagerange) |  |
-
-### Clone() {#Clone--}
-```
-public PageRange Clone()
-```
-
-
-
-
-**Returns:**
-[PageRange](../../com.groupdocs.editor.options/pagerange)
-### clone() {#clone--}
-```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### equals(PageRange obj1, PageRange obj2) {#equals-com.groupdocs.editor.options.PageRange-com.groupdocs.editor.options.PageRange-}
-```
-public static boolean equals(PageRange obj1, PageRange obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [PageRange](../../com.groupdocs.editor.options/pagerange) |  |
-| obj2 | [PageRange](../../com.groupdocs.editor.options/pagerange) |  |
-
-**Returns:**
-boolean

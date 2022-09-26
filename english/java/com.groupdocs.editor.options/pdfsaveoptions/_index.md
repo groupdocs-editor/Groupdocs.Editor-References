@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving PDF Portable Document Format documents
 type: docs
-weight: 30
+weight: 20
 url: /java/com.groupdocs.editor.options/pdfsaveoptions/
 ---
 **Inheritance:**
@@ -25,8 +25,6 @@ Allows to specify custom options for generating and saving PDF (Portable Documen
 
 | Method | Description |
 | --- | --- |
-| [getEnablePagination()](#getEnablePagination--) | Allows to enable or disable pagination which will be used for saving the PDF document. |
-| [setEnablePagination(boolean value)](#setEnablePagination-boolean-) | Allows to enable or disable pagination which will be used for saving the PDF document. |
 | [getPassword()](#getPassword--) | Password, which will be applied to the generated PDF document as user password, required for opening. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Password, which will be applied to the generated PDF document as user password, required for opening. |
 | [getCompliance()](#getCompliance--) | Specifies the PDF standards compliance level for output documents. |
@@ -40,37 +38,6 @@ Allows to specify custom options for generating and saving PDF (Portable Documen
 public PdfSaveOptions()
 ```
 
-
-### getEnablePagination() {#getEnablePagination--}
-```
-public final boolean getEnablePagination()
-```
-
-
-Allows to enable or disable pagination which will be used for saving the PDF document. The value of this option should match (be equal) the same option 'EnablePagination' in WordProcessingEditOptions class. By default is disabled.
-
---------------------
-
-Input WordProcessing document can be opened and edited in float or paginal mode, which is controlled by the 'EnablePagination' flag in the WordProcessingEditOptions class. If the original document was opened and edited in pagination mode ('EnablePagination' was set to 'true'), this option also should be enabled (set to 'true'). And vice versa: if the original WordProcessing document was opened and edited in float mode, this flag should be set to 'false'.
-
-**Returns:**
-boolean
-### setEnablePagination(boolean value) {#setEnablePagination-boolean-}
-```
-public final void setEnablePagination(boolean value)
-```
-
-
-Allows to enable or disable pagination which will be used for saving the PDF document. The value of this option should match (be equal) the same option 'EnablePagination' in WordProcessingEditOptions class. By default is disabled.
-
---------------------
-
-Input WordProcessing document can be opened and edited in float or paginal mode, which is controlled by the 'EnablePagination' flag in the WordProcessingEditOptions class. If the original document was opened and edited in pagination mode ('EnablePagination' was set to 'true'), this option also should be enabled (set to 'true'). And vice versa: if the original WordProcessing document was opened and edited in float mode, this flag should be set to 'false'.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### getPassword() {#getPassword--}
 ```

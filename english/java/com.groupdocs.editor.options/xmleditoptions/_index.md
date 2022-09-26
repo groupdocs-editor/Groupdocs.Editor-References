@@ -3,7 +3,7 @@ title: XmlEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for loading XML eXtensible Markup Language documents and converting them to the HTML
 type: docs
-weight: 49
+weight: 39
 url: /java/com.groupdocs.editor.options/xmleditoptions/
 ---
 **Inheritance:**
@@ -26,9 +26,7 @@ Allows to specify custom options for loading XML (eXtensible Markup Language) do
 | Method | Description |
 | --- | --- |
 | [getEncoding()](#getEncoding--) | Character encoding of the text document, which will be applied for its opening. |
-| [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Character encoding of the text document, which will be applied for its opening. |
-| [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 | [getFixIncorrectStructure()](#getFixIncorrectStructure--) | Allows to enable or disable mechanism for fixing corrupted XML structure. |
 | [setFixIncorrectStructure(boolean value)](#setFixIncorrectStructure-boolean-) | Allows to enable or disable mechanism for fixing corrupted XML structure. |
 | [getRecognizeUris()](#getRecognizeUris--) | Allows to enable URI recognition algorithm |
@@ -59,16 +57,6 @@ Character encoding of the text document, which will be applied for its opening. 
 
 **Returns:**
 java.nio.charset.Charset
-### getEncodingInternal() {#getEncodingInternal--}
-```
-public System.Text.Encoding getEncodingInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Text.Encoding
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -81,19 +69,6 @@ Character encoding of the text document, which will be applied for its opening. 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncodingInternal(System.Text.Encoding value) {#setEncodingInternal-com.aspose.ms.System.Text.Encoding-}
-```
-public void setEncodingInternal(System.Text.Encoding value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Text.Encoding |  |
 
 ### getFixIncorrectStructure() {#getFixIncorrectStructure--}
 ```
@@ -250,7 +225,7 @@ public final XmlFormattingOptions getFormattingOptions()
 Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 XML will be translated to the HTML "as is", without formatting.
 
 **Returns:**
-[XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions)
+com.groupdocs.editor.options.XmlFormattingOptions
 ### setFormattingOptions(XmlFormattingOptions value) {#setFormattingOptions-com.groupdocs.editor.options.XmlFormattingOptions-}
 ```
 public final void setFormattingOptions(XmlFormattingOptions value)
@@ -262,5 +237,5 @@ Allows to enable and adjust the XML formatting, that will be applied to the XML 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions) |  |
+| value | com.groupdocs.editor.options.XmlFormattingOptions |  |
 

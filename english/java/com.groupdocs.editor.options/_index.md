@@ -3,7 +3,7 @@ title: com.groupdocs.editor.options
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.options namespace provides interfaces for load and save options.
 type: docs
-weight: 25
+weight: 10
 url: /java/com.groupdocs.editor.options/
 ---
 
@@ -18,22 +18,12 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [DelimitedTextSaveOptions](../com.groupdocs.editor.options/delimitedtextsaveoptions) | Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [EmailEditOptions](../com.groupdocs.editor.options/emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
 | [EmailSaveOptions](../com.groupdocs.editor.options/emailsaveoptions) | Allows to specify custom options for generating and saving electronic mail (email) documents |
-| [EpubEditOptions](../com.groupdocs.editor.options/epubeditoptions) | Allows to specify custom options for editing documents in EPUB format. |
 | [FixedLayoutEditOptionsBase](../com.groupdocs.editor.options/fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
 | [FontEmbeddingOptions](../com.groupdocs.editor.options/fontembeddingoptions) | Font embedding options control which font resources should be embedded into the output WordProcessing document |
 | [FontExtractionOptions](../com.groupdocs.editor.options/fontextractionoptions) | Font extraction options control which fonts should be extracted and from where |
-| [ImageLoadingAction](../com.groupdocs.editor.options/imageloadingaction) | Specifies the mode of resource loading. |
 | [MailMessageOutput](../com.groupdocs.editor.options/mailmessageoutput) | Controls which parts of the mail message should be delivered to the output processing |
-| [MarkdownEditOptions](../com.groupdocs.editor.options/markdowneditoptions) | Allows to specify custom options for editing documents in Markdown format. |
-| [MarkdownImageLoadArgs](../com.groupdocs.editor.options/markdownimageloadargs) | Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  event. |
-| [MarkdownImageSavingArgs](../com.groupdocs.editor.options/markdownimagesavingargs) | Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageSavingCallback.ImageSaving(ImageSavingArgs)  event. |
-| [MarkdownSaveOptions](../com.groupdocs.editor.options/markdownsaveoptions) | Allows to specify custom options for generating and saving Markdown documents after they were edited |
-| [MarkdownTableContentAlignment](../com.groupdocs.editor.options/markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
-| [MobiEditOptions](../com.groupdocs.editor.options/mobieditoptions) | Allows to specify custom options for editing documents in MOBI (MobiPocket) format. |
 | [PageRange](../com.groupdocs.editor.options/pagerange) | Encapsulates one page range, which can have open or closed bounds. |
 | [PdfCompliance](../com.groupdocs.editor.options/pdfcompliance) | Specifies the PDF standards compliance level |
-| [PdfEditOptions](../com.groupdocs.editor.options/pdfeditoptions) | Allows to specify custom options for editing PDF documents |
-| [PdfLoadOptions](../com.groupdocs.editor.options/pdfloadoptions) | Contains options for loading PDF documents into Editor class |
 | [PdfSaveOptions](../com.groupdocs.editor.options/pdfsaveoptions) | Allows to specify custom options for generating and saving PDF (Portable Document Format) documents |
 | [PresentationEditOptions](../com.groupdocs.editor.options/presentationeditoptions) | Allows to specify custom options for editing documents of all supportable Presentation (PowerPoint-compatible) formats |
 | [PresentationLoadOptions](../com.groupdocs.editor.options/presentationloadoptions) | Allows to specify custom options for loading documents of all supportable Presentation formats like PPT(X), PPTM, PPS(X) etc. |
@@ -54,10 +44,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [WorksheetProtection](../com.groupdocs.editor.options/worksheetprotection) | Encapsulates worksheet protection options, which allow to protect a worksheet in the output Spreadsheet document from modification of specified type with a specified password. |
 | [WorksheetProtectionType](../com.groupdocs.editor.options/worksheetprotectiontype) | Represents Spreadsheet worksheet (tab) protection types |
 | [XmlEditOptions](../com.groupdocs.editor.options/xmleditoptions) | Allows to specify custom options for loading XML (eXtensible Markup Language) documents and converting them to the HTML |
-| [XmlFormattingOptions](../com.groupdocs.editor.options/xmlformattingoptions) | Contains options, that allow to adjust the formatting of XML document, when it is represented as HTML |
 | [XmlHighlightOptions](../com.groupdocs.editor.options/xmlhighlightoptions) | Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion |
-| [XpsEditOptions](../com.groupdocs.editor.options/xpseditoptions) | Allows to specify custom options for editing (XML Paper Specifications) documents |
-| [XpsSaveOptions](../com.groupdocs.editor.options/xpssaveoptions) | Allows to specify custom options for generating and saving XPS (XML Paper Specifications) documents |
 
 ## Interfaces
 
@@ -65,6 +52,4 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | --- | --- |
 | [IEditOptions](../com.groupdocs.editor.options/ieditoptions) | Common interface for all options, which are responsible for document-to-HTML conversions. |
 | [ILoadOptions](../com.groupdocs.editor.options/iloadoptions) | Common interface for all option classes, responsible for loading documents of different type formats |
-| [IMarkdownImageLoadCallback](../com.groupdocs.editor.options/imarkdownimageloadcallback) | Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html. |
-| [IMarkdownImageSavingCallback](../com.groupdocs.editor.options/imarkdownimagesavingcallback) | Implement this interface if you want to control how GroupDocs.Editor saves images when saving a document to Markdown. |
 | [ISaveOptions](../com.groupdocs.editor.options/isaveoptions) | Interface for all saving options for all documents types |

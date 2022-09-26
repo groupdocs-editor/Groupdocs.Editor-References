@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving WordProcessing-compliant documents after they were edited
 type: docs
-weight: 46
+weight: 36
 url: /java/com.groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 **Inheritance:**
@@ -36,17 +36,11 @@ WordProcessingSaveOptions is applied in situations when there is an instance of 
 | [getOutputFormat()](#getOutputFormat--) | Allows to specify a WordProcessing format, which will be used for saving the document |
 | [setOutputFormat(WordProcessingFormats value)](#setOutputFormat-com.groupdocs.editor.formats.WordProcessingFormats-) | Allows to specify a WordProcessing format, which will be used for saving the document |
 | [getLocale()](#getLocale--) | Allows to set override default locale (language) for the WordProcessing document, which will be applied during its creation. |
-| [getLocaleInternal()](#getLocaleInternal--) |  |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Allows to set override default locale (language) for the WordProcessing document, which will be applied during its creation. |
-| [setLocaleInternal(System.Globalization.CultureInfo value)](#setLocaleInternal-com.aspose.ms.System.Globalization.CultureInfo-) |  |
 | [getLocaleBi()](#getLocaleBi--) | Allows to set override locale (language) for the WordProcessing document for the RTL (right-to-left) text, which will be applied during its creation. |
-| [getLocaleBiInternal()](#getLocaleBiInternal--) |  |
 | [setLocaleBi(Locale value)](#setLocaleBi-java.util.Locale-) | Allows to set override locale (language) for the WordProcessing document for the RTL (right-to-left) text, which will be applied during its creation. |
-| [setLocaleBiInternal(System.Globalization.CultureInfo value)](#setLocaleBiInternal-com.aspose.ms.System.Globalization.CultureInfo-) |  |
 | [getLocaleFarEast()](#getLocaleFarEast--) | Allows to override the locale (language) for the WordProcessing document for the East-Asian text, which will be applied during its creation. |
-| [getLocaleFarEastInternal()](#getLocaleFarEastInternal--) |  |
 | [setLocaleFarEast(Locale value)](#setLocaleFarEast-java.util.Locale-) | Allows to override the locale (language) for the WordProcessing document for the East-Asian text, which will be applied during its creation. |
-| [setLocaleFarEastInternal(System.Globalization.CultureInfo value)](#setLocaleFarEastInternal-com.aspose.ms.System.Globalization.CultureInfo-) |  |
 | [getOptimizeMemoryUsage()](#getOptimizeMemoryUsage--) | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. |
 | [setOptimizeMemoryUsage(boolean value)](#setOptimizeMemoryUsage-boolean-) | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. |
 | [getProtection()](#getProtection--) | Allows to control and apply the document protection options for the WordProcessing document of any format, which supports document protection. |
@@ -65,7 +59,7 @@ Creates a new instance of WordProcessingSaveOptions with specified mandatory Wor
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) | Mandatory output format, in which the WordProcessing document should be saved |
+| outputFormat | com.groupdocs.editor.formats.WordProcessingFormats | Mandatory output format, in which the WordProcessing document should be saved |
 
 ### getEnablePagination() {#getEnablePagination--}
 ```
@@ -122,7 +116,7 @@ public final WordProcessingFormats getOutputFormat()
 Allows to specify a WordProcessing format, which will be used for saving the document
 
 **Returns:**
-[WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) - 
+com.groupdocs.editor.formats.WordProcessingFormats - 
 ### setOutputFormat(WordProcessingFormats value) {#setOutputFormat-com.groupdocs.editor.formats.WordProcessingFormats-}
 ```
 public final void setOutputFormat(WordProcessingFormats value)
@@ -134,7 +128,7 @@ Allows to specify a WordProcessing format, which will be used for saving the doc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) |  |
+| value | com.groupdocs.editor.formats.WordProcessingFormats |  |
 
 ### getLocale() {#getLocale--}
 ```
@@ -150,16 +144,6 @@ This option forcibly applies the specified locale to overall text in the documen
 
 **Returns:**
 java.util.Locale - 
-### getLocaleInternal() {#getLocaleInternal--}
-```
-public System.Globalization.CultureInfo getLocaleInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Globalization.CultureInfo
 ### setLocale(Locale value) {#setLocale-java.util.Locale-}
 ```
 public final void setLocale(Locale value)
@@ -177,19 +161,6 @@ This option forcibly applies the specified locale to overall text in the documen
 | --- | --- | --- |
 | value | java.util.Locale |  |
 
-### setLocaleInternal(System.Globalization.CultureInfo value) {#setLocaleInternal-com.aspose.ms.System.Globalization.CultureInfo-}
-```
-public void setLocaleInternal(System.Globalization.CultureInfo value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Globalization.CultureInfo |  |
-
 ### getLocaleBi() {#getLocaleBi--}
 ```
 public final Locale getLocaleBi()
@@ -204,16 +175,6 @@ This option forcibly applies the specified locale to overall RTL text in the doc
 
 **Returns:**
 java.util.Locale - 
-### getLocaleBiInternal() {#getLocaleBiInternal--}
-```
-public System.Globalization.CultureInfo getLocaleBiInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Globalization.CultureInfo
 ### setLocaleBi(Locale value) {#setLocaleBi-java.util.Locale-}
 ```
 public final void setLocaleBi(Locale value)
@@ -231,19 +192,6 @@ This option forcibly applies the specified locale to overall RTL text in the doc
 | --- | --- | --- |
 | value | java.util.Locale |  |
 
-### setLocaleBiInternal(System.Globalization.CultureInfo value) {#setLocaleBiInternal-com.aspose.ms.System.Globalization.CultureInfo-}
-```
-public void setLocaleBiInternal(System.Globalization.CultureInfo value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Globalization.CultureInfo |  |
-
 ### getLocaleFarEast() {#getLocaleFarEast--}
 ```
 public final Locale getLocaleFarEast()
@@ -258,16 +206,6 @@ This option forcibly applies the specified locale to overall East-Asian text in 
 
 **Returns:**
 java.util.Locale - 
-### getLocaleFarEastInternal() {#getLocaleFarEastInternal--}
-```
-public System.Globalization.CultureInfo getLocaleFarEastInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Globalization.CultureInfo
 ### setLocaleFarEast(Locale value) {#setLocaleFarEast-java.util.Locale-}
 ```
 public final void setLocaleFarEast(Locale value)
@@ -284,19 +222,6 @@ This option forcibly applies the specified locale to overall East-Asian text in 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Locale |  |
-
-### setLocaleFarEastInternal(System.Globalization.CultureInfo value) {#setLocaleFarEastInternal-com.aspose.ms.System.Globalization.CultureInfo-}
-```
-public void setLocaleFarEastInternal(System.Globalization.CultureInfo value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Globalization.CultureInfo |  |
 
 ### getOptimizeMemoryUsage() {#getOptimizeMemoryUsage--}
 ```

@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for loading plain text TXT documents
 type: docs
-weight: 38
+weight: 28
 url: /java/com.groupdocs.editor.options/texteditoptions/
 ---
 **Inheritance:**
@@ -26,9 +26,7 @@ Allows to specify custom options for loading plain text (TXT) documents
 | Method | Description |
 | --- | --- |
 | [getEncoding()](#getEncoding--) | Character encoding of the text document, which will be applied for its opening |
-| [getEncodingInternal()](#getEncodingInternal--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Character encoding of the text document, which will be applied for its opening |
-| [setEncodingInternal(System.Text.Encoding value)](#setEncodingInternal-com.aspose.ms.System.Text.Encoding-) |  |
 | [getRecognizeLists()](#getRecognizeLists--) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
 | [setRecognizeLists(boolean value)](#setRecognizeLists-boolean-) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
 | [getLeadingSpaces()](#getLeadingSpaces--) | Gets or sets preferred option of a leading space handling. |
@@ -55,16 +53,6 @@ Character encoding of the text document, which will be applied for its opening
 
 **Returns:**
 java.nio.charset.Charset
-### getEncodingInternal() {#getEncodingInternal--}
-```
-public System.Text.Encoding getEncodingInternal()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Text.Encoding
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
 public final void setEncoding(Charset value)
@@ -77,19 +65,6 @@ Character encoding of the text document, which will be applied for its opening
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setEncodingInternal(System.Text.Encoding value) {#setEncodingInternal-com.aspose.ms.System.Text.Encoding-}
-```
-public void setEncodingInternal(System.Text.Encoding value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.ms.System.Text.Encoding |  |
 
 ### getRecognizeLists() {#getRecognizeLists--}
 ```

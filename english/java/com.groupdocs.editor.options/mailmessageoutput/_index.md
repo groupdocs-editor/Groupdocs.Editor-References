@@ -3,13 +3,13 @@ title: MailMessageOutput
 second_title: GroupDocs.Editor for Java API Reference
 description: Controls which parts of the mail message should be delivered to the output processing
 type: docs
-weight: 19
+weight: 17
 url: /java/com.groupdocs.editor.options/mailmessageoutput/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object
 ```
-public final class MailMessageOutput extends System.Enum
+public final class MailMessageOutput
 ```
 
 Controls which parts of the mail message should be delivered to the output processing

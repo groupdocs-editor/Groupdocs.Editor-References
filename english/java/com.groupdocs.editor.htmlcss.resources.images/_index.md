@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.images
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.images namespace provides classes that represent image resources of all types in general.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.editor.htmlcss.resources.images/
 ---
 

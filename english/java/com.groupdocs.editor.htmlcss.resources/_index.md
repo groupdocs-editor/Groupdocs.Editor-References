@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources namespace provides classes that represent all kinds of the HTML resources.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.editor.htmlcss.resources/
 ---
 

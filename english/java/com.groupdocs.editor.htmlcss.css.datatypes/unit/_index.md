@@ -35,11 +35,11 @@ All supported length units
 | [Pc](#Pc) | Pc. |
 | [Ch](#Ch) | Ch. |
 | [Rem](#Rem) | Rem. |
-| [Vw](#Vw) | Vw - viewport width. |
-| [Vh](#Vh) | Vh - viewport height. |
-| [Vmin](#Vmin) | Vmin. |
-| [Vmax](#Vmax) | Vmax. |
-| [Percent](#Percent) | The value is relative to a fixed (external) value, that is context dependent. |
+| [Vw](#Vw) | Vw - viewport width. 1/100th of the width of the viewport. |
+| [Vh](#Vh) | Vh - viewport height. 1/100th of the height of the viewport. |
+| [Vmin](#Vmin) | Vmin. 1/100th of the minimum value between the height and the width of the viewport. |
+| [Vmax](#Vmax) | Vmax. 1/100th of the maximum value between the height and the width of the viewport. |
+| [Percent](#Percent) | The value is relative to a fixed (external) value, that is context dependent. 1% = 1/100 of the external value. |
 ## Methods
 
 | Method | Description |

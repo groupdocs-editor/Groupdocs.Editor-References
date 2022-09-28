@@ -15,7 +15,7 @@ The **com.groupdocs.editor** namespace is a root namespace, which provides class
 | Class | Description |
 | --- | --- |
 | [EditableDocument](../com.groupdocs.editor/editabledocument) | Intermediate document, that contains content before and after editing |
-| [Editor](../com.groupdocs.editor/editor) | Main class, which encapsulates conversion methods. |
+| [Editor](../com.groupdocs.editor/editor) |  |
 | [EncryptedException](../com.groupdocs.editor/encryptedexception) | The exception that is thrown when user tries to open a document that was encrypted using the X509Certificates. |
 | [IncorrectPasswordException](../com.groupdocs.editor/incorrectpasswordexception) | The exception that is thrown when specified password is incorrect. |
 | [InvalidFormatException](../com.groupdocs.editor/invalidformatexception) | The exception that is thrown when user tries to open some document with format-specific options that are incompatible with original document format. |

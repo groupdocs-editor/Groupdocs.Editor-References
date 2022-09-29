@@ -3,7 +3,7 @@ title: All
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns an internal class that provides enumerable possibilities over all existing Textual formats.
 type: docs
-weight: 130
+weight: 150
 url: /net/groupdocs.editor.formats/textualformats/all/
 ---
 ## TextualFormats.All field

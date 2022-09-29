@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns the name of this particular format same as Name property
 type: docs
-weight: 120
+weight: 140
 url: /net/groupdocs.editor.formats/textualformats/tostring/
 ---
 ## TextualFormats.ToString method

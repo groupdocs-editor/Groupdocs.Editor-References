@@ -3,7 +3,7 @@ title: Name
 second_title: GroupDocs.Editor for .NET API Reference
 description: In implementing type should return full formal format name
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.editor.formats/emailformats/name/
 ---
 ## EmailFormats.Name property

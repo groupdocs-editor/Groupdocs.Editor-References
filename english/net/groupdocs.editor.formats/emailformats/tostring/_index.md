@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a format name of this format
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.editor.formats/emailformats/tostring/
 ---
 ## EmailFormats.ToString method

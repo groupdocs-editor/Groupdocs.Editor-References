@@ -16,7 +16,7 @@ public sealed class InvalidFormatException : Exception
 
 ### Remarks
 
-For example, this exception will be thrown, if try to open Spreadsheet document with WordProcessing document options.
+For example, this exception will be thrown, if try to open a Spreadsheet document with WordProcessing document options.
 
 ### See Also
 

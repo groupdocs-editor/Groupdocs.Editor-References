@@ -18,7 +18,7 @@ public interface IDocumentInfo
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.editor.metadata/idocumentinfo/format) { get; } | Returns a document format |
+| [Format](../../groupdocs.editor.metadata/idocumentinfo/format) { get; } | In implementing type should return a document format as a single value from a type, that represents one format family and inherits from IDocumentFormat interface |
 | [IsEncrypted](../../groupdocs.editor.metadata/idocumentinfo/isencrypted) { get; } | Indicates whether specific file is encrypted and requires password for opening. For the document types, that cannot be encrypted (like all text-based) should always return 'false'. |
 | [PageCount](../../groupdocs.editor.metadata/idocumentinfo/pagecount) { get; } | In implementing type should return count (number) of pages or other similar format-dependent entities (tabs, slides etc.). For those family types, that don't have something similar (like plain text documents or XML) should return 1. |
 | [Size](../../groupdocs.editor.metadata/idocumentinfo/size) { get; } | Document size in bytes |

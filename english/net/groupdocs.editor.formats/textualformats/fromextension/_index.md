@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns instance of TextualFormatsgroupdocs.editor.formats/textualformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method

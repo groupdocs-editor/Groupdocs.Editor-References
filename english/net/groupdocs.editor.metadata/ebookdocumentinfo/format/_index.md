@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a format of this document
+description: Returns a format of this eBook
 type: docs
 weight: 10
 url: /net/groupdocs.editor.metadata/ebookdocumentinfo/format/
 ---
 ## EbookDocumentInfo.Format property
 
-Returns a format of this document
+Returns a format of this e-Book
 
 ```csharp
 public EBookFormats Format { get; }

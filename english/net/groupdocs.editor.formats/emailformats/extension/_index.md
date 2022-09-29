@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Editor for .NET API Reference
 description: In implementing type should return format file extension without leading dot character.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.editor.formats/emailformats/extension/
 ---
 ## EmailFormats.Extension property

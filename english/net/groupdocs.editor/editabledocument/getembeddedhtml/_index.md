@@ -26,7 +26,12 @@ String, which is not NULL or empty in any case
 
 ### Remarks
 
-This method converts this EditableDocument into HTML and serializes in into single string, where all resources are embedded into string along with HTML markup: * All images from HTML-&gt;BODY are converted to base64 format and are located in the IMG 'src' attribute; * All stylesheets are stored in the STYLE elements inside HTML-&gt;HEAD sections; * All images from stylesheets are converted to base64 format and located in the appropriate CSS declarations; * All fonts from stylesheets are converted to base64 format and located in the appropriate @font-face at-rules.
+This method converts this EditableDocument into HTML and serializes in into single string, where all resources are embedded into string along with HTML markup:
+
+* All images from HTML-&gt;BODY are converted to base64 format and are located in the IMG 'src' attribute
+* All stylesheets are stored in the STYLE elements inside HTML-&gt;HEAD sections
+* All images from stylesheets are converted to base64 format and located in the appropriate CSS declarations
+* All fonts from stylesheets are converted to base64 format and located in the appropriate @font-face at-rules
 
 ### See Also
 

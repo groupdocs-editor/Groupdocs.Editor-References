@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Spreadsheet Excelcompliant documents
 type: docs
-weight: 880
+weight: 910
 url: /net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class

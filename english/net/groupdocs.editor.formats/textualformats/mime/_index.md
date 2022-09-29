@@ -3,7 +3,7 @@ title: Mime
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a MIME code for this format
 type: docs
-weight: 80
+weight: 100
 url: /net/groupdocs.editor.formats/textualformats/mime/
 ---
 ## TextualFormats.Mime property

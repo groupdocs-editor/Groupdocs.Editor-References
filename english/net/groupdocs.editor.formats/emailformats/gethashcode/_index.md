@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a hashcode that is immutable for this instance
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.editor.formats/emailformats/gethashcode/
 ---
 ## EmailFormats.GetHashCode method

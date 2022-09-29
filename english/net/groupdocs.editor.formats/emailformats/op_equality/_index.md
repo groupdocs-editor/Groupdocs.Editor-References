@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given Email instances on equality
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.editor.formats/emailformats/op_equality/
 ---
 ## EmailFormats Equality operator

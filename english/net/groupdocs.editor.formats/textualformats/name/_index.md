@@ -3,7 +3,7 @@ title: Name
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a formal full name of this textual format
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.editor.formats/textualformats/name/
 ---
 ## TextualFormats.Name property

@@ -1,14 +1,14 @@
 ---
 title: EbookDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
-description: Represents metadata of one EBook document
+description: Represents metadata of one eBook document
 type: docs
 weight: 560
 url: /net/groupdocs.editor.metadata/ebookdocumentinfo/
 ---
 ## EbookDocumentInfo structure
 
-Represents metadata of one EBook document
+Represents metadata of one e-Book document
 
 ```csharp
 public struct EbookDocumentInfo : IDocumentInfo, IEquatable<EbookDocumentInfo>
@@ -18,8 +18,8 @@ public struct EbookDocumentInfo : IDocumentInfo, IEquatable<EbookDocumentInfo>
 
 | Name | Description |
 | --- | --- |
-| [Format](../../groupdocs.editor.metadata/ebookdocumentinfo/format) { get; } | Returns a format of this document |
-| [IsEncrypted](../../groupdocs.editor.metadata/ebookdocumentinfo/isencrypted) { get; } | Because eBook documents cannot be encrypted with password, this property always returns 'false' |
+| [Format](../../groupdocs.editor.metadata/ebookdocumentinfo/format) { get; } | Returns a format of this e-Book |
+| [IsEncrypted](../../groupdocs.editor.metadata/ebookdocumentinfo/isencrypted) { get; } | Because e-Book documents cannot be encrypted with password, this property always returns 'false' |
 | [PageCount](../../groupdocs.editor.metadata/ebookdocumentinfo/pagecount) { get; } | Returns number of pages in case of MOBI or AZW3 or number of chapters in case of ePub. |
 | [Size](../../groupdocs.editor.metadata/ebookdocumentinfo/size) { get; } | Returns size in bytes of this eBook document |
 

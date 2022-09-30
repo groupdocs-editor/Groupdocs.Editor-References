@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.metadata/ebookdocumentinfo/isencrypted/
 ---
 ## EbookDocumentInfo.IsEncrypted property
 
-Because eBook documents cannot be encrypted with password, this property always returns 'false'
+Because e-Book documents cannot be encrypted with password, this property always returns 'false'
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -3,7 +3,7 @@ title: Vcf
 second_title: GroupDocs.Editor for .NET API Reference
 description: VCF Virtual Card Format or vCard is a digital file format for storing contact information. Learn more about this file format herehttps//docs.fileformat.com/email/vcf/.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.editor.formats/emailformats/vcf/
 ---
 ## EmailFormats.Vcf field

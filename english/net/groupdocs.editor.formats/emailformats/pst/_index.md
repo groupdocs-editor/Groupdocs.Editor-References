@@ -3,7 +3,7 @@ title: Pst
 second_title: GroupDocs.Editor for .NET API Reference
 description: Files with .pst extension represent Outlook Personal Storage Files also called Personal Storage Table that store variety of user information. Learn more about this file format herehttps//docs.fileformat.com/email/pst/.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.formats/emailformats/pst/
 ---
 ## EmailFormats.Pst field

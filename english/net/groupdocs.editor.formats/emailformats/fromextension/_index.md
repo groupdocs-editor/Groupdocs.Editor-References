@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns instance of EmailFormatsgroupdocs.editor.formats/emailformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method

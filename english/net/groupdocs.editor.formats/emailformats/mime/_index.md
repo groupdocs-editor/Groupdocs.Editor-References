@@ -3,7 +3,7 @@ title: Mime
 second_title: GroupDocs.Editor for .NET API Reference
 description: In implementing type should return a MIMEcode for the given format
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.editor.formats/emailformats/mime/
 ---
 ## EmailFormats.Mime property

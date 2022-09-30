@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given TextualFormats instances on inequality
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.editor.formats/textualformats/op_inequality/
 ---
 ## TextualFormats Inequality operator

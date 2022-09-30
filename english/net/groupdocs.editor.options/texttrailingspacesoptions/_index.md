@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains available options for trailing space handling during opening plain text document TXT
 type: docs
-weight: 930
+weight: 960
 url: /net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

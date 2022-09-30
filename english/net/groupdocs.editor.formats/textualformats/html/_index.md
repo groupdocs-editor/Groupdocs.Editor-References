@@ -3,7 +3,7 @@ title: Html
 second_title: GroupDocs.Editor for .NET API Reference
 description: HyperText Markup Language document HTML is the extension for web pages created for display in browsers. Learn more about this file format herehttps//wiki.fileformat.com/web/html.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.editor.formats/textualformats/html/
 ---
 ## TextualFormats.Html field

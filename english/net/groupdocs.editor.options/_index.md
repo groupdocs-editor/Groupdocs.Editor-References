@@ -12,12 +12,15 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 
 | Class | Description |
 | --- | --- |
+| [Azw3SaveOptions](./azw3saveoptions) | Allows to specify custom options for generating and saving the AZW3 e-books, also known as Kindle Format 8 (KF8) |
 | [DelimitedTextEditOptions](./delimitedtexteditoptions) | Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [DelimitedTextSaveOptions](./delimitedtextsaveoptions) | Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
+| [EbookEditOptions](./ebookeditoptions) | Allows to specify and adjust custom options for editing E-book documents in all supported formats: ePub, MOBI, and AZW3. |
 | [EmailEditOptions](./emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
 | [EmailSaveOptions](./emailsaveoptions) | Allows to specify custom options for generating and saving electronic mail (email) documents |
+| [EpubSaveOptions](./epubsaveoptions) | Allows to specify custom options for generating and saving the IDPF EPUB documents (open standard for e-books created by the International Digital Publishing Forum) |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
-| [MobiEditOptions](./mobieditoptions) | Allows to specify custom options for editing documents in MOBI (MobiPocket) and AZW3 formats. |
+| [MhtmlSaveOptions](./mhtmlsaveoptions) | Allows to specify custom options for generating and saving the MHTML (MIME encapsulation of aggregate HTML documents) documents |
 | [PdfEditOptions](./pdfeditoptions) | Allows to specify custom options for editing PDF documents |
 | [PdfLoadOptions](./pdfloadoptions) | Contains options for loading PDF documents into Editor class |
 | [PdfSaveOptions](./pdfsaveoptions) | Allows to specify custom options for generating and saving PDF (Portable Document Format) documents |

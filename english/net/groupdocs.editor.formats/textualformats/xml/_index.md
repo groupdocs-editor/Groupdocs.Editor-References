@@ -3,7 +3,7 @@ title: Xml
 second_title: GroupDocs.Editor for .NET API Reference
 description: eXtensible Markup Language document XML that is similar to HTML but different in using tags for defining objects. Learn more about this file format herehttps//wiki.fileformat.com/web/xml.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.editor.formats/textualformats/xml/
 ---
 ## TextualFormats.Xml field

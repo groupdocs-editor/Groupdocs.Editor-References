@@ -3,7 +3,7 @@ title: Txt
 second_title: GroupDocs.Editor for .NET API Reference
 description: Plain Text Document TXT represents a text document that contains plain text in the form of lines. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/txt.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.editor.formats/textualformats/txt/
 ---
 ## TextualFormats.Txt field

@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this instance is equal to the other specified TextualFormats instance
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.editor.formats/textualformats/equals/
 ---
 ## Equals(TextualFormats) {#equals_1}

@@ -16,7 +16,7 @@ public int PageCount { get; }
 
 ### Remarks
 
-eBook documents usually have no fixed pages and thus page count. In case of ePub it is possible to calculate a number of chapters. However, the MOBI and AZW3 formats have no chapters either, so this number is calculated from standard page size set to A4 in portrait orientation.
+e-Book documents usually have no fixed pages and thus page count. In case of ePub it is possible to calculate a number of chapters. However, the MOBI and AZW3 formats have no chapters either, so this number is calculated from standard page size set to A4 in portrait orientation.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a document format
+description: In implementing type should return a document format as a single value from a type that represents one format family and inherits from IDocumentFormat interface
 type: docs
 weight: 10
 url: /net/groupdocs.editor.metadata/idocumentinfo/format/
 ---
 ## IDocumentInfo.Format property
 
-Returns a document format
+In implementing type should return a document format as a single value from a type, that represents one format family and inherits from IDocumentFormat interface
 
 ```csharp
 public IDocumentFormat Format { get; }

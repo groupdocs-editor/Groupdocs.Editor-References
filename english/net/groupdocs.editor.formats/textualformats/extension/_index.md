@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns an extension without leading dot character of this textual format in lower case
 type: docs
-weight: 70
+weight: 90
 url: /net/groupdocs.editor.formats/textualformats/extension/
 ---
 ## TextualFormats.Extension property

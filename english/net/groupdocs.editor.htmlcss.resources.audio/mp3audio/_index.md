@@ -41,6 +41,12 @@ public sealed class Mp3Audio : IEquatable<Mp3Audio>, IHtmlResource
 | [Save](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/save)(string) | Saves this MP3 resource to the specified file |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid)(Stream) | Checks whether specified stream is a valid MP3 content |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/disposed) | Event, which occurs when this MP3 content is disposed |
+
 ### See Also
 
 * interface [IHtmlResource](../../groupdocs.editor.htmlcss.resources/ihtmlresource)

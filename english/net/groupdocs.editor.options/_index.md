@@ -41,6 +41,11 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [XmlHighlightOptions](./xmlhighlightoptions) | Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion |
 | [XpsEditOptions](./xpseditoptions) | Allows to specify custom options for editing (XML Paper Specifications) documents |
 | [XpsSaveOptions](./xpssaveoptions) | Allows to specify custom options for generating and saving XPS (XML Paper Specifications) documents |
+## Structures
+
+| Structure | Description |
+| --- | --- |
+| [PageRange](./pagerange) | Encapsulates one page range, which can have open or closed bounds. By default is "fully open" - it includes all existing pages. Page numbering starts from 1, not from 0. |
 ## Interfaces
 
 | Interface | Description |

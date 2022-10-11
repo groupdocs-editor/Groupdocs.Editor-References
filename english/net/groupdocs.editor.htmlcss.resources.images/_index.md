@@ -8,6 +8,12 @@ url: /net/groupdocs.editor.htmlcss.resources.images/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Images namespace provides classes that represent image resources of all types in general.
 
+## Structures
+
+| Structure | Description |
+| --- | --- |
+| [Dimensions](./dimensions) | Represents the linear dimensions (width and height) of one raster rectangular image in arbitrary unit. Immutable struct. |
+| [ImageType](./imagetype) | Represents one supportable image type (format), supports both raster and vector formats |
 ## Interfaces
 
 | Interface | Description |

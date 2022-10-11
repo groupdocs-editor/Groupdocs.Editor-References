@@ -34,6 +34,12 @@ public abstract class FontResourceBase : IEquatable<FontResourceBase>, IHtmlReso
 | [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals#equals_1)(IHtmlResource) | Checks this instance with specified HTML resource on reference equality |
 | [Save](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/save)(string) | Saves this font to the specified file |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed) | Event, which occurs when this font is disposed |
+
 ### See Also
 
 * interface [IHtmlResource](../../groupdocs.editor.htmlcss.resources/ihtmlresource)

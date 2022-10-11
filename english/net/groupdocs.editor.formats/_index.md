@@ -8,6 +8,17 @@ url: /net/groupdocs.editor.formats/
 ---
 The GroupDocs.Editor.Formats namespace provides interfaces and classes that describes supported document formats.
 
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [AllEnumerable](./ebookformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the EBookFormats type |
+| [AllEnumerable](./emailformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the Email type |
+| [AllEnumerable](./fixedlayoutformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the FixedLayoutFormats type |
+| [AllEnumerable](./presentationformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the PresentationFormats type |
+| [AllEnumerable](./spreadsheetformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the SpreadsheetFormats type |
+| [AllEnumerable](./textualformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the TextualFormats type |
+| [AllEnumerable](./wordprocessingformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the WordProcessingFormats type |
 ## Structures
 
 | Structure | Description |

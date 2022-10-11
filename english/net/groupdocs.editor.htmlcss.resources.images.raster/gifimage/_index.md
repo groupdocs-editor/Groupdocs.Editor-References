@@ -48,6 +48,12 @@ public sealed class GifImage : RasterImageResourceBase
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid)(Stream) | Checks whether specified stream is a valid GIF image |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid_1)(string) | Checks whether specified base64-encoded string is a valid GIF image |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | Event, which occurs when this raster image is disposed |
+
 ### See Also
 
 * class [RasterImageResourceBase](../rasterimageresourcebase)

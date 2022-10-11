@@ -40,6 +40,12 @@ public sealed class Editor : IAuxDisposable
 | [Save](../../groupdocs.editor/editor/save#save)(EditableDocument, Stream, ISaveOptions) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of specified format and saves its content to specified stream |
 | [Save](../../groupdocs.editor/editor/save#save_1)(EditableDocument, string, ISaveOptions) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of specified format and saves its content to file by specified file path |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor/editor/disposed) | Event, which occurs when this Editor instance is disposed with all its internal resources |
+
 ### Remarks
 
 Editor class should be considered as an entry point and the root object of the GroupDocs.Editor. All operations are performed using this class. Typical usage of the Editor class for performing a full document editing pipeline is the next:

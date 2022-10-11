@@ -43,6 +43,12 @@ public sealed class EditableDocument : IAuxDisposable
 | [Save](../../groupdocs.editor/editabledocument/save#save)(string) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources. |
 | [Save](../../groupdocs.editor/editabledocument/save#save_1)(string, string) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources, which is located on specified path. |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor/editabledocument/disposed) | Event, which occurs when this Editable document is disposed, right after finishing the disposing process |
+
 ### Remarks
 
 Instance of EditableDocument class can be produced by the '[`Edit`](../editor/edit)' method or created by the user himself using static factories. EditableDocument internally stores document in its own closed format, which is compatible (convertible) with all import and export formats, that GroupDocs.Editor supports. In order to make document editable in any WYSIWYG client-side editor (like CKEditor or TinyMCE), EditableDocument provides methods for generating HTML markup and producing resources, that can be accepted by the user.

@@ -34,6 +34,12 @@ public sealed class CssText : TextResourceBase
 | [Equals](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/equals)(IHtmlResource) | Checks this instance with specified on equality. |
 | [Save](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/save)(string) | Saves this text resource to the specified file |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/disposed) | Event, which occurs when this text resource is disposed |
+
 ### See Also
 
 * class [TextResourceBase](../textresourcebase)

@@ -48,6 +48,12 @@ public sealed class TiffImage : RasterImageResourceBase
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/isvalid#isvalid)(Stream) | Checks whether specified stream is a valid TIFF image |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/isvalid#isvalid_1)(string) | Checks whether specified base64-encoded string is a valid TIFF image |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | Event, which occurs when this raster image is disposed |
+
 ### Remarks
 
 See https://en.wikipedia.org/wiki/TIFF for details. In very rare cases TIFF is present inside WordProcessing documents.

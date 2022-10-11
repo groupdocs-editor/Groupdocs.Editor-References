@@ -8,6 +8,18 @@ url: /net/groupdocs.editor.metadata/
 ---
 The GroupDocs.Editor.Metadata namespace provides classes for describing basic document properties dependent on document type.
 
+## Structures
+
+| Structure | Description |
+| --- | --- |
+| [EbookDocumentInfo](./ebookdocumentinfo) | Represents metadata of one e-Book document |
+| [EmailDocumentInfo](./emaildocumentinfo) | Represents metadata of one email document of any supported email format |
+| [FixedLayoutDocumentInfo](./fixedlayoutdocumentinfo) | Represents metadata of one document with fixed layout format like PDF or XPS |
+| [MarkdownDocumentInfo](./markdowndocumentinfo) | Represents metadata of one Markdown document |
+| [PresentationDocumentInfo](./presentationdocumentinfo) | Represents metadata of one Presentation document |
+| [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | Represents metadata of one Spreadsheet document |
+| [TextualDocumentInfo](./textualdocumentinfo) | Represents metadata of one textual document like XML, HTML or plain text (TXT) |
+| [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Represents metadata of one WordProcessing document |
 ## Interfaces
 
 | Interface | Description |

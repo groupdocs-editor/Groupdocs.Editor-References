@@ -20,6 +20,12 @@ public interface IAuxDisposable : IDisposable
 | --- | --- |
 | [IsDisposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/isdisposed) { get; } | Determines whether a resource is closed (true) or not (false) |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/disposed) | Occurs when object is disposed |
+
 ### See Also
 
 * namespace [GroupDocs.Editor.HtmlCss.Resources](../../groupdocs.editor.htmlcss.resources)

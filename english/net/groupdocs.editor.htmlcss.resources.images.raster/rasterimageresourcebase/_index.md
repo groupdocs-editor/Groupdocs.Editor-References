@@ -38,6 +38,12 @@ public abstract class RasterImageResourceBase : IImageResource
 | [ReduceToNewHeight](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/reducetonewheight)(ushort) | Creates and returns a new reduced image resource of the same type, but with specified new reduced height and proportionally reduced width. |
 | [Save](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/save)(string) | Saves this raster image to the specified file |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | Event, which occurs when this raster image is disposed |
+
 ### See Also
 
 * interface [IImageResource](../../groupdocs.editor.htmlcss.resources.images/iimageresource)

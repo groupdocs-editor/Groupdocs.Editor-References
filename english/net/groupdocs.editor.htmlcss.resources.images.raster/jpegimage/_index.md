@@ -47,6 +47,12 @@ public sealed class JpegImage : RasterImageResourceBase
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/jpegimage/isvalid#isvalid)(Stream) | Checks whether specified stream is a valid JPEG image |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/jpegimage/isvalid#isvalid_1)(string) | Checks whether specified base64-encoded string is a valid JPEG image |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | Event, which occurs when this raster image is disposed |
+
 ### See Also
 
 * class [RasterImageResourceBase](../rasterimageresourcebase)

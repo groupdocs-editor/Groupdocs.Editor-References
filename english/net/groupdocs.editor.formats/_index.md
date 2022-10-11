@@ -12,13 +12,13 @@ The GroupDocs.Editor.Formats namespace provides interfaces and classes that desc
 
 | Class | Description |
 | --- | --- |
-| [AllEnumerable](./ebookformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the EBookFormats type |
-| [AllEnumerable](./emailformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the Email type |
-| [AllEnumerable](./fixedlayoutformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the FixedLayoutFormats type |
-| [AllEnumerable](./presentationformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the PresentationFormats type |
-| [AllEnumerable](./spreadsheetformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the SpreadsheetFormats type |
-| [AllEnumerable](./textualformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the TextualFormats type |
-| [AllEnumerable](./wordprocessingformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the WordProcessingFormats type |
+| [EBookFormats.AllEnumerable](./ebookformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the EBookFormats type |
+| [EmailFormats.AllEnumerable](./emailformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the Email type |
+| [FixedLayoutFormats.AllEnumerable](./fixedlayoutformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the FixedLayoutFormats type |
+| [PresentationFormats.AllEnumerable](./presentationformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the PresentationFormats type |
+| [SpreadsheetFormats.AllEnumerable](./spreadsheetformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the SpreadsheetFormats type |
+| [TextualFormats.AllEnumerable](./textualformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the TextualFormats type |
+| [WordProcessingFormats.AllEnumerable](./wordprocessingformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the WordProcessingFormats type |
 ## Structures
 
 | Structure | Description |

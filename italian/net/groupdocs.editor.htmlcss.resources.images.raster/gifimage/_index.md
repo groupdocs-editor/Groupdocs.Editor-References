@@ -1,0 +1,63 @@
+---
+title: GifImage
+second_title: GroupDocs.Editor per Riferimento API .NET
+description: Rappresenta unimmagine in formato GIF Graphics Interchange Format con i relativi metadati e metodi aggiuntivi
+type: docs
+weight: 410
+url: /it/net/groupdocs.editor.htmlcss.resources.images.raster/gifimage/
+---
+## GifImage class
+
+Rappresenta un'immagine in formato GIF (Graphics Interchange Format) con i relativi metadati e metodi aggiuntivi
+
+```csharp
+public sealed class GifImage : RasterImageResourceBase
+```
+
+## Costruttori
+
+| Nome | Descrizione |
+| --- | --- |
+| [GifImage](gifimage#constructor)(string, Stream) | Crea una nuova istanza GifImage dal contenuto, rappresentato come flusso di byte e con il nome specificato |
+| [GifImage](gifimage#constructor_1)(string, string) | Crea una nuova istanza GifImage dal contenuto, rappresentato come stringa con codifica base64 e con il nome specificato |
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [AspectRatio](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/aspectratio) { get; } | Restituisce le proporzioni di questa immagine come relazione larghezza-altezza |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/bytecontent) { get; } | Restituisce il contenuto di questa immagine raster come flusso di byte |
+| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension) { get; } | Restituisce il nome file corretto di questa immagine raster, composto da nome ed estensione. Teoricamente può differire dal nome. |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/isdisposed) { get; } | Determina se questa immagine raster è eliminata o meno |
+| [Length](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/length) { get; } | Restituisce la lunghezza di questo file immagine raster in byte |
+| [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/lineardimensions) { get; } | Restituisce le dimensioni lineari di questa immagine raster (larghezza e altezza) |
+| [Name](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/name) { get; } | Restituisce il nome di questa immagine raster. Di solito non contiene l'estensione del nome file e teoricamente può differire dal nome file. |
+| [TextContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/textcontent) { get; } | Restituisce il contenuto di questa immagine raster come stringa con codifica Base64 |
+| override [Type](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/type) { get; } | Restituisce ImageType.Gif |
+| [Version](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/version) { get; } | Restituisce la versione interna di questa immagine GIF (la versione viene estratta dall'intestazione) |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| [Dispose](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/dispose)() | Elimina questa immagine raster, eliminandone il contenuto e rendendo la maggior parte dei metodi e delle proprietà non funzionanti |
+| [Equals](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/equals)(IHtmlResource) | Controlla questa istanza con l'uguaglianza dei riferimenti specificata. |
+| [GenerateBitmap](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/generatebitmap)() | Genera e restituisce una nuova istanza di 'System.Drawing.Bitmap' da questa immagine raster. |
+| [ReduceToNewHeight](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/reducetonewheight#reducetonewheight)(ushort) | Crea e restituisce una nuova immagine GIF ridotta, ma con una nuova altezza ridotta specificata e una larghezza proporzionalmente ridotta. (2 methods) |
+| [Save](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/save)(string) | Salva questa immagine raster nel file specificato |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid)(Stream) | Controlla se il flusso specificato è un'immagine GIF valida |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid_1)(string) | Controlla se la stringa con codifica Base64 specificata è un'immagine GIF valida |
+
+## Eventi
+
+| Nome | Descrizione |
+| --- | --- |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | Evento che si verifica quando questa immagine raster viene eliminata |
+
+### Guarda anche
+
+* class [RasterImageResourceBase](../rasterimageresourcebase)
+* spazio dei nomi [GroupDocs.Editor.HtmlCss.Resources.Images.Raster](../../groupdocs.editor.htmlcss.resources.images.raster)
+* assemblea [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

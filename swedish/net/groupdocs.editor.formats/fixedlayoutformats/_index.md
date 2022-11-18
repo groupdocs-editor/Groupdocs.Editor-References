@@ -1,0 +1,63 @@
+---
+title: FixedLayoutFormats
+second_title: GroupDocs.Editor för .NET API-referens
+description: Kapslar in alla format med fixerad layout även känd som fast sida vilket inkluderar PDF och XPS detta inkluderar inte rasterbilder
+type: docs
+weight: 80
+url: /sv/net/groupdocs.editor.formats/fixedlayoutformats/
+---
+## FixedLayoutFormats structure
+
+Kapslar in alla format med fixerad layout (även känd som "fast sida"), vilket inkluderar PDF och XPS (detta inkluderar inte rasterbilder)
+
+```csharp
+public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormats>
+```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [Extension](../../groupdocs.editor.formats/fixedlayoutformats/extension) { get; } | Returnerar ett tillägg (utan inledande punkttecken) av detta format med fast layout med gemener |
+| [Mime](../../groupdocs.editor.formats/fixedlayoutformats/mime) { get; } | Returnerar en MIME-kod för detta format |
+| [Name](../../groupdocs.editor.formats/fixedlayoutformats/name) { get; } | Returnerar ett formellt fullständigt namn på denna fasta layout format |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Returnerar instans av[`FixedLayoutFormats`](../fixedlayoutformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Avgör om denna instans är lika med den andra angivna FixedLayoutFormats-instansen |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
+| override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Bestämmer om den här instansen är lika med det andra angivna objektet, som förmodligen är av boxed FixedLayoutFormats |
+| override [GetHashCode](../../groupdocs.editor.formats/fixedlayoutformats/gethashcode)() | Returnerar en hash-kod, som är oföränderlig för denna instans |
+| override [ToString](../../groupdocs.editor.formats/fixedlayoutformats/tostring)() | Returnerar namnet på detta specifika format, samma som "Namn" egenskap |
+| [operator ==](../../groupdocs.editor.formats/fixedlayoutformats/op_equality) | Kontrollerar två givna FixedLayoutFormats-instanser på equality |
+| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit#op_explicit) | Returnerar ett bytevärde från underliggande fält för specificerad FixedLayoutFormats-instans (2 operators) |
+| [operator !=](../../groupdocs.editor.formats/fixedlayoutformats/op_inequality) | Kontrollerar två givna FixedLayoutFormats-instanser på inequality |
+
+## Fält
+
+| namn | Beskrivning |
+| --- | --- |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) är en typ av dokument som skapades av Adobe redan på 1990-talet. Syftet med detta filformat var att införa en standard för representation av dokument och annat referensmaterial i ett format som är oberoende av applikationsprogramvara, hårdvara samt operativsystem. Läs mer om detta filformat[här](https://docs.fileformat.com/pdf/) . |
+| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS-filen representerar sidlayoutfiler som är baserade på XML Paper Specifications skapade av Microsoft. Det utvecklades som en ersättning för EMF-filformat och liknar PDF-filformat, men använder XML i layout, utseende och utskriftsinformation för ett dokument. Läs mer om detta filformat[här](https://docs.fileformat.com/page-description-language/xps/) . |
+| static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | Returnerar en intern klass som ger otaliga möjligheter över alla befintliga format med fast layout |
+
+## Andra medlemmar
+
+| namn | Beskrivning |
+| --- | --- |
+| class [AllEnumerable](fixedlayoutformats.allenumerable) | Implementerar IEnumerable generiskt gränssnitt, som möjliggör en "foreach"-möjlighet för FixedLayoutFormats type |
+
+### Anmärkningar
+
+Olika program för dokumentvisning eller publicering tillåter användare att öppna (Adobe Acrobat, XPS Viewer) och ibland redigera (Adobe InDesign) dokument i specifika format. Dessa applikationer producerar vanligtvis så kallade "fixed-page" format dokument. Ett sådant dokumentformat beskriver exakt var ett dokuments innehåll placeras på varje sida. Internt innehåller PDF- eller XPS-formatet en beskrivning av varje sida, samt ritinstruktioner som anger layouten för innehållet på sidan. Detta liknar bildformat, som beskriver var innehållet visas antingen i raster- eller vektorform.
+
+### Se även
+
+* interface [IDocumentFormat](../idocumentformat)
+* namnutrymme [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
+* hopsättning [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

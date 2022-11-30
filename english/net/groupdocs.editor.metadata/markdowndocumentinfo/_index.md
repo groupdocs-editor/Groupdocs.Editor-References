@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents metadata of one Markdown document
 type: docs
-weight: 630
+weight: 650
 url: /net/groupdocs.editor.metadata/markdowndocumentinfo/
 ---
 ## MarkdownDocumentInfo structure

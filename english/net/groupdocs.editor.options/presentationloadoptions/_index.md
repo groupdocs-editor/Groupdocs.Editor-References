@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for loading documents of all supportable Presentation formats like PPTX PPTM PPSX etc.
 type: docs
-weight: 380
+weight: 1000
 url: /net/groupdocs.editor.options/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

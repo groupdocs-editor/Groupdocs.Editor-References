@@ -3,7 +3,7 @@ title: MarkdownEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for editing documents in Markdown MD format
 type: docs
-weight: 260
+weight: 880
 url: /net/groupdocs.editor.options/markdowneditoptions/
 ---
 ## MarkdownEditOptions class

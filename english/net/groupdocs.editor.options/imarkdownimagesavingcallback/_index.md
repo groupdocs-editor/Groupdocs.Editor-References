@@ -3,7 +3,7 @@ title: IMarkdownImageSavingCallback
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implement this interface if you want to control how GroupDocs.Editor saves images when saving a document to Markdown.
 type: docs
-weight: 230
+weight: 840
 url: /net/groupdocs.editor.options/imarkdownimagesavingcallback/
 ---
 ## IMarkdownImageSavingCallback interface

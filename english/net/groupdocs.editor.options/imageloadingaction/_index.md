@@ -3,7 +3,7 @@ title: ImageLoadingAction
 second_title: GroupDocs.Editor for .NET API Reference
 description: Specifies the mode of resource loading.
 type: docs
-weight: 210
+weight: 860
 url: /net/groupdocs.editor.options/imageloadingaction/
 ---
 ## ImageLoadingAction enumeration

@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving WordProcessingcompliant documents after they were edited
 type: docs
-weight: 520
+weight: 1140
 url: /net/groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class

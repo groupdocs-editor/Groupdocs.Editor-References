@@ -3,7 +3,7 @@ title: SpreadsheetFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all binary XML and textual Spreadsheet formats excluding all textual delimiterbased formats with separator like CSV TSV semicolondelimited etc. in which the workbook can be saved. Includes the following formats Dif./spreadsheetformats/dif Fods./spreadsheetformats/fods Ods./spreadsheetformats/ods Sxc./spreadsheetformats/sxc Xlam./spreadsheetformats/xlam Xls./spreadsheetformats/xls Xlsb./spreadsheetformats/xlsb Xlsm./spreadsheetformats/xlsm Xlsx./spreadsheetformats/xlsx Xlt./spreadsheetformats/xlt Xltm./spreadsheetformats/xltm Xltx./spreadsheetformats/xltx. Learn more about Spreadsheet formats herehttps//wiki.fileformat.com/spreadsheet.
 type: docs
-weight: 1110
+weight: 130
 url: /net/groupdocs.editor.formats/spreadsheetformats/
 ---
 ## SpreadsheetFormats structure

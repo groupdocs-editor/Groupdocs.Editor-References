@@ -3,7 +3,7 @@ title: MetaImageBase
 second_title: GroupDocs.Editor for .NET API Reference
 description: Base abstract class for WMF and EMF image formats
 type: docs
-weight: 820
+weight: 480
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/
 ---
 ## MetaImageBase class

@@ -3,7 +3,7 @@ title: MarkdownImageSavingArgs
 second_title: GroupDocs.Editor for .NET API Reference
 description: Provides data for the ImageSaving event.
 type: docs
-weight: 280
+weight: 900
 url: /net/groupdocs.editor.options/markdownimagesavingargs/
 ---
 ## MarkdownImageSavingArgs class

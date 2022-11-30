@@ -3,7 +3,7 @@ title: EmailFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all emails formats. Includes the following file types Tnef./emailformats/tnef Eml./emailformats/eml Emlx./emailformats/emlx Msg./emailformats/msg Html./emailformats/html Mhtml./emailformats/mhtml.
 type: docs
-weight: 1070
+weight: 60
 url: /net/groupdocs.editor.formats/emailformats/
 ---
 ## EmailFormats structure

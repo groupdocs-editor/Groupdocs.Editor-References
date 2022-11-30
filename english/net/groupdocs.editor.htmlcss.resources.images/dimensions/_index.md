@@ -3,7 +3,7 @@ title: Dimensions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents the linear dimensions width and height of one raster rectangular image in arbitrary unit. Immutable struct.
 type: docs
-weight: 770
+weight: 360
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

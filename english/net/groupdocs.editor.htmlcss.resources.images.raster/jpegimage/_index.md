@@ -3,7 +3,7 @@ title: JpegImage
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one image in JPEG Joint Photographic Experts Group format with its metadata and additional methods
 type: docs
-weight: 890
+weight: 430
 url: /net/groupdocs.editor.htmlcss.resources.images.raster/jpegimage/
 ---
 ## JpegImage class

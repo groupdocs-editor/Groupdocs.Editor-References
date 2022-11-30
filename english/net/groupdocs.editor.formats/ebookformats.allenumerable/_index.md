@@ -3,7 +3,7 @@ title: EBookFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the EBookFormats type
 type: docs
-weight: 1150
+weight: 50
 url: /net/groupdocs.editor.formats/ebookformats.allenumerable/
 ---
 ## EBookFormats.AllEnumerable class

@@ -3,7 +3,7 @@ title: IDocumentFormat
 second_title: GroupDocs.Editor for .NET API Reference
 description: Root interface for all supporting document formats
 type: docs
-weight: 1090
+weight: 100
 url: /net/groupdocs.editor.formats/idocumentformat/
 ---
 ## IDocumentFormat interface

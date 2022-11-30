@@ -3,7 +3,7 @@ title: QuoteType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents quote characters  single quote  and double quote 
 type: docs
-weight: 680
+weight: 570
 url: /net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
 ## QuoteType enumeration

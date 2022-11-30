@@ -3,7 +3,7 @@ title: SpreadsheetFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the SpreadsheetFormats type
 type: docs
-weight: 1190
+weight: 140
 url: /net/groupdocs.editor.formats/spreadsheetformats.allenumerable/
 ---
 ## SpreadsheetFormats.AllEnumerable class

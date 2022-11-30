@@ -3,7 +3,7 @@ title: EBookFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all eBook formats. Includes the following file types Mobi./ebookformats/mobi Epub./ebookformats/epub Azw3./ebookformats/azw3
 type: docs
-weight: 1060
+weight: 40
 url: /net/groupdocs.editor.formats/ebookformats/
 ---
 ## EBookFormats structure

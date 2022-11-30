@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is false.
+Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is `false`.
 
 ```csharp
 public bool ConvertNumericData { get; set; }

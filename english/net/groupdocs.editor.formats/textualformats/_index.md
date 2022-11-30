@@ -3,7 +3,7 @@ title: TextualFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all textual textbased formats including markup XML HTML and others. Includes the following formats Html./textualformats/html Txt./textualformats/txt Xml./textualformats/xml. Md./textualformats/md Json./textualformats/json.
 type: docs
-weight: 150
+weight: 1120
 url: /net/groupdocs.editor.formats/textualformats/
 ---
 ## TextualFormats structure

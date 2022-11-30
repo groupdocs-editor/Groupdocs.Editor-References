@@ -3,7 +3,7 @@ title: FixedLayoutFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the FixedLayoutFormats type
 type: docs
-weight: 90
+weight: 1170
 url: /net/groupdocs.editor.formats/fixedlayoutformats.allenumerable/
 ---
 ## FixedLayoutFormats.AllEnumerable class

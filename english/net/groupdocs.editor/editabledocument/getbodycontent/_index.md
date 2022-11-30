@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a body of the HTML document content between opening and closing BODY tags without these tags as a string.
+description: Returns a body of the HTML document inner content between opening and closing BODY tags without these tags as a string.
 type: docs
 weight: 120
 url: /net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string.
+Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Return Value
 
-String, which contains the body of the HTML document
+String, which contains the body of the HTML document (without opening and closing BODY tags)
 
 ### Remarks
 
-WYSIWYG editors operate with the body of the document and cannot correctly process its meta information from the HEAD block. This method is designed for such cases. This overload doesn't allow to adjust URIs for external resource requests.
+Most of WYSIWYG editors usually operate with the inner content of the BODY of the document and cannot correctly process its meta information from the HEAD block. This method is designed for such cases. This overload doesn't allow to adjust URIs for external resource requests.
 
 ### See Also
 
@@ -32,7 +32,7 @@ WYSIWYG editors operate with the body of the document and cannot correctly proce
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix.
+Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Return Value
 
-String, which contains the body of the HTML document with links, adjusted to the external images
+String, which contains the body of the HTML document (without opening and closing BODY tags) with links, adjusted to the external images
 
 ### Remarks
 
-WYSIWYG editors operate with the body of the document and cannot correctly process its meta information from the HEAD block. This method is designed for such cases. This overload allows to adjust URIs for external resource requests.
+Most of WYSIWYG editors usually operate with the inner content of the BODY of the document and cannot correctly process its meta information from the HEAD block. This method is designed for such cases. This overload allows to adjust URIs for external resource requests.
 
 ### See Also
 

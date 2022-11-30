@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | String | String separator (delimiter) for text-based Spreadsheet documents |
+| separator | String | String separator (delimiter), that cannot be NULL or empty |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Is thrown when specxified separator is a null or empty string |
 
 ### See Also
 

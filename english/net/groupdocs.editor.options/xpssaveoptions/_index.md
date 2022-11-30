@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving XPS XML Paper Specifications documents
 type: docs
-weight: 1070
+weight: 580
 url: /net/groupdocs.editor.options/xpssaveoptions/
 ---
 ## XpsSaveOptions class

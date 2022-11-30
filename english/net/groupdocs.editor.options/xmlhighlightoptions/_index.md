@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains options that allow to customize the XML highlighting during XMLtoHTML conversion
 type: docs
-weight: 1050
+weight: 560
 url: /net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class

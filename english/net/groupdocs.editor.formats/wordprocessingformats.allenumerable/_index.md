@@ -3,7 +3,7 @@ title: WordProcessingFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the WordProcessingFormats type
 type: docs
-weight: 180
+weight: 1210
 url: /net/groupdocs.editor.formats/wordprocessingformats.allenumerable/
 ---
 ## WordProcessingFormats.AllEnumerable class

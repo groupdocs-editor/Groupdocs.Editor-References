@@ -3,7 +3,7 @@ title: WordProcessingFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all WordProcessing formats. Includes the following file types Doc./wordprocessingformats/doc Docm./wordprocessingformats/docm Docx./wordprocessingformats/docx Dot./wordprocessingformats/dot Dotm./wordprocessingformats/dotm Dotx./wordprocessingformats/dotx FlatOpc./wordprocessingformats/flatopc Odt./wordprocessingformats/odt Ott./wordprocessingformats/ott Rtf./wordprocessingformats/rtf WordML./wordprocessingformats/wordml. Learn more about Word Processing formats herehttps//wiki.fileformat.com/wordprocessing.
 type: docs
-weight: 170
+weight: 1130
 url: /net/groupdocs.editor.formats/wordprocessingformats/
 ---
 ## WordProcessingFormats structure

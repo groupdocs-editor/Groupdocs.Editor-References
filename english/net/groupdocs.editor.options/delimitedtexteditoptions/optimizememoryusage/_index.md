@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage/
 ---
 ## DelimitedTextEditOptions.OptimizeMemoryUsage property
 
-Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is false (memory optimization is disabled for the sake of better performance).
+Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is `false` (memory optimization is disabled for the sake of better performance).
 
 ```csharp
 public bool OptimizeMemoryUsage { get; set; }

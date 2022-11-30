@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving electronic mail email documents
 type: docs
-weight: 710
+weight: 140
 url: /net/groupdocs.editor.options/emailsaveoptions/
 ---
 ## EmailSaveOptions class

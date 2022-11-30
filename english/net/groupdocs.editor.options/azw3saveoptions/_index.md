@@ -3,7 +3,7 @@ title: Azw3SaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving the AZW3 ebooks also known as Kindle Format 8 KF8
 type: docs
-weight: 660
+weight: 90
 url: /net/groupdocs.editor.options/azw3saveoptions/
 ---
 ## Azw3SaveOptions class

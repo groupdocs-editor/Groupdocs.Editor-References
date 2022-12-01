@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains options for generating and saving textbased Spreadsheet documents CSV Tabbased etc. that use a separator delimiter
 type: docs
-weight: 680
+weight: 730
 url: /net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Name | Description |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Allows to set an encoding for the text-based Spreadsheet document. By default (and if not specified) is UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indicates whether separators should be output for blank row. Default value is false which means the content for blank row will be empty. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indicates whether separators should be output for blank row. Default value is `false` which means the content for blank row will be empty. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indicates whether leading blank rows and columns should be trimmed like what MS Excel does |
 

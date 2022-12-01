@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforbla
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Indicates whether separators should be output for blank row. Default value is false which means the content for blank row will be empty.
+Indicates whether separators should be output for blank row. Default value is `false` which means the content for blank row will be empty.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

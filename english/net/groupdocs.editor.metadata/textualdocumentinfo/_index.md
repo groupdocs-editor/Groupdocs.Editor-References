@@ -3,7 +3,7 @@ title: TextualDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents metadata of one textual document like XML HTML or plain text TXT
 type: docs
-weight: 630
+weight: 680
 url: /net/groupdocs.editor.metadata/textualdocumentinfo/
 ---
 ## TextualDocumentInfo structure

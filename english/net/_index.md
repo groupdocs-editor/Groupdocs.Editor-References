@@ -5,6 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Editor for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
+version: "22.11.0"
 ---
 ## Namespaces
 
@@ -19,6 +20,7 @@ is_root: true
 | [GroupDocs.Editor.HtmlCss.Resources.Fonts](./groupdocs.editor.htmlcss.resources.fonts) | The GroupDocs.Editor.HtmlCss.Resources.Fonts namespace provides classes that represent font resources. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images](./groupdocs.editor.htmlcss.resources.images) | The GroupDocs.Editor.HtmlCss.Resources.Images namespace provides classes that represent image resources of all types in general. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images.Raster](./groupdocs.editor.htmlcss.resources.images.raster) | The GroupDocs.Editor.HtmlCss.Resources.Images.Raster namespace provides classes that represent only raster image resources. |
+| [GroupDocs.Editor.HtmlCss.Resources.Images.Vector](./groupdocs.editor.htmlcss.resources.images.vector) | The GroupDocs.Editor.HtmlCss.Resources.Images.Vector namespace provides classes that represent only vector image resources. |
 | [GroupDocs.Editor.HtmlCss.Resources.Textual](./groupdocs.editor.htmlcss.resources.textual) | The GroupDocs.Editor.HtmlCss.Resources.Textual namespace provides classes that represent text resources. |
 | [GroupDocs.Editor.HtmlCss.Serialization](./groupdocs.editor.htmlcss.serialization) | The GroupDocs.Editor.HtmlCss.Serialization namespace provides types, that are responsible for tuning HTML and CSS markup serialization process. |
 | [GroupDocs.Editor.Metadata](./groupdocs.editor.metadata) | The GroupDocs.Editor.Metadata namespace provides classes for describing basic document properties dependent on document type. |

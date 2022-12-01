@@ -22,7 +22,7 @@ public sealed class EditableDocument : IAuxDisposable
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Returns a list of audio resources |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Returns a list of CSS resources |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Allows to obtain external font resources, which are used by this HTML document |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Allows to obtain external image resources (raster images), which are used by this HTML document |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Allows to obtain external image resources (raster and vector images), which are used by this HTML document |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Determines whether this Editable document was already disposed (true) or not (false) |
 
 ## Methods
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Static factory, that creates an instance of EditableDocument from a specified HTML markup and from resources, located in the folder, specified by the full path |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Disposes this Editable document instance, disposing its content and making its methods and properties non-working |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Returns overall content of the HTML document as a string. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. Returns empty list, if there is no CSS for this document. |

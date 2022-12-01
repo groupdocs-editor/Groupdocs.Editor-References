@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.htmlcss.css.datatypes/length/
 Represents a CSS length value in any supportable unit, including percentage and unitless type. Values may be integer or float, negative, zero and positive. Immutable structure.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 ```
 
 ## Properties

@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedeli
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Defines whether consecutive delimiters should be treated as one. By default is false.
+Defines whether consecutive delimiters should be treated as one. By default is `false`.
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

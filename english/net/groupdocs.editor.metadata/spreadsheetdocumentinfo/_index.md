@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents metadata of one Spreadsheet document
 type: docs
-weight: 620
+weight: 670
 url: /net/groupdocs.editor.metadata/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo structure

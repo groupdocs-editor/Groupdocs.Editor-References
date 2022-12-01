@@ -14,6 +14,12 @@ Allows to specify a string separator (delimiter) for text-based Spreadsheet docu
 public string Separator { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Is thrown when specified separator is a null or empty string |
+
 ### See Also
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

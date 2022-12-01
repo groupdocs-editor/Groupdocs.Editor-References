@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Interface for all saving options for all documents types. Declares no members.
 type: docs
-weight: 780
+weight: 840
 url: /net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

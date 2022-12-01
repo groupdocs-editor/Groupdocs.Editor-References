@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates one page range which can have open or closed bounds. By default is fully open  it includes all existing pages. Page numbering starts from 1 not from 0.
 type: docs
-weight: 810
+weight: 920
 url: /net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

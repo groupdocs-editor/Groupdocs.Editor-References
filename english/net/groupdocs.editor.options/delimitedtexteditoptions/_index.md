@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Options for loading textbased Spreadsheet documents CSV Tabbased etc. that use a separator delimiter
 type: docs
-weight: 670
+weight: 720
 url: /net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | Name | Description |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is false (memory optimization is disabled for the sake of better performance). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is `false`. |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is `false`. |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is `false` (memory optimization is disabled for the sake of better performance). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Defines whether consecutive delimiters should be treated as one. By default is false. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Defines whether consecutive delimiters should be treated as one. By default is `false`. |
 
 ### Remarks
 

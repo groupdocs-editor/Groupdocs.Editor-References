@@ -3,7 +3,7 @@ title: XmlText
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one textual resource which is a XML.
 type: docs
-weight: 510
+weight: 560
 url: /net/groupdocs.editor.htmlcss.resources.textual/xmltext/
 ---
 ## XmlText class

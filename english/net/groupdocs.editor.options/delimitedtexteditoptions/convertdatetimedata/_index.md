@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is false.
+Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is `false`.
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Editor for .NET API Reference
 description: The exception that is thrown when user tries to open a passwordprotected encrypted document of some format and doesnt provide a password for opening this document.
 type: docs
-weight: 1210
+weight: 1190
 url: /net/groupdocs.editor/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/markdownsaveoptions/optimizememoryusage/
 ---
 ## MarkdownSaveOptions.OptimizeMemoryUsage property
 
-Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. Setting this option to true can significantly decrease memory consumption while generating large documents at the cost of slower saving time. Default is false (memory optimization is disabled for the sake of better performance).
+Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. Setting this option to `true` can significantly decrease memory consumption while generating large documents at the cost of slower saving time. Default is `false` (memory optimization is disabled for the sake of better performance).
 
 ```csharp
 public bool OptimizeMemoryUsage { get; set; }

@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains available options for leading space handling during opening plain text document TXT
 type: docs
-weight: 1070
+weight: 1050
 url: /net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

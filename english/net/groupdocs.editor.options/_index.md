@@ -22,8 +22,7 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
 | [MarkdownEditOptions](./markdowneditoptions) | Allows to specify custom options for editing documents in Markdown (MD) format |
 | [MarkdownImageLoadArgs](./markdownimageloadargs) | Provides data for the ProcessImage event. |
-| [MarkdownImageSavingArgs](./markdownimagesavingargs) | Provides data for the ImageSaving event. |
-| [MarkdownSaveOptions](./markdownsaveoptions) | Allows to specify custom options for generating and saving Markdown documents after they were edited |
+| [MarkdownSaveOptions](./markdownsaveoptions) | Allows to specify custom options for generating and saving Markdown documents |
 | [MhtmlSaveOptions](./mhtmlsaveoptions) | Allows to specify custom options for generating and saving the MHTML (MIME encapsulation of aggregate HTML documents) documents |
 | [PdfEditOptions](./pdfeditoptions) | Allows to specify custom options for editing PDF documents |
 | [PdfLoadOptions](./pdfloadoptions) | Contains options for loading PDF documents into Editor class |
@@ -56,8 +55,7 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | --- | --- |
 | [IEditOptions](./ieditoptions) | Common interface for all options, which are responsible for document-to-HTML conversions. Declares no members. |
 | [ILoadOptions](./iloadoptions) | Common interface for all option classes, responsible for loading documents of different type formats |
-| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html. |
-| [IMarkdownImageSavingCallback](./imarkdownimagesavingcallback) | Implement this interface if you want to control how GroupDocs.Editor saves images when saving a document to Markdown. |
+| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | Implement this interface if you want to control how GroupDocs.Editor load images when loading the file in Markdown format |
 | [ISaveOptions](./isaveoptions) | Interface for all saving options for all documents types. Declares no members. |
 ## Enumeration
 
@@ -65,9 +63,9 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | --- | --- |
 | [FontEmbeddingOptions](./fontembeddingoptions) | Font embedding options controls which font resources should be embedded into the output WordProcessing or PDF document |
 | [FontExtractionOptions](./fontextractionoptions) | Font extraction options control which fonts should be extracted and from where |
-| [ImageLoadingAction](./imageloadingaction) | Specifies the mode of resource loading. |
 | [MailMessageOutput](./mailmessageoutput) | Controls which parts of the mail message should be delivered to the output processing |
-| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
+| [MarkdownImageLoadingAction](./markdownimageloadingaction) | Defines the mode of image loading while opening for editing the file in Markdown format |
+| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format |
 | [PdfCompliance](./pdfcompliance) | Specifies the PDF standards compliance level |
 | [TextDirection](./textdirection) | Represents 3 possible variants how to treat text direction in the plain text documents |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | Contains available options for leading space handling during opening plain text document (TXT) |

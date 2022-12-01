@@ -3,7 +3,7 @@ title: MarkdownImageLoadArgs
 second_title: GroupDocs.Editor for .NET API Reference
 description: Provides data for the ProcessImage event.
 type: docs
-weight: 890
+weight: 870
 url: /net/groupdocs.editor.options/markdownimageloadargs/
 ---
 ## MarkdownImageLoadArgs class
@@ -24,14 +24,14 @@ public class MarkdownImageLoadArgs
 
 | Name | Description |
 | --- | --- |
-| [ImageFileName](../../groupdocs.editor.options/markdownimageloadargs/imagefilename) { get; set; } | Gets or sets the file name (as is in the Markdown document) that will be process. |
+| [ImageFileName](../../groupdocs.editor.options/markdownimageloadargs/imagefilename) { get; set; } | Gets or sets the image filename (as is in the Markdown document) that was discovered in the Markdown code and is processing |
 | [IsAbsoluteUri](../../groupdocs.editor.options/markdownimageloadargs/isabsoluteuri) { get; set; } | Get a value indicating whether this image has absolute URI link. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetData](../../groupdocs.editor.options/markdownimageloadargs/setdata)(byte[]) | Sets user provided data of the resource which is used if ProcessImage |
+| [SetData](../../groupdocs.editor.options/markdownimageloadargs/setdata)(byte[]) | Sets user provided data of the image which is used in ProcessImage |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Allows to specify custom options for generating and saving Markdown documents after they were edited
+description: Allows to specify custom options for generating and saving Markdown documents
 type: docs
-weight: 910
+weight: 890
 url: /net/groupdocs.editor.options/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
 
-Allows to specify custom options for generating and saving Markdown documents after they were edited
+Allows to specify custom options for generating and saving Markdown documents
 
 ```csharp
 public sealed class MarkdownSaveOptions : ISaveOptions
@@ -24,14 +24,14 @@ public sealed class MarkdownSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSavingCallback](../../groupdocs.editor.options/markdownsaveoptions/imagesavingcallback) { get; set; } | Allows to control how images are saved when a document is saved to Markdown format. |
-| [ImagesFolder](../../groupdocs.editor.options/markdownsaveoptions/imagesfolder) { get; set; } | Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/markdownsaveoptions/optimizememoryusage) { get; set; } | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. Setting this option to true can significantly decrease memory consumption while generating large documents at the cost of slower saving time. Default is false (memory optimization is disabled for the sake of better performance). |
+| [ExportImagesAsBase64](../../groupdocs.editor.options/markdownsaveoptions/exportimagesasbase64) { get; set; } | Specifies whether images are saved in Base64 format to the output file. Default is `false`. |
+| [ImagesFolder](../../groupdocs.editor.options/markdownsaveoptions/imagesfolder) { get; set; } | Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is null. |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/markdownsaveoptions/optimizememoryusage) { get; set; } | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. Setting this option to `true` can significantly decrease memory consumption while generating large documents at the cost of slower saving time. Default is `false` (memory optimization is disabled for the sake of better performance). |
 | [TableContentAlignment](../../groupdocs.editor.options/markdownsaveoptions/tablecontentalignment) { get; set; } | Allow specifies how to align contents in tables when exporting into the Markdown format. The default value is Auto. |
 
 ### Remarks
 
-MarkdownSaveOptions is applied in situations when there is an instance of EditableDocument class, that contains an edited document content, and it is required to save this content to the new document of Markdown format.
+MarkdownSaveOptions class must be applied by the user when there is an instance of EditableDocument class, that contains an edited document content, and it is required to save this content to the new document of Markdown format.
 
 ### See Also
 

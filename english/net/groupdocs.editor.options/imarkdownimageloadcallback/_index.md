@@ -1,14 +1,14 @@
 ---
 title: IMarkdownImageLoadCallback
 second_title: GroupDocs.Editor for .NET API Reference
-description: Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html.
+description: Implement this interface if you want to control how GroupDocs.Editor load images when loading the file in Markdown format
 type: docs
 weight: 830
 url: /net/groupdocs.editor.options/imarkdownimageloadcallback/
 ---
 ## IMarkdownImageLoadCallback interface
 
-Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html.
+Implement this interface if you want to control how GroupDocs.Editor load images when loading the file in Markdown format
 
 ```csharp
 public interface IMarkdownImageLoadCallback
@@ -18,7 +18,7 @@ public interface IMarkdownImageLoadCallback
 
 | Name | Description |
 | --- | --- |
-| [ProcessImage](../../groupdocs.editor.options/imarkdownimageloadcallback/processimage)(MarkdownImageLoadArgs) | Called when GroupDocs.Editor load an image for converting Markdown to Html. |
+| [ProcessImage](../../groupdocs.editor.options/imarkdownimageloadcallback/processimage)(MarkdownImageLoadArgs) | Called when GroupDocs.Editor finds a link to the external image while parsing the Markdown code |
 
 ### See Also
 

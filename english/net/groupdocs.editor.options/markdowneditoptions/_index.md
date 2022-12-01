@@ -3,7 +3,7 @@ title: MarkdownEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for editing documents in Markdown MD format
 type: docs
-weight: 880
+weight: 860
 url: /net/groupdocs.editor.options/markdowneditoptions/
 ---
 ## MarkdownEditOptions class
@@ -24,7 +24,7 @@ public sealed class MarkdownEditOptions : IEditOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageLoadCallback](../../groupdocs.editor.options/markdowneditoptions/imageloadcallback) { get; set; } | Allows to control how images are saved when converting Markdown document to HTML |
+| [ImageLoadCallback](../../groupdocs.editor.options/markdowneditoptions/imageloadcallback) { get; set; } | Allows to control how external images are loaded when opening a Markdown document for editing |
 
 ### See Also
 

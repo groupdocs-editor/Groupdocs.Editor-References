@@ -1,26 +1,26 @@
 ---
 title: ProcessImage
 second_title: GroupDocs.Editor for .NET API Reference
-description: Called when GroupDocs.Editor load an image for converting Markdown to Html.
+description: Called when GroupDocs.Editor finds a link to the external image while parsing the Markdown code
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/imarkdownimageloadcallback/processimage/
 ---
 ## IMarkdownImageLoadCallback.ProcessImage method
 
-Called when GroupDocs.Editor load an image for converting Markdown to Html.
+Called when GroupDocs.Editor finds a link to the external image while parsing the Markdown code
 
 ```csharp
-public ImageLoadingAction ProcessImage(MarkdownImageLoadArgs args)
+public MarkdownImageLoadingAction ProcessImage(MarkdownImageLoadArgs args)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | MarkdownImageLoadArgs | The arguments. |
+| args | MarkdownImageLoadArgs | The arguments, provided by the GroupDocs.Editor to the end-user code |
 
 ### See Also
 
-* enum [ImageLoadingAction](../../imageloadingaction)
+* enum [MarkdownImageLoadingAction](../../markdownimageloadingaction)
 * class [MarkdownImageLoadArgs](../../markdownimageloadargs)
 * interface [IMarkdownImageLoadCallback](../../imarkdownimageloadcallback)
 * namespace [GroupDocs.Editor.Options](../../imarkdownimageloadcallback)

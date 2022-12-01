@@ -1,14 +1,14 @@
 ---
 title: SetData
 second_title: GroupDocs.Editor for .NET API Reference
-description: Sets user provided data of the resource which is used if ProcessImage
+description: Sets user provided data of the image which is used in ProcessImage
 type: docs
 weight: 40
 url: /net/groupdocs.editor.options/markdownimageloadargs/setdata/
 ---
 ## MarkdownImageLoadArgs.SetData method
 
-Sets user provided data of the resource which is used if ProcessImage
+Sets user provided data of the image which is used in ProcessImage
 
 ```csharp
 public void SetData(byte[] data)

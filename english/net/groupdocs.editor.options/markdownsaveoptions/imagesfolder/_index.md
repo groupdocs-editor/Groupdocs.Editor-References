@@ -1,22 +1,22 @@
 ---
 title: ImagesFolder
 second_title: GroupDocs.Editor for .NET API Reference
-description: Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string.
+description: Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is null.
 type: docs
 weight: 30
 url: /net/groupdocs.editor.options/markdownsaveoptions/imagesfolder/
 ---
 ## MarkdownSaveOptions.ImagesFolder property
 
-Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string.
+Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is null.
 
 ```csharp
 public string ImagesFolder { get; set; }
 ```
 
-### Property Value
+### Remarks
 
-The images folder.
+If neither the `ImagesFolder` nor [`ExportImagesAsBase64`](../exportimagesasbase64) are specified by the user, then the GroupDocs.Editor will try to determine the `ImagesFolder` by itself and apply it on success
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: XmlEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for loading XML eXtensible Markup Language documents and converting them to the HTML
 type: docs
-weight: 1170
+weight: 1150
 url: /net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class

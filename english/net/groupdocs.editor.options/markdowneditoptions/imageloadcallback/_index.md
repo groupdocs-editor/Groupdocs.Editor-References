@@ -1,14 +1,14 @@
 ---
 title: ImageLoadCallback
 second_title: GroupDocs.Editor for .NET API Reference
-description: Allows to control how images are saved when converting Markdown document to HTML
+description: Allows to control how external images are loaded when opening a Markdown document for editing
 type: docs
 weight: 20
 url: /net/groupdocs.editor.options/markdowneditoptions/imageloadcallback/
 ---
 ## MarkdownEditOptions.ImageLoadCallback property
 
-Allows to control how images are saved when converting Markdown document to HTML
+Allows to control how external images are loaded when opening a Markdown document for editing
 
 ```csharp
 public IMarkdownImageLoadCallback ImageLoadCallback { get; set; }
@@ -16,7 +16,7 @@ public IMarkdownImageLoadCallback ImageLoadCallback { get; set; }
 
 ### Property Value
 
-The image saving callback.
+The image loading callback, that should be provided by the user for correct loading of the external images
 
 ### See Also
 

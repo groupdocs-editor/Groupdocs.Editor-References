@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: GroupDocs.Editor for .NET API Reference
 description: Specifies the PDF standards compliance level
 type: docs
-weight: 950
+weight: 930
 url: /net/groupdocs.editor.options/pdfcompliance/
 ---
 ## PdfCompliance enumeration

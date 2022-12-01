@@ -1,14 +1,14 @@
 ---
 title: ImageFileName
 second_title: GroupDocs.Editor for .NET API Reference
-description: Gets or sets the file name as is in the Markdown document that will be process.
+description: Gets or sets the image filename as is in the Markdown document that was discovered in the Markdown code and is processing
 type: docs
 weight: 20
 url: /net/groupdocs.editor.options/markdownimageloadargs/imagefilename/
 ---
 ## MarkdownImageLoadArgs.ImageFileName property
 
-Gets or sets the file name (as is in the Markdown document) that will be process.
+Gets or sets the image filename (as is in the Markdown document) that was discovered in the Markdown code and is processing
 
 ```csharp
 public string ImageFileName { get; set; }

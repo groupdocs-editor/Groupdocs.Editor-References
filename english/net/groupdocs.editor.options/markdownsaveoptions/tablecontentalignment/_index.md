@@ -16,7 +16,7 @@ public MarkdownTableContentAlignment TableContentAlignment { get; set; }
 
 ### Property Value
 
-The table content alignment.
+The table content alignment
 
 ### See Also
 

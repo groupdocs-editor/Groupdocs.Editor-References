@@ -34,7 +34,7 @@ Immutable struct, that encapsulates a page range, which is not related to any sp
 | [getStartNumber()](#getStartNumber--) | Inclusive start page number, from which this page range starts. |
 | [getEndNumber()](#getEndNumber--) | Exclusive end page number, until which this page range continues and on which is stops exclusively. |
 | [getCount()](#getCount--) | Numbers of pages within range. |
-| [isDefault()](#isDefault--) | Indicates whether this instance represents a default "fully open" page range i.e. it consists all pages of a document |
+| [isDefault()](#isDefault--) | Indicates whether this instance represents a default "fully open" page range i.e. |
 | [equals(PageRange other)](#equals-com.groupdocs.editor.options.PageRange-) | Detects whether this instance of PageRange is equal to specified |
 | [fromBeginningWithCount(int pageCount)](#fromBeginningWithCount-int-) | Creates a page range, that starts from the first page and has specified amount of pages |
 | [fromStartPageTillEnd(int startPageNumber)](#fromStartPageTillEnd-int-) | Creates a page range, that starts from the specified page number and continues till the end of the document |

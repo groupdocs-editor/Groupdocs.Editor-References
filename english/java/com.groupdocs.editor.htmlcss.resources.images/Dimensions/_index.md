@@ -24,7 +24,7 @@ Represents the linear dimensions (width and height) of one raster rectangular im
 | --- | --- |
 | [getWidth()](#getWidth--) | Returns width of the image |
 | [getHeight()](#getHeight--) | Returns height of the image |
-| [isSquare()](#isSquare--) | Determines whether specified 'Dimensions' represents square, i.e. if width is equal to height |
+| [isSquare()](#isSquare--) | Determines whether specified 'Dimensions' represents square, i.e. |
 | [getArea()](#getArea--) | Returns an area (Width x Height) |
 | [isEmpty()](#isEmpty--) | Determines whether this "Dimensions" instance is empty and default, i.e. |
 | [getAspectRatio()](#getAspectRatio--) | Aspect ratio of this dimensions as width/height |
@@ -33,8 +33,8 @@ Represents the linear dimensions (width and height) of one raster rectangular im
 | [equals(Dimensions other)](#equals-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Determines whether this instance is equal with specified "Dimensions" instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal with specified uncasted object, which presumably is another "Dimensions" instance |
 | [hashCode()](#hashCode--) | Returns a hashcode for this instance, which cannot be changed during its lifetime |
-| [op_Equality(Dimensions first, Dimensions second)](#op-Equality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Checks whether two "Dimensions" values are equal, i.e. they have equal width and height, or both are empty |
-| [op_Inequality(Dimensions first, Dimensions second)](#op-Inequality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Checks whether two "Dimensions" values are not equal, i.e. their corresponding width and/or height are different |
+| [op_Equality(Dimensions first, Dimensions second)](#op-Equality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Checks whether two "Dimensions" values are equal, i.e. |
+| [op_Inequality(Dimensions first, Dimensions second)](#op-Inequality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Checks whether two "Dimensions" values are not equal, i.e. |
 | [toString()](#toString--) | Returns a string representation of this "Dimensions" |
 | [deepClone()](#deepClone--) | Returns a full copy of this instance |
 | [getEmpty()](#getEmpty--) | Returns an empty Dimensions instance |

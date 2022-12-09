@@ -29,7 +29,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [PresentationLoadOptions](../com.groupdocs.editor.options/presentationloadoptions) | Allows to specify custom options for loading documents of all supportable Presentation formats like PPT(X), PPTM, PPS(X) etc. |
 | [PresentationSaveOptions](../com.groupdocs.editor.options/presentationsaveoptions) | Allows to specify custom options for generating and saving Presentation (PowerPoint-compatible) documents |
 | [SpreadsheetEditOptions](../com.groupdocs.editor.options/spreadsheeteditoptions) | Allows to specify custom options for editing documents of all supportable Spreadsheet (Excel-compatible) formats |
-| [SpreadsheetLoadOptions](../com.groupdocs.editor.options/spreadsheetloadoptions) | Contains options for loading binary Spreadsheet (Cells, Excel-compatible) documents like XLS(X), ODS etc. into Editor class |
+| [SpreadsheetLoadOptions](../com.groupdocs.editor.options/spreadsheetloadoptions) | Contains options for loading binary Spreadsheet (Cells, Excel-compatible) documents like XLS(X), ODS etc. |
 | [SpreadsheetSaveOptions](../com.groupdocs.editor.options/spreadsheetsaveoptions) | Allows to specify custom options for generating and saving Spreadsheet (Excel-compliant) documents |
 | [TextDirection](../com.groupdocs.editor.options/textdirection) | Represents 3 possible variants how to treat text direction in the plain text documents |
 | [TextEditOptions](../com.groupdocs.editor.options/texteditoptions) | Allows to specify custom options for loading plain text (TXT) documents |
@@ -37,7 +37,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [TextSaveOptions](../com.groupdocs.editor.options/textsaveoptions) | Allows to specify custom options for generating and saving plain text (TXT) documents |
 | [TextTrailingSpacesOptions](../com.groupdocs.editor.options/texttrailingspacesoptions) | Contains available options for trailing space handling during opening plain text document (TXT) |
 | [WordProcessingEditOptions](../com.groupdocs.editor.options/wordprocessingeditoptions) | Allows to specify custom options for editing documents of all supportable WordProcessing (Words-compliant) formats like DOC(X), RTF, ODT etc. |
-| [WordProcessingLoadOptions](../com.groupdocs.editor.options/wordprocessingloadoptions) | Contains options for loading WordProcessing (Word-compatible) documents like DOC(X), RTF, ODT etc. into Editor class |
+| [WordProcessingLoadOptions](../com.groupdocs.editor.options/wordprocessingloadoptions) | Contains options for loading WordProcessing (Word-compatible) documents like DOC(X), RTF, ODT etc. |
 | [WordProcessingProtection](../com.groupdocs.editor.options/wordprocessingprotection) | Encapsulates document protection options for the WordProcessing document, which is generated from HTML |
 | [WordProcessingProtectionType](../com.groupdocs.editor.options/wordprocessingprotectiontype) | Represents all available protection types of the WordProcessing document |
 | [WordProcessingSaveOptions](../com.groupdocs.editor.options/wordprocessingsaveoptions) | Allows to specify custom options for generating and saving WordProcessing-compliant documents after they were edited |

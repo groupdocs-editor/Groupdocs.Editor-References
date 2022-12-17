@@ -20,7 +20,7 @@ public struct TextualDocumentInfo : IDocumentInfo
 | --- | --- |
 | [Encoding](../../groupdocs.editor.metadata/textualdocumentinfo/encoding) { get; } | Returns detected presumable encoding of the text document |
 | [Format](../../groupdocs.editor.metadata/textualdocumentinfo/format) { get; } | Returns a format of this textual document. May be not 100% correct in some cases. |
-| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | Always returns 'false', as textual documents cannot be encrypted. |
+| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | Always returns ``false``, as textual documents cannot be encrypted |
 | [PageCount](../../groupdocs.editor.metadata/textualdocumentinfo/pagecount) { get; } | Always returns 1 |
 | [Size](../../groupdocs.editor.metadata/textualdocumentinfo/size) { get; } | Returns size in bytes (not the number of characters) of this textual document |
 

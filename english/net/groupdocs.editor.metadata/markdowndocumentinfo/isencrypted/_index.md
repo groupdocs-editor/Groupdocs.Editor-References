@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-Because Markdown documents cannot be encrypted with password, this property always returns 'false'
+Because Markdown documents cannot be encrypted with password, this property always returns ``false`'
 
 ```csharp
 public bool IsEncrypted { get; }

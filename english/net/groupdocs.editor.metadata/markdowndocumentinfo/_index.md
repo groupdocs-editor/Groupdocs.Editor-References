@@ -19,7 +19,7 @@ public struct MarkdownDocumentInfo : IDocumentInfo, IEquatable<MarkdownDocumentI
 | Name | Description |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/markdowndocumentinfo/format) { get; } | Returns a format of this Markdown document — always is [`Md`](../../groupdocs.editor.formats/textualformats/md) |
-| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Because Markdown documents cannot be encrypted with password, this property always returns 'false' |
+| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Because Markdown documents cannot be encrypted with password, this property always returns ``false`' |
 | [PageCount](../../groupdocs.editor.metadata/markdowndocumentinfo/pagecount) { get; } | Returns number of pages. Markdown documents usually have no fixed pages and thus page count, so this number is calculated from standard page size set to A4 in portrait orientation. |
 | [Size](../../groupdocs.editor.metadata/markdowndocumentinfo/size) { get; } | Returns size in bytes of this Markdown document |
 

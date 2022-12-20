@@ -18,7 +18,7 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Name | Description |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Returns a list of audio resources |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Returns a list of CSS resources |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Allows to obtain external font resources, which are used by this HTML document |

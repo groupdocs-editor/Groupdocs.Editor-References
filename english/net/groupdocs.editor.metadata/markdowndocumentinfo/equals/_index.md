@@ -20,7 +20,7 @@ public bool Equals(MarkdownDocumentInfo other)
 
 ### Return Value
 
-True if are equal, false if are unequal
+`true` if are equal, `false` if are unequal
 
 ### See Also
 

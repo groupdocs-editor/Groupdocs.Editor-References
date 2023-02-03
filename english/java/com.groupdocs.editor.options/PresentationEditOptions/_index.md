@@ -3,7 +3,7 @@ title: PresentationEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for editing documents of all supportable Presentation PowerPoint-compatible formats
 type: docs
-weight: 21
+weight: 28
 url: /java/com.groupdocs.editor.options/presentationeditoptions/
 ---
 **Inheritance:**

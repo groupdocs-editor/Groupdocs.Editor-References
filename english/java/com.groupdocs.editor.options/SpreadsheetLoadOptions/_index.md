@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains options for loading binary Spreadsheet Cells Excel-compatible documents like XLSX ODS etc.
 type: docs
-weight: 25
+weight: 32
 url: /java/com.groupdocs.editor.options/spreadsheetloadoptions/
 ---
 **Inheritance:**

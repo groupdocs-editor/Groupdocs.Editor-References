@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for loading plain text TXT documents
 type: docs
-weight: 28
+weight: 35
 url: /java/com.groupdocs.editor.options/texteditoptions/
 ---
 **Inheritance:**

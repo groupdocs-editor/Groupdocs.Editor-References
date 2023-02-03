@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Font extraction options control which fonts should be extracted and from where
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.editor.options/fontextractionoptions/
 ---
 **Inheritance:**

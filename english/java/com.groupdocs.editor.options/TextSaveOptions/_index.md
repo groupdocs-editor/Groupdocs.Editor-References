@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving plain text TXT documents
 type: docs
-weight: 30
+weight: 37
 url: /java/com.groupdocs.editor.options/textsaveoptions/
 ---
 **Inheritance:**

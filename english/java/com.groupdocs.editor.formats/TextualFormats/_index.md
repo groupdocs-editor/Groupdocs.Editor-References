@@ -30,6 +30,8 @@ Encapsulates all textual (text-based) formats, including markup (XML, HTML) and 
 | [Txt](#Txt) | Plain Text Document (TXT) represents a text document that contains plain text in the form of lines. |
 | [Md](#Md) | Markdown is a lightweight markup language for creating formatted text using a plain-text editor. |
 | [Json](#Json) | JSON (JavaScript Object Notation) is an open standard file format for sharing data that uses human-readable text to store and transmit data. |
+| [Mhtml](#Mhtml) | MIME encapsulation of aggregate HTML documents is a web page archive format used to combine, in a single computer file, the HTML code and its companion resources. |
+| [Chm](#Chm) | Microsoft Compiled HTML Help is a Microsoft proprietary online help binary format, consisting of a collection of HTML pages, an index and other navigation tools. |
 | [All](#All) | Returns an internal class, that provides enumerable possibilities over all existing Textual formats. |
 ## Methods
 
@@ -106,6 +108,28 @@ JSON (JavaScript Object Notation) is an open standard file format for sharing da
 
 
 [here]: https://docs.fileformat.com/web/json/
+
+### Mhtml {#Mhtml}
+```
+public static final TextualFormats Mhtml
+```
+
+
+MIME encapsulation of aggregate HTML documents is a web page archive format used to combine, in a single computer file, the HTML code and its companion resources. Learn more about this file format  [here][] .
+
+
+[here]: https://docs.fileformat.com/web/mhtml/
+
+### Chm {#Chm}
+```
+public static final TextualFormats Chm
+```
+
+
+Microsoft Compiled HTML Help is a Microsoft proprietary online help binary format, consisting of a collection of HTML pages, an index and other navigation tools. Learn more about this file format  [here][] .
+
+
+[here]: https://docs.fileformat.com/web/chm/
 
 ### All {#All}
 ```

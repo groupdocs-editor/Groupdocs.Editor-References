@@ -25,11 +25,6 @@ Represents metadata of one Presentation document
 | [getSize()](#getSize--) | Returns size in bytes of this Presentation document |
 | [isEncrypted()](#isEncrypted--) | Indicates whether this specific Presentation document in encrypted and requires password for opening |
 | [generatePreview(int slideIndex)](#generatePreview-int-) | Generates and returns a preview of the selected slide in a form of SVG image |
-| [CloneTo(PresentationDocumentInfo that)](#CloneTo-com.groupdocs.editor.metadata.PresentationDocumentInfo-) |  |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [equals(PresentationDocumentInfo obj1, PresentationDocumentInfo obj2)](#equals-com.groupdocs.editor.metadata.PresentationDocumentInfo-com.groupdocs.editor.metadata.PresentationDocumentInfo-) |  |
 ### getFormat() {#getFormat--}
 ```
 public final PresentationFormats getFormat()
@@ -85,67 +80,3 @@ Generates and returns a preview of the selected slide in a form of SVG image
 
 **Returns:**
 [SvgImage](../../com.groupdocs.editor.htmlcss.resources.images.vector/svgimage) - SVG image as the non-null instance of the SvgImage class
-### CloneTo(PresentationDocumentInfo that) {#CloneTo-com.groupdocs.editor.metadata.PresentationDocumentInfo-}
-```
-public void CloneTo(PresentationDocumentInfo that)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [PresentationDocumentInfo](../../com.groupdocs.editor.metadata/presentationdocumentinfo) |  |
-
-### Clone() {#Clone--}
-```
-public PresentationDocumentInfo Clone()
-```
-
-
-
-
-**Returns:**
-[PresentationDocumentInfo](../../com.groupdocs.editor.metadata/presentationdocumentinfo)
-### clone() {#clone--}
-```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### equals(PresentationDocumentInfo obj1, PresentationDocumentInfo obj2) {#equals-com.groupdocs.editor.metadata.PresentationDocumentInfo-com.groupdocs.editor.metadata.PresentationDocumentInfo-}
-```
-public static boolean equals(PresentationDocumentInfo obj1, PresentationDocumentInfo obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [PresentationDocumentInfo](../../com.groupdocs.editor.metadata/presentationdocumentinfo) |  |
-| obj2 | [PresentationDocumentInfo](../../com.groupdocs.editor.metadata/presentationdocumentinfo) |  |
-
-**Returns:**
-boolean

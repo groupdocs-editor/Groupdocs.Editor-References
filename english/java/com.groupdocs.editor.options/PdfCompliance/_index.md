@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: GroupDocs.Editor for Java API Reference
 description: Specifies the PDF standards compliance level
 type: docs
-weight: 19
+weight: 26
 url: /java/com.groupdocs.editor.options/pdfcompliance/
 ---
 **Inheritance:**

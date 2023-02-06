@@ -43,6 +43,7 @@ Learn more about emails format [here][].
 | [Pst](#Pst) | Files with .pst extension represent Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. |
 | [Mbox](#Mbox) | MBox file format is a generic term that represents a container for collection of electronic mail messages. |
 | [Oft](#Oft) | Files with .oft extension are template files that are created using Microsoft Outlook. |
+| [Ost](#Ost) | Offline Storage Table (OST) file represents user\\u2019s mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. |
 | [All](#All) | Returns an internal class, that provides enumerable possibilities over all existing email formats |
 ## Methods
 
@@ -179,6 +180,17 @@ Files with .oft extension are template files that are created using Microsoft Ou
 
 
 [here]: https://docs.fileformat.com/email/oft/
+
+### Ost {#Ost}
+```
+public static final EmailFormats Ost
+```
+
+
+Offline Storage Table (OST) file represents user\\u2019s mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format  [here][] .
+
+
+[here]: https://docs.fileformat.com/email/ost/
 
 ### All {#All}
 ```

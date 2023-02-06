@@ -40,6 +40,7 @@ Instance of EditableDocument class can be produced by the Editor.edit() method o
 | [getContent(String externalImagesPrefix, String externalCssPrefix)](#getContent-java.lang.String-java.lang.String-) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
 | [getCssContent()](#getCssContent--) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
 | [getCssContent(String externalImagesPrefix, String externalFontsPrefix)](#getCssContent-java.lang.String-java.lang.String-) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
+| [getEmbeddedHtml()](#getEmbeddedHtml--) | Returns all content of this HTML document with all related resources in a form of a single string, where all resources are embedded inside the HTML markup in a base64-encoded form. |
 | [save(String htmlFilePath)](#save-java.lang.String-) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources. |
 | [save(String htmlFilePath, String resourcesFolderPath)](#save-java.lang.String-java.lang.String-) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources, which is located on specified path. |
 | [fromMarkup(String newHtmlContent, List<IHtmlResource> resources)](#fromMarkup-java.lang.String-java.util.List-com.groupdocs.editor.htmlcss.resources.IHtmlResource--) | Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources |
@@ -192,6 +193,16 @@ Returns content of all external stylesheets as a list of strings, where one stri
 
 **Returns:**
 java.util.List<java.lang.String> - A list of strings, where each string holds a content of one CSS document
+### getEmbeddedHtml() {#getEmbeddedHtml--}
+```
+public final String getEmbeddedHtml()
+```
+
+
+Returns all content of this HTML document with all related resources in a form of a single string, where all resources are embedded inside the HTML markup in a base64-encoded form.
+
+**Returns:**
+java.lang.String - String, which is not NULL or empty in any case
 ### save(String htmlFilePath) {#save-java.lang.String-}
 ```
 public final void save(String htmlFilePath)

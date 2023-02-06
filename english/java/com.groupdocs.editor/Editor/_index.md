@@ -1,7 +1,7 @@
 ---
 title: Editor
 second_title: GroupDocs.Editor for Java API Reference
-description: 
+description: Main class which encapsulates conversion methods.
 type: docs
 weight: 11
 url: /java/com.groupdocs.editor/editor/
@@ -14,6 +14,18 @@ java.lang.Object
 ```
 public final class Editor implements IAuxDisposable
 ```
+
+Main class, which encapsulates conversion methods. Editor class provides methods for loading, editing, and saving documents of all supportable formats. It is disposable, so use a 'using' directive or dispose its resources manually via 'Dispose()' method call. Document loading is performed through constructors. Document editing - through method 'Edit', and saving back to the resultant document after edit - through method 'Save'.
+
+Editor class should be considered as an entry point and the root object of the GroupDocs.Editor. All operations are performed using this class. Typical usage of the Editor class for performing a full document editing pipeline is the next:
+
+ *  Load a document into the Editor instance through its constructor.
+ *  Optionally, detect a document type using a  method.
+ *  Open a document for editing by calling an  method and obtaining an instance of  class from it..
+ *  Editing a document content on client-side using any WYSIWYG HTML-editor.
+ *  Creating a new instance of  from edited document content.
+ *  Saving an edited document to some output format by calling a  method.
+ *  Disposing an instance of Editor class via 'using' operator or manually.
 ## Constructors
 
 | Constructor | Description |

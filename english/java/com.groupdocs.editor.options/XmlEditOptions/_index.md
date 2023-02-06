@@ -3,7 +3,7 @@ title: XmlEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for loading XML eXtensible Markup Language documents and converting them to the HTML
 type: docs
-weight: 39
+weight: 46
 url: /java/com.groupdocs.editor.options/xmleditoptions/
 ---
 **Inheritance:**

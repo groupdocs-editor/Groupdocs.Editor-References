@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving electronic mail email documents
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.editor.options/emailsaveoptions/
 ---
 **Inheritance:**

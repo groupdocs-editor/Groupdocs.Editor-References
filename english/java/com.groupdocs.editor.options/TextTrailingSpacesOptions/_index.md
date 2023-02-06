@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains available options for trailing space handling during opening plain text document TXT
 type: docs
-weight: 31
+weight: 38
 url: /java/com.groupdocs.editor.options/texttrailingspacesoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: GroupDocs.Editor for .NET API Reference
 description: The value has unitless type but is not a zero  positive or negative number
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

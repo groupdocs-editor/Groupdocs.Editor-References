@@ -3,7 +3,7 @@ title: IsInteger
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether the numeric value of this Length instance was originally specified and stored as an integer INT32 number
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/isinteger/
 ---
 ## Length.IsInteger property

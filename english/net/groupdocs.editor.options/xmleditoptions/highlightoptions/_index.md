@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Allows to adjust the highlighting that will be applied to the XML structure when it is represented in HTML. By default is NULL  default highlighting is applied.
+description: Allows to adjust the XML highlighting that will be applied to the XML structure when it is represented in HTML. Default highlighting is used and is adjustable. Cannot be null.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL — default highlighting is applied.
+Allows to adjust the XML highlighting, that will be applied to the XML structure, when it is represented in HTML. Default highlighting is used and is adjustable. Cannot be null.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### See Also

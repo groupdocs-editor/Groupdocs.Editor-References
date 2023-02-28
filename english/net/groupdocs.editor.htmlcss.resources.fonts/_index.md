@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Resources.Fonts namespace provides classes that represent font resources.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Fonts namespace provides classes that represent font resources.

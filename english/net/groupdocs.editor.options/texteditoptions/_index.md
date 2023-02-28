@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for loading plain text TXT documents
 type: docs
-weight: 1040
+weight: 1140
 url: /net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

@@ -3,7 +3,7 @@ title: IsUnitlessZero
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this instance is a unitless zero or not. Unitless zero is default value of this type. Same as IsDefault property.
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero/
 ---
 ## Length.IsUnitlessZero property

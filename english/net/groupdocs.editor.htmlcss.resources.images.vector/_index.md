@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Vector
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Resources.Images.Vector namespace provides classes that represent only vector image resources.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Images.Vector namespace provides classes that represent only vector image resources.

@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: GroupDocs.Editor for .NET API Reference
 description: Responsible for representing the font of XML tags angle brackets with tag names
 type: docs
-weight: 130
+weight: 70
 url: /net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Responsible for representing the font of XML tags (angle brackets with tag names)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### See Also
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namespace [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * assembly [GroupDocs.Editor](../../../)

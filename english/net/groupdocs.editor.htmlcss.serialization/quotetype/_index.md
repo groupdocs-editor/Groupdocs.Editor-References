@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents quote characters  single quote  and double quote 
 type: docs
-weight: 570
+weight: 670
 url: /net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Represents quote characters - single quote (') and double quote (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Values
+## Properties
 
-| Name | Value | Description |
-| --- | --- | --- |
-| SingleQuote | `39` | Single quote (U+0027 APOSTROPHE character) |
-| DoubleQuote | `34` | Double quote (U+0022 QUOTATION MARK character) |
+| Name | Description |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Character to enquote |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Code point of the current character (U+0027 or U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | HTML-encoded character |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indicates whether this instance of the quote type is equal to specified uncasted |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indicates whether this instance of the quote type is equal to specified |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Returns a hash-code for this character |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Checks whether two "QuoteType" values are equal |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Casts specified [`QuoteType`](../quotetype) instance to the Char (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Checks whether two "QuoteType" values are not equal |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Double quote (U+0022 QUOTATION MARK character) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Single quote (U+0027 APOSTROPHE character) |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Exceptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Exceptions namespace provides classes that are responsible for all HTML CSS images fonts and other resourcerelated processing.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.editor.htmlcss.exceptions/
 ---
 The GroupDocs.Editor.HtmlCss.Exceptions namespace provides classes that are responsible for all HTML-, CSS-, images-, fonts-, and other resource-related processing.

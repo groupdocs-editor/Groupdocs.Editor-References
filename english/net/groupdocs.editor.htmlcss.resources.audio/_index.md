@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Audio
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Resources.Audio namespace provides types that represent audio resources.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.editor.htmlcss.resources.audio/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Audio namespace provides types that represent audio resources.

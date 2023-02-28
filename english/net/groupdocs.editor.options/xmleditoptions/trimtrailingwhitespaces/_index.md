@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to enable the truncation of trailing whitespaces in the innertag text. By default is disabled false  trailing whitespaces will be preserved.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

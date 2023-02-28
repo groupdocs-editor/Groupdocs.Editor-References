@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a full copy of this ratio
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.editor.htmlcss.css.datatypes/ratio/clone/
 ---
 ## Ratio.Clone method

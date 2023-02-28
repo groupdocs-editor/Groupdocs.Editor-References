@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Allows to specify custom options for loading XML eXtensible Markup Language documents and converting them to the HTML
+description: Allows to specify custom options for editing XML eXtensible Markup Language documents and converting them to the HTML
 type: docs
-weight: 1150
+weight: 1270
 url: /net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-Allows to specify custom options for loading XML (eXtensible Markup Language) documents and converting them to the HTML
+Allows to specify custom options for editing XML (eXtensible Markup Language) documents and converting them to the HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Allows to specify quote type (single or double quotes) for attribute values. Double quotes are default. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Character encoding of the text document, which will be applied for its opening. By default is null — internal document encoding will be applied. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Allows to enable or disable mechanism for fixing corrupted XML structure. By default is disabled (false). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL — default highlighting is applied. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | Allows to adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. Default formatting is used and is adjustable. Cannot be null. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | Allows to adjust the XML highlighting, that will be applied to the XML structure, when it is represented in HTML. Default highlighting is used and is adjustable. Cannot be null. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Allows to enable recognition algorithm for email addresses in attribute values |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | Allows to enable URI recognition algorithm |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | Allows to enable the truncation of trailing whitespaces in the inner-tag text. By default is disabled (false) — trailing whitespaces will be preserved. |

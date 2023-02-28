@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.Metadata namespace provides classes for describing basic document properties dependent on document type.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.editor.metadata/
 ---
 The GroupDocs.Editor.Metadata namespace provides classes for describing basic document properties dependent on document type.

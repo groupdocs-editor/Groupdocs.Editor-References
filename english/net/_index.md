@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Editor for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "22.12.0"
+version: "23.2.0"
 ---
 ## Namespaces
 
@@ -14,6 +14,7 @@ version: "22.12.0"
 | [GroupDocs.Editor](./groupdocs.editor) | The GroupDocs.Editor namespace provides classes for editing documents using 3rd party front-end WYSIWYG editors without any additional applications. |
 | [GroupDocs.Editor.Formats](./groupdocs.editor.formats) | The GroupDocs.Editor.Formats namespace provides interfaces and classes that describes supported document formats. |
 | [GroupDocs.Editor.HtmlCss.Css.DataTypes](./groupdocs.editor.htmlcss.css.datatypes) | The GroupDocs.Editor.HtmlCss.Css.DataTypes namespace provides classes that represent CSS data types. |
+| [GroupDocs.Editor.HtmlCss.Css.Properties](./groupdocs.editor.htmlcss.css.properties) | The GroupDocs.Editor.HtmlCss.Css.Properties namespace provides types that represent different CSS properties (components of CSS declarations). |
 | [GroupDocs.Editor.HtmlCss.Exceptions](./groupdocs.editor.htmlcss.exceptions) | The GroupDocs.Editor.HtmlCss.Exceptions namespace provides classes that are responsible for all HTML-, CSS-, images-, fonts-, and other resource-related processing. |
 | [GroupDocs.Editor.HtmlCss.Resources](./groupdocs.editor.htmlcss.resources) | The GroupDocs.Editor.HtmlCss.Resources namespace provides classes that represent all kinds of the HTML resources. |
 | [GroupDocs.Editor.HtmlCss.Resources.Audio](./groupdocs.editor.htmlcss.resources.audio) | The GroupDocs.Editor.HtmlCss.Resources.Audio namespace provides types that represent audio resources. |

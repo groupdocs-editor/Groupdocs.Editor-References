@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains options that allow to customize the XML highlighting during XMLtoHTML conversion
 type: docs
-weight: 1160
+weight: 1290
 url: /net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ Contains options, that allow to customize the XML highlighting during XML-to-HTM
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Defines color for the font of attribute names |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Responsible for representing the font of attribute names |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Defines color for the font of attribute values |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Responsible for representing the font of attribute values |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Defines color for the font of CDATA sections (including pair of opening and closing tags) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Responsible for representing the font of CDATA sections (including pair of opening and closing tags) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Defines color for the font of HTML comments (including pair of opening and closing tags) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Responsible for representing the font of HTML comments (including pair of opening and closing tags) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Defines color for the font of inner-tag text |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Responsible for representing the font of inner-tag text |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Defines color for the font of XML tags (angle brackets with tag names) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Responsible for representing the font of XML tags (angle brackets with tag names) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Responsible for representing the font of attribute names |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Responsible for representing the font of attribute values |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Responsible for representing the font of CDATA sections (including pair of opening and closing tags) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Responsible for representing the font of HTML comments (including pair of opening and closing tags) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Responsible for representing the font of inner-tag text |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Determines whether this XML Highlight options object has a default font settings |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Responsible for representing the font of XML tags (angle brackets with tag names) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Resets the current font settings to their default values |
 
 ### See Also
 

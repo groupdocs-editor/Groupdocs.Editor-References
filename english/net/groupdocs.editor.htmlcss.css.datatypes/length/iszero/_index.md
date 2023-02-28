@@ -3,7 +3,7 @@ title: IsZero
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether the numeric value of this length is a zero number
 type: docs
-weight: 180
+weight: 170
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/iszero/
 ---
 ## Length.IsZero property

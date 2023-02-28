@@ -3,7 +3,7 @@ title: WmfImage
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one vector image in WMF Windows MetaFile format with its metadata and additional methods
 type: docs
-weight: 510
+weight: 610
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/wmfimage/
 ---
 ## WmfImage class

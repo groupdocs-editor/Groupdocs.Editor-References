@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Resources namespace provides classes that represent all kinds of the HTML resources.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.editor.htmlcss.resources/
 ---
 The GroupDocs.Editor.HtmlCss.Resources namespace provides classes that represent all kinds of the HTML resources.

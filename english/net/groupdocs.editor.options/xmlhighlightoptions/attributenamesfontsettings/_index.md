@@ -3,7 +3,7 @@ title: AttributeNamesFontSettings
 second_title: GroupDocs.Editor for .NET API Reference
 description: Responsible for representing the font of attribute names
 type: docs
-weight: 30
+weight: 10
 url: /net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeNamesFontSettings property
@@ -11,11 +11,12 @@ url: /net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsetting
 Responsible for representing the font of attribute names
 
 ```csharp
-public Font AttributeNamesFontSettings { get; set; }
+public WebFont AttributeNamesFontSettings { get; }
 ```
 
 ### See Also
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namespace [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * assembly [GroupDocs.Editor](../../../)

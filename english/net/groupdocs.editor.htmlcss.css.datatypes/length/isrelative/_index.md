@@ -3,7 +3,7 @@ title: IsRelative
 second_title: GroupDocs.Editor for .NET API Reference
 description: Gets if the length is given in relative units. Such a length cannot be converted to pixels.
 type: docs
-weight: 150
+weight: 140
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property

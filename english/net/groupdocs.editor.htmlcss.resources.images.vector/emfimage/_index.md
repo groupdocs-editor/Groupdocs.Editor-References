@@ -3,7 +3,7 @@ title: EmfImage
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one vector image in Enhanced metafile format EMF format with its metadata and additional methods
 type: docs
-weight: 470
+weight: 570
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/emfimage/
 ---
 ## EmfImage class

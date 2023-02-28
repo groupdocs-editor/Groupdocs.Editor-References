@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Options
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.Options namespace provides interfaces for load and save options.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.editor.options/
 ---
 The GroupDocs.Editor.Options namespace provides interfaces for load and save options.
@@ -35,12 +35,14 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | Allows to specify custom options for generating and saving Spreadsheet (Excel-compliant) documents |
 | [TextEditOptions](./texteditoptions) | Allows to specify custom options for loading plain text (TXT) documents |
 | [TextSaveOptions](./textsaveoptions) | Allows to specify custom options for generating and saving plain text (TXT) documents |
+| [WebFont](./webfont) | Represents a font settings for the web |
 | [WordProcessingEditOptions](./wordprocessingeditoptions) | Allows to specify custom options for editing documents of all supportable WordProcessing (Words-compliant) formats like DOC(X), RTF, ODT etc. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Contains options for loading WordProcessing (Word-compatible) documents like DOC(X), RTF, ODT etc. into Editor class |
 | [WordProcessingProtection](./wordprocessingprotection) | Encapsulates document protection options for the WordProcessing document, which is generated from HTML |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | Allows to specify custom options for generating and saving WordProcessing-compliant documents after they were edited |
 | [WorksheetProtection](./worksheetprotection) | Encapsulates worksheet protection options, which allow to protect a worksheet in the output Spreadsheet document from modification of specified type with a specified password. |
-| [XmlEditOptions](./xmleditoptions) | Allows to specify custom options for loading XML (eXtensible Markup Language) documents and converting them to the HTML |
+| [XmlEditOptions](./xmleditoptions) | Allows to specify custom options for editing XML (eXtensible Markup Language) documents and converting them to the HTML |
+| [XmlFormatOptions](./xmlformatoptions) | Contains options, that allow to adjust the formatting of XML document, when it is represented as HTML |
 | [XmlHighlightOptions](./xmlhighlightoptions) | Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion |
 | [XpsEditOptions](./xpseditoptions) | Allows to specify custom options for editing (XML Paper Specifications) documents |
 | [XpsSaveOptions](./xpssaveoptions) | Allows to specify custom options for generating and saving XPS (XML Paper Specifications) documents |
@@ -67,6 +69,7 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [MarkdownImageLoadingAction](./markdownimageloadingaction) | Defines the mode of image loading while opening for editing the file in Markdown format |
 | [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format |
 | [PdfCompliance](./pdfcompliance) | Specifies the PDF standards compliance level |
+| [WebFont.TextDecorationLine](./webfont.textdecorationline) | Kinds of decoration line that is used on text in an element, such as an underline, overline or line-through. May be combined together, or no one. |
 | [TextDirection](./textdirection) | Represents 3 possible variants how to treat text direction in the plain text documents |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | Contains available options for leading space handling during opening plain text document (TXT) |
 | [TextTrailingSpacesOptions](./texttrailingspacesoptions) | Contains available options for trailing space handling during opening plain text document (TXT) |

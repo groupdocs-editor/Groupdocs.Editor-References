@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a CSS length value in any supportable unit including percentage and unitless type. Values may be integer or float negative zero and positive. Immutable structure.
 type: docs
-weight: 190
+weight: 260
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure
@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.htmlcss.css.datatypes/length/
 Represents a CSS length value in any supportable unit, including percentage and unitless type. Values may be integer or float, negative, zero and positive. Immutable structure.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 ```
 
 ## Properties
@@ -21,7 +21,6 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | Returns a float numeric value of the Length instance. Never throws an exception - converts Integer value to Float if necessary. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | Returns an integer numeric value of this Length instance, if it is internally stored as an integer, or throws an exception, if it was originally stored as a float number. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | Gets if the length is given in absolute units. Such a length may be converted to pixels. |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | Indicates whether this Length instance has a default value — unitless zero. Same as IsUnitlessZero property. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | Indicates whether the numeric value of this Length instance was originally specified and stored as a float (FP32) number |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | Indicates whether the numeric value of this Length instance was originally specified and stored as an integer (INT32) number |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | Determines whether the numeric value of this length is a negative number |
@@ -52,6 +51,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | static [TryParse](../../groupdocs.editor.htmlcss.css.datatypes/length/tryparse)(string, out Length) | Tries to parse a specified string as a Length value, including its numeric value and unit name |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/length/op_equality) | Checks the equality of the two given lengths. |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/length/op_inequality) | Checks the inequality of the two given lengths. |
+| [operator *](../../groupdocs.editor.htmlcss.css.datatypes/length/op_multiply) | Multiplicates the given Length onto the given factor |
 
 ## Fields
 
@@ -74,6 +74,7 @@ This type covers the next CSS data types: https://developer.mozilla.org/en-US/do
 
 ### See Also
 
+* interface [ICssDataType](../icssdatatype)
 * namespace [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * assembly [GroupDocs.Editor](../../)
 

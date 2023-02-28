@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Serialization namespace provides types that are responsible for tuning HTML and CSS markup serialization process.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.editor.htmlcss.serialization/
 ---
 The GroupDocs.Editor.HtmlCss.Serialization namespace provides types, that are responsible for tuning HTML and CSS markup serialization process.
 
-## Enumeration
+## Structures
 
-| Enumeration | Description |
+| Structure | Description |
 | --- | --- |
 | [QuoteType](./quotetype) | Represents quote characters - single quote (') and double quote (") |
 

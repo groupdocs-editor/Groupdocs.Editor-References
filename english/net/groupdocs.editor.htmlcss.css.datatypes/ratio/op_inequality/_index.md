@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Compares two ratios and returns a boolean indicating if the two do not match.
 type: docs
-weight: 140
+weight: 130
 url: /net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality/
 ---
 ## Ratio Inequality operator

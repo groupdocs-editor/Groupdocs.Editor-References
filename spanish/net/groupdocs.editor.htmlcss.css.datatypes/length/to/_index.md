@@ -3,7 +3,7 @@ title: To
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Convierte la longitud a la unidad dada si es posible. Si el current o la unidad dada es relativa se lanzará una excepción.
 type: docs
-weight: 240
+weight: 230
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/to/
 ---
 ## Length.To method

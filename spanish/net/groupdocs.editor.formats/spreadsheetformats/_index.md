@@ -26,7 +26,7 @@ public struct SpreadsheetFormats : IDocumentFormat, IEquatable<SpreadsheetFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Devuelve instancia de[`SpreadsheetFormats`](../spreadsheetformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
+| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Devuelve instancia de[`SpreadsheetFormats`](../spreadsheetformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals)(IDocumentFormat) | Determina si esta instancia es igual a la otra instancia de IDocumentFormat especificada |
 | override [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_2)(object) | Determina si esta instancia es igual al otro objeto especificado, que presumiblemente es de SpreadsheetFormats en caja |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_1)(SpreadsheetFormats) | Determina si esta instancia es igual a la otra instancia de SpreadsheetFormats especificada |

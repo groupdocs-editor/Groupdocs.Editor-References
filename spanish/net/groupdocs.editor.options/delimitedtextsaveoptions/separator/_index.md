@@ -14,6 +14,12 @@ Permite especificar un separador de cadena (delimitador) para documentos de hoja
 public string Separator { get; set; }
 ```
 
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| ArgumentException | Se lanza cuando el separador especificado es una cadena nula o vacía |
+
 ### Ver también
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

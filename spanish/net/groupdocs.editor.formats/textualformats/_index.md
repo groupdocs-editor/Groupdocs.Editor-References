@@ -26,7 +26,7 @@ public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Devuelve instancia de[`TextualFormats`](../textualformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
+| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Devuelve instancia de[`TextualFormats`](../textualformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | Determina si esta instancia es igual a la otra instancia de IDocumentFormat especificada |
 | override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | Determina si esta instancia es igual al otro objeto especificado, que presumiblemente es de TextualFormats en caja |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | Determina si esta instancia es igual a la otra instancia de TextualFormats especificada |

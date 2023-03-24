@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve instancia deEBookFormatsgroupdocs.editor.formats/ebookformatsestructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
+description: Devuelve instancia deEBookFormatsgroupdocs.editor.formats/ebookformats estructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
 type: docs
 weight: 40
 url: /es/net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-Devuelve instancia de[`EBookFormats`](../../ebookformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
+Devuelve instancia de[`EBookFormats`](../../ebookformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EBookFormats FromExtension(string extension)
 
 ### Valor_devuelto
 
-En vez de[`EBookFormats`](../../ebookformats) estructura en caso de éxito o excepción lanzada en caso de error
+En vez de[`EBookFormats`](../../ebookformats)estructura en caso de éxito o excepción lanzada en caso de error
 
 ### Ver también
 

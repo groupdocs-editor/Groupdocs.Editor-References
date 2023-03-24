@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Devuelve instancia de[`EBookFormats`](../ebookformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Devuelve instancia de[`EBookFormats`](../ebookformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | Determina si esta instancia es igual a la otra instancia de EBookFormats especificada |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | Determina si esta instancia es igual a la otra instancia de IDocumentFormat especificada |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | Determina si esta instancia es igual al otro objeto especificado, que presumiblemente es de EBookFormats en caja |
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### Observaciones
 
-Más información sobre el formato Mobi[aquí](https://docs.fileformat.com/ebook/mobi/) sobre el formato AZW3[aquí](https://docs.fileformat.com/ebook/azw3/) y sobre el formato ePub[aquí](https://docs.fileformat.com/ebook/epub/) .
+Más información sobre el formato Mobi[aquí](https://docs.fileformat.com/ebook/mobi/) , sobre el formato AZW3[aquí](https://docs.fileformat.com/ebook/azw3/) y sobre el formato ePub[aquí](https://docs.fileformat.com/ebook/epub/) .
 
 ### Ver también
 

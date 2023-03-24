@@ -16,7 +16,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Versión del documento de entrada, que se editó en el editor HTML WYSIWYG y se almacena como instancia de '[`EditableDocument`](../../editabledocument)class, que debe convertirse en un documento de salida de algún formato específico. No debe ser nulo o enajenado. |
+| inputDocument | EditableDocument | Versión del documento de entrada, que se editó en el editor HTML WYSIWYG y se almacena como instancia de '[`EditableDocument`](../../editabledocument) class, que debe convertirse en un documento de salida de algún formato específico. No debe ser nulo o enajenado. |
 | outputDocument | Stream | Flujo de salida, en el que se registrará el contenido del documento resultante. No debe ser nulo, enajenado, debe sustentar escritura. |
 | saveOptions | ISaveOptions | Opciones de guardado de documentos, que definen el formato del documento resultante, y también opciones de guardado generales y específicas del formato. No debe ser nulo. |
 
@@ -46,7 +46,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Versión del documento de entrada, que se editó en el editor HTML WYSIWYG y se almacena como instancia de '[`EditableDocument`](../../editabledocument)class, que debe convertirse en un documento de salida de algún formato específico. No debe ser nulo o enajenado. |
+| inputDocument | EditableDocument | Versión del documento de entrada, que se editó en el editor HTML WYSIWYG y se almacena como instancia de '[`EditableDocument`](../../editabledocument) class, que debe convertirse en un documento de salida de algún formato específico. No debe ser nulo o enajenado. |
 | filePath | String | Ruta al archivo, en el que se guardará el documento de salida. Si existe un archivo con el mismo nombre, se reescribirá por completo. La cadena con la ruta no debe ser nula, estar vacía o contener solo espacios en blanco. |
 | saveOptions | ISaveOptions | Opciones de guardado de documentos, que definen el formato del documento resultante, y también opciones de guardado generales y específicas del formato. No debe ser nulo. |
 

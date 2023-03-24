@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.HtmlCss.Serialization proporciona tipos que son responsables de ajustar el proceso de serialización de marcado HTML y CSS.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/groupdocs.editor.htmlcss.serialization/
 ---
 El espacio de nombres GroupDocs.Editor.HtmlCss.Serialization proporciona tipos que son responsables de ajustar el proceso de serialización de marcado HTML y CSS.
 
-## Enumeración
+## Estructuras
 
-| Enumeración | Descripción |
+| Estructura | Descripción |
 | --- | --- |
 | [QuoteType](./quotetype) | Representa caracteres de comillas: comillas simples (') y comillas dobles (") |
 

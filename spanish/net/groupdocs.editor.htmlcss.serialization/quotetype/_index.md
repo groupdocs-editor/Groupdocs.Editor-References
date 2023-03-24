@@ -3,23 +3,42 @@ title: QuoteType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa caracteres de comillas comillas simples  y comillas dobles 
 type: docs
-weight: 520
+weight: 670
 url: /es/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Representa caracteres de comillas: comillas simples (') y comillas dobles (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Valores
+## Propiedades
 
-| Nombre | Valor | Descripción |
-| --- | --- | --- |
-| SingleQuote | `39` | Comillas simples (U+0027 APOSTROPHE character) |
-| DoubleQuote | `34` | Comillas dobles (U+0022 carácter de comillas) |
+| Nombre | Descripción |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Carácter a citar |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Punto de código del carácter actual (U+0027 o U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | carácter codificado en HTML |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indica si esta instancia del tipo de cotización es igual a uncasted especificado |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indica si esta instancia del tipo de cotización es igual a la especificada |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Devuelve un código hash para este carácter |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Comprueba si dos valores de "QuoteType" son iguales |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Repartos especificados[`QuoteType`](../quotetype) instancia a laChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Comprueba si dos valores de "QuoteType" no son iguales |
+
+## Campos
+
+| Nombre | Descripción |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Comillas dobles (U+0022 carácter de comillas) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Comillas simples (U+0027 APOSTROPHE character) |
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para generar y guardar documentos de hoja de cálculo compatibles con Excel
 type: docs
-weight: 910
+weight: 1120
 url: /es/net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class
@@ -24,7 +24,7 @@ public sealed class SpreadsheetSaveOptions : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [InsertAsNewWorksheet](../../groupdocs.editor.options/spreadsheetsaveoptions/insertasnewworksheet) { get; set; } | Indicador booleano, que especifica si la hoja de trabajo editada debe reemplazar la hoja de trabajo existente en la hoja de cálculo original en la posición, especificada por el[`WorksheetNumber`](./worksheetnumber) property, o debe insertarse entre la hoja de trabajo existente y la anterior, sin reemplazar su contenido. Por defecto es falso: se reemplazará la hoja de trabajo existente. Esta propiedad se ignora si el valor de[`WorksheetNumber`](./worksheetnumber) la propiedad se establece en '0'. |
+| [InsertAsNewWorksheet](../../groupdocs.editor.options/spreadsheetsaveoptions/insertasnewworksheet) { get; set; } | Indicador booleano, que especifica si la hoja de trabajo editada debe reemplazar la hoja de trabajo existente en la hoja de cálculo original en la posición, especificada por el[`WorksheetNumber`](./worksheetnumber) property, o debe insertarse entre la hoja de trabajo existente y la anterior, sin reemplazar su contenido. Por defecto es falso: la hoja de trabajo existente será reemplazada. Esta propiedad se ignora si el valor de[`WorksheetNumber`](./worksheetnumber) la propiedad se establece en '0'. |
 | [OutputFormat](../../groupdocs.editor.options/spreadsheetsaveoptions/outputformat) { get; set; } | Permite especificar un formato de hoja de cálculo, que se utilizará para guardar el documento |
 | [Password](../../groupdocs.editor.options/spreadsheetsaveoptions/password) { get; set; } | Permite especificar, modificar, obtener o eliminar una contraseña, que se utilizará para codificar el documento de hoja de cálculo generado, si este formato de documento admite la protección con contraseña. Especifique NULL o una cadena vacía para eliminar (limpiar) la contraseña. |
 | [WorksheetNumber](../../groupdocs.editor.options/spreadsheetsaveoptions/worksheetnumber) { get; set; } | Permite insertar la hoja de cálculo editada en una copia de la hoja de cálculo existente en lugar de crear una nueva hoja de cálculo de una sola hoja de cálculo (comportamiento predeterminado). WorksheetNumber es un número basado en 1 de una hoja de cálculo en la hoja de cálculo, cargada en la clase Editor. Si es 0 (valor predeterminado), la nueva hoja de cálculo se creará con una sola hoja de trabajo editada. Si es mayor o menor que cero, y hay una hoja de cálculo válida, cargada en la clase Editor, la hoja de trabajo editada, que está representada por instancia de EditableDocument de entrada, se insertará en esta hoja de cálculo. |

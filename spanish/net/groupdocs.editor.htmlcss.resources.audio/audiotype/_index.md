@@ -3,7 +3,7 @@ title: AudioType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa un tipo de audio compatible formato
 type: docs
-weight: 240
+weight: 340
 url: /es/net/groupdocs.editor.htmlcss.resources.audio/audiotype/
 ---
 ## AudioType structure
@@ -22,7 +22,7 @@ public struct AudioType : IEquatable<AudioType>, IResourceType
 | static [Undefined](../../groupdocs.editor.htmlcss.resources.audio/audiotype/undefined) { get; } | Valor especial, que marca formato de audio no definido, desconocido o no soportado |
 | [FileExtension](../../groupdocs.editor.htmlcss.resources.audio/audiotype/fileextension) { get; } | Extensión de nombre de archivo (sin carácter de punto) para este formato de audio |
 | [FormalName](../../groupdocs.editor.htmlcss.resources.audio/audiotype/formalname) { get; } | Nombre formal de este formato de audio |
-| [MimeCode](../../groupdocs.editor.htmlcss.resources.audio/audiotype/mimecode) { get; } | Código MIME para este formato de audio |
+| [MimeCode](../../groupdocs.editor.htmlcss.resources.audio/audiotype/mimecode) { get; } | código MIME para este formato de audio |
 
 ## Métodos
 

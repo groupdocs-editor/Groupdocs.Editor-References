@@ -1,14 +1,14 @@
 ---
 title: ExportLanguageInformation
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Especifica si la información de idioma se exporta a MHTML. El valor predeterminado esfalso .
+description: Especifica si la información de idioma se exporta a MHTML. El valor predeterminado esFALSO .
 type: docs
 weight: 40
 url: /es/net/groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation/
 ---
 ## MhtmlSaveOptions.ExportLanguageInformation property
 
-Especifica si la información de idioma se exporta a MHTML. El valor predeterminado es`falso` .
+Especifica si la información de idioma se exporta a MHTML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }

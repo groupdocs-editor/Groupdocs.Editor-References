@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Compara dos razones y devuelve un valor booleano que indica si las dos coinciden.
 type: docs
-weight: 130
+weight: 120
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_equality/
 ---
 ## Ratio Equality operator

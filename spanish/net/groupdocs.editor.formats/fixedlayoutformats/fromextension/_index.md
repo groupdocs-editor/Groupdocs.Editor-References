@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve instancia deFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsestructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
+description: Devuelve instancia deFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats estructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
 type: docs
 weight: 30
 url: /es/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Devuelve instancia de[`FixedLayoutFormats`](../../fixedlayoutformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
+Devuelve instancia de[`FixedLayoutFormats`](../../fixedlayoutformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### Valor_devuelto
 
-En vez de[`FixedLayoutFormats`](../../fixedlayoutformats) estructura en caso de éxito o excepción lanzada en caso de error
+En vez de[`FixedLayoutFormats`](../../fixedlayoutformats)estructura en caso de éxito o excepción lanzada en caso de error
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Permite especificar opciones personalizadas para cargar documentos XML lenguaje de marcado extensible y convertirlos a HTML
+description: Permite especificar opciones personalizadas para editar documentos XML lenguaje de marcado extensible y convertirlos a HTML
 type: docs
-weight: 1040
+weight: 1270
 url: /es/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-Permite especificar opciones personalizadas para cargar documentos XML (lenguaje de marcado extensible) y convertirlos a HTML
+Permite especificar opciones personalizadas para editar documentos XML (lenguaje de marcado extensible) y convertirlos a HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Permite especificar el tipo de comillas (comillas simples o dobles) para los valores de los atributos. Las comillas dobles son las predeterminadas. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Codificación de caracteres del documento de texto, que se aplicará para su apertura. De forma predeterminada, es nulo: se aplicará la codificación interna del documento. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Permite habilitar o deshabilitar el mecanismo para reparar la estructura XML dañada. Por defecto está deshabilitado (falso). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | Permite ajustar el resaltado, que se aplicará a la estructura XML, cuando se represente en HTML. Por defecto es NULL — se aplica el resaltado predeterminado. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | Permite ajustar el formato XML, que se aplicará a la estructura XML, cuando se represente en HTML. Se utiliza el formato predeterminado y es ajustable. No puede ser nulo. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | Permite ajustar el resaltado XML, que se aplicará a la estructura XML, cuando se represente en HTML. Se utiliza el resaltado predeterminado y es ajustable. No puede ser nulo. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Permite habilitar el algoritmo de reconocimiento para direcciones de correo electrónico en valores de atributo |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | Permite habilitar el algoritmo de reconocimiento de URI |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | Permite habilitar el truncamiento de los espacios en blanco finales en el texto de la etiqueta interna. De forma predeterminada, está deshabilitado (falso): se conservarán los espacios en blanco finales. |

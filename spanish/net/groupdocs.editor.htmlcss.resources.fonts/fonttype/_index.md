@@ -3,7 +3,7 @@ title: FontType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa un tipo de fuente compatible
 type: docs
-weight: 280
+weight: 380
 url: /es/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/
 ---
 ## FontType structure

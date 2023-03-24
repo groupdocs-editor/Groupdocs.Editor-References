@@ -1,14 +1,14 @@
 ---
 title: EnableLanguageInformation
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML lang. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto está deshabilitado falso .
+description: Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML lang. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto está deshabilitado FALSO.
 type: docs
 weight: 20
 url: /es/net/groupdocs.editor.options/ebookeditoptions/enablelanguageinformation/
 ---
 ## EbookEditOptions.EnableLanguageInformation property
 
-Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML 'lang'. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto, está deshabilitado (`falso` ).
+Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML 'lang'. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto, está deshabilitado (`FALSO`).
 
 ```csharp
 public bool EnableLanguageInformation { get; set; }

@@ -26,7 +26,7 @@ public struct EmailFormats : IDocumentFormat, IEquatable<EmailFormats>
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Devuelve instancia de[`EmailFormats`](../emailformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Devuelve instancia de[`EmailFormats`](../emailformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | Determina si esta instancia es igual a la otra instancia de correo electrónico especificada |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | Determina si esta instancia es igual a la otra instancia de IDocumentFormat especificada |
 | override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | Determina si esta instancia es igual al otro objeto especificado, que presumiblemente es del correo electrónico en caja |

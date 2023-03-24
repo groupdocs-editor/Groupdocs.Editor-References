@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Images proporciona clases que representan recursos de imagen de todo tipo en general.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/groupdocs.editor.htmlcss.resources.images/
 ---
 El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Images proporciona clases que representan recursos de imagen de todo tipo en general.

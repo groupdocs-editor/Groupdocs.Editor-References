@@ -1,14 +1,14 @@
 ---
 title: ExportCidUrls
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Especifica si se deben usar las URL de CID ContentID para hacer referencia a los recursos imágenes fuentes CSS incluidos en los documentos MHTML. El valor predeterminado esfalso .
+description: Especifica si se deben usar las URL de CID ContentID para hacer referencia a los recursos imágenes fuentes CSS incluidos en los documentos MHTML. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/groupdocs.editor.options/mhtmlsaveoptions/exportcidurls/
 ---
 ## MhtmlSaveOptions.ExportCidUrls property
 
-Especifica si se deben usar las URL de CID (Content-ID) para hacer referencia a los recursos (imágenes, fuentes, CSS) incluidos en los documentos MHTML. El valor predeterminado es`falso` .
+Especifica si se deben usar las URL de CID (Content-ID) para hacer referencia a los recursos (imágenes, fuentes, CSS) incluidos en los documentos MHTML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportCidUrls { get; set; }

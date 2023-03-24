@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Audio
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Audio proporciona tipos que representan recursos de audio.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/groupdocs.editor.htmlcss.resources.audio/
 ---
 El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Audio proporciona tipos que representan recursos de audio.

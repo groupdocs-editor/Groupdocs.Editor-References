@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Textual proporciona clases que representan recursos de texto.
 type: docs
-weight: 100
+weight: 120
 url: /es/net/groupdocs.editor.htmlcss.resources.textual/
 ---
 El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Textual proporciona clases que representan recursos de texto.

@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para cargar documentos de texto sin formato TXT
 type: docs
-weight: 930
+weight: 1140
 url: /es/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

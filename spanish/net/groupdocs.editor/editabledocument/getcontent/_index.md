@@ -36,7 +36,7 @@ public string GetContent(string externalImagesPrefix, string externalCssPrefix)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| externalImagesPrefix | String | través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las imágenes externas en elementos IMG, que estarán presentes en la cadena HTML resultante. Si es NULL o está vacío, no se agregarán prefijos. |
+| externalImagesPrefix | String | A través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las imágenes externas en elementos IMG, que estarán presentes en la cadena HTML resultante. Si es NULL o está vacío, no se agregarán prefijos. |
 | externalCssPrefix | String | A través de este parámetro utilizado se puede especificar un prefijo, que se agregará a los enlaces a todas las hojas de estilo externas en los elementos LINK, que estarán presentes en la cadena HTML resultante. Si es NULL o está vacío, no se agregarán prefijos. |
 
 ### Valor_devuelto

@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Las opciones de incrustación de fuentes controlan qué recursos de fuentes deben incrustarse en el documento de salida de WordProcessing o PDF
 type: docs
-weight: 740
+weight: 890
 url: /es/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

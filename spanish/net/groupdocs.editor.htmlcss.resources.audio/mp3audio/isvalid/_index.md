@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Comprueba si la secuencia especificada es un contenido MP3 válido
+description: Comprueba si la transmisión especificada es un contenido MP3 válido
 type: docs
 weight: 120
 url: /es/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid/
 ---
 ## Mp3Audio.IsValid method
 
-Comprueba si la secuencia especificada es un contenido MP3 válido
+Comprueba si la transmisión especificada es un contenido MP3 válido
 
 ```csharp
 public static bool IsValid(Stream binaryContent)

@@ -3,7 +3,7 @@ title: EpubSaveOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para generar y guardar los documentos IDPF EPUB estándar abierto para libros electrónicos creado por el International Digital Publishing Forum
 type: docs
-weight: 720
+weight: 870
 url: /es/net/groupdocs.editor.options/epubsaveoptions/
 ---
 ## EpubSaveOptions class
@@ -24,8 +24,8 @@ public sealed class EpubSaveOptions : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | Especifica si exportar propiedades de documentos integradas y personalizadas en formato IDPF EPUB. El valor predeterminado es`falso` . |
-| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | Especifica el nivel máximo de encabezados en el que dividir el archivo ePub. El valor predeterminado es`2` Configurándolo en`0` deshabilitará la división, por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del ePub. |
+| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | Especifica si exportar propiedades de documentos integradas y personalizadas en formato IDPF EPUB. El valor predeterminado es`FALSO` . |
+| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | Especifica el nivel máximo de encabezados en el que dividir el archivo ePub. El valor predeterminado es`2` . Configurándolo en`0` deshabilitará la división, por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del ePub. |
 
 ### Ver también
 

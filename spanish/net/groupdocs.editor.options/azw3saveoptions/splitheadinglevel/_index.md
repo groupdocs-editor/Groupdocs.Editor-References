@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Especifica si dividir el contenido del libro electrónico AZW3 en paquetes y en caso afirmativo el nivel máximo de encabezados en los que dividir el contenido del AZW3. El valor predeterminado es2 Configurándolo en0 deshabilitará la división por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del AZW3.
+description: Especifica si dividir el contenido del libro electrónico AZW3 en paquetes y en caso afirmativo el nivel máximo de encabezados en los que dividir el contenido del AZW3. El valor predeterminado es2 . Configurándolo en0deshabilitará la división por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del AZW3.
 type: docs
 weight: 20
 url: /es/net/groupdocs.editor.options/azw3saveoptions/splitheadinglevel/
 ---
 ## Azw3SaveOptions.SplitHeadingLevel property
 
-Especifica si dividir el contenido del libro electrónico AZW3 en paquetes y, en caso afirmativo, el nivel máximo de encabezados en los que dividir el contenido del AZW3. El valor predeterminado es`2` Configurándolo en`0` deshabilitará la división, por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del AZW3.
+Especifica si dividir el contenido del libro electrónico AZW3 en paquetes y, en caso afirmativo, el nivel máximo de encabezados en los que dividir el contenido del AZW3. El valor predeterminado es`2` . Configurándolo en`0`deshabilitará la división, por lo que todo el contenido del libro electrónico se incorporará en un solo paquete dentro del AZW3.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }
@@ -18,9 +18,9 @@ public int SplitHeadingLevel { get; set; }
 
 En algunos casos, es preferible dividir el contenido del libro electrónico en varios paquetes más pequeños, ubicados dentro del archivo de salida AZW3. Esta propiedad controla si se debe realizar dicha separación y, en caso afirmativo, cómo.
 
-Cuando esta propiedad se establece en un valor de 1 a 9, el documento se dividirá en párrafos con formato usando **Título 1** ,**Título 2** ,**Título 3** etc. estilos hasta el nivel de encabezado especificado.
+Cuando esta propiedad se establece en un valor de 1 a 9, el documento se dividirá en párrafos con formato usando **Título 1** ,**Título 2** ,**Título 3** etc. estilos hasta el nivel de título especificado.
 
-Por defecto (valor de`2` ), solamente**Título 1** y**Título 2** los párrafos hacen que el documento se divida. Establecer esta propiedad en cero hará que el documento no se divida en los párrafos de encabezado.
+Por defecto (valor de`2` ), solo**Título 1** y**Título 2** los párrafos hacen que el documento se divida. Establecer esta propiedad en cero hará que el documento no se divida en los párrafos de encabezado.
 
 ### Ver también
 

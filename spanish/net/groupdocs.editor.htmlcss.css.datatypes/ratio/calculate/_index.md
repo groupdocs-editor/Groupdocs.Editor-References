@@ -3,7 +3,7 @@ title: Calculate
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Calcula y devuelve esta relación como un único número de punto flotante
 type: docs
-weight: 60
+weight: 50
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve el cuerpo del documento HTML contenido entre abrir y cerrar las etiquetas BODY sin estas etiquetas como una cadena.
+description: Devuelve el cuerpo del documento HTML contenido interno entre abrir y cerrar las etiquetas BODY sin estas etiquetas como una cadena.
 type: docs
 weight: 120
 url: /es/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Devuelve el cuerpo del documento HTML (contenido entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena.
+Devuelve el cuerpo del documento HTML (contenido interno entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Valor_devuelto
 
-String, que contiene el cuerpo del documento HTML
+Cadena, que contiene el cuerpo del documento HTML (sin abrir ni cerrar etiquetas BODY)
 
 ### Observaciones
 
-Los editores WYSIWYG operan con el cuerpo del documento y no pueden procesar correctamente su metainformación del bloque HEAD. Este método está diseñado para tales casos. Esta sobrecarga no permite ajustar URI para solicitudes de recursos externos.
+La mayoría de los editores WYSIWYG suelen operar con el contenido interno del CUERPO del documento y no pueden procesar correctamente su metainformación del bloque HEAD. Este método está diseñado para tales casos. Esta sobrecarga no permite ajustar URI para solicitudes de recursos externos.
 
 ### Ver también
 
@@ -32,7 +32,7 @@ Los editores WYSIWYG operan con el cuerpo del documento y no pueden procesar cor
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Devuelve el cuerpo del documento HTML (contenido entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena, donde los enlaces a los recursos externos contienen el prefijo especificado.
+Devuelve el cuerpo del documento HTML (contenido interno entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena, donde los enlaces a los recursos externos contienen el prefijo especificado.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -40,15 +40,15 @@ public string GetBodyContent(string externalImagesPrefix)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| externalImagesPrefix | String | través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las imágenes externas en elementos IMG, que estarán presentes en la cadena HTML resultante. Si es NULL o está vacío, no se agregarán prefijos. |
+| externalImagesPrefix | String | A través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las imágenes externas en elementos IMG, que estarán presentes en la cadena HTML resultante. Si es NULL o está vacío, no se agregarán prefijos. |
 
 ### Valor_devuelto
 
-String, que contiene el cuerpo del documento HTML con enlaces, ajustado a las imágenes externas
+String, que contiene el cuerpo del documento HTML (sin abrir y cerrar etiquetas BODY) con enlaces, ajustado a las imágenes externas
 
 ### Observaciones
 
-Los editores WYSIWYG operan con el cuerpo del documento y no pueden procesar correctamente su metainformación del bloque HEAD. Este método está diseñado para tales casos. Esta sobrecarga permite ajustar URI para solicitudes de recursos externos.
+La mayoría de los editores WYSIWYG suelen operar con el contenido interno del CUERPO del documento y no pueden procesar correctamente su metainformación del bloque HEAD. Este método está diseñado para tales casos. Esta sobrecarga permite ajustar URI para solicitudes de recursos externos.
 
 ### Ver también
 

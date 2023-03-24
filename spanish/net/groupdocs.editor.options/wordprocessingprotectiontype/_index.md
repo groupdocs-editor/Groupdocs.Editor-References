@@ -3,7 +3,7 @@ title: WordProcessingProtectionType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa todos los tipos de protección disponibles del documento de WordProcessing
 type: docs
-weight: 1000
+weight: 1230
 url: /es/net/groupdocs.editor.options/wordprocessingprotectiontype/
 ---
 ## WordProcessingProtectionType enumeration

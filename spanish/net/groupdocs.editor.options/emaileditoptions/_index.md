@@ -3,7 +3,7 @@ title: EmailEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para la edición de documentos en los diferentes formatos de correo electrónico email
 type: docs
-weight: 700
+weight: 850
 url: /es/net/groupdocs.editor.options/emaileditoptions/
 ---
 ## EmailEditOptions class
@@ -19,7 +19,7 @@ public sealed class EmailEditOptions : IEditOptions
 | Nombre | Descripción |
 | --- | --- |
 | [EmailEditOptions](emaileditoptions#constructor)() | Inicializa una nueva instancia del[`EmailEditOptions`](../emaileditoptions) clase, donde todas las opciones se establecen en sus valores predeterminados |
-| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | Inicializa una nueva instancia del[`EmailEditOptions`](../emaileditoptions) clase con[`MailMessageOutput`](./mailmessageoutput) parámetro |
+| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | Inicializa una nueva instancia del[`EmailEditOptions`](../emaileditoptions) clase con[`MailMessageOutput`](./mailmessageoutput)parámetro |
 
 ## Propiedades
 

@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Debido a que los documentos de Markdown no se pueden cifrar con contraseña esta propiedad siempre devuelve falso
+description: Debido a que los documentos de Markdown no se pueden cifrar con contraseña esta propiedad siempre devuelve FALSO
 type: docs
 weight: 20
 url: /es/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-Debido a que los documentos de Markdown no se pueden cifrar con contraseña, esta propiedad siempre devuelve 'falso'
+Debido a que los documentos de Markdown no se pueden cifrar con contraseña, esta propiedad siempre devuelve ``FALSO`
 
 ```csharp
 public bool IsEncrypted { get; }

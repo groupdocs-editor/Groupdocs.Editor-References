@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Responsable de representar la fuente de las etiquetas XML corchetes angulares con los nombres de las etiquetas
 type: docs
-weight: 130
+weight: 70
 url: /es/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /es/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Responsable de representar la fuente de las etiquetas XML (corchetes angulares con los nombres de las etiquetas)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Ver también
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * espacio de nombres [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * asamblea [GroupDocs.Editor](../../../)

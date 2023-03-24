@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para generar y guardar los documentos MHTML encapsulación MIME de documentos HTML agregados
 type: docs
-weight: 800
+weight: 1010
 url: /es/net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class
@@ -24,9 +24,9 @@ public sealed class MhtmlSaveOptions : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | Especifica si se deben usar las URL de CID (Content-ID) para hacer referencia a los recursos (imágenes, fuentes, CSS) incluidos en los documentos MHTML. El valor predeterminado es`falso` . |
-| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado es`falso` . |
-| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | Especifica si la información de idioma se exporta a MHTML. El valor predeterminado es`falso` . |
+| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | Especifica si se deben usar las URL de CID (Content-ID) para hacer referencia a los recursos (imágenes, fuentes, CSS) incluidos en los documentos MHTML. El valor predeterminado es`FALSO` . |
+| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado es`FALSO` . |
+| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | Especifica si la información de idioma se exporta a MHTML. El valor predeterminado es`FALSO` . |
 
 ### Ver también
 

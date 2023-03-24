@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar y ajustar opciones personalizadas para editar documentos de libros electrónicos en todos los formatos admitidos ePub MOBI y AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /es/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
@@ -25,8 +25,8 @@ public sealed class EbookEditOptions : IEditOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML 'lang'. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto, está deshabilitado (`falso` ). |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Permite habilitar o deshabilitar la paginación en el documento HTML resultante. Por defecto está deshabilitado (`falso` ). |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Especifica si la información del idioma se exporta al marcado HTML en forma de atributos HTML 'lang'. Esta opción puede ser útil para la conversión de ida y vuelta de los documentos en varios idiomas. Por defecto, está deshabilitado (`FALSO`). |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Permite habilitar o deshabilitar la paginación en el documento HTML resultante. Por defecto está deshabilitado (`FALSO`). |
 
 ### Observaciones
 

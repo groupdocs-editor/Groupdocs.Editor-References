@@ -3,7 +3,7 @@ title: IsPositive
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Determina si el valor numérico de esta longitud es un número positivo
 type: docs
-weight: 140
+weight: 130
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/ispositive/
 ---
 ## Length.IsPositive property

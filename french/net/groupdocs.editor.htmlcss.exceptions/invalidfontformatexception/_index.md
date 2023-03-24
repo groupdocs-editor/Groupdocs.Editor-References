@@ -3,7 +3,7 @@ title: InvalidFontFormatException
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lexception qui est levée lors de la tentative douverture de chargement denregistrement ou de traitement dune autre manière de contenu qui est probablement une police de format pris en charge connu mais qui est en réalité une police de format inattendu et/ou non pris en charge ou pas une police à tous.
 type: docs
-weight: 220
+weight: 320
 url: /fr/net/groupdocs.editor.htmlcss.exceptions/invalidfontformatexception/
 ---
 ## InvalidFontFormatException class

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Renvoie une instance deEmailFormatsgroupdocs.editor.formats/emailformatsstructure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
+description: Renvoie une instance deEmailFormatsgroupdocs.editor.formats/emailformats structure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
 type: docs
 weight: 130
 url: /fr/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Renvoie une instance de[`EmailFormats`](../../emailformats)structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
+Renvoie une instance de[`EmailFormats`](../../emailformats) structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Return_Value
 
-Exemple de[`EmailFormats`](../../emailformats) structure en cas de succès ou exception levée en cas d'échec
+Exemple de[`EmailFormats`](../../emailformats)structure en cas de succès ou exception levée en cas d'échec
 
 ### Voir également
 

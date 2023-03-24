@@ -16,7 +16,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version du document d'entrée, qui a été édité dans l'éditeur HTML WYSIWYG et est stocké en tant qu'instance de '[`EditableDocument`](../../editabledocument)class, qui doit être converti en document de sortie d'un format spécifique. Ne doit pas être nul ou supprimé. |
+| inputDocument | EditableDocument | Version du document d'entrée, qui a été édité dans l'éditeur HTML WYSIWYG et est stocké en tant qu'instance de '[`EditableDocument`](../../editabledocument) class, qui doit être converti en document de sortie d'un format spécifique. Ne doit pas être nul ou supprimé. |
 | outputDocument | Stream | Flux de sortie, dans lequel le contenu du document résultant sera enregistré. Ne doit pas être nul, supprimé, doit prendre en charge l'écriture. |
 | saveOptions | ISaveOptions | Options d'enregistrement de document, qui définissent le format du document résultant, ainsi que des options d'enregistrement générales et spécifiques au format. Ne doit pas être nul. |
 
@@ -46,7 +46,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version du document d'entrée, qui a été édité dans l'éditeur HTML WYSIWYG et est stocké en tant qu'instance de '[`EditableDocument`](../../editabledocument)class, qui doit être converti en document de sortie d'un format spécifique. Ne doit pas être nul ou supprimé. |
+| inputDocument | EditableDocument | Version du document d'entrée, qui a été édité dans l'éditeur HTML WYSIWYG et est stocké en tant qu'instance de '[`EditableDocument`](../../editabledocument) class, qui doit être converti en document de sortie d'un format spécifique. Ne doit pas être nul ou supprimé. |
 | filePath | String | Chemin d'accès au fichier dans lequel le document de sortie sera enregistré. Le fichier du même nom existe, il sera complètement réécrit. La chaîne avec le chemin ne doit pas être nulle, vide ou contenir uniquement des espaces. |
 | saveOptions | ISaveOptions | Options d'enregistrement de document, qui définissent le format du document résultant, ainsi que des options d'enregistrement générales et spécifiques au format. Ne doit pas être nul. |
 

@@ -3,7 +3,7 @@ title: CDataFontSettings
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Responsable de la représentation de la police des sections CDATA y compris la paire de balises douverture et de fermeture
 type: docs
-weight: 70
+weight: 30
 url: /fr/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 ---
 ## XmlHighlightOptions.CDataFontSettings property
@@ -11,11 +11,12 @@ url: /fr/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 Responsable de la représentation de la police des sections CDATA (y compris la paire de balises d'ouverture et de fermeture)
 
 ```csharp
-public Font CDataFontSettings { get; set; }
+public WebFont CDataFontSettings { get; }
 ```
 
 ### Voir également
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * espace de noms [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * Assemblée [GroupDocs.Editor](../../../)

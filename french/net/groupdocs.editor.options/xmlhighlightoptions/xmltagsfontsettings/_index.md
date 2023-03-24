@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Responsable de la représentation de la police des balises XML crochets angulaires avec les noms des balises
 type: docs
-weight: 130
+weight: 70
 url: /fr/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /fr/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Responsable de la représentation de la police des balises XML (crochets angulaires avec les noms des balises)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Voir également
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * espace de noms [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * Assemblée [GroupDocs.Editor](../../../)

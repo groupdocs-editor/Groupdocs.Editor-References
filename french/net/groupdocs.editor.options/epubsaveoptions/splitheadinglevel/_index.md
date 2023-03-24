@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Spécifie le niveau maximal dentêtes auquel diviser le fichier ePub. La valeur par défaut est2 Le régler sur0 désactivera le fractionnement de sorte que tout le contenu de leBook sera incorporé dans un seul paquet à lintérieur de lePub.
+description: Spécifie le niveau maximal dentêtes auquel diviser le fichier ePub. La valeur par défaut est2 . Le régler sur0 désactivera le fractionnement de sorte que tout le contenu de leBook sera incorporé dans un seul paquet à lintérieur de lePub.
 type: docs
 weight: 30
 url: /fr/net/groupdocs.editor.options/epubsaveoptions/splitheadinglevel/
 ---
 ## EpubSaveOptions.SplitHeadingLevel property
 
-Spécifie le niveau maximal d'en-têtes auquel diviser le fichier ePub. La valeur par défaut est`2` Le régler sur`0` désactivera le fractionnement, de sorte que tout le contenu de l'e-Book sera incorporé dans un seul paquet à l'intérieur de l'ePub.
+Spécifie le niveau maximal d'en-têtes auquel diviser le fichier ePub. La valeur par défaut est`2` . Le régler sur`0` désactivera le fractionnement, de sorte que tout le contenu de l'e-Book sera incorporé dans un seul paquet à l'intérieur de l'ePub.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }

@@ -3,7 +3,7 @@ title: GetUnitFromName
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Essaie danalyser le nom dunité spécifié et de renvoyer la valeur correspondante dune énumération dunité. Renvoie Unit.Unitless si ne peut pas trouver lunité appropriée.
 type: docs
-weight: 270
+weight: 260
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method

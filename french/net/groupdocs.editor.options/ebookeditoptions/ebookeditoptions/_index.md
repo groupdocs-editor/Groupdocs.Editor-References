@@ -32,7 +32,7 @@ public EbookEditOptions(bool enablePagination)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| enablePagination | Boolean | Active (`vrai`) ou désactive (`faux`) pagination du contenu du livre électronique dans le document HTML résultant. Par défaut est désactivé (`faux`). |
+| enablePagination | Boolean | Active (`vrai`) ou désactive (`FAUX`) pagination du contenu du livre électronique dans le document HTML résultant. Par défaut est désactivé (`FAUX`). |
 
 ### Voir également
 

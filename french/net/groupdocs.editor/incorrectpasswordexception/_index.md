@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lexception levée lorsque le mot de passe spécifié est incorrect.
 type: docs
-weight: 530
+weight: 680
 url: /fr/net/groupdocs.editor/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

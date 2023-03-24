@@ -52,7 +52,7 @@ La classe Editor doit être considérée comme un point d'entrée et l'objet rac
 
 1. Chargez un document dans l'instance de l'éditeur via son constructeur.
 2. En option, détectez un type de document à l'aide d'un[`GetDocumentInfo`](./getdocumentinfo) méthode.
-3. Ouvrez un document pour le modifier en appelant un[`Edit`](./edit) méthode et obtenir une instance de[`EditableDocument`](../editabledocument) classe de celui-ci.
+3. Ouvrez un document pour le modifier en appelant un[`Edit`](./edit)méthode et obtenir une instance de[`EditableDocument`](../editabledocument) classe de celui-ci.
 4. Modification du contenu d'un document côté client à l'aide de n'importe quel éditeur HTML WYSIWYG.
 5. Création d'une nouvelle instance de[`EditableDocument`](../editabledocument) à partir du contenu du document modifié.
 6. Enregistrer un document édité dans un format de sortie en appelant un[`Save`](./save) méthode.

@@ -3,7 +3,7 @@ title: InvalidImageFormatException
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lexception qui est levée lors de la tentative douverture de chargement denregistrement ou de traitement dune autre manière dun contenu qui est vraisemblablement une image raster ou vecteur mais qui est en fait une image dun format inattendu et/ou non pris en charge ou non une image à tous.
 type: docs
-weight: 230
+weight: 330
 url: /fr/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class

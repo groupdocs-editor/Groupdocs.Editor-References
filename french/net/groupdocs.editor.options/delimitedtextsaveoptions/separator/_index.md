@@ -14,6 +14,12 @@ Permet de spécifier un séparateur de chaîne (délimiteur) pour les documents 
 public string Separator { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Est émis lorsque le séparateur spécifié est une chaîne nulle ou vide |
+
 ### Voir également
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

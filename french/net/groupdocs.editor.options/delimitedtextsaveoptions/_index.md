@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Contient des options pour générer et enregistrer des documents de feuille de calcul à base de texte CSV basés sur des onglets etc. qui utilisent un séparateur délimiteur
 type: docs
-weight: 680
+weight: 830
 url: /fr/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Nom | La description |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Permet de définir un encodage pour le document de feuille de calcul textuel. Par défaut (et si non spécifié) est UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut est false, ce qui signifie que le contenu de la ligne vide sera vide. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut est`FAUX` ce qui signifie que le contenu de la ligne vide sera vide. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Permet de spécifier un séparateur de chaîne (délimiteur) pour les documents de feuille de calcul textuels |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indique si les premières lignes et colonnes vides doivent être coupées comme ce que fait MS Excel |
 

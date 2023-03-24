@@ -16,7 +16,7 @@ public bool ExtractOnlyUsedFont { get; set; }
 
 ### Valeur de la propriété
 
-`vrai` s'il est nécessaire d'extraire uniquement les ressources de police utilisées dans le contenu textuel du document ; Par ailleurs,`faux` . La valeur par défaut est`faux` .
+`vrai` s'il est nécessaire d'extraire uniquement les ressources de police utilisées dans le contenu textuel du document ; sinon,`FAUX` . La valeur par défaut est`FAUX` .
 
 ### Remarques
 

@@ -3,7 +3,7 @@ title: GifImage
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente une image au format GIF Graphics Interchange Format avec ses métadonnées et méthodes supplémentaires
 type: docs
-weight: 410
+weight: 510
 url: /fr/net/groupdocs.editor.htmlcss.resources.images.raster/gifimage/
 ---
 ## GifImage class

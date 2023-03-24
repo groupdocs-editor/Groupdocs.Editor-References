@@ -3,7 +3,7 @@ title: To
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Convertit la longueur dans lunité donnée si possible. Si lunité actuelle ou donnée est relative une exception sera levée.
 type: docs
-weight: 240
+weight: 230
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length/to/
 ---
 ## Length.To method

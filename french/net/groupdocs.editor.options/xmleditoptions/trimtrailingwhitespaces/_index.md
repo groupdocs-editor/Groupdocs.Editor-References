@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Permet dactiver la troncature des espaces de fin dans le texte de la balise interne. Par défaut est désactivé false  les espaces de fin seront préservés.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

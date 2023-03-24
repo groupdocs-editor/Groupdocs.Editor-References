@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lespace de noms GroupDocs.Editor.HtmlCss.Serialization fournit des types responsables du réglage du processus de sérialisation des balises HTML et CSS.
 type: docs
-weight: 110
+weight: 130
 url: /fr/net/groupdocs.editor.htmlcss.serialization/
 ---
 L'espace de noms GroupDocs.Editor.HtmlCss.Serialization fournit des types responsables du réglage du processus de sérialisation des balises HTML et CSS.
 
-## Énumération
+## Ouvrages
 
-| Énumération | La description |
+| Structure | La description |
 | --- | --- |
 | [QuoteType](./quotetype) | Représente les guillemets - guillemet simple (') et guillemet double ("") |
 

@@ -3,7 +3,7 @@ title: Dimensions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente les dimensions linéaires largeur et hauteur dune image rectangulaire raster en unité arbitraire. Structure immuable.
 type: docs
-weight: 360
+weight: 460
 url: /fr/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

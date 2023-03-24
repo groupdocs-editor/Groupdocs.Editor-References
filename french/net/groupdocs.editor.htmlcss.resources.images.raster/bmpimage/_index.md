@@ -3,7 +3,7 @@ title: BmpImage
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente une image au format BMP BitMap Picture avec ses métadonnées et des méthodes supplémentaires
 type: docs
-weight: 400
+weight: 500
 url: /fr/net/groupdocs.editor.htmlcss.resources.images.raster/bmpimage/
 ---
 ## BmpImage class

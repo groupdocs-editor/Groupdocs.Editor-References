@@ -8,12 +8,23 @@ url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/
 ---
 L'espace de noms GroupDocs.Editor.HtmlCss.Css.DataTypes fournit des classes qui représentent les types de données CSS.
 
+## Des classes
+
+| Classer | La description |
+| --- | --- |
+| [ArgbColor.KnownColors](./argbcolor.knowncolors) | Contient toutes les "couleurs connues", qui ont un nom et une valeur uniques fixes dans CSS standart |
 ## Ouvrages
 
 | Structure | La description |
 | --- | --- |
+| [ArgbColor](./argbcolor) | Représente une valeur de couleur au format ARGB avec convertisseurs et sérialiseurs |
 | [Length](./length) | Représente une valeur de longueur CSS dans n'importe quelle unité prise en charge, y compris le pourcentage et le type sans unité. Les valeurs peuvent être entières ou flottantes, négatives, nulles et positives. Structure immuable. |
 | [Ratio](./ratio) | Représente un type de données CSS "ratio", qui est utilisé pour décrire les proportions dans les requêtes multimédias et pour les images raster en indiquant la proportion entre deux valeurs sans unité appelées "numérateur" et "dénominateur". Structure immuable. |
+## Interfaces
+
+| Interface | La description |
+| --- | --- |
+| [ICssDataType](./icssdatatype) | Interface commune pour tous les types de données CSS, qui sont utilisées dans les propriétés CSS |
 ## Énumération
 
 | Énumération | La description |

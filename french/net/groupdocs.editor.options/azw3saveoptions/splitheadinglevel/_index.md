@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Spécifie sil faut diviser le contenu du livre électronique AZW3 en packages et si oui le niveau maximal de titres auquel diviser le contenu de lAZW3. La valeur par défaut est2 Le régler sur0 désactivera le fractionnement de sorte que tout le contenu du livre électronique sera incorporé dans un seul paquet à lintérieur de lAZW3.
+description: Spécifie sil faut diviser le contenu du livre électronique AZW3 en packages et si oui le niveau maximal de titres auquel diviser le contenu de lAZW3. La valeur par défaut est2 . Le régler sur0désactivera le fractionnement de sorte que tout le contenu du livre électronique sera incorporé dans un seul paquet à lintérieur de lAZW3.
 type: docs
 weight: 20
 url: /fr/net/groupdocs.editor.options/azw3saveoptions/splitheadinglevel/
 ---
 ## Azw3SaveOptions.SplitHeadingLevel property
 
-Spécifie s'il faut diviser le contenu du livre électronique AZW3 en packages et si oui, le niveau maximal de titres auquel diviser le contenu de l'AZW3. La valeur par défaut est`2` Le régler sur`0` désactivera le fractionnement, de sorte que tout le contenu du livre électronique sera incorporé dans un seul paquet à l'intérieur de l'AZW3.
+Spécifie s'il faut diviser le contenu du livre électronique AZW3 en packages et si oui, le niveau maximal de titres auquel diviser le contenu de l'AZW3. La valeur par défaut est`2` . Le régler sur`0`désactivera le fractionnement, de sorte que tout le contenu du livre électronique sera incorporé dans un seul paquet à l'intérieur de l'AZW3.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }
@@ -20,7 +20,7 @@ Dans certains cas, il est préférable de diviser le contenu du livre électroni
 
 Lorsque cette propriété est définie sur une valeur comprise entre 1 et 9, le document sera divisé en paragraphes formatés en utilisant **Rubrique 1** ,**Rubrique 2** ,**Rubrique 3** etc. styles jusqu'au niveau de titre spécifié.
 
-Par défaut (valeur de`2` ), seulement**Rubrique 1** et**Rubrique 2** les paragraphes provoquent le fractionnement du document. Si vous définissez cette propriété sur zéro, le document ne sera pas du tout divisé au niveau des paragraphes d'en-tête.
+Par défaut (valeur de`2` ), seul**Rubrique 1** et**Rubrique 2** les paragraphes provoquent le fractionnement du document. Si vous définissez cette propriété sur zéro, le document ne sera pas du tout divisé au niveau des paragraphes d'en-tête.
 
 ### Voir également
 

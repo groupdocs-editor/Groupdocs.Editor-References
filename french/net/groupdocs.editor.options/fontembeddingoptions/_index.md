@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Les options dincorporation de polices contrôlent les ressources de police à incorporer dans le document de sortie WordProcessing ou PDF
 type: docs
-weight: 740
+weight: 890
 url: /fr/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

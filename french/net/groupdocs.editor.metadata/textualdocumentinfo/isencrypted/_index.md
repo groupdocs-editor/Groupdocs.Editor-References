@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Renvoie toujours faux car les documents textuels ne peuvent pas être chiffrés.
+description: Renvoie toujours FAUX  car les documents textuels ne peuvent pas être chiffrés
 type: docs
 weight: 30
 url: /fr/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-Renvoie toujours "faux", car les documents textuels ne peuvent pas être chiffrés.
+Renvoie toujours ``FAUX` `, car les documents textuels ne peuvent pas être chiffrés
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut est false ce qui signifie que le contenu de la ligne vide sera vide.
+description: Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut estFAUX ce qui signifie que le contenu de la ligne vide sera vide.
 type: docs
 weight: 30
 url: /fr/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut est false, ce qui signifie que le contenu de la ligne vide sera vide.
+Indique si les séparateurs doivent être sortis pour une ligne vide. La valeur par défaut est`FAUX` ce qui signifie que le contenu de la ligne vide sera vide.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Contient des options permettant de personnaliser la mise en surbrillance XML lors de la conversion XML vers HTML
 type: docs
-weight: 1050
+weight: 1290
 url: /fr/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ Contient des options permettant de personnaliser la mise en surbrillance XML lor
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Constructeurs
-
-| Nom | La description |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Default_Constructor |
-
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Définit la couleur de la police des noms d'attributs |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Responsable de la représentation de la police des noms d'attributs |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Définit la couleur de la police des valeurs d'attribut |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Responsable de la représentation de la police des valeurs d'attribut |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Définit la couleur de la police des sections CDATA (y compris la paire de balises d'ouverture et de fermeture) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Responsable de la représentation de la police des sections CDATA (y compris la paire de balises d'ouverture et de fermeture) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Définit la couleur de la police des commentaires HTML (y compris la paire de balises d'ouverture et de fermeture) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Responsable de la représentation de la police des commentaires HTML (y compris la paire de balises d'ouverture et de fermeture) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Définit la couleur de la police du texte de la balise interne |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Responsable de la représentation de la police du texte de la balise interne |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Définit la couleur de la police des balises XML (crochets angulaires avec les noms des balises) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Responsable de la représentation de la police des balises XML (crochets angulaires avec les noms des balises) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Responsable de la représentation de la police des noms d'attributs |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Responsable de la représentation de la police des valeurs d'attribut |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Responsable de la représentation de la police des sections CDATA (y compris la paire de balises d'ouverture et de fermeture) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Responsable de la représentation de la police des commentaires HTML (y compris la paire de balises d'ouverture et de fermeture) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Responsable de la représentation de la police du texte de la balise interne |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Détermine si cet objet d'options de surbrillance XML a une police par défaut settings |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Responsable de la représentation de la police des balises XML (crochets angulaires avec les noms des balises) |
+
+## Méthodes
+
+| Nom | La description |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Réinitialise les paramètres de police actuels à leurs valeurs par défaut |
 
 ### Voir également
 

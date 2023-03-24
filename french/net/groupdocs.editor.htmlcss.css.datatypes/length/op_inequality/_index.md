@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Vérifie linégalité des deux longueurs données.
 type: docs
-weight: 300
+weight: 290
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length/op_inequality/
 ---
 ## Length Inequality operator

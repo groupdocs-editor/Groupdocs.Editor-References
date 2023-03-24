@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| separator | String | Séparateur de chaîne (délimiteur) pour les feuilles de calcul textuelles |
+| separator | String | Séparateur de chaîne (délimiteur), qui ne peut pas être NULL ou vide |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Est émis lorsque le séparateur spécifié est une chaîne nulle ou vide |
 
 ### Voir également
 

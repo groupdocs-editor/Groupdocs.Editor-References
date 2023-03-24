@@ -3,7 +3,7 @@ title: ToStringSpecified
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Renvoie une représentation sous forme de chaîne de cette longueur dans le type dunité spécifié. La valeur numérique sera convertie en correspondant au changement de type dunité.
 type: docs
-weight: 260
+weight: 250
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length/tostringspecified/
 ---
 ## Length.ToStringSpecified method

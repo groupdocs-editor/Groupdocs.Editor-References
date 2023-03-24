@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Raster
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lespace de noms GroupDocs.Editor.HtmlCss.Resources.Images.Raster fournit des classes qui représentent uniquement des ressources dimage raster.
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/groupdocs.editor.htmlcss.resources.images.raster/
 ---
 L'espace de noms GroupDocs.Editor.HtmlCss.Resources.Images.Raster fournit des classes qui représentent uniquement des ressources d'image raster.

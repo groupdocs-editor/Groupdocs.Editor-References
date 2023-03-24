@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Serialization أنواعًا مسؤولة عن ضبط عملية تسلسل ترميز HTML و CSS.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/groupdocs.editor.htmlcss.serialization/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Serialization أنواعًا مسؤولة عن ضبط عملية تسلسل ترميز HTML و CSS.
 
-## تعداد
+## الهياكل
 
-| تعداد | وصف |
+| بنية | وصف |
 | --- | --- |
 | [QuoteType](./quotetype) | يمثل أحرف الاقتباس - علامة الاقتباس الفردية (') والاقتباس المزدوج (") |
 

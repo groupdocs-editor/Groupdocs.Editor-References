@@ -3,7 +3,7 @@ title: Numerator
 second_title: GroupDocs.Editor لمرجع .NET API
 description: إرجاع بسط هذه النسبة
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/numerator/
 ---
 ## Ratio.Numerator property

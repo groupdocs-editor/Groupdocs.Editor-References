@@ -3,7 +3,7 @@ title: ILoadOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: واجهة مشتركة لجميع فئات الخيارات  مسؤولة عن تحميل المستندات ذات التنسيقات المختلفة
 type: docs
-weight: 770
+weight: 920
 url: /ar/net/groupdocs.editor.options/iloadoptions/
 ---
 ## ILoadOptions interface

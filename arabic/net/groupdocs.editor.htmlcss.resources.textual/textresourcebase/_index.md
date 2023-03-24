@@ -3,7 +3,7 @@ title: TextResourceBase
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الفئة الأساسية لأي مورد نصي مدعوم يحتوي على محتوى نصي وتشفير
 type: docs
-weight: 490
+weight: 640
 url: /ar/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/
 ---
 ## TextResourceBase class

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 120
 url: /ar/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-إرجاع مثيل[`WordProcessingFormats`](../../wordprocessingformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`WordProcessingFormats`](../../wordprocessingformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### قيمة الإرجاع
 
-حالة[`WordProcessingFormats`](../../wordprocessingformats) بناء على النجاح أو استثناء عند الفشل
+حالة[`WordProcessingFormats`](../../wordprocessingformats)بناء على النجاح أو استثناء عند الفشل
 
 ### أنظر أيضا
 

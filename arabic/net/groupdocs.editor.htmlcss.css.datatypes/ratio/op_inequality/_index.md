@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مقارنة بين نسبتين وإرجاع قيمة منطقية تشير إلى عدم تطابق الاثنين.
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality/
 ---
 ## Ratio Inequality operator

@@ -3,7 +3,7 @@ title: BmpImage
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل صورة واحدة بتنسيق BMP صورة نقطية مع البيانات الوصفية والأساليب الإضافية
 type: docs
-weight: 400
+weight: 500
 url: /ar/net/groupdocs.editor.htmlcss.resources.images.raster/bmpimage/
 ---
 ## BmpImage class

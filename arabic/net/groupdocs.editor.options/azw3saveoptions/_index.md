@@ -3,7 +3,7 @@ title: Azw3SaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء وحفظ الكتب الإلكترونية AZW3  والمعروفة أيضًا باسم Kindle Format 8 KF8
 type: docs
-weight: 660
+weight: 810
 url: /ar/net/groupdocs.editor.options/azw3saveoptions/
 ---
 ## Azw3SaveOptions class
@@ -24,7 +24,7 @@ public sealed class Azw3SaveOptions : ISaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [SplitHeadingLevel](../../groupdocs.editor.options/azw3saveoptions/splitheadinglevel) { get; set; } | يحدد ما إذا كان سيتم تقسيم محتوى الكتاب الإلكتروني AZW3 إلى حزم ، وإذا كانت الإجابة بنعم ، فإن الحد الأقصى لمستوى العناوين الذي يتم عنده تقسيم محتوى AZW3. القيمة الافتراضية هي`2` الإعداد`0` سيعطل التقسيم ، لذلك سيتم دمج كل محتوى الكتاب الإلكتروني في حزمة واحدة داخل AZW3. |
+| [SplitHeadingLevel](../../groupdocs.editor.options/azw3saveoptions/splitheadinglevel) { get; set; } | يحدد ما إذا كان سيتم تقسيم محتوى الكتاب الإلكتروني AZW3 إلى حزم ، وإذا كانت الإجابة بنعم ، فإن الحد الأقصى لمستوى العناوين الذي يتم عنده تقسيم محتوى AZW3. القيمة الافتراضية هي`2` . الإعداد`0`سيعطل التقسيم ، لذلك سيتم دمج كل محتوى الكتاب الإلكتروني في حزمة واحدة داخل AZW3. |
 
 ### أنظر أيضا
 

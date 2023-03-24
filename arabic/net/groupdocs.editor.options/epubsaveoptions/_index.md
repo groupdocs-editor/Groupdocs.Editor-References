@@ -3,7 +3,7 @@ title: EpubSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات IDPF EPUB معيار مفتوح للكتب الإلكترونية التي أنشأها المنتدى الدولي للنشر الرقمي
 type: docs
-weight: 720
+weight: 870
 url: /ar/net/groupdocs.editor.options/epubsaveoptions/
 ---
 ## EpubSaveOptions class
@@ -24,8 +24,8 @@ public sealed class EpubSaveOptions : ISaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هي`خاطئة` . |
-| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | يحدد الحد الأقصى لمستوى العناوين الذي يتم عنده تقسيم ملف ePub. القيمة الافتراضية هي`2` الإعداد`0` سيعطل التقسيم ، لذلك سيتم دمج كل محتوى الكتاب الإلكتروني في حزمة واحدة داخل ePub. |
+| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هي`خطأ شنيع` . |
+| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | يحدد الحد الأقصى لمستوى العناوين الذي يتم عنده تقسيم ملف ePub. القيمة الافتراضية هي`2` . الإعداد`0` سيعطل التقسيم ، لذلك سيتم دمج كل محتوى الكتاب الإلكتروني في حزمة واحدة داخل ePub. |
 
 ### أنظر أيضا
 

@@ -17,11 +17,11 @@ public static bool operator !=(EBookFormats first, EBookFormats second)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | first | EBookFormats | أول مثيل EBookFormats المراد التحقق منه |
-| second | EBookFormats | مثيل EBookFormats الثاني المراد التحقق منه |
+| second | EBookFormats | مثيل EBookFormats الثاني للتحقق منه |
 
 ### قيمة الإرجاع
 
-صواب إذا لم تكن متساوية ، خطأ إذا تساوت
+صواب إذا لم تكن متساوية ، خطأ إذا كانت متساوية
 
 ### أنظر أيضا
 

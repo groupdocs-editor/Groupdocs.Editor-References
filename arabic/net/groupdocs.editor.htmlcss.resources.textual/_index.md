@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: GroupDocs.Editor لمرجع .NET API
 description: GroupDocs.Editor.HtmlCss.Resources.Textual مساحة الاسم توفر الفئات التي تمثل موارد النص.
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/groupdocs.editor.htmlcss.resources.textual/
 ---
 GroupDocs.Editor.HtmlCss.Resources.Textual مساحة الاسم توفر الفئات التي تمثل موارد النص.

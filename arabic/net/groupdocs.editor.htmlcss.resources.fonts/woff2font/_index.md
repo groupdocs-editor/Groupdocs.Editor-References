@@ -3,7 +3,7 @@ title: Woff2Font
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل خطًا واحدًا بتنسيق WOFF2 تنسيق خط الويب المفتوح
 type: docs
-weight: 310
+weight: 410
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/woff2font/
 ---
 ## Woff2Font class

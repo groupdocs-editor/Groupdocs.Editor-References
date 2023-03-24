@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تسلسل هذه النسبة إلى السلسلة وإرجاع it
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault/
 ---
 ## Ratio.SerializeDefault method

@@ -3,7 +3,7 @@ title: TryParse
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحاول تحليل سلسلة محددة كقيمة طول  بما في ذلك قيمتها الرقمية واسم الوحدة
 type: docs
-weight: 280
+weight: 270
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method

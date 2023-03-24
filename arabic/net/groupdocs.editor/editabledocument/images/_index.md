@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يسمح بالحصول على موارد الصور الخارجية الصور النقطية  والتي يتم استخدامها بواسطة مستند HTML هذا
+description: يسمح بالحصول على موارد الصور الخارجية الصور النقطية والمتجهة  والتي يتم استخدامها بواسطة مستند HTML هذا
 type: docs
 weight: 80
 url: /ar/net/groupdocs.editor/editabledocument/images/
 ---
 ## EditableDocument.Images property
 
-يسمح بالحصول على موارد الصور الخارجية (الصور النقطية) ، والتي يتم استخدامها بواسطة مستند HTML هذا
+يسمح بالحصول على موارد الصور الخارجية (الصور النقطية والمتجهة) ، والتي يتم استخدامها بواسطة مستند HTML هذا
 
 ```csharp
 public List<IImageResource> Images { get; }

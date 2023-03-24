@@ -1,14 +1,14 @@
 ---
 title: AllResources
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع قائمة بجميع الموارد الموجودة جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط
+description: إرجاع قائمة بجميع الموارد الموجودة جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط و audio
 type: docs
 weight: 40
 url: /ar/net/groupdocs.editor/editabledocument/allresources/
 ---
 ## EditableDocument.AllResources property
 
-إرجاع قائمة بجميع الموارد الموجودة: جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط
+إرجاع قائمة بجميع الموارد الموجودة: جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط و audio
 
 ```csharp
 public List<IHtmlResource> AllResources { get; }

@@ -3,7 +3,7 @@ title: Calculate
 second_title: GroupDocs.Editor لمرجع .NET API
 description: حساب وإرجاع هذه النسبة كرقم فاصلة عائمة واحد
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

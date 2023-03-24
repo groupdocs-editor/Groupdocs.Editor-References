@@ -3,7 +3,7 @@ title: InvalidFormatException
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الاستثناء الذي يتم طرحه عندما يحاول المستخدم فتح بعض المستندات بخيارات خاصة بالتنسيق غير متوافقة مع تنسيق المستند الأصلي.
 type: docs
-weight: 540
+weight: 690
 url: /ar/net/groupdocs.editor/invalidformatexception/
 ---
 ## InvalidFormatException class

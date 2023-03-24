@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | اسم | وصف |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | إرجاع مثيل[`EBookFormats`](../ebookformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | إرجاع مثيل[`EBookFormats`](../ebookformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | تحديد ما إذا كان هذا المثيل مساويًا لتنسيقات EBookFormats المحددة الأخرى ، والمثيل |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | تحديد ما إذا كان هذا المثيل مساويًا لمثيل IDocumentFormat المحدد الآخر. |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | تحديد ما إذا كان هذا المثيل مساويًا للكائن المحدد الآخر ، والذي يُفترض أنه من EBookFormats المعبأ |
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### ملاحظات
 
-تعرف على المزيد حول تنسيق Mobi[هنا](https://docs.fileformat.com/ebook/mobi/)، حول تنسيق AZW3[هنا](https://docs.fileformat.com/ebook/azw3/) ، وحول تنسيق ePub[هنا](https://docs.fileformat.com/ebook/epub/) .
+تعرف على المزيد حول تنسيق Mobi[هنا](https://docs.fileformat.com/ebook/mobi/) ، حول تنسيق AZW3[هنا](https://docs.fileformat.com/ebook/azw3/) ، وحول تنسيق ePub[هنا](https://docs.fileformat.com/ebook/epub/) .
 
 ### أنظر أيضا
 

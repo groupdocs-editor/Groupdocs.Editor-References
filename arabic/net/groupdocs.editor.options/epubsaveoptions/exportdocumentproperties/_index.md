@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هيخاطئة .
+description: يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.editor.options/epubsaveoptions/exportdocumentproperties/
 ---
 ## EpubSaveOptions.ExportDocumentProperties property
 
-يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هي`خاطئة` .
+يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة بتنسيق IDPF EPUB . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: GroupDocs.Editor لمرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هو خطأ.
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هوخطأ شنيع .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هو خطأ.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ConvertNumericData { get; set; }

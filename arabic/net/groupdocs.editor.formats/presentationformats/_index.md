@@ -26,7 +26,7 @@ public struct PresentationFormats : IDocumentFormat, IEquatable<PresentationForm
 
 | اسم | وصف |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | إرجاع مثيل[`PresentationFormats`](../presentationformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
+| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | إرجاع مثيل[`PresentationFormats`](../presentationformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals)(IDocumentFormat) | تحديد ما إذا كان هذا المثيل مساويًا لمثيل IDocumentFormat المحدد الآخر. |
 | override [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_2)(object) | تحديد ما إذا كان هذا المثيل مساويًا للكائن المحدد الآخر ، والذي يُفترض أنه لـ PresentationFormats |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_1)(PresentationFormats) | تحديد ما إذا كان هذا المثيل مساويًا لتنسيقات PresentationFormats المحددة الأخرى. |

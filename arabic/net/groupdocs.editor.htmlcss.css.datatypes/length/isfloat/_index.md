@@ -3,7 +3,7 @@ title: IsFloat
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يشير إلى ما إذا كانت القيمة الرقمية لمثيل الطول هذا قد تم تحديدها وتخزينها في الأصل كرقم عائم FP32 
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/isfloat/
 ---
 ## Length.IsFloat property

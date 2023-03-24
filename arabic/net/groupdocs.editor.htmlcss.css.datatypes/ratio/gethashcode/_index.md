@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor لمرجع .NET API
 description: إرجاع رمز التجزئة لهذا المثيل  والذي لا يمكن تغييره خلال فترة حياته
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/gethashcode/
 ---
 ## Ratio.GetHashCode method

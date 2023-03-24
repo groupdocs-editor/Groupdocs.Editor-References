@@ -16,7 +16,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| inputDocument | EditableDocument | إصدار مستند الإدخال ، الذي تم تحريره في محرر WYSIWYG HTML ويتم تخزينه كمثيل لـ '[`EditableDocument`](../../editabledocument)class ، والتي يجب تحويلها إلى مستند إخراج بتنسيق معين. يجب ألا يكون باطلاً أو تم التخلص منه. |
+| inputDocument | EditableDocument | إصدار مستند الإدخال ، الذي تم تحريره في محرر WYSIWYG HTML ويتم تخزينه كمثيل لـ '[`EditableDocument`](../../editabledocument) class ، والتي يجب تحويلها إلى مستند إخراج بتنسيق معين. يجب ألا يكون باطلاً أو تم التخلص منه. |
 | outputDocument | Stream | تيار الإخراج ، حيث سيتم تسجيل محتوى المستند الناتج. يجب ألا يكون باطلاً ، ويجب أن يدعم الكتابة. |
 | saveOptions | ISaveOptions | خيارات حفظ المستند ، والتي تحدد تنسيق المستند الناتج ، وكذلك خيارات الحفظ العامة والمتعلقة بالتنسيق. يجب ألا تكون فارغة. |
 
@@ -46,7 +46,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| inputDocument | EditableDocument | إصدار مستند الإدخال ، الذي تم تحريره في محرر WYSIWYG HTML ويتم تخزينه كمثيل لـ '[`EditableDocument`](../../editabledocument)class ، والتي يجب تحويلها إلى مستند إخراج بتنسيق معين. يجب ألا يكون باطلاً أو تم التخلص منه. |
+| inputDocument | EditableDocument | إصدار مستند الإدخال ، الذي تم تحريره في محرر WYSIWYG HTML ويتم تخزينه كمثيل لـ '[`EditableDocument`](../../editabledocument) class ، والتي يجب تحويلها إلى مستند إخراج بتنسيق معين. يجب ألا يكون باطلاً أو تم التخلص منه. |
 | filePath | String | مسار الملف ، حيث سيتم حفظ المستند الناتج. يوجد ملف يحمل نفس الاسم ، وستتم إعادة كتابته بالكامل. يجب ألا تكون السلسلة ذات المسار فارغة أو فارغة أو تحتوي على مسافات بيضاء فقط. |
 | saveOptions | ISaveOptions | خيارات حفظ المستند ، والتي تحدد تنسيق المستند الناتج ، وكذلك خيارات الحفظ العامة والمتعلقة بالتنسيق. يجب ألا تكون فارغة. |
 

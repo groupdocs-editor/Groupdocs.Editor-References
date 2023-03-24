@@ -3,7 +3,7 @@ title: PresentationEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحرير المستندات لجميع تنسيقات العروض التقديمية المتوافقة مع PowerPoint 
 type: docs
-weight: 860
+weight: 1070
 url: /ar/net/groupdocs.editor.options/presentationeditoptions/
 ---
 ## PresentationEditOptions class

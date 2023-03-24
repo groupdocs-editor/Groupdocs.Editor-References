@@ -1,14 +1,14 @@
 ---
 title: ExportCidUrls
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID معرف المحتوى للإشارة إلى الموارد الصور والخطوط و CSS المضمنة في مستندات MHTML. القيمة الافتراضية هيخاطئة .
+description: يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID معرف المحتوى للإشارة إلى الموارد الصور والخطوط و CSS المضمنة في مستندات MHTML. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.editor.options/mhtmlsaveoptions/exportcidurls/
 ---
 ## MhtmlSaveOptions.ExportCidUrls property
 
-يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط و CSS) المضمنة في مستندات MHTML. القيمة الافتراضية هي`خاطئة` .
+يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط و CSS) المضمنة في مستندات MHTML. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportCidUrls { get; set; }

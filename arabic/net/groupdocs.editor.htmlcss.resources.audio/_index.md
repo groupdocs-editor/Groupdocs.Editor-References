@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Audio
 second_title: GroupDocs.Editor لمرجع .NET API
 description: The GroupDocs.Editor.HtmlCss.Resources.Audio يوفر مساحة أنواع تمثل موارد الصوت.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/groupdocs.editor.htmlcss.resources.audio/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Audio يوفر مساحة أنواع تمثل موارد الصوت.

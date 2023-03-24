@@ -3,7 +3,7 @@ title: IEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: واجهة مشتركة لجميع الخيارات  وهي مسؤولة عن تحويلات المستندات إلى HTML. تعلن عدم وجود أعضاء.
 type: docs
-weight: 760
+weight: 910
 url: /ar/net/groupdocs.editor.options/ieditoptions/
 ---
 ## IEditOptions interface

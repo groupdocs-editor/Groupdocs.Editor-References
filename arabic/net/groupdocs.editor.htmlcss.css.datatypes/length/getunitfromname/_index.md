@@ -3,7 +3,7 @@ title: GetUnitFromName
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحاول تحليل اسم الوحدة المحدد وإرجاع القيمة المقابلة لتعداد الوحدة.
 type: docs
-weight: 270
+weight: 260
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method

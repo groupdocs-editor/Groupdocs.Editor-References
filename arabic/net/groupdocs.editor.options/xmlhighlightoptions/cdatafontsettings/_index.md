@@ -3,7 +3,7 @@ title: CDataFontSettings
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مسؤول عن تمثيل خط أقسام CDATA بما في ذلك زوج من علامات الفتح والإغلاق
 type: docs
-weight: 70
+weight: 30
 url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 ---
 ## XmlHighlightOptions.CDataFontSettings property
@@ -11,11 +11,12 @@ url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 مسؤول عن تمثيل خط أقسام CDATA (بما في ذلك زوج من علامات الفتح والإغلاق)
 
 ```csharp
-public Font CDataFontSettings { get; set; }
+public WebFont CDataFontSettings { get; }
 ```
 
 ### أنظر أيضا
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * مساحة الاسم [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * المجسم [GroupDocs.Editor](../../../)

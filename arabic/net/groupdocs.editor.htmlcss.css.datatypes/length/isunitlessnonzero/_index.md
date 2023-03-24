@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تحتوي القيمة على نوع بدون وحدة  ولكنها ليست صفراً  رقم موجب أو سالب
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

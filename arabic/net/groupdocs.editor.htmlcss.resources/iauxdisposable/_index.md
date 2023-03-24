@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يوسع الواجهة القياسية System.IDisable  ويسمح بالحصول على الحالة الحالية للكائن والاشتراك في التخلص من event
 type: docs
-weight: 330
+weight: 430
 url: /ar/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

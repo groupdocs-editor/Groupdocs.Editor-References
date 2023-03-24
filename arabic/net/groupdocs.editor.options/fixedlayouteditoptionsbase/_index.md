@@ -3,7 +3,7 @@ title: FixedLayoutEditOptionsBase
 second_title: GroupDocs.Editor لمرجع .NET API
 description: فئة الملخص الأساسية لخيارات كافة المستندات ذات التنسيقات ذات التخطيط الثابت مثل PDF و XPS
 type: docs
-weight: 730
+weight: 880
 url: /ar/net/groupdocs.editor.options/fixedlayouteditoptionsbase/
 ---
 ## FixedLayoutEditOptionsBase class

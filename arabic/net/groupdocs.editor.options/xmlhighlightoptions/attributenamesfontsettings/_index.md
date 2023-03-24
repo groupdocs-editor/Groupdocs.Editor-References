@@ -3,7 +3,7 @@ title: AttributeNamesFontSettings
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مسؤول عن تمثيل خط أسماء السمات
 type: docs
-weight: 30
+weight: 10
 url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeNamesFontSettings property
@@ -11,11 +11,12 @@ url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsett
 مسؤول عن تمثيل خط أسماء السمات
 
 ```csharp
-public Font AttributeNamesFontSettings { get; set; }
+public WebFont AttributeNamesFontSettings { get; }
 ```
 
 ### أنظر أيضا
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * مساحة الاسم [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * المجسم [GroupDocs.Editor](../../../)

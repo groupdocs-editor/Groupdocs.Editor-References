@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على خيارات لتحميل مستندات جداول بيانات ثنائية خلايا ومتوافقة مع Excel مثل XLS X و ODS وما إلى ذلك في محرر class
 type: docs
-weight: 900
+weight: 1110
 url: /ar/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

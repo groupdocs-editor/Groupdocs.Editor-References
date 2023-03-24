@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على خيارات لتحميل مستندات معالجة Word متوافقة مع Word مثل DOC X و RTF و ODT وما إلى ذلك في محرر class
 type: docs
-weight: 980
+weight: 1210
 url: /ar/net/groupdocs.editor.options/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

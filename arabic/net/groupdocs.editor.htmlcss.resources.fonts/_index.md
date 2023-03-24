@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Fonts الفئات التي تمثل موارد الخط.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Fonts الفئات التي تمثل موارد الخط.

@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على الخيارات المتاحة لمعالجة المساحة الرائدة أثناء فتح مستند نص عادي TXT
 type: docs
-weight: 940
+weight: 1150
 url: /ar/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

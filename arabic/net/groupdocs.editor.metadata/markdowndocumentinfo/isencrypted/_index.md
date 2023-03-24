@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor لمرجع .NET API
-description: نظرًا لأنه لا يمكن تشفير مستندات Markdown بكلمة مرور  تقوم هذه الخاصية دائمًا بإرجاع false
+description: نظرًا لأنه لا يمكن تشفير مستندات Markdown بكلمة مرور  فإن هذه الخاصية تُرجع دائمًا خطأ شنيع
 type: docs
 weight: 20
 url: /ar/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-نظرًا لأنه لا يمكن تشفير مستندات Markdown بكلمة مرور ، تقوم هذه الخاصية دائمًا بإرجاع "false"
+نظرًا لأنه لا يمكن تشفير مستندات Markdown بكلمة مرور ، فإن هذه الخاصية تُرجع دائمًا ``خطأ شنيع`
 
 ```csharp
 public bool IsEncrypted { get; }

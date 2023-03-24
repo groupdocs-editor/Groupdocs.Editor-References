@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على خيارات لتحميل مستندات PDF في المحرر class
 type: docs
-weight: 840
+weight: 1050
 url: /ar/net/groupdocs.editor.options/pdfloadoptions/
 ---
 ## PdfLoadOptions class

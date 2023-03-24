@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يغلف نطاق صفحة واحد  والذي يمكن أن يكون له حدود مفتوحة أو مغلقة. بشكل افتراضي  يكون مفتوحًا بالكامل  يتضمن جميع الصفحات الموجودة. يبدأ ترقيم الصفحات من 1 وليس من 0.
 type: docs
-weight: 810
+weight: 1020
 url: /ar/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

@@ -3,7 +3,7 @@ title: IImageResource
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل مصدر صورة من أي نوع  خطوط نقطية أو متجه
 type: docs
-weight: 380
+weight: 480
 url: /ar/net/groupdocs.editor.htmlcss.resources.images/iimageresource/
 ---
 ## IImageResource interface

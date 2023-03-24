@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: خيارات لتحميل مستندات جداول البيانات المستندة إلى النص CSV  المستندة إلى علامة التبويب وما إلى ذلك  التي تستخدم فاصلًا محددًا
 type: docs
-weight: 670
+weight: 820
 url: /ar/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | اسم | وصف |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هو خطأ. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هو خطأ. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | تمكين آليات تحسين الذاكرة أثناء معالجة مستند الإدخال ، مما قد يؤدي إلى تدهور الأداء في بعض الحالات الخاصة ، ولكن من ناحية أخرى تقليل استخدام الذاكرة. مفيد عند معالجة مستندات ضخمة ومواجهة OutOfMemoryException. الإعداد الافتراضي خاطئ (تم تعطيل تحسين الذاكرة من أجل أداء أفضل) . |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هو`خطأ شنيع` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات رقمية. الافتراضي هو`خطأ شنيع` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | تمكين آليات تحسين الذاكرة أثناء معالجة مستند الإدخال ، مما قد يؤدي إلى تدهور الأداء في بعض الحالات الخاصة ، ولكن من ناحية أخرى تقليل استخدام الذاكرة. مفيد عند معالجة مستندات ضخمة ومواجهة OutOfMemoryException. الافتراضي هو`خطأ شنيع` (تم تعطيل تحسين الذاكرة من أجل أداء أفضل) . |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | يسمح بتحديد فاصل سلسلة (محدد) لوثائق جداول البيانات النصية |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هو خطأ. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هو`خطأ شنيع` . |
 
 ### ملاحظات
 

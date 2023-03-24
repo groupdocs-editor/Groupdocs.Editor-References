@@ -3,7 +3,7 @@ title: Dimensions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل الأبعاد الخطية العرض والارتفاع لصورة مستطيلة نقطية في وحدة عشوائية. هيكل غير قابل للتغيير.
 type: docs
-weight: 360
+weight: 460
 url: /ar/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

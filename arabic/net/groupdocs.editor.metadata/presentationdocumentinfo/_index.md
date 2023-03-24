@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل البيانات الوصفية لمستند عرض تقديمي واحد
 type: docs
-weight: 610
+weight: 760
 url: /ar/net/groupdocs.editor.metadata/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo structure
@@ -22,6 +22,12 @@ public struct PresentationDocumentInfo : IDocumentInfo
 | [IsEncrypted](../../groupdocs.editor.metadata/presentationdocumentinfo/isencrypted) { get; } | يشير إلى ما إذا كان مستند العرض التقديمي هذا مشفرًا ويتطلب كلمة مرور للفتح |
 | [PageCount](../../groupdocs.editor.metadata/presentationdocumentinfo/pagecount) { get; } | إرجاع عدد الشرائح في مستند العرض التقديمي هذا |
 | [Size](../../groupdocs.editor.metadata/presentationdocumentinfo/size) { get; } | إرجاع الحجم بالبايت من مستند العرض التقديمي هذا |
+
+## طُرق
+
+| اسم | وصف |
+| --- | --- |
+| [GeneratePreview](../../groupdocs.editor.metadata/presentationdocumentinfo/generatepreview)(int) | يولد ويعيد معاينة الشريحة المحددة في صورة SVG image |
 
 ### أنظر أيضا
 

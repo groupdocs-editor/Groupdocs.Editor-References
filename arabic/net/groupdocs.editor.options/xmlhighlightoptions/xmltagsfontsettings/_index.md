@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مسؤول عن تمثيل خط علامات XML الأقواس المعقوفة بأسماء العلامات
 type: docs
-weight: 130
+weight: 70
 url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 مسؤول عن تمثيل خط علامات XML (الأقواس المعقوفة بأسماء العلامات)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### أنظر أيضا
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * مساحة الاسم [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * المجسم [GroupDocs.Editor](../../../)

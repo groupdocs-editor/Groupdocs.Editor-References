@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تغلف خيارات حماية ورقة العمل  والتي تسمح بحماية ورقة العمل في مستند جدول البيانات الناتج من تعديل النوع المحدد بكلمة مرور محددة.
 type: docs
-weight: 1020
+weight: 1250
 url: /ar/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

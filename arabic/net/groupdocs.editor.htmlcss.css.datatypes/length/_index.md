@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل قيمة طول CSS في أي وحدة يمكن دعمها  بما في ذلك النسبة المئوية والنوع بدون وحدة . قد تكون القيم عددًا صحيحًا أو عددًا عائمًا  وسالب وصفر وموجب. هيكل ثابت.
 type: docs
-weight: 190
+weight: 260
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure
@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/
 يمثل قيمة طول CSS في أي وحدة يمكن دعمها ، بما في ذلك النسبة المئوية والنوع بدون وحدة . قد تكون القيم عددًا صحيحًا أو عددًا عائمًا ، وسالب وصفر وموجب. هيكل ثابت.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 ```
 
 ## الخصائص
@@ -21,7 +21,6 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | إرجاع قيمة رقمية عائمة لمثيل الطول. لا يطرح استثناءً مطلقًا - يحول قيمة عدد صحيح إلى عائم إذا لزم الأمر. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | تُرجع قيمة عددية صحيحة لمثيل الطول هذا ، إذا تم تخزينه داخليًا كعدد صحيح ، أو يطرح استثناءً ، إذا تم تخزينه في الأصل كرقم عائم. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | تحصل عليه إذا تم إعطاء الطول بالوحدات المطلقة. يمكن تحويل هذا الطول إلى بكسل. |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | يشير إلى ما إذا كان مثيل الطول هذا له قيمة افتراضية - صفر بدون وحدة. مثل خاصية IsUnitlessZero. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | يشير إلى ما إذا كانت القيمة الرقمية لمثيل الطول هذا قد تم تحديدها وتخزينها في الأصل كرقم عائم (FP32 ) |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | يشير إلى ما إذا كانت القيمة الرقمية لمثيل الطول هذا قد تم تحديدها وتخزينها في الأصل كعدد صحيح (INT32) number |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | لتحديد ما إذا كانت القيمة الرقمية لهذا الطول رقمًا سلبيًا |
@@ -52,6 +51,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | static [TryParse](../../groupdocs.editor.htmlcss.css.datatypes/length/tryparse)(string, out Length) | يحاول تحليل سلسلة محددة كقيمة طول ، بما في ذلك قيمتها الرقمية واسم الوحدة |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/length/op_equality) | للتحقق من المساواة بين الطولين المحددين. |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/length/op_inequality) | للتحقق من عدم المساواة بين الطولين المحددين. |
+| [operator *](../../groupdocs.editor.htmlcss.css.datatypes/length/op_multiply) | يضاعف الطول المحدد في العامل المحدد |
 
 ## مجالات
 
@@ -74,6 +74,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 
 ### أنظر أيضا
 
+* interface [ICssDataType](../icssdatatype)
 * مساحة الاسم [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * المجسم [GroupDocs.Editor](../../)
 

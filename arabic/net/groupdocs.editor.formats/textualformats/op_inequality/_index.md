@@ -21,7 +21,7 @@ public static bool operator !=(TextualFormats first, TextualFormats second)
 
 ### قيمة الإرجاع
 
-صواب إذا لم تكن متساوية ، خطأ إذا تساوت
+صواب إذا لم تكن متساوية ، خطأ إذا كانت متساوية
 
 ### أنظر أيضا
 

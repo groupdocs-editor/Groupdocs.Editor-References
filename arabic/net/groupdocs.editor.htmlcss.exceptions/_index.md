@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Exceptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Exceptions الفئات المسؤولة عن جميع عمليات المعالجة المتعلقة بتنسيق HTML و CSS والصور والخطوط وغيرها من عمليات المعالجة المتعلقة بالموارد.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/groupdocs.editor.htmlcss.exceptions/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Exceptions الفئات المسؤولة عن جميع عمليات المعالجة المتعلقة بتنسيق HTML و CSS والصور والخطوط وغيرها من عمليات المعالجة المتعلقة بالموارد.

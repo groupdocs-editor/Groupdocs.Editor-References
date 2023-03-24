@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحرير المستندات لجميع تنسيقات معالجة الكلمات المتوافقة مع الكلمات مثل DOC X و RTF و ODT وما إلى ذلك.
 type: docs
-weight: 970
+weight: 1200
 url: /ar/net/groupdocs.editor.options/wordprocessingeditoptions/
 ---
 ## WordProcessingEditOptions class

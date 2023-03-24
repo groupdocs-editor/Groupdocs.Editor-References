@@ -18,6 +18,12 @@ public DelimitedTextEditOptions(string separator)
 | --- | --- | --- |
 | separator | String | فاصل إلزامي (محدد) ، لا يمكن أن يكون فارغًا أو فارغًا |
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentException | يتم طرحه عندما يكون الفاصل المحدد عبارة عن سلسلة فارغة أو فارغة |
+
 ### أنظر أيضا
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

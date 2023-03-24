@@ -3,7 +3,7 @@ title: IResourceType
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل مثيلاً واحدًا لنوع / تنسيق المورد غير المعروف صورة  خط  نص
 type: docs
-weight: 350
+weight: 450
 url: /ar/net/groupdocs.editor.htmlcss.resources/iresourcetype/
 ---
 ## IResourceType interface

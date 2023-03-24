@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярPresentationFormatsgroupdocs.editor.formats/presentationformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярPresentationFormatsgroupdocs.editor.formats/presentationformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 130
 url: /ru/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-Возвращает экземпляр[`PresentationFormats`](../../presentationformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`PresentationFormats`](../../presentationformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### Возвращаемое значение
 
-Случай[`PresentationFormats`](../../presentationformats) структура в случае успеха или выброшенное исключение в случае неудачи
+Случай[`PresentationFormats`](../../presentationformats)структура в случае успеха или выброшенное исключение в случае неудачи
 
 ### Смотрите также
 

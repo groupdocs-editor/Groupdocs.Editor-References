@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для редактирования документов всех поддерживаемых форматов электронных таблиц совместимых с Excel
 type: docs
-weight: 890
+weight: 1100
 url: /ru/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class

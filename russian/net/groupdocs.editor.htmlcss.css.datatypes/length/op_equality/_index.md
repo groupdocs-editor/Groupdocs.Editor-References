@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Проверяет равенство двух заданных длин.
 type: docs
-weight: 290
+weight: 280
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/op_equality/
 ---
 ## Length Equality operator

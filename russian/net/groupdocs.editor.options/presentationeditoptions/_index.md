@@ -3,7 +3,7 @@ title: PresentationEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для редактирования документов всех поддерживаемых форматов презентаций совместимых с PowerPoint
 type: docs
-weight: 860
+weight: 1070
 url: /ru/net/groupdocs.editor.options/presentationeditoptions/
 ---
 ## PresentationEditOptions class

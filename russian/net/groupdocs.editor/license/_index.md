@@ -3,7 +3,7 @@ title: License
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Предоставляет методы лицензирования компонента. Узнать больше о лицензированииздесьhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 550
+weight: 700
 url: /ru/net/groupdocs.editor/license/
 ---
 ## License class
@@ -29,7 +29,7 @@ public class License
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о лицензировании: [Часто задаваемые вопросы о лицензировании GroupDocs](https://purchase.groupdocs.com/faqs/licensing)
 * Подробнее о лицензировании GroupDocs.Editor: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/editornet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Editor)

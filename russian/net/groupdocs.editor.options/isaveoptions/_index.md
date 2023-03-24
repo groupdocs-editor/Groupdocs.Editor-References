@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Интерфейс для всех вариантов сохранения для всех типов документов. Объявляет об отсутствии членов.
 type: docs
-weight: 780
+weight: 940
 url: /ru/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Отвечает за представление шрифта тегов XML угловые скобки с именами тегов
 type: docs
-weight: 130
+weight: 70
 url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Отвечает за представление шрифта тегов XML (угловые скобки с именами тегов)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Смотрите также
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * пространство имен [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * сборка [GroupDocs.Editor](../../../)

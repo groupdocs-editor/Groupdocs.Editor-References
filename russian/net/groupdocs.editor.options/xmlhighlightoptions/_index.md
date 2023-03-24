@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Содержит параметры позволяющие настроить подсветку XML при преобразовании XML в HTML
 type: docs
-weight: 1050
+weight: 1290
 url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Конструктор по умолчанию. |
-
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Определяет цвет шрифта имен атрибутов |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Отвечает за представление шрифта имен атрибутов |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Определяет цвет шрифта значений атрибута |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Отвечает за представление шрифта значений атрибутов |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Определяет цвет шрифта разделов CDATA (включая пару открывающих и закрывающих тегов) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Отвечает за представление шрифта разделов CDATA (включая пару открывающих и закрывающих тегов) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Определяет цвет шрифта комментариев HTML (включая пару открывающих и закрывающих тегов) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Отвечает за представление шрифта комментариев HTML (включая пару открывающих и закрывающих тегов) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Определяет цвет шрифта внутреннего тега text |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Отвечает за представление шрифта внутреннего тега text |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Определяет цвет шрифта тегов XML (угловые скобки с именами тегов) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Отвечает за представление шрифта тегов XML (угловые скобки с именами тегов) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Отвечает за представление шрифта имен атрибутов |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Отвечает за представление шрифта значений атрибутов |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Отвечает за представление шрифта разделов CDATA (включая пару открывающих и закрывающих тегов) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Отвечает за представление шрифта комментариев HTML (включая пару открывающих и закрывающих тегов) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Отвечает за представление шрифта внутреннего тега text |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Определяет, имеет ли этот объект опций выделения XML шрифт по умолчанию settings |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Отвечает за представление шрифта тегов XML (угловые скобки с именами тегов) |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Сбрасывает текущие настройки шрифта на значения по умолчанию |
 
 ### Смотрите также
 

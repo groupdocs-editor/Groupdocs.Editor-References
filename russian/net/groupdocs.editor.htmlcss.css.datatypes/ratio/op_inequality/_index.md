@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Сравнивает два соотношения и возвращает логическое значение указывающее не совпадают ли они.
 type: docs
-weight: 140
+weight: 130
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality/
 ---
 ## Ratio Inequality operator

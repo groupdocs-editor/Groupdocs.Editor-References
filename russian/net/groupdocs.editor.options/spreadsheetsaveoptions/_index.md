@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для создания и сохранения электронных таблиц совместимых с Excel документов
 type: docs
-weight: 910
+weight: 1120
 url: /ru/net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class

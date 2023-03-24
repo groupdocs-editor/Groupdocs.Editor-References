@@ -3,7 +3,7 @@ title: EotFont
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один шрифт в формате EOT Embedded OpenType
 type: docs
-weight: 260
+weight: 360
 url: /ru/net/groupdocs.editor.htmlcss.resources.fonts/eotfont/
 ---
 ## EotFont class

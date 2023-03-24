@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Позволяет настроить подсветку которая будет применяться к XMLструктуре при ее представлении в HTML. По умолчанию NULL  подсветка применяется по умолчанию.
+description: Позволяет настроить подсветку XML которая будет применяться к структуре XML когда она представлена в HTML. Подсветка по умолчанию используется и настраивается. Не может быть нулевым.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Позволяет настроить подсветку, которая будет применяться к XML-структуре при ее представлении в HTML. По умолчанию NULL — подсветка применяется по умолчанию.
+Позволяет настроить подсветку XML, которая будет применяться к структуре XML, когда она представлена в HTML. Подсветка по умолчанию используется и настраивается. Не может быть нулевым.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Смотрите также

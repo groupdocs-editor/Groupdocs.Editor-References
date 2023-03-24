@@ -3,7 +3,7 @@ title: InvalidFormatException
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Исключение которое возникает когда пользователь пытается открыть какойлибо документ с параметрами специфичными для формата которые несовместимы с исходным форматом документа.
 type: docs
-weight: 540
+weight: 690
 url: /ru/net/groupdocs.editor/invalidformatexception/
 ---
 ## InvalidFormatException class

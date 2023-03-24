@@ -3,7 +3,7 @@ title: TtfFont
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один шрифт в формате TTF TrueType Font
 type: docs
-weight: 300
+weight: 400
 url: /ru/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/
 ---
 ## TtfFont class

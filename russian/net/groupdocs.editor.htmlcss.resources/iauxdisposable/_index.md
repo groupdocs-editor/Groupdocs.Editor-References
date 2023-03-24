@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Расширяет стандартный интерфейс System.IDisposable позволяет получить текущее состояние объекта и подписаться на удаление event
 type: docs
-weight: 330
+weight: 430
 url: /ru/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

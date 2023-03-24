@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Общий интерфейс для всех оболочек файловых метаданных
 type: docs
-weight: 590
+weight: 740
 url: /ru/net/groupdocs.editor.metadata/idocumentinfo/
 ---
 ## IDocumentInfo interface

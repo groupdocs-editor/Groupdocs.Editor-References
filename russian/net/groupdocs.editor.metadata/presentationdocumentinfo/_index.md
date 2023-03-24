@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет метаданные одного документа презентации
 type: docs
-weight: 610
+weight: 760
 url: /ru/net/groupdocs.editor.metadata/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo structure
@@ -22,6 +22,12 @@ public struct PresentationDocumentInfo : IDocumentInfo
 | [IsEncrypted](../../groupdocs.editor.metadata/presentationdocumentinfo/isencrypted) { get; } | Указывает, зашифрован ли этот конкретный документ презентации и требует ли пароль для открытия. |
 | [PageCount](../../groupdocs.editor.metadata/presentationdocumentinfo/pagecount) { get; } | Возвращает количество слайдов в этом документе презентации |
 | [Size](../../groupdocs.editor.metadata/presentationdocumentinfo/size) { get; } | Возвращает размер в байтах этого документа презентации |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [GeneratePreview](../../groupdocs.editor.metadata/presentationdocumentinfo/generatepreview)(int) | Генерирует и возвращает предварительный просмотр выбранного слайда в виде изображения SVG |
 
 ### Смотрите также
 

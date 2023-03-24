@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Параметры для загрузки текстовых электронных таблиц CSV Tab и т. д. в которых используется разделитель разделитель
 type: docs
-weight: 670
+weight: 820
 url: /ru/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | Имя | Описание |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в данные даты. По умолчанию false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в числовые данные. По умолчанию false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Включает механизмы оптимизации памяти во время обработки входного документа, что может снизить производительность в некоторых особых случаях, но, с другой стороны, уменьшить использование памяти. Полезно при обработке больших документов и столкновении с OutOfMemoryException. Значение по умолчанию — false (оптимизация памяти отключена для повышения производительности). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в данные даты. По умолчанию`ЛОЖЬ` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в числовые данные. По умолчанию`ЛОЖЬ` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Включает механизмы оптимизации памяти во время обработки входного документа, что может снизить производительность в некоторых особых случаях, но, с другой стороны, уменьшить использование памяти. Полезно при обработке больших документов и столкновении с OutOfMemoryException. По умолчанию`ЛОЖЬ` (оптимизация памяти отключена для повышения производительности). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Позволяет указать разделитель строк (разделитель) для текстовых электронных таблиц |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Определяет, следует ли рассматривать последовательные разделители как один. По умолчанию false. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Определяет, следует ли рассматривать последовательные разделители как один. По умолчанию`ЛОЖЬ` . |
 
 ### Примечания
 

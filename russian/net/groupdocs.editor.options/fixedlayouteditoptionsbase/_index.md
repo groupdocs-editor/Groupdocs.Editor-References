@@ -3,7 +3,7 @@ title: FixedLayoutEditOptionsBase
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Базовый абстрактный класс для параметров всех документов форматов с фиксированным макетом таких как PDF и XPS
 type: docs
-weight: 730
+weight: 880
 url: /ru/net/groupdocs.editor.options/fixedlayouteditoptionsbase/
 ---
 ## FixedLayoutEditOptionsBase class

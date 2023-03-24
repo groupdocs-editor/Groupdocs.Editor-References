@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Параметры извлечения шрифтов определяют какие шрифты следует извлекать и откуда
 type: docs
-weight: 750
+weight: 900
 url: /ru/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

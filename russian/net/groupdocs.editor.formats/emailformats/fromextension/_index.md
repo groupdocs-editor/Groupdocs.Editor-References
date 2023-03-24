@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярEmailFormatsgroupdocs.editor.formats/emailformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярEmailFormatsgroupdocs.editor.formats/emailformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 130
 url: /ru/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Возвращает экземпляр[`EmailFormats`](../../emailformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`EmailFormats`](../../emailformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Возвращаемое значение
 
-Случай[`EmailFormats`](../../emailformats) структура в случае успеха или выброшенное исключение в случае неудачи
+Случай[`EmailFormats`](../../emailformats)структура в случае успеха или выброшенное исключение в случае неудачи
 
 ### Смотрите также
 

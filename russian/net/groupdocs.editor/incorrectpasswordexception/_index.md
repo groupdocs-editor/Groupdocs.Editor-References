@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Исключение которое выдается если указан неверный пароль.
 type: docs
-weight: 530
+weight: 680
 url: /ru/net/groupdocs.editor/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

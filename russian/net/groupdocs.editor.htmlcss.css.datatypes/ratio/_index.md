@@ -3,7 +3,7 @@ title: Ratio
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет тип данных CSS ratio который используется для описания соотношений сторон в медиазапросах и для растровых изображений путем обозначения пропорции между двумя безразмерными значениями называемыми числителем и знаменателем. Неизменная структура.
 type: docs
-weight: 210
+weight: 280
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 Представляет тип данных CSS «ratio», который используется для описания соотношений сторон в медиа-запросах и для растровых изображений путем обозначения пропорции между двумя безразмерными значениями, называемыми «числителем» и «знаменателем». Неизменная структура.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Характеристики
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | Имя | Описание |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Возвращает знаменатель этого отношения |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Определяет, имеет ли это соотношение значение по умолчанию или «1/1» (Single) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Возвращает числитель этого отношения |
 
 ## Методы
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Смотрите также
 
+* interface [ICssDataType](../icssdatatype)
 * пространство имен [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * сборка [GroupDocs.Editor](../../)
 

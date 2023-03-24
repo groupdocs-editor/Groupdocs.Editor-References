@@ -3,7 +3,7 @@ title: WordProcessingProtection
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Инкапсулирует параметры защиты документа WordProcessing созданного из HTML
 type: docs
-weight: 990
+weight: 1220
 url: /ru/net/groupdocs.editor.options/wordprocessingprotection/
 ---
 ## WordProcessingProtection class

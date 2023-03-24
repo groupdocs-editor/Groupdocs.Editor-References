@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Параметры внедрения шрифтов определяют какие ресурсы шрифтов должны быть встроены в выходной документ WordProcessing или PDF
 type: docs
-weight: 740
+weight: 890
 url: /ru/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

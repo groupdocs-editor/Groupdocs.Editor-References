@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Содержит доступные параметры обработки пробелов в конце при открытии текстового документа TXT
 type: docs
-weight: 960
+weight: 1170
 url: /ru/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

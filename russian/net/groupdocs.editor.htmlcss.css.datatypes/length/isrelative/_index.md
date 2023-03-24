@@ -3,7 +3,7 @@ title: IsRelative
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Получает если длина задана в относительных единицах. Такая длина не может быть преобразована в пиксели.
 type: docs
-weight: 150
+weight: 140
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property

@@ -3,23 +3,42 @@ title: QuoteType
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет символы кавычек  одинарную кавычку  и двойную кавычку 
 type: docs
-weight: 520
+weight: 670
 url: /ru/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Представляет символы кавычек — одинарную кавычку (') и двойную кавычку ("")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Ценности
+## Характеристики
 
-| Имя | Ценность | Описание |
-| --- | --- | --- |
-| SingleQuote | `39` | Одинарная кавычка (символ U+0027 АПОСТРОФ) |
-| DoubleQuote | `34` | Двойная кавычка (символ U+0022 QUOTATION MARK) |
+| Имя | Описание |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Символ для enquote |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Кодовая точка текущего символа (U+0027 или U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | Символ в кодировке HTML |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Указывает, равен ли данный экземпляр типа цитаты указанному uncasted |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Указывает, равен ли данный экземпляр типа котировки заданному |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Возвращает хеш-код для этого символа |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Проверяет, равны ли два значения "QuoteType" |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Указаны приведения[`QuoteType`](../quotetype) экземпляр кChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Проверяет, не равны ли два значения "QuoteType" |
+
+## Поля
+
+| Имя | Описание |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Двойная кавычка (символ U+0022 QUOTATION MARK) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Одинарная кавычка (символ U+0027 АПОСТРОФ) |
 
 ### Смотрите также
 

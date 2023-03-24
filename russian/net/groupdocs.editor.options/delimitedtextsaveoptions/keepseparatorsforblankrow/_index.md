@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Указывает следует ли выводить разделители для пустой строки. Значение по умолчанию  false что означает что содержимое пустой строки будет пустым.
+description: Указывает следует ли выводить разделители для пустой строки. Значение по умолчаниюЛОЖЬ что означает что содержимое пустой строки будет пустым.
 type: docs
 weight: 30
 url: /ru/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Указывает, следует ли выводить разделители для пустой строки. Значение по умолчанию — false, что означает, что содержимое пустой строки будет пустым.
+Указывает, следует ли выводить разделители для пустой строки. Значение по умолчанию`ЛОЖЬ` что означает, что содержимое пустой строки будет пустым.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

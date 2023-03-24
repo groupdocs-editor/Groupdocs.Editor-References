@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.HtmlCss.Serialization предоставляет типы отвечающие за настройку процесса сериализации разметки HTML и CSS.
 type: docs
-weight: 110
+weight: 130
 url: /ru/net/groupdocs.editor.htmlcss.serialization/
 ---
 Пространство имен GroupDocs.Editor.HtmlCss.Serialization предоставляет типы, отвечающие за настройку процесса сериализации разметки HTML и CSS.
 
-## перечисление
+## Структуры
 
-| перечисление | Описание |
+| Структура | Описание |
 | --- | --- |
 | [QuoteType](./quotetype) | Представляет символы кавычек — одинарную кавычку (') и двойную кавычку ("") |
 

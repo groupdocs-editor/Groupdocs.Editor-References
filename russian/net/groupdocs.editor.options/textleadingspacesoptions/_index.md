@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Содержит доступные параметры для обработки начального пробела при открытии текстового документа TXT
 type: docs
-weight: 940
+weight: 1150
 url: /ru/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

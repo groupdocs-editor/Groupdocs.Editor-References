@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет задавать и настраивать пользовательские параметры редактирования документов электронных книг во всех поддерживаемых форматах ePub MOBI и AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /ru/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
@@ -25,8 +25,8 @@ public sealed class EbookEditOptions : IEditOptions
 
 | Имя | Описание |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Указывает, экспортируется ли языковая информация в HTML-разметку в форме HTML-атрибутов 'lang'. Этот параметр может быть полезен для двустороннего преобразования многоязычных документов. По умолчанию он отключен (`ЛОЖЬ` ). |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Позволяет включать или отключать нумерацию страниц в результирующем HTML-документе. По умолчанию отключен(`ЛОЖЬ` ). |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Указывает, экспортируется ли языковая информация в HTML-разметку в форме HTML-атрибутов 'lang'. Этот параметр может быть полезен для двустороннего преобразования многоязычных документов. По умолчанию он отключен (`ЛОЖЬ`). |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Позволяет включать или отключать нумерацию страниц в результирующем HTML-документе. По умолчанию отключен(`ЛОЖЬ`). |
 
 ### Примечания
 

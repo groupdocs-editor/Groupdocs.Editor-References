@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | Имя | Описание |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Возвращает экземпляр[`EBookFormats`](../ebookformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Возвращает экземпляр[`EBookFormats`](../ebookformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | Определяет, равен ли этот экземпляр другому указанному EBookFormats instance |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | Определяет, равен ли этот экземпляр другому указанному IDocumentFormat instance |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | Определяет, равен ли этот экземпляр другому указанному объекту, который предположительно представляет собой упакованный EBookFormats |
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### Примечания
 
-Подробнее о формате Mobi[здесь](https://docs.fileformat.com/ebook/mobi/) о формате AZW3[здесь](https://docs.fileformat.com/ebook/azw3/) , и про формат ePub[здесь](https://docs.fileformat.com/ebook/epub/) .
+Подробнее о формате Mobi[здесь](https://docs.fileformat.com/ebook/mobi/) , о формате AZW3[здесь](https://docs.fileformat.com/ebook/azw3/) , и про формат ePub[здесь](https://docs.fileformat.com/ebook/epub/) .
 
 ### Смотрите также
 

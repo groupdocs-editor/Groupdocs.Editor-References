@@ -3,7 +3,7 @@ title: Clone
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Возвращает полную копию этого экземпляра Length
 type: docs
-weight: 200
+weight: 190
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/clone/
 ---
 ## Length.Clone method

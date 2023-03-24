@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 30
 url: /ru/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Возвращает экземпляр[`FixedLayoutFormats`](../../fixedlayoutformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`FixedLayoutFormats`](../../fixedlayoutformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### Возвращаемое значение
 
-Случай[`FixedLayoutFormats`](../../fixedlayoutformats) структура в случае успеха или выброшенное исключение в случае неудачи
+Случай[`FixedLayoutFormats`](../../fixedlayoutformats)структура в случае успеха или выброшенное исключение в случае неудачи
 
 ### Смотрите также
 

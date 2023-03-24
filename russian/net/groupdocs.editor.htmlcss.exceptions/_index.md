@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Exceptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.HtmlCss.Exceptions предоставляет классы отвечающие за всю обработку HTML CSS изображений шрифтов и других ресурсов.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/groupdocs.editor.htmlcss.exceptions/
 ---
 Пространство имен GroupDocs.Editor.HtmlCss.Exceptions предоставляет классы, отвечающие за всю обработку HTML, CSS, изображений, шрифтов и других ресурсов.

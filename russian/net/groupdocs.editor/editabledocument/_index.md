@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Возвращает список всех существующих ресурсов: все таблицы стилей, изображения из HTML и все таблицы стилей, шрифты |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Возвращает список всех существующих ресурсов: все таблицы стилей, изображения из HTML и все таблицы стилей, шрифты, аудио |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Возвращает список аудиоресурсов |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Возвращает список ресурсов CSS |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Позволяет получить внешние ресурсы шрифта, используемые этим HTML-документом |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Позволяет получить внешние ресурсы изображений (растровые изображения), которые используются данным HTML-документом |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Позволяет получить внешние ресурсы изображений (растровые и векторные изображения), которые используются данным HTML-документом |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Определяет, был ли этот редактируемый документ уже удален (true) или нет (false) |
 
 ## Методы
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Статическая фабрика, которая создает экземпляр EditableDocument из указанной HTML-разметки и набора соответствующих связанных ресурсов |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Статическая фабрика, создающая экземпляр EditableDocument из указанной HTML-разметки и из ресурсов, расположенных в папке, указанной полным путем |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Удаляет этот экземпляр редактируемого документа, удаляя его содержимое и делая его методы и свойства нерабочими |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Возвращает тело HTML-документа (содержимое между открывающим и закрывающим тегами BODY без этих тегов) в виде строки. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Возвращает тело HTML-документа (содержимое между открывающим и закрывающим тегами BODY без этих тегов) в виде строки, , где ссылки на внешние ресурсы содержат указанный префикс. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Возвращает тело документа HTML (внутреннее содержимое между открывающим и закрывающим тегами BODY без этих тегов) в виде строки. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Возвращает тело HTML-документа (внутреннее содержимое между открывающим и закрывающим тегами BODY без этих тегов) в виде строки, , где ссылки на внешние ресурсы содержат указанный префикс. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Возвращает общее содержимое HTML-документа в виде строки. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Возвращает общее содержимое HTML-документа в виде строки, в которой ссылки на внешние ресурсы содержат указанный префикс. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Возвращает содержимое всех внешних таблиц стилей в виде списка строк, где одна строка представляет одну таблицу стилей. Возвращает пустой список, если для этого документа нет CSS. |

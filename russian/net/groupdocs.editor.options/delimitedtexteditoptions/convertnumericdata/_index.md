@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Получает или задает значение указывающее преобразуется ли строка в текстовом документе в числовые данные. По умолчанию false.
+description: Получает или задает значение указывающее преобразуется ли строка в текстовом документе в числовые данные. По умолчаниюЛОЖЬ .
 type: docs
 weight: 30
 url: /ru/net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в числовые данные. По умолчанию false.
+Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в числовые данные. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool ConvertNumericData { get; set; }

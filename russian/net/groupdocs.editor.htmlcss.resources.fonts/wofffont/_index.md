@@ -3,7 +3,7 @@ title: WoffFont
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один шрифт в формате WOFF Web Open Font Format
 type: docs
-weight: 320
+weight: 420
 url: /ru/net/groupdocs.editor.htmlcss.resources.fonts/wofffont/
 ---
 ## WoffFont class

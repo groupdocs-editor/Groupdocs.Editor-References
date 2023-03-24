@@ -3,7 +3,7 @@ title: ImageType
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один поддерживаемый тип изображения формат поддерживает как растровые так и векторные форматы
 type: docs
-weight: 390
+weight: 490
 url: /ru/net/groupdocs.editor.htmlcss.resources.images/imagetype/
 ---
 ## ImageType structure

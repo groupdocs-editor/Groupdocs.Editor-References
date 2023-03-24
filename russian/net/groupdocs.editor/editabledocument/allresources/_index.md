@@ -1,14 +1,14 @@
 ---
 title: AllResources
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает список всех существующих ресурсов все таблицы стилей изображения из HTML и все таблицы стилей шрифты
+description: Возвращает список всех существующих ресурсов все таблицы стилей изображения из HTML и все таблицы стилей шрифты аудио
 type: docs
 weight: 40
 url: /ru/net/groupdocs.editor/editabledocument/allresources/
 ---
 ## EditableDocument.AllResources property
 
-Возвращает список всех существующих ресурсов: все таблицы стилей, изображения из HTML и все таблицы стилей, шрифты
+Возвращает список всех существующих ресурсов: все таблицы стилей, изображения из HTML и все таблицы стилей, шрифты, аудио
 
 ```csharp
 public List<IHtmlResource> AllResources { get; }

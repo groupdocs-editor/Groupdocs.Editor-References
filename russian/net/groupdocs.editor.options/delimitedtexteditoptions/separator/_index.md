@@ -14,6 +14,12 @@ url: /ru/net/groupdocs.editor.options/delimitedtexteditoptions/separator/
 public string Separator { get; set; }
 ```
 
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | Возникает, когда указанный разделитель является нулевым значением или пустой строкой |
+
 ### Смотрите также
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

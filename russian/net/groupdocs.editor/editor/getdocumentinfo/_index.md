@@ -37,7 +37,7 @@ public IDocumentInfo GetDocumentInfo(string password)
 
 Метод GetDocumentInfo всегда возвращает полные данные, на него не влияет пробный режим, его использование не списывает использованные байты или кредиты.
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о получении определенных свойств документа в code: [Как получить информацию о документе с помощью GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Extracting+document+metainfo)
 

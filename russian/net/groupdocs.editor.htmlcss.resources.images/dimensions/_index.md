@@ -3,7 +3,7 @@ title: Dimensions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет линейные размеры ширину и высоту одного растрового прямоугольного изображения в произвольных единицах. Неизменная структура.
 type: docs
-weight: 360
+weight: 460
 url: /ru/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

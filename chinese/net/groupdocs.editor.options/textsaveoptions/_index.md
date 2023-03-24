@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许指定用于生成和保存纯文本 TXT 文档的自定义选项
 type: docs
-weight: 950
+weight: 1160
 url: /zh/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class
@@ -24,9 +24,9 @@ public sealed class TextSaveOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddBidiMarks](../../groupdocs.editor.options/textsaveoptions/addbidimarks) { get; set; } | 指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。默认为“假”——不添加双向标记。 |
-| [Encoding](../../groupdocs.editor.options/textsaveoptions/encoding) { get; set; } | 文本文档的字符编码，将应用于其保存 |
-| [PreserveTableLayout](../../groupdocs.editor.options/textsaveoptions/preservetablelayout) { get; set; } | 指定程序在以纯文本格式保存时是否应尝试保留表格布局。默认值为假。 |
+| [AddBidiMarks](../../groupdocs.editor.options/textsaveoptions/addbidimarks) { get; set; } | 指定在以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。默认为“false”——不添加 BiDi 标记。 |
+| [Encoding](../../groupdocs.editor.options/textsaveoptions/encoding) { get; set; } | 文本文档的字符编码，将用于保存 |
+| [PreserveTableLayout](../../groupdocs.editor.options/textsaveoptions/preservetablelayout) { get; set; } | 指定程序在以纯文本格式保存时是否应尝试保留表格布局。默认值为 false. |
 
 ### 也可以看看
 

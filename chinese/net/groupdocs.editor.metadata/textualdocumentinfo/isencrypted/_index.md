@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 始终返回false因为无法加密文本文档
+description: 总是返回 错误的 因为文本文档无法加密
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-始终返回“false”，因为无法加密文本文档。
+总是返回 ``错误的` `，因为文本文档无法加密
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetInverseRatio
 second_title: GroupDocs.Editor for .NET API 参考
-description: 生成并返回此比率的反倒数比率
+description: 生成并返回此比率的反比倒数
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/getinverseratio/
 ---
 ## Ratio.GetInverseRatio method
 
-生成并返回此比率的反（倒数）比率
+生成并返回此比率的反比（倒数）
 
 ```csharp
 public Ratio GetInverseRatio()
@@ -16,7 +16,7 @@ public Ratio GetInverseRatio()
 
 ### 返回值
 
-New Ratio 实例，即这个实例的反比
+新的 Ratio 实例，这是这个实例的反比
 
 ### 也可以看看
 

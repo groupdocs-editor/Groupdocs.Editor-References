@@ -1,14 +1,14 @@
 ---
 title: FramesCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此 TIFF 图像内的帧数图像不能小于 1.
+description: 返回此 TIFF 图像中的帧图像数不能小于 1.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/framescount/
 ---
 ## TiffImage.FramesCount property
 
-返回此 TIFF 图像内的帧数（图像）。不能小于 1.
+返回此 TIFF 图像中的帧（图像）数。不能小于 1.
 
 ```csharp
 public int FramesCount { get; }

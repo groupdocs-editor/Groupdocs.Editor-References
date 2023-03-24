@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定修改和获取用于打开 WordProcessing 文档的密码如果已编码 设置为 NULL 或空字符串以便不使用密码默认值
+description: 允许指定修改和获取密码该密码将用于打开 WordProcessing 文档如果已编码 设置为 NULL 或空字符串以便不使用密码默认值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/wordprocessingloadoptions/password/
 ---
 ## WordProcessingLoadOptions.Password property
 
-允许指定、修改和获取用于打开 WordProcessing 文档的密码（如果已编码）。 设置为 NULL 或空字符串，以便不使用密码（默认值）。
+允许指定、修改和获取密码，该密码将用于打开 WordProcessing 文档（如果已编码）。 设置为 NULL 或空字符串以便不使用密码（默认值）。
 
 ```csharp
 public string Password { get; set; }

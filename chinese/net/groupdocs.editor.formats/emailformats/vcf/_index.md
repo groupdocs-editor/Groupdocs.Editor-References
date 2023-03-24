@@ -1,14 +1,14 @@
 ---
 title: Vcf
 second_title: GroupDocs.Editor for .NET API 参考
-description: VCF虚拟卡格式或 vCard 是一种用于存储联系信息的数字文件格式 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/vcf/.
+description: VCF虚拟卡格式或 vCard 是一种用于存储联系人信息的数字文件格式 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/vcf/.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.formats/emailformats/vcf/
 ---
 ## EmailFormats.Vcf field
 
-VCF（虚拟卡格式）或 vCard 是一种用于存储联系信息的数字文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/vcf/).
+VCF（虚拟卡格式）或 vCard 是一种用于存储联系人信息的数字文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/vcf/).
 
 ```csharp
 public static readonly EmailFormats Vcf;

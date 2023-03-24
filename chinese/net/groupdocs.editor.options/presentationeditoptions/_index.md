@@ -1,14 +1,14 @@
 ---
 title: PresentationEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为编辑所有可支持的演示文稿PowerPoint 兼容格式的文档指定自定义选项
+description: 允许指定用于编辑所有支持的演示文稿与 PowerPoint 兼容格式的文档的自定义选项
 type: docs
-weight: 860
+weight: 1070
 url: /zh/net/groupdocs.editor.options/presentationeditoptions/
 ---
 ## PresentationEditOptions class
 
-允许为编辑所有可支持的演示文稿（PowerPoint 兼容）格式的文档指定自定义选项
+允许指定用于编辑所有支持的演示文稿（与 PowerPoint 兼容）格式的文档的自定义选项
 
 ```csharp
 public class PresentationEditOptions : IEditOptions
@@ -24,7 +24,7 @@ public class PresentationEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ShowHiddenSlides](../../groupdocs.editor.options/presentationeditoptions/showhiddenslides) { get; set; } | 指定是否应包含隐藏的幻灯片。默认为 false - 不显示隐藏的幻灯片，并且在尝试编辑它们时将引发异常。 |
+| [ShowHiddenSlides](../../groupdocs.editor.options/presentationeditoptions/showhiddenslides) { get; set; } | 指定是否应包含隐藏的幻灯片。默认为 false - 隐藏的幻灯片不会显示，并且在尝试编辑它们时会抛出异常。 |
 | [SlideNumber](../../groupdocs.editor.options/presentationeditoptions/slidenumber) { get; set; } | 允许指定幻灯片编号，应打开以进行编辑 |
 
 ### 也可以看看

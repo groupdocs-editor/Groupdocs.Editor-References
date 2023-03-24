@@ -1,14 +1,14 @@
 ---
 title: TryParse
 second_title: GroupDocs.Editor for .NET API 参考
-description: 尝试将指定的字符串解析为长度值包括其数值和单位名称
+description: 尝试将指定字符串解析为长度值包括其数值和单位名称
 type: docs
-weight: 280
+weight: 270
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method
 
-尝试将指定的字符串解析为长度值，包括其数值和单位名称
+尝试将指定字符串解析为长度值，包括其数值和单位名称
 
 ```csharp
 public static bool TryParse(string input, out Length result)
@@ -21,7 +21,7 @@ public static bool TryParse(string input, out Length result)
 
 ### 返回值
 
-解析成功则为真，不成功则为假
+如果解析成功则为真，如果不成功则为假
 
 ### 也可以看看
 

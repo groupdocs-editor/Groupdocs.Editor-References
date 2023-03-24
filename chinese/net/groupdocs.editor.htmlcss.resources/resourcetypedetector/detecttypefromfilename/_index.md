@@ -20,7 +20,7 @@ public static IResourceType DetectTypeFromFilename(string filename)
 
 ### 返回值
 
-成功时 IResourceType 实现或失败时为 NULL
+IResourceType 实现成功或 NULL 失败
 
 ### 也可以看看
 

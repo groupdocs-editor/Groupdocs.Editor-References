@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定是否处理此字体
+description: 判断是否释放该字体
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed/
 ---
 ## FontResourceBase.IsDisposed property
 
-确定是否处理此字体
+判断是否释放该字体
 
 ```csharp
 public bool IsDisposed { get; }

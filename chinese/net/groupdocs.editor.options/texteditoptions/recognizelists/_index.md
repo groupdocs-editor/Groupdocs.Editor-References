@@ -1,14 +1,14 @@
 ---
 title: RecognizeLists
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定从纯文本格式导入文档时如何识别编号列表项默认值为真
+description: 允许指定从纯文本格式导入文档时如何识别编号列表项默认值为 true.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.options/texteditoptions/recognizelists/
 ---
 ## TextEditOptions.RecognizeLists property
 
-允许指定从纯文本格式导入文档时如何识别编号列表项。默认值为真。
+允许指定从纯文本格式导入文档时如何识别编号列表项。默认值为 true.
 
 ```csharp
 public bool RecognizeLists { get; set; }
@@ -16,7 +16,7 @@ public bool RecognizeLists { get; set; }
 
 ### 评论
 
-如果此选项设置为 false，当列表编号以点、右括号或项目符号（例如“•”、“*”、“-”或“o”）结尾时，列表识别算法会检测列表段落。 如果此选项设置为 true，则空格也用作列表编号分隔符：阿拉伯风格编号（1.、1.1.2.）的列表识别算法同时使用空格和点（“.”）符号。
+如果此选项设置为 false，当列表编号以点、右括号或项目符号（例如“•”、“*”、“-”或“o”）结尾时，列表识别算法会检测列表段落。 如果此选项设置为 true，空格也用作列表编号分隔符：阿拉伯风格编号的列表识别算法 (1., 1.1.2.) 使用空格和点 (.) 符号。
 
 ### 也可以看看
 

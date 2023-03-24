@@ -1,14 +1,14 @@
 ---
 title: FloatValue
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 Length 实例的浮点数值从不抛出异常  必要时将 Integer 值转换为 Float
+description: 返回 Length 实例的浮点数值从不抛出异常  如有必要将 Integer 值转换为 Float.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/floatvalue/
 ---
 ## Length.FloatValue property
 
-返回 Length 实例的浮点数值。从不抛出异常 - 必要时将 Integer 值转换为 Float。
+返回 Length 实例的浮点数值。从不抛出异常 - 如有必要，将 Integer 值转换为 Float.
 
 ```csharp
 public float FloatValue { get; }

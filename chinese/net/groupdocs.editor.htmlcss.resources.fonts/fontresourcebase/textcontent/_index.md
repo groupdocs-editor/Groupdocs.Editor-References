@@ -1,14 +1,14 @@
 ---
 title: TextContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此字体的内容作为 base64 编码的字符串返回该值在第一次调用后被缓存
+description: 将此字体的内容作为 base64 编码的字符串返回该值在第一次调用后缓存
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/textcontent/
 ---
 ## FontResourceBase.TextContent property
 
-将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后被缓存。
+将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后缓存。
 
 ```csharp
 public string TextContent { get; }

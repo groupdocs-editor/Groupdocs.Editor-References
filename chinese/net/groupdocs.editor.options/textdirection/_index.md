@@ -3,7 +3,7 @@ title: TextDirection
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示 3 种可能的变体如何处理纯文本文档中的文本方向
 type: docs
-weight: 920
+weight: 1130
 url: /zh/net/groupdocs.editor.options/textdirection/
 ---
 ## TextDirection enumeration
@@ -18,8 +18,8 @@ public enum TextDirection
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LeftToRight | `0` | 从左到右的方向，普通文字，默认值。 |
-| RightToLeft | `1` | 从右到左的方向 |
+| LeftToRight | `0` | 从左到右方向，普通文本，默认值。 |
+| RightToLeft | `1` | 从右到左方向 |
 | Auto | `2` | 自动检测方向。 When this option is selected and text contains characters belonging to RTL scripts, the document direction will be set automatically to RTL. |
 
 ### 也可以看看

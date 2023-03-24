@@ -1,14 +1,14 @@
 ---
 title: Xlt
 second_title: GroupDocs.Editor for .NET API 参考
-description: Excel 972003 模板 XLT 表示使用 Microsoft Excel 创建的模板文件Microsoft Excel 是作为 Microsoft Office 套件的一部分提供的电子表格应用程序 Microsoft Office 972003 支持创建新的 XLT 文件以及打开这些文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlt
+description: Excel 972003 模板 XLT 表示使用 Microsoft Excel 创建的模板文件Microsoft Excel 是一个电子表格应用程序是 Microsoft Office 套件的一部分 Microsoft Office 972003 支持创建新的 XLT 文件以及打开这些文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlt
 type: docs
 weight: 130
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/xlt/
 ---
 ## SpreadsheetFormats.Xlt field
 
-Excel 97-2003 模板 (XLT) 表示使用 Microsoft Excel 创建的模板文件，Microsoft Excel 是作为 Microsoft Office 套件的一部分提供的电子表格应用程序。 Microsoft Office 97-2003 支持创建新的 XLT 文件以及打开这些文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlt)
+Excel 97-2003 模板 (XLT) 表示使用 Microsoft Excel 创建的模板文件，Microsoft Excel 是一个电子表格应用程序，是 Microsoft Office 套件的一部分。 Microsoft Office 97-2003 支持创建新的 XLT 文件以及打开这些文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlt)
 
 ```csharp
 public static readonly SpreadsheetFormats Xlt;

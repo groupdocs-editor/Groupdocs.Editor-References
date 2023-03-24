@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 事件当该字体被释放时发生
+description: 事件当这个字体被释放时发生
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed/
 ---
 ## FontResourceBase.Disposed event
 
-事件，当该字体被释放时发生
+事件，当这个字体被释放时发生
 
 ```csharp
 public event EventHandler Disposed;

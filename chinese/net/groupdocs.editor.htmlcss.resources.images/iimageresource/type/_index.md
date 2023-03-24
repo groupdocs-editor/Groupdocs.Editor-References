@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现type时应该返回一个特定图像的类型作为特定ImageType的一个实例它封装了所有类型特定的info
+description: 在实现类型时应该返回一个特定图像的类型作为特定ImageType的实例它封装了所有特定类型的信息
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/iimageresource/type/
 ---
 ## IImageResource.Type property
 
-在实现type时应该返回一个特定图像的类型作为特定ImageType的一个实例，它封装了所有类型特定的info
+在实现类型时应该返回一个特定图像的类型作为特定ImageType的实例，它封装了所有特定类型的信息
 
 ```csharp
 public ImageType Type { get; }

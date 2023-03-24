@@ -1,14 +1,14 @@
 ---
 title: Doc
 second_title: GroupDocs.Editor for .NET API 参考
-description: MS Word 972007 二进制文件格式 DOC 表示由 Microsoft Word 或其他二进制文件格式的文字处理文档生成的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/doc.
+description: MS Word 972007 二进制文件格式 DOC 表示由 Microsoft Word 或其他文字处理文档以二进制文件格式生成的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/doc.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats/doc/
 ---
 ## WordProcessingFormats.Doc field
 
-MS Word 97-2007 二进制文件格式 (DOC) 表示由 Microsoft Word 或其他二进制文件格式的文字处理文档生成的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/doc).
+MS Word 97-2007 二进制文件格式 (DOC) 表示由 Microsoft Word 或其他文字处理文档以二进制文件格式生成的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/doc).
 
 ```csharp
 public static readonly WordProcessingFormats Doc;

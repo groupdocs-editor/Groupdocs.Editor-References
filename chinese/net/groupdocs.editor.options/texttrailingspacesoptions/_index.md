@@ -1,14 +1,14 @@
 ---
 title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含在打开纯文本文档 TXT 期间用于尾随空格处理的可用选项
+description: 包含在打开纯文本文档 TXT 期间尾随空格处理的可用选项
 type: docs
-weight: 960
+weight: 1170
 url: /zh/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration
 
-包含在打开纯文本文档 (TXT) 期间用于尾随空格处理的可用选项
+包含在打开纯文本文档 (TXT) 期间尾随空格处理的可用选项
 
 ```csharp
 public enum TextTrailingSpacesOptions
@@ -18,8 +18,8 @@ public enum TextTrailingSpacesOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Trim | `0` | 完全修剪（截断）所有尾随空格。默认值。 |
-| Preserve | `1` | 将所有尾随空格“按原样”传递给输出 HTML，而不触及它们 |
+| Trim | `0` | 完全修剪（截断）所有尾随空格。默认值. |
+| Preserve | `1` | 将所有尾随空格“按原样”传递到输出 HTML，而不触及它们 |
 
 ### 也可以看看
 

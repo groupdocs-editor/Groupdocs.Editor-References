@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于指定的AudioType实例
+description: 确定此实例是否等于指定的AudioType instance
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/audiotype/equals/
 ---
 ## Equals(AudioType) {#equals}
 
-确定此实例是否等于指定的“AudioType”实例
+确定此实例是否等于指定的“AudioType” instance
 
 ```csharp
 public bool Equals(AudioType other)
@@ -16,7 +16,7 @@ public bool Equals(AudioType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | AudioType | 要检查的其他 AudioType 实例 |
+| other | AudioType | 其他 AudioType 实例来检查这个 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(AudioType other)
 
 ## Equals(object) {#equals_1}
 
-判断此实例是否与指定的未转换对象相等，推测为另一个“AudioType”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“AudioType”实例
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 可能是 AudioType 结构的其他实例，它被装箱到 System.Object |
+| obj | Object | 其他可能是 AudioType 结构的实例，被装箱到 System.Object |
 
 ### 返回值
 

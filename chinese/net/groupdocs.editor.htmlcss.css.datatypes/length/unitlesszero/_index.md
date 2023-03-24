@@ -1,14 +1,14 @@
 ---
 title: UnitlessZero
 second_title: GroupDocs.Editor for .NET API 参考
-description: 无单位整数零  默认值与默认无参数构造函数相同
+description: 无单位整数零  默认值与默认无参数构造函数 相同
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/unitlesszero/
 ---
 ## Length.UnitlessZero field
 
-无单位整数零 - 默认值，与默认无参数构造函数相同
+无单位整数零 - 默认值，与默认无参数构造函数 相同
 
 ```csharp
 public static readonly Length UnitlessZero;

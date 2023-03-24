@@ -3,7 +3,7 @@ title: RecognizeEmails
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许为属性值中的电子邮件地址启用识别算法
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/groupdocs.editor.options/xmleditoptions/recognizeemails/
 ---
 ## XmlEditOptions.RecognizeEmails property

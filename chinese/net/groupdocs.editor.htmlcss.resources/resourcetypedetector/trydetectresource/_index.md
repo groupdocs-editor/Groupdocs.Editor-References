@@ -1,14 +1,14 @@
 ---
 title: TryDetectResource
 second_title: GroupDocs.Editor for .NET API 参考
-description: 尝试分析输入流并从中创建一个可支持的 HTML 资源同时考虑指定的假设类型如果它不是 null
+description: 尝试分析输入流并从中创建一个可支持的 HTML 资源如果它不是 null 则考虑指定的假设类型
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource/
 ---
 ## ResourceTypeDetector.TryDetectResource method
 
-尝试分析输入流并从中创建一个可支持的 HTML 资源，同时考虑指定的假设类型，如果它不是 null
+尝试分析输入流并从中创建一个可支持的 HTML 资源，如果它不是 null ，则考虑指定的假设类型
 
 ```csharp
 public static IHtmlResource TryDetectResource(Stream inputResourceStream, string name, 
@@ -17,13 +17,13 @@ public static IHtmlResource TryDetectResource(Stream inputResourceStream, string
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| inputResourceStream | Stream | 输入流，大概包含一个 HTML 资源。如果无效，将抛出异常。 |
-| name | String | 资源名称，用于成功创建和返回的资源。不能为 NULL、空或空格 |
-| assumptiveFormat | IResourceType | 输入 HTML 资源的假定格式，这对于实现最佳性能很有用。 如果完全未知，则使用 NULL 值。可能是不正确的，这只会使性能恶化。 |
+| inputResourceStream | Stream | 输入流，可能包含 HTML 资源。如果无效，将抛出异常。 |
+| name | String | 资源名称，将用于创建和成功返回的资源。不能为 NULL、空或空格 |
+| assumptiveFormat | IResourceType | 输入 HTML 资源的假定格式，这对于实现最佳性能很有用。 如果完全未知，则使用 NULL 值。可能是不正确的，这只会恶化性能。 |
 
 ### 返回值
 
-实例，实现“IHtmlResource”接口，成功时代表可支持的 HTML 资源之一，失败时为 NULL
+实例，实现“IHtmlResource”接口，成功时表示支持的 HTML 资源之一，失败时为 NULL
 
 ### 也可以看看
 

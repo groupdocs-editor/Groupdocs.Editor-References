@@ -1,14 +1,14 @@
 ---
 title: TextualFormats
 second_title: GroupDocs.Editor for .NET API 参考
-description: 封装所有文本基于文本格式包括标记XMLHTML等 包括以下格式 Html./textualformats/html  Txt./textualformats/txt  Xml./textualformats/xml. Md./textualformats/md  Json./textualformats/json.
+description: 封装所有文本基于文本的格式包括标记XMLHTML和其他格式 包括以下格式 Html./textualformats/html  Txt./textualformats/txt  Xml./textualformats/xml. Md./textualformats/md  Json./textualformats/json.
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor.formats/textualformats/
 ---
 ## TextualFormats structure
 
-封装所有文本（基于文本）格式，包括标记（XML、HTML）等。 包括以下格式： [`Html`](./html) , [`Txt`](./txt) , [`Xml`](./xml). [`Md`](./md) , [`Json`](./json).
+封装所有文本（基于文本的）格式，包括标记（XML、HTML）和其他格式。 包括以下格式： [`Html`](./html) , [`Txt`](./txt) , [`Xml`](./xml). [`Md`](./md) , [`Json`](./json).
 
 ```csharp
 public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
@@ -26,33 +26,33 @@ public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | 返回实例[`TextualFormats`](../textualformats)结构，关联到指定的文件扩展名，或者如果扩展名无法正确解析，则抛出异常 |
-| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | 确定此实例是否等于其他指定的 IDocumentFormat 实例 |
-| override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | 确定此实例是否等于另一个指定的对象，可能是装箱的 TextualFormats |
-| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | 判断这个实例是否等于其他指定的TextualFormats实例 |
+| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | 返回实例[`TextualFormats`](../textualformats)结构，与指定的文件扩展名相关联，或者如果无法正确解析扩展名则抛出异常 |
+| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | 判断这个实例是否等于另一个指定的IDocumentFormat instance |
+| override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | 确定此实例是否等于其他指定对象，大概是装箱的 TextualFormats |
+| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | 判断这个实例是否等于其他指定的TextualFormats instance |
 | override [GetHashCode](../../groupdocs.editor.formats/textualformats/gethashcode)() | 返回一个哈希码，对于这个实例是不可变的 |
-| override [ToString](../../groupdocs.editor.formats/textualformats/tostring)() | 返回此特定格式的名称，与“名称”属性相同 |
-| [operator ==](../../groupdocs.editor.formats/textualformats/op_equality) | 检查两个给定的 TextualFormats 实例是否相等 |
-| [operator !=](../../groupdocs.editor.formats/textualformats/op_inequality) | 在不等式 上检查两个给定的 TextualFormats 实例 |
+| override [ToString](../../groupdocs.editor.formats/textualformats/tostring)() | 返回此特定格式的名称，与 'Name' property 相同 |
+| [operator ==](../../groupdocs.editor.formats/textualformats/op_equality) | 在 equality 上检查两个给定的 TextualFormats 实例 |
+| [operator !=](../../groupdocs.editor.formats/textualformats/op_inequality) | 在 inequality 上检查两个给定的 TextualFormats 实例 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Chm](../../groupdocs.editor.formats/textualformats/chm) | Microsoft Compiled HTML Help 是 Microsoft 专有的在线帮助二进制格式，由 HTML 页面、索引和其他导航工具的集合组成。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/chm/). |
+| static readonly [Chm](../../groupdocs.editor.formats/textualformats/chm) | Microsoft Compiled HTML Help 是 Microsoft 专有的联机帮助二进制格式，由一组 HTML 页面、索引和其他导航工具组成。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/chm/). |
 | static readonly [Html](../../groupdocs.editor.formats/textualformats/html) | 超文本标记语言文档 (HTML) 是为在浏览器中显示而创建的网页的扩展。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/html). |
 | static readonly [Json](../../groupdocs.editor.formats/textualformats/json) | JSON（JavaScript 对象表示法）是一种用于共享数据的开放标准文件格式，它使用人类可读的文本来存储和传输数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/json/). |
 | static readonly [Md](../../groupdocs.editor.formats/textualformats/md) | Markdown 是一种轻量级标记语言，用于使用纯文本编辑器创建格式化文本。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/word-processing/md/). |
-| static readonly [Mhtml](../../groupdocs.editor.formats/textualformats/mhtml) | 聚合 HTML 文档的 MIME 封装是一种网页存档格式，用于在单个计算机文件中组合 HTML 代码及其相关资源。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/mhtml/). |
+| static readonly [Mhtml](../../groupdocs.editor.formats/textualformats/mhtml) | 聚合 HTML 文档的 MIME 封装是一种网页存档格式，用于在单个计算机文件中组合 HTML 代码及其配套资源。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/mhtml/). |
 | static readonly [Txt](../../groupdocs.editor.formats/textualformats/txt) | 纯文本文档 (TXT) 表示包含行形式的纯文本的文本文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/txt). |
-| static readonly [Xml](../../groupdocs.editor.formats/textualformats/xml) | 可扩展标记语言文档 (XML)，它与 HTML 类似，但在使用标签来定义对象方面有所不同。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/xml). |
-| static readonly [All](../../groupdocs.editor.formats/textualformats/all) | 返回一个内部类，它为所有现有的文本格式提供了可枚举的可能性。 |
+| static readonly [Xml](../../groupdocs.editor.formats/textualformats/xml) | eXtensible Markup Language 文档 (XML) 与 HTML 类似，但在使用标签定义对象方面有所不同。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/xml). |
+| static readonly [All](../../groupdocs.editor.formats/textualformats/all) | 返回一个内部类，它提供了所有现有文本格式的可枚举可能性。 |
 
 ## 其他成员
 
 | 姓名 | 描述 |
 | --- | --- |
-| class [AllEnumerable](textualformats.allenumerable) | 实现 IEnumerable 通用接口，为 TextualFormats 类型启用“foreach”可能性 |
+| class [AllEnumerable](textualformats.allenumerable) | 实现 IEnumerable 通用接口，为 TextualFormats type 启用“foreach”可能性 |
 
 ### 也可以看看
 

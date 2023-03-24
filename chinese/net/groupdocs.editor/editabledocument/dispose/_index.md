@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: GroupDocs.Editor for .NET API 参考
-description: 处置此可编辑文档实例处置其内容并使其方法和属性无效
+description: 处理此可编辑文档实例处理其内容并使其方法和属性无效
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor/editabledocument/dispose/
 ---
 ## EditableDocument.Dispose method
 
-处置此可编辑文档实例，处置其内容并使其方法和属性无效
+处理此可编辑文档实例，处理其内容并使其方法和属性无效
 
 ```csharp
 public void Dispose()
@@ -16,7 +16,7 @@ public void Dispose()
 
 ### 评论
 
-调用此方法后，调用此实例的所有其他方法将抛出一个ObjectDisposedException.多次调用此方法是安全的——所有后续调用都将被忽略。
+调用此方法后，调用此实例的所有其他方法将抛出ObjectDisposedException.多次调用此方法是安全的——所有后续调用都将被忽略。
 
 ### 也可以看看
 

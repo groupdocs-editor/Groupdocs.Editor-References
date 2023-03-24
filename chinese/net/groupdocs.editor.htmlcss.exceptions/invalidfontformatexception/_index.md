@@ -1,14 +1,14 @@
 ---
 title: InvalidFontFormatException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 尝试打开加载保存或以其他方式处理某些内容时引发的异常可能是支持已知格式的字体但实际上是意外和/或不支持格式的字体或者不是所有.
+description: 尝试打开加载保存或以其他方式处理某些内容时抛出的异常可能是支持已知格式的字体但实际上是意外和/或不支持格式的字体或者不是字体所有.
 type: docs
-weight: 220
+weight: 320
 url: /zh/net/groupdocs.editor.htmlcss.exceptions/invalidfontformatexception/
 ---
 ## InvalidFontFormatException class
 
-尝试打开、加载、保存或以其他方式处理某些内容时引发的异常，可能是支持（已知）格式的字体，但实际上是意外和/或不支持格式的字体，或者不是所有.
+尝试打开、加载、保存或以其他方式处理某些内容时抛出的异常，可能是支持（已知）格式的字体，但实际上是意外和/或不支持格式的字体，或者不是字体所有.
 
 ```csharp
 public class InvalidFontFormatException : Exception
@@ -18,8 +18,8 @@ public class InvalidFontFormatException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InvalidFontFormatException](invalidfontformatexception#constructor)(string) | 创建新的实例[`InvalidFontFormatException`](../invalidfontformatexception)带有指定的错误消息 |
-| [InvalidFontFormatException](invalidfontformatexception#constructor_1)(string, Exception) | 创建新的实例[`InvalidFontFormatException`](../invalidfontformatexception)带有指定的错误消息和对导致此异常的内部异常的引用 |
+| [InvalidFontFormatException](invalidfontformatexception#constructor)(string) | 创建新实例[`InvalidFontFormatException`](../invalidfontformatexception)带有指定的错误消息 |
+| [InvalidFontFormatException](invalidfontformatexception#constructor_1)(string, Exception) | 创建新实例[`InvalidFontFormatException`](../invalidfontformatexception)带有指定的错误消息和对导致此异常的内部异常的引用 |
 
 ### 也可以看看
 

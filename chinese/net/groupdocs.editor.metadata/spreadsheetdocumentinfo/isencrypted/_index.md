@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指示此特定电子表格文档是否已加密并需要密码才能打开
+description: 表示此特定电子表格文档是否已加密并需要密码才能打开
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/spreadsheetdocumentinfo/isencrypted/
 ---
 ## SpreadsheetDocumentInfo.IsEncrypted property
 
-指示此特定电子表格文档是否已加密并需要密码才能打开
+表示此特定电子表格文档是否已加密并需要密码才能打开
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -1,14 +1,14 @@
 ---
 title: FromSize
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从指定的 System.Drawing.Size instance 生成并返回一个新实例
+description: 从指定的 System.Drawing.Size 生成并返回一个新实例 instance
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/fromsize/
 ---
 ## Dimensions.FromSize method
 
-从指定的 System.Drawing.Size instance 生成并返回一个新实例
+从指定的 System.Drawing.Size 生成并返回一个新实例 instance
 
 ```csharp
 public static Dimensions FromSize(Size size)
@@ -20,7 +20,7 @@ public static Dimensions FromSize(Size size)
 
 ### 返回值
 
-与指定的具有相同宽度和高度的新实例
+具有与指定的相同宽度和高度的新实例
 
 ### 也可以看看
 

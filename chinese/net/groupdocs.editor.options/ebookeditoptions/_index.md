@@ -1,14 +1,14 @@
 ---
 title: EbookEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项ePubMOBI 和 AZW3
+description: 允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项ePubMOBI 和 AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /zh/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
 
-允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项：ePub、MOBI 和 AZW3。
+允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项：ePub、MOBI 和 AZW3.
 
 ```csharp
 public sealed class EbookEditOptions : IEditOptions
@@ -18,22 +18,22 @@ public sealed class EbookEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EbookEditOptions](ebookeditoptions#constructor)() | 初始化[`EbookEditOptions`](../ebookeditoptions)类，其中所有选项都设置为其默认值 |
-| [EbookEditOptions](ebookeditoptions#constructor_1)(bool) | 初始化[`EbookEditOptions`](../ebookeditoptions)具有指定分页模式的类 |
+| [EbookEditOptions](ebookeditoptions#constructor)() | 初始化一个新的实例[`EbookEditOptions`](../ebookeditoptions)类，其中所有选项都设置为其默认值 |
+| [EbookEditOptions](ebookeditoptions#constructor_1)(bool) | 初始化一个新的实例[`EbookEditOptions`](../ebookeditoptions)具有指定分页模式的类 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | 指定语言信息是否以“lang” HTML 属性的形式导出到 HTML 标记。 此选项可能对多语言文档的往返转换很有用。默认情况下它被禁用（`错误的` ). |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（`错误的` ). |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | 指定语言信息是否以“lang”HTML 属性的形式导出到 HTML 标记。 此选项可能对多语言文档的往返转换很有用。默认情况下它是禁用的（`错误的`). |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（`错误的`). |
 
 ### 评论
 
 支持的电子书格式：
 
-1. [ePub](https://docs.fileformat.com/ebook/epub/) （电子出版物）
-2. [摩比](https://docs.fileformat.com/ebook/mobi/) （移动口袋）
+1. [电子书](https://docs.fileformat.com/ebook/epub/) (电子刊物)
+2. [摩比](https://docs.fileformat.com/ebook/mobi/)(手机口袋)
 3. [AZW3](https://docs.fileformat.com/ebook/azw3/)(Kindle 格式 8t)
 
 ### 也可以看看

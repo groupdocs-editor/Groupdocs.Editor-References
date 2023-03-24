@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API 参考
-description: 特定图像格式的 .NET 标准图像格式描述如果它具有特定于 .NET 的表示 对于未定义类型返回一个空值对于 .NET 中未表示的所有格式将引发 InvalidOperationException.
+description: 特定图像格式的 .NET 标准图像格式说明如果它具有 .NET 特定的表示形式 对于 Undefined 类型返回空值对于 .NET 中未表示的所有格式抛出 InvalidOperationException.
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/format/
 ---
 ## ImageType.Format property
 
-特定图像格式的 .NET 标准图像格式描述，如果它具有特定于 .NET 的表示。 对于未定义类型返回一个空值。对于 .NET 中未表示的所有格式，将引发 InvalidOperationException.
+特定图像格式的 .NET 标准图像格式说明，如果它具有 .NET 特定的表示形式。 对于 Undefined 类型返回空值。对于 .NET 中未表示的所有格式，抛出 InvalidOperationException.
 
 ```csharp
 public ImageFormat Format { get; }
@@ -18,7 +18,7 @@ public ImageFormat Format { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 针对 .NET 中不支持的格式抛出 |
+| InvalidOperationException | 针对 .NET 不支持的格式抛出 |
 
 ### 也可以看看
 

@@ -17,7 +17,7 @@ public Mp3Audio(string name, Stream binaryContent)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | MP3 内容的名称。不能为 null、空或空格。 |
-| binaryContent | Stream | 内容为字节流。阅读从原始位置开始。不能为空。 应该是可读和可搜索的。如果此实例将被释放，则此流也将被释放。 |
+| binaryContent | Stream | 内容为字节流。阅读从原来的位置开始。不能为空。 应该是可读和可查找的。如果这个实例将被释放，这个流也将被释放。 |
 
 ### 例外
 

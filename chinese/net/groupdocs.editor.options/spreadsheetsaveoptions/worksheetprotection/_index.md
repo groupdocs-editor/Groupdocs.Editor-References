@@ -1,14 +1,14 @@
 ---
 title: WorksheetProtection
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为输出电子表格文档启用工作表保护默认为 NULL  不应用保护并非所有格式都支持工作表保护
+description: 允许为输出电子表格文档启用工作表保护默认情况下为 NULL  不应用保护并非所有格式都支持工作表保护
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.options/spreadsheetsaveoptions/worksheetprotection/
 ---
 ## SpreadsheetSaveOptions.WorksheetProtection property
 
-允许为输出电子表格文档启用工作表保护。默认为 NULL - 不应用保护。并非所有格式都支持工作表保护。
+允许为输出电子表格文档启用工作表保护。默认情况下为 NULL - 不应用保护。并非所有格式都支持工作表保护。
 
 ```csharp
 public WorksheetProtection WorksheetProtection { get; set; }

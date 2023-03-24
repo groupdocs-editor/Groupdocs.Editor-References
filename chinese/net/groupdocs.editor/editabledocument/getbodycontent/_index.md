@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以字符串形式返回 HTML 文档的正文在开始和结束 BODY 标记之间的内容没有这些标记
+description: 以字符串形式返回 HTML 文档的正文开始和结束 BODY 标签之间的内部内容没有这些标签
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-以字符串形式返回 HTML 文档的正文（在开始和结束 BODY 标记之间的内容，没有这些标记）。
+以字符串形式返回 HTML 文档的正文（开始和结束 BODY 标签之间的内部内容，没有这些标签）。
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### 返回值
 
-字符串，包含 HTML 文档的正文
+字符串，包含 HTML 文档的主体（没有开始和结束 BODY 标签）
 
 ### 评论
 
-WYSIWYG 编辑器使用文档正文进行操作，无法正确处理来自 HEAD 块的元信息。 此方法专为此类情况而设计。此重载不允许调整外部资源请求的 URI。
+大多数所见即所得的编辑器通常对文档的 BODY 的内部内容进行操作，无法正确处理来自 HEAD 块的元信息。 这种方法就是为这种情况设计的。此重载不允许调整外部资源请求的 URI。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ WYSIWYG 编辑器使用文档正文进行操作，无法正确处理来自 HEAD 
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-以字符串的形式返回 HTML 文档的正文（在没有这些标签的情况下在开始和结束 BODY 标记之间的内容）， 其中指向外部资源的链接包含指定的前缀。
+返回 HTML 文档的正文（在没有这些标签的情况下打开和关闭 BODY 标签之间的内部内容）作为字符串， 其中指向外部资源的链接包含指定的前缀。
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -40,15 +40,15 @@ public string GetBodyContent(string externalImagesPrefix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| externalImagesPrefix | String | 通过使用此参数可以指定一个前缀，该前缀将添加到 IMG 元素中的所有外部图像的 links 中，该前缀将出现在生成的 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
+| externalImagesPrefix | String | 通过此参数可以指定一个前缀，该前缀将添加到 IMG 元素中所有外部图像的 links 中，该前缀将出现在生成的 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
 
 ### 返回值
 
-字符串，其中包含带有链接的 HTML 文档的正文，已调整为外部图像
+字符串，包含带链接的 HTML 文档正文（没有打开和关闭 BODY 标签），已调整为外部图像
 
 ### 评论
 
-WYSIWYG 编辑器使用文档正文进行操作，无法正确处理来自 HEAD 块的元信息。 此方法专为此类情况而设计。此重载允许调整外部资源请求的 URI。
+大多数所见即所得的编辑器通常对文档的 BODY 的内部内容进行操作，无法正确处理来自 HEAD 块的元信息。 这种方法就是为这种情况设计的。此重载允许调整外部资源请求的 URI。
 
 ### 也可以看看
 

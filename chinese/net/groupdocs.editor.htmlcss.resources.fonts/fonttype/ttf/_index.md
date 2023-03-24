@@ -1,14 +1,14 @@
 ---
 title: Ttf
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示 TTFTrueType 字体字体类型
+description: 代表一个TTFTrueType Font字体type
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/ttf/
 ---
 ## FontType.Ttf property
 
-表示 TTF（TrueType 字体）字体类型
+代表一个TTF（TrueType Font）字体type
 
 ```csharp
 public static FontType Ttf { get; }

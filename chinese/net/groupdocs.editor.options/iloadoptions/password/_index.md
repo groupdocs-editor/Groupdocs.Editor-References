@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类中应该允许为编码的受密码保护的文档设置密码 默认情况下不使用密码  字符串具有 NULL 值
+description: 在实现类中应该允许为编码的密码保护文档设置密码 默认情况下不使用密码  字符串具有 NULL 值
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/iloadoptions/password/
 ---
 ## ILoadOptions.Password property
 
-在实现类中应该允许为编码的受密码保护的文档设置密码。 默认情况下不使用密码 - 字符串具有 NULL 值。
+在实现类中应该允许为编码的密码保护文档设置密码。 默认情况下不使用密码 - 字符串具有 NULL 值。
 
 ```csharp
 public string Password { get; set; }

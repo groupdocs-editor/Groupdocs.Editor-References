@@ -1,14 +1,14 @@
 ---
 title: FromFile
 second_title: GroupDocs.Editor for .NET API 参考
-description: 静态工厂从 HTML 文件创建 EditableDocument 的实例 由 .html 文件本身的路径和具有链接资源的文件夹指定
+description: 静态工厂它从 HTML 文件创建 EditableDocument 的实例 由 .html 文件本身的路径和具有链接资源的文件夹指定
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor/editabledocument/fromfile/
 ---
 ## EditableDocument.FromFile method
 
-静态工厂，从 HTML 文件创建 EditableDocument 的实例， 由 *.html 文件本身的路径和具有链接资源的文件夹指定
+静态工厂，它从 HTML 文件创建 EditableDocument 的实例， 由 *.html 文件本身的路径和具有链接资源的文件夹指定
 
 ```csharp
 public static EditableDocument FromFile(string htmlFilePath, string resourceFolderPath)
@@ -16,8 +16,8 @@ public static EditableDocument FromFile(string htmlFilePath, string resourceFold
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlFilePath | String | 字符串，包含 HTML 文件的完整路径。 不能为空，应该是有效的文件路径，并且文件本身应该存在。 |
-| resourceFolderPath | String | 带有 HTML 资源的文件夹的可选路径。 如果为 NULL、无效或此类文件夹不存在，编辑器将尝试自行查找此文件夹，分析 HTML 标记 |
+| htmlFilePath | String | 字符串，包含 HTML 文件的完整路径。 不能为 null，应该是有效的文件路径，并且文件本身应该存在。 |
+| resourceFolderPath | String | 包含 HTML 资源的文件夹的可选路径。 如果 NULL、无效或此类文件夹不存在，编辑器将尝试自行查找此文件夹，分析 HTML 标记 |
 
 ### 返回值
 

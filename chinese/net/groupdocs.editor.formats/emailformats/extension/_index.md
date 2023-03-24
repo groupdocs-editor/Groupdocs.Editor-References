@@ -1,14 +1,14 @@
 ---
 title: Extension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回格式文件扩展名不带前导点字符
+description: 在实现类型中应返回格式文件扩展名不带前导点字符
 type: docs
 weight: 140
 url: /zh/net/groupdocs.editor.formats/emailformats/extension/
 ---
 ## EmailFormats.Extension property
 
-在实现类型中应该返回格式文件扩展名（不带前导点字符）。
+在实现类型中应返回格式文件扩展名（不带前导点字符）。
 
 ```csharp
 public string Extension { get; }

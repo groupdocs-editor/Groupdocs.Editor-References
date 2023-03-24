@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此字体资源的名称通常不包含文件扩展名理论上可能与 filename. 不同
+description: 返回此字体资源的名称通常不包含文件扩展名理论上可以不同于文件名.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/name/
 ---
 ## FontResourceBase.Name property
 
-返回此字体资源的名称。通常不包含文件扩展名，理论上可能与 filename. 不同
+返回此字体资源的名称。通常不包含文件扩展名，理论上可以不同于文件名.
 
 ```csharp
 public string Name { get; }

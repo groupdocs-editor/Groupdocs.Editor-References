@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 事件该 MP3 内容被释放时发生
+description: 事件当这个MP3内容被处理时发生
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/disposed/
 ---
 ## Mp3Audio.Disposed event
 
-事件，该 MP3 内容被释放时发生
+事件，当这个MP3内容被处理时发生
 
 ```csharp
 public event EventHandler Disposed;

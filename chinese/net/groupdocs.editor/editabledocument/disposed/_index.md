@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 事件当这个 Editable 文档被释放时发生在完成释放过程之后
+description: 事件当这个可编辑文档被释放时发生在完成释放过程后立即发生
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor/editabledocument/disposed/
 ---
 ## EditableDocument.Disposed event
 
-事件，当这个 Editable 文档被释放时发生，在完成释放过程之后
+事件，当这个可编辑文档被释放时发生，在完成释放过程后立即发生
 
 ```csharp
 public event EventHandler Disposed;

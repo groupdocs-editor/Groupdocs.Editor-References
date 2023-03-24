@@ -3,7 +3,7 @@ title: TextType
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示一种可支持的文本资源类型
 type: docs
-weight: 500
+weight: 650
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/texttype/
 ---
 ## TextType structure
@@ -19,7 +19,7 @@ public struct TextType : IEquatable<TextType>, IResourceType
 | 姓名 | 描述 |
 | --- | --- |
 | static [Css](../../groupdocs.editor.htmlcss.resources.textual/texttype/css) { get; } | 文本资源的 CSS 类型 |
-| static [Undefined](../../groupdocs.editor.htmlcss.resources.textual/texttype/undefined) { get; } | 特殊值，标记未定义、未知或不支持的文本资源 |
+| static [Undefined](../../groupdocs.editor.htmlcss.resources.textual/texttype/undefined) { get; } | 特殊值，标记未定义、未知或不受支持的文本资源 |
 | static [Xml](../../groupdocs.editor.htmlcss.resources.textual/texttype/xml) { get; } | 文本资源的 XML 类型 |
 | [FileExtension](../../groupdocs.editor.htmlcss.resources.textual/texttype/fileextension) { get; } | 特定文本资源的文件扩展名（不带前导点字符） |
 | [FormalName](../../groupdocs.editor.htmlcss.resources.textual/texttype/formalname) { get; } | 返回此文本资源类型的正式名称 |
@@ -29,10 +29,10 @@ public struct TextType : IEquatable<TextType>, IResourceType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.textual/texttype/parsefromfilenamewithextension)(string) | 返回TextType值，相当于文件扩展名，从指定的文件名中提取扩展名或纯扩展名 |
-| override [Equals](../../groupdocs.editor.htmlcss.resources.textual/texttype/equals#equals_1)(object) | 判断这个实例是否与指定的未转换对象相等，大概是另一个“TextType”实例 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.textual/texttype/equals#equals)(TextType) | 确定此实例是否等于指定的“TextType”实例 |
-| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.textual/texttype/gethashcode)() | 返回一个哈希码，它是这个特定值类型的常数 |
+| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.textual/texttype/parsefromfilenamewithextension)(string) | 返回TextType值，相当于文件扩展名，从指定文件名中提取扩展名或纯扩展名 |
+| override [Equals](../../groupdocs.editor.htmlcss.resources.textual/texttype/equals#equals_1)(object) | 确定此实例是否与指定的未转换对象相等，这可能是另一个“TextType”实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.textual/texttype/equals#equals)(TextType) | 确定此实例是否等于指定的“TextType” instance |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.textual/texttype/gethashcode)() | 返回一个哈希码，它是这个特定值 type 的常数 |
 | [operator ==](../../groupdocs.editor.htmlcss.resources.textual/texttype/op_equality) | 定义两个特定的“TextType”实例是否相等 |
 | [operator !=](../../groupdocs.editor.htmlcss.resources.textual/texttype/op_inequality) | 定义两个特定的“TextType”实例是否不相等 |
 

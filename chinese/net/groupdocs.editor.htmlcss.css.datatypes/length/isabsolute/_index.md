@@ -1,14 +1,14 @@
 ---
 title: IsAbsolute
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取长度是否以绝对单位给出这样的长度可以转换为像素
+description: 如果长度以绝对单位给出则获取这样的长度可能会转换为像素
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/isabsolute/
 ---
 ## Length.IsAbsolute property
 
-获取长度是否以绝对单位给出。这样的长度可以转换为像素。
+如果长度以绝对单位给出则获取。这样的长度可能会转换为像素。
 
 ```csharp
 public bool IsAbsolute { get; }

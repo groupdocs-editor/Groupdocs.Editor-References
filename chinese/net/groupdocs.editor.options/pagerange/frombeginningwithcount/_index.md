@@ -1,14 +1,14 @@
 ---
 title: FromBeginningWithCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建一个页面范围从第一页开始并具有指定数量的页面
+description: 创建一个页面范围从第一页开始并指定页数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/pagerange/frombeginningwithcount/
 ---
 ## PageRange.FromBeginningWithCount method
 
-创建一个页面范围，从第一页开始并具有指定数量的页面
+创建一个页面范围，从第一页开始并指定页数
 
 ```csharp
 public static PageRange FromBeginningWithCount(ushort pageCount)
@@ -20,7 +20,7 @@ public static PageRange FromBeginningWithCount(ushort pageCount)
 
 ### 返回值
 
-新的 PageRange 实例
+新建 PageRange 实例
 
 ### 也可以看看
 

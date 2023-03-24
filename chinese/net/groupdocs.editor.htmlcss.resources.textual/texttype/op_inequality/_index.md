@@ -21,7 +21,7 @@ public static bool operator !=(TextType first, TextType second)
 
 ### 返回值
 
-如果不相等则返回真，如果相等则返回假
+如果不相等则返回 true，如果相等则返回 false
 
 ### 也可以看看
 

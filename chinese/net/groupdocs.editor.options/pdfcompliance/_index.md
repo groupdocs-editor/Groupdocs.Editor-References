@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: GroupDocs.Editor for .NET API 参考
 description: 指定 PDF 标准合规级别
 type: docs
-weight: 820
+weight: 1030
 url: /zh/net/groupdocs.editor.options/pdfcompliance/
 ---
 ## PdfCompliance enumeration
@@ -22,9 +22,9 @@ public enum PdfCompliance : byte
 | Pdf20 | `1` | PDF 2.0 (ISO 32000-2) 标准 |
 | PdfA1a | `2` | PDF/A-1a 标准。此级别包括 PDF/A-1b 的所有要求，另外还要求包含文档结构 （也称为“标记”），目的是确保可以搜索和重新利用文档内容。 |
 | PdfA1b | `3` | PDF/A-1b (ISO 19005-1)。 PDF/A-1b 的目标是确保可靠地再现文档的视觉外观。 |
-| PdfA2a | `4` | PDF/A-2a (ISO 19005-2) 标准。此级别包括 PDF/A-2u 的所有要求，另外还要求包含文档结构（也称为“标记”），目的是确保可以搜索和重新利用文档内容。 |
-| PdfA2u | `5` | PDF/A-2u (ISO 19005-2) 标准。 PDF/A-2u 的目标是随着时间的推移保持文档静态视觉外观，独立于用于创建、存储或呈现文件的工具和系统。此外，文档中包含的任何文本都可以可靠地提取为一系列 Unicode 代码点。 |
-| PdfUa1 | `6` | PDF/UA-1 (ISO 14289-1) 标准。 PDF/UA 的主要目的是定义如何以允许文件可访问的方式以 PDF 格式表示电子文档。 |
+| PdfA2a | `4` | PDF/A-2a (ISO 19005-2) 标准。此级别包括 PDF/A-2u 的所有要求，另外还要求包括文档结构（也称为“标记”），目的是确保可以搜索和重新利用文档内容。 |
+| PdfA2u | `5` | PDF/A-2u (ISO 19005-2) 标准。 PDF/A-2u 的目标是随着时间的推移保留文档静态视觉外观，独立于用于创建、存储或呈现文件的工具和系统。此外，文档中包含的任何文本都可以可靠地提取为一系列 Unicode 代码点。 |
+| PdfUa1 | `6` | PDF/UA-1 (ISO 14289-1) 标准。 PDF/UA 的主要目的是定义如何以允许文件可访问的方式表示 PDF 格式的电子文档。 |
 
 ### 也可以看看
 

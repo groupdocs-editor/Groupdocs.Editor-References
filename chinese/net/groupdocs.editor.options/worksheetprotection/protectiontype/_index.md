@@ -1,14 +1,14 @@
 ---
 title: ProtectionType
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定工作表保护类型默认情况下为无  不应用保护
+description: 允许指定一种工作表保护默认情况下为无 不应用保护
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/worksheetprotection/protectiontype/
 ---
 ## WorksheetProtection.ProtectionType property
 
-允许指定工作表保护类型。默认情况下为“无” - 不应用保护。
+允许指定一种工作表保护。默认情况下为“无”- 不应用保护。
 
 ```csharp
 public WorksheetProtectionType ProtectionType { get; set; }

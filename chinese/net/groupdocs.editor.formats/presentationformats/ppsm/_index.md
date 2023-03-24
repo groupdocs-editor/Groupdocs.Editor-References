@@ -1,14 +1,14 @@
 ---
 title: Ppsm
 second_title: GroupDocs.Editor for .NET API 参考
-description: Microsoft Office Open XML PresentationML 启用宏的幻灯片 PPSM 文件是使用 Microsoft PowerPoint 2007 或更高版本创建的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppsm
+description: Microsoft Office Open XML PresentationML MacroEnabled SlideShow PPSM 文件是使用 Microsoft PowerPoint 2007 或更高版本创建的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppsm
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.formats/presentationformats/ppsm/
 ---
 ## PresentationFormats.Ppsm field
 
-Microsoft Office Open XML PresentationML 启用宏的幻灯片 (PPSM) 文件是使用 Microsoft PowerPoint 2007 或更高版本创建的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppsm)
+Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) 文件是使用 Microsoft PowerPoint 2007 或更高版本创建的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppsm)
 
 ```csharp
 public static readonly PresentationFormats Ppsm;

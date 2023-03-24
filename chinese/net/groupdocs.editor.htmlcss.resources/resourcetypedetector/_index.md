@@ -1,14 +1,14 @@
 ---
 title: ResourceTypeDetector
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检测资源类型格式的实用静态方法
+description: 用于检测资源类型格式的实用静态方法
 type: docs
-weight: 470
+weight: 620
 url: /zh/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/
 ---
 ## ResourceTypeDetector class
 
-检测资源类型（格式）的实用静态方法
+用于检测资源类型（格式）的实用静态方法
 
 ```csharp
 public static class ResourceTypeDetector
@@ -19,7 +19,7 @@ public static class ResourceTypeDetector
 | 姓名 | 描述 |
 | --- | --- |
 | static [DetectTypeFromFilename](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/detecttypefromfilename)(string) | 从指定文件名中检测类型并返回相应 IResourceType 的实例 |
-| static [TryDetectResource](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource)(Stream, string, IResourceType) | 尝试分析输入流并从中创建一个可支持的 HTML 资源，同时考虑指定的假设类型，如果它不是 null |
+| static [TryDetectResource](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource)(Stream, string, IResourceType) | 尝试分析输入流并从中创建一个可支持的 HTML 资源，如果它不是 null ，则考虑指定的假设类型 |
 
 ### 也可以看看
 

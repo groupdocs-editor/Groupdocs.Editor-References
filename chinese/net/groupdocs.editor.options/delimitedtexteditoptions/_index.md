@@ -1,14 +1,14 @@
 ---
 title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 用于加载使用分隔符分隔符的基于文本的电子表格文档CSV基于制表符等的选项
+description: 用于加载使用分隔符定界符的基于文本的电子表格文档CSV基于制表符等的选项
 type: docs
-weight: 670
+weight: 820
 url: /zh/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
 
-用于加载使用分隔符（分隔符）的基于文本的电子表格文档（CSV、基于制表符等）的选项
+用于加载使用分隔符（定界符）的基于文本的电子表格文档（CSV、基于制表符等）的选项
 
 ```csharp
 public sealed class DelimitedTextEditOptions : IEditOptions
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | 获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为日期数据。默认为假。 |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | 获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为数字数据。默认为假。 |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | 在输入文档处理期间启用内存优化机制，在某些特殊情况下可能会降低性能， 但另一方面会降低内存使用量。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为 false（为了更好的性能而禁用内存优化）。 |
-| [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | 允许为基于文本的电子表格文档指定字符串分隔符（分隔符） |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | 定义是否应将连续分隔符视为一个。默认为假。 |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | 获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为日期数据。默认是`错误的`. |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | 获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为数字数据。默认是`错误的`. |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | 在输入文档处理期间启用内存优化机制，这在某些特殊情况下可能会降低性能， 但另一方面会减少内存使用。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为`错误的`（为了更好的性能禁用了内存优化）。 |
+| [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | 允许为基于文本的电子表格文档指定字符串分隔符（定界符） |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | 定义是否应将连续的定界符视为一个。默认情况下是`错误的`. |
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: GroupDocs.Editor for .NET API 参考
-description: OpenDocument 电子表格 ODS 代表用户可编辑的 OpenDocument 电子表格文档格式数据在 ODF 文件中存储为行和列 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/ods
+description: OpenDocument 电子表格 ODS 代表可由用户编辑的 OpenDocument 电子表格文档格式数据以行和列的形式存储在 ODF 文件中 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/ods
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/ods/
 ---
 ## SpreadsheetFormats.Ods field
 
-OpenDocument 电子表格 (ODS) 代表用户可编辑的 OpenDocument 电子表格文档格式。数据在 ODF 文件中存储为行和列。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/ods)
+OpenDocument 电子表格 (ODS) 代表可由用户编辑的 OpenDocument 电子表格文档格式。数据以行和列的形式存储在 ODF 文件中。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/ods)
 
 ```csharp
 public static readonly SpreadsheetFormats Ods;

@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: GroupDocs.Editor for .NET API 参考
-description: 处置此文本资源处置其内容并使大多数方法和属性无效容忍多次调用
+description: 处理此文本资源处理其内容并使大多数方法和属性无效容忍多次调用.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/dispose/
 ---
 ## TextResourceBase.Dispose method
 
-处置此文本资源，处置其内容并使大多数方法和属性无效。容忍多次调用。
+处理此文本资源，处理其内容并使大多数方法和属性无效。容忍多次调用.
 
 ```csharp
 public void Dispose()

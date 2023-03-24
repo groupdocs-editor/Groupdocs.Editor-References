@@ -1,14 +1,14 @@
 ---
 title: FontEmbedding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责将字体资源嵌入到输出字处理文档中默认情况下不嵌入任何字体NotEmbed
+description: 负责将字体资源嵌入到输出的 WordProcessing 文档中默认情况下不嵌入任何字体 NotEmbed.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/fontembedding/
 ---
 ## WordProcessingSaveOptions.FontEmbedding property
 
-负责将字体资源嵌入到输出字处理文档中。默认情况下不嵌入任何字体（NotEmbed）。
+负责将字体资源嵌入到输出的 WordProcessing 文档中。默认情况下不嵌入任何字体 (NotEmbed).
 
 ```csharp
 public FontEmbeddingOptions FontEmbedding { get; set; }

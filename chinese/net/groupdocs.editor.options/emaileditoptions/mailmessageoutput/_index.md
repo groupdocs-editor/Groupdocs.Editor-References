@@ -1,14 +1,14 @@
 ---
 title: MailMessageOutput
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许控制应将邮件消息的哪些部分传递到输出EditableDocumentgroupdocs.editor/editabledocument然后到发出的 HTML
+description: 允许控制邮件消息的哪些部分应该传递到输出EditableDocumentgroupdocs.editor/editabledocument然后到发出的 HTML
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/emaileditoptions/mailmessageoutput/
 ---
 ## EmailEditOptions.MailMessageOutput property
 
-允许控制应将邮件消息的哪些部分传递到输出[`EditableDocument`](../../../groupdocs.editor/editabledocument)然后到发出的 HTML
+允许控制邮件消息的哪些部分应该传递到输出[`EditableDocument`](../../../groupdocs.editor/editabledocument)然后到发出的 HTML
 
 ```csharp
 public MailMessageOutput MailMessageOutput { get; set; }
@@ -16,7 +16,7 @@ public MailMessageOutput MailMessageOutput { get; set; }
 
 ### 适当的价值
 
-标记的枚举，用于控制应处理的邮件消息部分。默认值为All
+标记的枚举，控制应处理的邮件消息部分。默认值为All
 
 ### 也可以看看
 

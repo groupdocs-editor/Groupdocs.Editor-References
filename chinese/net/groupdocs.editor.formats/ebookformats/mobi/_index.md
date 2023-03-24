@@ -1,14 +1,14 @@
 ---
 title: Mobi
 second_title: GroupDocs.Editor for .NET API 参考
-description: MOBI 是为 MobiPocket 阅读器开发的格式的名称亚马逊目前使用的 DRM 方案略有不同名为 AZW. 了解有关此文件格式的更多信息这里https//docs.fileformat.com/ebook/mobi/.
+description: MOBI 是为 MobiPocket 阅读器开发的格式的名称它目前由亚马逊使用具有略微不同的 DRM 方案称为 AZW. 了解有关此文件格式的更多信息这里https//docs.fileformat.com/ebook/mobi/.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.formats/ebookformats/mobi/
 ---
 ## EBookFormats.Mobi field
 
-MOBI 是为 MobiPocket 阅读器开发的格式的名称。亚马逊目前使用的 DRM 方案略有不同，名为 AZW. 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/ebook/mobi/).
+MOBI 是为 MobiPocket 阅读器开发的格式的名称。它目前由亚马逊使用，具有略微不同的 DRM 方案，称为 AZW. 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/ebook/mobi/).
 
 ```csharp
 public static readonly EBookFormats Mobi;

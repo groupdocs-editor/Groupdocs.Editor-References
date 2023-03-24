@@ -1,14 +1,14 @@
 ---
 title: FixedLayoutEditOptionsBase
 second_title: GroupDocs.Editor for .NET API 参考
-description: 用于固定布局格式如 PDF 和 XPS的所有文档的选项的基本抽象类
+description: PDF 和 XPS 等固定布局格式的所有文档选项的基本抽象类
 type: docs
-weight: 730
+weight: 880
 url: /zh/net/groupdocs.editor.options/fixedlayouteditoptionsbase/
 ---
 ## FixedLayoutEditOptionsBase class
 
-用于固定布局格式（如 PDF 和 XPS）的所有文档的选项的基本抽象类
+PDF 和 XPS 等固定布局格式的所有文档选项的基本抽象类
 
 ```csharp
 public abstract class FixedLayoutEditOptionsBase : IEditOptions
@@ -18,9 +18,9 @@ public abstract class FixedLayoutEditOptionsBase : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnablePagination](../../groupdocs.editor.options/fixedlayouteditoptionsbase/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用（假）。 |
+| [EnablePagination](../../groupdocs.editor.options/fixedlayouteditoptionsbase/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用 (false). |
 | [Pages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/pages) { get; set; } | 允许设置要处理的页面范围。默认情况下，处理固定布局文档的所有页面。 |
-| [SkipImages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/skipimages) { get; set; } | 获取或设置标志，指示在将输入固定布局文档转换为结果 HTML 时是否必须跳过图像。默认为 false - 保留图像。 |
+| [SkipImages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/skipimages) { get; set; } | 获取或设置标志，指示在将输入的固定布局文档转换为生成的 HTML 时是否必须跳过图像。默认为 false - 图像被保留。 |
 
 ### 也可以看看
 

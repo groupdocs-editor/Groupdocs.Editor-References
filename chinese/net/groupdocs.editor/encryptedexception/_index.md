@@ -1,14 +1,14 @@
 ---
 title: EncryptedException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 用户尝试打开使用 X509Certificates 加密的文档时引发的异常
+description: 当用户尝试打开使用 X509Certificates. 加密的文档时引发的异常
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor/encryptedexception/
 ---
 ## EncryptedException class
 
-用户尝试打开使用 X509Certificates 加密的文档时引发的异常。
+当用户尝试打开使用 X509Certificates. 加密的文档时引发的异常
 
 ```csharp
 public sealed class EncryptedException : Exception

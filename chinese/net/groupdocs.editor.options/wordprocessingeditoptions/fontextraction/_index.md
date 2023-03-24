@@ -1,14 +1,14 @@
 ---
 title: FontExtraction
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责提取字体资源在输入的WordProcessing文档中使用默认情况下不提取任何字体 NotExtract.
+description: 负责提取字体资源这些资源在输入的 WordProcessing 文档中使用默认情况下不提取任何字体 NotExtract.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.options/wordprocessingeditoptions/fontextraction/
 ---
 ## WordProcessingEditOptions.FontExtraction property
 
-负责提取字体资源，在输入的WordProcessing文档中使用。默认情况下不提取任何字体 (NotExtract).
+负责提取字体资源，这些资源在输入的 WordProcessing 文档中使用。默认情况下不提取任何字体 (NotExtract).
 
 ```csharp
 public FontExtractionOptions FontExtraction { get; set; }

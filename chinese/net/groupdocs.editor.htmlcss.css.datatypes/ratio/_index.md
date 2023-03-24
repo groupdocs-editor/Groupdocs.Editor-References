@@ -1,25 +1,24 @@
 ---
 title: Ratio
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示比率CSS 数据类型用于描述媒体查询和光栅图像中的纵横比 通过表示两个无单位值之间的比例称为分子和分母不可变结构.
+description: 表示ratioCSS 数据类型用于描述媒体查询中的纵横比和光栅图像 通过表示称为分子和分母的两个无单位值之间的比例不可变结构.
 type: docs
-weight: 210
+weight: 280
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
 
-表示“比率”CSS 数据类型，用于描述媒体查询和光栅图像中的纵横比 通过表示两个无单位值之间的比例，称为“分子”和“分母”。不可变结构.
+表示“ratio”CSS 数据类型，用于描述媒体查询中的纵横比和光栅图像 通过表示称为“分子”和“分母”的两个无单位值之间的比例。不可变结构.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | 返回这个比率的分母 |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | 确定此比率是否具有默认值或“1/1”（单） |
+| [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | 返回此比率的分母 |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | 返回此比率的分子 |
 
 ## 方法
@@ -27,14 +26,14 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | 姓名 | 描述 |
 | --- | --- |
 | static [Create](../../groupdocs.editor.htmlcss.css.datatypes/ratio/create)(ushort, ushort) | 从指定的分子和分母创建并返回一个 Ratio 实例 |
-| [Calculate](../../groupdocs.editor.htmlcss.css.datatypes/ratio/calculate)() | 计算该比率并将其作为单个浮点数返回 |
+| [Calculate](../../groupdocs.editor.htmlcss.css.datatypes/ratio/calculate)() | 计算并返回该比率作为单个浮点数 |
 | [Clone](../../groupdocs.editor.htmlcss.css.datatypes/ratio/clone)() | 返回此比率的完整副本 |
-| override [Equals](../../groupdocs.editor.htmlcss.css.datatypes/ratio/equals#equals_1)(object) | 判断这个实例是否与指定的未转换对象相等，大概是另一个“Ratio”实例 |
-| [Equals](../../groupdocs.editor.htmlcss.css.datatypes/ratio/equals#equals)(Ratio) | 确定此实例是否与指定的“比率”实例相等 |
+| override [Equals](../../groupdocs.editor.htmlcss.css.datatypes/ratio/equals#equals_1)(object) | 确定此实例是否与指定的未转换对象相等，这可能是另一个“Ratio”实例 |
+| [Equals](../../groupdocs.editor.htmlcss.css.datatypes/ratio/equals#equals)(Ratio) | 确定此实例是否等于指定的“比率” instance |
 | override [GetHashCode](../../groupdocs.editor.htmlcss.css.datatypes/ratio/gethashcode)() | 返回此实例的哈希码，在其生命周期内无法更改 |
-| [GetInverseRatio](../../groupdocs.editor.htmlcss.css.datatypes/ratio/getinverseratio)() | 生成并返回此比率的反（倒数）比率 |
-| [SerializeDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault)() | 将此比率序列化为字符串并返回它 |
-| override [ToString](../../groupdocs.editor.htmlcss.css.datatypes/ratio/tostring)() | 返回此比率的字符串表示形式；与“SerializeDefault()” 相同 |
+| [GetInverseRatio](../../groupdocs.editor.htmlcss.css.datatypes/ratio/getinverseratio)() | 生成并返回此比率的反比（倒数） |
+| [SerializeDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault)() | 将这个比率序列化为字符串并返回它 |
+| override [ToString](../../groupdocs.editor.htmlcss.css.datatypes/ratio/tostring)() | 返回该比率的字符串表示形式；与“SerializeDefault()” 相同 |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/ratio/op_equality) | 比较两个比率并返回一个布尔值，指示两者是否匹配。 |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality) | 比较两个比率并返回一个布尔值，指示两者是否不匹配。 |
 
@@ -42,7 +41,7 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Single](../../groupdocs.editor.htmlcss.css.datatypes/ratio/single) | 单个默认比例1/1 |
+| static readonly [Single](../../groupdocs.editor.htmlcss.css.datatypes/ratio/single) | 单一默认比率 1/1 |
 
 ### 评论
 
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### 也可以看看
 
+* interface [ICssDataType](../icssdatatype)
 * 命名空间 [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * 部件 [GroupDocs.Editor](../../)
 

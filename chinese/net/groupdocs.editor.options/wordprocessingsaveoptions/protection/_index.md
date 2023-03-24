@@ -1,14 +1,14 @@
 ---
 title: Protection
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许控制和应用任何格式的 WordProcessing 文档的文档保护选项支持文档保护 默认为 NULL  将不使用文档保护
+description: 允许控制和应用支持文档保护的任何格式的 WordProcessing 文档的文档保护选项 默认为 NULL  不使用文档保护
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/protection/
 ---
 ## WordProcessingSaveOptions.Protection property
 
-允许控制和应用任何格式的 WordProcessing 文档的文档保护选项，支持文档保护。 默认为 NULL - 将不使用文档保护。
+允许控制和应用支持文档保护的任何格式的 WordProcessing 文档的文档保护选项。 默认为 NULL - 不使用文档保护。
 
 ```csharp
 public WordProcessingProtection Protection { get; set; }

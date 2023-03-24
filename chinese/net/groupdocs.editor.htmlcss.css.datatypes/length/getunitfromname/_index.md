@@ -1,14 +1,14 @@
 ---
 title: GetUnitFromName
 second_title: GroupDocs.Editor for .NET API 参考
-description: 尝试解析指定的单元名称并返回单元枚举的相应值 如果找不到合适的单元则返回 Unit.Unitless
+description: 尝试解析指定的单元名称并返回相应的单元枚举值 如果找不到合适的单元则返回 Unit.Unitless
 type: docs
-weight: 270
+weight: 260
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method
 
-尝试解析指定的单元名称并返回单元枚举的相应值。 如果找不到合适的单元，则返回 Unit.Unitless。
+尝试解析指定的单元名称并返回相应的单元枚举值。 如果找不到合适的单元，则返回 Unit.Unitless。
 
 ```csharp
 public static Unit GetUnitFromName(string unitName)
@@ -20,7 +20,7 @@ public static Unit GetUnitFromName(string unitName)
 
 ### 返回值
 
-任何情况下 Unit 枚举的值，Unit.Unitless 时找不到合适的单位
+任何情况下 Unit 枚举的值，Unit.Unitless 找不到合适的单位时
 
 ### 也可以看看
 

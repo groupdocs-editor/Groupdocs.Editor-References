@@ -1,14 +1,14 @@
 ---
 title: FormalName
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此图像格式的正式名称从不返回 NULL如果实例没有损坏则永远不会抛出异常
+description: 返回此图像格式的正式名称从不返回 NULL如果实例未损坏则永远不会抛出异常
 type: docs
 weight: 140
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/formalname/
 ---
 ## ImageType.FormalName property
 
-返回此图像格式的正式名称。从不返回 NULL。如果实例没有损坏，则永远不会抛出异常。
+返回此图像格式的正式名称。从不返回 NULL。如果实例未损坏，则永远不会抛出异常。
 
 ```csharp
 public string FormalName { get; }

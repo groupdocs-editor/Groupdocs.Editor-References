@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此演示文稿文档的大小以字节为单位
+description: 返回此演示文档的字节大小
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.metadata/presentationdocumentinfo/size/
 ---
 ## PresentationDocumentInfo.Size property
 
-返回此演示文稿文档的大小（以字节为单位）
+返回此演示文档的字节大小
 
 ```csharp
 public long Size { get; }

@@ -1,14 +1,14 @@
 ---
 title: MimeCode
 second_title: GroupDocs.Editor for .NET API 参考
-description: 特定图像类型的 MIME 代码作为字符串对于未定义类型返回字符串 unsefined.
+description: 特定图像类型的 MIME 代码作为字符串对于 Undefined 类型返回一个字符串 unsefined.
 type: docs
 weight: 170
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/mimecode/
 ---
 ## ImageType.MimeCode property
 
-特定图像类型的 MIME 代码作为字符串。对于未定义类型，返回字符串 'unsefined'.
+特定图像类型的 MIME 代码作为字符串。对于 Undefined 类型返回一个字符串 'unsefined'.
 
 ```csharp
 public string MimeCode { get; }

@@ -1,14 +1,14 @@
 ---
 title: ParseFromFilenameWithExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 FontType 值相当于从指定文件名中提取的文件扩展名
+description: 返回 FontType 值相当于从指定文件名 中提取的文件扩展名
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromfilenamewithextension/
 ---
 ## FontType.ParseFromFilenameWithExtension method
 
-返回 FontType 值，相当于从指定文件名中提取的文件扩展名
+返回 FontType 值，相当于从指定文件名 中提取的文件扩展名
 
 ```csharp
 public static FontType ParseFromFilenameWithExtension(string filename)

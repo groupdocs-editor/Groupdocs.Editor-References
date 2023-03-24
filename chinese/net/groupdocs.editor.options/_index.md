@@ -1,70 +1,79 @@
 ---
 title: GroupDocs.Editor.Options
 second_title: GroupDocs.Editor for .NET API 参考
-description: GroupDocs.Editor.Options 命名空间为加载和保存选项提供接口
+description: GroupDocs.Editor.Options 命名空间提供加载和保存选项的接口
 type: docs
-weight: 130
+weight: 150
 url: /zh/net/groupdocs.editor.options/
 ---
-GroupDocs.Editor.Options 命名空间为加载和保存选项提供接口。
+GroupDocs.Editor.Options 命名空间提供加载和保存选项的接口。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [Azw3SaveOptions](./azw3saveoptions) | 允许指定用于生成和保存 AZW3 电子书的自定义选项，也称为 Kindle Format 8 (KF8) |
-| [DelimitedTextEditOptions](./delimitedtexteditoptions) | 用于加载使用分隔符（分隔符）的基于文本的电子表格文档（CSV、基于制表符等）的选项 |
-| [DelimitedTextSaveOptions](./delimitedtextsaveoptions) | 包含用于生成和保存基于文本的电子表格文档（CSV、基于制表符等）的选项，这些文档使用分隔符（分隔符） |
-| [EbookEditOptions](./ebookeditoptions) | 允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项：ePub、MOBI 和 AZW3。 |
-| [EmailEditOptions](./emaileditoptions) | 允许指定自定义选项以编辑不同电子邮件（电子邮件）格式的文档 |
+| [Azw3SaveOptions](./azw3saveoptions) | 允许指定用于生成和保存 AZW3 电子书的自定义选项，也称为 Kindle 格式 8 (KF8) |
+| [DelimitedTextEditOptions](./delimitedtexteditoptions) | 用于加载使用分隔符（定界符）的基于文本的电子表格文档（CSV、基于制表符等）的选项 |
+| [DelimitedTextSaveOptions](./delimitedtextsaveoptions) | 包含用于生成和保存基于文本的电子表格文档（CSV、基于制表符等）的选项，这些文档使用分隔符（定界符） |
+| [EbookEditOptions](./ebookeditoptions) | 允许指定和调整用于编辑所有支持格式的电子书文档的自定义选项：ePub、MOBI 和 AZW3. |
+| [EmailEditOptions](./emaileditoptions) | 允许指定用于编辑不同电子邮件（电子邮件）格式的文档的自定义选项 |
 | [EmailSaveOptions](./emailsaveoptions) | 允许指定用于生成和保存电子邮件（电子邮件）文档的自定义选项 |
-| [EpubSaveOptions](./epubsaveoptions) | 允许指定用于生成和保存 IDPF EPUB 文档的自定义选项（国际数字出版论坛创建的电子书开放标准） |
-| [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | 用于固定布局格式（如 PDF 和 XPS）的所有文档的选项的基本抽象类 |
+| [EpubSaveOptions](./epubsaveoptions) | 允许指定用于生成和保存 IDPF EPUB 文档的自定义选项（国际数字出版论坛创建的电子书的开放标准） |
+| [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | PDF 和 XPS 等固定布局格式的所有文档选项的基本抽象类 |
+| [MarkdownEditOptions](./markdowneditoptions) | 允许指定用于以 Markdown (MD) 格式编辑文档的自定义选项 |
+| [MarkdownImageLoadArgs](./markdownimageloadargs) | 为ProcessImage事件. |
+| [MarkdownSaveOptions](./markdownsaveoptions) | 允许指定用于生成和保存 Markdown 文档的自定义选项 |
 | [MhtmlSaveOptions](./mhtmlsaveoptions) | 允许指定用于生成和保存 MHTML（聚合 HTML 文档的 MIME 封装）文档的自定义选项 |
 | [PdfEditOptions](./pdfeditoptions) | 允许指定用于编辑 PDF 文档的自定义选项 |
-| [PdfLoadOptions](./pdfloadoptions) | 包含将 PDF 文档加载到编辑器的选项类 |
+| [PdfLoadOptions](./pdfloadoptions) | 包含将 PDF 文档加载到编辑器类 的选项 |
 | [PdfSaveOptions](./pdfsaveoptions) | 允许指定用于生成和保存 PDF（便携式文档格式）文档的自定义选项 |
-| [PresentationEditOptions](./presentationeditoptions) | 允许为编辑所有可支持的演示文稿（PowerPoint 兼容）格式的文档指定自定义选项 |
-| [PresentationLoadOptions](./presentationloadoptions) | 允许指定自定义选项以加载所有可支持的演示文稿格式的文档，如 PPT(X)、PPTM、PPS(X) 等。 |
-| [PresentationSaveOptions](./presentationsaveoptions) | 允许指定用于生成和保存演示文稿（PowerPoint 兼容）文档的自定义选项 |
-| [SpreadsheetEditOptions](./spreadsheeteditoptions) | 允许为编辑所有支持的电子表格（Excel 兼容）格式的文档指定自定义选项 |
-| [SpreadsheetLoadOptions](./spreadsheetloadoptions) | 包含将二进制电子表格（单元格、Excel 兼容）文档（如 XLS(X)、ODS 等）加载到编辑器中的选项 class |
-| [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | 允许指定用于生成和保存电子表格（Excel 兼容）文档的自定义选项 |
+| [PresentationEditOptions](./presentationeditoptions) | 允许指定用于编辑所有支持的演示文稿（与 PowerPoint 兼容）格式的文档的自定义选项 |
+| [PresentationLoadOptions](./presentationloadoptions) | 允许指定用于加载所有支持的演示文稿格式（如 PPT(X)、PPTM、PPS(X) 等）文档的自定义选项 |
+| [PresentationSaveOptions](./presentationsaveoptions) | 允许指定用于生成和保存演示文稿（与 PowerPoint 兼容）文档的自定义选项 |
+| [SpreadsheetEditOptions](./spreadsheeteditoptions) | 允许指定用于编辑所有支持的电子表格（与 Excel 兼容）格式的文档的自定义选项 |
+| [SpreadsheetLoadOptions](./spreadsheetloadoptions) | 包含用于将 XLS(X)、ODS 等二进制电子表格（单元格、Excel 兼容）文档加载到编辑器类 中的选项 |
+| [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | 允许指定用于生成和保存电子表格（兼容 Excel）文档的自定义选项 |
 | [TextEditOptions](./texteditoptions) | 允许指定用于加载纯文本 (TXT) 文档的自定义选项 |
 | [TextSaveOptions](./textsaveoptions) | 允许指定用于生成和保存纯文本 (TXT) 文档的自定义选项 |
-| [WordProcessingEditOptions](./wordprocessingeditoptions) | 允许指定自定义选项以编辑所有可支持的文字处理（Words-compliant）格式的文档，如 DOC(X)、RTF、ODT 等。 |
-| [WordProcessingLoadOptions](./wordprocessingloadoptions) | 包含用于将 DOC(X)、RTF、ODT 等 WordProcessing（Word 兼容）文档加载到编辑器中的选项 class |
+| [WebFont](./webfont) | 表示为web 设置一个字体 |
+| [WordProcessingEditOptions](./wordprocessingeditoptions) | 允许指定自定义选项来编辑所有支持的 WordProcessing（符合 Words 标准）格式的文档，如 DOC(X)、RTF、ODT 等。 |
+| [WordProcessingLoadOptions](./wordprocessingloadoptions) | 包含用于将 WordProcessing（与 Word 兼容）文档（如 DOC(X)、RTF、ODT 等）加载到编辑器类 中的选项 |
 | [WordProcessingProtection](./wordprocessingprotection) | 封装 WordProcessing 文档的文档保护选项，由 HTML 生成 |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | 允许指定自定义选项以在编辑后生成和保存符合 WordProcessing 的文档 |
-| [WorksheetProtection](./worksheetprotection) | 封装工作表保护选项，允许保护输出电子表格文档中的工作表不被修改指定类型 与指定的密码。 |
-| [XmlEditOptions](./xmleditoptions) | 允许指定自定义选项以加载 XML（可扩展标记语言）文档并将它们转换为 HTML |
-| [XmlHighlightOptions](./xmlhighlightoptions) | 包含允许在 XML 到 HTML 转换期间自定义 XML 突出显示的选项 |
-| [XpsEditOptions](./xpseditoptions) | 允许指定用于编辑（XML 纸张规格）文档的自定义选项 |
+| [WorksheetProtection](./worksheetprotection) | 封装工作表保护选项，允许使用指定密码保护输出电子表格文档中的工作表免受指定类型 的修改。 |
+| [XmlEditOptions](./xmleditoptions) | 允许指定用于编辑 XML（可扩展标记语言）文档并将其转换为 HTML 的自定义选项 |
+| [XmlFormatOptions](./xmlformatoptions) | 包含选项，当它表示为 HTML 时，允许调整 XML 文档的格式 |
+| [XmlHighlightOptions](./xmlhighlightoptions) | 包含选项，允许在 XML 到 HTML 转换期间自定义 XML 突出显示 |
+| [XpsEditOptions](./xpseditoptions) | 允许指定用于编辑（XML 纸张规范）文档的自定义选项 |
 | [XpsSaveOptions](./xpssaveoptions) | 允许指定用于生成和保存 XPS（XML 纸张规范）文档的自定义选项 |
 ## 结构
 
 | 结构 | 描述 |
 | --- | --- |
-| [PageRange](./pagerange) | 封装一个页面范围，可以有开放或封闭的边界。默认情况下是“完全打开” - 它包括所有现有页面。页码从 1 开始，而不是从 0. |
+| [PageRange](./pagerange) | 封装一页范围，可以有开放或封闭的边界。默认情况下是“完全打开” - 它包括所有现有页面。页码从 1 开始，而不是从 0. |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
-| [IEditOptions](./ieditoptions) | 所有选项的通用接口，负责文档到 HTML 的转换。声明没有成员。 |
+| [IEditOptions](./ieditoptions) | 所有选项的通用接口，负责文档到 HTML 的转换。声明没有成员. |
 | [ILoadOptions](./iloadoptions) | 所有选项类的通用接口，负责加载不同类型格式的文档 |
-| [ISaveOptions](./isaveoptions) | 所有文档类型的所有保存选项的接口。声明没有成员。 |
+| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | 如果你想控制GroupDocs.Editor加载Markdown格式文件时如何加载图片，实现这个接口 |
+| [ISaveOptions](./isaveoptions) | 所有文档类型的所有保存选项的接口。声明没有成员. |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [FontEmbeddingOptions](./fontembeddingoptions) | 字体嵌入选项控制应将哪些字体资源嵌入到输出字处理或 PDF 文档中 |
-| [FontExtractionOptions](./fontextractionoptions) | 字体提取选项控制应该提取哪些字体以及从哪里提取 |
-| [MailMessageOutput](./mailmessageoutput) | 控制应将邮件消息的哪些部分传送到输出处理 |
+| [FontEmbeddingOptions](./fontembeddingoptions) | 字体嵌入选项控制应将哪些字体资源嵌入到输出 WordProcessing 或 PDF 文档中 |
+| [FontExtractionOptions](./fontextractionoptions) | 字体提取选项控制应提取哪些字体以及从何处提取 |
+| [MailMessageOutput](./mailmessageoutput) | 控制应将邮件消息的哪些部分传递给输出处理 |
+| [MarkdownImageLoadingAction](./markdownimageloadingaction) | 定义打开编辑Markdown格式文件时加载图片的方式 |
+| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式 |
 | [PdfCompliance](./pdfcompliance) | 指定 PDF 标准合规级别 |
+| [WebFont.TextDecorationLine](./webfont.textdecorationline) | 用于元素中文本的装饰线的种类，例如下划线、上划线或划线。可以合并在一起，也可以不合并。 |
 | [TextDirection](./textdirection) | 表示 3 种可能的变体如何处理纯文本文档中的文本方向 |
-| [TextLeadingSpacesOptions](./textleadingspacesoptions) | 包含在打开纯文本文档 (TXT) 期间用于前导空格处理的可用选项 |
-| [TextTrailingSpacesOptions](./texttrailingspacesoptions) | 包含在打开纯文本文档 (TXT) 期间用于尾随空格处理的可用选项 |
-| [WordProcessingProtectionType](./wordprocessingprotectiontype) | 表示文字处理文档的所有可用保护类型 |
-| [WorksheetProtectionType](./worksheetprotectiontype) | 表示电子表格工作表（选项卡）保护类型 |
+| [TextLeadingSpacesOptions](./textleadingspacesoptions) | 包含在打开纯文本文档 (TXT) 期间处理前导空格的可用选项 |
+| [TextTrailingSpacesOptions](./texttrailingspacesoptions) | 包含在打开纯文本文档 (TXT) 期间尾随空格处理的可用选项 |
+| [WordProcessingProtectionType](./wordprocessingprotectiontype) | 代表WordProcessing文档的所有可用保护类型 |
+| [WorksheetProtectionType](./worksheetprotectiontype) | 代表Spreadsheet工作表（tab）保护类型 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

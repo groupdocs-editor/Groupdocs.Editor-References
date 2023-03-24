@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示特定文件是否加密并需要密码才能打开对于无法加密的文档类型如所有基于文本的应始终返回false
+description: 指示特定文件是否已加密并需要密码才能打开对于无法加密的文档类型如所有基于文本的文档类型应始终返回false
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/idocumentinfo/isencrypted/
 ---
 ## IDocumentInfo.IsEncrypted property
 
-表示特定文件是否加密并需要密码才能打开。对于无法加密的文档类型（如所有基于文本的），应始终返回“false”。
+指示特定文件是否已加密并需要密码才能打开。对于无法加密的文档类型（如所有基于文本的文档类型）应始终返回“false”。
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -1,14 +1,14 @@
 ---
 title: CssName
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此字体类型的 CSS 兼容名称在fontface atrule 中使用
+description: 返回此字体类型的 CSS 兼容名称用于 fontface atrule
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/cssname/
 ---
 ## FontType.CssName property
 
-返回此字体类型的 CSS 兼容名称，在@font-face at-rule 中使用
+返回此字体类型的 CSS 兼容名称，用于 @font-face at-rule
 
 ```csharp
 public string CssName { get; }

@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定自定义选项以加载 XML可扩展标记语言文档并将它们转换为 HTML
+description: 允许指定用于编辑 XML可扩展标记语言文档并将其转换为 HTML 的自定义选项
 type: docs
-weight: 1040
+weight: 1270
 url: /zh/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-允许指定自定义选项以加载 XML（可扩展标记语言）文档并将它们转换为 HTML
+允许指定用于编辑 XML（可扩展标记语言）文档并将其转换为 HTML 的自定义选项
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -25,12 +25,13 @@ public sealed class XmlEditOptions : IEditOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | 允许为属性值指定引号类型（单引号或双引号）。双引号是默认的。 |
-| [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | 文本文档的字符编码，将应用于其打开。默认为 null — 将应用内部文档编码。 |
-| [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | 允许启用或禁用修复损坏的 XML 结构的机制。默认情况下禁用（假）。 |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | 允许调整突出显示，当它以 HTML 表示时，将应用于 XML 结构。 默认为 NULL — 应用默认突出显示。 |
+| [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | 文本文档的字符编码，将应用于其打开。默认情况下为 null — 将应用内部文档编码。 |
+| [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | 允许启用或禁用修复损坏的 XML 结构的机制。默认情况下禁用 (false). |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | 允许调整 XML 格式，当它以 HTML 表示时将应用于 XML 结构。使用默认格式并且可以调整。不能为 null. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | 允许调整 XML 突出显示，当它以 HTML 表示时，将应用于 XML 结构。使用默认突出显示并且可以调整。不能为 null. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | 允许为属性值中的电子邮件地址启用识别算法 |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | 允许启用 URI 识别算法 |
-| [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | 允许启用内部标记文本中尾随空格的截断。 默认禁用 (false) — 将保留尾随空格。 |
+| [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | 允许在内部标记文本中启用尾随空格的截断。 默认情况下禁用 (false) — 将保留尾随空格。 |
 
 ### 也可以看看
 

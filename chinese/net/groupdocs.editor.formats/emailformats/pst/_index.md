@@ -1,14 +1,14 @@
 ---
 title: Pst
 second_title: GroupDocs.Editor for .NET API 参考
-description: 扩展名为 .pst 的文件代表 Outlook 个人存储文件也称为个人存储表用于存储各种用户信息 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/pst/.
+description: 扩展名为 .pst 的文件代表存储各种用户信息的 Outlook 个人存储文件也称为个人存储表 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/pst/.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.formats/emailformats/pst/
 ---
 ## EmailFormats.Pst field
 
-扩展名为 .pst 的文件代表 Outlook 个人存储文件（也称为个人存储表），用于存储各种用户信息。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/pst/).
+扩展名为 .pst 的文件代表存储各种用户信息的 Outlook 个人存储文件（也称为个人存储表）。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/pst/).
 
 ```csharp
 public static readonly EmailFormats Pst;

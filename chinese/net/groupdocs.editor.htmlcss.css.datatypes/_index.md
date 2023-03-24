@@ -1,19 +1,30 @@
 ---
 title: GroupDocs.Editor.HtmlCss.Css.DataTypes
 second_title: GroupDocs.Editor for .NET API 参考
-description: GroupDocs.Editor.HtmlCss.Css.DataTypes 命名空间提供了表示 CSS 数据类型的类
+description: GroupDocs.Editor.HtmlCss.Css.DataTypes 命名空间提供表示 CSS 数据类型的类
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/
 ---
-GroupDocs.Editor.HtmlCss.Css.DataTypes 命名空间提供了表示 CSS 数据类型的类。
+GroupDocs.Editor.HtmlCss.Css.DataTypes 命名空间提供表示 CSS 数据类型的类。
 
+## 课程
+
+| 班级 | 描述 |
+| --- | --- |
+| [ArgbColor.KnownColors](./argbcolor.knowncolors) | 包含所有“已知颜色”，它们在 CSS standart 中具有固定的唯一名称和值 |
 ## 结构
 
 | 结构 | 描述 |
 | --- | --- |
-| [Length](./length) | 以任何可支持的单位表示 CSS 长度值，包括百分比和无单位类型。 值可以是整数或浮点数、负数、零和正数。不可变结构. |
-| [Ratio](./ratio) | 表示“比率”CSS 数据类型，用于描述媒体查询和光栅图像中的纵横比 通过表示两个无单位值之间的比例，称为“分子”和“分母”。不可变结构. |
+| [ArgbColor](./argbcolor) | 表示ARGB格式的一种颜色值，带有转换器和序列化器 |
+| [Length](./length) | 表示任何支持单位的 CSS 长度值，包括百分比和无单位类型。 值可以是整数或浮点数、负数、零和正数。不可变结构. |
+| [Ratio](./ratio) | 表示“ratio”CSS 数据类型，用于描述媒体查询中的纵横比和光栅图像 通过表示称为“分子”和“分母”的两个无单位值之间的比例。不可变结构. |
+## 接口
+
+| 界面 | 描述 |
+| --- | --- |
+| [ICssDataType](./icssdatatype) | CSS 属性中使用的所有 CSS 数据类型的通用接口 |
 ## 枚举
 
 | 枚举 | 描述 |

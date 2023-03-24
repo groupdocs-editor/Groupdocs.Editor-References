@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回标签的数量
+description: 返回 tabs 的数量
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/spreadsheetdocumentinfo/pagecount/
 ---
 ## SpreadsheetDocumentInfo.PageCount property
 
-返回标签的数量
+返回 tabs 的数量
 
 ```csharp
 public int PageCount { get; }

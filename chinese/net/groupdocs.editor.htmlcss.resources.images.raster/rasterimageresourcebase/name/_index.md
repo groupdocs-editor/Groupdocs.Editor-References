@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此光栅图像的名称通常不包含文件扩展名理论上可能与 filename. 不同
+description: 返回此光栅图像的名称通常不包含文件扩展名理论上可以不同于文件名.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/name/
 ---
 ## RasterImageResourceBase.Name property
 
-返回此光栅图像的名称。通常不包含文件扩展名，理论上可能与 filename. 不同
+返回此光栅图像的名称。通常不包含文件扩展名，理论上可以不同于文件名.
 
 ```csharp
 public string Name { get; }

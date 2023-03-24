@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检测PageRange的这个实例是否等于指定的
+description: 检测此 PageRange 实例是否等于指定的
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.options/pagerange/equals/
 ---
 ## PageRange.Equals method
 
-检测PageRange的这个实例是否等于指定的
+检测此 PageRange 实例是否等于指定的
 
 ```csharp
 public bool Equals(PageRange other)
@@ -16,7 +16,7 @@ public bool Equals(PageRange other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | PageRange | 检查相等性的其他 PageRange 实例 |
+| other | PageRange | 检查是否相等的其他 PageRange 实例 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: FilenameWithExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此光栅图像的正确文件名由名称和扩展名组成理论上可以与名称不同
+description: 返回此光栅图像的正确文件名它由名称和扩展名组成理论上可以与名称不同
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension/
 ---
 ## RasterImageResourceBase.FilenameWithExtension property
 
-返回此光栅图像的正确文件名，由名称和扩展名组成。理论上可以与名称不同。
+返回此光栅图像的正确文件名，它由名称和扩展名组成。理论上可以与名称不同。
 
 ```csharp
 public string FilenameWithExtension { get; }

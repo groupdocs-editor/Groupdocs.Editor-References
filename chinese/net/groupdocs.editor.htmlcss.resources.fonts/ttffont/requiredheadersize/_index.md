@@ -1,14 +1,14 @@
 ---
 title: RequiredHeaderSize
 second_title: GroupDocs.Editor for .NET API 参考
-description: TTF 标头大小以字节为单位验证所需的
+description: TTF 标头大小以字节为单位这是其验证所必需的
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/requiredheadersize/
 ---
 ## TtfFont.RequiredHeaderSize field
 
-TTF 标头大小（以字节为单位），验证所需的
+TTF 标头大小（以字节为单位），这是其验证所必需的
 
 ```csharp
 public const int RequiredHeaderSize;

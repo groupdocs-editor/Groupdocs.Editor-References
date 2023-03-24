@@ -1,14 +1,14 @@
 ---
 title: Extension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回格式文件扩展名
+description: 在实现类型中应返回格式文件扩展名
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.formats/idocumentformat/extension/
 ---
 ## IDocumentFormat.Extension property
 
-在实现类型中应该返回格式文件扩展名
+在实现类型中应返回格式文件扩展名
 
 ```csharp
 public string Extension { get; }

@@ -1,14 +1,14 @@
 ---
 title: Chm
 second_title: GroupDocs.Editor for .NET API 参考
-description: Microsoft Compiled HTML Help 是 Microsoft 专有的在线帮助二进制格式由 HTML 页面索引和其他导航工具的集合组成 了解有关此文件格式的更多信息这里https//docs.fileformat.com/web/chm/.
+description: Microsoft Compiled HTML Help 是 Microsoft 专有的联机帮助二进制格式由一组 HTML 页面索引和其他导航工具组成 了解有关此文件格式的更多信息这里https//docs.fileformat.com/web/chm/.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.formats/textualformats/chm/
 ---
 ## TextualFormats.Chm field
 
-Microsoft Compiled HTML Help 是 Microsoft 专有的在线帮助二进制格式，由 HTML 页面、索引和其他导航工具的集合组成。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/chm/).
+Microsoft Compiled HTML Help 是 Microsoft 专有的联机帮助二进制格式，由一组 HTML 页面、索引和其他导航工具组成。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/chm/).
 
 ```csharp
 public static readonly TextualFormats Chm;

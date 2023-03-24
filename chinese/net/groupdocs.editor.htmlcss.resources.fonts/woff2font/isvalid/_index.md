@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查指定流是否是有效的 WOFF2 字体
+description: 检查指定的流是否是有效的 WOFF2 font
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/woff2font/isvalid/
 ---
 ## IsValid(Stream) {#isvalid}
 
-检查指定流是否是有效的 WOFF2 字体
+检查指定的流是否是有效的 WOFF2 font
 
 ```csharp
 public static bool IsValid(Stream binaryContent)
@@ -16,11 +16,11 @@ public static bool IsValid(Stream binaryContent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| binaryContent | Stream | 字节流，可能包含 WOFF2 资源 |
+| binaryContent | Stream | 字节流，大概包含 WOFF2 资源 |
 
 ### 返回值
 
-如果指定的流包含有效的 WOFF2 字体则为真，否则为假
+如果指定的流包含有效的 WOFF2 字体，则为 True，否则为 false
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static bool IsValid(Stream binaryContent)
 
 ## IsValid(string) {#isvalid_1}
 
-检查指定的 base64 编码字符串是否是有效的 WOFF2 字体
+检查指定的 base64 编码字符串是否是有效的 WOFF2 font
 
 ```csharp
 public static bool IsValid(string contentInBase64)
@@ -40,11 +40,11 @@ public static bool IsValid(string contentInBase64)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contentInBase64 | String | base64 编码字符串形式的大概 WOFF2 字体的内容 |
+| contentInBase64 | String | 可能是 WOFF2 字体的内容，采用 base64 编码的字符串形式 |
 
 ### 返回值
 
-如果指定的字符串包含有效的 WOFF2 字体则为真，否则为假
+如果指定的字符串包含有效的 WOFF2 字体，则为真，否则为假
 
 ### 也可以看看
 

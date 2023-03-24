@@ -1,14 +1,14 @@
 ---
 title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建具有指定强制演示输出格式的 PresentationSaveOptions 的新实例而所有其他参数均为默认值
+description: 使用指定的强制演示输出格式创建 PresentationSaveOptions 的新实例而所有其他参数均为 default
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/presentationsaveoptions/presentationsaveoptions/
 ---
 ## PresentationSaveOptions constructor
 
-创建具有指定强制演示输出格式的 PresentationSaveOptions 的新实例，而所有其他参数均为默认值
+使用指定的强制演示输出格式创建 PresentationSaveOptions 的新实例，而所有其他参数均为 default
 
 ```csharp
 public PresentationSaveOptions(PresentationFormats outputFormat)
@@ -16,7 +16,7 @@ public PresentationSaveOptions(PresentationFormats outputFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| outputFormat | PresentationFormats | 强制输出格式，Presentation 文档应以该格式保存 |
+| outputFormat | PresentationFormats | 强制输出格式，应该保存Presentation文档 |
 
 ### 也可以看看
 

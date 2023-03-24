@@ -1,14 +1,14 @@
 ---
 title: GetCssContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以字符串列表的形式返回所有外部样式表的内容其中一个字符串代表一个样式表 如果此文档没有 CSS则返回空列表
+description: 将所有外部样式表的内容作为字符串列表返回其中一个字符串代表一个样式表 如果此文档没有 CSS则返回空列表
 type: docs
 weight: 140
 url: /zh/net/groupdocs.editor/editabledocument/getcsscontent/
 ---
 ## GetCssContent() {#getcsscontent}
 
-以字符串列表的形式返回所有外部样式表的内容，其中一个字符串代表一个样式表。 如果此文档没有 CSS，则返回空列表。
+将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 如果此文档没有 CSS，则返回空列表。
 
 ```csharp
 public List<string> GetCssContent()
@@ -28,7 +28,7 @@ public List<string> GetCssContent()
 
 ## GetCssContent(string, string) {#getcsscontent_1}
 
-将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 指定的前缀将应用于每个生成的样式表中指向外部资源的每个链接。 如果没有 CSS，则返回空列表文件.
+将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 指定的前缀将应用于每个结果样式表中指向外部资源的每个链接。 返回空列表，如果此列表没有 CSS文档.
 
 ```csharp
 public List<string> GetCssContent(string externalImagesPrefix, string externalFontsPrefix)
@@ -36,8 +36,8 @@ public List<string> GetCssContent(string externalImagesPrefix, string externalFo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| externalImagesPrefix | String | 通过这个参数可以指定一个前缀，它将被添加到所有外部图像的 links 中，这将出现在结果 CSS 字符串中的 CSS 声明中。如果为 NULL 或为空，则不会添加前缀。 |
-| externalFontsPrefix | String | 通过使用此参数可以指定一个前缀，该前缀将添加到生成的 CSS 字符串中 @font-face at-rules 中的所有外部字体的 links 中。如果为 NULL 或为空，则不会添加前缀。 |
+| externalImagesPrefix | String | 通过此参数，可以指定一个前缀，该前缀将添加到所有外部图像的 links 中，这些图像将出现在生成的 CSS 字符串的 CSS 声明中。如果为 NULL 或为空，则不会添加前缀。 |
+| externalFontsPrefix | String | 通过此参数，可以指定一个前缀，该前缀将添加到 links 到结果 CSS 字符串中 @font-face at-rules 中的所有外部字体。如果为 NULL 或为空，则不会添加前缀。 |
 
 ### 返回值
 

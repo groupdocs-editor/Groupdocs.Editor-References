@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: GroupDocs.Editor for .NET API 参考
-description: 如果可能将长度转换为给定单位如果 current 或给定的单位是相对的则会抛出异常
+description: 如果可能将长度转换为给定单位如果 current 或给定单位是相对的那么将抛出异常
 type: docs
-weight: 240
+weight: 230
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/to/
 ---
 ## Length.To method
 
-如果可能，将长度转换为给定单位。如果 current 或给定的单位是相对的，则会抛出异常。
+如果可能，将长度转换为给定单位。如果 current 或给定单位是相对的，那么将抛出异常。
 
 ```csharp
 public float To(Unit unit)
@@ -16,7 +16,7 @@ public float To(Unit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| unit | Unit | 要转换为的单位。 |
+| unit | Unit | 要转换成的单位。 |
 
 ### 返回值
 

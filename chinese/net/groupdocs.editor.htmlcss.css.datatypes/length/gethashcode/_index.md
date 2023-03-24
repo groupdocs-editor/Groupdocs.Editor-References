@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: GroupDocs.Editor for .NET API 参考
-description: 通过组合值和单元类型的哈希码计算并返回此 Length 实例的哈希码
+description: 通过组合值和单元类型的哈希码来计算并返回此 Length 实例的哈希码
 type: docs
-weight: 220
+weight: 210
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/gethashcode/
 ---
 ## Length.GetHashCode method
 
-通过组合值和单元类型的哈希码计算并返回此 Length 实例的哈希码
+通过组合值和单元类型的哈希码来计算并返回此 Length 实例的哈希码
 
 ```csharp
 public override int GetHashCode()

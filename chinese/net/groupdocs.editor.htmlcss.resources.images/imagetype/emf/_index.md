@@ -1,14 +1,14 @@
 ---
 title: Emf
 second_title: GroupDocs.Editor for .NET API 参考
-description: EMF增强元文件矢量图像类型
+description: EMF增强型元文件矢量图像类型
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/emf/
 ---
 ## ImageType.Emf property
 
-EMF（增强元文件）矢量图像类型
+EMF（增强型元文件）矢量图像类型
 
 ```csharp
 public static ImageType Emf { get; }

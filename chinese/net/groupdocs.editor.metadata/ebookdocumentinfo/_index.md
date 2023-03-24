@@ -3,7 +3,7 @@ title: EbookDocumentInfo
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示一个电子书文档的元数据
 type: docs
-weight: 560
+weight: 710
 url: /zh/net/groupdocs.editor.metadata/ebookdocumentinfo/
 ---
 ## EbookDocumentInfo structure
@@ -19,7 +19,7 @@ public struct EbookDocumentInfo : IDocumentInfo, IEquatable<EbookDocumentInfo>
 | 姓名 | 描述 |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/ebookdocumentinfo/format) { get; } | 返回此电子书的格式 |
-| [IsEncrypted](../../groupdocs.editor.metadata/ebookdocumentinfo/isencrypted) { get; } | 因为电子书文档不能用密码加密，所以这个属性总是返回'false' |
+| [IsEncrypted](../../groupdocs.editor.metadata/ebookdocumentinfo/isencrypted) { get; } | 因为电子书文档不能用密码加密，这个属性总是返回'false' |
 | [PageCount](../../groupdocs.editor.metadata/ebookdocumentinfo/pagecount) { get; } | 在 MOBI 或 AZW3 的情况下返回页数或在 ePub 的情况下返回章节数。 |
 | [Size](../../groupdocs.editor.metadata/ebookdocumentinfo/size) { get; } | 返回此电子书文档的大小（以字节为单位） |
 
@@ -27,7 +27,7 @@ public struct EbookDocumentInfo : IDocumentInfo, IEquatable<EbookDocumentInfo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../groupdocs.editor.metadata/ebookdocumentinfo/equals#equals)(EbookDocumentInfo) | 确定此实例是否等于其他指定的 EbookDocumentInfo 实例 |
+| [Equals](../../groupdocs.editor.metadata/ebookdocumentinfo/equals#equals)(EbookDocumentInfo) | 判断这个实例是否等于另一个指定的EbookDocumentInfo instance |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FixIncorrectStructure
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许启用或禁用修复损坏的 XML 结构的机制默认情况下禁用假
+description: 允许启用或禁用修复损坏的 XML 结构的机制默认情况下禁用 false.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/xmleditoptions/fixincorrectstructure/
 ---
 ## XmlEditOptions.FixIncorrectStructure property
 
-允许启用或禁用修复损坏的 XML 结构的机制。默认情况下禁用（假）。
+允许启用或禁用修复损坏的 XML 结构的机制。默认情况下禁用 (false).
 
 ```csharp
 public bool FixIncorrectStructure { get; set; }
@@ -16,7 +16,7 @@ public bool FixIncorrectStructure { get; set; }
 
 ### 评论
 
-默认情况下，只有正确有效且格式良好的 XML 文档是可接受的。启用此选项后，GroupDocs.Editor 将尽可能尝试修复损坏的 XML 结构。
+默认情况下，只接受正确有效且格式良好的 XML 文档。启用此选项后，GroupDocs.Editor 将尽可能尝试修复损坏的 XML 结构。
 
 ### 也可以看看
 

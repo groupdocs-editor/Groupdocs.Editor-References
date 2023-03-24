@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查两个给定的 FixedLayoutFormats 实例是否相等
+description: 在 equality 上检查两个给定的 FixedLayoutFormats 实例
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.formats/fixedlayoutformats/op_equality/
 ---
 ## FixedLayoutFormats Equality operator
 
-检查两个给定的 FixedLayoutFormats 实例是否相等
+在 equality 上检查两个给定的 FixedLayoutFormats 实例
 
 ```csharp
 public static bool operator ==(FixedLayoutFormats first, FixedLayoutFormats second)

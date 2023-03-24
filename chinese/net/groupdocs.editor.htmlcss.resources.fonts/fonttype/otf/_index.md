@@ -1,14 +1,14 @@
 ---
 title: Otf
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一个OTFOpenType Font字体类型
+description: 代表一个OTFOpenType Font字体type
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/otf/
 ---
 ## FontType.Otf property
 
-表示一个OTF（OpenType Font）字体类型
+代表一个OTF（OpenType Font）字体type
 
 ```csharp
 public static FontType Otf { get; }

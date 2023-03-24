@@ -3,7 +3,7 @@ title: IsNegative
 second_title: GroupDocs.Editor for .NET API 参考
 description: 判断这个长度的数值是否为负数
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/isnegative/
 ---
 ## Length.IsNegative property

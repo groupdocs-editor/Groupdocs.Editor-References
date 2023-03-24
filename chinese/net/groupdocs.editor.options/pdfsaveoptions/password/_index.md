@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 密码将作为用户密码应用于生成的PDF文档打开时需要 如果为NULL或为空则不会对文档应用密码否则文档将使用 RC4 加密密钥长度为 128 位 默认为 NULL  不应用密码
+description: 密码将作为用户密码应用于生成的 PDF 文档打开时需要 如果为 NULL 或为空则不会将密码应用于文档否则文档将使用 RC4密钥长度为 128 位加密 默认为 NULL  不应用密码
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.options/pdfsaveoptions/password/
 ---
 ## PdfSaveOptions.Password property
 
-密码，将作为用户密码应用于生成的PDF文档，打开时需要。 如果为NULL或为空，则不会对文档应用密码。否则，文档将使用 RC4 加密（密钥长度为 128 位）。 默认为 NULL — 不应用密码。
+密码，将作为用户密码应用于生成的 PDF 文档，打开时需要。 如果为 NULL 或为空，则不会将密码应用于文档。否则，文档将使用 RC4（密钥长度为 128 位）加密。 默认为 NULL — 不应用密码。
 
 ```csharp
 public string Password { get; set; }

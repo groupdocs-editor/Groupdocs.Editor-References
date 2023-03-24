@@ -3,7 +3,7 @@ title: AttributeValuesFontSettings
 second_title: GroupDocs.Editor for .NET API 参考
 description: 负责表示属性值的字体
 type: docs
-weight: 50
+weight: 20
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeValuesFontSettings property
@@ -11,11 +11,12 @@ url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontset
 负责表示属性值的字体
 
 ```csharp
-public Font AttributeValuesFontSettings { get; set; }
+public WebFont AttributeValuesFontSettings { get; }
 ```
 
 ### 也可以看看
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * 部件 [GroupDocs.Editor](../../../)

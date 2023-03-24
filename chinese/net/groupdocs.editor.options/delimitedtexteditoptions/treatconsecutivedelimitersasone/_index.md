@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: GroupDocs.Editor for .NET API 参考
-description: 定义是否应将连续分隔符视为一个默认为假
+description: 定义是否应将连续的定界符视为一个默认情况下是错误的.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-定义是否应将连续分隔符视为一个。默认为假。
+定义是否应将连续的定界符视为一个。默认情况下是`错误的`.
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

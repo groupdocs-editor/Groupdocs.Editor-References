@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: GroupDocs.Editor for .NET API 参考
-description: GroupDocs.Editor.HtmlCss.Resources.Textual 命名空间提供了代表文本资源的类
+description: GroupDocs.Editor.HtmlCss.Resources.Textual 命名空间提供表示文本资源的类
 type: docs
-weight: 100
+weight: 120
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/
 ---
-GroupDocs.Editor.HtmlCss.Resources.Textual 命名空间提供了代表文本资源的类。
+GroupDocs.Editor.HtmlCss.Resources.Textual 命名空间提供表示文本资源的类。
 
 ## 课程
 
@@ -14,7 +14,7 @@ GroupDocs.Editor.HtmlCss.Resources.Textual 命名空间提供了代表文本资�
 | --- | --- |
 | [CssText](./csstext) | 代表一个 CSS 文本资源 |
 | [TextResourceBase](./textresourcebase) | 具有文本内容和编码的任何受支持文本资源的基类 |
-| [XmlText](./xmltext) | 表示一个文本资源，它是一个 XML。 |
+| [XmlText](./xmltext) | 表示一个文本资源，它是一个 XML. |
 ## 结构
 
 | 结构 | 描述 |

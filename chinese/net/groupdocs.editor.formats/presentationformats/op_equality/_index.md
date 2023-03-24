@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查两个给定的 PresentationFormats 实例是否相等
+description: 在 equality 上检查两个给定的 PresentationFormats 实例
 type: docs
 weight: 200
 url: /zh/net/groupdocs.editor.formats/presentationformats/op_equality/
 ---
 ## PresentationFormats Equality operator
 
-检查两个给定的 PresentationFormats 实例是否相等
+在 equality 上检查两个给定的 PresentationFormats 实例
 
 ```csharp
 public static bool operator ==(PresentationFormats first, PresentationFormats second)

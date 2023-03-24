@@ -3,7 +3,7 @@ title: TextualDocumentInfo
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示一个文本文档的元数据如 XMLHTML 或纯文本 TXT
 type: docs
-weight: 630
+weight: 780
 url: /zh/net/groupdocs.editor.metadata/textualdocumentinfo/
 ---
 ## TextualDocumentInfo structure
@@ -18,9 +18,9 @@ public struct TextualDocumentInfo : IDocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Encoding](../../groupdocs.editor.metadata/textualdocumentinfo/encoding) { get; } | 返回检测到的文本文档的推测编码 |
+| [Encoding](../../groupdocs.editor.metadata/textualdocumentinfo/encoding) { get; } | 返回检测到的文本文档的假定编码 |
 | [Format](../../groupdocs.editor.metadata/textualdocumentinfo/format) { get; } | 返回此文本文档的格式。在某些情况下可能不是 100% 正确。 |
-| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | 始终返回“false”，因为无法加密文本文档。 |
+| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | 总是返回 ``错误的` `，因为文本文档无法加密 |
 | [PageCount](../../groupdocs.editor.metadata/textualdocumentinfo/pagecount) { get; } | 总是返回 1 |
 | [Size](../../groupdocs.editor.metadata/textualdocumentinfo/size) { get; } | 返回此文本文档的字节大小（不是字符数） |
 

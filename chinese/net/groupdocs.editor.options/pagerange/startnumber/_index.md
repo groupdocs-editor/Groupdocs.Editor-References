@@ -1,14 +1,14 @@
 ---
 title: StartNumber
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含起始页码从该页码范围开始如果 1  页范围从文档的第一页开始
+description: 包含起始页码此页范围从其开始如果 1  页面范围从文档的第一页开始
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.options/pagerange/startnumber/
 ---
 ## PageRange.StartNumber property
 
-包含起始页码，从该页码范围开始。如果 1 - 页范围从文档的第一页开始
+包含起始页码，此页范围从其开始。如果 1 - 页面范围从文档的第一页开始
 
 ```csharp
 public ushort StartNumber { get; }

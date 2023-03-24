@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 因为 Markdown 文档不能用密码加密所以这个属性总是返回 false
+description: 因为 Markdown 文档不能用密码加密所以这个属性总是返回 错误的
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-因为 Markdown 文档不能用密码加密，所以这个属性总是返回 'false'
+因为 Markdown 文档不能用密码加密，所以这个属性总是返回 ``错误的`
 
 ```csharp
 public bool IsEncrypted { get; }

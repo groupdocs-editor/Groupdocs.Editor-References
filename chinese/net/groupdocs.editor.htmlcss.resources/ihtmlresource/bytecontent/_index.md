@@ -1,14 +1,14 @@
 ---
 title: ByteContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 字节流形式的 HTML 资源内容
+description: 字节流形式的HTML资源内容
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources/ihtmlresource/bytecontent/
 ---
 ## IHtmlResource.ByteContent property
 
-字节流形式的 HTML 资源内容
+字节流形式的HTML资源内容
 
 ```csharp
 public Stream ByteContent { get; }

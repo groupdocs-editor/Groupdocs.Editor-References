@@ -1,14 +1,14 @@
 ---
 title: AllResources
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回所有现有资源的列表所有样式表来自 HTML 的图像和所有样式表fonts
+description: 返回所有现有资源的列表所有样式表来自 HTML 的图像和所有样式表字体audio
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor/editabledocument/allresources/
 ---
 ## EditableDocument.AllResources property
 
-返回所有现有资源的列表：所有样式表、来自 HTML 的图像和所有样式表、fonts
+返回所有现有资源的列表：所有样式表、来自 HTML 的图像和所有样式表、字体、audio
 
 ```csharp
 public List<IHtmlResource> AllResources { get; }
@@ -16,7 +16,7 @@ public List<IHtmlResource> AllResources { get; }
 
 ### 评论
 
-此属性返回“Images”、“Fonts”、“Css”和“Audio”属性的串联结果
+此属性返回“图像”、“字体”、“CSS”和“音频”属性的串联结果
 
 ### 也可以看看
 

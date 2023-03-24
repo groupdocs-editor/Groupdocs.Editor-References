@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 事件当此编辑器实例及其所有内部资源被处置时发生
+description: 事件当此 Editor 实例及其所有内部资源都被释放时发生
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor/editor/disposed/
 ---
 ## Editor.Disposed event
 
-事件，当此编辑器实例及其所有内部资源被处置时发生
+事件，当此 Editor 实例及其所有内部资源都被释放时发生
 
 ```csharp
 public event EventHandler Disposed;
@@ -16,7 +16,7 @@ public event EventHandler Disposed;
 
 ### 评论
 
-这个**处置**事件将在编辑器实例的处理完成后立即触发。
+这**处置**处理完 Editor 实例后将立即触发事件。
 
 ### 也可以看看
 

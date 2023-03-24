@@ -1,14 +1,14 @@
 ---
 title: OutputFormat
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定用于保存文档的字处理格式
+description: 允许指定一个 WordProcessing 格式该格式将用于保存文档
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/outputformat/
 ---
 ## WordProcessingSaveOptions.OutputFormat property
 
-允许指定用于保存文档的字处理格式
+允许指定一个 WordProcessing 格式，该格式将用于保存文档
 
 ```csharp
 public WordProcessingFormats OutputFormat { get; set; }

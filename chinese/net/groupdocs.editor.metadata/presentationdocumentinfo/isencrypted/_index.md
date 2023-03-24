@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指示此特定演示文稿文档是否已加密并需要密码才能打开
+description: 表示这个特定的演示文档是否加密并且需要密码才能打开
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/presentationdocumentinfo/isencrypted/
 ---
 ## PresentationDocumentInfo.IsEncrypted property
 
-指示此特定演示文稿文档是否已加密并需要密码才能打开
+表示这个特定的演示文档是否加密并且需要密码才能打开
 
 ```csharp
 public bool IsEncrypted { get; }

@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在不等式 上检查两个给定的 PresentationFormats 实例
+description: 在 inequality 上检查两个给定的 PresentationFormats 实例
 type: docs
 weight: 210
 url: /zh/net/groupdocs.editor.formats/presentationformats/op_inequality/
 ---
 ## PresentationFormats Inequality operator
 
-在不等式 上检查两个给定的 PresentationFormats 实例
+在 inequality 上检查两个给定的 PresentationFormats 实例
 
 ```csharp
 public static bool operator !=(PresentationFormats first, PresentationFormats second)

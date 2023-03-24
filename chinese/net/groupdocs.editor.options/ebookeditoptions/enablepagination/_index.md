@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许在生成的 HTML 文档中启用或禁用分页默认情况下禁用错误的 .
+description: 允许在生成的 HTML 文档中启用或禁用分页默认情况下禁用错误的.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/ebookeditoptions/enablepagination/
 ---
 ## EbookEditOptions.EnablePagination property
 
-允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（`错误的` ).
+允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（`错误的`).
 
 ```csharp
 public bool EnablePagination { get; set; }
@@ -16,7 +16,7 @@ public bool EnablePagination { get; set; }
 
 ### 评论
 
-从本质上讲，大多数电子书格式在内部都是一种流格式，例如 Office Open XML，其中内容是实体的，并且分为章节而不是页面。但是，它包含一些特定于页面的信息，例如页码、脚注、heraders/footers 等。一些电子书阅读器将电子书内容拆分到页面上，而另一些（尤其是移动设备）则不会。此选项允许在编辑时控制电子书内容应如何以 HTML/CSS 表示 - 在浮动 (`错误的`) 或分页 (`真的`） 看法。
+从本质上讲，大多数电子书格式在内部都是像 Office Open XML 这样的流格式，其中内容是固定的，并且分为章节而不是页面。但是，它包含一些特定于页面的信息，如页码、脚注、页眉/页脚等。一些电子书阅读器将电子书内容拆分到页面上，而其他人（尤其是移动设备）则不会。此选项允许控制电子书内容在编辑时应如何以 HTML/CSS 表示 - 在浮动（`错误的`) 或分页 (`真的`） 看法。
 
 ### 也可以看看
 

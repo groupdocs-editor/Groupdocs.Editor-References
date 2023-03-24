@@ -1,14 +1,14 @@
 ---
 title: TrailingSpaces
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取或设置尾随空格处理的首选选项默认情况下会截断所有尾随空格
+description: 获取或设置尾随空格处理的首选选项默认情况下截断所有尾随空格
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.options/texteditoptions/trailingspaces/
 ---
 ## TextEditOptions.TrailingSpaces property
 
-获取或设置尾随空格处理的首选选项。默认情况下会截断所有尾随空格。
+获取或设置尾随空格处理的首选选项。默认情况下截断所有尾随空格。
 
 ```csharp
 public TextTrailingSpacesOptions TrailingSpaces { get; set; }

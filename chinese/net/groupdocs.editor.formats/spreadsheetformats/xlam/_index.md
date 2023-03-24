@@ -1,14 +1,14 @@
 ---
 title: Xlam
 second_title: GroupDocs.Editor for .NET API 参考
-description: Excel 插件 XLAM
+description: Excel 加载项 XLAM
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/xlam/
 ---
 ## SpreadsheetFormats.Xlam field
 
-Excel 插件 (XLAM)
+Excel 加载项 (XLAM)
 
 ```csharp
 public static readonly SpreadsheetFormats Xlam;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlam;
 
 ### 评论
 
-Excel 加载项以添加额外的功能和工具。由于文件目的，固有的宏支持。
+用于添加额外功能和工具的 Excel 加载项。由于文件目的，固有的宏支持。
 
 ### 也可以看看
 

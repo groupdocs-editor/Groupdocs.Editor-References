@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 定义两个特定的 ImageType 实例是否相等
+description: 定义两个特定的ImageType实例是否相等
 type: docs
 weight: 210
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/op_equality/
 ---
 ## ImageType Equality operator
 
-定义两个特定的 ImageType 实例是否相等
+定义两个特定的ImageType实例是否相等
 
 ```csharp
 public static bool operator ==(ImageType first, ImageType second)

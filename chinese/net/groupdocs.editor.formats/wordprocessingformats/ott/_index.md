@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: GroupDocs.Editor for .NET API 参考
-description: 开放文档格式文本文档模板 OTT 表示由应用程序生成的符合 OASIS 的 OpenDocument 标准格式的模板文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/ott.
+description: Open Document Format 文本文档模板 OTT 表示应用程序生成的模板文档符合 OASIS 的 OpenDocument 标准格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/ott.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats/ott/
 ---
 ## WordProcessingFormats.Ott field
 
-开放文档格式文本文档模板 (OTT) 表示由应用程序生成的符合 OASIS 的 OpenDocument 标准格式的模板文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/ott).
+Open Document Format 文本文档模板 (OTT) 表示应用程序生成的模板文档符合 OASIS 的 OpenDocument 标准格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/ott).
 
 ```csharp
 public static readonly WordProcessingFormats Ott;

@@ -1,14 +1,14 @@
 ---
 title: Icon
 second_title: GroupDocs.Editor for .NET API 参考
-description: 图标图像类型
+description: ICON 图像类型
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/icon/
 ---
 ## ImageType.Icon property
 
-图标图像类型
+ICON 图像类型
 
 ```csharp
 public static ImageType Icon { get; }

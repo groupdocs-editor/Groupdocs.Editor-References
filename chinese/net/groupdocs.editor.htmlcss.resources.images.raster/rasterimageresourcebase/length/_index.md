@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此光栅图像文件的长度以字节为单位
+description: 以字节为单位返回此光栅图像文件的长度
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/length/
 ---
 ## RasterImageResourceBase.Length property
 
-返回此光栅图像文件的长度（以字节为单位）
+以字节为单位返回此光栅图像文件的长度
 
 ```csharp
 public int Length { get; }

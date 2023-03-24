@@ -16,7 +16,7 @@ public IEnumerator<PresentationFormats> GetEnumerator()
 
 ### 返回值
 
-实现 IEnumerator 的内部类的实例
+内部类的实例，实现了 IEnumerator
 
 ### 也可以看看
 

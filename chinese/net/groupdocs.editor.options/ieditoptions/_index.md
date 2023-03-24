@@ -1,14 +1,14 @@
 ---
 title: IEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 所有选项的通用接口负责文档到 HTML 的转换声明没有成员
+description: 所有选项的通用接口负责文档到 HTML 的转换声明没有成员.
 type: docs
-weight: 760
+weight: 910
 url: /zh/net/groupdocs.editor.options/ieditoptions/
 ---
 ## IEditOptions interface
 
-所有选项的通用接口，负责文档到 HTML 的转换。声明没有成员。
+所有选项的通用接口，负责文档到 HTML 的转换。声明没有成员.
 
 ```csharp
 public interface IEditOptions

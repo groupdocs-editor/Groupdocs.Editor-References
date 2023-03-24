@@ -1,18 +1,24 @@
 ---
 title: Separator
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为基于文本的电子表格文档指定字符串分隔符分隔符
+description: 允许为基于文本的电子表格文档指定字符串分隔符定界符
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/delimitedtextsaveoptions/separator/
 ---
 ## DelimitedTextSaveOptions.Separator property
 
-允许为基于文本的电子表格文档指定字符串分隔符（分隔符）
+允许为基于文本的电子表格文档指定字符串分隔符（定界符）
 
 ```csharp
 public string Separator { get; set; }
 ```
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | 当指定的分隔符为 null 或空字符串时抛出 |
 
 ### 也可以看看
 

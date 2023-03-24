@@ -1,14 +1,14 @@
 ---
 title: LinearDimensions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回图像的线性尺寸对于光栅图像它们是以像素为单位的固有尺寸 对应的矢量图像没有固定尺寸但它们的元数据可以包含不同测量单位的一些基本尺寸
+description: 在实现类型中应返回图像的线性尺寸对于光栅图像它们是以像素为单位的固有尺寸 对应的矢量图像没有固定尺寸但它们的元数据可以包含不同测量单位的一些基本尺寸
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/iimageresource/lineardimensions/
 ---
 ## IImageResource.LinearDimensions property
 
-在实现类型中应该返回图像的线性尺寸。对于光栅图像，它们是以像素为单位的固有尺寸。 对应的矢量图像没有固定尺寸，但它们的元数据可以包含不同测量单位的一些基本尺寸。
+在实现类型中应返回图像的线性尺寸。对于光栅图像，它们是以像素为单位的固有尺寸。 对应的矢量图像没有固定尺寸，但它们的元数据可以包含不同测量单位的一些基本尺寸。
 
 ```csharp
 public Dimensions LinearDimensions { get; }

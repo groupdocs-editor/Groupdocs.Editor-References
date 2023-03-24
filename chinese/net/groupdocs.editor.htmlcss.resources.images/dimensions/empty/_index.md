@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回一个空的维度实例
+description: 返回一个空的 Dimensions instance
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/empty/
 ---
 ## Dimensions.Empty property
 
-返回一个空的维度实例
+返回一个空的 Dimensions instance
 
 ```csharp
 public static Dimensions Empty { get; }

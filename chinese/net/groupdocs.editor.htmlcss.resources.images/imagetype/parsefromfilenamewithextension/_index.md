@@ -1,14 +1,14 @@
 ---
 title: ParseFromFilenameWithExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回ImageType值相当于从指定文件名中提取的文件扩展名
+description: 返回ImageType值相当于从指定文件名 中提取的文件扩展名
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/parsefromfilenamewithextension/
 ---
 ## ImageType.ParseFromFilenameWithExtension method
 
-返回ImageType值，相当于从指定文件名中提取的文件扩展名
+返回ImageType值，相当于从指定文件名 中提取的文件扩展名
 
 ```csharp
 public static ImageType ParseFromFilenameWithExtension(string filename)
@@ -20,7 +20,7 @@ public static ImageType ParseFromFilenameWithExtension(string filename)
 
 ### 返回值
 
-图像类型值。如果无法识别扩展名，则返回 ImageType.Undefined。
+图片类型值。如果无法识别扩展名，则返回 ImageType.Undefined。
 
 ### 也可以看看
 

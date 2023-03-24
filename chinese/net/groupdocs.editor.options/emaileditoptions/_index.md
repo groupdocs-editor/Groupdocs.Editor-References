@@ -1,14 +1,14 @@
 ---
 title: EmailEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定自定义选项以编辑不同电子邮件电子邮件格式的文档
+description: 允许指定用于编辑不同电子邮件电子邮件格式的文档的自定义选项
 type: docs
-weight: 700
+weight: 850
 url: /zh/net/groupdocs.editor.options/emaileditoptions/
 ---
 ## EmailEditOptions class
 
-允许指定自定义选项以编辑不同电子邮件（电子邮件）格式的文档
+允许指定用于编辑不同电子邮件（电子邮件）格式的文档的自定义选项
 
 ```csharp
 public sealed class EmailEditOptions : IEditOptions
@@ -18,14 +18,14 @@ public sealed class EmailEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailEditOptions](emaileditoptions#constructor)() | 初始化[`EmailEditOptions`](../emaileditoptions)类，其中所有选项都设置为其默认值 |
-| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | 初始化[`EmailEditOptions`](../emaileditoptions)类与[`MailMessageOutput`](./mailmessageoutput)参数 |
+| [EmailEditOptions](emaileditoptions#constructor)() | 初始化一个新的实例[`EmailEditOptions`](../emaileditoptions)类，其中所有选项都设置为其默认值 |
+| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | 初始化一个新的实例[`EmailEditOptions`](../emaileditoptions)类[`MailMessageOutput`](./mailmessageoutput)参数 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailMessageOutput](../../groupdocs.editor.options/emaileditoptions/mailmessageoutput) { get; set; } | 允许控制应将邮件消息的哪些部分传递到输出[`EditableDocument`](../../groupdocs.editor/editabledocument)然后到发出的 HTML |
+| [MailMessageOutput](../../groupdocs.editor.options/emaileditoptions/mailmessageoutput) { get; set; } | 允许控制邮件消息的哪些部分应该传递到输出[`EditableDocument`](../../groupdocs.editor/editabledocument)然后到发出的 HTML |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PasswordRequiredException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 当用户尝试打开某种格式的受密码保护的加密文档并且没有提供打开该文档的密码时引发的异常
+description: 当用户试图打开某种格式的受密码保护的加密文档并且没有提供打开该文档的密码时抛出的异常
 type: docs
-weight: 1080
+weight: 1320
 url: /zh/net/groupdocs.editor/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-当用户尝试打开某种格式的受密码保护的加密文档并且没有提供打开该文档的密码时引发的异常。
+当用户试图打开某种格式的受密码保护的加密文档并且没有提供打开该文档的密码时抛出的异常。
 
 ```csharp
 public sealed class PasswordRequiredException : Exception

@@ -3,7 +3,7 @@ title: Numerator
 second_title: GroupDocs.Editor for .NET API 参考
 description: 返回此比率的分子
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/numerator/
 ---
 ## Ratio.Numerator property

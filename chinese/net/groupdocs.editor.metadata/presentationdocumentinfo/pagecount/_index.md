@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此演示文稿文档中的幻灯片数
+description: 返回此演示文档中的幻灯片数量
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/presentationdocumentinfo/pagecount/
 ---
 ## PresentationDocumentInfo.PageCount property
 
-返回此演示文稿文档中的幻灯片数
+返回此演示文档中的幻灯片数量
 
 ```csharp
 public int PageCount { get; }

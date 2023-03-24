@@ -1,14 +1,14 @@
 ---
 title: FontExtractionOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 字体提取选项控制应该提取哪些字体以及从哪里提取
+description: 字体提取选项控制应提取哪些字体以及从何处提取
 type: docs
-weight: 750
+weight: 900
 url: /zh/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration
 
-字体提取选项控制应该提取哪些字体以及从哪里提取
+字体提取选项控制应提取哪些字体以及从何处提取
 
 ```csharp
 public enum FontExtractionOptions : byte
@@ -18,9 +18,9 @@ public enum FontExtractionOptions : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotExtract | `0` | 既不从文档也不从系统中提取任何字体资源。默认值。 |
-| ExtractAllEmbedded | `1` | 提取嵌入到输入 Word 文档中的所有字体资源，无论它们是什么：自定义或系统。 |
-| ExtractEmbeddedWithoutSystem | `2` | 只提取那些嵌入的字体资源，它们是自定义的（不是系统的） |
+| NotExtract | `0` | 不从文档或系统中提取任何字体资源。默认值. |
+| ExtractAllEmbedded | `1` | 提取所有嵌入到输入 Word 文档中的字体资源，无论它们是什么：自定义或系统。 |
+| ExtractEmbeddedWithoutSystem | `2` | 只提取那些嵌入的字体资源，这些资源是自定义的（不是系统的） |
 | ExtractAll | `3` | 尝试提取输入 WordProcessing 文档中使用的所有字体，包括系统字体。 |
 
 ### 也可以看看

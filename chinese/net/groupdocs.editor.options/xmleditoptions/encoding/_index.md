@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 文本文档的字符编码将应用于其打开默认为 null  将应用内部文档编码
+description: 文本文档的字符编码将应用于其打开默认情况下为 null  将应用内部文档编码
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/xmleditoptions/encoding/
 ---
 ## XmlEditOptions.Encoding property
 
-文本文档的字符编码，将应用于其打开。默认为 null — 将应用内部文档编码。
+文本文档的字符编码，将应用于其打开。默认情况下为 null — 将应用内部文档编码。
 
 ```csharp
 public Encoding Encoding { get; set; }

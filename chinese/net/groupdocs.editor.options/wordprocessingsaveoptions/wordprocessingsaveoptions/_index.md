@@ -1,14 +1,14 @@
 ---
 title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 使用指定的强制字处理输出格式创建 WordProcessingSaveOptions 的新实例而所有其他参数均为默认值
+description: 使用指定的强制 WordProcessing 输出格式创建 WordProcessingSaveOptions 的新实例而所有其他参数均为 default
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions constructor
 
-使用指定的强制字处理输出格式创建 WordProcessingSaveOptions 的新实例，而所有其他参数均为默认值
+使用指定的强制 WordProcessing 输出格式创建 WordProcessingSaveOptions 的新实例，而所有其他参数均为 default
 
 ```csharp
 public WordProcessingSaveOptions(WordProcessingFormats outputFormat)
@@ -16,7 +16,7 @@ public WordProcessingSaveOptions(WordProcessingFormats outputFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| outputFormat | WordProcessingFormats | 强制输出格式，应保存 WordProcessing 文档 |
+| outputFormat | WordProcessingFormats | 强制输出格式，WordProcessing 文档应以这种格式保存 |
 
 ### 也可以看看
 

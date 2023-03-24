@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在不等式 上检查两个给定的 TextualFormats 实例
+description: 在 inequality 上检查两个给定的 TextualFormats 实例
 type: docs
 weight: 170
 url: /zh/net/groupdocs.editor.formats/textualformats/op_inequality/
 ---
 ## TextualFormats Inequality operator
 
-在不等式 上检查两个给定的 TextualFormats 实例
+在 inequality 上检查两个给定的 TextualFormats 实例
 
 ```csharp
 public static bool operator !=(TextualFormats first, TextualFormats second)
@@ -16,7 +16,7 @@ public static bool operator !=(TextualFormats first, TextualFormats second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | TextualFormats | 第一个要检查的 TextualFormats 实例 |
+| first | TextualFormats | 要检查的第一个 TextualFormats 实例 |
 | second | TextualFormats | 要检查的第二个 TextualFormats 实例 |
 
 ### 返回值

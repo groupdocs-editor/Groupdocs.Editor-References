@@ -1,14 +1,14 @@
 ---
 title: TextContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: HTML 资源的内容格式为二进制资源的 base64 编码文本字符串或文本资源的简单文本
+description: 二进制资源的 base64 编码文本字符串或文本资源的简单文本形式的 HTML 资源内容
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources/ihtmlresource/textcontent/
 ---
 ## IHtmlResource.TextContent property
 
-HTML 资源的内容，格式为二进制资源的 base64 编码文本字符串或文本资源的简单文本
+二进制资源的 base64 编码文本字符串或文本资源的简单文本形式的 HTML 资源内容
 
 ```csharp
 public string TextContent { get; }

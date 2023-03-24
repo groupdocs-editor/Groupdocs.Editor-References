@@ -1,14 +1,14 @@
 ---
 title: TextContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此 MP3 资源的内容作为 base64 编码的字符串返回该值在第一次调用后被缓存
+description: 将此 MP3 资源的内容作为 base64 编码字符串返回该值在第一次调用后缓存
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/textcontent/
 ---
 ## Mp3Audio.TextContent property
 
-将此 MP3 资源的内容作为 base64 编码的字符串返回。该值在第一次调用后被缓存。
+将此 MP3 资源的内容作为 base64 编码字符串返回。该值在第一次调用后缓存。
 
 ```csharp
 public string TextContent { get; }

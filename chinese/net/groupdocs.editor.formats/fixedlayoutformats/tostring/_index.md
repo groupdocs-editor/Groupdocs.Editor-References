@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此特定格式的名称与名称属性相同
+description: 返回此特定格式的名称与 Name property 相同
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.formats/fixedlayoutformats/tostring/
 ---
 ## FixedLayoutFormats.ToString method
 
-返回此特定格式的名称，与“名称”属性相同
+返回此特定格式的名称，与 'Name' property 相同
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-一个String表示这个 instance
+一个String代表这个实例
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ParseFromMime
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 ImageType 值相当于指定的 MIME 代码
+description: 返回 ImageType 值相当于指定的 MIME code
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/parsefrommime/
 ---
 ## ImageType.ParseFromMime method
 
-返回 ImageType 值，相当于指定的 MIME 代码
+返回 ImageType 值，相当于指定的 MIME code
 
 ```csharp
 public static ImageType ParseFromMime(string mimeCode)
@@ -20,7 +20,7 @@ public static ImageType ParseFromMime(string mimeCode)
 
 ### 返回值
 
-图像类型值。如果无法识别扩展名，则返回 ImageType.Undefined。
+图片类型值。如果无法识别扩展名，则返回 ImageType.Undefined。
 
 ### 也可以看看
 

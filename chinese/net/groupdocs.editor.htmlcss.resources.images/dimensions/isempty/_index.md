@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此Dimensions实例是否为空且默认即它不存储正确的宽度和高度
+description: 确定此尺寸实例是否为空且默认即它未存储正确的宽度和高度
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/isempty/
 ---
 ## Dimensions.IsEmpty property
 
-确定此“Dimensions”实例是否为空且默认，即它不存储正确的宽度和高度
+确定此“尺寸”实例是否为空且默认，即它未存储正确的宽度和高度
 
 ```csharp
 public bool IsEmpty { get; }

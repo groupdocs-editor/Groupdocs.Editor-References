@@ -1,14 +1,14 @@
 ---
 title: FontEmbedding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中默认情况下不嵌入任何字体NotEmbed
+description: 负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中默认情况下不嵌入任何字体 NotEmbed.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/pdfsaveoptions/fontembedding/
 ---
 ## PdfSaveOptions.FontEmbedding property
 
-负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中。默认情况下不嵌入任何字体（NotEmbed）。
+负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中。默认情况下不嵌入任何字体 (NotEmbed).
 
 ```csharp
 public FontEmbeddingOptions FontEmbedding { get; set; }

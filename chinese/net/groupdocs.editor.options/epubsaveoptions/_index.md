@@ -1,14 +1,14 @@
 ---
 title: EpubSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定用于生成和保存 IDPF EPUB 文档的自定义选项国际数字出版论坛创建的电子书开放标准
+description: 允许指定用于生成和保存 IDPF EPUB 文档的自定义选项国际数字出版论坛创建的电子书的开放标准
 type: docs
-weight: 720
+weight: 870
 url: /zh/net/groupdocs.editor.options/epubsaveoptions/
 ---
 ## EpubSaveOptions class
 
-允许指定用于生成和保存 IDPF EPUB 文档的自定义选项（国际数字出版论坛创建的电子书开放标准）
+允许指定用于生成和保存 IDPF EPUB 文档的自定义选项（国际数字出版论坛创建的电子书的开放标准）
 
 ```csharp
 public sealed class EpubSaveOptions : ISaveOptions
@@ -25,7 +25,7 @@ public sealed class EpubSaveOptions : ISaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | 指定是否以 IDPF EPUB 格式导出内置和自定义文档属性。 默认值为`错误的`. |
-| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | 指定分割 ePub 文件的最大标题级别。默认值为`2` 将其设置为`0`将禁用拆分，因此电子书的所有内容将合并到 ePub 内的单个包中。 |
+| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | 指定拆分 ePub 文件的最大标题级别。默认值为`2个` 将其设置为`0`将禁用拆分，因此电子书的所有内容将合并到 ePub. 内的单个包中 |
 
 ### 也可以看看
 

@@ -16,8 +16,8 @@ public static bool operator !=(Dimensions first, Dimensions second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | Dimensions | 要检查的第一个实例 |
-| second | Dimensions | 第二个实例检查 |
+| first | Dimensions | 一审要查 |
+| second | Dimensions | 二审检查 |
 
 ### 返回值
 

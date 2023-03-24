@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此可编辑文档是否已被处置 true 或未处置 false
+description: 确定此可编辑文档是否已处理 true 或未处理 false
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor/editabledocument/isdisposed/
 ---
 ## EditableDocument.IsDisposed property
 
-确定此可编辑文档是否已被处置 (true) 或未处置 (false)
+确定此可编辑文档是否已处理 (true) 或未处理 (false)
 
 ```csharp
 public bool IsDisposed { get; }

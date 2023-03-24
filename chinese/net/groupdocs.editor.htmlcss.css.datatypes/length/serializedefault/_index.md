@@ -1,14 +1,14 @@
 ---
 title: SerializeDefault
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以原始原生形式存储时返回此长度的字符串表示而不将长度值转换为其他单位类型
+description: 以其原始本机形式存储时返回此长度的字符串表示形式而不将长度值转换为其他一些单位 type
 type: docs
-weight: 230
+weight: 220
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/serializedefault/
 ---
 ## Length.SerializeDefault method
 
-以原始原生形式（存储时）返回此长度的字符串表示，而不将长度值转换为其他单位类型
+以其原始本机形式（存储时）返回此长度的字符串表示形式，而不将长度值转换为其他一些单位 type
 
 ```csharp
 public string SerializeDefault()

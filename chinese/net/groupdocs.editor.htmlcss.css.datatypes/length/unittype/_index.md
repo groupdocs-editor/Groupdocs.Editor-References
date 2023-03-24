@@ -3,7 +3,7 @@ title: UnitType
 second_title: GroupDocs.Editor for .NET API 参考
 description: 返回此 Length 实例的单位类型
 type: docs
-weight: 190
+weight: 180
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/unittype/
 ---
 ## Length.UnitType property

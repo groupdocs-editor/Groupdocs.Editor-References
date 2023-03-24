@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为编辑所有支持的电子表格Excel 兼容格式的文档指定自定义选项
+description: 允许指定用于编辑所有支持的电子表格与 Excel 兼容格式的文档的自定义选项
 type: docs
-weight: 890
+weight: 1100
 url: /zh/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class
 
-允许为编辑所有支持的电子表格（Excel 兼容）格式的文档指定自定义选项
+允许指定用于编辑所有支持的电子表格（与 Excel 兼容）格式的文档的自定义选项
 
 ```csharp
 public class SpreadsheetEditOptions : IEditOptions
@@ -24,7 +24,7 @@ public class SpreadsheetEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExcludeHiddenWorksheets](../../groupdocs.editor.options/spreadsheeteditoptions/excludehiddenworksheets) { get; set; } | 允许在输入电子表格文档中排除隐藏的工作表，因此它们将被完全忽略。 默认为 false - 隐藏的工作表可用并正常处理。 |
+| [ExcludeHiddenWorksheets](../../groupdocs.editor.options/spreadsheeteditoptions/excludehiddenworksheets) { get; set; } | 允许排除输入电子表格文档中的隐藏工作表，因此它们将被完全忽略。 默认值为 false - 隐藏的工作表可用并正常处理。 |
 | [WorksheetIndex](../../groupdocs.editor.options/spreadsheeteditoptions/worksheetindex) { get; set; } | 允许指定输入电子表格文档的工作表（选项卡）的从 0 开始的索引，应将其转换为 HTML（见备注）。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: SerializeDefault
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此比率序列化为字符串并返回它
+description: 将这个比率序列化为字符串并返回它
 type: docs
-weight: 110
+weight: 100
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault/
 ---
 ## Ratio.SerializeDefault method
 
-将此比率序列化为字符串并返回它
+将这个比率序列化为字符串并返回它
 
 ```csharp
 public string SerializeDefault()

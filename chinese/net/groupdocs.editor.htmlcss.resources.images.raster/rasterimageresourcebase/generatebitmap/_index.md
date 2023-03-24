@@ -1,14 +1,14 @@
 ---
 title: GenerateBitmap
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从此光栅图像生成并返回System.Drawing.Bitmap的新实例
+description: 从该光栅图像生成并返回System.Drawing.Bitmap的新实例
 type: docs
 weight: 130
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/generatebitmap/
 ---
 ## RasterImageResourceBase.GenerateBitmap method
 
-从此光栅图像生成并返回“System.Drawing.Bitmap”的新实例。
+从该光栅图像生成并返回“System.Drawing.Bitmap”的新实例。
 
 ```csharp
 public Bitmap GenerateBitmap()
@@ -16,7 +16,7 @@ public Bitmap GenerateBitmap()
 
 ### 返回值
 
-'System.Drawing.Bitmap' 的新实例
+“System.Drawing.Bitmap”的新实例
 
 ### 评论
 

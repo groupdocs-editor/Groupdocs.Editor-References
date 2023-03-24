@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: GroupDocs.Editor for .NET API 参考
 description: 该值具有无单位类型但不是零  正数或负数
 type: docs
-weight: 160
+weight: 150
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

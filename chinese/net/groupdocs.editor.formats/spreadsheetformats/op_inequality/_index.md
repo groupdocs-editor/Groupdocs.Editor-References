@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在不等式 上检查两个给定的 SpreadsheetFormats 实例
+description: 在 inequality 上检查两个给定的 SpreadsheetFormats 实例
 type: docs
 weight: 240
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/op_inequality/
 ---
 ## SpreadsheetFormats Inequality operator
 
-在不等式 上检查两个给定的 SpreadsheetFormats 实例
+在 inequality 上检查两个给定的 SpreadsheetFormats 实例
 
 ```csharp
 public static bool operator !=(SpreadsheetFormats first, SpreadsheetFormats second)
@@ -16,7 +16,7 @@ public static bool operator !=(SpreadsheetFormats first, SpreadsheetFormats seco
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | SpreadsheetFormats | 第一个要检查的 SpreadsheetFormats 实例 |
+| first | SpreadsheetFormats | 要检查的第一个 SpreadsheetFormats 实例 |
 | second | SpreadsheetFormats | 要检查的第二个 SpreadsheetFormats 实例 |
 
 ### 返回值

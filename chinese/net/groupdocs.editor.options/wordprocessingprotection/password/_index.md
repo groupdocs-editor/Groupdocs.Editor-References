@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 用于保护文档的密码如果为 null 或空字符串  将不会对文档应用保护
+description: 用于保护文档的密码如果为 null 或空字符串  保护将不会应用于文档
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/wordprocessingprotection/password/
 ---
 ## WordProcessingProtection.Password property
 
-用于保护文档的密码。如果为 null 或空字符串 - 将不会对文档应用保护。
+用于保护文档的密码。如果为 null 或空字符串 - 保护将不会应用于文档。
 
 ```csharp
 public string Password { get; set; }

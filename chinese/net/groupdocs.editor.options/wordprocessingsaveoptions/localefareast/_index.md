@@ -1,14 +1,14 @@
 ---
 title: LocaleFarEast
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许覆盖东亚文本的 WordProcessing 文档的区域设置语言这将在其创建期间应用 如果未指定默认值MS Word或其他程序将检测或选择 文档东亚locale 根据自己的设置或其他因素.
+description: 允许覆盖东亚文本的 WordProcessing 文档的区域设置语言这将在创建过程中应用 如果未指定默认值MS Word或其他程序将检测或选择文件EastAsian locale 根据自身设置或其他因素.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/localefareast/
 ---
 ## WordProcessingSaveOptions.LocaleFarEast property
 
-允许覆盖东亚文本的 WordProcessing 文档的区域设置（语言），这将在其创建期间应用。 如果未指定（默认值），MS Word（或其他程序）将检测（或选择) 文档东亚locale 根据自己的设置或其他因素.
+允许覆盖东亚文本的 WordProcessing 文档的区域设置（语言），这将在创建过程中应用。 如果未指定（默认值），MS Word（或其他程序）将检测（或选择)文件East-Asian locale 根据自身设置或其他因素.
 
 ```csharp
 public CultureInfo LocaleFarEast { get; set; }
@@ -16,7 +16,7 @@ public CultureInfo LocaleFarEast { get; set; }
 
 ### 评论
 
-此选项强制将指定的区域设置应用于文档中的整个东亚文本。 如果文档包含不同的文本部分，则不要使用它，这些文本是用不同的语言编写的。
+此选项强制将指定的区域设置应用于文档中的整个东亚文本。 如果文档包含用不同语言编写的不同文本部分，请不要使用它。
 
 ### 也可以看看
 

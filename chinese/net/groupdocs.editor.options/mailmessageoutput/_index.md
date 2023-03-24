@@ -1,14 +1,14 @@
 ---
 title: MailMessageOutput
 second_title: GroupDocs.Editor for .NET API 参考
-description: 控制应将邮件消息的哪些部分传送到输出处理
+description: 控制应将邮件消息的哪些部分传递给输出处理
 type: docs
-weight: 790
+weight: 950
 url: /zh/net/groupdocs.editor.options/mailmessageoutput/
 ---
 ## MailMessageOutput enumeration
 
-控制应将邮件消息的哪些部分传送到输出处理
+控制应将邮件消息的哪些部分传递给输出处理
 
 ```csharp
 [Flags]
@@ -19,13 +19,13 @@ public enum MailMessageOutput : ushort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不会处理任何电子邮件部分 |
-| Body | `1` | 处理邮件消息的正文 |
-| Subject | `2` | 处理邮件消息的主题 |
-| Date | `4` | 处理消息传递的日期和时间 |
+| None | `0` | 不会处理任何电子邮件消息部分 |
+| Body | `1` | 邮件消息的处理体 |
+| Subject | `2` | 邮件消息的处理主题 |
+| Date | `4` | 传递消息时的处理日期和时间 |
 | To | `8` | 处理邮件消息的所有收件人 |
 | Cc | `10` | 处理邮件消息的所有抄送收件人 |
-| Bcc | `20` | 处理邮件消息的所有密件抄送收件人 |
+| Bcc | `20` | 处理邮件消息的所有 BCC 收件人 |
 | From | `40` | 处理邮件消息的发件人 |
 | Attachments | `80` | 处理邮件消息的所有附件 |
 | Metadata | `100` | 处理所有其他技术元数据（敏感度、优先级、编码、MIME、X-Mailer 等） |

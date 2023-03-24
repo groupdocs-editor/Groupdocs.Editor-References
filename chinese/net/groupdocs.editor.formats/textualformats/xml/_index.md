@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: GroupDocs.Editor for .NET API 参考
-description: 可扩展标记语言文档 XML它与 HTML 类似但在使用标签来定义对象方面有所不同 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/web/xml.
+description: eXtensible Markup Language 文档 XML 与 HTML 类似但在使用标签定义对象方面有所不同 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/web/xml.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.formats/textualformats/xml/
 ---
 ## TextualFormats.Xml field
 
-可扩展标记语言文档 (XML)，它与 HTML 类似，但在使用标签来定义对象方面有所不同。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/xml).
+eXtensible Markup Language 文档 (XML) 与 HTML 类似，但在使用标签定义对象方面有所不同。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/web/xml).
 
 ```csharp
 public static readonly TextualFormats Xml;

@@ -1,14 +1,14 @@
 ---
 title: SkipImages
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取或设置标志指示在将输入固定布局文档转换为结果 HTML 时是否必须跳过图像默认为 false  保留图像
+description: 获取或设置标志指示在将输入的固定布局文档转换为生成的 HTML 时是否必须跳过图像默认为 false  图像被保留
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/fixedlayouteditoptionsbase/skipimages/
 ---
 ## FixedLayoutEditOptionsBase.SkipImages property
 
-获取或设置标志，指示在将输入固定布局文档转换为结果 HTML 时是否必须跳过图像。默认为 false - 保留图像。
+获取或设置标志，指示在将输入的固定布局文档转换为生成的 HTML 时是否必须跳过图像。默认为 false - 图像被保留。
 
 ```csharp
 public bool SkipImages { get; set; }

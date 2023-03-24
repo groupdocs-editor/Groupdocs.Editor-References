@@ -1,14 +1,14 @@
 ---
 title: Oft
 second_title: GroupDocs.Editor for .NET API 参考
-description: 带有 .oft 扩展名的文件是使用 Microsoft Outlook 创建的模板文件 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/oft/.
+description: 扩展名为 .oft 的文件是使用 Microsoft Outlook 创建的模板文件 了解有关此文件格式的更多信息这里https//docs.fileformat.com/email/oft/.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.formats/emailformats/oft/
 ---
 ## EmailFormats.Oft field
 
-带有 .oft 扩展名的文件是使用 Microsoft Outlook 创建的模板文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/oft/).
+扩展名为 .oft 的文件是使用 Microsoft Outlook 创建的模板文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/oft/).
 
 ```csharp
 public static readonly EmailFormats Oft;

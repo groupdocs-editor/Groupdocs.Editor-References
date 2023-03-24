@@ -1,14 +1,14 @@
 ---
 title: ISaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 所有文档类型的所有保存选项的接口声明没有成员
+description: 所有文档类型的所有保存选项的接口声明没有成员.
 type: docs
-weight: 780
+weight: 940
 url: /zh/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface
 
-所有文档类型的所有保存选项的接口。声明没有成员。
+所有文档类型的所有保存选项的接口。声明没有成员.
 
 ```csharp
 public interface ISaveOptions

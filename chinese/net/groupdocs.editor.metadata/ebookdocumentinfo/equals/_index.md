@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的 EbookDocumentInfo 实例
+description: 判断这个实例是否等于另一个指定的EbookDocumentInfo instance
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.metadata/ebookdocumentinfo/equals/
 ---
 ## EbookDocumentInfo.Equals method
 
-确定此实例是否等于其他指定的 EbookDocumentInfo 实例
+判断这个实例是否等于另一个指定的EbookDocumentInfo instance
 
 ```csharp
 public bool Equals(EbookDocumentInfo other)

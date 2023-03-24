@@ -1,14 +1,14 @@
 ---
 title: EmailEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 初始化EmailEditOptionsgroupdocs.editor.options/emaileditoptions类其中所有选项都设置为其默认值
+description: 初始化一个新的实例EmailEditOptionsgroupdocs.editor.options/emaileditoptions类其中所有选项都设置为其默认值
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/emaileditoptions/emaileditoptions/
 ---
 ## EmailEditOptions() {#constructor}
 
-初始化[`EmailEditOptions`](../../emaileditoptions)类，其中所有选项都设置为其默认值
+初始化一个新的实例[`EmailEditOptions`](../../emaileditoptions)类，其中所有选项都设置为其默认值
 
 ```csharp
 public EmailEditOptions()
@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-初始化[`EmailEditOptions`](../../emaileditoptions)类与[`MailMessageOutput`](../mailmessageoutput)参数
+初始化一个新的实例[`EmailEditOptions`](../../emaileditoptions)类[`MailMessageOutput`](../mailmessageoutput)参数
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

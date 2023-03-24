@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回完整的正式格式 name
+description: 在实现类型中应返回完整的正式格式名称
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.formats/idocumentformat/name/
 ---
 ## IDocumentFormat.Name property
 
-在实现类型中应该返回完整的正式格式 name
+在实现类型中应返回完整的正式格式名称
 
 ```csharp
 public string Name { get; }

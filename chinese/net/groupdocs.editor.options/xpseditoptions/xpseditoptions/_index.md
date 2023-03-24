@@ -24,7 +24,7 @@ public XpsEditOptions()
 
 ## XpsEditOptions(bool) {#constructor_1}
 
-创建并返回具有指定分页和默认所有其他选项的 XpsEditOptions 类的新实例
+创建并返回具有指定分页的 XpsEditOptions 类的新实例，并默认所有其他选项
 
 ```csharp
 public XpsEditOptions(bool enablePagination)

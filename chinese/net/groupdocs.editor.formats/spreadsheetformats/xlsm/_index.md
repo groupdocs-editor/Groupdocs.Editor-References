@@ -1,14 +1,14 @@
 ---
 title: Xlsm
 second_title: GroupDocs.Editor for .NET API 参考
-description: Office Open XML Workbook MacroEnabled XLSM 是一种支持宏的电子表格文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsm
+description: Office Open XML Workbook MacroEnabled XLSM 是一种支持宏的 Spreasheet 文件类型 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsm
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/xlsm/
 ---
 ## SpreadsheetFormats.Xlsm field
 
-Office Open XML Workbook Macro-Enabled (XLSM) 是一种支持宏的电子表格文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsm)
+Office Open XML Workbook Macro-Enabled (XLSM) 是一种支持宏的 Spreasheet 文件类型。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsm)
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsm;

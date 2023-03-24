@@ -1,14 +1,14 @@
 ---
 title: PageRange
 second_title: GroupDocs.Editor for .NET API 参考
-description: 封装一个页面范围可以有开放或封闭的边界默认情况下是完全打开  它包括所有现有页面页码从 1 开始而不是从 0.
+description: 封装一页范围可以有开放或封闭的边界默认情况下是完全打开  它包括所有现有页面页码从 1 开始而不是从 0.
 type: docs
-weight: 810
+weight: 1020
 url: /zh/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure
 
-封装一个页面范围，可以有开放或封闭的边界。默认情况下是“完全打开” - 它包括所有现有页面。页码从 1 开始，而不是从 0.
+封装一页范围，可以有开放或封闭的边界。默认情况下是“完全打开” - 它包括所有现有页面。页码从 1 开始，而不是从 0.
 
 ```csharp
 public struct PageRange : IEquatable<PageRange>
@@ -18,30 +18,30 @@ public struct PageRange : IEquatable<PageRange>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.editor.options/pagerange/count) { get; } | 范围内的页数。如果 0 - 页面范围扩展到文档末尾，无论它包含多少页 |
-| [EndNumber](../../groupdocs.editor.options/pagerange/endnumber) { get; } | 独占结束页号，直到此页范围继续，并且独占停止。如果 0 - 页面范围扩展到文档末尾 |
-| [IsDefault](../../groupdocs.editor.options/pagerange/isdefault) { get; } | 指示此实例是否表示默认的“完全打开”页面范围，即它表示文档的所有页面（真）或不（假） |
-| [StartNumber](../../groupdocs.editor.options/pagerange/startnumber) { get; } | 包含起始页码，从该页码范围开始。如果 1 - 页范围从文档的第一页开始 |
+| [Count](../../groupdocs.editor.options/pagerange/count) { get; } | 范围内的页数。如果为 0 - 页面范围扩展到文档末尾，无论它由多少页组成 |
+| [EndNumber](../../groupdocs.editor.options/pagerange/endnumber) { get; } | 独占结束页码，直到此页面范围继续并以独占方式停止。如果为 0 - 页面范围扩展到文档结尾 |
+| [IsDefault](../../groupdocs.editor.options/pagerange/isdefault) { get; } | 指示此实例是否代表默认的“完全打开”页面范围，即它代表文档的所有页面（真）或不代表（假） |
+| [StartNumber](../../groupdocs.editor.options/pagerange/startnumber) { get; } | 包含起始页码，此页范围从其开始。如果 1 - 页面范围从文档的第一页开始 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromBeginningWithCount](../../groupdocs.editor.options/pagerange/frombeginningwithcount)(ushort) | 创建一个页面范围，从第一页开始并具有指定数量的页面 |
-| static [FromStartPageTillEnd](../../groupdocs.editor.options/pagerange/fromstartpagetillend)(ushort) | 创建一个页面范围，从指定的页码开始，一直持续到文档的结尾 |
+| static [FromBeginningWithCount](../../groupdocs.editor.options/pagerange/frombeginningwithcount)(ushort) | 创建一个页面范围，从第一页开始并指定页数 |
+| static [FromStartPageTillEnd](../../groupdocs.editor.options/pagerange/fromstartpagetillend)(ushort) | 创建一个页面范围，从指定的页码开始，一直持续到文档的末尾 |
 | static [FromStartPageTillEndPage](../../groupdocs.editor.options/pagerange/fromstartpagetillendpage)(ushort, ushort) | 创建一个页面范围，从指定的页码（包括）开始，一直持续到指定的页码（不包括） |
-| static [FromStartPageWithCount](../../groupdocs.editor.options/pagerange/fromstartpagewithcount)(ushort, ushort) | 创建一个页面范围，从指定的页码开始并具有指定的页数，或无限页数（直到结束） |
-| [Equals](../../groupdocs.editor.options/pagerange/equals#equals)(PageRange) | 检测PageRange的这个实例是否等于指定的 |
+| static [FromStartPageWithCount](../../groupdocs.editor.options/pagerange/fromstartpagewithcount)(ushort, ushort) | 创建一个页面范围，从指定的页码开始并具有指定的页数，或无限的页数（直到结束） |
+| [Equals](../../groupdocs.editor.options/pagerange/equals#equals)(PageRange) | 检测此 PageRange 实例是否等于指定的 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [AllPages](../../groupdocs.editor.options/pagerange/allpages) | 表示文档的所有现有页面。默认值。 |
+| static readonly [AllPages](../../groupdocs.editor.options/pagerange/allpages) | 表示文档的所有现有页面。默认值. |
 
 ### 评论
 
-不可变结构体，封装了一个页面范围，与任何特定文档无关，可以表示任何文档的页面范围。
+不可变结构，封装了一个页面范围，与任何特定文档无关，可以表示任何文档的页面范围.
 
 ### 也可以看看
 

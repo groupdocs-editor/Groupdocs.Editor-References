@@ -1,14 +1,14 @@
 ---
 title: PreserveTableLayout
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指定程序在以纯文本格式保存时是否应尝试保留表格布局默认值为假
+description: 指定程序在以纯文本格式保存时是否应尝试保留表格布局默认值为 false.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/textsaveoptions/preservetablelayout/
 ---
 ## TextSaveOptions.PreserveTableLayout property
 
-指定程序在以纯文本格式保存时是否应尝试保留表格布局。默认值为假。
+指定程序在以纯文本格式保存时是否应尝试保留表格布局。默认值为 false.
 
 ```csharp
 public bool PreserveTableLayout { get; set; }

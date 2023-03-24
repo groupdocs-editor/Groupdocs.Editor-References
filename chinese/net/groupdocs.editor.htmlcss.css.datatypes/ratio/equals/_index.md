@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否与指定的比率实例相等
+description: 确定此实例是否等于指定的比率 instance
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}
 
-确定此实例是否与指定的“比率”实例相等
+确定此实例是否等于指定的“比率” instance
 
 ```csharp
 public bool Equals(Ratio other)
@@ -16,7 +16,7 @@ public bool Equals(Ratio other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Ratio | 其他 Ratio 实例检查是否与 this 相等 |
+| other | Ratio | 其他 Ratio 实例检查是否与此相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(Ratio other)
 
 ## Equals(object) {#equals_1}
 
-判断这个实例是否与指定的未转换对象相等，大概是另一个“Ratio”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“Ratio”实例
 
 ```csharp
 public override bool Equals(object other)
@@ -40,7 +40,7 @@ public override bool Equals(object other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Object | 其他 System.Object 实例，可能是 Ratio 类型，用于检查与此的相等性 |
+| other | Object | 其他 System.Object 实例，大概是 Ratio 类型，检查与此是否相等 |
 
 ### 返回值
 

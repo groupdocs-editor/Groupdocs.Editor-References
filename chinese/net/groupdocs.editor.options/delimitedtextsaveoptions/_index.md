@@ -1,14 +1,14 @@
 ---
 title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含用于生成和保存基于文本的电子表格文档CSV基于制表符等的选项这些文档使用分隔符分隔符
+description: 包含用于生成和保存基于文本的电子表格文档CSV基于制表符等的选项这些文档使用分隔符定界符
 type: docs
-weight: 680
+weight: 830
 url: /zh/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
 
-包含用于生成和保存基于文本的电子表格文档（CSV、基于制表符等）的选项，这些文档使用分隔符（分隔符）
+包含用于生成和保存基于文本的电子表格文档（CSV、基于制表符等）的选项，这些文档使用分隔符（定界符）
 
 ```csharp
 public sealed class DelimitedTextSaveOptions : ISaveOptions
@@ -25,9 +25,9 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | 允许为基于文本的电子表格文档设置编码。默认情况下（如果未指定）为 UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | 指示是否应为空白行输出分隔符。默认值为 false，这意味着空白行的内容将为空。 |
-| [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | 允许为基于文本的电子表格文档指定字符串分隔符（分隔符） |
-| [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | 指示是否应该像 MS Excel 一样修剪前导空白行和列 |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | 指示是否应为空白行输出分隔符。默认值为`错误的`这意味着空白行的内容将为空. |
+| [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | 允许为基于文本的电子表格文档指定字符串分隔符（定界符） |
+| [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | 指示是否应像 MS Excel 那样修剪前导空白行和列 |
 
 ### 评论
 

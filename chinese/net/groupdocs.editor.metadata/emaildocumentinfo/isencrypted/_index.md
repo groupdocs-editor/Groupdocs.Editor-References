@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 因为电子邮件文档不能用密码加密所以这个属性总是返回false
+description: 因为无法使用密码加密电子邮件文档所以此属性始终返回false
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/emaildocumentinfo/isencrypted/
 ---
 ## EmailDocumentInfo.IsEncrypted property
 
-因为电子邮件文档不能用密码加密，所以这个属性总是返回'false'
+因为无法使用密码加密电子邮件文档，所以此属性始终返回“false”
 
 ```csharp
 public bool IsEncrypted { get; }

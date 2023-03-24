@@ -1,14 +1,14 @@
 ---
 title: PresentationFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API 参考
-description: 实现 IEnumerable 通用接口为 PresentationFormats 类型启用foreach可能性
+description: 实现 IEnumerable 通用接口为 PresentationFormats type 启用foreach可能性
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.formats/presentationformats.allenumerable/
 ---
 ## PresentationFormats.AllEnumerable class
 
-实现 IEnumerable 通用接口，为 PresentationFormats 类型启用“foreach”可能性
+实现 IEnumerable 通用接口，为 PresentationFormats type 启用“foreach”可能性
 
 ```csharp
 public sealed class AllEnumerable : IEnumerable<PresentationFormats>

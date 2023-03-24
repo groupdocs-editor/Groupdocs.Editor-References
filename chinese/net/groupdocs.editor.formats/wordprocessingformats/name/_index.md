@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此字处理格式的正式全名
+description: 返回此文字处理格式的正式全名
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats/name/
 ---
 ## WordProcessingFormats.Name property
 
-返回此字处理格式的正式全名
+返回此文字处理格式的正式全名
 
 ```csharp
 public string Name { get; }

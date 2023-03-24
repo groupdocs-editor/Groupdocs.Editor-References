@@ -1,14 +1,14 @@
 ---
 title: OptimizeMemoryUsage
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在从 HTML 生成文档期间启用内存优化机制这会降低性能以减少内存使用量为代价 将此选项设置为 true 可以显着减少内存消耗同时以较慢的节省时间为代价生成大型文档 默认为 false 为了更好的性能禁用了内存优化.
+description: 在从 HTML 生成文档期间启用内存优化机制这会以减少内存使用为代价降低性能 将此选项设置为 true 可以显着减少内存消耗同时以较慢的保存时间为代价生成大型文档 默认值为 false 为了更好的性能禁用了内存优化
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/optimizememoryusage/
 ---
 ## WordProcessingSaveOptions.OptimizeMemoryUsage property
 
-在从 HTML 生成文档期间启用内存优化机制，这会降低性能，以减少内存使用量为代价。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价生成大型文档。 默认为 false （为了更好的性能，禁用了内存优化）.
+在从 HTML 生成文档期间启用内存优化机制，这会以减少内存使用为代价降低性能。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的保存时间为代价生成大型文档。 默认值为 false （为了更好的性能禁用了内存优化）。
 
 ```csharp
 public bool OptimizeMemoryUsage { get; set; }

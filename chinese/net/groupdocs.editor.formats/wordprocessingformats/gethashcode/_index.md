@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-有符号 4 字节整数
+带符号的 4 字节整数
 
 ### 也可以看看
 

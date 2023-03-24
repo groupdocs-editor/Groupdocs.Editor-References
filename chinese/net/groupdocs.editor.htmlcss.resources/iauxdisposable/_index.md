@@ -1,14 +1,14 @@
 ---
 title: IAuxDisposable
 second_title: GroupDocs.Editor for .NET API 参考
-description: 扩展标准 System.IDisposable 接口允许获取对象的当前状态并订阅处置事件
+description: 扩展标准 System.IDisposable 接口允许获取对象的当前状态并订阅处理事件
 type: docs
-weight: 330
+weight: 430
 url: /zh/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface
 
-扩展标准 System.IDisposable 接口，允许获取对象的当前状态并订阅处置事件
+扩展标准 System.IDisposable 接口，允许获取对象的当前状态并订阅处理事件
 
 ```csharp
 public interface IAuxDisposable : IDisposable
@@ -18,13 +18,13 @@ public interface IAuxDisposable : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsDisposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/isdisposed) { get; } | 确定资源是否关闭（真）或不（假） |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/isdisposed) { get; } | 确定资源是否关闭（真）或不关闭（假） |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/disposed) | 在对象被处置时发生 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources/iauxdisposable/disposed) | 对象被释放时发生 |
 
 ### 也可以看看
 

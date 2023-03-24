@@ -1,14 +1,14 @@
 ---
 title: Woff
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一种 WOFFWeb Open Font Format字体类型
+description: 代表一个WOFFWeb Open Font Format字体类型
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/woff/
 ---
 ## FontType.Woff property
 
-表示一种 WOFF（Web Open Font Format）字体类型
+代表一个WOFF（Web Open Font Format）字体类型
 
 ```csharp
 public static FontType Woff { get; }

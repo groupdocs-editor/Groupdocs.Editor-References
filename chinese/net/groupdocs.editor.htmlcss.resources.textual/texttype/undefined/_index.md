@@ -1,14 +1,14 @@
 ---
 title: Undefined
 second_title: GroupDocs.Editor for .NET API 参考
-description: 特殊值标记未定义未知或不支持的文本资源
+description: 特殊值标记未定义未知或不受支持的文本资源
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/texttype/undefined/
 ---
 ## TextType.Undefined property
 
-特殊值，标记未定义、未知或不支持的文本资源
+特殊值，标记未定义、未知或不受支持的文本资源
 
 ```csharp
 public static TextType Undefined { get; }

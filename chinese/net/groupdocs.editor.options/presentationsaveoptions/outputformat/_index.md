@@ -1,14 +1,14 @@
 ---
 title: OutputFormat
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定用于保存文档的演示格式
+description: 允许指定一种演示文稿格式该格式将用于保存文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/presentationsaveoptions/outputformat/
 ---
 ## PresentationSaveOptions.OutputFormat property
 
-允许指定用于保存文档的演示格式
+允许指定一种演示文稿格式，该格式将用于保存文档
 
 ```csharp
 public PresentationFormats OutputFormat { get; set; }

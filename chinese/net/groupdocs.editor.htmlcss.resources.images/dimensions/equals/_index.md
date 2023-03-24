@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于指定的维度实例
+description: 确定此实例是否等于指定的维度 instance
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/equals/
 ---
 ## Equals(Dimensions) {#equals}
 
-确定此实例是否等于指定的“维度”实例
+确定此实例是否等于指定的“维度” instance
 
 ```csharp
 public bool Equals(Dimensions other)
@@ -16,7 +16,7 @@ public bool Equals(Dimensions other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Dimensions | 检查相等性的其他“维度”实例 |
+| other | Dimensions | 其他“维度”实例检查是否相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(Dimensions other)
 
 ## Equals(object) {#equals_1}
 
-判断这个实例是否与指定的未转换对象相等，大概是另一个“维度”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“维度”实例
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 其他对象，可能是“维度”类型，应检查是否与此对象相等 |
+| obj | Object | 其他对象，大概是“维度”类型，应该检查是否与此对象相等 |
 
 ### 返回值
 

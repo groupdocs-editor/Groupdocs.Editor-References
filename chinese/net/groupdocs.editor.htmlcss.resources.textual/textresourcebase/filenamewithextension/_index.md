@@ -1,14 +1,14 @@
 ---
 title: FilenameWithExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此文本资源的正确文件名由名称和扩展名组成
+description: 返回此文本资源的正确文件名包括名称和扩展名
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/filenamewithextension/
 ---
 ## TextResourceBase.FilenameWithExtension property
 
-返回此文本资源的正确文件名，由名称和扩展名组成
+返回此文本资源的正确文件名，包括名称和扩展名
 
 ```csharp
 public string FilenameWithExtension { get; }

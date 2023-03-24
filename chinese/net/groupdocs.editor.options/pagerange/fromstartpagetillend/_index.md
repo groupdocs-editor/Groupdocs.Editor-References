@@ -1,14 +1,14 @@
 ---
 title: FromStartPageTillEnd
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建一个页面范围从指定的页码开始一直持续到文档的结尾
+description: 创建一个页面范围从指定的页码开始一直持续到文档的末尾
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/pagerange/fromstartpagetillend/
 ---
 ## PageRange.FromStartPageTillEnd method
 
-创建一个页面范围，从指定的页码开始，一直持续到文档的结尾
+创建一个页面范围，从指定的页码开始，一直持续到文档的末尾
 
 ```csharp
 public static PageRange FromStartPageTillEnd(ushort startPageNumber)
@@ -16,11 +16,11 @@ public static PageRange FromStartPageTillEnd(ushort startPageNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startPageNumber | UInt16 | 页码，从哪个页面范围开始，包括在内。页码从 1 开始，因此必须严格大于零 |
+| startPageNumber | UInt16 | 页码，页面范围从其开始，包括在内。页码从 1 开始，因此必须严格大于零 |
 
 ### 返回值
 
-新的 PageRange 实例
+新建 PageRange 实例
 
 ### 也可以看看
 

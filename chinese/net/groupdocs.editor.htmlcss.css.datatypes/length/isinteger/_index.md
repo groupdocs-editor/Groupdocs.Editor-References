@@ -1,14 +1,14 @@
 ---
 title: IsInteger
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示这个 Length 实例的数值是否最初指定并存储为整数 INT32 number
+description: 表示这个Length实例的数值最初是否指定并存储为整数INT32 number
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/isinteger/
 ---
 ## Length.IsInteger property
 
-表示这个 Length 实例的数值是否最初指定并存储为整数 (INT32) number
+表示这个Length实例的数值最初是否指定并存储为整数（INT32） number
 
 ```csharp
 public bool IsInteger { get; }

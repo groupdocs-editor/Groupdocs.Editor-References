@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: GroupDocs.Editor for .NET API 参考
-description: 图像CSS数据类型代表一个二维图像
+description: Image CSS 数据类型表示二维图像
 type: docs
-weight: 370
+weight: 470
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/iimage/
 ---
 ## IImage interface
 
-图像CSS数据类型代表一个二维图像
+Image CSS 数据类型表示二维图像
 
 ```csharp
 public interface IImage
@@ -16,7 +16,7 @@ public interface IImage
 
 ### 评论
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/image CSS 参考声明了 4 种类型的图像，可以处理： 1. 具有固有尺寸（自然尺寸）并因此固定的图像纵横比，包括所有光栅图像。 2. 具有多个内在尺寸的图像，存在于单个文件中的多个版本中，包括 ICON (*.ico) 文件。这也可能是 TIFF，因为它们支持在一个文件中包含多个图像，但是 web. 3 不支持 TIFF 格式。没有固有尺寸但在其宽度和高度之间具有固有纵横比的图像。这包括所有矢量图像，首先是 SVG。 4. 既没有固有尺寸，也没有固有纵横比的图像。这包括所有渐变。
+https://developer.mozilla.org/en-US/docs/Web/CSS/image CSS 参考声明了 4 种可以处理的图像： 1. 具有固有尺寸（自然尺寸）并因此固定的图像纵横比，包括所有光栅图像。 2. 具有多个固有尺寸的图像，在单个文件中存在多个版本，包括 ICON (*.ico) 文件。这也可能是 TIFF，因为它们支持一个文件中的多个图像，但是 web. 不支持 TIFF 格式。 3. 没有固有尺寸但在宽度和高度之间具有固有纵横比的图像。这包括所有矢量图像，首先是 SVG。 4. 既没有固有尺寸，也没有固有纵横比的图像。这包括所有渐变。
 
 ### 也可以看看
 

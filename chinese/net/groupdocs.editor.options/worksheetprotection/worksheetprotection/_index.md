@@ -1,14 +1,14 @@
 ---
 title: WorksheetProtection
 second_title: GroupDocs.Editor for .NET API 参考
-description: 使用默认参数创建新实例如果未修改并传递给 SpreadsheetSaveOptions则不会应用任何工作表保护
+description: 使用默认参数创建新实例如果不修改并传递给 SpreadsheetSaveOptions则不会应用任何工作表保护
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/worksheetprotection/worksheetprotection/
 ---
 ## WorksheetProtection() {#constructor}
 
-使用默认参数创建新实例。如果未修改并传递给 SpreadsheetSaveOptions，则不会应用任何工作表保护
+使用默认参数创建新实例。如果不修改并传递给 SpreadsheetSaveOptions，则不会应用任何工作表保护
 
 ```csharp
 public WorksheetProtection()
@@ -24,7 +24,7 @@ public WorksheetProtection()
 
 ## WorksheetProtection(WorksheetProtectionType, string) {#constructor_1}
 
-使用指定的工作表保护类型和密码创建新实例
+创建具有指定工作表保护类型和密码的新实例
 
 ```csharp
 public WorksheetProtection(WorksheetProtectionType protectionType, string password)

@@ -1,14 +1,14 @@
 ---
 title: IsDefault
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指示此实例是否表示默认的完全打开页面范围即它表示文档的所有页面真或不假
+description: 指示此实例是否代表默认的完全打开页面范围即它代表文档的所有页面真或不代表假
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.options/pagerange/isdefault/
 ---
 ## PageRange.IsDefault property
 
-指示此实例是否表示默认的“完全打开”页面范围，即它表示文档的所有页面（真）或不（假）
+指示此实例是否代表默认的“完全打开”页面范围，即它代表文档的所有页面（真）或不代表（假）
 
 ```csharp
 public bool IsDefault { get; }

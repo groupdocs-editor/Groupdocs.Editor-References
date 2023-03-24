@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert die Schutztypen des Tabellenarbeitsblatts Registerkarte
 type: docs
-weight: 1030
+weight: 1260
 url: /de/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

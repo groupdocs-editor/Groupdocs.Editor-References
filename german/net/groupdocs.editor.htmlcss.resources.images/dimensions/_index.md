@@ -3,7 +3,7 @@ title: Dimensions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert die linearen Abmessungen Breite und Höhe eines rechteckigen Rasterbildes in willkürlichen Einheiten. Unveränderliche Struktur
 type: docs
-weight: 360
+weight: 460
 url: /de/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

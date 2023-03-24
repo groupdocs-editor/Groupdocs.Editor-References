@@ -3,7 +3,7 @@ title: RecognizeUris
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht die Aktivierung des URIErkennungsalgorithmus
 type: docs
-weight: 70
+weight: 80
 url: /de/net/groupdocs.editor.options/xmleditoptions/recognizeuris/
 ---
 ## XmlEditOptions.RecognizeUris property

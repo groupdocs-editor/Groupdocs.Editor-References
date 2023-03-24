@@ -1,14 +1,14 @@
 ---
 title: Json
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: JSON JavaScript Object Notation ist ein offenes Standarddateiformat zum Teilen von Daten das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/web/json/ .
+description: JSON JavaScript Object Notation ist ein offenes Standarddateiformat zum Teilen von Daten das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/web/json/ .
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.formats/textualformats/json/
 ---
 ## TextualFormats.Json field
 
-JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/web/json/) .
+JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/web/json/) .
 
 ```csharp
 public static readonly TextualFormats Json;

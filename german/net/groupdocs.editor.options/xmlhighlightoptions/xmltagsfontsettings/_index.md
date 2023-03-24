@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Verantwortlich für die Darstellung der Schriftart von XMLTags spitze Klammern mit TagNamen
 type: docs
-weight: 130
+weight: 70
 url: /de/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /de/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Verantwortlich für die Darstellung der Schriftart von XML-Tags (spitze Klammern mit Tag-Namen)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Siehe auch
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namensraum [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * Montage [GroupDocs.Editor](../../../)

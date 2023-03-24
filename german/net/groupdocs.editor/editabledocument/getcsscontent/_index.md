@@ -1,14 +1,14 @@
 ---
 title: GetCssContent
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück wenn es für dieses Dokument kein CSS gibt.
+description: Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück wenn es kein CSS für dieses Dokument gibt.
 type: docs
 weight: 140
 url: /de/net/groupdocs.editor/editabledocument/getcsscontent/
 ---
 ## GetCssContent() {#getcsscontent}
 
-Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück, wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück, wenn es für dieses Dokument kein CSS gibt.
+Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück, wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück, wenn es kein CSS für dieses Dokument gibt.
 
 ```csharp
 public List<string> GetCssContent()

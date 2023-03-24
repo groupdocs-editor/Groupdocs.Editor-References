@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.HtmlCss.Resources stellt Klassen bereit die alle Arten von HTMLRessourcen darstellen.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.editor.htmlcss.resources/
 ---
 Der Namespace GroupDocs.Editor.HtmlCss.Resources stellt Klassen bereit, die alle Arten von HTML-Ressourcen darstellen.

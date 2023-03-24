@@ -18,6 +18,12 @@ public DelimitedTextEditOptions(string separator)
 | --- | --- | --- |
 | separator | String | Obligatorisches Trennzeichen (Trennzeichen), das nicht NULL oder leer sein darf |
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | Wird ausgelöst, wenn das angegebene Trennzeichen eine Null- oder leere Zeichenfolge ist |
+
 ### Siehe auch
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

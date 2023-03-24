@@ -1,14 +1,14 @@
 ---
 title: EnableLanguageInformation
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt an ob Sprachinformationen in Form von langHTMLAttributen in das HTMLMarkup exportiert werden. Diese Option kann für die RoundtripKonvertierung der mehrsprachigen Dokumente nützlich sein. Standardmäßig ist es deaktiviert FALSCH .
+description: Gibt an ob Sprachinformationen in Form von langHTMLAttributen in das HTMLMarkup exportiert werden. Diese Option kann für die RoundtripKonvertierung der mehrsprachigen Dokumente nützlich sein. Standardmäßig ist es deaktiviert FALSCH.
 type: docs
 weight: 20
 url: /de/net/groupdocs.editor.options/ebookeditoptions/enablelanguageinformation/
 ---
 ## EbookEditOptions.EnableLanguageInformation property
 
-Gibt an, ob Sprachinformationen in Form von „lang“-HTML-Attributen in das HTML-Markup exportiert werden. Diese Option kann für die Roundtrip-Konvertierung der mehrsprachigen Dokumente nützlich sein. Standardmäßig ist es deaktiviert (`FALSCH` ).
+Gibt an, ob Sprachinformationen in Form von „lang“-HTML-Attributen in das HTML-Markup exportiert werden. Diese Option kann für die Roundtrip-Konvertierung der mehrsprachigen Dokumente nützlich sein. Standardmäßig ist es deaktiviert (`FALSCH`).
 
 ```csharp
 public bool EnableLanguageInformation { get; set; }

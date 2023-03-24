@@ -52,7 +52,7 @@ Die Klasse Editor sollte als Einstiegspunkt und Stammobjekt von GroupDocs.Editor
 
 1. Laden Sie ein Dokument über seinen Konstruktor in die Editor-Instanz.
 2. Ermitteln Sie optional einen Dokumenttyp mithilfe von a[`GetDocumentInfo`](./getdocumentinfo) Methode.
-3. Öffnen Sie ein Dokument zur Bearbeitung, indem Sie an aufrufen[`Edit`](./edit) -Methode und Abrufen einer Instanz von[`EditableDocument`](../editabledocument) Klasse daraus.
+3. Öffnen Sie ein Dokument zur Bearbeitung, indem Sie an aufrufen[`Edit`](./edit)-Methode und Abrufen einer Instanz von[`EditableDocument`](../editabledocument) Klasse daraus.
 4. Clientseitiges Bearbeiten eines Dokumentinhalts mit einem beliebigen WYSIWYG-HTML-Editor.
 5. Erstellen einer neuen Instanz von[`EditableDocument`](../editabledocument) aus bearbeitetem Dokumentinhalt.
 6. Speichern eines bearbeiteten Dokuments in einem Ausgabeformat durch Aufrufen von a[`Save`](./save) Methode.

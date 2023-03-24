@@ -45,7 +45,7 @@ public TtfFont(string name, Stream binaryContent)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | name | String | Name der TTF-Schriftart. Darf nicht null, leer oder Leerzeichen sein. |
-| binaryContent | Stream | Inhalt als Bytestream. Das Lesen beginnt an der ursprünglichen Position. Kann nicht Null sein. Sollte lesbar und suchbar sein. Wenn diese Instanz verworfen wird, wird dieser Stream ebenfalls verworfen. |
+| binaryContent | Stream | Inhalt als Bytestrom. Das Lesen beginnt an der ursprünglichen Position. Kann nicht Null sein. Sollte lesbar und suchbar sein. Wenn diese Instanz verworfen wird, wird dieser Stream ebenfalls verworfen. |
 
 ### Ausnahmen
 

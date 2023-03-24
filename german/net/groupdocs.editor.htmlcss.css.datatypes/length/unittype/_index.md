@@ -3,7 +3,7 @@ title: UnitType
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gibt einen Einheitentyp dieser Längeninstanz zurück.
 type: docs
-weight: 190
+weight: 180
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/unittype/
 ---
 ## Length.UnitType property

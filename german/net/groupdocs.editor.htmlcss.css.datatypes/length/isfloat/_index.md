@@ -3,7 +3,7 @@ title: IsFloat
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gibt an ob der numerische Wert dieser Längeninstanz ursprünglich angegeben und als Gleitkommazahl FP32 gespeichert wurde number
 type: docs
-weight: 110
+weight: 100
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/isfloat/
 ---
 ## Length.IsFloat property

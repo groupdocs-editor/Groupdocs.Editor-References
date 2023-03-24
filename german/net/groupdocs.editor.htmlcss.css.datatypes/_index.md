@@ -8,12 +8,23 @@ url: /de/net/groupdocs.editor.htmlcss.css.datatypes/
 ---
 Der Namespace GroupDocs.Editor.HtmlCss.Css.DataTypes stellt Klassen bereit, die CSS-Datentypen darstellen.
 
+## Klassen
+
+| Klasse | Beschreibung |
+| --- | --- |
+| [ArgbColor.KnownColors](./argbcolor.knowncolors) | Enthält alle "bekannten Farben", die einen festen eindeutigen Namen und Wert in CSS haben standart |
 ## Structuren
 
 | Structuur | Beschreibung |
 | --- | --- |
+| [ArgbColor](./argbcolor) | Repräsentiert einen Farbwert im ARGB-Format mit Konvertern und Serialisierern |
 | [Length](./length) | Repräsentiert einen CSS-Längenwert in jeder unterstützbaren Einheit, einschließlich Prozent und einheitsloser Typen. Werte können ganzzahlig oder Gleitkommazahl, negativ, null und positiv sein. Unveränderliche Struktur. |
 | [Ratio](./ratio) | Stellt einen „Verhältnis“-CSS-Datentyp dar, der zur Beschreibung von Seitenverhältnissen in Medienabfragen und für Rasterbilder verwendet wird, indem das Verhältnis zwischen zwei einheitslosen Werten namens „Zähler“ und „Nenner“ angegeben wird. Unveränderliche Struktur |
+## Schnittstellen
+
+| Schnittstelle | Beschreibung |
+| --- | --- |
+| [ICssDataType](./icssdatatype) | Gemeinsame Schnittstelle für alle CSS-Datentypen, die in den CSS-Eigenschaften verwendet werden |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |

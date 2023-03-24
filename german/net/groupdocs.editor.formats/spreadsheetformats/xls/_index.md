@@ -1,14 +1,14 @@
 ---
 title: Xls
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Excel 972003 Binary File Format XLS stellt Dateien dar die von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xls .
+description: Excel 972003 Binary File Format XLS stellt Dateien dar die von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
 weight: 90
 url: /de/net/groupdocs.editor.formats/spreadsheetformats/xls/
 ---
 ## SpreadsheetFormats.Xls field
 
-Excel 97-2003 Binary File Format (XLS) stellt Dateien dar, die von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xls) .
+Excel 97-2003 Binary File Format (XLS) stellt Dateien dar, die von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xls) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xls;

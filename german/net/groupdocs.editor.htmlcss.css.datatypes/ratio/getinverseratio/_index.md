@@ -3,7 +3,7 @@ title: GetInverseRatio
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Erzeugt und gibt ein inverses reziprokes Verhältnis für dieses Verhältnis zurück
 type: docs
-weight: 100
+weight: 90
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/ratio/getinverseratio/
 ---
 ## Ratio.GetInverseRatio method

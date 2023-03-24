@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Abschneiden nachgestellter Leerzeichen im inneren TagText. ist standardmäßig deaktiviert false  nachgestellte Leerzeichen bleiben erhalten.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

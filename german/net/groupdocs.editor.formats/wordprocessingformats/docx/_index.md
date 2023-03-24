@@ -1,14 +1,14 @@
 ---
 title: Docx
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Office Open XML WordProcessingML MacroFree Document DOCX ist ein bekanntes Format für Microsoft WordDokumente. Die Struktur dieses neuen Dokumentformats das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde wurde von einer reinen Binärdatei in eine Kombination aus XML und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/docx .
+description: Office Open XML WordProcessingML MacroFree Document DOCX ist ein bekanntes Format für Microsoft WordDokumente. Die Struktur dieses neuen Dokumentformats das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde wurde von einer reinen Binärdatei in eine Kombination aus XML und Binärdateien geändert. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/docx/
 ---
 ## WordProcessingFormats.Docx field
 
-Office Open XML WordProcessingML Macro-Free Document (DOCX) ist ein bekanntes Format für Microsoft Word-Dokumente. Die Struktur dieses neuen Dokumentformats, das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde, wurde von einer reinen Binärdatei in eine Kombination aus XML- und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/docx) .
+Office Open XML WordProcessingML Macro-Free Document (DOCX) ist ein bekanntes Format für Microsoft Word-Dokumente. Die Struktur dieses neuen Dokumentformats, das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde, wurde von einer reinen Binärdatei in eine Kombination aus XML- und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/docx) .
 
 ```csharp
 public static readonly WordProcessingFormats Docx;

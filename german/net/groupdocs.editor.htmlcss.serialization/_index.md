@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der GroupDocs.Editor.HtmlCss.SerializationNamespace stellt Typen bereit die für die Optimierung des HTML und CSSMarkupSerialisierungsprozesses verantwortlich sind.
 type: docs
-weight: 110
+weight: 130
 url: /de/net/groupdocs.editor.htmlcss.serialization/
 ---
 Der GroupDocs.Editor.HtmlCss.Serialization-Namespace stellt Typen bereit, die für die Optimierung des HTML- und CSS-Markup-Serialisierungsprozesses verantwortlich sind.
 
-## Aufzählung
+## Structuren
 
-| Aufzählung | Beschreibung |
+| Structuur | Beschreibung |
 | --- | --- |
 | [QuoteType](./quotetype) | Repräsentiert Anführungszeichen - einfaches Anführungszeichen (') und doppeltes Anführungszeichen ("") |
 

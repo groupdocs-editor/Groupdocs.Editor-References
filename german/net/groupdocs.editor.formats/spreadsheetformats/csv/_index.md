@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: CSVDokumente Comma Separated Values stellen einfachen Text dar der Datensätze mit kommagetrennten Werten enthält. Jede Zeile in einer CSVDatei ist ein neuer Datensatz aus der Gruppe von Datensätzen die in der Datei enthalten sind. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/spreadsheet/csv/ .
+description: CSVDokumente Comma Separated Values stellen einfachen Text dar der Datensätze mit kommagetrennten Werten enthält. Jede Zeile in einer CSVDatei ist ein neuer Datensatz aus der Gruppe von Datensätzen die in der Datei enthalten sind. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/spreadsheet/csv/ .
 type: docs
 weight: 10
 url: /de/net/groupdocs.editor.formats/spreadsheetformats/csv/
 ---
 ## SpreadsheetFormats.Csv field
 
-CSV-Dokumente (Comma Separated Values) stellen einfachen Text dar, der Datensätze mit kommagetrennten Werten enthält. Jede Zeile in einer CSV-Datei ist ein neuer Datensatz aus der Gruppe von Datensätzen, die in der Datei enthalten sind. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/spreadsheet/csv/) .
+CSV-Dokumente (Comma Separated Values) stellen einfachen Text dar, der Datensätze mit kommagetrennten Werten enthält. Jede Zeile in einer CSV-Datei ist ein neuer Datensatz aus der Gruppe von Datensätzen, die in der Datei enthalten sind. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/spreadsheet/csv/) .
 
 ```csharp
 public static readonly SpreadsheetFormats Csv;

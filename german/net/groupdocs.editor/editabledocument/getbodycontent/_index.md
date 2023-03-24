@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt einen Hauptteil des HTMLDokuments Inhalt zwischen öffnenden und schließenden BODYTags ohne diese Tags als Zeichenfolge zurück.
+description: Gibt einen Hauptteil des HTMLDokuments innerer Inhalt zwischen öffnenden und schließenden BODYTags ohne diese Tags als Zeichenfolge zurück.
 type: docs
 weight: 120
 url: /de/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Gibt einen Hauptteil des HTML-Dokuments (Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück.
+Gibt einen Hauptteil des HTML-Dokuments (innerer Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Rückgabewert
 
-String, der den Hauptteil des HTML-Dokuments enthält
+String, der den Body des HTML-Dokuments enthält (ohne öffnende und schließende BODY-Tags)
 
 ### Bemerkungen
 
-WYSIWYG-Editoren arbeiten mit dem Hauptteil des Dokuments und können dessen Metainformationen aus dem HEAD-Block nicht korrekt verarbeiten. Diese Methode ist für solche Fälle gedacht. Diese Überladung erlaubt es nicht, URIs für externe Ressourcenanforderungen anzupassen.
+Die meisten WYSIWYG-Editoren arbeiten normalerweise mit dem inneren Inhalt des BODY des Dokuments und können dessen Metainformationen aus dem HEAD-Block nicht korrekt verarbeiten. Diese Methode ist für solche Fälle gedacht. Diese Überladung erlaubt es nicht, URIs für externe Ressourcenanforderungen anzupassen.
 
 ### Siehe auch
 
@@ -32,7 +32,7 @@ WYSIWYG-Editoren arbeiten mit dem Hauptteil des Dokuments und können dessen Met
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Gibt einen Hauptteil des HTML-Dokuments (Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück, wobei Links zu externen Ressourcen das angegebene Präfix enthalten.
+Gibt einen Hauptteil des HTML-Dokuments (innerer Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück, wobei Links zu externen Ressourcen das angegebene Präfix enthalten.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Rückgabewert
 
-String, der den Body des HTML-Dokuments mit Links enthält, angepasst an die externen Bilder
+String, der den Body des HTML-Dokuments (ohne öffnende und schließende BODY-Tags) mit Links enthält, angepasst an die externen Bilder
 
 ### Bemerkungen
 
-WYSIWYG-Editoren arbeiten mit dem Hauptteil des Dokuments und können dessen Metainformationen aus dem HEAD-Block nicht korrekt verarbeiten. Diese Methode ist für solche Fälle gedacht. Diese Überladung ermöglicht das Anpassen von URIs für externe Ressourcenanforderungen.
+Die meisten WYSIWYG-Editoren arbeiten normalerweise mit dem inneren Inhalt des BODY des Dokuments und können dessen Metainformationen aus dem HEAD-Block nicht korrekt verarbeiten. Diese Methode ist für solche Fälle gedacht. Diese Überladung ermöglicht das Anpassen von URIs für externe Ressourcenanforderungen.
 
 ### Siehe auch
 

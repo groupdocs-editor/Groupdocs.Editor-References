@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: OpenDocument Spreadsheet ODS steht für OpenDocument SpreadsheetDokumentformat das vom Benutzer bearbeitet werden kann. Daten werden in der ODFDatei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/ods .
+description: OpenDocument Spreadsheet ODS steht für OpenDocument SpreadsheetDokumentformat das vom Benutzer bearbeitet werden kann. Daten werden in der ODFDatei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
 weight: 40
 url: /de/net/groupdocs.editor.formats/spreadsheetformats/ods/
 ---
 ## SpreadsheetFormats.Ods field
 
-OpenDocument Spreadsheet (ODS) steht für OpenDocument Spreadsheet-Dokumentformat, das vom Benutzer bearbeitet werden kann. Daten werden in der ODF-Datei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/ods) .
+OpenDocument Spreadsheet (ODS) steht für OpenDocument Spreadsheet-Dokumentformat, das vom Benutzer bearbeitet werden kann. Daten werden in der ODF-Datei in Zeilen und Spalten gespeichert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly SpreadsheetFormats Ods;

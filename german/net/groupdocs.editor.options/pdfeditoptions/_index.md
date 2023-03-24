@@ -3,7 +3,7 @@ title: PdfEditOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von PDFDokumenten
 type: docs
-weight: 830
+weight: 1040
 url: /de/net/groupdocs.editor.options/pdfeditoptions/
 ---
 ## PdfEditOptions class

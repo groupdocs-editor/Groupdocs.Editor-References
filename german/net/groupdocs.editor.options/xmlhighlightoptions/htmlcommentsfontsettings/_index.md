@@ -3,7 +3,7 @@ title: HtmlCommentsFontSettings
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Verantwortlich für die Darstellung der Schriftart von HTMLKommentaren einschließlich Paar öffnender und schließender Tags
 type: docs
-weight: 90
+weight: 40
 url: /de/net/groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings/
 ---
 ## XmlHighlightOptions.HtmlCommentsFontSettings property
@@ -11,11 +11,12 @@ url: /de/net/groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettin
 Verantwortlich für die Darstellung der Schriftart von HTML-Kommentaren (einschließlich Paar öffnender und schließender Tags)
 
 ```csharp
-public Font HtmlCommentsFontSettings { get; set; }
+public WebFont HtmlCommentsFontSettings { get; }
 ```
 
 ### Siehe auch
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namensraum [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * Montage [GroupDocs.Editor](../../../)

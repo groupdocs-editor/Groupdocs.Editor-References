@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Erweitert die standardmäßige System.IDisposableSchnittstelle ermöglicht es den aktuellen Zustand eines Objekts abzurufen und das DisposingEreignis zu abonnieren
 type: docs
-weight: 330
+weight: 430
 url: /de/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

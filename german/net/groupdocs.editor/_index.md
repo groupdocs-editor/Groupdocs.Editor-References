@@ -17,7 +17,7 @@ Der GroupDocs.Editor-Namespace stellt Klassen zum Bearbeiten von Dokumenten mit 
 | [EncryptedException](./encryptedexception) | Die Ausnahme, die ausgelöst wird, wenn der Benutzer versucht, ein Dokument zu öffnen, das mit den X509-Zertifikaten verschlüsselt wurde. |
 | [IncorrectPasswordException](./incorrectpasswordexception) | Die Ausnahme, die ausgelöst wird, wenn das angegebene Passwort falsch ist. |
 | [InvalidFormatException](./invalidformatexception) | Die Ausnahme, die ausgelöst wird, wenn der Benutzer versucht, ein Dokument mit formatspezifischen Optionen zu öffnen, die mit dem ursprünglichen Dokumentformat nicht kompatibel sind. |
-| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[hier](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. Erfahren Sie mehr über die Lizenzierung[Hier](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Bietet Methoden zum Anwenden[Gemessen](https://purchase.groupdocs.com/faqs/licensing/metered) Lizenz. |
 | [PasswordRequiredException](./passwordrequiredexception) | Die Ausnahme, die ausgelöst wird, wenn der Benutzer versucht, ein passwortgeschütztes verschlüsseltes Dokument eines bestimmten Formats zu öffnen, und kein Passwort zum Öffnen dieses Dokuments bereitstellt. |
 

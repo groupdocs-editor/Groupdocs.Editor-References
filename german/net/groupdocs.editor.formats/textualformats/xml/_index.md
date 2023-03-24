@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: eXtensible Markup LanguageDokument XML das HTML ähnelt sich jedoch in der Verwendung von Tags zum Definieren von Objekten unterscheidet. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/web/xml .
+description: eXtensible Markup LanguageDokument XML das HTML ähnelt sich jedoch in der Verwendung von Tags zum Definieren von Objekten unterscheidet. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/web/xml .
 type: docs
 weight: 70
 url: /de/net/groupdocs.editor.formats/textualformats/xml/
 ---
 ## TextualFormats.Xml field
 
-eXtensible Markup Language-Dokument (XML), das HTML ähnelt, sich jedoch in der Verwendung von Tags zum Definieren von Objekten unterscheidet. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/xml) .
+eXtensible Markup Language-Dokument (XML), das HTML ähnelt, sich jedoch in der Verwendung von Tags zum Definieren von Objekten unterscheidet. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/web/xml) .
 
 ```csharp
 public static readonly TextualFormats Xml;

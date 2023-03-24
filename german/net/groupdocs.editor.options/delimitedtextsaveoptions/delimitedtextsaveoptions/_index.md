@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| separator | String | String-Trennzeichen (Trennzeichen) für textbasierte Spreadsheet-Dokumente |
+| separator | String | Zeichenkettentrennzeichen (Trennzeichen), das nicht NULL oder leer sein darf |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | Wird ausgelöst, wenn das angegebene Trennzeichen eine Null- oder leere Zeichenfolge ist |
 
 ### Siehe auch
 

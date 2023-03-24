@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.HtmlCss.Resources.Fonts stellt Klassen bereit die Schriftartressourcen darstellen.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 Der Namespace GroupDocs.Editor.HtmlCss.Resources.Fonts stellt Klassen bereit, die Schriftartressourcen darstellen.

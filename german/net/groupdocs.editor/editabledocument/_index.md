@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Gibt eine Liste aller vorhandenen Ressourcen zurück: alle Stylesheets, Bilder aus HTML und alle Stylesheets, Schriftarten |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Gibt eine Liste aller vorhandenen Ressourcen zurück: alle Stylesheets, Bilder aus HTML und alle Stylesheets, Schriftarten, Audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Gibt eine Liste von Audioressourcen zurück |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Gibt eine Liste von CSS-Ressourcen zurück |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Ermöglicht das Abrufen externer Schriftartressourcen, die von diesem HTML-Dokument verwendet werden |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Ermöglicht das Abrufen externer Bildressourcen (Rasterbilder), die von diesem HTML-Dokument verwendet werden |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Ermöglicht das Abrufen externer Bildressourcen (Raster- und Vektorbilder), die von diesem HTML-Dokument verwendet werden |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Bestimmt, ob dieses bearbeitbare Dokument bereits verworfen wurde (true) oder nicht (false) |
 
 ## Methoden
@@ -33,11 +33,11 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Statische Factory, die eine Instanz von EditableDocument aus dem angegebenen HTML-Markup und einem Satz entsprechender verknüpfter Ressourcen erstellt |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Statische Factory, die eine Instanz von EditableDocument aus einem angegebenen HTML-Markup und aus Ressourcen erstellt, die sich in dem Ordner befinden, der durch den vollständigen Pfad angegeben wird |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Löscht diese bearbeitbare Dokumentinstanz, löscht ihren Inhalt und macht ihre Methoden und Eigenschaften nicht funktionsfähig |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Gibt einen Hauptteil des HTML-Dokuments (Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Gibt einen Hauptteil des HTML-Dokuments (Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück, wobei Links zu externen Ressourcen das angegebene Präfix enthalten. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Gibt einen Hauptteil des HTML-Dokuments (innerer Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Gibt einen Hauptteil des HTML-Dokuments (innerer Inhalt zwischen öffnenden und schließenden BODY-Tags ohne diese Tags) als Zeichenfolge zurück, wobei Links zu externen Ressourcen das angegebene Präfix enthalten. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Gibt den gesamten Inhalt des HTML-Dokuments als Zeichenfolge zurück. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Gibt den gesamten Inhalt des HTML-Dokuments als Zeichenfolge zurück, wobei Links zu externen Ressourcen das angegebene Präfix enthalten. |
-| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück, wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück, wenn es für dieses Dokument kein CSS gibt. |
+| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück, wobei ein String ein Stylesheet darstellt. Gibt eine leere Liste zurück, wenn es kein CSS für dieses Dokument gibt. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent_1)(string, string) | Gibt den Inhalt aller externen Stylesheets als Liste von Strings zurück, wobei ein String ein Stylesheet darstellt. Das angegebene Präfix wird auf jeden Link auf die externe Ressource in jedem resultierenden Stylesheet angewendet. Gibt eine leere Liste zurück, wenn es kein CSS dafür gibt Dokument. |
 | [GetEmbeddedHtml](../../groupdocs.editor/editabledocument/getembeddedhtml)() | Gibt den gesamten Inhalt dieses HTML-Dokuments mit allen zugehörigen Ressourcen in Form einer einzelnen Zeichenfolge zurück, wobei alle Ressourcen innerhalb des -HTML-Markups in base64-codierter Form eingebettet sind. |
 | [Save](../../groupdocs.editor/editabledocument/save#save)(string) | Speichert dieses HTML-Dokument in der Datei im angegebenen Pfad, in der das HTML-Markup gespeichert wird, und im zugehörigen Ordner mit Ressourcen. |

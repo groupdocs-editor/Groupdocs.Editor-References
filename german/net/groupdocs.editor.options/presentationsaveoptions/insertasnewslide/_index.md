@@ -16,7 +16,7 @@ public bool InsertAsNewSlide { get; set; }
 
 ### Bemerkungen
 
-Standardmäßig wird die Folie ersetzt. Dies bedeutet, dass eine gegebene Präsentation 5 Folien hat und[`SlideNumber`](../slidenumber) =4, dann wird die vierte Folie durch die neu bearbeitete Folie ersetzt, während die Gesamtzahl der Folien in der Präsentation (5) unverändert bleibt. Wenn der Wert dieser Eigenschaft jedoch auf eingestellt istStimmt, wird die neu bearbeitete Folie als 4. Folie eingefügt, und alle nachfolgenden Folien werden ans Ende verschoben: Die „alte“ 4. Folie wird zur 5. und die 5. wird zur 6., und die Gesamtzahl der Folien in der Präsentation wird um eins und erhöht gleich 6.
+Standardmäßig wird die Folie ersetzt. Dies bedeutet, dass eine gegebene Präsentation 5 Folien hat und[`SlideNumber`](../slidenumber) =4, dann wird die vierte Folie durch die neu bearbeitete Folie ersetzt, während die Gesamtzahl der Folien in der Präsentation (5) unverändert bleibt. Wenn der Wert dieser Eigenschaft jedoch auf eingestellt istWAHR, wird die neu bearbeitete Folie als 4. Folie eingefügt, und alle nachfolgenden Folien werden ans Ende verschoben: Die „alte“ 4. Folie wird zur 5. und die 5. wird zur 6., und die Gesamtzahl der Folien in der Präsentation wird um eins und erhöht gleich 6.
 
 ### Siehe auch
 

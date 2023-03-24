@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gibt eine Zeichenfolgendarstellung dieses Verhältnisses zurück identisch mit SerializeDefault
 type: docs
-weight: 120
+weight: 110
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/ratio/tostring/
 ---
 ## Ratio.ToString method

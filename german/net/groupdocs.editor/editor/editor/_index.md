@@ -20,7 +20,7 @@ public Editor(Func<Stream> document)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Editor unterstützten Dateitypen: [Von GroupDocs.Editor unterstützte Dokumentformate](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * Mehr über GroupDocs.Editor für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/editornet/Developer+Guide)
@@ -48,7 +48,7 @@ public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Editor unterstützten Dateitypen: [Von GroupDocs.Editor unterstützte Dokumentformate](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * Mehr über GroupDocs.Editor für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/editornet/Developer+Guide)
@@ -77,7 +77,7 @@ public Editor(string filePath)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Editor unterstützten Dateitypen: [Von GroupDocs.Editor unterstützte Dokumentformate](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * Mehr über GroupDocs.Editor für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/editornet/Developer+Guide)
@@ -105,7 +105,7 @@ public Editor(string filePath, Func<ILoadOptions> loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Editor unterstützten Dateitypen: [Von GroupDocs.Editor unterstützte Dokumentformate](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * Mehr über GroupDocs.Editor für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/editornet/Developer+Guide)

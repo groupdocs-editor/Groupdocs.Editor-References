@@ -3,7 +3,7 @@ title: FontResourceBase
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Basisklasse für jede unterstützte Schriftart als Ressource für das HTMLDokument mit all seinen Eigenschaften
 type: docs
-weight: 270
+weight: 370
 url: /de/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/
 ---
 ## FontResourceBase class

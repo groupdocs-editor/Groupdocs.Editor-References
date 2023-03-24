@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Gibt eine Instanz von zurück[`EBookFormats`](../ebookformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Gibt eine Instanz von zurück[`EBookFormats`](../ebookformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | Bestimmt, ob diese Instanz gleich den anderen angegebenen EBookFormats ist. instance |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | Bestimmt, ob diese Instanz gleich dem anderen angegebenen IDocumentFormat ist instance |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | Ermittelt, ob diese Instanz gleich dem anderen angegebenen Objekt ist, das vermutlich ein Boxed EBookFormats ist |
@@ -39,9 +39,9 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | Name | Beschreibung |
 | --- | --- |
-| static readonly [Azw3](../../groupdocs.editor.formats/ebookformats/azw3) | AZW3, auch bekannt als Kindle Format 8 (KF8), ist die modifizierte Version des digitalen Dateiformats AZW eBook, das für Amazon Kindle-Geräte entwickelt wurde. Das Format ist eine Erweiterung älterer AZW-Dateien. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/ebook/azw3/) . |
-| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Das ePub-Format (Electronic Publication) ist ein E-Book-Dateiformat, das Verlegern und Verbrauchern ein digitales Standardveröffentlichungsformat bietet. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/ebook/epub/) . |
-| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI ist der Name des für den MobiPocket Reader entwickelten Formats. Es wird derzeit von Amazon mit einem etwas anderen DRM-Schema verwendet und heißt AZW. . Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/ebook/mobi/) . |
+| static readonly [Azw3](../../groupdocs.editor.formats/ebookformats/azw3) | AZW3, auch bekannt als Kindle Format 8 (KF8), ist die modifizierte Version des digitalen Dateiformats AZW eBook, das für Amazon Kindle-Geräte entwickelt wurde. Das Format ist eine Erweiterung älterer AZW-Dateien. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/ebook/azw3/) . |
+| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Das ePub-Format (Electronic Publication) ist ein E-Book-Dateiformat, das Verlegern und Verbrauchern ein digitales Standardveröffentlichungsformat bietet. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/ebook/epub/) . |
+| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI ist der Name des für den MobiPocket Reader entwickelten Formats. Es wird derzeit von Amazon mit einem etwas anderen DRM-Schema verwendet und heißt AZW. . Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/ebook/mobi/) . |
 | static readonly [All](../../groupdocs.editor.formats/ebookformats/all) | Gibt eine interne Klasse zurück, die aufzählbare Möglichkeiten über alle existierenden EBook-Formate bietet |
 
 ## Andere Mitglieder
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### Bemerkungen
 
-Erfahren Sie mehr über das Mobi-Format[hier](https://docs.fileformat.com/ebook/mobi/) über das AZW3-Format[hier](https://docs.fileformat.com/ebook/azw3/) , und über das ePub-Format[hier](https://docs.fileformat.com/ebook/epub/) .
+Erfahren Sie mehr über das Mobi-Format[Hier](https://docs.fileformat.com/ebook/mobi/) , über das AZW3-Format[Hier](https://docs.fileformat.com/ebook/azw3/) , und über das ePub-Format[Hier](https://docs.fileformat.com/ebook/epub/) .
 
 ### Siehe auch
 

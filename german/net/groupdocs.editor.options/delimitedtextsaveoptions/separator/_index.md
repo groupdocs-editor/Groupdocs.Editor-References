@@ -14,6 +14,12 @@ Ermöglicht die Angabe eines Zeichenkettentrennzeichens (Trennzeichen) für text
 public string Separator { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | Wird ausgelöst, wenn das angegebene Trennzeichen eine Null- oder leere Zeichenfolge ist |
+
 ### Siehe auch
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

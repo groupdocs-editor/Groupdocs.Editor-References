@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält Optionen zum Laden von binären SpreadsheetDokumenten Cells Excelkompatibel wie XLSX ODS usw. in den Editor class
 type: docs
-weight: 900
+weight: 1110
 url: /de/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

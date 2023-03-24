@@ -16,13 +16,13 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version des Eingabedokuments, die im WYSIWYG-HTML-Editor bearbeitet wurde und als Instanz von '[`EditableDocument`](../../editabledocument)Klasse, die in ein Ausgabedokument eines bestimmten Formats konvertiert werden soll. Darf nicht null oder verworfen sein. |
+| inputDocument | EditableDocument | Version des Eingabedokuments, die im WYSIWYG-HTML-Editor bearbeitet wurde und als Instanz von '[`EditableDocument`](../../editabledocument) Klasse, die in ein Ausgabedokument eines bestimmten Formats konvertiert werden soll. Darf nicht null oder verworfen sein. |
 | outputDocument | Stream | Ausgabestrom, in dem der Inhalt des resultierenden Dokuments aufgezeichnet wird. Darf nicht null sein, verworfen, muss Schreiben unterstützen. |
 | saveOptions | ISaveOptions | Optionen zum Speichern von Dokumenten, die das Format des resultierenden Dokuments definieren, sowie allgemeine und formatspezifische Speicheroptionen. Darf nicht null sein. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zum Speichern von Dokumenten nach der Bearbeitung mit GroupDocs.Editor: [So speichern Sie ein bearbeitetes Dokument mit GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Save+document)
 
@@ -46,13 +46,13 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version des Eingabedokuments, die im WYSIWYG-HTML-Editor bearbeitet wurde und als Instanz von '[`EditableDocument`](../../editabledocument)Klasse, die in ein Ausgabedokument eines bestimmten Formats konvertiert werden soll. Darf nicht null oder verworfen sein. |
+| inputDocument | EditableDocument | Version des Eingabedokuments, die im WYSIWYG-HTML-Editor bearbeitet wurde und als Instanz von '[`EditableDocument`](../../editabledocument) Klasse, die in ein Ausgabedokument eines bestimmten Formats konvertiert werden soll. Darf nicht null oder verworfen sein. |
 | filePath | String | Pfad zur Datei, in der das Ausgabedokument gespeichert wird. Existiert eine gleichnamige Datei, wird diese komplett neu geschrieben. String mit Pfad darf nicht null oder leer sein oder nur Leerzeichen enthalten. |
 | saveOptions | ISaveOptions | Optionen zum Speichern von Dokumenten, die das Format des resultierenden Dokuments definieren, sowie allgemeine und formatspezifische Speicheroptionen. Darf nicht null sein. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zum Speichern von Dokumenten nach der Bearbeitung mit GroupDocs.Editor: [So speichern Sie ein bearbeitetes Dokument mit GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Save+document)
 

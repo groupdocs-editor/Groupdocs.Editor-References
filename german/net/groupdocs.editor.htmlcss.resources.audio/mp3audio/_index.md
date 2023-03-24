@@ -3,7 +3,7 @@ title: Mp3Audio
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert eine Audioressource mit beliebigem Format
 type: docs
-weight: 250
+weight: 350
 url: /de/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/
 ---
 ## Mp3Audio class

@@ -1,14 +1,14 @@
 ---
 title: Oft
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Dateien mit der Erweiterung .oft sind Vorlagendateien die mit Microsoft Outlook erstellt werden. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/email/oft/ .
+description: Dateien mit der Erweiterung .oft sind Vorlagendateien die mit Microsoft Outlook erstellt werden. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/email/oft/ .
 type: docs
 weight: 80
 url: /de/net/groupdocs.editor.formats/emailformats/oft/
 ---
 ## EmailFormats.Oft field
 
-Dateien mit der Erweiterung .oft sind Vorlagendateien, die mit Microsoft Outlook erstellt werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/email/oft/) .
+Dateien mit der Erweiterung .oft sind Vorlagendateien, die mit Microsoft Outlook erstellt werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/email/oft/) .
 
 ```csharp
 public static readonly EmailFormats Oft;

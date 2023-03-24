@@ -1,14 +1,14 @@
 ---
 title: Pot
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Microsoft PowerPoint 972003Präsentationsvorlagendatei POT stellt Microsoft PowerPointVorlagendateien dar die von PowerPoint 972003Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/pot .
+description: Microsoft PowerPoint 972003Präsentationsvorlagendatei POT stellt Microsoft PowerPointVorlagendateien dar die von PowerPoint 972003Versionen erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/pot .
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.formats/presentationformats/pot/
 ---
 ## PresentationFormats.Pot field
 
-Microsoft PowerPoint 97-2003-Präsentationsvorlagendatei (POT) stellt Microsoft PowerPoint-Vorlagendateien dar, die von PowerPoint 97-2003-Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/pot) .
+Microsoft PowerPoint 97-2003-Präsentationsvorlagendatei (POT) stellt Microsoft PowerPoint-Vorlagendateien dar, die von PowerPoint 97-2003-Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/pot) .
 
 ```csharp
 public static readonly PresentationFormats Pot;

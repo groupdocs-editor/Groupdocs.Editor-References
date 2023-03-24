@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Kapselt Arbeitsblattschutzoptionen die es ermöglichen ein Arbeitsblatt im ausgegebenen Tabellenkalkulationsdokument vor Änderungen des angegebenen Typs mit einem angegebenen Kennwort zu schützen.
 type: docs
-weight: 1020
+weight: 1250
 url: /de/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

@@ -3,7 +3,7 @@ title: IHtmlResource
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert eine Instanz der unbekannten HTMLRessource Raster oder Vektorbild Stylesheet Schriftart Textressource CSS XML Audio usw.
 type: docs
-weight: 340
+weight: 440
 url: /de/net/groupdocs.editor.htmlcss.resources/ihtmlresource/
 ---
 ## IHtmlResource interface

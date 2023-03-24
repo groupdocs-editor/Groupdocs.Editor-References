@@ -3,7 +3,7 @@ title: IsUnitlessZero
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Bestimmt ob diese Instanz eine einheitenlose Null ist oder nicht. Null ohne Einheit ist der Standardwert dieses Typs. Identisch mit IsDefaultEigenschaft.
 type: docs
-weight: 170
+weight: 160
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero/
 ---
 ## Length.IsUnitlessZero property

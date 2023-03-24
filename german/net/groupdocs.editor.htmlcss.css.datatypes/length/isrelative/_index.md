@@ -1,14 +1,14 @@
 ---
 title: IsRelative
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Ruft ab ob die Länge in relativen Einheiten angegeben ist. Eine solche Länge kann nicht in Pixel umgerechnet werden.
+description: Ruft ab ob die Länge in relativen Einheiten angegeben wird. Eine solche Länge kann nicht in Pixel umgerechnet werden.
 type: docs
-weight: 150
+weight: 140
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property
 
-Ruft ab, ob die Länge in relativen Einheiten angegeben ist. Eine solche Länge kann nicht in Pixel umgerechnet werden.
+Ruft ab, ob die Länge in relativen Einheiten angegeben wird. Eine solche Länge kann nicht in Pixel umgerechnet werden.
 
 ```csharp
 public bool IsRelative { get; }

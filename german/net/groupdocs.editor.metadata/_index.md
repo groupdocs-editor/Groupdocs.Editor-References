@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.Metadata stellt Klassen zur Beschreibung grundlegender Dokumenteigenschaften bereit die vom Dokumenttyp abhängen.
 type: docs
-weight: 120
+weight: 140
 url: /de/net/groupdocs.editor.metadata/
 ---
 Der Namespace GroupDocs.Editor.Metadata stellt Klassen zur Beschreibung grundlegender Dokumenteigenschaften bereit, die vom Dokumenttyp abhängen.

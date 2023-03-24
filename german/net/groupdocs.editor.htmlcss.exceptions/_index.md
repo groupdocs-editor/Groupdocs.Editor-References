@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Exceptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der GroupDocs.Editor.HtmlCss.ExceptionsNamespace stellt Klassen bereit die für die gesamte HTML CSS Bilder Schriftarten und andere ressourcenbezogene Verarbeitung verantwortlich sind.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/groupdocs.editor.htmlcss.exceptions/
 ---
 Der GroupDocs.Editor.HtmlCss.Exceptions-Namespace stellt Klassen bereit, die für die gesamte HTML-, CSS-, Bilder-, Schriftarten- und andere ressourcenbezogene Verarbeitung verantwortlich sind.

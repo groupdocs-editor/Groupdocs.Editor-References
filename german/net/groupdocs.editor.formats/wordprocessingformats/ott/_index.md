@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Open Document Format Text Document Template OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/ott .
+description: Open Document Format Text Document Template OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
 weight: 90
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/ott/
 ---
 ## WordProcessingFormats.Ott field
 
-Open Document Format Text Document Template (OTT) stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/ott) .
+Open Document Format Text Document Template (OTT) stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly WordProcessingFormats Ott;

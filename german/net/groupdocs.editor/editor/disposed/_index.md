@@ -16,7 +16,7 @@ public event EventHandler Disposed;
 
 ### Bemerkungen
 
-Dies**Entsorgt** -Ereignis wird unmittelbar nach Abschluss der Entsorgung der Editor-Instanz ausgelöst.
+Das**Entsorgt** -Ereignis wird unmittelbar nach Abschluss der Entsorgung der Editor-Instanz ausgelöst.
 
 ### Siehe auch
 

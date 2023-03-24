@@ -1,14 +1,14 @@
 ---
 title: Vcf
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: VCF Virtual Card Format oder vCard ist ein digitales Dateiformat zum Speichern von Kontaktinformationen. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/email/vcf/ .
+description: VCF Virtual Card Format oder vCard ist ein digitales Dateiformat zum Speichern von Kontaktinformationen. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/email/vcf/ .
 type: docs
 weight: 120
 url: /de/net/groupdocs.editor.formats/emailformats/vcf/
 ---
 ## EmailFormats.Vcf field
 
-VCF (Virtual Card Format) oder vCard ist ein digitales Dateiformat zum Speichern von Kontaktinformationen. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/email/vcf/) .
+VCF (Virtual Card Format) oder vCard ist ein digitales Dateiformat zum Speichern von Kontaktinformationen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/email/vcf/) .
 
 ```csharp
 public static readonly EmailFormats Vcf;

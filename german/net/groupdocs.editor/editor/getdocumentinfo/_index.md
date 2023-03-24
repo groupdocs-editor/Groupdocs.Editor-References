@@ -37,7 +37,7 @@ Die GetDocumentInfo-Methode ist nützlich, wenn unklar ist, welches Format das E
 
 Die GetDocumentInfo-Methode gibt immer vollständige Daten zurück, sie ist vom Testmodus nicht betroffen, ihre Verwendung schreibt die verbrauchten Bytes oder Credits nicht ab.
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Erfahren Sie mehr über das Abrufen dokumentspezifischer Eigenschaften in Code: [So erhalten Sie Dokumentinformationen mit GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Extracting+document+metainfo)
 

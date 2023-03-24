@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von Dokumenten aller unterstützten WordProcessing Wordskompatiblen Formate wie DOCX RTF ODT usw.
 type: docs
-weight: 970
+weight: 1200
 url: /de/net/groupdocs.editor.options/wordprocessingeditoptions/
 ---
 ## WordProcessingEditOptions class
@@ -29,7 +29,7 @@ public class WordProcessingEditOptions : IEditOptions
 | [EnablePagination](../../groupdocs.editor.options/wordprocessingeditoptions/enablepagination) { get; set; } | Ermöglicht das Aktivieren oder Deaktivieren der Paginierung im resultierenden HTML-Dokument. Standardmäßig ist deaktiviert (false). |
 | [ExtractOnlyUsedFont](../../groupdocs.editor.options/wordprocessingeditoptions/extractonlyusedfont) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob nur Schriftartressourcen extrahiert werden sollen, die im Textinhalt des Dokuments verwendet werden. |
 | [FontExtraction](../../groupdocs.editor.options/wordprocessingeditoptions/fontextraction) { get; set; } | Verantwortlich für das Extrahieren von Schriftartressourcen, die im eingegebenen WordProcessing-Dokument verwendet werden. Extrahiert standardmäßig keine Schriftarten (NotExtract). |
-| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | Ermöglicht die Angabe eines Klassennamens, der in jedem HTML-Element zu den 'class'-Attributen hinzugefügt wird, das ein Feld im Eingabe-WordProcessing-Dokument darstellt. Standardmäßig ist NULL – „class“-Attribute werden nicht angewendet. |
+| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | Ermöglicht die Angabe eines Klassennamens, der in jedem HTML-Element zu den 'class'-Attributen hinzugefügt wird, das ein Feld im eingegebenen WordProcessing-Dokument darstellt. Standardmäßig ist NULL – „class“-Attribute werden nicht angewendet. |
 
 ### Siehe auch
 

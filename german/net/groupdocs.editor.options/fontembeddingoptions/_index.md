@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Optionen zum Einbetten von Schriftarten steuern welche Schriftartressourcen in das ausgegebene WordProcessing oder PDFDokument eingebettet werden sollen
 type: docs
-weight: 740
+weight: 890
 url: /de/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

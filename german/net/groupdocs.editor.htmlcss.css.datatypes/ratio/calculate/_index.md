@@ -3,7 +3,7 @@ title: Calculate
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Berechnet dieses Verhältnis und gibt es als einzelne Gleitkommazahl zurück
 type: docs
-weight: 60
+weight: 50
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

@@ -3,7 +3,7 @@ title: TryParse
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Versucht eine angegebene Zeichenfolge als Längenwert zu analysieren einschließlich ihres numerischen Werts und Einheitennamens
 type: docs
-weight: 280
+weight: 270
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method

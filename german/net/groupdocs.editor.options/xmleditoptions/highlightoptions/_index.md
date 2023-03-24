@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Ermöglicht die Anpassung der Hervorhebung die auf die XMLStruktur angewendet wird wenn sie in HTML dargestellt wird. Standardmäßig ist NULL  Standardhervorhebung wird angewendet.
+description: Ermöglicht die Anpassung der XMLHervorhebung die auf die XMLStruktur angewendet wird wenn sie in HTML dargestellt wird. Die Standardhervorhebung wird verwendet und ist einstellbar. Kann nicht null sein.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Ermöglicht die Anpassung der Hervorhebung, die auf die XML-Struktur angewendet wird, wenn sie in HTML dargestellt wird. Standardmäßig ist NULL — Standardhervorhebung wird angewendet.
+Ermöglicht die Anpassung der XML-Hervorhebung, die auf die XML-Struktur angewendet wird, wenn sie in HTML dargestellt wird. Die Standardhervorhebung wird verwendet und ist einstellbar. Kann nicht null sein.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Siehe auch

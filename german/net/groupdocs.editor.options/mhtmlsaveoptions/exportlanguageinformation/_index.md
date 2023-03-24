@@ -16,7 +16,7 @@ public bool ExportLanguageInformation { get; set; }
 
 ### Bemerkungen
 
-Wenn diese Eigenschaft auf eingestellt ist`Stimmt` , der GroupDocs.Editor gibt die aus`lang` HTML-Attribut für die Dokumentelemente, die die Sprache angeben. Dies kann erforderlich sein, um die sprachbezogene Semantik zu erhalten.
+Wenn diese Eigenschaft auf eingestellt ist`WAHR` , der GroupDocs.Editor gibt die aus`lang` HTML-Attribut für die Dokumentelemente, die die Sprache angeben. Dies kann erforderlich sein, um die sprachbezogene Semantik zu erhalten.
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: TiffImage
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert ein Bild im TIFFFormat Tagged Image File Format mit seinen Metadaten und zusätzlichen Methoden
 type: docs
-weight: 460
+weight: 560
 url: /de/net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/
 ---
 ## TiffImage class

@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: HyperText Markup Language document HTML ist die Erweiterung für Webseiten die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/web/html .
+description: HyperText Markup Language document HTML ist die Erweiterung für Webseiten die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/web/html .
 type: docs
 weight: 20
 url: /de/net/groupdocs.editor.formats/textualformats/html/
 ---
 ## TextualFormats.Html field
 
-HyperText Markup Language document (HTML) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/html) .
+HyperText Markup Language document (HTML) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/web/html) .
 
 ```csharp
 public static readonly TextualFormats Html;

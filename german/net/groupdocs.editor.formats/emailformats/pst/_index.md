@@ -1,14 +1,14 @@
 ---
 title: Pst
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Dateien mit der Erweiterung .pst stellen persönliche OutlookSpeicherdateien auch als persönliche Speichertabelle bezeichnet dar die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/email/pst/ .
+description: Dateien mit der Erweiterung .pst stellen persönliche OutlookSpeicherdateien auch als persönliche Speichertabelle bezeichnet dar die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/email/pst/ .
 type: docs
 weight: 100
 url: /de/net/groupdocs.editor.formats/emailformats/pst/
 ---
 ## EmailFormats.Pst field
 
-Dateien mit der Erweiterung .pst stellen persönliche Outlook-Speicherdateien (auch als persönliche Speichertabelle bezeichnet) dar, die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/email/pst/) .
+Dateien mit der Erweiterung .pst stellen persönliche Outlook-Speicherdateien (auch als persönliche Speichertabelle bezeichnet) dar, die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/email/pst/) .
 
 ```csharp
 public static readonly EmailFormats Pst;

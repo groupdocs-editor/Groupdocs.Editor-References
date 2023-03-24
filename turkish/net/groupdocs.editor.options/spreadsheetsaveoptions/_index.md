@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Hesap Çizelgesi Excel uyumlu belgeleri oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 910
+weight: 1120
 url: /tr/net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class

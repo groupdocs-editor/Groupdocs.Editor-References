@@ -33,7 +33,7 @@ public WorksheetProtection(WorksheetProtectionType protectionType, string passwo
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | protectionType | WorksheetProtectionType | Çalışma sayfası koruması türü |
-| password | String | Korumayı kilitleyen parola |
+| password | String | Korumayı kilitleyen şifre |
 
 ### Ayrıca bakınız
 

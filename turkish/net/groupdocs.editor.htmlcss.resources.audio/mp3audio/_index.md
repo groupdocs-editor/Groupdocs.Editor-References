@@ -3,7 +3,7 @@ title: Mp3Audio
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: İsteğe bağlı biçimdeki bir ses kaynağını temsil eder
 type: docs
-weight: 250
+weight: 350
 url: /tr/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/
 ---
 ## Mp3Audio class

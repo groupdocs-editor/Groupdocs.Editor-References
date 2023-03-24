@@ -1,14 +1,14 @@
 ---
 title: Tsv
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Sekmeyle Ayrılmış Değerler TSV dosya biçimi düz metin biçiminde sekmelerle ayrılmış verileri temsil eder. CSVye benzer dosya biçimi farklı uygulamalar arasında içe ve dışa aktarma amacıyla verilerin yapılandırılmış bir şekilde düzenlenmesi için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/spreadsheet/tsv/ .
+description: Sekmeyle Ayrılmış Değerler TSV dosya biçimi düz metin biçiminde sekmelerle ayrılmış verileri temsil eder. CSVye benzer dosya biçimi farklı uygulamalar arasında içe ve dışa aktarma amacıyla verilerin yapılandırılmış bir şekilde düzenlenmesi için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/spreadsheet/tsv/ .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/tsv/
 ---
 ## SpreadsheetFormats.Tsv field
 
-Sekmeyle Ayrılmış Değerler (TSV) dosya biçimi, düz metin biçiminde sekmelerle ayrılmış verileri temsil eder. CSV'ye benzer dosya biçimi, farklı uygulamalar arasında içe ve dışa aktarma amacıyla verilerin yapılandırılmış bir şekilde düzenlenmesi için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/spreadsheet/tsv/) .
+Sekmeyle Ayrılmış Değerler (TSV) dosya biçimi, düz metin biçiminde sekmelerle ayrılmış verileri temsil eder. CSV'ye benzer dosya biçimi, farklı uygulamalar arasında içe ve dışa aktarma amacıyla verilerin yapılandırılmış bir şekilde düzenlenmesi için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/spreadsheet/tsv/) .
 
 ```csharp
 public static readonly SpreadsheetFormats Tsv;

@@ -1,14 +1,14 @@
 ---
 title: ExportLanguageInformation
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Dil bilgilerinin MHTMLye aktarılıp aktarılmayacağını belirtir. Varsayılan değeryanlış .
+description: Dil bilgilerinin MHTMLye aktarılıp aktarılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation/
 ---
 ## MhtmlSaveOptions.ExportLanguageInformation property
 
-Dil bilgilerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` .
+Dil bilgilerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }

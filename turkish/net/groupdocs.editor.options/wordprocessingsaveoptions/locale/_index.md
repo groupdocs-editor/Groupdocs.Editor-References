@@ -1,14 +1,14 @@
 ---
 title: Locale
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının dili ayarlanmasına izin verir. Belirtilmediğinde varsayılan değer MS Word veya başka bir program locale belgesini göre algılar veya seçer. kendi ayarlarına veya diğer faktörlere.
+description: Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının dili ayarlanmasına izin verir. Belirtilmediğinde varsayılan değer MS Word veya başka bir program belgeyi locale göre algılar veya seçer. kendi ayarlarına veya diğer faktörlere.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.options/wordprocessingsaveoptions/locale/
 ---
 ## WordProcessingSaveOptions.Locale property
 
-Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının (dili) ayarlanmasına izin verir. Belirtilmediğinde (varsayılan değer), MS Word (veya başka bir program), locale belgesini göre algılar (veya seçer). kendi ayarlarına veya diğer faktörlere.
+Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının (dili) ayarlanmasına izin verir. Belirtilmediğinde (varsayılan değer), MS Word (veya başka bir program) belgeyi locale göre algılar (veya seçer). kendi ayarlarına veya diğer faktörlere.
 
 ```csharp
 public CultureInfo Locale { get; set; }

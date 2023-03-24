@@ -3,7 +3,7 @@ title: OtfFont
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: OTF Açık Tip Biçimi biçimindeki bir yazı tipini temsil eder
 type: docs
-weight: 290
+weight: 390
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/otffont/
 ---
 ## OtfFont class

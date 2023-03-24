@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürEBookFormatsgroupdocs.editor.formats/ebookformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürEBookFormatsgroupdocs.editor.formats/ebookformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-örneğini döndürür[`EBookFormats`](../../ebookformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`EBookFormats`](../../ebookformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EBookFormats FromExtension(string extension)
 
 ### Geri dönüş değeri
 
-Örneği[`EBookFormats`](../../ebookformats) başarı durumunda yapı veya başarısızlık durumunda atılan istisna
+Örneği[`EBookFormats`](../../ebookformats)başarı durumunda yapı veya başarısızlık durumunda atılan istisna
 
 ### Ayrıca bakınız
 

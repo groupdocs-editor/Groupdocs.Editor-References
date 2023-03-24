@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir Elektronik Tablo belgesinin meta verilerini temsil eder
 type: docs
-weight: 620
+weight: 770
 url: /tr/net/groupdocs.editor.metadata/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo structure

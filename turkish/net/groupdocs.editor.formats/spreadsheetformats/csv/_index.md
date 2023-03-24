@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Virgülle Ayrılmış Değerler CSV belgeleri virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metni temsil eder. Bir CSV dosyasındaki her satır dosyada bulunan kayıt kümesinden yeni bir kayıttır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/spreadsheet/csv/ .
+description: Virgülle Ayrılmış Değerler CSV belgeleri virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metni temsil eder. Bir CSV dosyasındaki her satır dosyada bulunan kayıt kümesinden yeni bir kayıttır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/spreadsheet/csv/ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/csv/
 ---
 ## SpreadsheetFormats.Csv field
 
-Virgülle Ayrılmış Değerler (CSV) belgeleri, virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metni temsil eder. Bir CSV dosyasındaki her satır, dosyada bulunan kayıt kümesinden yeni bir kayıttır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/spreadsheet/csv/) .
+Virgülle Ayrılmış Değerler (CSV) belgeleri, virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metni temsil eder. Bir CSV dosyasındaki her satır, dosyada bulunan kayıt kümesinden yeni bir kayıttır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/spreadsheet/csv/) .
 
 ```csharp
 public static readonly SpreadsheetFormats Csv;

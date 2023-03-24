@@ -1,14 +1,14 @@
 ---
 title: LocaleFarEast
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının dili geçersiz kılınmasına izin verir. Belirtilmediği zaman varsayılan değer MS Word veya başka bir program algılar veya seçer  kendi ayarlarına veya diğer faktörlere göre DoğuAsya locale belgesi.
+description: Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının dili geçersiz kılınmasına izin verir. Belirtilmediği zaman varsayılan değer MS Word veya başka bir program algılar veya seçer  kendi ayarlarına veya diğer faktörlere göre Doğu Asya yerel ayarı belgesi.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.editor.options/wordprocessingsaveoptions/localefareast/
 ---
 ## WordProcessingSaveOptions.LocaleFarEast property
 
-Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının (dili) geçersiz kılınmasına izin verir. Belirtilmediği zaman (varsayılan değer), MS Word (veya başka bir program) algılar (veya seçer) ) kendi ayarlarına veya diğer faktörlere göre Doğu-Asya locale belgesi.
+Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının (dili) geçersiz kılınmasına izin verir. Belirtilmediği zaman (varsayılan değer), MS Word (veya başka bir program) algılar (veya seçer) ) kendi ayarlarına veya diğer faktörlere göre Doğu Asya yerel ayarı belgesi.
 
 ```csharp
 public CultureInfo LocaleFarEast { get; set; }

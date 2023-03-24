@@ -1,14 +1,14 @@
 ---
 title: Docx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Office Açık XML WordProcessingML Makro İçermeyen Belge DOCX Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den Microsoft Office 2007nin piyasaya sürülmesiyle kullanıma sunulan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/docx .
+description: Office Açık XML WordProcessingML Makro İçermeyen Belge DOCX Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den Microsoft Office 2007nin piyasaya sürülmesiyle kullanıma sunulan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/docx/
 ---
 ## WordProcessingFormats.Docx field
 
-Office Açık XML WordProcessingML Makro İçermeyen Belge (DOCX), Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den Microsoft Office 2007'nin piyasaya sürülmesiyle kullanıma sunulan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/docx) .
+Office Açık XML WordProcessingML Makro İçermeyen Belge (DOCX), Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den Microsoft Office 2007'nin piyasaya sürülmesiyle kullanıma sunulan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/docx) .
 
 ```csharp
 public static readonly WordProcessingFormats Docx;

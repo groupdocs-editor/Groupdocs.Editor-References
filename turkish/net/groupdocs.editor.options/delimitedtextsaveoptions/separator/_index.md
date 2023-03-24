@@ -14,6 +14,12 @@ Metin tabanlı Elektronik Tablo belgeleri için bir dizi ayırıcı (sınırlay�
 public string Separator { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentException | Belirtilen ayırıcı boş veya boş bir dize olduğunda atılır |
+
 ### Ayrıca bakınız
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

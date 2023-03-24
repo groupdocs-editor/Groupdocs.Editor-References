@@ -3,7 +3,7 @@ title: ToString
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu oranın dize gösterimini döndürür SerializeDefault ile aynı
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/tostring/
 ---
 ## Ratio.ToString method

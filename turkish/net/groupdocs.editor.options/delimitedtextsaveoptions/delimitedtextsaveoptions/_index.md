@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| separator | String | Metin tabanlı Elektronik Tablo belgeleri için dize ayırıcı (sınırlayıcı) |
+| separator | String | Dize ayırıcı (sınırlayıcı), NULL veya boş olamaz |
+
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentException | Belirtilen ayırıcı boş veya boş bir dize olduğunda atılır |
 
 ### Ayrıca bakınız
 

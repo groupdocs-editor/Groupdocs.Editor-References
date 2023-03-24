@@ -3,7 +3,7 @@ title: IEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Belgeden HTMLye dönüştürmeden sorumlu olan tüm seçenekler için ortak arabirim. Üye olmadığını bildirir.
 type: docs
-weight: 760
+weight: 910
 url: /tr/net/groupdocs.editor.options/ieditoptions/
 ---
 ## IEditOptions interface

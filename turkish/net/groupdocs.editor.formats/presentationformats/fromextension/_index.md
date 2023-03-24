@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürPresentationFormatsgroupdocs.editor.formats/presentationformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürPresentationFormatsgroupdocs.editor.formats/presentationformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 130
 url: /tr/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-örneğini döndürür[`PresentationFormats`](../../presentationformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`PresentationFormats`](../../presentationformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### Geri dönüş değeri
 
-Örneği[`PresentationFormats`](../../presentationformats) başarı durumunda yapı veya başarısızlık durumunda atılan istisna
+Örneği[`PresentationFormats`](../../presentationformats)başarı durumunda yapı veya başarısızlık durumunda atılan istisna
 
 ### Ayrıca bakınız
 

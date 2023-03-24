@@ -3,7 +3,7 @@ title: IsUnitlessZero
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu örneğin birimsiz sıfır olup olmadığını belirler. Birimsiz sıfır bu türün varsayılan değeridir. IsDefault özelliğiyle aynı.
 type: docs
-weight: 170
+weight: 160
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero/
 ---
 ## Length.IsUnitlessZero property

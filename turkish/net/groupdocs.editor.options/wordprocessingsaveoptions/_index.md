@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düzenlendikten sonra WordProcessing uyumlu belgeler oluşturmak ve kaydetmek için özel seçenekler belirlemeye izin verir
 type: docs
-weight: 1010
+weight: 1240
 url: /tr/net/groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class
@@ -18,7 +18,7 @@ public sealed class WordProcessingSaveOptions : ICloneable, ISaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [WordProcessingSaveOptions](wordprocessingsaveoptions)(WordProcessingFormats) | Diğer tüm parametreler default iken, belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptions'ın yeni bir örneğini oluşturur. |
+| [WordProcessingSaveOptions](wordprocessingsaveoptions)(WordProcessingFormats) | Diğer tüm parametreler default iken, belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptions'ın yeni bir örneğini oluşturur |
 
 ## Özellikleri
 
@@ -26,9 +26,9 @@ public sealed class WordProcessingSaveOptions : ICloneable, ISaveOptions
 | --- | --- |
 | [EnablePagination](../../groupdocs.editor.options/wordprocessingsaveoptions/enablepagination) { get; set; } | Kelime İşleme belgesini kaydetmek için kullanılacak sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Orijinal belge sayfalandırma modunda açılmış ve düzenlenmişse, bu seçenek de etkinleştirilmelidir. Varsayılan olarak devre dışıdır. |
 | [FontEmbedding](../../groupdocs.editor.options/wordprocessingsaveoptions/fontembedding) { get; set; } | Yazı tipi kaynaklarının WordProcessing çıktı belgesine gömülmesinden sorumludur. Varsayılan olarak herhangi bir yazı tipi gömmez (NotEmbed). |
-| [Locale](../../groupdocs.editor.options/wordprocessingsaveoptions/locale) { get; set; } | Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının (dili) ayarlanmasına izin verir. Belirtilmediğinde (varsayılan değer), MS Word (veya başka bir program), locale belgesini göre algılar (veya seçer). kendi ayarlarına veya diğer faktörlere. |
+| [Locale](../../groupdocs.editor.options/wordprocessingsaveoptions/locale) { get; set; } | Oluşturulması sırasında uygulanacak WordProcessing belgesi için geçersiz kılma varsayılan yerel ayarının (dili) ayarlanmasına izin verir. Belirtilmediğinde (varsayılan değer), MS Word (veya başka bir program) belgeyi locale göre algılar (veya seçer). kendi ayarlarına veya diğer faktörlere. |
 | [LocaleBi](../../groupdocs.editor.options/wordprocessingsaveoptions/localebi) { get; set; } | Oluşturulması sırasında uygulanacak RTL (sağdan sola) metni için WordProcessing belgesi için geçersiz kılma yerel ayarının (dil) ayarlanmasına izin verir. Belirtilmediği zaman (varsayılan değer), MS Word (veya başka bir program) RTL locale belgesini kendi ayarlarına veya diğer faktörlere göre algılar (veya seçer). |
-| [LocaleFarEast](../../groupdocs.editor.options/wordprocessingsaveoptions/localefareast) { get; set; } | Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının (dili) geçersiz kılınmasına izin verir. Belirtilmediği zaman (varsayılan değer), MS Word (veya başka bir program) algılar (veya seçer) ) kendi ayarlarına veya diğer faktörlere göre Doğu-Asya locale belgesi. |
+| [LocaleFarEast](../../groupdocs.editor.options/wordprocessingsaveoptions/localefareast) { get; set; } | Oluşturulması sırasında uygulanacak Doğu Asya metni için WordProcessing belgesinin yerel ayarının (dili) geçersiz kılınmasına izin verir. Belirtilmediği zaman (varsayılan değer), MS Word (veya başka bir program) algılar (veya seçer) ) kendi ayarlarına veya diğer faktörlere göre Doğu Asya yerel ayarı belgesi. |
 | [OptimizeMemoryUsage](../../groupdocs.editor.options/wordprocessingsaveoptions/optimizememoryusage) { get; set; } | HTML'den belge oluşturma sırasında, bellek kullanımını azaltma maliyeti olarak performansı düşüren bellek optimizasyon mekanizmalarını etkinleştirir. Bu seçeneğin doğru olarak ayarlanması, daha yavaş kaydetme süresi pahasına büyük belgeler oluştururken bellek tüketimini önemli ölçüde azaltabilir. Varsayılan değer yanlış (daha iyi performans için bellek optimizasyonu devre dışı bırakıldı). |
 | [OutputFormat](../../groupdocs.editor.options/wordprocessingsaveoptions/outputformat) { get; set; } | Document dosyasını kaydetmek için kullanılacak bir WordProcessing formatı belirlemeye izin verir. |
 | [Password](../../groupdocs.editor.options/wordprocessingsaveoptions/password) { get; set; } | Oluşturulan WordProcessing belgesini kodlamak için kullanılacak bir parolanın belirtilmesine, değiştirilmesine, alınmasına veya kaldırılmasına izin verir. Parolayı kaldırmak (temizlemek) için NULL veya boş dize belirtin. |

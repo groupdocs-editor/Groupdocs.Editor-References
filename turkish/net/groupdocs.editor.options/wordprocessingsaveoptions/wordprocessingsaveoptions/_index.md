@@ -1,14 +1,14 @@
 ---
 title: WordProcessingSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Diğer tüm parametreler default iken belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptionsın yeni bir örneğini oluşturur.
+description: Diğer tüm parametreler default iken belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptionsın yeni bir örneğini oluşturur
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.options/wordprocessingsaveoptions/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions constructor
 
-Diğer tüm parametreler default iken, belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptions'ın yeni bir örneğini oluşturur.
+Diğer tüm parametreler default iken, belirtilen zorunlu WordProcessing çıktı biçimiyle WordProcessingSaveOptions'ın yeni bir örneğini oluşturur
 
 ```csharp
 public WordProcessingSaveOptions(WordProcessingFormats outputFormat)

@@ -3,7 +3,7 @@ title: RasterImageResourceBase
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Sabit ad boyutlar en boy oranı tür boyut ve içeriğe sahip desteklenen herhangi bir raster görüntü için temel sınıf.
 type: docs
-weight: 450
+weight: 550
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/
 ---
 ## RasterImageResourceBase class

@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.Metadata ad alanı belge türüne bağlı olarak temel belge özelliklerini açıklayan sınıflar sağlar.
 type: docs
-weight: 120
+weight: 140
 url: /tr/net/groupdocs.editor.metadata/
 ---
 GroupDocs.Editor.Metadata ad alanı, belge türüne bağlı olarak temel belge özelliklerini açıklayan sınıflar sağlar.

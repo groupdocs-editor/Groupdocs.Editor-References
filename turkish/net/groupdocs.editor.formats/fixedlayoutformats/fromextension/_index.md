@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-örneğini döndürür[`FixedLayoutFormats`](../../fixedlayoutformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`FixedLayoutFormats`](../../fixedlayoutformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### Geri dönüş değeri
 
-Örneği[`FixedLayoutFormats`](../../fixedlayoutformats) başarı durumunda yapı veya başarısızlık durumunda atılan istisna
+Örneği[`FixedLayoutFormats`](../../fixedlayoutformats)başarı durumunda yapı veya başarısızlık durumunda atılan istisna
 
 ### Ayrıca bakınız
 

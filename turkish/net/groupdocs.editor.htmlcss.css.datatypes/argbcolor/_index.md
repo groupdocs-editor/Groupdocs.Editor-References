@@ -1,0 +1,65 @@
+---
+title: ArgbColor
+second_title: .NET API Başvurusu için GroupDocs.Editor
+description: Dönüştürücüler ve serileştiriciler ile ARGB formatında bir renk değerini temsil eder
+type: docs
+weight: 190
+url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/
+---
+## ArgbColor structure
+
+Dönüştürücüler ve serileştiriciler ile ARGB formatında bir renk değerini temsil eder
+
+```csharp
+public struct ArgbColor : ICssDataType, IEquatable<ArgbColor>
+```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [A](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/a) { get; } | Rengin alfa kısmını alır. |
+| [Alpha](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/alpha) { get; } | Rengin alfa kısmını yüzde olarak alır (0..1). |
+| [B](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/b) { get; } | Rengin mavi kısmını alır. |
+| [G](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/g) { get; } | Rengin yeşil kısmını alır. |
+| [IsEmpty](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isempty) { get; } | Başlatılmamış renk - 4 kanalın tümü 0'a ayarlanmıştır. Varsayılan ve Saydam ile aynı. |
+| [IsFullyOpaque](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullyopaque) { get; } | Bunun olup olmadığını gösterir[`ArgbColor`](../argbcolor) örnek tamamen opak, şeffaflık yok (Alfa kanalının maksimum değeri var) |
+| [IsFullyTransparent](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullytransparent) { get; } | Bunun olup olmadığını gösterir[`ArgbColor`](../argbcolor) örnek tamamen saydamdır - Alfa kanalı min (0) değerine sahiptir, bu nedenle diğer R, G ve B kanallarının görünür bir etkisi yoktur. |
+| [IsTranslucent](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/istranslucent) { get; } | Bunun olup olmadığını gösterir[`ArgbColor`](../argbcolor) örnek yarı saydamdır (tamamen saydam değil, aynı zamanda tamamen opak da değil) |
+| [R](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/r) { get; } | Rengin kırmızı kısmını alır. |
+| [Value](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/value) { get; } | Rengin Int32 değerini alır. |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| static [FromRgb](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromrgb)(byte, byte, byte) | Bir tane oluşturur[`ArgbColor`](../argbcolor) belirtilen Kırmızı, Yeşil, Mavi kanallardan gelen değer, Alfa kanalı ise tamamen opak |
+| static [FromRgba](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromrgba)(byte, byte, byte, byte) | Bir tane oluşturur[`ArgbColor`](../argbcolor) belirtilen Kırmızı, Yeşil, Mavi ve Alfa kanallarından gelen değer |
+| static [FromSingleValueRgb](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromsinglevaluergb)(byte) | Tüm kanallara uygulanacak tek bir değerden tamamen opak (A=255) bir renk oluşturur |
+| [Equals](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/equals#equals)(ArgbColor) | İkiyi kontrol eder[`ArgbColor`](../argbcolor) eşitlik için renkler |
+| override [Equals](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/equals#equals_1)(object) | Başka bir nesnenin buna eşit olup olmadığını test eder[`ArgbColor`](../argbcolor) örnek. |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/gethashcode)() | Geçerli rengi tanımlayan bir karma kodu döndürür. |
+| [SerializeDefault](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/serializedefault)() | bunu seri hale getirir[`ArgbColor`](../argbcolor)translucency 'ye bağlı olarak en uygun CSS işlev notasyonuna örnek |
+| [ToRGB](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/torgb)() | bunu seri hale getirir[`ArgbColor`](../argbcolor) 'rgb' CSS işlevine örnek notation |
+| [ToRGBA](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/torgba)() | bunu seri hale getirir[`ArgbColor`](../argbcolor) 'rgba' CSS işlevine örnek notation |
+| override [ToString](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/tostring)() | ile aynı[`SerializeDefault`](./serializedefault) |
+| [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_equality) | İki rengi karşılaştırır ve ikisinin eşleşip eşleşmediğini belirten bir boole değeri döndürür. |
+| [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_inequality) | İki rengi karşılaştırır ve ikisinin eşleşmediğini belirten bir boole değeri döndürür. |
+
+## Diğer_Üyeler
+
+| İsim | Tanım |
+| --- | --- |
+| static class [KnownColors](argbcolor.knowncolors) | CSS standart 'de sabit benzersiz ad ve değere sahip tüm "bilinen renkleri" içerir. |
+
+### Notlar
+
+Bu tür, CSS işlemleri için (ancak bunlarla sınırlı olmamak üzere) kullanışlı olacak şekilde tasarlanmıştır. Daha fazlasını görün: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+### Ayrıca bakınız
+
+* interface [ICssDataType](../icssdatatype)
+* ad alanı [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
+* toplantı [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

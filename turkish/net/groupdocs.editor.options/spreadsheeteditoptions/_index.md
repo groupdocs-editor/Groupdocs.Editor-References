@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Desteklenen tüm Elektronik Tablo Excel uyumlu biçimlerindeki belgeleri düzenlemek için özel seçenekler belirlemeye izin verir
 type: docs
-weight: 890
+weight: 1100
 url: /tr/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class

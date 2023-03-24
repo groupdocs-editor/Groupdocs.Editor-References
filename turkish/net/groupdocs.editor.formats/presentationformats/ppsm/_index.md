@@ -1,14 +1,14 @@
 ---
 title: Ppsm
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft Office Açık XML PresentationML Makro Etkin Slayt Gösterisi PPSM dosyaları Microsoft PowerPoint 2007 veya üstü ile oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/ppsm .
+description: Microsoft Office Açık XML PresentationML Makro Etkin Slayt Gösterisi PPSM dosyaları Microsoft PowerPoint 2007 veya üstü ile oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.editor.formats/presentationformats/ppsm/
 ---
 ## PresentationFormats.Ppsm field
 
-Microsoft Office Açık XML PresentationML Makro Etkin Slayt Gösterisi (PPSM) dosyaları, Microsoft PowerPoint 2007 veya üstü ile oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/ppsm) .
+Microsoft Office Açık XML PresentationML Makro Etkin Slayt Gösterisi (PPSM) dosyaları, Microsoft PowerPoint 2007 veya üstü ile oluşturulur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/ppsm) .
 
 ```csharp
 public static readonly PresentationFormats Ppsm;

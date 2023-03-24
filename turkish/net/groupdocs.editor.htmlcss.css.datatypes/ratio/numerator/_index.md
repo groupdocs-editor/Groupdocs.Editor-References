@@ -3,7 +3,7 @@ title: Numerator
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu oranın payını verir
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/numerator/
 ---
 ## Ratio.Numerator property

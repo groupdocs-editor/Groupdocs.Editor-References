@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Metin belgeleri şifrelenemediği için her zaman yanlış değerini döndürür.
+description: Her zaman  değerini döndürürYANLIŞ  metin belgeleri şifrelenemediği için
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-Metin belgeleri şifrelenemediği için her zaman 'yanlış' değerini döndürür.
+Her zaman ` değerini döndürür`YANLIŞ` `, metin belgeleri şifrelenemediği için
 
 ```csharp
 public bool IsEncrypted { get; }

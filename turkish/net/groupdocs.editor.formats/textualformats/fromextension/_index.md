@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürTextualFormatsgroupdocs.editor.formats/textualformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürTextualFormatsgroupdocs.editor.formats/textualformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 80
 url: /tr/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-örneğini döndürür[`TextualFormats`](../../textualformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`TextualFormats`](../../textualformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

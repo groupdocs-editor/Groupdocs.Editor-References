@@ -32,7 +32,7 @@ public EbookEditOptions(bool enablePagination)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| enablePagination | Boolean | (`doğru`) veya devre dışı bırakır (`yanlış`) elde edilen HTML belgesinde e-kitap içeriğinin sayfalandırılması. Varsayılan olarak devre dışıdır (`yanlış`). |
+| enablePagination | Boolean | (`doğru`) veya devre dışı bırakır (`YANLIŞ`) elde edilen HTML belgesinde e-kitap içeriğinin sayfalandırılması. Varsayılan olarak devre dışıdır (`YANLIŞ`). |
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: Xltx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Office Açık XML Şablonu Makro İçermez XLTX dosyası Office OpenXML dosya formatı belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xltx .
+description: Office Açık XML Şablonu Makro İçermez XLTX dosyası Office OpenXML dosya formatı belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
 weight: 150
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/xltx/
 ---
 ## SpreadsheetFormats.Xltx field
 
-Office Açık XML Şablonu Makro İçermez (XLTX) dosyası, Office OpenXML dosya formatı belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xltx) .
+Office Açık XML Şablonu Makro İçermez (XLTX) dosyası, Office OpenXML dosya formatı belirtimlerini temel alan Microsoft Excel Şablonunu temsil eder. XLTX dosyasında belirtilen ayarların aynısını sergileyen XLSX dosyaları oluşturmak için kullanılabilecek standart bir şablon dosyası oluşturmak için kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xltx) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xltx;

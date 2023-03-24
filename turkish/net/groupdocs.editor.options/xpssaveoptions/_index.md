@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: XPS XML Kağıt Spesifikasyonları belgelerini oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 1070
+weight: 1310
 url: /tr/net/groupdocs.editor.options/xpssaveoptions/
 ---
 ## XpsSaveOptions class

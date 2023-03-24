@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Tüm belge türleri için tüm kaydetme seçenekleri için arayüz. Üye olmadığını bildirir.
 type: docs
-weight: 780
+weight: 940
 url: /tr/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

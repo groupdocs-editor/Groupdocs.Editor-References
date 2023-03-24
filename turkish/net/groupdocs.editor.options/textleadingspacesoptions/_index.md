@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düz metin belgesi TXT açılırken önde gelen alan işleme için mevcut seçenekleri içerir
 type: docs
-weight: 940
+weight: 1150
 url: /tr/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

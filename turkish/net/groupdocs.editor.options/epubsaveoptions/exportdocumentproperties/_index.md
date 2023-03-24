@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değeryanlış .
+description: Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/epubsaveoptions/exportdocumentproperties/
 ---
 ## EpubSaveOptions.ExportDocumentProperties property
 
-Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` .
+Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

@@ -24,7 +24,7 @@ public EmailSaveOptions()
 
 ## EmailSaveOptions(MailMessageOutput) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`EmailSaveOptions`](../../emailsaveoptions) ile sınıf[`MailMessageOutput`](../mailmessageoutput) parametre
+Yeni bir örneğini başlatır.[`EmailSaveOptions`](../../emailsaveoptions) ile sınıf[`MailMessageOutput`](../mailmessageoutput)parametre
 
 ```csharp
 public EmailSaveOptions(MailMessageOutput mailMessageOutput)

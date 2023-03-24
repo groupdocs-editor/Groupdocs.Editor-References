@@ -16,7 +16,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Girdi belgesinin WYSIWYG HTML düzenleyicisinde düzenlenmiş ve ' örneği olarak saklanan sürümü[`EditableDocument`](../../editabledocument)belirli bir formatın çıktı belgesine dönüştürülmesi gereken sınıf. Boş bırakılmamalı veya elden çıkarılmamalıdır. |
+| inputDocument | EditableDocument | Girdi belgesinin WYSIWYG HTML düzenleyicisinde düzenlenmiş ve ' örneği olarak saklanan sürümü[`EditableDocument`](../../editabledocument) belirli bir formatın çıktı belgesine dönüştürülmesi gereken sınıf. Boş bırakılmamalı veya elden çıkarılmamalıdır. |
 | outputDocument | Stream | Ortaya çıkan belgenin içeriğinin kaydedileceği çıktı akışı. Boş olmamalı, elden çıkarılmalı, yazmayı desteklemelidir. |
 | saveOptions | ISaveOptions | Ortaya çıkan belgenin biçimini tanımlayan belge kaydetme seçenekleri, ve ayrıca genel ve biçime özel kaydetme seçenekleri. boş olmak zorunda değil. |
 
@@ -46,7 +46,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Girdi belgesinin WYSIWYG HTML düzenleyicisinde düzenlenmiş ve ' örneği olarak saklanan sürümü[`EditableDocument`](../../editabledocument)belirli bir formatın çıktı belgesine dönüştürülmesi gereken sınıf. Boş bırakılmamalı veya elden çıkarılmamalıdır. |
+| inputDocument | EditableDocument | Girdi belgesinin WYSIWYG HTML düzenleyicisinde düzenlenmiş ve ' örneği olarak saklanan sürümü[`EditableDocument`](../../editabledocument) belirli bir formatın çıktı belgesine dönüştürülmesi gereken sınıf. Boş bırakılmamalı veya elden çıkarılmamalıdır. |
 | filePath | String | Çıktı belgesinin kaydedileceği dosyanın yolu. Aynı ada sahip dosya var, tamamen yeniden yazılacak. Yollu dize boş, boş olmamalı veya yalnızca boşluk içermemelidir. |
 | saveOptions | ISaveOptions | Ortaya çıkan belgenin biçimini tanımlayan belge kaydetme seçenekleri, ve ayrıca genel ve biçime özel kaydetme seçenekleri. boş olmak zorunda değil. |
 

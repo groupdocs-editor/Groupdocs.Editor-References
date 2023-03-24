@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Ekitap belgelerini desteklenen tüm biçimlerde düzenlemek için özel seçenekleri belirlemeye ve ayarlamaya izin verir ePub MOBI ve AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /tr/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
@@ -25,8 +25,8 @@ public sealed class EbookEditOptions : IEditOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Dil bilgisinin HTML işaretlemesine 'lang' HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek, çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır (`yanlış` ). |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (`yanlış` ). |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Dil bilgisinin HTML işaretlemesine 'lang' HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek, çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır (`YANLIŞ`). |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (`YANLIŞ`). |
 
 ### Notlar
 

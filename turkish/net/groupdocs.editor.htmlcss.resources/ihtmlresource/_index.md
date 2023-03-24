@@ -3,7 +3,7 @@ title: IHtmlResource
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bilinmeyen HTML kaynağının bir örneğini temsil eder raster veya vektör görüntüsü stil sayfası yazı tipi metin kaynağı CSS XML ses vb.
 type: docs
-weight: 340
+weight: 440
 url: /tr/net/groupdocs.editor.htmlcss.resources/ihtmlresource/
 ---
 ## IHtmlResource interface

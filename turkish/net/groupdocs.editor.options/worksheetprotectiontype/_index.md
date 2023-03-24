@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Elektronik Tablo çalışma sayfası sekme koruma türlerini temsil eder
 type: docs
-weight: 1030
+weight: 1260
 url: /tr/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

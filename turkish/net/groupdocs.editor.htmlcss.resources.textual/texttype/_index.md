@@ -3,7 +3,7 @@ title: TextType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir adet desteklenebilir metinsel kaynak tipini temsil eder
 type: docs
-weight: 500
+weight: 650
 url: /tr/net/groupdocs.editor.htmlcss.resources.textual/texttype/
 ---
 ## TextType structure

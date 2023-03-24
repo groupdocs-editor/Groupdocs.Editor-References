@@ -3,7 +3,7 @@ title: FontResourceBase
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Tüm özellikleriyle HTML belgesi için bir kaynak olarak desteklenen herhangi bir yazı tipi türü için temel sınıf
 type: docs
-weight: 270
+weight: 370
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/
 ---
 ## FontResourceBase class

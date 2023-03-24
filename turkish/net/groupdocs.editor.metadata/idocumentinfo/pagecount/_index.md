@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Tip uygulanırken sayfaların veya diğer benzer biçime bağlı varlıkların sekmeler slaytlar vb. sayısını sayısını döndürmelidir. 1.
+description: Tür uygularken sayfaların veya diğer benzer biçime bağlı varlıkların sekmeler slaytlar vb. sayısını sayısını döndürmelidir. 1.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.metadata/idocumentinfo/pagecount/
 ---
 ## IDocumentInfo.PageCount property
 
-Tip uygulanırken, sayfaların veya diğer benzer biçime bağlı varlıkların (sekmeler, slaytlar vb.) sayısını (sayısını) döndürmelidir. 1.
+Tür uygularken, sayfaların veya diğer benzer biçime bağlı varlıkların (sekmeler, slaytlar vb.) sayısını (sayısını) döndürmelidir. 1.
 
 ```csharp
 public int PageCount { get; }

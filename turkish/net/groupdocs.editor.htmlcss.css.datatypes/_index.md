@@ -8,12 +8,23 @@ url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/
 ---
 GroupDocs.Editor.HtmlCss.Css.DataTypes ad alanı, CSS veri türlerini temsil eden sınıflar sağlar.
 
+## sınıflar
+
+| Sınıf | Tanım |
+| --- | --- |
+| [ArgbColor.KnownColors](./argbcolor.knowncolors) | CSS standart 'de sabit benzersiz ad ve değere sahip tüm "bilinen renkleri" içerir. |
 ## Yapılar
 
 | Yapı | Tanım |
 | --- | --- |
+| [ArgbColor](./argbcolor) | Dönüştürücüler ve serileştiriciler ile ARGB formatında bir renk değerini temsil eder |
 | [Length](./length) | Yüzde ve birimsiz tür dahil olmak üzere herhangi bir desteklenebilir birimdeki bir CSS uzunluk değerini temsil eder. Değerler tamsayı veya değişken, negatif, sıfır ve pozitif olabilir. Değişmez yapı. |
 | [Ratio](./ratio) | "pay" ve "payda" olarak adlandırılan iki birimsiz değer arasındaki oranı belirterek, ortam sorgularındaki en boy oranlarını ve taramalı görüntülerde en boy oranlarını açıklamak için kullanılan bir "oran" CSS veri türünü temsil eder. değişmez yapı. |
+## Arayüzler
+
+| Arayüz | Tanım |
+| --- | --- |
+| [ICssDataType](./icssdatatype) | CSS özelliklerinde kullanılan tüm CSS veri türleri için ortak arayüz |
 ## numaralandırma
 
 | numaralandırma | Tanım |

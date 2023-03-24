@@ -3,7 +3,7 @@ title: ImageType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Desteklenebilir bir görüntü tipini format temsil eder hem raster hem de vektör formatlarını destekler
 type: docs
-weight: 390
+weight: 490
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/imagetype/
 ---
 ## ImageType structure
@@ -24,10 +24,10 @@ public struct ImageType : IEquatable<ImageType>, IResourceType
 | static [Icon](../../groupdocs.editor.htmlcss.resources.images/imagetype/icon) { get; } | SİMGE görüntü türü |
 | static [Jpeg](../../groupdocs.editor.htmlcss.resources.images/imagetype/jpeg) { get; } | JPEG resim türü |
 | static [Png](../../groupdocs.editor.htmlcss.resources.images/imagetype/png) { get; } | PNG resim türü |
-| static [Svg](../../groupdocs.editor.htmlcss.resources.images/imagetype/svg) { get; } | SVG vektör görüntü tipi |
+| static [Svg](../../groupdocs.editor.htmlcss.resources.images/imagetype/svg) { get; } | SVG vektör görüntü türü |
 | static [Tiff](../../groupdocs.editor.htmlcss.resources.images/imagetype/tiff) { get; } | TIFF (Etiketli Görüntü Dosyası Biçimi) raster görüntü türü |
 | static [Undefined](../../groupdocs.editor.htmlcss.resources.images/imagetype/undefined) { get; } | Tanımsız görüntü türü - normalde olmaması gereken özel değer |
-| static [Wmf](../../groupdocs.editor.htmlcss.resources.images/imagetype/wmf) { get; } | WMF (Windows Meta Dosyası) vektör görüntü tipi |
+| static [Wmf](../../groupdocs.editor.htmlcss.resources.images/imagetype/wmf) { get; } | WMF (Windows Meta Dosyası) vektör görüntü türü |
 | [FileExtension](../../groupdocs.editor.htmlcss.resources.images/imagetype/fileextension) { get; } | Belirli bir görüntü türünün küçük harfli dosya uzantısı (baştaki nokta karakteri olmadan). Tanımsız tür için 'unsefined'. dizesini döndürür. |
 | [FormalName](../../groupdocs.editor.htmlcss.resources.images/imagetype/formalname) { get; } | Bu görüntü biçiminin resmi adını döndürür. Hiçbir zaman NULL değerini döndürmez. Örnek bozuk değilse, asla bir istisna oluşturmaz. |
 | [Format](../../groupdocs.editor.htmlcss.resources.images/imagetype/format) { get; } | .NET'e özgü bir temsili varsa, belirli bir görüntü formatının .NET standart görüntü formatı açıklaması. Tanımsız tip için boş bir değer döndürür. .NET'te temsil edilmeyen tüm biçimler için bir InvalidOperationException. oluşturur. |

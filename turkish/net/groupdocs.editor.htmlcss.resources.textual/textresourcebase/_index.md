@@ -3,7 +3,7 @@ title: TextResourceBase
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Metin içeriği ve kodlaması olan desteklenen herhangi bir metin kaynağı için temel sınıf
 type: docs
-weight: 490
+weight: 640
 url: /tr/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/
 ---
 ## TextResourceBase class

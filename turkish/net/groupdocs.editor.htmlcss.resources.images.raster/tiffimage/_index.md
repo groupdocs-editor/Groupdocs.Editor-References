@@ -3,7 +3,7 @@ title: TiffImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Meta verileri ve ek yöntemleriyle TIFF Etiketli Görüntü Dosyası Biçimi biçimindeki bir görüntüyü temsil eder
 type: docs
-weight: 460
+weight: 560
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/
 ---
 ## TiffImage class

@@ -3,7 +3,7 @@ title: IsFloat
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu Uzunluk örneğinin sayısal değerinin başlangıçta bir değişken FP32 numarası olarak belirtilip depolanmadığını gösterir
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/isfloat/
 ---
 ## Length.IsFloat property

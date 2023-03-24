@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: DOCX RTF ODT vb. gibi WordProcessing Word uyumlu belgeleri Editor class içine yüklemek için seçenekler içerir
 type: docs
-weight: 980
+weight: 1210
 url: /tr/net/groupdocs.editor.options/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

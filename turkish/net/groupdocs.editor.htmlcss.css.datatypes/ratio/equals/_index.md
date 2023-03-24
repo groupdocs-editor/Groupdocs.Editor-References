@@ -3,7 +3,7 @@ title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu örneğin belirtilen Oran instance ile eşit olup olmadığını belirler.
 type: docs
-weight: 80
+weight: 70
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}

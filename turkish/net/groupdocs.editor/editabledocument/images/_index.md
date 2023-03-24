@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının raster görüntüler alınmasına izin verir.
+description: Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının raster ve vektör görüntüleri alınmasına izin verir.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.editor/editabledocument/images/
 ---
 ## EditableDocument.Images property
 
-Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının (raster görüntüler) alınmasına izin verir.
+Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının (raster ve vektör görüntüleri) alınmasına izin verir.
 
 ```csharp
 public List<IImageResource> Images { get; }

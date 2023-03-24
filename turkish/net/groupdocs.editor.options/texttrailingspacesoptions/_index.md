@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düz metin belgesi TXT açılırken sondaki boşluk işleme için mevcut seçenekleri içerir
 type: docs
-weight: 960
+weight: 1170
 url: /tr/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

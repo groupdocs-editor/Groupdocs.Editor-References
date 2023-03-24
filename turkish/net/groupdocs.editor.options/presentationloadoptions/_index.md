@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: PPTX PPTM PPSX vb. gibi tüm desteklenen Sunum biçimlerinin belgelerini yüklemek için özel seçenekler belirlemeye izin verir.
 type: docs
-weight: 870
+weight: 1080
 url: /tr/net/groupdocs.editor.options/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu oranı dizgeye seri hale getirir ve it değerini döndürür.
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault/
 ---
 ## Ratio.SerializeDefault method

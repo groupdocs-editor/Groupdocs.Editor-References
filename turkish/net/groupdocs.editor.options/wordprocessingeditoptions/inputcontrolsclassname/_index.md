@@ -1,14 +1,14 @@
 ---
 title: InputControlsClassName
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Girdi Kelime İşleme belgesindeki bazı alanları temsil eden her HTML öğesindeki sınıf özniteliklerine yerleştirilecek bir sınıf adı belirtmeye izin verir. Varsayılan olarak NULLdur  sınıf öznitelikleri uygulanmaz.
+description: Girdi WordProcessing belgesindeki bazı alanları temsil eden her HTML öğesindeki sınıf özniteliklerine yerleştirilecek bir sınıf adının belirtilmesine izin verir. Varsayılan olarak NULLdur  sınıf öznitelikleri uygulanmaz.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname/
 ---
 ## WordProcessingEditOptions.InputControlsClassName property
 
-Girdi Kelime İşleme belgesindeki bazı alanları temsil eden, her HTML öğesindeki 'sınıf' özniteliklerine yerleştirilecek bir sınıf adı belirtmeye izin verir. Varsayılan olarak NULL'dur - 'sınıf' öznitelikleri uygulanmaz.
+Girdi WordProcessing belgesindeki bazı alanları temsil eden, her HTML öğesindeki 'sınıf' özniteliklerine yerleştirilecek bir sınıf adının belirtilmesine izin verir. Varsayılan olarak NULL'dur - 'sınıf' öznitelikleri uygulanmaz.
 
 ```csharp
 public string InputControlsClassName { get; set; }

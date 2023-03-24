@@ -3,7 +3,7 @@ title: PageRange
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Açık veya kapalı sınırları olabilen bir sayfa aralığını kapsüller. Varsayılan olarak tamamen açıktır  mevcut tüm sayfaları içerir. Sayfa numaralandırması 1den başlar 0. den değil
 type: docs
-weight: 810
+weight: 1020
 url: /tr/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

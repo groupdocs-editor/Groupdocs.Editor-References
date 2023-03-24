@@ -3,7 +3,7 @@ title: AttributeNamesFontSettings
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Öznitelik adlarının yazı tipini temsil etmekten sorumludur
 type: docs
-weight: 30
+weight: 10
 url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeNamesFontSettings property
@@ -11,11 +11,12 @@ url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsett
 Öznitelik adlarının yazı tipini temsil etmekten sorumludur
 
 ```csharp
-public Font AttributeNamesFontSettings { get; set; }
+public WebFont AttributeNamesFontSettings { get; }
 ```
 
 ### Ayrıca bakınız
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * ad alanı [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * toplantı [GroupDocs.Editor](../../../)

@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Elektronik posta eposta belgelerini oluşturmak ve kaydetmek için özel seçeneklerin belirtilmesine izin verir
 type: docs
-weight: 710
+weight: 860
 url: /tr/net/groupdocs.editor.options/emailsaveoptions/
 ---
 ## EmailSaveOptions class
@@ -19,7 +19,7 @@ public sealed class EmailSaveOptions : ISaveOptions
 | İsim | Tanım |
 | --- | --- |
 | [EmailSaveOptions](emailsaveoptions#constructor)() | Yeni bir örneğini başlatır.[`EmailSaveOptions`](../emailsaveoptions) tüm seçeneklerin varsayılan değerlerine ayarlandığı sınıf |
-| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Yeni bir örneğini başlatır.[`EmailSaveOptions`](../emailsaveoptions) ile sınıf[`MailMessageOutput`](./mailmessageoutput) parametre |
+| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Yeni bir örneğini başlatır.[`EmailSaveOptions`](../emailsaveoptions) ile sınıf[`MailMessageOutput`](./mailmessageoutput)parametre |
 
 ## Özellikleri
 

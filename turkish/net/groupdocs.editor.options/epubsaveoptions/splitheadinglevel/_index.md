@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2 olarak ayarlanıyor0 bölmeyi devre dışı bırakır böylece eKitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir
+description: ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2 . olarak ayarlanıyor0 bölmeyi devre dışı bırakır böylece eKitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.options/epubsaveoptions/splitheadinglevel/
 ---
 ## EpubSaveOptions.SplitHeadingLevel property
 
-ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-Kitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir
+ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` . olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-Kitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir
 
 ```csharp
 public int SplitHeadingLevel { get; set; }
@@ -18,7 +18,7 @@ public int SplitHeadingLevel { get; set; }
 
 Bu özellik 1 ile 9 arasında bir değere ayarlandığında, belge kullanılarak biçimlendirilen paragraflara bölünür**Başlık 1** ,**Başlık 2** ,**Başlık 3** vb. stiller belirtilen başlık düzeyine kadar.
 
-Varsayılan olarak yalnızca**Başlık 1** ve**Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfıra ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
+Varsayılan olarak yalnızca**Başlık 1** Ve**Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfıra ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
 
 ### Ayrıca bakınız
 

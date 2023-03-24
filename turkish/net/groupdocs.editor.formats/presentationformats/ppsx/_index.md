@@ -1,14 +1,14 @@
 ---
 title: Ppsx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft Office Open XML PresentationML Makro İçermeyen Slayt Gösterisi PPSX dosyası Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/ppsx .
+description: Microsoft Office Open XML PresentationML Makro İçermeyen Slayt Gösterisi PPSX dosyası Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/ppsx .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.editor.formats/presentationformats/ppsx/
 ---
 ## PresentationFormats.Ppsx field
 
-Microsoft Office Open XML PresentationML Makro İçermeyen Slayt Gösterisi (PPSX) dosyası, Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/ppsx) .
+Microsoft Office Open XML PresentationML Makro İçermeyen Slayt Gösterisi (PPSX) dosyası, Slayt Gösterisi amacıyla Microsoft PowerPoint 2007 ve üzeri kullanılarak oluşturulmuştur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/ppsx) .
 
 ```csharp
 public static readonly PresentationFormats Ppsx;

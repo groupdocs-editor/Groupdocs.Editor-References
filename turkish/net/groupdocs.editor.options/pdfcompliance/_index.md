@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: PDF standartları uyumluluk düzeyini belirtir
 type: docs
-weight: 820
+weight: 1030
 url: /tr/net/groupdocs.editor.options/pdfcompliance/
 ---
 ## PdfCompliance enumeration

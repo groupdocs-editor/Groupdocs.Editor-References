@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | İsim | Tanım |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Mevcut tüm kaynakların bir listesini döndürür: tüm stil sayfaları, HTML'den görüntüler ve tüm stil sayfaları, fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Mevcut tüm kaynakların bir listesini döndürür: tüm stil sayfaları, HTML'den görüntüler ve tüm stil sayfaları, yazı tipleri, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Ses kaynaklarının bir listesini döndürür |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | CSS kaynaklarının bir listesini döndürür |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Bu HTML belgesi tarafından kullanılan harici yazı tipi kaynaklarının alınmasına izin verir |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının (raster görüntüler) alınmasına izin verir. |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Bu HTML belgesi tarafından kullanılan harici görüntü kaynaklarının (raster ve vektör görüntüleri) alınmasına izin verir. |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Bu Düzenlenebilir belgenin zaten atılıp atılmadığını (doğru) veya olmadığını (yanlış) belirler |
 
 ## yöntemler
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Statik fabrika, belirtilen HTML biçimlendirmesinden bir EditableDocument örneği ve karşılık gelen bağlantılı bir dizi kaynak oluşturur |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Tam path tarafından belirtilen klasörde bulunan, belirtilen bir HTML işaretlemesinden ve kaynaklardan bir EditableDocument örneği oluşturan statik fabrika |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Bu Düzenlenebilir belge örneğini atar, içeriğini atar ve yöntemlerini ve özelliklerini çalışmaz hale getirir |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | HTML belgesinin gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki içerik) bir dize olarak döndürür. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | HTML belgesinin bir gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki içerik) bir dize, olarak döndürür; burada harici kaynaklara bağlantılar belirtilen öneki içerir. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | HTML belgesinin gövdesini (bu etiketler olmadan BODY etiketlerini açma ve kapatma arasındaki iç içeriği) bir dize olarak döndürür. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | HTML belgesinin bir gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki iç içerik) bir dize, olarak döndürür; burada harici kaynaklara bağlantılar belirtilen öneki içerir. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | HTML belgesinin genel içeriğini bir dize olarak döndürür. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | HTML belgesinin genel içeriğini, harici kaynaklara olan bağlantıların belirtilen öneki içerdiği bir dize olarak döndürür. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Tüm harici stil sayfalarının içeriğini, bir dizenin bir stil sayfasını temsil ettiği bir dizi listesi olarak döndürür. Bu belge için CSS yoksa boş liste döndürür. |

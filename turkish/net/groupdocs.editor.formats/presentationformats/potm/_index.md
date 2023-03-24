@@ -1,14 +1,14 @@
 ---
 title: Potm
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft Office Open XML PresentationML MacroEnabled Template POTM Makroları destekleyen dosyalardır. POTM dosyaları PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/potm .
+description: Microsoft Office Open XML PresentationML MacroEnabled Template POTM Makroları destekleyen dosyalardır. POTM dosyaları PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/potm .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/presentationformats/potm/
 ---
 ## PresentationFormats.Potm field
 
-Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM), Makroları destekleyen dosyalardır. POTM dosyaları, PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/potm) .
+Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM), Makroları destekleyen dosyalardır. POTM dosyaları, PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/potm) .
 
 ```csharp
 public static readonly PresentationFormats Potm;

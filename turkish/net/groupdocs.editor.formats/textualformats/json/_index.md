@@ -1,14 +1,14 @@
 ---
 title: Json
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: JSON JavaScript Object Notation verileri depolamak ve iletmek için insanlar tarafından okunabilir metin kullanan verileri paylaşmak için açık standart bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/web/json/ .
+description: JSON JavaScript Object Notation verileri depolamak ve iletmek için insanlar tarafından okunabilir metin kullanan verileri paylaşmak için açık standart bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/web/json/ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.formats/textualformats/json/
 ---
 ## TextualFormats.Json field
 
-JSON (JavaScript Object Notation), verileri depolamak ve iletmek için insanlar tarafından okunabilir metin kullanan, verileri paylaşmak için açık standart bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/web/json/) .
+JSON (JavaScript Object Notation), verileri depolamak ve iletmek için insanlar tarafından okunabilir metin kullanan, verileri paylaşmak için açık standart bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/web/json/) .
 
 ```csharp
 public static readonly TextualFormats Json;

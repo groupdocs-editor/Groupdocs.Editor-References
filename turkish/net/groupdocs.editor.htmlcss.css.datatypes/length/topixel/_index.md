@@ -3,7 +3,7 @@ title: ToPixel
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Mümkünse uzunluğu birkaç piksele dönüştürür. the geçerli birim göreceli ise bir istisna atılır.
 type: docs
-weight: 250
+weight: 240
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/topixel/
 ---
 ## Length.ToPixel method

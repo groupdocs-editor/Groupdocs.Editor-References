@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Uzunluk değerini başka bir birim type ye dönüştürmeden orijinal yerel biçiminde depolandığı şekliyle bu uzunluğun dize gösterimini döndürür
 type: docs
-weight: 230
+weight: 220
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/serializedefault/
 ---
 ## Length.SerializeDefault method

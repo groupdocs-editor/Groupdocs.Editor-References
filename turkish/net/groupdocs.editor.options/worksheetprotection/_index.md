@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Çıktı Elektronik Tablo belgesindeki bir çalışma sayfasını belirtilen türünün belirtilen bir parola ile değiştirilmesine karşı korumaya olanak tanıyan çalışma sayfası koruma seçeneklerini kapsüller.
 type: docs
-weight: 1020
+weight: 1250
 url: /tr/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

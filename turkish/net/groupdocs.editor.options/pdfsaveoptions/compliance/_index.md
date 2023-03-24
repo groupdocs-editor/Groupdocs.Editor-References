@@ -1,14 +1,14 @@
 ---
 title: Compliance
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Çıktı belgeleri için PDF standartlarına uygunluk düzeyini belirtir. Varsayılan PdfCompliance.Pdf17. dir.
+description: Çıktı belgeleri için PDF standartlarına uygunluk düzeyini belirtir. Varsayılan PdfCompliance.Pdf17.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/pdfsaveoptions/compliance/
 ---
 ## PdfSaveOptions.Compliance property
 
-Çıktı belgeleri için PDF standartlarına uygunluk düzeyini belirtir. Varsayılan, PdfCompliance.Pdf17. 'dir.
+Çıktı belgeleri için PDF standartlarına uygunluk düzeyini belirtir. Varsayılan: PdfCompliance.Pdf17.
 
 ```csharp
 public PdfCompliance Compliance { get; set; }

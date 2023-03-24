@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Standart System.IDisposable arabirimini genişletir bir nesnenin geçerli durumunu elde etmeyi ve event yi atmaya abone olmayı sağlar
 type: docs
-weight: 330
+weight: 430
 url: /tr/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

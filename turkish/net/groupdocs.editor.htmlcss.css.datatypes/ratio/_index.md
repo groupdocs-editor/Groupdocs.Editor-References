@@ -3,7 +3,7 @@ title: Ratio
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: pay ve payda olarak adlandırılan iki birimsiz değer arasındaki oranı belirterek ortam sorgularındaki en boy oranlarını ve taramalı görüntülerde en boy oranlarını açıklamak için kullanılan bir oran CSS veri türünü temsil eder. değişmez yapı.
 type: docs
-weight: 210
+weight: 280
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 "pay" ve "payda" olarak adlandırılan iki birimsiz değer arasındaki oranı belirterek, ortam sorgularındaki en boy oranlarını ve taramalı görüntülerde en boy oranlarını açıklamak için kullanılan bir "oran" CSS veri türünü temsil eder. değişmez yapı.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Özellikleri
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | İsim | Tanım |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Bu oranın bir paydasını döndürür |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Bu oranın varsayılan değere sahip olup olmadığını veya "1/1" (Tek) olup olmadığını belirler. |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Bu oranın payını verir |
 
 ## yöntemler
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Ayrıca bakınız
 
+* interface [ICssDataType](../icssdatatype)
 * ad alanı [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * toplantı [GroupDocs.Editor](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. Varsayılan olarak false.
+description: Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. varsayılan olarakYANLIŞ .
 type: docs
 weight: 60
 url: /tr/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. Varsayılan olarak false.
+Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. varsayılan olarak`YANLIŞ` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

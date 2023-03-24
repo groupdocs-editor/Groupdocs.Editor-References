@@ -3,7 +3,7 @@ title: FontType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Desteklenebilir bir yazı tipini temsil eder
 type: docs
-weight: 280
+weight: 380
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/
 ---
 ## FontType structure

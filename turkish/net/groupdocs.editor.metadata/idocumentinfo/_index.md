@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Tüm dosya meta veri sarmalayıcıları için ortak arabirim
 type: docs
-weight: 590
+weight: 740
 url: /tr/net/groupdocs.editor.metadata/idocumentinfo/
 ---
 ## IDocumentInfo interface
@@ -20,7 +20,7 @@ public interface IDocumentInfo
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/idocumentinfo/format) { get; } | Tip uygulamasında, bir format ailesini temsil eden ve IDocumentFormat interface 'den miras alan bir türden tek bir değer olarak bir belge formatı döndürmelidir. |
 | [IsEncrypted](../../groupdocs.editor.metadata/idocumentinfo/isencrypted) { get; } | Belirli bir dosyanın şifrelenip şifrelenmediğini ve açmak için parola gerektirip gerektirmediğini gösterir. Şifrelenemeyen belge türleri için (tümü metin tabanlı gibi) her zaman 'false' döndürmelidir. |
-| [PageCount](../../groupdocs.editor.metadata/idocumentinfo/pagecount) { get; } | Tip uygulanırken, sayfaların veya diğer benzer biçime bağlı varlıkların (sekmeler, slaytlar vb.) sayısını (sayısını) döndürmelidir. 1. |
+| [PageCount](../../groupdocs.editor.metadata/idocumentinfo/pagecount) { get; } | Tür uygularken, sayfaların veya diğer benzer biçime bağlı varlıkların (sekmeler, slaytlar vb.) sayısını (sayısını) döndürmelidir. 1. |
 | [Size](../../groupdocs.editor.metadata/idocumentinfo/size) { get; } | Bayt cinsinden belge boyutu |
 
 ### Ayrıca bakınız

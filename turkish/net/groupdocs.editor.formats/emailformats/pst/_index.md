@@ -1,14 +1,14 @@
 ---
 title: Pst
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: .pst uzantılı dosyalar çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını Kişisel Depolama Tablosu olarak da adlandırılır temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/pst/ .
+description: .pst uzantılı dosyalar çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını Kişisel Depolama Tablosu olarak da adlandırılır temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/pst/ .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.editor.formats/emailformats/pst/
 ---
 ## EmailFormats.Pst field
 
-.pst uzantılı dosyalar, çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını (Kişisel Depolama Tablosu olarak da adlandırılır) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/pst/) .
+.pst uzantılı dosyalar, çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını (Kişisel Depolama Tablosu olarak da adlandırılır) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/pst/) .
 
 ```csharp
 public static readonly EmailFormats Pst;

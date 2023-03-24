@@ -1,14 +1,14 @@
 ---
 title: Epub
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Elektronik Yayın ePub biçimi yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir ekitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/ebook/epub/ .
+description: Elektronik Yayın ePub biçimi yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir ekitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/ebook/epub/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.formats/ebookformats/epub/
 ---
 ## EBookFormats.Epub field
 
-Elektronik Yayın (ePub) biçimi, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/epub/) .
+Elektronik Yayın (ePub) biçimi, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/epub/) .
 
 ```csharp
 public static readonly EBookFormats Epub;

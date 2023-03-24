@@ -3,7 +3,7 @@ title: op_Equality
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: İki oranı karşılaştırır ve ikisinin eşleşip eşleşmediğini belirten bir boole değeri döndürür.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_equality/
 ---
 ## Ratio Equality operator

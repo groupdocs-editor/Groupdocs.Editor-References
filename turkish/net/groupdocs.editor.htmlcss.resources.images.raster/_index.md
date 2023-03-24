@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Raster
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Resources.Images.Raster ad alanı yalnızca raster görüntü kaynaklarını temsil eden sınıflar sağlar.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/
 ---
 GroupDocs.Editor.HtmlCss.Resources.Images.Raster ad alanı, yalnızca raster görüntü kaynaklarını temsil eden sınıflar sağlar.

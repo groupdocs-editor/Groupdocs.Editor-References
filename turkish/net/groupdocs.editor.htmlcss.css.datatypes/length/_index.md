@@ -3,7 +3,7 @@ title: Length
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Yüzde ve birimsiz tür dahil olmak üzere herhangi bir desteklenebilir birimdeki bir CSS uzunluk değerini temsil eder. Değerler tamsayı veya değişken negatif sıfır ve pozitif olabilir. Değişmez yapı.
 type: docs
-weight: 190
+weight: 260
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure
@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/
 Yüzde ve birimsiz tür dahil olmak üzere herhangi bir desteklenebilir birimdeki bir CSS uzunluk değerini temsil eder. Değerler tamsayı veya değişken, negatif, sıfır ve pozitif olabilir. Değişmez yapı.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 ```
 
 ## Özellikleri
@@ -21,7 +21,6 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | Uzunluk örneğinin kayan bir sayısal değerini döndürür. Asla istisna oluşturmaz - gerekirse Tamsayı değerini Kayan değere dönüştürür. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | Dahili olarak bir tamsayı olarak depolanıyorsa, bu Uzunluk örneğinin bir tamsayı sayısal değerini döndürür, veya orijinal olarak kayan sayı olarak depolandıysa bir istisna atar. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | Uzunluğun mutlak birimler halinde verilmiş olup olmadığını alır. Böyle bir uzunluk piksele dönüştürülebilir. |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | Bu Uzunluk örneğinin varsayılan bir değeri olup olmadığını gösterir — birimsiz sıfır. IsUnitlessZero özelliğiyle aynı. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | Bu Uzunluk örneğinin sayısal değerinin başlangıçta bir değişken (FP32) numarası olarak belirtilip depolanmadığını gösterir |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | Bu Uzunluk örneğinin sayısal değerinin başlangıçta bir tamsayı (INT32) numarası olarak belirtilip depolanmadığını gösterir |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | Bu uzunluğun sayısal değerinin negatif bir sayı olup olmadığını belirler |
@@ -52,6 +51,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | static [TryParse](../../groupdocs.editor.htmlcss.css.datatypes/length/tryparse)(string, out Length) | Belirtilen bir diziyi, sayısal değeri ve birim adı da dahil olmak üzere bir Uzunluk değeri olarak ayrıştırmaya çalışır |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/length/op_equality) | Verilen iki uzunluğun eşitliğini kontrol eder. |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/length/op_inequality) | Verilen iki uzunluğun eşitsizliğini kontrol eder. |
+| [operator *](../../groupdocs.editor.htmlcss.css.datatypes/length/op_multiply) | Verilen Uzunluğu verilen factor ile çarpar |
 
 ## Alanlar
 
@@ -74,6 +74,7 @@ Bu tür, sonraki CSS veri türlerini kapsar: https://developer.mozilla.org/en-US
 
 ### Ayrıca bakınız
 
+* interface [ICssDataType](../icssdatatype)
 * ad alanı [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * toplantı [GroupDocs.Editor](../../)
 

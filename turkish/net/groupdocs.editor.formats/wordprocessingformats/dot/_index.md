@@ -1,14 +1,14 @@
 ---
 title: Dot
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: MS Word 972007 Şablonu daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/dot .
+description: MS Word 972007 Şablonu daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/dot/
 ---
 ## WordProcessingFormats.Dot field
 
-MS Word 97-2007 Şablonu, daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/dot) .
+MS Word 97-2007 Şablonu, daha fazla DOC veya DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/dot) .
 
 ```csharp
 public static readonly WordProcessingFormats Dot;

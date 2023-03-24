@@ -26,7 +26,7 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | örneğini döndürür[`FixedLayoutFormats`](../fixedlayoutformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | örneğini döndürür[`FixedLayoutFormats`](../fixedlayoutformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Bu örneğin, belirtilen diğer FixedLayoutFormats örneğine eşit olup olmadığını belirler |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Bu örneğin belirtilen diğer IDocumentFormat örneğine eşit olup olmadığını belirler |
 | override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Bu örneğin, muhtemelen kutulu FixedLayoutFormats olan belirtilen diğer nesneye eşit olup olmadığını belirler. |
@@ -40,8 +40,8 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Taşınabilir Belge Biçimi (PDF), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya formatının amacı, uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir formatta belgelerin ve diğer referans materyallerinin temsili için bir standart getirmekti. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/pdf/) . |
-| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS dosyası, Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer, ancak düzen, görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/page-description-language/xps/) . |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Taşınabilir Belge Biçimi (PDF), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya formatının amacı, uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir formatta belgelerin ve diğer referans materyallerinin temsili için bir standart getirmekti. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/pdf/) . |
+| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS dosyası, Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer, ancak düzen, görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/page-description-language/xps/) . |
 | static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | Varolan tüm sabit mizanpaj biçimleri üzerinde sayısız olasılık sağlayan dahili bir sınıf döndürür |
 
 ## Diğer_Üyeler

@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: XML Genişletilebilir Biçimlendirme Dili belgelerini yüklemek ve bunları HTML dosyasına dönüştürmek için özel seçenekler belirlemeye izin verir.
+description: XML Genişletilebilir Biçimlendirme Dili belgelerini düzenlemek ve bunları HTML biçimine dönüştürmek için özel seçenekler belirlemeye izin verir.
 type: docs
-weight: 1040
+weight: 1270
 url: /tr/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-XML (Genişletilebilir Biçimlendirme Dili) belgelerini yüklemek ve bunları HTML dosyasına dönüştürmek için özel seçenekler belirlemeye izin verir.
+XML (Genişletilebilir Biçimlendirme Dili) belgelerini düzenlemek ve bunları HTML biçimine dönüştürmek için özel seçenekler belirlemeye izin verir.
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Öznitelik değerleri için alıntı türünün (tek veya çift tırnak) belirtilmesine izin verir. Çift tırnak varsayılandır. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Metin belgesinin açılması için uygulanacak karakter kodlaması. Varsayılan olarak null — dahili belge kodlaması uygulanacaktır. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Bozuk XML yapısını düzeltmek için mekanizmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (yanlış). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | HTML'de temsil edildiğinde XML yapısına uygulanacak vurgulamayı ayarlamaya izin verir. Varsayılan olarak NULL'dur — varsayılan vurgulama uygulanır. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | HTML'de gösterildiğinde XML yapısına uygulanacak XML biçimlendirmesini ayarlamanıza izin verir. Varsayılan biçimlendirme kullanılır ve ayarlanabilir. Boş olamaz. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | HTML'de gösterildiğinde XML yapısına uygulanacak XML vurgulamanın ayarlanmasına izin verir. Varsayılan vurgulama kullanılır ve ayarlanabilir. Boş olamaz. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Değerler 'deki e-posta adresleri için tanıma algoritmasını etkinleştirmeye izin verir |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | URI tanıma algoritmasını etkinleştirmeye izin verir |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | İç etiket metninde sondaki boşlukların kesilmesine izin verir. Varsayılan olarak devre dışıdır (yanlış) — sondaki boşluklar korunur. |

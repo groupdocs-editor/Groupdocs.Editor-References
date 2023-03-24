@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Ayırıcı sınırlayıcı kullanan metin tabanlı Elektronik Tablo belgelerini CSV Sekme tabanlı vb. yükleme seçenekleri
 type: docs
-weight: 670
+weight: 820
 url: /tr/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Girdi belgesinin işlenmesi sırasında, bazı özel durumlarda performansı düşürebilen, ancak diğer yandan bellek kullanımını azaltan bellek optimizasyon mekanizmalarını etkinleştirir. Büyük belgeleri işlerken ve OutOfMemoryException ile karşılaşıldığında kullanışlıdır. Varsayılan değer yanlış (daha iyi performans için bellek optimizasyonu devre dışı bırakıldı). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılan`YANLIŞ` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılan`YANLIŞ` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Girdi belgesinin işlenmesi sırasında, bazı özel durumlarda performansı düşürebilen, ancak diğer yandan bellek kullanımını azaltan bellek optimizasyon mekanizmalarını etkinleştirir. Büyük belgeleri işlerken ve OutOfMemoryException ile karşılaşıldığında kullanışlıdır. Varsayılan`YANLIŞ` (daha iyi performans için bellek optimizasyonu devre dışı bırakıldı). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Metin tabanlı Elektronik Tablo belgeleri için bir dizi ayırıcı (sınırlayıcı) belirtmeye izin verir |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. Varsayılan olarak false. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Ardışık sınırlayıcıların bir olarak kabul edilip edilmeyeceğini tanımlar. varsayılan olarak`YANLIŞ` . |
 
 ### Notlar
 

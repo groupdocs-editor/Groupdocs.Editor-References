@@ -3,7 +3,7 @@ title: JpegImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Meta verileri ve ek yöntemleriyle JPEG Ortak Fotoğraf Uzmanları Grubu biçiminde bir görüntüyü temsil eder
 type: docs
-weight: 430
+weight: 530
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/jpegimage/
 ---
 ## JpegImage class

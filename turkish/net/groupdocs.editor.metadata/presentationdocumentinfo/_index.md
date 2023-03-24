@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir Sunum belgesinin meta verilerini temsil eder
 type: docs
-weight: 610
+weight: 760
 url: /tr/net/groupdocs.editor.metadata/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo structure
@@ -22,6 +22,12 @@ public struct PresentationDocumentInfo : IDocumentInfo
 | [IsEncrypted](../../groupdocs.editor.metadata/presentationdocumentinfo/isencrypted) { get; } | Bu özel Sunum belgesinin şifrelenip şifrelenmediğini ve açılış için parola gerektirip gerektirmediğini gösterir. |
 | [PageCount](../../groupdocs.editor.metadata/presentationdocumentinfo/pagecount) { get; } | Bu Sunum belgesindeki slayt sayısını verir |
 | [Size](../../groupdocs.editor.metadata/presentationdocumentinfo/size) { get; } | Bu Sunum belgesinin boyutunu bayt cinsinden döndürür |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| [GeneratePreview](../../groupdocs.editor.metadata/presentationdocumentinfo/generatepreview)(int) | Seçilen slaydın bir ön izlemesini SVG image biçiminde oluşturur ve döndürür |
 
 ### Ayrıca bakınız
 

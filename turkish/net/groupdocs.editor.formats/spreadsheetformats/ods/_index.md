@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: OpenDocument Elektronik Tablosu ODS kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablosu Belge formatının kısaltmasıdır. Veriler ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/ods .
+description: OpenDocument Elektronik Tablosu ODS kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablosu Belge formatının kısaltmasıdır. Veriler ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/ods/
 ---
 ## SpreadsheetFormats.Ods field
 
-OpenDocument Elektronik Tablosu (ODS), kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablosu Belge formatının kısaltmasıdır. Veriler, ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/ods) .
+OpenDocument Elektronik Tablosu (ODS), kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablosu Belge formatının kısaltmasıdır. Veriler, ODF dosyası içinde satırlar ve sütunlar halinde depolanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly SpreadsheetFormats Ods;

@@ -17,7 +17,7 @@ GroupDocs.Editor ad alanı, herhangi bir ek uygulama olmadan 3. taraf ön uç WY
 | [EncryptedException](./encryptedexception) | Kullanıcı, X509Certificates. kullanılarak şifrelenmiş bir belgeyi açmaya çalıştığında oluşan istisna |
 | [IncorrectPasswordException](./incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılan istisna. |
 | [InvalidFormatException](./invalidformatexception) | Kullanıcı bazı belgeleri orijinal belge biçimiyle uyumsuz biçime özgü seçeneklerle açmaya çalıştığında atılan istisna. |
-| [License](./license) | Bileşeni lisanslamak için yöntemler sağlar. Lisanslama hakkında daha fazla bilgi edinin[burada](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Bileşeni lisanslamak için yöntemler sağlar. Lisanslama hakkında daha fazla bilgi edinin[Burada](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Uygulama için yöntemler sağlar[ölçülü](https://purchase.groupdocs.com/faqs/licensing/metered) lisans. |
 | [PasswordRequiredException](./passwordrequiredexception) | Kullanıcı bir biçimde parola korumalı şifrelenmiş bir belgeyi açmaya çalıştığında ve bu belgeyi açmak için bir parola sağlamadığında atılan istisna. |
 

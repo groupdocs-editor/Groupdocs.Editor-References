@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Sunum PowerPoint uyumlu belgeleri oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 880
+weight: 1090
 url: /tr/net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class

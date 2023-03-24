@@ -3,7 +3,7 @@ title: PdfEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: PDF belgelerini düzenlemek için özel seçenekler belirlemeye izin verir
 type: docs
-weight: 830
+weight: 1040
 url: /tr/net/groupdocs.editor.options/pdfeditoptions/
 ---
 ## PdfEditOptions class

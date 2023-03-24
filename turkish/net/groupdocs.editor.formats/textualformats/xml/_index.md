@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Genişletilebilir İşaretleme Dili belgesi XML HTMLye benzer ancak nesneleri tanımlamak için etiket kullanımı farklıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/web/xml .
+description: Genişletilebilir İşaretleme Dili belgesi XML HTMLye benzer ancak nesneleri tanımlamak için etiket kullanımı farklıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/web/xml .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.editor.formats/textualformats/xml/
 ---
 ## TextualFormats.Xml field
 
-Genişletilebilir İşaretleme Dili belgesi (XML), HTML'ye benzer, ancak nesneleri tanımlamak için etiket kullanımı farklıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/xml) .
+Genişletilebilir İşaretleme Dili belgesi (XML), HTML'ye benzer, ancak nesneleri tanımlamak için etiket kullanımı farklıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/web/xml) .
 
 ```csharp
 public static readonly TextualFormats Xml;

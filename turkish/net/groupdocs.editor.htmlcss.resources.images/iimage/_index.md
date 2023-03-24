@@ -3,7 +3,7 @@ title: IImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Görüntü CSS veri türü iki boyutlu bir görüntüyü temsil eder
 type: docs
-weight: 370
+weight: 470
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/iimage/
 ---
 ## IImage interface

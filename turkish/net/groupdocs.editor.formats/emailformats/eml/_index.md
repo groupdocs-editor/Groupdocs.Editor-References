@@ -1,14 +1,14 @@
 ---
 title: Eml
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: EML dosya biçimi Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen eposta mesajlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/eml/ .
+description: EML dosya biçimi Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen eposta mesajlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/eml/ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.formats/emailformats/eml/
 ---
 ## EmailFormats.Eml field
 
-EML dosya biçimi, Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen e-posta mesajlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/eml/) .
+EML dosya biçimi, Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen e-posta mesajlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/eml/) .
 
 ```csharp
 public static readonly EmailFormats Eml;

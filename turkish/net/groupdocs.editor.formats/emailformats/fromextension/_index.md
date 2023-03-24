@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürEmailFormatsgroupdocs.editor.formats/emailformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürEmailFormatsgroupdocs.editor.formats/emailformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 130
 url: /tr/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-örneğini döndürür[`EmailFormats`](../../emailformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`EmailFormats`](../../emailformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Geri dönüş değeri
 
-Örneği[`EmailFormats`](../../emailformats) başarı durumunda yapı veya başarısızlık durumunda atılan istisna
+Örneği[`EmailFormats`](../../emailformats)başarı durumunda yapı veya başarısızlık durumunda atılan istisna
 
 ### Ayrıca bakınız
 

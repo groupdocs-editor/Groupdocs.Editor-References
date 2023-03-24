@@ -3,7 +3,7 @@ title: PngImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Meta verileri ve ek yöntemleriyle PNG Taşınabilir Ağ Grafikleri biçiminde bir görüntüyü temsil eder
 type: docs
-weight: 440
+weight: 540
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/pngimage/
 ---
 ## PngImage class

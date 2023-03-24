@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir WordProcessing belgesinin meta verilerini temsil eder
 type: docs
-weight: 640
+weight: 790
 url: /tr/net/groupdocs.editor.metadata/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo structure

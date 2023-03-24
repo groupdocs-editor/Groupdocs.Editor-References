@@ -1,14 +1,14 @@
 ---
 title: Tnef
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Aktarım Tarafsız Kapsülleme Formatı TNEF Mesajlaşma Uygulama Programlama Arayüzüne MAPI dayalı eposta eklerini kapsüllemek için Microsofta aittir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/tnef/ .
+description: Aktarım Tarafsız Kapsülleme Formatı TNEF Mesajlaşma Uygulama Programlama Arayüzüne MAPI dayalı eposta eklerini kapsüllemek için Microsofta aittir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/tnef/ .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.editor.formats/emailformats/tnef/
 ---
 ## EmailFormats.Tnef field
 
-Aktarım Tarafsız Kapsülleme Formatı (TNEF), Mesajlaşma Uygulama Programlama Arayüzüne (MAPI) dayalı e-posta eklerini kapsüllemek için Microsoft'a aittir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/tnef/) .
+Aktarım Tarafsız Kapsülleme Formatı (TNEF), Mesajlaşma Uygulama Programlama Arayüzüne (MAPI) dayalı e-posta eklerini kapsüllemek için Microsoft'a aittir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/tnef/) .
 
 ```csharp
 public static readonly EmailFormats Tnef;

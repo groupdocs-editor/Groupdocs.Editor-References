@@ -3,7 +3,7 @@ title: WordProcessingProtection
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: HTML den oluşturulan WordProcessing belgesi için belge koruma seçeneklerini kapsüller
 type: docs
-weight: 990
+weight: 1220
 url: /tr/net/groupdocs.editor.options/wordprocessingprotection/
 ---
 ## WordProcessingProtection class

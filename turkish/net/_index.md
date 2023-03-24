@@ -13,12 +13,14 @@ is_root: true
 | [GroupDocs.Editor](./groupdocs.editor) | GroupDocs.Editor ad alanı, herhangi bir ek uygulama olmadan 3. taraf ön uç WYSIWYG editörlerini kullanan belgeleri düzenlemek için sınıflar sağlar. |
 | [GroupDocs.Editor.Formats](./groupdocs.editor.formats) | GroupDocs.Editor.Formats ad alanı, desteklenen belge biçimlerini açıklayan arabirimler ve sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Css.DataTypes](./groupdocs.editor.htmlcss.css.datatypes) | GroupDocs.Editor.HtmlCss.Css.DataTypes ad alanı, CSS veri türlerini temsil eden sınıflar sağlar. |
+| [GroupDocs.Editor.HtmlCss.Css.Properties](./groupdocs.editor.htmlcss.css.properties) | GroupDocs.Editor.HtmlCss.Css.Properties ad alanı, farklı CSS özelliklerini (CSS bildirimlerinin bileşenleri) temsil eden türler sağlar. |
 | [GroupDocs.Editor.HtmlCss.Exceptions](./groupdocs.editor.htmlcss.exceptions) | GroupDocs.Editor.HtmlCss.Exceptions ad alanı, tüm HTML-, CSS-, resimler-, yazı tipleri- ve diğer kaynakla ilgili işlemlerden sorumlu sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources](./groupdocs.editor.htmlcss.resources) | GroupDocs.Editor.HtmlCss.Resources ad alanı, her türden HTML kaynağını temsil eden sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources.Audio](./groupdocs.editor.htmlcss.resources.audio) | GroupDocs.Editor.HtmlCss.Resources.Audio ad alanı, ses kaynaklarını temsil eden türler sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources.Fonts](./groupdocs.editor.htmlcss.resources.fonts) | GroupDocs.Editor.HtmlCss.Resources.Fonts ad alanı, yazı tipi kaynaklarını temsil eden sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images](./groupdocs.editor.htmlcss.resources.images) | GroupDocs.Editor.HtmlCss.Resources.Images ad alanı, genel olarak tüm türlerdeki görüntü kaynaklarını temsil eden sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images.Raster](./groupdocs.editor.htmlcss.resources.images.raster) | GroupDocs.Editor.HtmlCss.Resources.Images.Raster ad alanı, yalnızca raster görüntü kaynaklarını temsil eden sınıflar sağlar. |
+| [GroupDocs.Editor.HtmlCss.Resources.Images.Vector](./groupdocs.editor.htmlcss.resources.images.vector) | GroupDocs.Editor.HtmlCss.Resources.Images.Vector ad alanı, yalnızca vektör görüntü kaynaklarını temsil eden sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Resources.Textual](./groupdocs.editor.htmlcss.resources.textual) | GroupDocs.Editor.HtmlCss.Resources.Textual ad alanı, metin kaynaklarını temsil eden sınıflar sağlar. |
 | [GroupDocs.Editor.HtmlCss.Serialization](./groupdocs.editor.htmlcss.serialization) | GroupDocs.Editor.HtmlCss.Serialization ad alanı, HTML ve CSS biçimlendirme serileştirme işleminin ayarlanmasından sorumlu olan türler sağlar. |
 | [GroupDocs.Editor.Metadata](./groupdocs.editor.metadata) | GroupDocs.Editor.Metadata ad alanı, belge türüne bağlı olarak temel belge özelliklerini açıklayan sınıflar sağlar. |

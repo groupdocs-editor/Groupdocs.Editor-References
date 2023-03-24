@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Resources.Fonts ad alanı yazı tipi kaynaklarını temsil eden sınıflar sağlar.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 GroupDocs.Editor.HtmlCss.Resources.Fonts ad alanı, yazı tipi kaynaklarını temsil eden sınıflar sağlar.

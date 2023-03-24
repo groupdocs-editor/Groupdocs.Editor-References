@@ -3,7 +3,7 @@ title: IResourceType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bilinmeyen kaynak türünün/biçiminin resim yazı tipi metin bir örneğini temsil eder
 type: docs
-weight: 350
+weight: 450
 url: /tr/net/groupdocs.editor.htmlcss.resources/iresourcetype/
 ---
 ## IResourceType interface

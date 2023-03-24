@@ -3,7 +3,7 @@ title: IsZero
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu uzunluğun sayısal değerinin sıfır olup olmadığını belirler
 type: docs
-weight: 180
+weight: 170
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/iszero/
 ---
 ## Length.IsZero property

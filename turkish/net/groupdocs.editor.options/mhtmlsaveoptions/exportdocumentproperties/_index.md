@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Yerleşik ve özel belge özelliklerinin MHTMLye aktarılıp aktarılmayacağını belirtir. Varsayılan değeryanlış .
+description: Yerleşik ve özel belge özelliklerinin MHTMLye aktarılıp aktarılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties/
 ---
 ## MhtmlSaveOptions.ExportDocumentProperties property
 
-Yerleşik ve özel belge özelliklerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` .
+Yerleşik ve özel belge özelliklerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

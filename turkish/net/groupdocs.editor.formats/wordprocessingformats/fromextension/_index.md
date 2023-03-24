@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: örneğini döndürürWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsyapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+description: örneğini döndürürWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats yapı belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 type: docs
 weight: 120
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-örneğini döndürür[`WordProcessingFormats`](../../wordprocessingformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
+örneğini döndürür[`WordProcessingFormats`](../../wordprocessingformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Geri dönüş değeri
 
-Örneği[`WordProcessingFormats`](../../wordprocessingformats) başarı durumunda yapı veya başarısızlık durumunda atılan istisna
+Örneği[`WordProcessingFormats`](../../wordprocessingformats)başarı durumunda yapı veya başarısızlık durumunda atılan istisna
 
 ### Ayrıca bakınız
 

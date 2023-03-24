@@ -1,14 +1,14 @@
 ---
 title: Doc
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: MS Word 972007 İkili Dosya Biçimi DOC Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer kelime işlem belgelerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/doc .
+description: MS Word 972007 İkili Dosya Biçimi DOC Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer kelime işlem belgelerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/doc/
 ---
 ## WordProcessingFormats.Doc field
 
-MS Word 97-2007 İkili Dosya Biçimi (DOC), Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer kelime işlem belgelerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/doc) .
+MS Word 97-2007 İkili Dosya Biçimi (DOC), Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer kelime işlem belgelerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/doc) .
 
 ```csharp
 public static readonly WordProcessingFormats Doc;

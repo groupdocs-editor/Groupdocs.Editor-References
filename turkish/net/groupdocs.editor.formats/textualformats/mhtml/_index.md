@@ -1,14 +1,14 @@
 ---
 title: Mhtml
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Toplu HTML belgelerinin MIME kapsüllemesi tek bir bilgisayar dosyasında HTML kodunu ve yardımcı kaynaklarını birleştirmek için kullanılan bir web sayfası arşiv biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/web/mhtml/ .
+description: Toplu HTML belgelerinin MIME kapsüllemesi tek bir bilgisayar dosyasında HTML kodunu ve yardımcı kaynaklarını birleştirmek için kullanılan bir web sayfası arşiv biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/web/mhtml/ .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.editor.formats/textualformats/mhtml/
 ---
 ## TextualFormats.Mhtml field
 
-Toplu HTML belgelerinin MIME kapsüllemesi, tek bir bilgisayar dosyasında HTML kodunu ve yardımcı kaynaklarını birleştirmek için kullanılan bir web sayfası arşiv biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/web/mhtml/) .
+Toplu HTML belgelerinin MIME kapsüllemesi, tek bir bilgisayar dosyasında HTML kodunu ve yardımcı kaynaklarını birleştirmek için kullanılan bir web sayfası arşiv biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/web/mhtml/) .
 
 ```csharp
 public static readonly TextualFormats Mhtml;

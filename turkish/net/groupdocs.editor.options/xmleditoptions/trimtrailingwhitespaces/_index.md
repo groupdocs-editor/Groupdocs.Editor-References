@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: İç etiket metninde sondaki boşlukların kesilmesine izin verir. Varsayılan olarak devre dışıdır yanlış  sondaki boşluklar korunur.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

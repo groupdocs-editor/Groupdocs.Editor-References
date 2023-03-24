@@ -1,14 +1,14 @@
 ---
 title: Dotm
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Office Açık XML WordprocessingML Makro Etkin Şablon DOTM Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/dotm .
+description: Office Açık XML WordprocessingML Makro Etkin Şablon DOTM Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/dotm/
 ---
 ## WordProcessingFormats.Dotm field
 
-Office Açık XML WordprocessingML Makro Etkin Şablon (DOTM), Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/dotm) .
+Office Açık XML WordprocessingML Makro Etkin Şablon (DOTM), Microsoft Word 2007 veya üstü ile oluşturulan şablon dosyasını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/dotm) .
 
 ```csharp
 public static readonly WordProcessingFormats Dotm;

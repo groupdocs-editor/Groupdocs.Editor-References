@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: PDF belgelerini Editor class içine yüklemek için seçenekler içerir
 type: docs
-weight: 840
+weight: 1050
 url: /tr/net/groupdocs.editor.options/pdfloadoptions/
 ---
 ## PdfLoadOptions class

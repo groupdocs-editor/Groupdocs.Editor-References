@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir Markdown belgesinin meta verilerini temsil eder
 type: docs
-weight: 600
+weight: 750
 url: /tr/net/groupdocs.editor.metadata/markdowndocumentinfo/
 ---
 ## MarkdownDocumentInfo structure
@@ -19,8 +19,8 @@ public struct MarkdownDocumentInfo : IDocumentInfo, IEquatable<MarkdownDocumentI
 | İsim | Tanım |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/markdowndocumentinfo/format) { get; } | Bu Markdown belgesinin biçimini döndürür — her zaman öyledir[`Md`](../../groupdocs.editor.formats/textualformats/md) |
-| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Markdown belgeleri şifre ile şifrelenemediğinden, bu özellik her zaman 'false' değerini döndürür. |
-| [PageCount](../../groupdocs.editor.metadata/markdowndocumentinfo/pagecount) { get; } | Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve bu nedenle sayfa sayısı vardır, bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır. |
+| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Markdown belgeleri parola ile şifrelenemediğinden, bu özellik her zaman ` döndürür`YANLIŞ` |
+| [PageCount](../../groupdocs.editor.metadata/markdowndocumentinfo/pagecount) { get; } | Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve dolayısıyla sayfa sayısı vardır, bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır. |
 | [Size](../../groupdocs.editor.metadata/markdowndocumentinfo/size) { get; } | Bu Markdown belgesinin boyutunu bayt cinsinden döndürür |
 
 ## yöntemler

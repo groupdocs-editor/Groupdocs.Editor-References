@@ -1,14 +1,14 @@
 ---
 title: EnableLanguageInformation
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Dil bilgisinin HTML işaretlemesine lang HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır yanlış .
+description: Dil bilgisinin HTML işaretlemesine lang HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır YANLIŞ.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/ebookeditoptions/enablelanguageinformation/
 ---
 ## EbookEditOptions.EnableLanguageInformation property
 
-Dil bilgisinin HTML işaretlemesine 'lang' HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek, çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır (`yanlış` ).
+Dil bilgisinin HTML işaretlemesine 'lang' HTML öznitelikleri biçiminde dışa aktarılıp aktarılmayacağını belirtir. Bu seçenek, çok dilli belgelerin gidiş dönüş dönüştürülmesi için yararlı olabilir. Varsayılan olarak devre dışıdır (`YANLIŞ`).
 
 ```csharp
 public bool EnableLanguageInformation { get; set; }

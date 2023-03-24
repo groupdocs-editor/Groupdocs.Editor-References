@@ -1,0 +1,56 @@
+---
+title: ImageType
+second_title: GroupDocs.Editor voor .NET API-referentie
+description: Vertegenwoordigt één ondersteund afbeeldingstype formaat ondersteunt zowel raster als vectorformaten
+type: docs
+weight: 490
+url: /nl/net/groupdocs.editor.htmlcss.resources.images/imagetype/
+---
+## ImageType structure
+
+Vertegenwoordigt één ondersteund afbeeldingstype (formaat), ondersteunt zowel raster- als vectorformaten
+
+```csharp
+public struct ImageType : IEquatable<ImageType>, IResourceType
+```
+
+## Eigenschappen
+
+| Naam | Beschrijving |
+| --- | --- |
+| static [Bmp](../../groupdocs.editor.htmlcss.resources.images/imagetype/bmp) { get; } | BMP-beeldtype |
+| static [Emf](../../groupdocs.editor.htmlcss.resources.images/imagetype/emf) { get; } | EMF (Enhanced MetaFile) vectorafbeeldingstype |
+| static [Gif](../../groupdocs.editor.htmlcss.resources.images/imagetype/gif) { get; } | GIF-afbeeldingstype |
+| static [Icon](../../groupdocs.editor.htmlcss.resources.images/imagetype/icon) { get; } | ICON afbeeldingstype |
+| static [Jpeg](../../groupdocs.editor.htmlcss.resources.images/imagetype/jpeg) { get; } | Type JPEG-afbeelding |
+| static [Png](../../groupdocs.editor.htmlcss.resources.images/imagetype/png) { get; } | PNG-afbeeldingstype |
+| static [Svg](../../groupdocs.editor.htmlcss.resources.images/imagetype/svg) { get; } | Type SVG-vectorafbeelding |
+| static [Tiff](../../groupdocs.editor.htmlcss.resources.images/imagetype/tiff) { get; } | TIFF (Tagged Image File Format) rasterbeeldtype |
+| static [Undefined](../../groupdocs.editor.htmlcss.resources.images/imagetype/undefined) { get; } | Ongedefinieerd afbeeldingstype - speciale waarde, die normaal niet zou moeten voorkomen |
+| static [Wmf](../../groupdocs.editor.htmlcss.resources.images/imagetype/wmf) { get; } | WMF (Windows MetaFile) vector afbeelding type |
+| [FileExtension](../../groupdocs.editor.htmlcss.resources.images/imagetype/fileextension) { get; } | Bestandsextensie (zonder voorlooppunt) van een bepaald afbeeldingstype in kleine letters. Voor het Undefined type wordt een string 'unsefined' geretourneerd. |
+| [FormalName](../../groupdocs.editor.htmlcss.resources.images/imagetype/formalname) { get; } | Retourneert een formele naam van deze afbeeldingsindeling. Geeft nooit NULL terug. Als de instantie niet beschadigd is, wordt er nooit een uitzondering gegenereerd. |
+| [Format](../../groupdocs.editor.htmlcss.resources.images/imagetype/format) { get; } | .NET-standaard afbeeldingsformaat beschrijving van een bepaald afbeeldingsformaat, als het een .NET-specifieke weergave heeft. Voor het ongedefinieerde type wordt een null-waarde geretourneerd. Voor alle indelingen, die niet worden weergegeven in .NET, wordt een InvalidOperationException. gegenereerd |
+| [IsVector](../../groupdocs.editor.htmlcss.resources.images/imagetype/isvector) { get; } | Geeft aan of dit specifieke formaat vector (true) of raster (false) is |
+| [MimeCode](../../groupdocs.editor.htmlcss.resources.images/imagetype/mimecode) { get; } | MIME-code van een bepaald afbeeldingstype als tekenreeks. Voor het Undefined type wordt een string 'unsefined' geretourneerd. |
+
+## methoden
+
+| Naam | Beschrijving |
+| --- | --- |
+| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images/imagetype/parsefromfilenamewithextension)(string) | Retourneert de ImageType-waarde, die equivalent is aan de bestandsnaamextensie, die is geëxtraheerd uit de opgegeven bestandsnaam |
+| static [ParseFromMime](../../groupdocs.editor.htmlcss.resources.images/imagetype/parsefrommime)(string) | Retourneert de ImageType-waarde, die equivalent is aan de opgegeven MIME-code |
+| [Equals](../../groupdocs.editor.htmlcss.resources.images/imagetype/equals#equals)(ImageType) | Bepaalt of deze instantie gelijk is aan opgegeven "ImageType" instantie |
+| override [Equals](../../groupdocs.editor.htmlcss.resources.images/imagetype/equals#equals_1)(object) | Bepaalt of deze instantie gelijk is aan het opgegeven niet-gecaste object, dat vermoedelijk een andere "ImageType"-instantie is |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.images/imagetype/gethashcode)() | Retourneert een hash-code, wat een onveranderlijk getal is voor deze specifieke instantie |
+| override [ToString](../../groupdocs.editor.htmlcss.resources.images/imagetype/tostring)() | Retourneert een eigenschap FormalName |
+| [operator ==](../../groupdocs.editor.htmlcss.resources.images/imagetype/op_equality) | Definieert of twee specifieke ImageType-instanties gelijk zijn |
+| [operator !=](../../groupdocs.editor.htmlcss.resources.images/imagetype/op_inequality) | Definieert of twee specifieke ImageType-instanties niet gelijk zijn |
+
+### Zie ook
+
+* interface [IResourceType](../../groupdocs.editor.htmlcss.resources/iresourcetype)
+* naamruimte [GroupDocs.Editor.HtmlCss.Resources.Images](../../groupdocs.editor.htmlcss.resources.images)
+* montage [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

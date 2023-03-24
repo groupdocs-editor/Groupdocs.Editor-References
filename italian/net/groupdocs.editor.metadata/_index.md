@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Lo spazio dei nomi GroupDocs.Editor.Metadata fornisce classi per descrivere le proprietà di base del documento in base al tipo di documento.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/groupdocs.editor.metadata/
 ---
 Lo spazio dei nomi GroupDocs.Editor.Metadata fornisce classi per descrivere le proprietà di base del documento in base al tipo di documento.
@@ -18,7 +18,7 @@ Lo spazio dei nomi GroupDocs.Editor.Metadata fornisce classi per descrivere le p
 | [MarkdownDocumentInfo](./markdowndocumentinfo) | Rappresenta i metadati di un documento Markdown |
 | [PresentationDocumentInfo](./presentationdocumentinfo) | Rappresenta i metadati di un documento di presentazione |
 | [SpreadsheetDocumentInfo](./spreadsheetdocumentinfo) | Rappresenta i metadati di un documento foglio di calcolo |
-| [TextualDocumentInfo](./textualdocumentinfo) | Rappresenta i metadati di un documento testuale come XML, HTML o testo semplice (TXT) |
+| [TextualDocumentInfo](./textualdocumentinfo) | Rappresenta i metadati di un documento testuale come XML, HTML o testo normale (TXT) |
 | [WordProcessingDocumentInfo](./wordprocessingdocumentinfo) | Rappresenta i metadati di un documento WordProcessing |
 ## Interfacce
 

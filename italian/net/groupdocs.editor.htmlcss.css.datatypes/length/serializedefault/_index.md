@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Restituisce una rappresentazione di stringa di questa lunghezza nella sua forma nativa originale così come è memorizzata senza convertire il valore della lunghezza in un altro tipo di unità
 type: docs
-weight: 230
+weight: 220
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/length/serializedefault/
 ---
 ## Length.SerializeDefault method

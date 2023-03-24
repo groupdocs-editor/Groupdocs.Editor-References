@@ -3,7 +3,7 @@ title: ResourceTypeDetector
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Metodi statici di utilità per il rilevamento dei tipi di risorse formati
 type: docs
-weight: 470
+weight: 620
 url: /it/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/
 ---
 ## ResourceTypeDetector class

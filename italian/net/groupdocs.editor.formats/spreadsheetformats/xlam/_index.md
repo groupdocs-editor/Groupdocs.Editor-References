@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlam;
 
 ### Osservazioni
 
-Componente aggiuntivo di Excel per aggiungere funzionalità e strumenti extra. Supporto macro intrinseco a causa dello scopo del file.
+Componente aggiuntivo di Excel per aggiungere funzionalità e strumenti aggiuntivi. Supporto macro intrinseco a causa dello scopo del file.
 
 ### Guarda anche
 

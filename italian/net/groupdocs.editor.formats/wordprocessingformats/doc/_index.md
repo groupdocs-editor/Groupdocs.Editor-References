@@ -1,14 +1,14 @@
 ---
 title: Doc
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: MS Word 972007 Binary File Format DOC rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato filequihttps//wiki.fileformat.com/wordprocessing/doc .
+description: MS Word 972007 Binary File Format DOC rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato fileQuihttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
 weight: 10
 url: /it/net/groupdocs.editor.formats/wordprocessingformats/doc/
 ---
 ## WordProcessingFormats.Doc field
 
-MS Word 97-2007 Binary File Format (DOC) rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato file[qui](https://wiki.fileformat.com/word-processing/doc) .
+MS Word 97-2007 Binary File Format (DOC) rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato file[Qui](https://wiki.fileformat.com/word-processing/doc) .
 
 ```csharp
 public static readonly WordProcessingFormats Doc;

@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta le virgolette  virgolette singole  e virgolette doppie 
 type: docs
-weight: 520
+weight: 670
 url: /it/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Rappresenta le virgolette - virgolette singole (') e virgolette doppie (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### I valori
+## Proprietà
 
-| Nome | Valore | Descrizione |
-| --- | --- | --- |
-| SingleQuote | `39` | Virgoletta singola (carattere U+0027 APOSTROFO) |
-| DoubleQuote | `34` | Virgolette doppie (U+0022 carattere virgolette) |
+| Nome | Descrizione |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Carattere da citare |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Punto di codice del carattere corrente (U+0027 o U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | Carattere con codifica HTML |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indica se questa istanza del tipo quotazione è uguale a uncasted specificato |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indica se questa istanza del tipo quotazione è uguale a specified |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Restituisce un codice hash per questo carattere |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Controlla se due valori "QuoteType" sono uguali |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Lanci specificati[`QuoteType`](../quotetype) istanza alChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Controlla se due valori "QuoteType" non sono uguali |
+
+## Campi
+
+| Nome | Descrizione |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Virgolette doppie (U+0022 carattere virgolette) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Virgoletta singola (carattere U+0027 APOSTROFO) |
 
 ### Guarda anche
 

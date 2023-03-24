@@ -17,7 +17,7 @@ Lo spazio dei nomi GroupDocs.Editor fornisce classi per la modifica di documenti
 | [EncryptedException](./encryptedexception) | L'eccezione generata quando l'utente tenta di aprire un documento crittografato utilizzando i certificati X509. |
 | [IncorrectPasswordException](./incorrectpasswordexception) | L'eccezione generata quando la password specificata non è corretta. |
 | [InvalidFormatException](./invalidformatexception) | L'eccezione generata quando l'utente tenta di aprire un documento con opzioni specifiche del formato incompatibili con il formato del documento originale. |
-| [License](./license) | Fornisce i metodi per concedere in licenza il componente. Ulteriori informazioni sulle licenze[qui](https://purchase.groupdocs.com/faqs/licensing) . |
+| [License](./license) | Fornisce i metodi per concedere in licenza il componente. Ulteriori informazioni sulle licenze[Qui](https://purchase.groupdocs.com/faqs/licensing) . |
 | [Metered](./metered) | Fornisce metodi per l'applicazione[Misurato](https://purchase.groupdocs.com/faqs/licensing/metered) licenza. |
 | [PasswordRequiredException](./passwordrequiredexception) | L'eccezione generata quando l'utente tenta di aprire un documento crittografato protetto da password di un formato e non fornisce una password per l'apertura di questo documento. |
 

@@ -1,14 +1,14 @@
 ---
 title: AllResources
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Restituisce un elenco di tutte le risorse esistenti tutti i fogli di stile le immagini da HTML e tutti i fogli di stile fonts
+description: Restituisce un elenco di tutte le risorse esistenti tutti i fogli di stile le immagini da HTML e tutti i fogli di stile i caratteri audio
 type: docs
 weight: 40
 url: /it/net/groupdocs.editor/editabledocument/allresources/
 ---
 ## EditableDocument.AllResources property
 
-Restituisce un elenco di tutte le risorse esistenti: tutti i fogli di stile, le immagini da HTML e tutti i fogli di stile, fonts
+Restituisce un elenco di tutte le risorse esistenti: tutti i fogli di stile, le immagini da HTML e tutti i fogli di stile, i caratteri, audio
 
 ```csharp
 public List<IHtmlResource> AllResources { get; }

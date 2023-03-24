@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta i metadati di un documento WordProcessing
 type: docs
-weight: 640
+weight: 790
 url: /it/net/groupdocs.editor.metadata/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo structure

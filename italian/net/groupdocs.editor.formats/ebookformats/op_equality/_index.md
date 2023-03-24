@@ -16,8 +16,8 @@ public static bool operator ==(EBookFormats first, EBookFormats second)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| first | EBookFormats | Prima istanza di EBookFormats da controllare |
-| second | EBookFormats | Seconda istanza di EBookFormats da controllare |
+| first | EBookFormats | Prima istanza di EBookFormats da verificare |
+| second | EBookFormats | Seconda istanza di EBookFormats da verificare |
 
 ### Valore di ritorno
 

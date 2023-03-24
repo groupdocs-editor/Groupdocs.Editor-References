@@ -1,14 +1,14 @@
 ---
 title: Dotx
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Office Open XML WordprocessingML MacroFree Template DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/dotx .
+description: Office Open XML WordprocessingML MacroFree Template DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
 weight: 60
 url: /it/net/groupdocs.editor.formats/wordprocessingformats/dotx/
 ---
 ## WordProcessingFormats.Dotx field
 
-Office Open XML WordprocessingML Macro-Free Template (DOTX) sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/dotx) .
+Office Open XML WordprocessingML Macro-Free Template (DOTX) sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/dotx) .
 
 ```csharp
 public static readonly WordProcessingFormats Dotx;

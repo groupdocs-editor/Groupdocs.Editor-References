@@ -32,7 +32,7 @@ public EbookEditOptions(bool enablePagination)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| enablePagination | Boolean | Consente (`VERO`) o disabilita (`falso`) impaginazione del contenuto dell'e-book nel documento HTML risultante. Di default è disabilitato (`falso`). |
+| enablePagination | Boolean | Abilita (`VERO`) o disabilita (`falso`) impaginazione del contenuto dell'e-book nel documento HTML risultante. Di default è disabilitato (`falso`). |
 
 ### Guarda anche
 

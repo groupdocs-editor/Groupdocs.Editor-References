@@ -17,7 +17,7 @@ public WoffFont(string name, string contentInBase64)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | name | String | Nome del carattere WOFF. Non può essere nullo, vuoto o spazi bianchi. |
-| contentInBase64 | String | Contenuto come stringa con codifica base64. Non può essere nullo, vuoto o spazi bianchi. Se non è un contenuto WOFF, verrà generata un'eccezione. |
+| contentInBase64 | String | Contenuto come stringa con codifica Base64. Non può essere nullo, vuoto o spazi bianchi. Se non è un contenuto WOFF, verrà generata un'eccezione. |
 
 ### Eccezioni
 

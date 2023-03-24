@@ -3,7 +3,7 @@ title: EotFont
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta un font nel formato EOT Embedded OpenType
 type: docs
-weight: 260
+weight: 360
 url: /it/net/groupdocs.editor.htmlcss.resources.fonts/eotfont/
 ---
 ## EotFont class

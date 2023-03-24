@@ -1,14 +1,14 @@
 ---
 title: Azw3
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: AZW3 noto anche come Kindle Format 8 KF8 è la versione modificata del formato di file digitale di ebook AZW sviluppato per i dispositivi Amazon Kindle. Il formato è un miglioramento dei vecchi file AZW. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/ebook/azw3/ .
+description: AZW3 noto anche come Kindle Format 8 KF8 è la versione modificata del formato di file digitale di ebook AZW sviluppato per i dispositivi Amazon Kindle. Il formato è un miglioramento dei vecchi file AZW. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/ebook/azw3/ .
 type: docs
 weight: 10
 url: /it/net/groupdocs.editor.formats/ebookformats/azw3/
 ---
 ## EBookFormats.Azw3 field
 
-AZW3, noto anche come Kindle Format 8 (KF8), è la versione modificata del formato di file digitale di ebook AZW sviluppato per i dispositivi Amazon Kindle. Il formato è un miglioramento dei vecchi file AZW. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/ebook/azw3/) .
+AZW3, noto anche come Kindle Format 8 (KF8), è la versione modificata del formato di file digitale di ebook AZW sviluppato per i dispositivi Amazon Kindle. Il formato è un miglioramento dei vecchi file AZW. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/ebook/azw3/) .
 
 ```csharp
 public static readonly EBookFormats Azw3;

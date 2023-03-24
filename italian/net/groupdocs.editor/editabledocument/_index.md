@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Restituisce un elenco di tutte le risorse esistenti: tutti i fogli di stile, le immagini da HTML e tutti i fogli di stile, fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Restituisce un elenco di tutte le risorse esistenti: tutti i fogli di stile, le immagini da HTML e tutti i fogli di stile, i caratteri, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Restituisce un elenco di risorse audio |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Restituisce un elenco di risorse CSS |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Consente di ottenere risorse di font esterne, utilizzate da questo documento HTML |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Consente di ottenere risorse immagine esterne (immagini raster), utilizzate da questo documento HTML |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Consente di ottenere risorse immagine esterne (immagini raster e vettoriali), utilizzate da questo documento HTML |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Determina se questo documento modificabile è già stato eliminato (vero) o meno (falso) |
 
 ## Metodi
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Factory statica, che crea un'istanza di EditableDocument dal markup HTML specificato e un set di risorse collegate corrispondenti |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Factory statica, che crea un'istanza di EditableDocument da un markup HTML specificato e da risorse, situate nella cartella, specificata dal percorso completo |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Elimina questa istanza di documento modificabile, eliminandone il contenuto e rendendo i suoi metodi e proprietà non funzionanti |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Restituisce un corpo del documento HTML (contenuto tra i tag BODY di apertura e chiusura senza questi tag) come stringa. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Restituisce un corpo del documento HTML (contenuto tra i tag BODY di apertura e chiusura senza questi tag) come stringa, dove i collegamenti alle risorse esterne contengono il prefisso specificato. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Restituisce un corpo del documento HTML (contenuto interno tra tag BODY di apertura e chiusura senza questi tag) come stringa. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Restituisce un corpo del documento HTML (contenuto interno tra i tag BODY di apertura e chiusura senza questi tag) come stringa, dove i collegamenti alle risorse esterne contengono il prefisso specificato. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Restituisce il contenuto complessivo del documento HTML come stringa. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Restituisce il contenuto complessivo del documento HTML come stringa, dove i collegamenti alle risorse esterne contengono il prefisso specificato. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Restituisce il contenuto di tutti i fogli di stile esterni come un elenco di stringhe, dove una stringa rappresenta un foglio di stile. Restituisce un elenco vuoto, se non sono presenti CSS per questo documento. |

@@ -1,14 +1,14 @@
 ---
 title: Md
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Markdown è un linguaggio di markup leggero per la creazione di testo formattato utilizzando un editor di testo semplice. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/wordprocessing/md/ .
+description: Markdown è un linguaggio di markup leggero per la creazione di testo formattato utilizzando un editor di testo semplice. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/wordprocessing/md/ .
 type: docs
 weight: 40
 url: /it/net/groupdocs.editor.formats/textualformats/md/
 ---
 ## TextualFormats.Md field
 
-Markdown è un linguaggio di markup leggero per la creazione di testo formattato utilizzando un editor di testo semplice. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/word-processing/md/) .
+Markdown è un linguaggio di markup leggero per la creazione di testo formattato utilizzando un editor di testo semplice. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/word-processing/md/) .
 
 ```csharp
 public static readonly TextualFormats Md;

@@ -3,7 +3,7 @@ title: EmailDocumentInfo
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta i metadati di un documento email di qualsiasi formato email supportato
 type: docs
-weight: 570
+weight: 720
 url: /it/net/groupdocs.editor.metadata/emaildocumentinfo/
 ---
 ## EmailDocumentInfo structure

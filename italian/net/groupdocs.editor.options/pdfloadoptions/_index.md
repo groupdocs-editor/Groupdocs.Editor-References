@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Contiene opzioni per caricare documenti PDF nella classe Editor
 type: docs
-weight: 840
+weight: 1050
 url: /it/net/groupdocs.editor.options/pdfloadoptions/
 ---
 ## PdfLoadOptions class

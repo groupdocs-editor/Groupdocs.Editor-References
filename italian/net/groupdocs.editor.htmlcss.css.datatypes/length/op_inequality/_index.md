@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Controlla la disuguaglianza delle due lunghezze date.
 type: docs
-weight: 300
+weight: 290
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/length/op_inequality/
 ---
 ## Length Inequality operator

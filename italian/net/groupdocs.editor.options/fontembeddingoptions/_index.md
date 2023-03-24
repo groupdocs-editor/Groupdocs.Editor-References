@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Le opzioni di incorporamento dei caratteri controllano quali risorse dei caratteri devono essere incorporate nel documento WordProcessing o PDF di output
 type: docs
-weight: 740
+weight: 890
 url: /it/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

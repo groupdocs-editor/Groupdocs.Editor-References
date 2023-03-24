@@ -3,7 +3,7 @@ title: IImage
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Il tipo di dati Image CSS rappresenta unimmagine bidimensionale
 type: docs
-weight: 370
+weight: 470
 url: /it/net/groupdocs.editor.htmlcss.resources.images/iimage/
 ---
 ## IImage interface

@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Consente di ottenere risorse immagine esterne immagini raster utilizzate da questo documento HTML
+description: Consente di ottenere risorse immagine esterne immagini raster e vettoriali utilizzate da questo documento HTML
 type: docs
 weight: 80
 url: /it/net/groupdocs.editor/editabledocument/images/
 ---
 ## EditableDocument.Images property
 
-Consente di ottenere risorse immagine esterne (immagini raster), utilizzate da questo documento HTML
+Consente di ottenere risorse immagine esterne (immagini raster e vettoriali), utilizzate da questo documento HTML
 
 ```csharp
 public List<IImageResource> Images { get; }

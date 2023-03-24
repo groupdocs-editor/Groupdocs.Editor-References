@@ -16,7 +16,7 @@ public static bool operator ==(ImageType first, ImageType second)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| first | ImageType | Prima istanza di ImageType da verificare |
+| first | ImageType | Prima istanza di ImageType da controllare |
 | second | ImageType | Seconda istanza ImageType da controllare |
 
 ### Valore di ritorno

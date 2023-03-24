@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Di default è false.
+description: Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Per impostazione predefinita èfalso .
 type: docs
 weight: 60
 url: /it/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Di default è false.
+Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Per impostazione predefinita è`falso` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

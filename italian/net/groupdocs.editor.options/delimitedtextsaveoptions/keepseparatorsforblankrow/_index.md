@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito è false il che significa che il contenuto della riga vuota sarà vuoto.
+description: Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito èfalso il che significa che il contenuto della riga vuota sarà vuoto.
 type: docs
 weight: 30
 url: /it/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito è false, il che significa che il contenuto della riga vuota sarà vuoto.
+Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito è`falso` il che significa che il contenuto della riga vuota sarà vuoto.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta i metadati di un documento Markdown
 type: docs
-weight: 600
+weight: 750
 url: /it/net/groupdocs.editor.metadata/markdowndocumentinfo/
 ---
 ## MarkdownDocumentInfo structure
@@ -19,7 +19,7 @@ public struct MarkdownDocumentInfo : IDocumentInfo, IEquatable<MarkdownDocumentI
 | Nome | Descrizione |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/markdowndocumentinfo/format) { get; } | Restituisce un formato di questo documento Markdown — lo è sempre[`Md`](../../groupdocs.editor.formats/textualformats/md) |
-| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Poiché i documenti Markdown non possono essere crittografati con password, questa proprietà restituisce sempre 'false' |
+| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Poiché i documenti Markdown non possono essere crittografati con password, questa proprietà restituisce sempre ``falso` |
 | [PageCount](../../groupdocs.editor.metadata/markdowndocumentinfo/pagecount) { get; } | Restituisce il numero di pagine. I documenti Markdown di solito non hanno pagine fisse e quindi il conteggio delle pagine, quindi questo numero viene calcolato dalla dimensione della pagina standard impostata su A4 con orientamento verticale. |
 | [Size](../../groupdocs.editor.metadata/markdowndocumentinfo/size) { get; } | Restituisce la dimensione in byte di questo documento Markdown |
 

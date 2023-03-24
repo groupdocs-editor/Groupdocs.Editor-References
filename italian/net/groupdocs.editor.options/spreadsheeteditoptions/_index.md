@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Consente di specificare opzioni personalizzate per la modifica di documenti di tutti i formati di fogli di calcolo supportati compatibili con Excel
 type: docs
-weight: 890
+weight: 1100
 url: /it/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class

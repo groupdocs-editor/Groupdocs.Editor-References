@@ -20,7 +20,7 @@ public IDocumentInfo GetDocumentInfo(string password)
 
 ### Valore di ritorno
 
-Erede specifico del formato di[`IDocumentInfo`](../../../groupdocs.editor.metadata/idocumentinfo) interfaccia, che indica il formato rilevato con metadati specifici del formato o NULL, se il documento non è stato riconosciuto come supportabile o è danneggiato.
+Erede specifico del formato di[`IDocumentInfo`](../../../groupdocs.editor.metadata/idocumentinfo) interface, che indica il formato rilevato con metadati specifici del formato o NULL, se il documento non è stato riconosciuto come supportabile o è danneggiato.
 
 ### Eccezioni
 
@@ -37,7 +37,7 @@ Il metodo GetDocumentInfo è utile quando non è chiaro quale formato sia il doc
 
 Il metodo GetDocumentInfo restituisce sempre i dati completi, non è influenzato dalla modalità di prova, il suo utilizzo non cancella i byte o i crediti consumati.
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni su come ottenere proprietà specifiche del documento in code: [Come ottenere informazioni sul documento utilizzando GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Extracting+document+metainfo)
 

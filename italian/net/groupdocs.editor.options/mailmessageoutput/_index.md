@@ -3,7 +3,7 @@ title: MailMessageOutput
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Controlla quali parti del messaggio di posta devono essere consegnate alloutput processing
 type: docs
-weight: 790
+weight: 950
 url: /it/net/groupdocs.editor.options/mailmessageoutput/
 ---
 ## MailMessageOutput enumeration

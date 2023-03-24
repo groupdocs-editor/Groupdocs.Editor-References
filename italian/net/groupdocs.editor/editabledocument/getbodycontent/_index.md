@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Restituisce un corpo del documento HTML contenuto tra i tag BODY di apertura e chiusura senza questi tag come stringa.
+description: Restituisce un corpo del documento HTML contenuto interno tra tag BODY di apertura e chiusura senza questi tag come stringa.
 type: docs
 weight: 120
 url: /it/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Restituisce un corpo del documento HTML (contenuto tra i tag BODY di apertura e chiusura senza questi tag) come stringa.
+Restituisce un corpo del documento HTML (contenuto interno tra tag BODY di apertura e chiusura senza questi tag) come stringa.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Valore di ritorno
 
-String, che contiene il corpo del documento HTML
+Stringa, che contiene il corpo del documento HTML (senza tag BODY di apertura e chiusura)
 
 ### Osservazioni
 
-Gli editor WYSIWYG operano con il corpo del documento e non possono elaborare correttamente le sue meta informazioni dal blocco HEAD. Questo metodo è progettato per questi casi. Questo sovraccarico non consente di regolare gli URI per le richieste di risorse esterne.
+La maggior parte degli editor WYSIWYG di solito opera con il contenuto interno del BODY del documento e non può elaborare correttamente le sue meta informazioni dal blocco HEAD. Questo metodo è progettato per questi casi. Questo sovraccarico non consente di regolare gli URI per le richieste di risorse esterne.
 
 ### Guarda anche
 
@@ -32,7 +32,7 @@ Gli editor WYSIWYG operano con il corpo del documento e non possono elaborare co
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Restituisce un corpo del documento HTML (contenuto tra i tag BODY di apertura e chiusura senza questi tag) come stringa, dove i collegamenti alle risorse esterne contengono il prefisso specificato.
+Restituisce un corpo del documento HTML (contenuto interno tra i tag BODY di apertura e chiusura senza questi tag) come stringa, dove i collegamenti alle risorse esterne contengono il prefisso specificato.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Valore di ritorno
 
-Stringa, che contiene il corpo del documento HTML con i collegamenti, adattati alle immagini esterne
+Stringa, che contiene il corpo del documento HTML (senza tag BODY di apertura e chiusura) con link, adattati alle immagini esterne
 
 ### Osservazioni
 
-Gli editor WYSIWYG operano con il corpo del documento e non possono elaborare correttamente le sue meta informazioni dal blocco HEAD. Questo metodo è progettato per questi casi. Questo sovraccarico consente di regolare gli URI per le richieste di risorse esterne.
+La maggior parte degli editor WYSIWYG di solito opera con il contenuto interno del BODY del documento e non può elaborare correttamente le sue meta informazioni dal blocco HEAD. Questo metodo è progettato per questi casi. Questo sovraccarico consente di regolare gli URI per le richieste di risorse esterne.
 
 ### Guarda anche
 

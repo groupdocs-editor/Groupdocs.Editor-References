@@ -17,7 +17,7 @@ public static bool operator !=(SpreadsheetFormats first, SpreadsheetFormats seco
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | first | SpreadsheetFormats | Prima istanza di SpreadsheetFormats da controllare |
-| second | SpreadsheetFormats | Seconda istanza di SpreadsheetFormats da controllare |
+| second | SpreadsheetFormats | Seconda istanza di SpreadsheetFormats da verificare |
 
 ### Valore di ritorno
 

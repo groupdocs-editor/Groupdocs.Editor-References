@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Le opzioni di estrazione dei caratteri controllano quali caratteri devono essere estratti e da dove
 type: docs
-weight: 750
+weight: 900
 url: /it/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

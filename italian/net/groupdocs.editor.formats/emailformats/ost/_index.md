@@ -1,14 +1,14 @@
 ---
 title: Ost
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Il file OST Offline Storage Table rappresenta i dati della casella di posta dellutente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/email/ost/ .
+description: Il file OST Offline Storage Table rappresenta i dati della casella di posta dellutente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/email/ost/ .
 type: docs
 weight: 90
 url: /it/net/groupdocs.editor.formats/emailformats/ost/
 ---
 ## EmailFormats.Ost field
 
-Il file OST (Offline Storage Table) rappresenta i dati della casella di posta dell'utente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/email/ost/) .
+Il file OST (Offline Storage Table) rappresenta i dati della casella di posta dell'utente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/email/ost/) .
 
 ```csharp
 public static readonly EmailFormats Ost;

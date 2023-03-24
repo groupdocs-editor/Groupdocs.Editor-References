@@ -16,8 +16,8 @@ public static bool operator ==(WordProcessingFormats first, WordProcessingFormat
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| first | WordProcessingFormats | Prima istanza di WordProcessingFormats da controllare |
-| second | WordProcessingFormats | Seconda istanza di WordProcessingFormats da controllare |
+| first | WordProcessingFormats | Prima istanza di WordProcessingFormats da verificare |
+| second | WordProcessingFormats | Seconda istanza di WordProcessingFormats da verificare |
 
 ### Valore di ritorno
 

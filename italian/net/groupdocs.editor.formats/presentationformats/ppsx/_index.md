@@ -1,14 +1,14 @@
 ---
 title: Ppsx
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: I file Microsoft Office Open XML PresentationML MacroFree SlideShow PPSX vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/ppsx .
+description: I file Microsoft Office Open XML PresentationML MacroFree SlideShow PPSX vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/ppsx .
 type: docs
 weight: 80
 url: /it/net/groupdocs.editor.formats/presentationformats/ppsx/
 ---
 ## PresentationFormats.Ppsx field
 
-I file Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX) vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/ppsx) .
+I file Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX) vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/ppsx) .
 
 ```csharp
 public static readonly PresentationFormats Ppsx;

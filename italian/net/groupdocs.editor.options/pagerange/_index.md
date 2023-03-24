@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Incapsula un intervallo di pagine che può avere limiti aperti o chiusi. Per impostazione predefinita è completamente aperto  include tutte le pagine esistenti. La numerazione delle pagine inizia da 1 non da 0.
 type: docs
-weight: 810
+weight: 1020
 url: /it/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

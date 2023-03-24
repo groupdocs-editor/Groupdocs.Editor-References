@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Restituisce una rappresentazione in forma di stringa di questo rapporto uguale a SerializeDefault
 type: docs
-weight: 120
+weight: 110
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/ratio/tostring/
 ---
 ## Ratio.ToString method

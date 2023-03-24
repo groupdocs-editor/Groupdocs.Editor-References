@@ -3,7 +3,7 @@ title: Calculate
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Calcola e restituisce questo rapporto come un singolo numero in virgola mobile
 type: docs
-weight: 60
+weight: 50
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

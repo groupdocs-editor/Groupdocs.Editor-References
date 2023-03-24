@@ -1,14 +1,14 @@
 ---
 title: Mobi
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: MOBI è il nome dato al formato sviluppato per il MobiPocket Reader. Attualmente è utilizzato da Amazon con uno schema DRM leggermente diverso e chiamato AZW. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/ebook/mobi/ .
+description: MOBI è il nome dato al formato sviluppato per il MobiPocket Reader. Attualmente è utilizzato da Amazon con uno schema DRM leggermente diverso e chiamato AZW. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/ebook/mobi/ .
 type: docs
 weight: 30
 url: /it/net/groupdocs.editor.formats/ebookformats/mobi/
 ---
 ## EBookFormats.Mobi field
 
-MOBI è il nome dato al formato sviluppato per il MobiPocket Reader. Attualmente è utilizzato da Amazon con uno schema DRM leggermente diverso e chiamato AZW. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/ebook/mobi/) .
+MOBI è il nome dato al formato sviluppato per il MobiPocket Reader. Attualmente è utilizzato da Amazon con uno schema DRM leggermente diverso e chiamato AZW. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/ebook/mobi/) .
 
 ```csharp
 public static readonly EBookFormats Mobi;

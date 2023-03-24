@@ -1,14 +1,14 @@
 ---
 title: Epub
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Il formato di pubblicazione elettronica ePub è un formato di file di ebook che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/ebook/epub/ .
+description: Il formato di pubblicazione elettronica ePub è un formato di file di ebook che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/ebook/epub/ .
 type: docs
 weight: 20
 url: /it/net/groupdocs.editor.formats/ebookformats/epub/
 ---
 ## EBookFormats.Epub field
 
-Il formato di pubblicazione elettronica (ePub) è un formato di file di e-book che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/ebook/epub/) .
+Il formato di pubblicazione elettronica (ePub) è un formato di file di e-book che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/ebook/epub/) .
 
 ```csharp
 public static readonly EBookFormats Epub;

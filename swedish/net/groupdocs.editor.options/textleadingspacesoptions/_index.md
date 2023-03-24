@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Innehåller tillgängliga alternativ för att leda utrymmeshantering vid öppning av ett vanligt textdokument TXT
 type: docs
-weight: 940
+weight: 1150
 url: /sv/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

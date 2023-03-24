@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: GroupDocs.Editor för .NET API-referens
-description: Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard är false.
+description: Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard är false.
+Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard är`falsk` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

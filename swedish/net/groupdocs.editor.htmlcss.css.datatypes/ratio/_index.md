@@ -3,7 +3,7 @@ title: Ratio
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar en kvot CSSdatatyp som används för att beskriva bildförhållanden i mediefrågor och för rasterbilder genom att beteckna proportionen mellan två enhetslösa värden som kallas täljare och nämnare. Oföränderlig struktur.
 type: docs
-weight: 210
+weight: 280
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 Representerar en "kvot" CSS-datatyp, som används för att beskriva bildförhållanden i mediefrågor och för rasterbilder genom att beteckna proportionen mellan två enhetslösa värden som kallas "täljare" och "nämnare". Oföränderlig struktur.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Egenskaper
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | namn | Beskrivning |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Returnerar en nämnare av detta förhållande |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Bestämmer om detta förhållande har standardvärde eller är ett "1/1" (Singel) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Returnerar en täljare för detta förhållande |
 
 ## Metoder
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Se även
 
+* interface [ICssDataType](../icssdatatype)
 * namnutrymme [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * hopsättning [GroupDocs.Editor](../../)
 

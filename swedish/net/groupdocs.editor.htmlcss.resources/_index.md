@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnutrymmet GroupDocs.Editor.HtmlCss.Resources tillhandahåller klasser som representerar alla typer av HTMLresurser.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/groupdocs.editor.htmlcss.resources/
 ---
 Namnutrymmet GroupDocs.Editor.HtmlCss.Resources tillhandahåller klasser som representerar alla typer av HTML-resurser.

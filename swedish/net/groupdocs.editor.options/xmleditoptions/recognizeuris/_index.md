@@ -3,7 +3,7 @@ title: RecognizeUris
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillåter att URIigenkänningsalgoritm
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/groupdocs.editor.options/xmleditoptions/recognizeuris/
 ---
 ## XmlEditOptions.RecognizeUris property

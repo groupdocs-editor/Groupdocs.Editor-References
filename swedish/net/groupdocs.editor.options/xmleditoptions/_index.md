@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
-description: Gör det möjligt att ange anpassade alternativ för att ladda XMLdokument eXtensible Markup Language och konvertera dem till HTML
+description: Gör det möjligt att ange anpassade alternativ för redigering av XMLdokument eXtensible Markup Language och konvertera dem till HTML
 type: docs
-weight: 1040
+weight: 1270
 url: /sv/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-Gör det möjligt att ange anpassade alternativ för att ladda XML-dokument (eXtensible Markup Language) och konvertera dem till HTML
+Gör det möjligt att ange anpassade alternativ för redigering av XML-dokument (eXtensible Markup Language) och konvertera dem till HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Tillåter att ange citattyp (enkla eller dubbla citattecken) för attributvärden. Dubbla citattecken är standard. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Teckenkodning av textdokumentet, som kommer att användas för att öppna det. Som standard är null — intern dokumentkodning kommer att tillämpas. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Tillåter att aktivera eller inaktivera mekanism för att fixa skadad XML-struktur. Som standard är inaktiverad (false). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | Tillåter att justera markeringen, som kommer att tillämpas på XML-strukturen, när den representeras i HTML. Som standard är NULL — standardmarkering tillämpas. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | Tillåter att justera XML-formateringen, som kommer att tillämpas på XML-strukturen, när den representeras i HTML. Standardformatering används och är justerbar. Kan inte vara null. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | Tillåter att justera XML-markeringen, som kommer att tillämpas på XML-strukturen, när den representeras i HTML. Standardmarkering används och är justerbar. Kan inte vara null. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Gör det möjligt att aktivera igenkänningsalgoritm för e-postadresser i attributvärden |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | Tillåter att URI-igenkänningsalgoritm |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | Tillåter att trunkering av efterföljande blanksteg i den inre taggtexten. Som standard är inaktiverad (false) — efterföljande blanksteg kommer att bevaras. |

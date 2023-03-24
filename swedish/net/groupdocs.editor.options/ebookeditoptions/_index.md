@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gör det möjligt att specificera och justera anpassade alternativ för redigering av eboksdokument i alla format som stöds ePub MOBI och AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /sv/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
@@ -25,8 +25,8 @@ public sealed class EbookEditOptions : IEditOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Anger om språkinformation exporteras till HTML-uppmärkningen i form av "lang" HTML-attribut. Det här alternativet kan vara användbart för rund- och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad (`falsk` ). |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTML-dokumentet. Som standard är inaktiverad (`falsk` ). |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | Anger om språkinformation exporteras till HTML-uppmärkningen i form av "lang" HTML-attribut. Det här alternativet kan vara användbart för rund- och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad (`falsk`). |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTML-dokumentet. Som standard är inaktiverad (`falsk`). |
 
 ### Anmärkningar
 

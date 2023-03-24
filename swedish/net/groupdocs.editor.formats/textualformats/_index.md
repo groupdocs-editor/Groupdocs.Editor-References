@@ -26,7 +26,7 @@ public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Returnerar instans av[`TextualFormats`](../textualformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Returnerar instans av[`TextualFormats`](../textualformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | Avgör om den här instansen är lika med det andra angivna objektet, det vill säga antagligen av textualFormats |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | Avgör om denna instans är lika med den andra angivna TextualFormats-instansen |

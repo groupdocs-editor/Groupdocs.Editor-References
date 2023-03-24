@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avPresentationFormatsgroupdocs.editor.formats/presentationformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avPresentationFormatsgroupdocs.editor.formats/presentationformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 130
 url: /sv/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-Returnerar instans av[`PresentationFormats`](../../presentationformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`PresentationFormats`](../../presentationformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### Returvärde
 
-Instans av[`PresentationFormats`](../../presentationformats) struktur på framgång eller kastat undantag vid misslyckande
+Instans av[`PresentationFormats`](../../presentationformats)struktur på framgång eller kastat undantag vid misslyckande
 
 ### Se även
 

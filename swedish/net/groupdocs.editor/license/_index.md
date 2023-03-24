@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillhandahåller metoder för att licensiera komponenten. Läs mer om licensieringhärhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 550
+weight: 700
 url: /sv/net/groupdocs.editor/license/
 ---
 ## License class

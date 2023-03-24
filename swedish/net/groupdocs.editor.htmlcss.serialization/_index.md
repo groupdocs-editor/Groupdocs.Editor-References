@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnrymden GroupDocs.Editor.HtmlCss.Serialization tillhandahåller typer som är ansvariga för justering av HTML och CSSuppmärkningsserialiseringsprocessen.
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/groupdocs.editor.htmlcss.serialization/
 ---
 Namnrymden GroupDocs.Editor.HtmlCss.Serialization tillhandahåller typer som är ansvariga för justering av HTML- och CSS-uppmärkningsserialiseringsprocessen.
 
-## Uppräkning
+## Strukturer
 
-| Uppräkning | Beskrivning |
+| Strukturera | Beskrivning |
 | --- | --- |
 | [QuoteType](./quotetype) | Representerar citattecken - enkla citattecken (') och dubbla citattecken (") |
 

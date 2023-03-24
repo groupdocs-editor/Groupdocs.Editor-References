@@ -14,6 +14,12 @@ Tillåter att ange en strängavgränsare (avgränsare) för textbaserade kalkylb
 public string Separator { get; set; }
 ```
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentException | Kastas när specificerad separator är en noll eller tom sträng |
+
 ### Se även
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

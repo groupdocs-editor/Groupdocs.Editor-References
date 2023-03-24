@@ -3,7 +3,7 @@ title: WordProcessingProtection
 second_title: GroupDocs.Editor för .NET API-referens
 description: Kapslar in dokumentskyddsalternativ för WordProcessingdokumentet som genereras från HTML
 type: docs
-weight: 990
+weight: 1220
 url: /sv/net/groupdocs.editor.options/wordprocessingprotection/
 ---
 ## WordProcessingProtection class

@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar citattecken  enkla citattecken  och dubbla citattecken 
 type: docs
-weight: 520
+weight: 670
 url: /sv/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Representerar citattecken - enkla citattecken (') och dubbla citattecken (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Värderingar
+## Egenskaper
 
-| namn | Värde | Beskrivning |
-| --- | --- | --- |
-| SingleQuote | `39` | Enstaka citattecken (U+0027 APOSTROPHE-tecken) |
-| DoubleQuote | `34` | Dubbla citattecken (U+0022 CITATTECKN) |
+| namn | Beskrivning |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Tecken att ange |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Kodpunkt för det aktuella tecknet (U+0027 eller U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | HTML-kodat tecken |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indikerar om denna instans av citattypen är lika med specificerad uncasted |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indikerar om denna instans av offerttypen är lika med specificerad |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Returnerar en hash-kod för detta tecken |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Kontrollerar om två "QuoteType"-värden är lika |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Casts specificerade[`QuoteType`](../quotetype) instans tillChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Kontrollerar om två "QuoteType"-värden inte är lika |
+
+## Fält
+
+| namn | Beskrivning |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Dubbla citattecken (U+0022 CITATTECKN) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Enstaka citattecken (U+0027 APOSTROPHE-tecken) |
 
 ### Se även
 

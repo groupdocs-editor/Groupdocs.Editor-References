@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Innehåller alternativ för att ladda binära kalkylark celler Excelkompatibla dokument som XLSX ODS etc. i Editor class
 type: docs
-weight: 900
+weight: 1110
 url: /sv/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

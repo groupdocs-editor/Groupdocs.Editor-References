@@ -18,6 +18,12 @@ public DelimitedTextEditOptions(string separator)
 | --- | --- | --- |
 | separator | String | Obligatorisk avgränsare (avgränsare), som inte kan vara NULL eller tom |
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentException | Kastas när specificerad separator är en noll eller tom sträng |
+
 ### Se även
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

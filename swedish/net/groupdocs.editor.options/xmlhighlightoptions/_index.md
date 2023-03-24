@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Innehåller alternativ som gör det möjligt att anpassa XMLmarkeringen under XMLtillHTMLkonvertering
 type: docs
-weight: 1050
+weight: 1290
 url: /sv/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ Innehåller alternativ som gör det möjligt att anpassa XML-markeringen under X
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Default_Constructor |
-
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Definierar färg för teckensnittet för attributnamn |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Ansvarig för att representera typsnittet för attributnamn |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Definierar färg för teckensnittet för attributvärden |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Ansvarig för att representera teckensnittet för attributvärden |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Definierar färg för teckensnittet i CDATA-sektioner (inklusive ett par öppnande och avslutande taggar) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Ansvarig för att representera teckensnittet för CDATA-sektioner (inklusive ett par öppnings- och stängningstaggar) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Definierar färg för teckensnittet för HTML-kommentarer (inklusive ett par öppnande och avslutande taggar) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Ansvarig för att representera teckensnittet för HTML-kommentarer (inklusive ett par öppnande och avslutande taggar) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Definierar färg för teckensnittet för innertaggen text |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Ansvarig för att representera typsnittet för innertaggen text |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Definierar färg för teckensnittet för XML-taggar (vinkelparenteser med taggnamn) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Ansvarig för att representera typsnittet för XML-taggar (vinkelparenteser med taggnamn) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Ansvarig för att representera typsnittet för attributnamn |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Ansvarig för att representera teckensnittet för attributvärden |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Ansvarig för att representera teckensnittet för CDATA-sektioner (inklusive ett par öppnings- och stängningstaggar) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Ansvarig för att representera teckensnittet för HTML-kommentarer (inklusive ett par öppnande och avslutande taggar) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Ansvarig för att representera typsnittet för innertaggen text |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Avgör om det här XML Highlight-alternativobjektet har ett standardteckensnitt settings |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Ansvarig för att representera teckensnittet för XML-taggar (vinkelparenteser med taggnamn) |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Återställer de aktuella teckensnittsinställningarna till deras standardvärden |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: GroupDocs.Editor för .NET API-referens
-description: Anger den maximala nivån för rubriker för att dela ePubfilen. Standardvärdet är2 Ställer in den till0 kommer att inaktivera delning så allt innehåll i eboken kommer att inkorporeras i ett enda paket inuti ePub.
+description: Anger den maximala nivån för rubriker för att dela ePubfilen. Standardvärdet är2 . Ställer in den till0 kommer att inaktivera delning så allt innehåll i eboken kommer att inkorporeras i ett enda paket inuti ePub.
 type: docs
 weight: 30
 url: /sv/net/groupdocs.editor.options/epubsaveoptions/splitheadinglevel/
 ---
 ## EpubSaveOptions.SplitHeadingLevel property
 
-Anger den maximala nivån för rubriker för att dela ePub-filen. Standardvärdet är`2` Ställer in den till`0` kommer att inaktivera delning, så allt innehåll i e-boken kommer att inkorporeras i ett enda paket inuti ePub.
+Anger den maximala nivån för rubriker för att dela ePub-filen. Standardvärdet är`2` . Ställer in den till`0` kommer att inaktivera delning, så allt innehåll i e-boken kommer att inkorporeras i ett enda paket inuti ePub.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }

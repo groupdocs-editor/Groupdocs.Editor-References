@@ -3,7 +3,7 @@ title: TryParse
 second_title: GroupDocs.Editor för .NET API-referens
 description: Försöker tolka en angiven sträng som ett längdvärde inklusive dess numeriska värde och enhetsnamn
 type: docs
-weight: 280
+weight: 270
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method

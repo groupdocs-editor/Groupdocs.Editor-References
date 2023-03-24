@@ -26,7 +26,7 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Returnerar instans av[`FixedLayoutFormats`](../fixedlayoutformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Returnerar instans av[`FixedLayoutFormats`](../fixedlayoutformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Avgör om denna instans är lika med den andra angivna FixedLayoutFormats-instansen |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Bestämmer om den här instansen är lika med det andra angivna objektet, som förmodligen är av boxed FixedLayoutFormats |

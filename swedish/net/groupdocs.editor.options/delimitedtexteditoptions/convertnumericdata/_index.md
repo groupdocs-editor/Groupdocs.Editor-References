@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: GroupDocs.Editor för .NET API-referens
-description: Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard är false.
+description: Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard ärfalsk .
 type: docs
 weight: 30
 url: /sv/net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard är false.
+Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard är`falsk` .
 
 ```csharp
 public bool ConvertNumericData { get; set; }

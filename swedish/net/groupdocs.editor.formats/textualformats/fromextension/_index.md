@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avTextualFormatsgroupdocs.editor.formats/textualformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avTextualFormatsgroupdocs.editor.formats/textualformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 80
 url: /sv/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Returnerar instans av[`TextualFormats`](../../textualformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`TextualFormats`](../../textualformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

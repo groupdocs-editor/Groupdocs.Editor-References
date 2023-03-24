@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avEmailFormatsgroupdocs.editor.formats/emailformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avEmailFormatsgroupdocs.editor.formats/emailformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 130
 url: /sv/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Returnerar instans av[`EmailFormats`](../../emailformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`EmailFormats`](../../emailformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Returvärde
 
-Instans av[`EmailFormats`](../../emailformats) struktur på framgång eller kastat undantag vid misslyckande
+Instans av[`EmailFormats`](../../emailformats)struktur på framgång eller kastat undantag vid misslyckande
 
 ### Se även
 

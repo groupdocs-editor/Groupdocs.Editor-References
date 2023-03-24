@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: GroupDocs.Editor för .NET API-referens
 description: Undantaget som kastas när det angivna lösenordet är felaktigt.
 type: docs
-weight: 530
+weight: 680
 url: /sv/net/groupdocs.editor/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

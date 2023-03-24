@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Raster
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Images.Raster tillhandahåller klasser som endast representerar rasterbildsresurser.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/groupdocs.editor.htmlcss.resources.images.raster/
 ---
 Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Images.Raster tillhandahåller klasser som endast representerar rasterbildsresurser.

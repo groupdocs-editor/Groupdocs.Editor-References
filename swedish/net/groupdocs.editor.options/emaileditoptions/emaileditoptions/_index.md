@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-Initierar en ny instans av[`EmailEditOptions`](../../emaileditoptions) klass med[`MailMessageOutput`](../mailmessageoutput) parameter
+Initierar en ny instans av[`EmailEditOptions`](../../emaileditoptions) klass med[`MailMessageOutput`](../mailmessageoutput)parameter
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avEBookFormatsgroupdocs.editor.formats/ebookformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avEBookFormatsgroupdocs.editor.formats/ebookformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 40
 url: /sv/net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-Returnerar instans av[`EBookFormats`](../../ebookformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`EBookFormats`](../../ebookformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EBookFormats FromExtension(string extension)
 
 ### Returvärde
 
-Instans av[`EBookFormats`](../../ebookformats) struktur på framgång eller kastat undantag vid misslyckande
+Instans av[`EBookFormats`](../../ebookformats)struktur på framgång eller kastat undantag vid misslyckande
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: GroupDocs.Editor för .NET API-referens
-description: Definierar om konsekutiva avgränsare ska behandlas som en. Som standard är false.
+description: Definierar om konsekutiva avgränsare ska behandlas som en. Som standard ärfalsk .
 type: docs
 weight: 60
 url: /sv/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Definierar om konsekutiva avgränsare ska behandlas som en. Som standard är false.
+Definierar om konsekutiva avgränsare ska behandlas som en. Som standard är`falsk` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

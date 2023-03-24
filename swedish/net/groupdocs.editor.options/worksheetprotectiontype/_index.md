@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar skyddstyper för kalkylblad flik
 type: docs
-weight: 1030
+weight: 1260
 url: /sv/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

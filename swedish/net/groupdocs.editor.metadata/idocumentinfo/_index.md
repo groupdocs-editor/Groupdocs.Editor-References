@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gemensamt gränssnitt för alla filmetadata wrappers
 type: docs
-weight: 590
+weight: 740
 url: /sv/net/groupdocs.editor.metadata/idocumentinfo/
 ---
 ## IDocumentInfo interface

@@ -26,7 +26,7 @@ public struct WordProcessingFormats : IDocumentFormat, IEquatable<WordProcessing
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Returnerar instans av[`WordProcessingFormats`](../wordprocessingformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Returnerar instans av[`WordProcessingFormats`](../wordprocessingformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_2)(object) | Bestämmer om denna instans är lika med det andra angivna objektet, det vill säga antagligen av WordProcessingFormats |
 | [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_1)(WordProcessingFormats) | Avgör om denna instans är lika med den andra angivna WordProcessingFormats-instansen |

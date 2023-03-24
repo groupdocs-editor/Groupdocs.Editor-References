@@ -3,7 +3,7 @@ title: Calculate
 second_title: GroupDocs.Editor för .NET API-referens
 description: Beräknar och returnerar detta förhållande som ett enda flyttal tal
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

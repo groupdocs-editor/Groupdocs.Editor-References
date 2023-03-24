@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 120
 url: /sv/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-Returnerar instans av[`WordProcessingFormats`](../../wordprocessingformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`WordProcessingFormats`](../../wordprocessingformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Returvärde
 
-Instans av[`WordProcessingFormats`](../../wordprocessingformats) struktur på framgång eller kastat undantag vid misslyckande
+Instans av[`WordProcessingFormats`](../../wordprocessingformats)struktur på framgång eller kastat undantag vid misslyckande
 
 ### Se även
 

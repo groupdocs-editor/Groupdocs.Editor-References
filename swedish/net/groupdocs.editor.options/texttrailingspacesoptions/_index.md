@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Innehåller tillgängliga alternativ för efterföljande utrymmeshantering vid öppning av ett vanligt textdokument TXT
 type: docs
-weight: 960
+weight: 1170
 url: /sv/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

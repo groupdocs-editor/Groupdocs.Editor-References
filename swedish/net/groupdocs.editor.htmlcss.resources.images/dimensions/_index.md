@@ -3,7 +3,7 @@ title: Dimensions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar de linjära dimensionerna bredd och höjd för en rektangulär rasterbild i godtycklig enhet. Oföränderlig struktur.
 type: docs
-weight: 360
+weight: 460
 url: /sv/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

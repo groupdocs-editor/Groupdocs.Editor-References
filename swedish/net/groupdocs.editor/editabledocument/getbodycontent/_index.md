@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar en brödtext i HTMLdokumentet innehållet mellan öppnande och avslutande BODYtaggar utan dessa taggar som en sträng.
+description: Returnerar en brödtext i HTMLdokumentet inre innehåll mellan öppnande och avslutande BODYtaggar utan dessa taggar som en sträng.
 type: docs
 weight: 120
 url: /sv/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Returnerar en brödtext i HTML-dokumentet (innehållet mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng.
+Returnerar en brödtext i HTML-dokumentet (inre innehåll mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Returvärde
 
-String, som innehåller HTML-dokumentets brödtext
+String, som innehåller HTML-dokumentets brödtext (utan öppnande och stängande BODY-taggar)
 
 ### Anmärkningar
 
-WYSIWYG-redigerare arbetar med dokumentets brödtext och kan inte korrekt bearbeta dess metainformation från HEAD-blocket. Denna metod är utformad för sådana fall. Denna överbelastning tillåter inte att justera URI:er för externa resursbegäranden.
+De flesta WYSIWYG-redigerare arbetar vanligtvis med det inre innehållet i dokumentets BODY och kan inte korrekt bearbeta dess metainformation från HEAD-blocket. Denna metod är utformad för sådana fall. Denna överbelastning tillåter inte att justera URI:er för externa resursbegäranden.
 
 ### Se även
 
@@ -32,7 +32,7 @@ WYSIWYG-redigerare arbetar med dokumentets brödtext och kan inte korrekt bearbe
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Returnerar en brödtext i HTML-dokumentet (innehållet mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng, där länkar till de externa resurserna innehåller specificerat prefix.
+Returnerar en brödtext i HTML-dokumentet (inre innehåll mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng, där länkar till de externa resurserna innehåller specificerat prefix.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Returvärde
 
-String, som innehåller HTML-dokumentets brödtext med länkar, anpassad till de externa bilderna
+String, som innehåller HTML-dokumentets brödtext (utan öppnande och stängande BODY-taggar) med länkar, anpassad till de externa bilderna
 
 ### Anmärkningar
 
-WYSIWYG-redigerare arbetar med dokumentets brödtext och kan inte korrekt bearbeta dess metainformation från HEAD-blocket. Denna metod är utformad för sådana fall. Denna överbelastning gör det möjligt att justera URI:er för externa resursbegäranden.
+De flesta WYSIWYG-redigerare arbetar vanligtvis med det inre innehållet i dokumentets BODY och kan inte korrekt bearbeta dess metainformation från HEAD-blocket. Denna metod är utformad för sådana fall. Denna överbelastning gör det möjligt att justera URI:er för externa resursbegäranden.
 
 ### Se även
 

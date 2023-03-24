@@ -26,7 +26,7 @@ public struct PresentationFormats : IDocumentFormat, IEquatable<PresentationForm
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | Returnerar instans av[`PresentationFormats`](../presentationformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | Returnerar instans av[`PresentationFormats`](../presentationformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_2)(object) | Avgör om den här instansen är lika med det andra angivna objektet, det vill säga antagligen av boxed PresentationFormats |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_1)(PresentationFormats) | Avgör om denna instans är lika med den andra angivna PresentationFormats-instansen |

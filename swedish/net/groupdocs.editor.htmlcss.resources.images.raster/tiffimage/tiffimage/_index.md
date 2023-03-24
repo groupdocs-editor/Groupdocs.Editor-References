@@ -16,7 +16,7 @@ public TiffImage(string name, string contentInBase64)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på TIFF-bilden. Kan inte vara null, tom eller blanksteg. |
+| name | String | Namn på TIFF-bilden. Kan inte vara null, tom eller blanksteg. |
 | contentInBase64 | String | Innehåll som base64-kodad sträng. Kan inte vara null, tom eller blanksteg. Om det inte är ett TIFF-innehåll kommer undantag att kastas. |
 
 ### Undantag

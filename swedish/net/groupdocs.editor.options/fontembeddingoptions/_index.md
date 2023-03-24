@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Alternativ för inbäddning av teckensnitt styr vilka teckensnittsresurser som ska bäddas in i WordProcessing eller PDFdokument
 type: docs
-weight: 740
+weight: 890
 url: /sv/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Innehåller alternativ för att generera och spara textbaserade kalkylbladsdokument CSV Tabbaserade etc. som använder en avgränsare avgränsare
 type: docs
-weight: 680
+weight: 830
 url: /sv/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | namn | Beskrivning |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Tillåter att ställa in en kodning för det textbaserade kalkylarksdokumentet. Som standard (och om det inte anges) är UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indikerar om separatorer ska matas ut för tom rad. Standardvärdet är falskt vilket innebär att innehållet för den tomma raden kommer att vara tomt. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indikerar om separatorer ska matas ut för tom rad. Standardvärdet är`falsk` vilket innebär att innehållet för tom rad kommer att vara tomt. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Tillåter att ange en strängavgränsare (avgränsare) för textbaserade kalkylbladsdokument |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indikerar om inledande tomma rader och kolumner ska trimmas som vad MS Excel gör |
 

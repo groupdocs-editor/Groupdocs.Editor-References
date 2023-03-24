@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Alternativ för att ladda textbaserade kalkylarksdokument CSV Tabbaserade etc. som använder en avgränsare avgränsare
 type: docs
-weight: 670
+weight: 820
 url: /sv/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard är false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard är false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Aktiverar minnesoptimeringsmekanismer under bearbetning av inmatningsdokument, vilket kan försämra prestandan i vissa speciella fall, men å andra sidan minska minnesanvändningen. Användbar när du bearbetar stora dokument och står inför OutOfMemoryException. Standardinställningen är falsk (minnesoptimering är inaktiverad för bättre prestanda). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till datumdata. Standard är`falsk` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i ett textbaserat dokument konverteras till numerisk data. Standard är`falsk` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Aktiverar minnesoptimeringsmekanismer under bearbetning av inmatningsdokument, vilket kan försämra prestandan i vissa speciella fall, men å andra sidan minska minnesanvändningen. Användbar när du bearbetar stora dokument och står inför OutOfMemoryException. Standard är`falsk` (minnesoptimering är inaktiverad för bättre prestanda). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Tillåter att ange en strängavgränsare (avgränsare) för textbaserade kalkylbladsdokument |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Definierar om konsekutiva avgränsare ska behandlas som en. Som standard är false. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Definierar om konsekutiva avgränsare ska behandlas som en. Som standard är`falsk` . |
 
 ### Anmärkningar
 

@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: GroupDocs.Editor för .NET API-referens
 description: Inkapslar skyddsalternativ för kalkylblad som gör det möjligt att skydda ett kalkylblad i kalkylarksdokumentet från ändring av specificerad typ med ett specificerat lösenord.
 type: docs
-weight: 1020
+weight: 1250
 url: /sv/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

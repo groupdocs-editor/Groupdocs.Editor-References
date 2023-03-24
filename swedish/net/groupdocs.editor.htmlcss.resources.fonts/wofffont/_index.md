@@ -3,7 +3,7 @@ title: WoffFont
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar ett teckensnitt i formatet WOFF Web Open Font Format
 type: docs
-weight: 320
+weight: 420
 url: /sv/net/groupdocs.editor.htmlcss.resources.fonts/wofffont/
 ---
 ## WoffFont class
@@ -18,7 +18,7 @@ public sealed class WoffFont : FontResourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [WoffFont](wofffont#constructor)(string, Stream) | Skapar ny WoffFont-klass från innehåll, representerat som byteström och med specificerat namn |
+| [WoffFont](wofffont#constructor)(string, Stream) | Skapar ny WoffFont-klass från innehåll, representerad som byteström och med specificerat namn |
 | [WoffFont](wofffont#constructor_1)(string, string) | Skapar en ny WoffFont-klass från innehåll, representerad som base64-kodad sträng och med specificerat namn |
 
 ## Egenskaper

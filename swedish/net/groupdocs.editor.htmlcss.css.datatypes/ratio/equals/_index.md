@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor för .NET API-referens
 description: Bestämmer om denna instans är lika med specificerad Ratio instans
 type: docs
-weight: 80
+weight: 70
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}

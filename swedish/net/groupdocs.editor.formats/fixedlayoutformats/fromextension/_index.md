@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar instans avFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsstruktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
+description: Returnerar instans avFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats struktur kopplad till angivet filnamnstillägg eller ger ett undantag om tillägget inte kan analyseras korrekt
 type: docs
 weight: 30
 url: /sv/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Returnerar instans av[`FixedLayoutFormats`](../../fixedlayoutformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
+Returnerar instans av[`FixedLayoutFormats`](../../fixedlayoutformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### Returvärde
 
-Instans av[`FixedLayoutFormats`](../../fixedlayoutformats) struktur på framgång eller kastat undantag vid misslyckande
+Instans av[`FixedLayoutFormats`](../../fixedlayoutformats)struktur på framgång eller kastat undantag vid misslyckande
 
 ### Se även
 

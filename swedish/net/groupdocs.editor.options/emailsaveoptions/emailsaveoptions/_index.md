@@ -24,7 +24,7 @@ public EmailSaveOptions()
 
 ## EmailSaveOptions(MailMessageOutput) {#constructor_1}
 
-Initierar en ny instans av[`EmailSaveOptions`](../../emailsaveoptions) klass med[`MailMessageOutput`](../mailmessageoutput) parameter
+Initierar en ny instans av[`EmailSaveOptions`](../../emailsaveoptions) klass med[`MailMessageOutput`](../mailmessageoutput)parameter
 
 ```csharp
 public EmailSaveOptions(MailMessageOutput mailMessageOutput)

@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor för .NET API-referens
 description: Returnerar en hashkod för denna instans som inte kan ändras under dess livstid
 type: docs
-weight: 90
+weight: 80
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/ratio/gethashcode/
 ---
 ## Ratio.GetHashCode method

@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillåter att ange anpassade alternativ för att generera och spara elektronisk post epost documents
 type: docs
-weight: 710
+weight: 860
 url: /sv/net/groupdocs.editor.options/emailsaveoptions/
 ---
 ## EmailSaveOptions class
@@ -19,7 +19,7 @@ public sealed class EmailSaveOptions : ISaveOptions
 | namn | Beskrivning |
 | --- | --- |
 | [EmailSaveOptions](emailsaveoptions#constructor)() | Initierar en ny instans av[`EmailSaveOptions`](../emailsaveoptions) klass, där alla alternativ är inställda på sina standardvärden |
-| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Initierar en ny instans av[`EmailSaveOptions`](../emailsaveoptions) klass med[`MailMessageOutput`](./mailmessageoutput) parameter |
+| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Initierar en ny instans av[`EmailSaveOptions`](../emailsaveoptions) klass med[`MailMessageOutput`](./mailmessageoutput)parameter |
 
 ## Egenskaper
 

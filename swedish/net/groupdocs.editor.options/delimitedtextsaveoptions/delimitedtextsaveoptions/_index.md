@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| separator | String | Strängavgränsare (avgränsare) för textbaserade kalkylarksdokument |
+| separator | String | Strängavgränsare (avgränsare), som inte kan vara NULL eller tom |
+
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentException | Kastas när specificerad separator är en noll eller tom sträng |
 
 ### Se även
 

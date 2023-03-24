@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor för .NET API-referens
-description: Returnerar alltid false eftersom textdokument inte kan krypteras.
+description: Returnerar alltid falsk  eftersom textdokument inte kan krypteras
 type: docs
 weight: 30
 url: /sv/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-Returnerar alltid "false", eftersom textdokument inte kan krypteras.
+Returnerar alltid ``falsk` `, eftersom textdokument inte kan krypteras
 
 ```csharp
 public bool IsEncrypted { get; }

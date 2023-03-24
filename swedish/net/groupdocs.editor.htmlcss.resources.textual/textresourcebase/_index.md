@@ -3,7 +3,7 @@ title: TextResourceBase
 second_title: GroupDocs.Editor för .NET API-referens
 description: Basklass för vilken textresurs som helst med textinnehåll och kodning
 type: docs
-weight: 490
+weight: 640
 url: /sv/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/
 ---
 ## TextResourceBase class

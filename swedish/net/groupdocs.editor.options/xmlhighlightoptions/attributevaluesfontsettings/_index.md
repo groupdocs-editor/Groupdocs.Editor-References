@@ -3,7 +3,7 @@ title: AttributeValuesFontSettings
 second_title: GroupDocs.Editor för .NET API-referens
 description: Ansvarig för att representera teckensnittet för attributvärden
 type: docs
-weight: 50
+weight: 20
 url: /sv/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeValuesFontSettings property
@@ -11,11 +11,12 @@ url: /sv/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontset
 Ansvarig för att representera teckensnittet för attributvärden
 
 ```csharp
-public Font AttributeValuesFontSettings { get; set; }
+public WebFont AttributeValuesFontSettings { get; }
 ```
 
 ### Se även
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namnutrymme [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * hopsättning [GroupDocs.Editor](../../../)

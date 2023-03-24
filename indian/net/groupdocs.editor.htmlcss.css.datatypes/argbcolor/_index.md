@@ -1,0 +1,65 @@
+---
+title: ArgbColor
+second_title: .NET API संदर्भ के लिए GroupDocs.Editor
+description: कन्वर्टर्स और सरयलइज़र के सथ एआरजब प्ररूप में एक रंग मन क प्रतनधत्व करत है
+type: docs
+weight: 190
+url: /hi/net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/
+---
+## ArgbColor structure
+
+कन्वर्टर्स और सीरियलाइज़र के साथ एआरजीबी प्रारूप में एक रंग मान का प्रतिनिधित्व करता है
+
+```csharp
+public struct ArgbColor : ICssDataType, IEquatable<ArgbColor>
+```
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [A](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/a) { get; } | रंग का अल्फा भाग प्राप्त करता है। |
+| [Alpha](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/alpha) { get; } | रंग का अल्फा भाग प्रतिशत (0..1) में प्राप्त करता है। |
+| [B](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/b) { get; } | रंग का नीला भाग प्राप्त करता है। |
+| [G](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/g) { get; } | रंग का हरा भाग प्राप्त करता है। |
+| [IsEmpty](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isempty) { get; } | प्रारंभिक रंग - सभी 4 चैनल 0 पर सेट हैं। डिफ़ॉल्ट और पारदर्शी के समान। |
+| [IsFullyOpaque](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullyopaque) { get; } | इंगित करता है कि क्या यह[`ArgbColor`](../argbcolor) उदाहरण पूरी तरह से अपारदर्शी है, पारदर्शिता के बिना (इसके अल्फा चैनल का अधिकतम मूल्य है) |
+| [IsFullyTransparent](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullytransparent) { get; } | इंगित करता है कि क्या यह[`ArgbColor`](../argbcolor) उदाहरण पूरी तरह से पारदर्शी है - इसके अल्फा चैनल का न्यूनतम (0) मान है, इसलिए अन्य आर, जी, और बी चैनलों का कोई दृश्य प्रभाव नहीं है। |
+| [IsTranslucent](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/istranslucent) { get; } | इंगित करता है कि क्या यह[`ArgbColor`](../argbcolor) उदाहरण पारभासी है (पूरी तरह से पारदर्शी नहीं है, लेकिन पूरी तरह से अपारदर्शी भी नहीं है) |
+| [R](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/r) { get; } | रंग का लाल भाग प्राप्त करता है। |
+| [Value](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/value) { get; } | रंग का Int32 मान प्राप्त करता है। |
+
+## तरीकों
+
+| नाम | विवरण |
+| --- | --- |
+| static [FromRgb](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromrgb)(byte, byte, byte) | एक बनाता है[`ArgbColor`](../argbcolor) निर्दिष्ट लाल, हरे, नीले चैनलों से मूल्य, जबकि अल्फा चैनल पूरी तरह से अपारदर्शी है |
+| static [FromRgba](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromrgba)(byte, byte, byte, byte) | एक बनाता है[`ArgbColor`](../argbcolor) निर्दिष्ट लाल, हरे, नीले और अल्फा चैनल से मान |
+| static [FromSingleValueRgb](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/fromsinglevaluergb)(byte) | एकल मान से पूरी तरह से अपारदर्शी (A=255) रंग बनाता है, जो सभी चैनलों पर लागू होगा |
+| [Equals](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/equals#equals)(ArgbColor) | दो चेक करता है[`ArgbColor`](../argbcolor) समानता के लिए रंग |
+| override [Equals](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/equals#equals_1)(object) | परीक्षण करता है कि कोई अन्य वस्तु इसके बराबर है या नहीं[`ArgbColor`](../argbcolor) उदाहरण. |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/gethashcode)() | एक हैश कोड लौटाता है जो वर्तमान रंग को परिभाषित करता है। |
+| [SerializeDefault](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/serializedefault)() | इसे क्रमबद्ध करता है[`ArgbColor`](../argbcolor)Translucency के आधार पर सबसे उपयुक्त CSS फ़ंक्शन नोटेशन का उदाहरण |
+| [ToRGB](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/torgb)() | इसे क्रमबद्ध करता है[`ArgbColor`](../argbcolor) उदाहरण के लिए 'आरजीबी' सीएसएस फ़ंक्शन नोटेशन |
+| [ToRGBA](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/torgba)() | इसे क्रमबद्ध करता है[`ArgbColor`](../argbcolor) उदाहरण के लिए 'rgba' CSS फ़ंक्शन notation |
+| override [ToString](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/tostring)() | समान[`SerializeDefault`](./serializedefault) |
+| [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_equality) | दो रंगों की तुलना करता है और एक बूलियन लौटाता है जो दर्शाता है कि क्या दोनों मेल खाते हैं। |
+| [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_inequality) | दो रंगों की तुलना करता है और एक बूलियन लौटाता है जो बताता है कि क्या दोनों मेल नहीं खाते हैं। |
+
+## अन्य सदस्य
+
+| नाम | विवरण |
+| --- | --- |
+| static class [KnownColors](argbcolor.knowncolors) | में सभी "ज्ञात रंग" शामिल हैं, जिनका CSS standart में अद्वितीय नाम और मान है |
+
+### टिप्पणियों
+
+इस प्रकार को सीएसएस संचालन के लिए (लेकिन इस तक सीमित नहीं) उपयोगी होने के लिए डिज़ाइन किया गया है। और देखें: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+### यह सभी देखें
+
+* interface [ICssDataType](../icssdatatype)
+* नाम स्थान [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
+* सभा [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

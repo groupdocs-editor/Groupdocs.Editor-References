@@ -16,7 +16,7 @@ public void Save(string fullPathToFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fullPathToFile | String | 文件的完整路径，将被创建或重写 |
+| fullPathToFile | String | 将创建或重写的文件的完整路径 |
 
 ### 也可以看看
 

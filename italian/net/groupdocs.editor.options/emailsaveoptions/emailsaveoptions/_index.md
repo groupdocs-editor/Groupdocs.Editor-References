@@ -24,7 +24,7 @@ public EmailSaveOptions()
 
 ## EmailSaveOptions(MailMessageOutput) {#constructor_1}
 
-Inizializza una nuova istanza di[`EmailSaveOptions`](../../emailsaveoptions) classe con[`MailMessageOutput`](../mailmessageoutput) parametro
+Inizializza una nuova istanza di[`EmailSaveOptions`](../../emailsaveoptions) classe con[`MailMessageOutput`](../mailmessageoutput)parametro
 
 ```csharp
 public EmailSaveOptions(MailMessageOutput mailMessageOutput)

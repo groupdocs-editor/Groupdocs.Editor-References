@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定输入纯文本文档中文本流的方向默认情况下是从左到右
+description: 允许指定输入纯文本文档中文本流的方向默认情况下是从左到右.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/texteditoptions/direction/
 ---
 ## TextEditOptions.Direction property
 
-允许指定输入纯文本文档中文本流的方向。默认情况下是从左到右。
+允许指定输入纯文本文档中文本流的方向。默认情况下是从左到右.
 
 ```csharp
 public TextDirection Direction { get; set; }

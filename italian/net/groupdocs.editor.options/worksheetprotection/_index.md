@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Incapsula le opzioni di protezione del foglio di lavoro che consentono di proteggere un foglio di lavoro nel documento Foglio di calcolo di output dalla modifica del tipo specificato con una password specificata.
 type: docs
-weight: 1020
+weight: 1250
 url: /it/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

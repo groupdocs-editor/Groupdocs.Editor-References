@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于指定的TextType实例
+description: 确定此实例是否等于指定的TextType instance
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/texttype/equals/
 ---
 ## Equals(TextType) {#equals}
 
-确定此实例是否等于指定的“TextType”实例
+确定此实例是否等于指定的“TextType” instance
 
 ```csharp
 public bool Equals(TextType other)
@@ -16,7 +16,7 @@ public bool Equals(TextType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TextType | 其他 TextType 实例，应与 this 进行比较 |
+| other | TextType | 其他 TextType 实例，应与此实例进行相等比较 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(TextType other)
 
 ## Equals(object) {#equals_1}
 
-判断这个实例是否与指定的未转换对象相等，大概是另一个“TextType”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“TextType”实例
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 其他 TextType 实例，即装箱到对象 |
+| obj | Object | 装箱到对象的其他 TextType 实例 |
 
 ### 返回值
 

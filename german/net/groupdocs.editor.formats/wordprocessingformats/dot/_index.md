@@ -1,14 +1,14 @@
 ---
 title: Dot
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: MS Word 972007 Template sind von Microsoft Word erstellte Vorlagendateien mit vorformatierten Einstellungen für die Generierung weiterer DOC oder DOCXDateien. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/dot .
+description: MS Word 972007 Template sind von Microsoft Word erstellte Vorlagendateien mit vorformatierten Einstellungen für die Generierung weiterer DOC oder DOCXDateien. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
 weight: 40
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/dot/
 ---
 ## WordProcessingFormats.Dot field
 
-MS Word 97-2007 Template sind von Microsoft Word erstellte Vorlagendateien mit vorformatierten Einstellungen für die Generierung weiterer DOC- oder DOCX-Dateien. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/dot) .
+MS Word 97-2007 Template sind von Microsoft Word erstellte Vorlagendateien mit vorformatierten Einstellungen für die Generierung weiterer DOC- oder DOCX-Dateien. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/dot) .
 
 ```csharp
 public static readonly WordProcessingFormats Dot;

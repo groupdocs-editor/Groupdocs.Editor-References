@@ -1,14 +1,14 @@
 ---
 title: Mp3Audio
 second_title: GroupDocs.Editor for .NET API 参考
-description: 代表任意格式的一个音频资源
+description: 表示一个任意格式的音频资源
 type: docs
-weight: 250
+weight: 350
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/
 ---
 ## Mp3Audio class
 
-代表任意格式的一个音频资源
+表示一个任意格式的音频资源
 
 ```csharp
 public sealed class Mp3Audio : IEquatable<Mp3Audio>, IHtmlResource
@@ -24,28 +24,28 @@ public sealed class Mp3Audio : IEquatable<Mp3Audio>, IHtmlResource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByteContent](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/bytecontent) { get; } | 以字节流的形式返回此字体的内容 |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/bytecontent) { get; } | 返回此字体的内容作为字节流 |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/filenamewithextension) { get; } | 返回此 MP3 内容的正确文件名，由名称和扩展名组成。理论上可以与名称不同。 |
-| [IsDisposed](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isdisposed) { get; } | 确定是否处理此 MP3 内容 |
-| [Name](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/name) { get; } | 返回此 MP3 内容的名称。通常不包含文件扩展名，理论上可能与 filename. 不同 |
-| [TextContent](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/textcontent) { get; } | 将此 MP3 资源的内容作为 base64 编码的字符串返回。该值在第一次调用后被缓存。 |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isdisposed) { get; } | 判断是否处理该MP3内容 |
+| [Name](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/name) { get; } | 返回此 MP3 内容的名称。通常不包含文件扩展名，理论上可以不同于文件名. |
+| [TextContent](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/textcontent) { get; } | 将此 MP3 资源的内容作为 base64 编码字符串返回。该值在第一次调用后缓存。 |
 | [Type](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/type) { get; } | 返回一个 AudioType.Mp3 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/dispose)() | 处理此 MP3 资源，处理其内容并使大多数方法和属性不工作 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals_1)(IHtmlResource) | 在引用相等 上使用指定的 HTML 资源检查此实例 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals)(Mp3Audio) | 在引用相等 上使用指定字体资源检查此实例 |
-| [Save](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/save)(string) | 将此 MP3 资源保存到指定文件 |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid)(Stream) | 检查指定流是否是有效的 MP3 内容 |
+| [Dispose](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/dispose)() | 处理此 MP3 资源，处理其内容并使大多数方法和属性无效 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals_1)(IHtmlResource) | 使用指定的 HTML 资源检查此实例引用 equality |
+| [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals)(Mp3Audio) | 在引用 equality 上使用指定的字体资源检查此实例 |
+| [Save](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/save)(string) | 将此 MP3 资源保存到指定的文件 |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid)(Stream) | 检查指定流是否为有效的 MP3 内容 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/disposed) | 事件，该 MP3 内容被释放时发生 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/disposed) | 事件，当这个MP3内容被处理时发生 |
 
 ### 也可以看看
 

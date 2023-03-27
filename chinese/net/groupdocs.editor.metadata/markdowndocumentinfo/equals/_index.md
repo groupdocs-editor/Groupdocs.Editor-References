@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 判断这个实例是否等于另一个指定的实例MarkdownDocumentInfogroupdocs.editor.metadata/markdowndocumentinfo实例.
+description: 判断这个实例是否等于另一个指定的MarkdownDocumentInfogroupdocs.editor.metadata/markdowndocumentinfo实例.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.metadata/markdowndocumentinfo/equals/
 ---
 ## MarkdownDocumentInfo.Equals method
 
-判断这个实例是否等于另一个指定的实例[`MarkdownDocumentInfo`](../../markdowndocumentinfo)实例.
+判断这个实例是否等于另一个指定的[`MarkdownDocumentInfo`](../../markdowndocumentinfo)实例.
 
 ```csharp
 public bool Equals(MarkdownDocumentInfo other)
@@ -16,11 +16,11 @@ public bool Equals(MarkdownDocumentInfo other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | MarkdownDocumentInfo | 其他[`MarkdownDocumentInfo`](../../markdowndocumentinfo)例如，应该检查与 this 是否相等 |
+| other | MarkdownDocumentInfo | 其他[`MarkdownDocumentInfo`](../../markdowndocumentinfo)例如，应该检查是否与此相等 |
 
 ### 返回值
 
-如果相等则为真，如果不相等则为假
+`真的`如果相等，`错误的`如果不相等
 
 ### 也可以看看
 

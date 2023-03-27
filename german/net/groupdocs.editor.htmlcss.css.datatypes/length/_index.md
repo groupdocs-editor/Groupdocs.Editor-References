@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert einen CSSLängenwert in jeder unterstützbaren Einheit einschließlich Prozent und einheitsloser Typen. Werte können ganzzahlig oder Gleitkommazahl negativ null und positiv sein. Unveränderliche Struktur.
 type: docs
-weight: 190
+weight: 260
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure
@@ -11,7 +11,7 @@ url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/
 Repräsentiert einen CSS-Längenwert in jeder unterstützbaren Einheit, einschließlich Prozent und einheitsloser Typen. Werte können ganzzahlig oder Gleitkommazahl, negativ, null und positiv sein. Unveränderliche Struktur.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 ```
 
 ## Eigenschaften
@@ -21,12 +21,11 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | Gibt einen numerischen Float-Wert der Length-Instanz zurück. Löst nie eine Ausnahme aus – wandelt den Integer-Wert bei Bedarf in Float um. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | Gibt einen ganzzahligen numerischen Wert dieser Längeninstanz zurück, wenn er intern als Ganzzahl gespeichert ist, oder löst eine Ausnahme aus, wenn er ursprünglich als Gleitkommazahl gespeichert wurde. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | Ruft ab, ob die Länge in absoluten Einheiten angegeben ist. Eine solche Länge kann in Pixel umgewandelt werden. |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | Gibt an, ob diese Längeninstanz einen Standardwert hat – einheitenlose Null. Identisch mit der IsUnitlessZero-Eigenschaft. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | Gibt an, ob der numerische Wert dieser Längeninstanz ursprünglich angegeben und als Gleitkommazahl (FP32) gespeichert wurde number |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | Gibt an, ob der numerische Wert dieser Längeninstanz ursprünglich angegeben und als Ganzzahl (INT32) gespeichert wurde number |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | Bestimmt, ob der numerische Wert dieser Länge eine negative Zahl ist |
 | [IsPositive](../../groupdocs.editor.htmlcss.css.datatypes/length/ispositive) { get; } | Bestimmt, ob der numerische Wert dieser Länge eine positive Zahl ist |
-| [IsRelative](../../groupdocs.editor.htmlcss.css.datatypes/length/isrelative) { get; } | Ruft ab, ob die Länge in relativen Einheiten angegeben ist. Eine solche Länge kann nicht in Pixel umgerechnet werden. |
+| [IsRelative](../../groupdocs.editor.htmlcss.css.datatypes/length/isrelative) { get; } | Ruft ab, ob die Länge in relativen Einheiten angegeben wird. Eine solche Länge kann nicht in Pixel umgerechnet werden. |
 | [IsUnitlessNonZero](../../groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero) { get; } | Der Wert hat einen einheitenlosen Typ, ist aber keine Null - positive oder negative Zahl |
 | [IsUnitlessZero](../../groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero) { get; } | Bestimmt, ob diese Instanz eine einheitenlose Null ist oder nicht. Null ohne Einheit ist der Standardwert dieses Typs. Identisch mit IsDefault-Eigenschaft. |
 | [IsZero](../../groupdocs.editor.htmlcss.css.datatypes/length/iszero) { get; } | Bestimmt, ob der numerische Wert dieser Länge eine Null ist number |
@@ -52,6 +51,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | static [TryParse](../../groupdocs.editor.htmlcss.css.datatypes/length/tryparse)(string, out Length) | Versucht, eine angegebene Zeichenfolge als Längenwert zu analysieren, einschließlich ihres numerischen Werts und Einheitennamens |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/length/op_equality) | Überprüft die Gleichheit der beiden angegebenen Längen. |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/length/op_inequality) | Überprüft die Ungleichheit der beiden angegebenen Längen. |
+| [operator *](../../groupdocs.editor.htmlcss.css.datatypes/length/op_multiply) | Multipliziert die angegebene Länge mit dem angegebenen Faktor |
 
 ## Felder
 
@@ -74,6 +74,7 @@ Dieser Typ deckt die nächsten CSS-Datentypen ab: https://developer.mozilla.org/
 
 ### Siehe auch
 
+* interface [ICssDataType](../icssdatatype)
 * namensraum [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * Montage [GroupDocs.Editor](../../)
 

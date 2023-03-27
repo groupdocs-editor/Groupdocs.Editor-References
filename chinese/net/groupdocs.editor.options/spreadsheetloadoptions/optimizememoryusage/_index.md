@@ -1,14 +1,14 @@
 ---
 title: OptimizeMemoryUsage
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在输入文档处理期间启用内存优化机制在某些特殊情况下可能会降低性能 但另一方面会降低内存使用量在处理大量文档并面临 OutOfMemoryException 时很有用 默认为 false为了更好的性能而禁用内存优化
+description: 在输入文档处理期间启用内存优化机制这在某些特殊情况下可能会降低性能 但另一方面会减少内存使用在处理大量文档并面临 OutOfMemoryException 时很有用 默认为 false为了更好的性能禁用内存优化
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/spreadsheetloadoptions/optimizememoryusage/
 ---
 ## SpreadsheetLoadOptions.OptimizeMemoryUsage property
 
-在输入文档处理期间启用内存优化机制，在某些特殊情况下可能会降低性能， 但另一方面会降低内存使用量。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为 false（为了更好的性能而禁用内存优化）。
+在输入文档处理期间启用内存优化机制，这在某些特殊情况下可能会降低性能， 但另一方面会减少内存使用。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为 false（为了更好的性能禁用内存优化）。
 
 ```csharp
 public bool OptimizeMemoryUsage { get; set; }

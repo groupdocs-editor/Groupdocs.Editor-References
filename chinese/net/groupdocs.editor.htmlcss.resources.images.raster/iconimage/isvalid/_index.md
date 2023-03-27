@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查指定流是否是有效的 ICON 图像
+description: 检查指定的流是否是有效的 ICON image
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/iconimage/isvalid/
 ---
 ## IsValid(Stream) {#isvalid}
 
-检查指定流是否是有效的 ICON 图像
+检查指定的流是否是有效的 ICON image
 
 ```csharp
 public static bool IsValid(Stream binaryContent)
@@ -20,7 +20,7 @@ public static bool IsValid(Stream binaryContent)
 
 ### 返回值
 
-如果指定的流包含有效的 ICON 图像，则为 true，否则为 false
+如果指定的流包含有效的 ICON 图像，则为 True，否则为 false
 
 ### 也可以看看
 
@@ -40,11 +40,11 @@ public static bool IsValid(string contentInBase64)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contentInBase64 | String | 大概是 ICON 图像的内容，采用 base64 编码字符串的形式 |
+| contentInBase64 | String | 可能是 ICON 图像的内容，采用 base64 编码的字符串形式 |
 
 ### 返回值
 
-如果指定的字符串包含有效的 ICON 图像，则为 true，否则为 false
+如果指定的字符串包含有效的 ICON 图像，则为 True，否则为 false
 
 ### 也可以看看
 

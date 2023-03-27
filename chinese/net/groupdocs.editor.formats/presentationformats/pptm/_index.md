@@ -1,14 +1,14 @@
 ---
 title: Pptm
 second_title: GroupDocs.Editor for .NET API 参考
-description: 使用 Microsoft PowerPoint 2007 或更高版本创建的 Microsoft Office Open XML PresentationML 启用宏的文档 PPTM 文件它们类似于PPTX文件不同之处在于横向不能执行宏尽管它们可以包含宏 了解更多关于这种文件格式这里https//wiki.fileformat.com/presentation/pptm
+description: 使用 Microsoft PowerPoint 2007 或更高版本创建的 Microsoft Office Open XML PresentationML 启用宏的文档 PPTM 文件它们类似于 PPTX 文件不同之处在于横向不能执行宏但它们可以包含宏 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptm
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.formats/presentationformats/pptm/
 ---
 ## PresentationFormats.Pptm field
 
-使用 Microsoft PowerPoint 2007 或更高版本创建的 Microsoft Office Open XML PresentationML 启用宏的文档 (PPTM) 文件。它们类似于PPTX文件，不同之处在于横向不能执行宏，尽管它们可以包含宏。 了解更多关于这种文件格式[这里](https://wiki.fileformat.com/presentation/pptm)
+使用 Microsoft PowerPoint 2007 或更高版本创建的 Microsoft Office Open XML PresentationML 启用宏的文档 (PPTM) 文件。它们类似于 PPTX 文件，不同之处在于横向不能执行宏，但它们可以包含宏。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pptm)
 
 ```csharp
 public static readonly PresentationFormats Pptm;

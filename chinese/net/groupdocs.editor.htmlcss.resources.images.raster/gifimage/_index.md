@@ -1,14 +1,14 @@
 ---
 title: GifImage
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一张 GIF图形交换格式格式的图像及其元数据和其他方法
+description: 表示 GIF图形交换格式格式的一张图像及其元数据和其他方法
 type: docs
-weight: 410
+weight: 510
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/gifimage/
 ---
 ## GifImage class
 
-表示一张 GIF（图形交换格式）格式的图像及其元数据和其他方法
+表示 GIF（图形交换格式）格式的一张图像及其元数据和其他方法
 
 ```csharp
 public sealed class GifImage : RasterImageResourceBase
@@ -27,12 +27,12 @@ public sealed class GifImage : RasterImageResourceBase
 | --- | --- |
 | [AspectRatio](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/aspectratio) { get; } | 返回此图像的纵横比作为宽高关系 |
 | [ByteContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/bytecontent) { get; } | 将此光栅图像的内容作为字节流返回 |
-| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension) { get; } | 返回此光栅图像的正确文件名，由名称和扩展名组成。理论上可以与名称不同。 |
+| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension) { get; } | 返回此光栅图像的正确文件名，它由名称和扩展名组成。理论上可以与名称不同。 |
 | [IsDisposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/isdisposed) { get; } | 确定是否处理此光栅图像 |
-| [Length](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/length) { get; } | 返回此光栅图像文件的长度（以字节为单位） |
+| [Length](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/length) { get; } | 以字节为单位返回此光栅图像文件的长度 |
 | [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/lineardimensions) { get; } | 返回此光栅图像的线性尺寸（宽度和高度） |
-| [Name](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/name) { get; } | 返回此光栅图像的名称。通常不包含文件扩展名，理论上可能与 filename. 不同 |
-| [TextContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/textcontent) { get; } | 将此光栅图像的内容返回为 base64 编码的字符串 |
+| [Name](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/name) { get; } | 返回此光栅图像的名称。通常不包含文件扩展名，理论上可以不同于文件名. |
+| [TextContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/textcontent) { get; } | 以 base64 编码的字符串形式返回此光栅图像的内容 |
 | override [Type](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/type) { get; } | 返回 ImageType.Gif |
 | [Version](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/version) { get; } | 返回此 GIF 图像的内部版本（版本从标题中提取） |
 
@@ -41,18 +41,18 @@ public sealed class GifImage : RasterImageResourceBase
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/dispose)() | 处理此光栅图像，处理其内容并使大多数方法和属性无效 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/equals)(IHtmlResource) | 使用指定的引用相等性检查此实例。 |
-| [GenerateBitmap](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/generatebitmap)() | 从此光栅图像生成并返回“System.Drawing.Bitmap”的新实例。 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/equals)(IHtmlResource) | 检查此实例是否具有指定的引用相等性。 |
+| [GenerateBitmap](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/generatebitmap)() | 从该光栅图像生成并返回“System.Drawing.Bitmap”的新实例。 |
 | [ReduceToNewHeight](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/reducetonewheight#reducetonewheight)(ushort) | 创建并返回一个新的缩小 GIF 图像，但具有指定的新缩小高度和按比例缩小的宽度。 (2 methods) |
 | [Save](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/save)(string) | 将此光栅图像保存到指定文件 |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid)(Stream) | 检查指定流是否是有效的 GIF 图像 |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid_1)(string) | 检查指定的 base64 编码字符串是否为有效的 GIF 图像 |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid)(Stream) | 检查指定的流是否是有效的 GIF 图像 |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/gifimage/isvalid#isvalid_1)(string) | 检查指定的 base64 编码字符串是否是有效的 GIF 图像 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | 处理此光栅图像时发生的事件 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed) | 事件，当处理此光栅图像时发生 |
 
 ### 也可以看看
 

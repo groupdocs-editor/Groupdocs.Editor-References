@@ -3,7 +3,7 @@ title: InvalidFontFormatException
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الاستثناء الذي يتم طرحه عند محاولة فتح بعض المحتوى أو تحميله أو حفظه أو معالجته بطريقة أخرى  والذي يُفترض أنه خط بتنسيق مدعوم معروف  ولكنه في الواقع خط ذو تنسيق غير متوقع و / أو غير مدعوم أو ليس خطًا في الكل .
 type: docs
-weight: 220
+weight: 320
 url: /ar/net/groupdocs.editor.htmlcss.exceptions/invalidfontformatexception/
 ---
 ## InvalidFontFormatException class

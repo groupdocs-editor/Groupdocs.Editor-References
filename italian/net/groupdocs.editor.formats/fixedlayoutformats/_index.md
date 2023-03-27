@@ -26,7 +26,7 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Restituisce l'istanza di[`FixedLayoutFormats`](../fixedlayoutformats)struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Restituisce l'istanza di[`FixedLayoutFormats`](../fixedlayoutformats) struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Determina se questa istanza è uguale all'altra istanza FixedLayoutFormats specificata |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Determina se questa istanza è uguale all'altro IDocumentFormat specificato instance |
 | override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Determina se questa istanza è uguale all'altro oggetto specificato, che è presumibilmente di FixedLayoutFormats boxed |
@@ -40,8 +40,8 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/pdf/) . |
-| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | Il file XPS rappresenta i file di layout di pagina basati sulle specifiche XML Paper create da Microsoft. È stato sviluppato per sostituire il formato di file EMF ed è simile al formato di file PDF, ma utilizza XML per il layout, l'aspetto e le informazioni di stampa di un documento. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/page-description-language/xps/) . |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/pdf/) . |
+| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | Il file XPS rappresenta i file di layout di pagina basati sulle specifiche XML Paper create da Microsoft. È stato sviluppato per sostituire il formato di file EMF ed è simile al formato di file PDF, ma utilizza XML per il layout, l'aspetto e le informazioni di stampa di un documento. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/page-description-language/xps/) . |
 | static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | Restituisce una classe interna, che fornisce possibilità enumerabili su tutti i formati a layout fisso esistenti |
 
 ## Altri membri

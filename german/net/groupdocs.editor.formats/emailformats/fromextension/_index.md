@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückEmailFormatsgroupdocs.editor.formats/emailformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückEmailFormatsgroupdocs.editor.formats/emailformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 130
 url: /de/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`EmailFormats`](../../emailformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`EmailFormats`](../../emailformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Rückgabewert
 
-Instanz von[`EmailFormats`](../../emailformats) Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
+Instanz von[`EmailFormats`](../../emailformats)Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
 
 ### Siehe auch
 

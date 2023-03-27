@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تتحكم خيارات تضمين الخط في تحديد موارد الخط التي يجب تضمينها في معالجة Word أو مستند PDF الناتج
 type: docs
-weight: 740
+weight: 890
 url: /ar/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

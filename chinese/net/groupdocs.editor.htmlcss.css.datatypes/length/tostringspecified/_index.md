@@ -1,14 +1,14 @@
 ---
 title: ToStringSpecified
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以指定的单位类型返回此长度的字符串表示形式数值将根据单位类型变化进行转换
+description: 以指定单位类型返回此长度的字符串表示形式数值将根据单位类型的变化进行转换
 type: docs
-weight: 260
+weight: 250
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/tostringspecified/
 ---
 ## Length.ToStringSpecified method
 
-以指定的单位类型返回此长度的字符串表示形式。数值将根据单位类型变化进行转换。
+以指定单位类型返回此长度的字符串表示形式。数值将根据单位类型的变化进行转换。
 
 ```csharp
 public string ToStringSpecified(Unit unit)
@@ -16,7 +16,7 @@ public string ToStringSpecified(Unit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| unit | Unit | 指定的单位，此实例在序列化为字符串之前应转换为该单位。 应该是有效的。不能无单位。 |
+| unit | Unit | 指定单位，此实例在序列化为字符串之前应转换为该单位。 应该有效。不能没有单位。 |
 
 ### 返回值
 
@@ -27,7 +27,7 @@ public string ToStringSpecified(Unit unit)
 | 例外 | （健康）状况 |
 | --- | --- |
 | InvalidEnumArgumentException | 值未定义 |
-| ArgumentOutOfRangeException | 禁止无单位值 |
+| ArgumentOutOfRangeException | 禁止使用无单位值 |
 
 ### 也可以看看
 

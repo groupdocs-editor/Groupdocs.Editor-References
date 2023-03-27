@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: GroupDocs.Editor for .NET API 参考
-description: 转换指定的已编辑文档表示为  的实例EditableDocumentgroupdocs.editor/editabledocument 到指定格式的结果文档并将其内容保存到指定的stream
+description: 转换指定的编辑文档表示为 EditableDocumentgroupdocs.editor/editabledocument  到指定格式的结果文档并将其内容保存到指定的 stream
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor/editor/save/
 ---
 ## Save(EditableDocument, Stream, ISaveOptions) {#save}
 
-转换指定的已编辑文档，表示为 ' 的实例[`EditableDocument`](../../editabledocument) 到指定格式的结果文档，并将其内容保存到指定的stream
+转换指定的编辑文档，表示为 '[`EditableDocument`](../../editabledocument) , 到指定格式的结果文档并将其内容保存到指定的 stream
 
 ```csharp
 public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOptions saveOptions)
@@ -16,15 +16,15 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| inputDocument | EditableDocument | 输入文档的版本，在 WYSIWYG HTML 编辑器中编辑并存储为 ' 的实例[`EditableDocument`](../../editabledocument)类，它应该被转换为某种特定格式的输出文档。不得为 null 或已处置。 |
-| outputDocument | Stream | 输出流，其中将记录结果文档的内容。不得为空，已处置，必须支持写入。 |
-| saveOptions | ISaveOptions | 文档保存选项，定义结果文档的格式， 以及通用和特定格式的保存选项。不得为空。 |
+| inputDocument | EditableDocument | 输入文档的版本，在 WYSIWYG HTML 编辑器中编辑并存储为 '[`EditableDocument`](../../editabledocument)类，应将其转换为某种特定格式的输出文档。不得为 null 或已处置。 |
+| outputDocument | Stream | 输出流，其中将记录结果文档的内容。不能为空，已处置，必须支持写入。 |
+| saveOptions | ISaveOptions | 文档保存选项，它定义了结果文档的格式， 以及一般和特定于格式的保存选项。不得为空。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于使用 GroupDocs.Editor 编辑后保存文档的信息： [如何使用 GroupDocs.Editor 保存已编辑的文档](https://docs.groupdocs.com/display/editornet/Save+document)
+* 更多关于使用 GroupDocs.Editor 编辑后保存文档的信息： [如何使用 GroupDocs.Editor 保存编辑过的文档](https://docs.groupdocs.com/display/editornet/Save+document)
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 ## Save(EditableDocument, string, ISaveOptions) {#save_1}
 
-转换指定的已编辑文档，表示为 ' 的实例[`EditableDocument`](../../editabledocument) 到指定格式的结果文档，并将其内容保存到指定文件path 的文件中
+转换指定的编辑文档，表示为 '[`EditableDocument`](../../editabledocument) 到指定格式的结果文档，并将其内容保存到指定文件path 的文件中
 
 ```csharp
 public void Save(EditableDocument inputDocument, string filePath, ISaveOptions saveOptions)
@@ -46,15 +46,15 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| inputDocument | EditableDocument | 输入文档的版本，在 WYSIWYG HTML 编辑器中编辑并存储为 ' 的实例[`EditableDocument`](../../editabledocument)类，它应该被转换为某种特定格式的输出文档。不得为 null 或已处置。 |
-| filePath | String | 保存输出文档的文件路径。存在同名文件时，会被完全重写。带路径的字符串不能为空、空或仅包含空格。 |
-| saveOptions | ISaveOptions | 文档保存选项，定义结果文档的格式， 以及通用和特定格式的保存选项。不得为空。 |
+| inputDocument | EditableDocument | 输入文档的版本，在 WYSIWYG HTML 编辑器中编辑并存储为 '[`EditableDocument`](../../editabledocument)类，应将其转换为某种特定格式的输出文档。不得为 null 或已处置。 |
+| filePath | String | 保存输出文档的文件路径。存在同名文件，将完全重写。带路径的字符串不得为 null、空或仅包含空格。 |
+| saveOptions | ISaveOptions | 文档保存选项，它定义了结果文档的格式， 以及一般和特定于格式的保存选项。不得为空。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于使用 GroupDocs.Editor 编辑后保存文档的信息： [如何使用 GroupDocs.Editor 保存已编辑的文档](https://docs.groupdocs.com/display/editornet/Save+document)
+* 更多关于使用 GroupDocs.Editor 编辑后保存文档的信息： [如何使用 GroupDocs.Editor 保存编辑过的文档](https://docs.groupdocs.com/display/editornet/Save+document)
 
 ### 也可以看看
 

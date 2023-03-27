@@ -3,7 +3,7 @@ title: EmailEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحرير المستندات بتنسيقات البريد الإلكتروني البريد الإلكتروني المختلفة
 type: docs
-weight: 700
+weight: 850
 url: /ar/net/groupdocs.editor.options/emaileditoptions/
 ---
 ## EmailEditOptions class
@@ -19,7 +19,7 @@ public sealed class EmailEditOptions : IEditOptions
 | اسم | وصف |
 | --- | --- |
 | [EmailEditOptions](emaileditoptions#constructor)() | يقوم بتهيئة مثيل جديد لملف[`EmailEditOptions`](../emaileditoptions) فئة ، حيث يتم تعيين جميع الخيارات على قيمها الافتراضية |
-| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | يقوم بتهيئة مثيل جديد لملف[`EmailEditOptions`](../emaileditoptions) فئة مع[`MailMessageOutput`](./mailmessageoutput) المعلمة |
+| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | يقوم بتهيئة مثيل جديد لملف[`EmailEditOptions`](../emaileditoptions) فئة مع[`MailMessageOutput`](./mailmessageoutput)المعلمة |
 
 ## الخصائص
 

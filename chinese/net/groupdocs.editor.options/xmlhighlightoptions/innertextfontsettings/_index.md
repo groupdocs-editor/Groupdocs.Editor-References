@@ -1,21 +1,22 @@
 ---
 title: InnerTextFontSettings
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责表示innertag text的字体
+description: 负责表示内标签text 的字体
 type: docs
-weight: 110
+weight: 50
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 ---
 ## XmlHighlightOptions.InnerTextFontSettings property
 
-负责表示inner-tag text的字体
+负责表示内标签text 的字体
 
 ```csharp
-public Font InnerTextFontSettings { get; set; }
+public WebFont InnerTextFontSettings { get; }
 ```
 
 ### 也可以看看
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * 部件 [GroupDocs.Editor](../../../)

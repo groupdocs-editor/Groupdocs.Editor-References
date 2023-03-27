@@ -24,7 +24,7 @@ instancia del '[`EditableDocument`](../../editabledocument) clase, que encapsula
 
 ### Observaciones
 
-Cuando el documento original de entrada se carga en la instancia 'Editor' a través del constructor, este método permite abrir el documento para editarlo convirtiéndolo a un formato intermedio, que se encapsula dentro de la instancia de la clase 'EditableDocument'. '[`EditableDocument`](../../editabledocument) , devuelto por este método, contiene todos los métodos y propiedades necesarios para producir marcado HTML y los recursos correspondientes (como imágenes, fuentes y hojas de estilo) en todas las configuraciones necesarias para pasarlos posteriormente a cualquier editor HTML WYSIWYG. Esta sobrecarga obtiene opciones de edición, que son específicas para formatos de familia. **Aprende más**
+Cuando el documento original de entrada se carga en la instancia 'Editor' a través del constructor, este método permite abrir el documento para editarlo convirtiéndolo a un formato intermedio, que se encapsula dentro de la instancia de la clase 'EditableDocument'. '[`EditableDocument`](../../editabledocument) devuelto por este método, contiene todos los métodos y propiedades necesarios para producir marcado HTML y los recursos correspondientes (como imágenes, fuentes y hojas de estilo) en todas las configuraciones necesarias para pasarlos posteriormente a cualquier editor HTML WYSIWYG. Esta sobrecarga obtiene opciones de edición, que son específicas para formatos de familia. **Aprende más**
 
 * Más información sobre la edición de documentos con GroupDocs.Editor: [Cómo editar un documento usando GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Edit+document)
 
@@ -52,7 +52,7 @@ instancia del '[`EditableDocument`](../../editabledocument) clase, que encapsula
 
 ### Observaciones
 
-Cuando el documento original de entrada se carga en la instancia 'Editor' a través del constructor, este método permite abrir el documento para editarlo convirtiéndolo a un formato intermedio, que se encapsula dentro de la instancia de '[`EditableDocument`](../../editabledocument) clase. '[`EditableDocument`](../../editabledocument) , devuelto por este método, contiene todos los métodos y propiedades necesarios para producir marcado HTML y los recursos correspondientes (como imágenes, fuentes y hojas de estilo) en todas las configuraciones necesarias para pasarlos posteriormente a cualquier editor HTML WYSIWYG. Esta sobrecarga aplica opciones de edición, que son predeterminadas para el formato al que pertenece el documento de entrada. **Aprende más**
+Cuando el documento original de entrada se carga en la instancia 'Editor' a través del constructor, este método permite abrir el documento para editarlo convirtiéndolo a un formato intermedio, que se encapsula dentro de la instancia de '[`EditableDocument`](../../editabledocument) clase. '[`EditableDocument`](../../editabledocument) devuelto por este método, contiene todos los métodos y propiedades necesarios para producir marcado HTML y los recursos correspondientes (como imágenes, fuentes y hojas de estilo) en todas las configuraciones necesarias para pasarlos posteriormente a cualquier editor HTML WYSIWYG. Esta sobrecarga aplica opciones de edición, que son predeterminadas para el formato al que pertenece el documento de entrada. **Aprende más**
 
 * Más información sobre la edición de documentos con GroupDocs.Editor: [Cómo editar un documento usando GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Edit+document)
 

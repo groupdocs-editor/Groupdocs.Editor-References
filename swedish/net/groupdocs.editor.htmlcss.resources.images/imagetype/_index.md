@@ -3,7 +3,7 @@ title: ImageType
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar en stödbar bildtyp format stöder både raster och vektorformat
 type: docs
-weight: 390
+weight: 490
 url: /sv/net/groupdocs.editor.htmlcss.resources.images/imagetype/
 ---
 ## ImageType structure

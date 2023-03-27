@@ -3,7 +3,7 @@ title: EbookDocumentInfo
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta i metadati di un documento ebook
 type: docs
-weight: 560
+weight: 710
 url: /it/net/groupdocs.editor.metadata/ebookdocumentinfo/
 ---
 ## EbookDocumentInfo structure

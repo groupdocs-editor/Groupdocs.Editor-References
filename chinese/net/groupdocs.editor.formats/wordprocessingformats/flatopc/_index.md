@@ -1,14 +1,14 @@
 ---
 title: FlatOpc
 second_title: GroupDocs.Editor for .NET API 参考
-description: Office Open XML WordprocessingML 存储在平面 XML 文件中而不是 ZIP 包中
+description: Office Open XML WordprocessingML 存储在平面 XML 文件而不是 ZIP 包中
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats/flatopc/
 ---
 ## WordProcessingFormats.FlatOpc field
 
-Office Open XML WordprocessingML 存储在平面 XML 文件中，而不是 ZIP 包中
+Office Open XML WordprocessingML 存储在平面 XML 文件而不是 ZIP 包中
 
 ```csharp
 public static readonly WordProcessingFormats FlatOpc;

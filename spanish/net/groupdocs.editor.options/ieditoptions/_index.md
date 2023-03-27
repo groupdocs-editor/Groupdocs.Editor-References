@@ -3,7 +3,7 @@ title: IEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Interfaz común para todas las opciones que son responsables de las conversiones de documento a HTML. No declara miembros.
 type: docs
-weight: 760
+weight: 910
 url: /es/net/groupdocs.editor.options/ieditoptions/
 ---
 ## IEditOptions interface

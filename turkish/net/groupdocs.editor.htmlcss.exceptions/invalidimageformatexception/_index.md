@@ -3,7 +3,7 @@ title: InvalidImageFormatException
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Muhtemelen bir görüntü raster veya vektör olan ancak aslında beklenmeyen ve/veya desteklenmeyen biçimde bir görüntü olan veya şu anda bir görüntü olmayan bazı içeriği açmaya yüklemeye kaydetmeye veya başka bir şekilde işlemeye çalışırken atılan istisna. tümü.
 type: docs
-weight: 230
+weight: 330
 url: /tr/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class

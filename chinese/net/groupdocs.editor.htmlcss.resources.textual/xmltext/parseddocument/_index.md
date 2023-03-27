@@ -1,14 +1,14 @@
 ---
 title: ParsedDocument
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从这个 XML 资源中返回一个XmlDocument
+description: 从此 XML 资源返回XmlDocument
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/xmltext/parseddocument/
 ---
 ## XmlText.ParsedDocument property
 
-从这个 XML 资源中返回一个“XmlDocument”
+从此 XML 资源返回“XmlDocument”
 
 ```csharp
 public XmlDocument ParsedDocument { get; }

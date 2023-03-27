@@ -32,7 +32,7 @@ public EbookEditOptions(bool enablePagination)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| enablePagination | Boolean | Aktiviert (`Stimmt`) oder deaktiviert (`FALSCH`) Paginierung des E-Book-Inhalts im resultierenden HTML-Dokument. Standardmäßig ist deaktiviert (`FALSCH`). |
+| enablePagination | Boolean | Aktiviert (`WAHR`) oder deaktiviert (`FALSCH`) Paginierung des E-Book-Inhalts im resultierenden HTML-Dokument. Standardmäßig ist deaktiviert (`FALSCH`). |
 
 ### Siehe auch
 

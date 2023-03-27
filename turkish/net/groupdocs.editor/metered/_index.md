@@ -3,7 +3,7 @@ title: Metered
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Uygulama için yöntemler sağlarölçülühttps//purchase.groupdocs.com/faqs/licensing/metered lisans.
 type: docs
-weight: 650
+weight: 800
 url: /tr/net/groupdocs.editor/metered/
 ---
 ## Metered class

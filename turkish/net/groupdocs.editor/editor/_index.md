@@ -52,7 +52,7 @@ Editor sınıfı, GroupDocs.Editor'un bir giriş noktası ve kök nesnesi olarak
 
 1. Yapıcı aracılığıyla Editor örneğine bir belge yükleyin.
 2. İsteğe bağlı olarak, bir belge türünü[`GetDocumentInfo`](./getdocumentinfo) yöntem.
-3. Bir belgeyi arayarak düzenleme için açın.[`Edit`](./edit) yöntemi ve bir örneğinin elde edilmesi[`EditableDocument`](../editabledocument) ondan sınıf.
+3. Bir belgeyi arayarak düzenleme için açın.[`Edit`](./edit)yöntemi ve bir örneğinin elde edilmesi[`EditableDocument`](../editabledocument) ondan sınıf.
 4. Herhangi bir WYSIWYG HTML düzenleyici kullanarak istemci tarafında bir belge içeriğini düzenleme.
 5. Yeni bir örnek oluşturma[`EditableDocument`](../editabledocument) düzenlenmiş belge içeriğinden.
 6. Düzenlenmiş bir belgeyi bir çıktı formatına çağırarak kaydetme[`Save`](./save) yöntem.

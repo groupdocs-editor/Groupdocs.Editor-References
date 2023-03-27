@@ -1,14 +1,14 @@
 ---
 title: Chm
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft Derlenmiş HTML Yardımı bir HTML sayfaları koleksiyonu bir dizin ve diğer gezinme araçlarından oluşan Microsofta özel bir çevrimiçi yardım ikili biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/web/chm/ .
+description: Microsoft Derlenmiş HTML Yardımı bir HTML sayfaları koleksiyonu bir dizin ve diğer gezinme araçlarından oluşan Microsofta özel bir çevrimiçi yardım ikili biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/web/chm/ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.formats/textualformats/chm/
 ---
 ## TextualFormats.Chm field
 
-Microsoft Derlenmiş HTML Yardımı, bir HTML sayfaları koleksiyonu, bir dizin ve diğer gezinme araçlarından oluşan, Microsoft'a özel bir çevrimiçi yardım ikili biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/web/chm/) .
+Microsoft Derlenmiş HTML Yardımı, bir HTML sayfaları koleksiyonu, bir dizin ve diğer gezinme araçlarından oluşan, Microsoft'a özel bir çevrimiçi yardım ikili biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly TextualFormats Chm;

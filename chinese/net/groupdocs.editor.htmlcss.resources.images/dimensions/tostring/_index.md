@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此维度的字符串表示形式
+description: 返回此维度 的字符串表示形式
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/tostring/
 ---
 ## Dimensions.ToString method
 
-返回此“维度”的字符串表示形式
+返回此“维度” 的字符串表示形式
 
 ```csharp
 public override string ToString()

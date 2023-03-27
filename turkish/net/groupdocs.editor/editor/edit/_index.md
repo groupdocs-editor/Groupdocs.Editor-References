@@ -24,7 +24,7 @@ public EditableDocument Edit(IEditOptions editOptions)
 
 ### Notlar
 
-Girilen orijinal belge, yapıcı aracılığıyla 'Editör' örneğine yüklendiğinde, bu yöntem belgeyi 'EditableDocument' sınıfı örneği içinde kapsüllenmiş ara formata dönüştürerek düzenleme için açmaya izin verir. '[`EditableDocument`](../../editabledocument) , bu yöntemden döndürülen, daha sonra herhangi bir WYSIWYG HTML düzenleyicisine geçirmek için gerekli tüm yapılandırmalarda HTML işaretlemesi ve karşılık gelen kaynakları (resimler, yazı tipleri ve stil sayfaları gibi) oluşturmak için gerekli tüm yöntemleri ve özellikleri içerir. Bu aşırı yükleme, aile biçimlerine özgü düzenleme seçeneklerini alır. **Daha fazla bilgi edin**
+Girilen orijinal belge, yapıcı aracılığıyla 'Editör' örneğine yüklendiğinde, bu yöntem belgeyi 'EditableDocument' sınıfı örneği içinde kapsüllenmiş ara formata dönüştürerek düzenleme için açmaya izin verir. '[`EditableDocument`](../../editabledocument) bu yöntemden döndürülen, daha sonra herhangi bir WYSIWYG HTML düzenleyicisine geçirmek için gerekli tüm yapılandırmalarda HTML işaretlemesi ve karşılık gelen kaynakları (resimler, yazı tipleri ve stil sayfaları gibi) oluşturmak için gerekli tüm yöntemleri ve özellikleri içerir. Bu aşırı yükleme, aile biçimlerine özgü düzenleme seçeneklerini alır. **Daha fazla bilgi edin**
 
 * GroupDocs.Editor: kullanarak belgeleri düzenleme hakkında daha fazla bilgi[GroupDocs.Editor kullanılarak belge nasıl düzenlenir?](https://docs.groupdocs.com/display/editornet/Edit+document)
 
@@ -52,7 +52,7 @@ public EditableDocument Edit()
 
 ### Notlar
 
-Girilen orijinal belge yapıcı aracılığıyla 'Düzenleyici' örneğine yüklendiğinde, bu yöntem belgeyi ' örneği içinde kapsüllenen ara formata dönüştürerek düzenleme için açmaya izin verir.[`EditableDocument`](../../editabledocument) sınıf. '[`EditableDocument`](../../editabledocument) , bu yöntemden döndürülen, daha sonra herhangi bir WYSIWYG HTML düzenleyicisine geçirmek için gerekli tüm yapılandırmalarda HTML işaretlemesi ve karşılık gelen kaynakları (resimler, yazı tipleri ve stil sayfaları gibi) oluşturmak için gerekli tüm yöntemleri ve özellikleri içerir. Bu aşırı yükleme, girdi belgesinin ait olduğu biçim için varsayılan olan düzenleme seçeneklerini uygular. **Daha fazla bilgi edin**
+Girilen orijinal belge yapıcı aracılığıyla 'Düzenleyici' örneğine yüklendiğinde, bu yöntem belgeyi ' örneği içinde kapsüllenen ara formata dönüştürerek düzenleme için açmaya izin verir.[`EditableDocument`](../../editabledocument) sınıf. '[`EditableDocument`](../../editabledocument) bu yöntemden döndürülen, daha sonra herhangi bir WYSIWYG HTML düzenleyicisine geçirmek için gerekli tüm yapılandırmalarda HTML işaretlemesi ve karşılık gelen kaynakları (resimler, yazı tipleri ve stil sayfaları gibi) oluşturmak için gerekli tüm yöntemleri ve özellikleri içerir. Bu aşırı yükleme, girdi belgesinin ait olduğu biçim için varsayılan olan düzenleme seçeneklerini uygular. **Daha fazla bilgi edin**
 
 * GroupDocs.Editor: kullanarak belgeleri düzenleme hakkında daha fazla bilgi[GroupDocs.Editor kullanılarak belge nasıl düzenlenir?](https://docs.groupdocs.com/display/editornet/Edit+document)
 

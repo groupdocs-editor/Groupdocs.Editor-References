@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回一个文档格式作为一个类型的单个值它代表一个格式系列并继承自 IDocumentFormat 接口
+description: 在实现类型时应从类型返回文档格式作为单个值它代表一个格式系列并继承自 IDocumentFormat interface
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.metadata/idocumentinfo/format/
 ---
 ## IDocumentInfo.Format property
 
-在实现类型中应该返回一个文档格式作为一个类型的单个值，它代表一个格式系列并继承自 IDocumentFormat 接口
+在实现类型时，应从类型返回文档格式作为单个值，它代表一个格式系列并继承自 IDocumentFormat interface
 
 ```csharp
 public IDocumentFormat Format { get; }

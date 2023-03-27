@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor för .NET API-referens
 description: Kapslar in ett sidintervall som kan ha öppna eller slutna gränser. Som standard är helt öppen  den inkluderar alla befintliga sidor. Sidnumreringen börjar från 1 inte från 0.
 type: docs
-weight: 810
+weight: 1020
 url: /sv/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

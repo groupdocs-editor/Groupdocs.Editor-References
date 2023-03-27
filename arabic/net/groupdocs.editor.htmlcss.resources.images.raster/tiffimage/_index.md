@@ -3,7 +3,7 @@ title: TiffImage
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل صورة واحدة بتنسيق TIFF تنسيق ملف الصورة الموسوم ببياناته الوصفية والأساليب الإضافية
 type: docs
-weight: 460
+weight: 560
 url: /ar/net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/
 ---
 ## TiffImage class

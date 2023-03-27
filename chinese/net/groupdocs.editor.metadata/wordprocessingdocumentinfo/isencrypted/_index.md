@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此特定字处理文档是否已加密并需要密码才能打开
+description: 确定此特定的 WordProcessing 文档是否已加密并需要密码才能打开
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.metadata/wordprocessingdocumentinfo/isencrypted/
 ---
 ## WordProcessingDocumentInfo.IsEncrypted property
 
-确定此特定字处理文档是否已加密并需要密码才能打开
+确定此特定的 WordProcessing 文档是否已加密并需要密码才能打开
 
 ```csharp
 public bool IsEncrypted { get; }

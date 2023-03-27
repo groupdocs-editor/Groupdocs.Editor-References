@@ -1,14 +1,14 @@
 ---
 title: Pdf
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Portable Document Format PDF è un tipo di documento creato da Adobe negli anni 90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo dallhardware e dal sistema operativo. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/pdf/ .
+description: Portable Document Format PDF è un tipo di documento creato da Adobe negli anni 90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo dallhardware e dal sistema operativo. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/pdf/ .
 type: docs
 weight: 10
 url: /it/net/groupdocs.editor.formats/fixedlayoutformats/pdf/
 ---
 ## FixedLayoutFormats.Pdf field
 
-Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/pdf/) .
+Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/pdf/) .
 
 ```csharp
 public static readonly FixedLayoutFormats Pdf;

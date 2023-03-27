@@ -16,7 +16,7 @@ public CultureInfo Locale { get; set; }
 
 ### Osservazioni
 
-Questa opzione applica forzatamente la locale specificata al testo generale nel documento. Non usarla se il documento contiene diverse parti di testo, che sono scritte in diverse lingue.
+Questa opzione applica forzatamente la locale specificata al testo generale nel documento. Non usarla se il documento contiene diverse parti di testo, che sono scritte in lingue diverse.
 
 ### Guarda anche
 

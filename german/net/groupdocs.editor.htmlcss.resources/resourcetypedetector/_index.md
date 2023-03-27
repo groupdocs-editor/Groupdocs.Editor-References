@@ -3,7 +3,7 @@ title: ResourceTypeDetector
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Statische UtilityMethoden zum Erkennen von Ressourcentypen Formaten
 type: docs
-weight: 470
+weight: 620
 url: /de/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/
 ---
 ## ResourceTypeDetector class
@@ -19,7 +19,7 @@ public static class ResourceTypeDetector
 | Name | Beschreibung |
 | --- | --- |
 | static [DetectTypeFromFilename](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/detecttypefromfilename)(string) | Erkennt einen Typ aus dem angegebenen Dateinamen und gibt eine Instanz des entsprechenden IResourceType zurück |
-| static [TryDetectResource](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource)(Stream, string, IResourceType) | Versucht, einen Eingabestrom zu analysieren und daraus eine der unterstützten HTML-Ressourcen zu erstellen, wobei ein angegebener angenommener Typ berücksichtigt wird, wenn er nicht null ist |
+| static [TryDetectResource](../../groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource)(Stream, string, IResourceType) | Versucht, einen Eingabestrom zu analysieren und daraus eine der unterstützten HTML-Ressourcen zu erstellen, wobei ein angegebener angenommener Typ berücksichtigt wird, falls dieser nicht null ist |
 
 ### Siehe auch
 

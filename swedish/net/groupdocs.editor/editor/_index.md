@@ -52,7 +52,7 @@ Editor-klassen bör betraktas som en ingångspunkt och rotobjektet för GroupDoc
 
 1. Ladda ett dokument i Editor-instansen genom dess konstruktor.
 2. Alternativt kan du hitta en dokumenttyp med hjälp av en[`GetDocumentInfo`](./getdocumentinfo) metod.
-3. Öppna ett dokument för redigering genom att anropa en[`Edit`](./edit) metod och få en instans av[`EditableDocument`](../editabledocument) klass från det.
+3. Öppna ett dokument för redigering genom att anropa en[`Edit`](./edit)metod och få en instans av[`EditableDocument`](../editabledocument) klass från det.
 4. Redigera ett dokumentinnehåll på klientsidan med valfri WYSIWYG HTML-redigerare.
 5. Skapa en ny instans av[`EditableDocument`](../editabledocument) från redigerat dokumentinnehåll.
 6. Spara ett redigerat dokument till något utdataformat genom att anropa a[`Save`](./save) metod.

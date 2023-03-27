@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert Anführungszeichen  einfaches Anführungszeichen  und doppeltes Anführungszeichen 
 type: docs
-weight: 520
+weight: 670
 url: /de/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Repräsentiert Anführungszeichen - einfaches Anführungszeichen (') und doppeltes Anführungszeichen ("")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Werte
+## Eigenschaften
 
-| Name | Wert | Beschreibung |
-| --- | --- | --- |
-| SingleQuote | `39` | Einfaches Anführungszeichen (U+0027 APOSTROPHE-Zeichen) |
-| DoubleQuote | `34` | Doppeltes Anführungszeichen (U+0022 ANFÜHRUNGSZEICHEN) |
+| Name | Beschreibung |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Zeichen zum enquote |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Codepunkt des aktuellen Zeichens (U+0027 oder U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | HTML-kodiertes Zeichen |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Gibt an, ob diese Instanz des Zitattyps gleich dem angegebenen uncasted ist |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Gibt an, ob diese Instanz des Kurstyps gleich dem angegebenen ist |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Gibt einen Hash-Code für dieses Zeichen zurück |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Prüft, ob zwei "QuoteType"-Werte gleich sind |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Besetzungen angegeben[`QuoteType`](../quotetype) Instanz zumChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Prüft, ob zwei „QuoteType“-Werte ungleich sind |
+
+## Felder
+
+| Name | Beschreibung |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Doppeltes Anführungszeichen (U+0022 ANFÜHRUNGSZEICHEN) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Einfaches Anführungszeichen (U+0027 APOSTROPHE-Zeichen) |
 
 ### Siehe auch
 

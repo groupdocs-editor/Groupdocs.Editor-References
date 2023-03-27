@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillåter att ange anpassade alternativ för redigering av dokument av alla stödbara WordProcessing Wordskompatibla format som DOCX RTF ODT etc.
 type: docs
-weight: 970
+weight: 1200
 url: /sv/net/groupdocs.editor.options/wordprocessingeditoptions/
 ---
 ## WordProcessingEditOptions class

@@ -3,7 +3,7 @@ title: RecognizeUris
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Permet dactiver lalgorithme de reconnaissance dURI
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/groupdocs.editor.options/xmleditoptions/recognizeuris/
 ---
 ## XmlEditOptions.RecognizeUris property

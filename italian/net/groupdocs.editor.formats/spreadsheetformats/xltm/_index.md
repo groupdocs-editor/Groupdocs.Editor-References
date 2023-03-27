@@ -1,14 +1,14 @@
 ---
 title: Xltm
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Office Open XML Template MacroEnabled XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xltm .
+description: Office Open XML Template MacroEnabled XLTM rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
 weight: 140
 url: /it/net/groupdocs.editor.formats/spreadsheetformats/xltm/
 ---
 ## SpreadsheetFormats.Xltm field
 
-Office Open XML Template Macro-Enabled (XLTM) rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xltm) .
+Office Open XML Template Macro-Enabled (XLTM) rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xltm;

@@ -3,7 +3,7 @@ title: ILoadOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 所有选项类的通用接口负责加载不同类型格式的文档
 type: docs
-weight: 770
+weight: 920
 url: /zh/net/groupdocs.editor.options/iloadoptions/
 ---
 ## ILoadOptions interface
@@ -18,7 +18,7 @@ public interface ILoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Password](../../groupdocs.editor.options/iloadoptions/password) { get; set; } | 在实现类中应该允许为编码的受密码保护的文档设置密码。 默认情况下不使用密码 - 字符串具有 NULL 值。 |
+| [Password](../../groupdocs.editor.options/iloadoptions/password) { get; set; } | 在实现类中应该允许为编码的密码保护文档设置密码。 默认情况下不使用密码 - 字符串具有 NULL 值。 |
 
 ### 也可以看看
 

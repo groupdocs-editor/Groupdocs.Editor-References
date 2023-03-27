@@ -1,14 +1,14 @@
 ---
 title: Ppsm
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: I file Microsoft Office Open XML PresentationML MacroEnabled SlideShow PPSM vengono creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/ppsm .
+description: I file Microsoft Office Open XML PresentationML MacroEnabled SlideShow PPSM vengono creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
 weight: 70
 url: /it/net/groupdocs.editor.formats/presentationformats/ppsm/
 ---
 ## PresentationFormats.Ppsm field
 
-I file Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) vengono creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/ppsm) .
+I file Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) vengono creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/ppsm) .
 
 ```csharp
 public static readonly PresentationFormats Ppsm;

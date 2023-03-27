@@ -3,7 +3,7 @@ title: InvalidImageFormatException
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الاستثناء الذي يتم طرحه عند محاولة فتح بعض المحتويات أو تحميلها أو حفظها أو معالجتها بطريقة أخرى  من المفترض أن تكون صورة نقطية أو متجهة  ولكنها في الواقع صورة بتنسيق غير متوقع و / أو غير مدعوم أو ليست صورة في الكل .
 type: docs
-weight: 230
+weight: 330
 url: /ar/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class

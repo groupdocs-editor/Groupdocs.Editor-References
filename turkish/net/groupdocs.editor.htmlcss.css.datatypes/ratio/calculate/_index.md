@@ -3,7 +3,7 @@ title: Calculate
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu oranı hesaplar ve tek bir kayan noktalı sayı olarak döndürür
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

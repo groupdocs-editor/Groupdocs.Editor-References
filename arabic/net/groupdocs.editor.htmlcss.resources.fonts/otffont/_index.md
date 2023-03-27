@@ -3,7 +3,7 @@ title: OtfFont
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل خطًا واحدًا بتنسيق OTF تنسيق Open Type 
 type: docs
-weight: 290
+weight: 390
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/otffont/
 ---
 ## OtfFont class

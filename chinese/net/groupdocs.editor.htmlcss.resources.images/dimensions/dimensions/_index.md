@@ -1,14 +1,14 @@
 ---
 title: Dimensions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从指定的宽度和高度创建一个新实例
+description: 从指定的宽度和高度 创建一个新实例
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/dimensions/
 ---
 ## Dimensions constructor
 
-从指定的宽度和高度创建一个新实例
+从指定的宽度和高度 创建一个新实例
 
 ```csharp
 public Dimensions(ushort width, ushort height)
@@ -16,8 +16,8 @@ public Dimensions(ushort width, ushort height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | UInt16 | 图像宽度 |
-| height | UInt16 | 图像高度 |
+| width | UInt16 | 图片宽度 |
+| height | UInt16 | 图片高度 |
 
 ### 也可以看看
 

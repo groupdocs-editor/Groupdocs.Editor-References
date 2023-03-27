@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Editor for .NET API 参考
 description: 提供许可组件的方法了解有关许可的更多信息这里https//purchase.groupdocs.com/faqs/licensing.
 type: docs
-weight: 550
+weight: 700
 url: /zh/net/groupdocs.editor/license/
 ---
 ## License class
@@ -29,10 +29,10 @@ public class License
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
-* 更多关于 GroupDocs.Editor 许可： [评估限制和许可](https://docs.groupdocs.com/display/editornet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Editor)
+* 有关 GroupDocs.Editor 许可的更多信息： [评估限制和许可](https://docs.groupdocs.com/display/editornet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Editor)
 
 ### 也可以看看
 

@@ -21,7 +21,7 @@ public static bool operator !=(PresentationFormats first, PresentationFormats se
 
 ### قيمة الإرجاع
 
-صواب إذا لم تكن متساوية ، خطأ إذا تساوت
+صواب إذا لم تكن متساوية ، خطأ إذا كانت متساوية
 
 ### أنظر أيضا
 

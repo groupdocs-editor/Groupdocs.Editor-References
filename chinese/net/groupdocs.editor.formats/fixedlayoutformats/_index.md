@@ -26,33 +26,33 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | 返回实例[`FixedLayoutFormats`](../fixedlayoutformats)结构，关联到指定的文件扩展名，或者如果扩展名无法正确解析，则抛出异常 |
-| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | 判断这个实例是否等于其他指定的 FixedLayoutFormats instance |
-| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | 确定此实例是否等于其他指定的 IDocumentFormat 实例 |
-| override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | 确定此实例是否等于另一个指定的对象，大概是装箱的 FixedLayoutFormats |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | 返回实例[`FixedLayoutFormats`](../fixedlayoutformats)结构，与指定的文件扩展名相关联，或者如果无法正确解析扩展名则抛出异常 |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | 判断这个实例是否等于其他指定的FixedLayoutFormats instance |
+| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | 判断这个实例是否等于另一个指定的IDocumentFormat instance |
+| override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | 确定此实例是否等于其他指定对象，大概是装箱的 FixedLayoutFormats |
 | override [GetHashCode](../../groupdocs.editor.formats/fixedlayoutformats/gethashcode)() | 返回一个哈希码，对于这个实例是不可变的 |
-| override [ToString](../../groupdocs.editor.formats/fixedlayoutformats/tostring)() | 返回此特定格式的名称，与“名称”属性相同 |
-| [operator ==](../../groupdocs.editor.formats/fixedlayoutformats/op_equality) | 检查两个给定的 FixedLayoutFormats 实例是否相等 |
-| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit#op_explicit) | 从指定的 FixedLayoutFormats 实例的基础字段返回一个字节值 (2 operators) |
-| [operator !=](../../groupdocs.editor.formats/fixedlayoutformats/op_inequality) | 在不等式 上检查两个给定的 FixedLayoutFormats 实例 |
+| override [ToString](../../groupdocs.editor.formats/fixedlayoutformats/tostring)() | 返回此特定格式的名称，与 'Name' property 相同 |
+| [operator ==](../../groupdocs.editor.formats/fixedlayoutformats/op_equality) | 在 equality 上检查两个给定的 FixedLayoutFormats 实例 |
+| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit#op_explicit) | 从指定 FixedLayoutFormats instance 的底层字段返回一个字节值 (2 operators) |
+| [operator !=](../../groupdocs.editor.formats/fixedlayoutformats/op_inequality) | 在 inequality 上检查两个给定的 FixedLayoutFormats 实例 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | 可移植文档格式 (PDF) 是 Adobe 在 1990 年代创建的一种文档。此文件格式的目的是引入一种标准，用于以独立于应用软件、硬件和操作系统的格式表示文档和其他参考资料。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/pdf/). |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | 便携式文档格式 (PDF) 是 Adobe 在 1990 年代创建的一种文档。此文件格式的目的是引入一种标准，以独立于应用程序软件、硬件和操作系统的格式表示文档和其他参考资料。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/pdf/). |
 | static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS 文件表示基于 Microsoft 创建的 XML 纸张规范的页面布局文件。它是作为 EMF 文件格式的替代品而开发的，类似于 PDF 文件格式，但在文档的布局、外观和打印信息中使用 XML。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/page-description-language/xps/). |
-| static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | 返回一个内部类，它为所有现有的固定布局格式提供了可枚举的可能性 |
+| static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | 返回一个内部类，它提供了所有现有固定布局格式的可枚举可能性 |
 
 ## 其他成员
 
 | 姓名 | 描述 |
 | --- | --- |
-| class [AllEnumerable](fixedlayoutformats.allenumerable) | 实现 IEnumerable 通用接口，为 FixedLayoutFormats 类型启用“foreach”可能性 |
+| class [AllEnumerable](fixedlayoutformats.allenumerable) | 实现 IEnumerable 通用接口，为 FixedLayoutFormats type 启用“foreach”可能性 |
 
 ### 评论
 
-各种文档查看或发布应用程序允许用户打开（Adobe Acrobat、XPS Viewer），有时还可以编辑（Adobe InDesign）特定格式的文档。这些应用程序通常会生成所谓的“固定页面”格式文档。这种文档格式准确地描述了文档内容在每一页上的位置。在内部，PDF 或 XPS 格式包含每个页面的描述以及绘图说明，指定页面上内容的布局。这类似于图像格式，描述内容以光栅或矢量形式显示的位置。
+各种文档查看或发布应用程序允许用户打开（Adobe Acrobat、XPS Viewer），有时还可以编辑（Adobe InDesign）特定格式的文档。这些应用程序通常生成所谓的“固定页面”格式文档。这种文档格式准确地描述了文档内容在每一页上的位置。在内部，PDF 或 XPS 格式包含每个页面的描述以及绘图说明，指定页面上内容的布局。这类似于图像格式，描述内容以光栅或矢量形式显示的位置。
 
 ### 也可以看看
 

@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor för .NET API-referens
-description: Tillåter att justera markeringen som kommer att tillämpas på XMLstrukturen när den representeras i HTML. Som standard är NULL  standardmarkering tillämpas.
+description: Tillåter att justera XMLmarkeringen som kommer att tillämpas på XMLstrukturen när den representeras i HTML. Standardmarkering används och är justerbar. Kan inte vara null.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Tillåter att justera markeringen, som kommer att tillämpas på XML-strukturen, när den representeras i HTML. Som standard är NULL — standardmarkering tillämpas.
+Tillåter att justera XML-markeringen, som kommer att tillämpas på XML-strukturen, när den representeras i HTML. Standardmarkering används och är justerbar. Kan inte vara null.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Se även

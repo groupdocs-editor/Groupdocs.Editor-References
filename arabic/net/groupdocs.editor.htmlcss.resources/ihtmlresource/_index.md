@@ -3,7 +3,7 @@ title: IHtmlResource
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل مثيلًا واحدًا لمورد HTML غير معروف صورة نقطية أو متجهة  ورقة أنماط  خط  مورد نصي CSS  XML  صوت وما إلى ذلك
 type: docs
-weight: 340
+weight: 440
 url: /ar/net/groupdocs.editor.htmlcss.resources/ihtmlresource/
 ---
 ## IHtmlResource interface

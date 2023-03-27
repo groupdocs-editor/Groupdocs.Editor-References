@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 判断这个实例是否等于其他指定的 FixedLayoutFormats instance
+description: 判断这个实例是否等于其他指定的FixedLayoutFormats instance
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.formats/fixedlayoutformats/equals/
 ---
 ## Equals(FixedLayoutFormats) {#equals}
 
-判断这个实例是否等于其他指定的 FixedLayoutFormats instance
+判断这个实例是否等于其他指定的FixedLayoutFormats instance
 
 ```csharp
 public bool Equals(FixedLayoutFormats other)
@@ -32,7 +32,7 @@ public bool Equals(FixedLayoutFormats other)
 
 ## Equals(IDocumentFormat) {#equals_1}
 
-确定此实例是否等于其他指定的 IDocumentFormat 实例
+判断这个实例是否等于另一个指定的IDocumentFormat instance
 
 ```csharp
 public bool Equals(IDocumentFormat other)
@@ -40,7 +40,7 @@ public bool Equals(IDocumentFormat other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果不是 FixedLayoutFormats，方法将返回 'false' |
+| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果不是 FixedLayoutFormats，方法将返回“false” |
 
 ### 返回值
 
@@ -57,7 +57,7 @@ public bool Equals(IDocumentFormat other)
 
 ## Equals(object) {#equals_2}
 
-确定此实例是否等于另一个指定的对象，大概是装箱的 FixedLayoutFormats
+确定此实例是否等于其他指定对象，大概是装箱的 FixedLayoutFormats
 
 ```csharp
 public override bool Equals(object obj)

@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型时应返回页数或其他类似格式相关实体选项卡幻灯片等的计数数量 对于那些没有类似内容的系列类型如纯文本文档或 XML应返回1.
+description: 在实现类型时应返回页数或其他类似格式相关实体选项卡幻灯片等 对于那些没有类似内容如纯文本文档或 XML的系列类型应返回1.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/idocumentinfo/pagecount/
 ---
 ## IDocumentInfo.PageCount property
 
-在实现类型时应返回页数或其他类似格式相关实体（选项卡、幻灯片等）的计数（数量）。 对于那些没有类似内容的系列类型（如纯文本文档或 XML）应返回1.
+在实现类型时应返回页数或其他类似格式相关实体（选项卡、幻灯片等）。 对于那些没有类似内容（如纯文本文档或 XML）的系列类型，应返回1.
 
 ```csharp
 public int PageCount { get; }

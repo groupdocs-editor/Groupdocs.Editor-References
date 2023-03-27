@@ -3,7 +3,7 @@ title: IsRelative
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Uzunluğun göreli birimlerde verilip verilmediğini alır. Böyle bir uzunluk piksele dönüştürülemez.
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property

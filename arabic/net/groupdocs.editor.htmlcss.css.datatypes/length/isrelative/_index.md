@@ -3,7 +3,7 @@ title: IsRelative
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تحصل عليه إذا تم إعطاء الطول بالوحدات النسبية. لا يمكن تحويل هذا الطول إلى بكسل.
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property

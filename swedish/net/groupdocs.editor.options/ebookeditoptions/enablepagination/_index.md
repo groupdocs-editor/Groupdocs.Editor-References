@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor för .NET API-referens
-description: Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTMLdokumentet. Som standard är inaktiverad falsk .
+description: Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTMLdokumentet. Som standard är inaktiverad falsk.
 type: docs
 weight: 30
 url: /sv/net/groupdocs.editor.options/ebookeditoptions/enablepagination/
 ---
 ## EbookEditOptions.EnablePagination property
 
-Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTML-dokumentet. Som standard är inaktiverad (`falsk` ).
+Tillåter att aktivera eller inaktivera sidnumrering i det resulterande HTML-dokumentet. Som standard är inaktiverad (`falsk`).
 
 ```csharp
 public bool EnablePagination { get; set; }

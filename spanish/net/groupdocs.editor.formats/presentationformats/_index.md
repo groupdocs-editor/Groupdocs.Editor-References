@@ -26,7 +26,7 @@ public struct PresentationFormats : IDocumentFormat, IEquatable<PresentationForm
 
 | Nombre | Descripción |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | Devuelve instancia de[`PresentationFormats`](../presentationformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
+| static [FromExtension](../../groupdocs.editor.formats/presentationformats/fromextension)(string) | Devuelve instancia de[`PresentationFormats`](../presentationformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals)(IDocumentFormat) | Determina si esta instancia es igual a la otra instancia de IDocumentFormat especificada |
 | override [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_2)(object) | Determina si esta instancia es igual al otro objeto especificado, que presumiblemente es de PresentationFormats en caja |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_1)(PresentationFormats) | Determina si esta instancia es igual a la otra instancia de PresentationFormats especificada |

@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для создания и сохранения документов XPS XML Paper Specifications
 type: docs
-weight: 1070
+weight: 1310
 url: /ru/net/groupdocs.editor.options/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -28,7 +28,7 @@ public sealed class XpsSaveOptions : ISaveOptions
 
 ### Примечания
 
-Файл XPS представляет собой файлы макета страницы, основанные на спецификациях XML Paper, созданных Microsoft. Он был разработан в качестве замены формата файла EMF и аналогичен формату файла PDF, но использует XML в макете, внешнем виде и информации о печати документа. документ.
+Файл XPS представляет собой файлы макета страницы, основанные на спецификациях XML Paper, созданных Microsoft. Он был разработан в качестве замены формата файла EMF и подобен формату файла PDF, но использует XML в макете, внешнем виде и информации о печати документа. документ.
 
 ### Смотрите также
 

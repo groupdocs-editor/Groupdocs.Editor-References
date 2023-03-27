@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的 PresentationFormats 实例
+description: 判断这个实例是否等于其他指定的 PresentationFormats instance
 type: docs
 weight: 170
 url: /zh/net/groupdocs.editor.formats/presentationformats/equals/
 ---
 ## Equals(PresentationFormats) {#equals_1}
 
-确定此实例是否等于其他指定的 PresentationFormats 实例
+判断这个实例是否等于其他指定的 PresentationFormats instance
 
 ```csharp
 public bool Equals(PresentationFormats other)
@@ -16,7 +16,7 @@ public bool Equals(PresentationFormats other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | PresentationFormats | 其他 PresentationFormats 实例，应检查与此是否相等 |
+| other | PresentationFormats | 其他 PresentationFormats 实例，应检查是否与此实例相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(PresentationFormats other)
 
 ## Equals(IDocumentFormat) {#equals}
 
-确定此实例是否等于其他指定的 IDocumentFormat 实例
+判断这个实例是否等于另一个指定的IDocumentFormat instance
 
 ```csharp
 public bool Equals(IDocumentFormat other)
@@ -40,7 +40,7 @@ public bool Equals(IDocumentFormat other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果它不是 PresentationFormats，方法将返回 'false' |
+| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果它不是 PresentationFormats，方法将返回“false” |
 
 ### 返回值
 
@@ -57,7 +57,7 @@ public bool Equals(IDocumentFormat other)
 
 ## Equals(object) {#equals_2}
 
-确定此实例是否等于另一个指定的对象，可能是装箱的 PresentationFormats
+确定此实例是否等于其他指定对象，大概是装箱的 PresentationFormats
 
 ```csharp
 public override bool Equals(object obj)

@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gör det möjligt att ange anpassade alternativ för att generera och spara WordProcessingkompatibla dokument efter att de har redigerats
 type: docs
-weight: 1010
+weight: 1240
 url: /sv/net/groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class
@@ -26,7 +26,7 @@ public sealed class WordProcessingSaveOptions : ICloneable, ISaveOptions
 | --- | --- |
 | [EnablePagination](../../groupdocs.editor.options/wordprocessingsaveoptions/enablepagination) { get; set; } | Tillåter att aktivera eller inaktivera paginering som kommer att användas för att spara WordProcessing-dokumentet. Om originaldokumentet öppnades och redigerades i pagineringsläge, bör detta alternativ också vara aktiverat. Som standard är inaktiverad. |
 | [FontEmbedding](../../groupdocs.editor.options/wordprocessingsaveoptions/fontembedding) { get; set; } | Ansvarig för att bädda in teckensnittsresurser i utgående WordProcessing-dokument. Som standard bäddar inte in några teckensnitt (NotEmbed). |
-| [Locale](../../groupdocs.editor.options/wordprocessingsaveoptions/locale) { get; set; } | Tillåter att ställa in åsidosättande standardspråk (språk) för WordProcessing-dokumentet, som kommer att tillämpas under skapandet. När inte anges (standardvärde), kommer MS Word (eller annat program) att upptäcka (eller välja) dokumentets locale enligt till sina egna inställningar eller andra faktorer. |
+| [Locale](../../groupdocs.editor.options/wordprocessingsaveoptions/locale) { get; set; } | Tillåter att ställa in åsidosättande standardspråk (språk) för WordProcessing-dokumentet, som kommer att tillämpas under dess skapande. När inte anges (standardvärde), kommer MS Word (eller annat program) att upptäcka (eller välja) dokumentets locale enligt till sina egna inställningar eller andra faktorer. |
 | [LocaleBi](../../groupdocs.editor.options/wordprocessingsaveoptions/localebi) { get; set; } | Tillåter att ställa in åsidosättningsspråk (språk) för WordProcessing-dokumentet för RTL-texten (höger till vänster), som kommer att tillämpas under skapandet. När inte anges (standardvärde), MS Word (eller annat program) kommer att upptäcka (eller välja) dokumentet RTL locale enligt sina egna inställningar eller andra faktorer. |
 | [LocaleFarEast](../../groupdocs.editor.options/wordprocessingsaveoptions/localefareast) { get; set; } | Tillåter att åsidosätta språket (språket) för WordProcessing-dokumentet för den östasiatiska texten, som kommer att tillämpas under dess skapelse. När inte anges (standardvärde), kommer MS Word (eller annat program) att upptäcka (eller välja ) dokumentet East-Asian locale enligt dess egna inställningar eller andra faktorer. |
 | [OptimizeMemoryUsage](../../groupdocs.editor.options/wordprocessingsaveoptions/optimizememoryusage) { get; set; } | Aktiverar minnesoptimeringsmekanismer under dokumentgenerering från HTML, vilket försämrar prestandan som en kostnad för att minska minnesanvändningen. Om du ställer in detta alternativ till sant kan det minska minnesförbrukningen avsevärt samtidigt som stora dokument genereras till priset av långsammare spartid. Standard är falskt (minnesoptimering är inaktiverad för bättre prestanda). |

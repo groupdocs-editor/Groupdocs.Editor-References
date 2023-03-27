@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هيخاطئة .
+description: يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties/
 ---
 ## MhtmlSaveOptions.ExportDocumentProperties property
 
-يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هي`خاطئة` .
+يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

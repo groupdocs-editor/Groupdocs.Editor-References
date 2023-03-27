@@ -1,14 +1,14 @@
 ---
 title: Ott
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Açık Belge Formatı Metin Belgesi Şablonu OTT OASISin OpenDocument standart formatına uygun olarak uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/ott .
+description: Açık Belge Formatı Metin Belgesi Şablonu OTT OASISin OpenDocument standart formatına uygun olarak uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
 weight: 90
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/ott/
 ---
 ## WordProcessingFormats.Ott field
 
-Açık Belge Formatı Metin Belgesi Şablonu (OTT), OASIS'in OpenDocument standart formatına uygun olarak uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/ott) .
+Açık Belge Formatı Metin Belgesi Şablonu (OTT), OASIS'in OpenDocument standart formatına uygun olarak uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly WordProcessingFormats Ott;

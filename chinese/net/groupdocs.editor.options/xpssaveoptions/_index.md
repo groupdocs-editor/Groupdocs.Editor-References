@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许指定用于生成和保存 XPSXML 纸张规范文档的自定义选项
 type: docs
-weight: 1070
+weight: 1310
 url: /zh/net/groupdocs.editor.options/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -24,7 +24,7 @@ public sealed class XpsSaveOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/xpssaveoptions/optimizememoryusage) { get; set; } | 在从 HTML 生成文档期间启用内存优化机制，这会降低性能，以减少内存使用量为代价。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价生成大型文档。 默认为 false （为了更好的性能，禁用了内存优化）. |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/xpssaveoptions/optimizememoryusage) { get; set; } | 在从 HTML 生成文档期间启用内存优化机制，这会以减少内存使用为代价降低性能。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的保存时间为代价生成大型文档。 默认值为 false （为了更好的性能禁用了内存优化）。 |
 
 ### 评论
 

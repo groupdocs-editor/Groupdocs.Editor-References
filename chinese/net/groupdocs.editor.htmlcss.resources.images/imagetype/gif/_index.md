@@ -1,14 +1,14 @@
 ---
 title: Gif
 second_title: GroupDocs.Editor for .NET API 参考
-description: GIF 图片类型
+description: GIF 图像类型
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/gif/
 ---
 ## ImageType.Gif property
 
-GIF 图片类型
+GIF 图像类型
 
 ```csharp
 public static ImageType Gif { get; }

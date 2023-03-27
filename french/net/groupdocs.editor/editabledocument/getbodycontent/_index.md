@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Renvoie un corps du document HTML contenu entre les balises BODY douverture et de fermeture sans ces balises sous forme de chaîne.
+description: Renvoie un corps du document HTML contenu interne entre les balises BODY douverture et de fermeture sans ces balises sous forme de chaîne.
 type: docs
 weight: 120
 url: /fr/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-Renvoie un corps du document HTML (contenu entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne.
+Renvoie un corps du document HTML (contenu interne entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Return_Value
 
-String, qui contient le corps du document HTML
+Chaîne, qui contient le corps du document HTML (sans ouvrir ni fermer les balises BODY)
 
 ### Remarques
 
-Les éditeurs WYSIWYG fonctionnent avec le corps du document et ne peuvent pas traiter correctement ses méta-informations à partir du bloc HEAD. Cette méthode est conçue pour de tels cas. Cette surcharge ne permet pas d'ajuster les URI pour les demandes de ressources externes.
+La plupart des éditeurs WYSIWYG fonctionnent généralement avec le contenu interne du BODY du document et ne peuvent pas traiter correctement ses méta-informations à partir du bloc HEAD. Cette méthode est conçue pour de tels cas. Cette surcharge ne permet pas d'ajuster les URI pour les demandes de ressources externes.
 
 ### Voir également
 
@@ -32,7 +32,7 @@ Les éditeurs WYSIWYG fonctionnent avec le corps du document et ne peuvent pas t
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Renvoie un corps du document HTML (contenu entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne, où les liens vers les ressources externes contiennent le préfixe spécifié.
+Renvoie un corps du document HTML (contenu interne entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne, où les liens vers les ressources externes contiennent le préfixe spécifié.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Return_Value
 
-String, qui contient le corps du document HTML avec des liens, ajusté aux images externes
+Chaîne, qui contient le corps du document HTML (sans ouvrir et fermer les balises BODY) avec des liens, ajusté aux images externes
 
 ### Remarques
 
-Les éditeurs WYSIWYG fonctionnent avec le corps du document et ne peuvent pas traiter correctement ses méta-informations à partir du bloc HEAD. Cette méthode est conçue pour de tels cas. Cette surcharge permet d'ajuster les URI pour les demandes de ressources externes.
+La plupart des éditeurs WYSIWYG fonctionnent généralement avec le contenu interne du BODY du document et ne peuvent pas traiter correctement ses méta-informations à partir du bloc HEAD. Cette méthode est conçue pour de tels cas. Cette surcharge permet d'ajuster les URI pour les demandes de ressources externes.
 
 ### Voir également
 

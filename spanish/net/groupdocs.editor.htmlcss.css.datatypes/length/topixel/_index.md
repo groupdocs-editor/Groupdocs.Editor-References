@@ -3,7 +3,7 @@ title: ToPixel
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Convierte la longitud a un número de píxeles si es posible. Si la unidad actual es relativa se lanzará una excepción.
 type: docs
-weight: 250
+weight: 240
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/topixel/
 ---
 ## Length.ToPixel method

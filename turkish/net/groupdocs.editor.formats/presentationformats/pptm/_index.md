@@ -1,14 +1,14 @@
 ---
 title: Pptm
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Microsoft Office Açık XML PresentationML Makro Etkin Belge PPTM dosyaları. PPTX dosyalarına benzerler tek fark lateral dosyaların makro içerebilmelerine rağmen makroları çalıştıramamasıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/pptm .
+description: Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Microsoft Office Açık XML PresentationML Makro Etkin Belge PPTM dosyaları. PPTX dosyalarına benzerler tek fark lateral dosyaların makro içerebilmelerine rağmen makroları çalıştıramamasıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/pptm .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.editor.formats/presentationformats/pptm/
 ---
 ## PresentationFormats.Pptm field
 
-Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Microsoft Office Açık XML PresentationML Makro Etkin Belge (PPTM) dosyaları. PPTX dosyalarına benzerler, tek fark, lateral dosyaların makro içerebilmelerine rağmen makroları çalıştıramamasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/pptm) .
+Microsoft PowerPoint 2007 veya daha yüksek sürümlerle oluşturulan Microsoft Office Açık XML PresentationML Makro Etkin Belge (PPTM) dosyaları. PPTX dosyalarına benzerler, tek fark, lateral dosyaların makro içerebilmelerine rağmen makroları çalıştıramamasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/pptm) .
 
 ```csharp
 public static readonly PresentationFormats Pptm;

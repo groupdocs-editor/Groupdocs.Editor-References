@@ -3,7 +3,7 @@ title: ILoadOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gemensamt gränssnitt för alla alternativklasser ansvarig för att ladda dokument av olika typ formats
 type: docs
-weight: 770
+weight: 920
 url: /sv/net/groupdocs.editor.options/iloadoptions/
 ---
 ## ILoadOptions interface

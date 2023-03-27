@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Markdown belgeleri şifre ile şifrelenemediğinden bu özellik her zaman false değerini döndürür.
+description: Markdown belgeleri parola ile şifrelenemediğinden bu özellik her zaman  döndürürYANLIŞ
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-Markdown belgeleri şifre ile şifrelenemediğinden, bu özellik her zaman 'false' değerini döndürür.
+Markdown belgeleri parola ile şifrelenemediğinden, bu özellik her zaman ` döndürür`YANLIŞ`
 
 ```csharp
 public bool IsEncrypted { get; }

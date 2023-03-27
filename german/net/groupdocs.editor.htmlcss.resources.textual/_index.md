@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.HtmlCss.Resources.Textual stellt Klassen bereit die Textressourcen darstellen.
 type: docs
-weight: 100
+weight: 120
 url: /de/net/groupdocs.editor.htmlcss.resources.textual/
 ---
 Der Namespace GroupDocs.Editor.HtmlCss.Resources.Textual stellt Klassen bereit, die Textressourcen darstellen.

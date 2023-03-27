@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Resources.Images ad alanı genel olarak tüm türlerdeki görüntü kaynaklarını temsil eden sınıflar sağlar.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/
 ---
 GroupDocs.Editor.HtmlCss.Resources.Images ad alanı, genel olarak tüm türlerdeki görüntü kaynaklarını temsil eden sınıflar sağlar.

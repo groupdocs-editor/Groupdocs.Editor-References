@@ -3,7 +3,7 @@ title: FixedLayoutEditOptionsBase
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Classe astratta di base per le opzioni per tutti i documenti di formati a layout fisso come PDF e XPS
 type: docs
-weight: 730
+weight: 880
 url: /it/net/groupdocs.editor.options/fixedlayouteditoptionsbase/
 ---
 ## FixedLayoutEditOptionsBase class

@@ -1,17 +1,17 @@
 ---
 title: Ratio
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Representa un tipo de datos CSS de proporción que se utiliza para describir relaciones de aspecto en consultas de medios y para imágenes ráster al indicar la proporción entre dos valores sin unidades llamados numerador y denominador. Estructura inmutable.
+description: Representa un tipo de datos CSS de proporción que se utiliza para describir relaciones de aspecto en consultas de medios y para imágenes ráster al indicar la proporción entre dos valores sin unidad llamados numerador y denominador. Estructura inmutable.
 type: docs
-weight: 210
+weight: 280
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
 
-Representa un tipo de datos CSS de "proporción", que se utiliza para describir relaciones de aspecto en consultas de medios y para imágenes ráster al indicar la proporción entre dos valores sin unidades llamados "numerador" y "denominador". Estructura inmutable.
+Representa un tipo de datos CSS de "proporción", que se utiliza para describir relaciones de aspecto en consultas de medios y para imágenes ráster al indicar la proporción entre dos valores sin unidad llamados "numerador" y "denominador". Estructura inmutable.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Propiedades
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | Nombre | Descripción |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Devuelve un denominador de esta razón |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Determina si esta relación tiene un valor predeterminado o es "1/1" (Single) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Devuelve un numerador de esta razón |
 
 ## Métodos
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Ver también
 
+* interface [ICssDataType](../icssdatatype)
 * espacio de nombres [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * asamblea [GroupDocs.Editor](../../)
 

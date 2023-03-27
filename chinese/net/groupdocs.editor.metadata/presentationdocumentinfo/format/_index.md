@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此演示文稿文档的格式
+description: 返回此演示文档的格式
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.metadata/presentationdocumentinfo/format/
 ---
 ## PresentationDocumentInfo.Format property
 
-返回此演示文稿文档的格式
+返回此演示文档的格式
 
 ```csharp
 public PresentationFormats Format { get; }

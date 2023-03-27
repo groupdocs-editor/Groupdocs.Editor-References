@@ -3,7 +3,7 @@ title: FontResourceBase
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Classe de base pour tout type de police pris en charge en tant que ressource pour le document HTML avec toutes ses propriétés
 type: docs
-weight: 270
+weight: 370
 url: /fr/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/
 ---
 ## FontResourceBase class

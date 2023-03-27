@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指示是否应为空白行输出分隔符默认值为 false这意味着空白行的内容将为空
+description: 指示是否应为空白行输出分隔符默认值为错误的这意味着空白行的内容将为空.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-指示是否应为空白行输出分隔符。默认值为 false，这意味着空白行的内容将为空。
+指示是否应为空白行输出分隔符。默认值为`错误的`这意味着空白行的内容将为空.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

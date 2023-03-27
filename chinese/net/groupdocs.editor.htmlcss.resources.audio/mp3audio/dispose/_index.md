@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: GroupDocs.Editor for .NET API 参考
-description: 处理此 MP3 资源处理其内容并使大多数方法和属性不工作
+description: 处理此 MP3 资源处理其内容并使大多数方法和属性无效
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/dispose/
 ---
 ## Mp3Audio.Dispose method
 
-处理此 MP3 资源，处理其内容并使大多数方法和属性不工作
+处理此 MP3 资源，处理其内容并使大多数方法和属性无效
 
 ```csharp
 public void Dispose()

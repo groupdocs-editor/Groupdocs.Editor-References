@@ -18,9 +18,9 @@ public interface IDocumentFormat : IEquatable<IDocumentFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Extension](../../groupdocs.editor.formats/idocumentformat/extension) { get; } | 在实现类型中应该返回格式文件扩展名 |
-| [Mime](../../groupdocs.editor.formats/idocumentformat/mime) { get; } | 在实现类型中应该返回给定格式的 MIME 代码 |
-| [Name](../../groupdocs.editor.formats/idocumentformat/name) { get; } | 在实现类型中应该返回完整的正式格式 name |
+| [Extension](../../groupdocs.editor.formats/idocumentformat/extension) { get; } | 在实现类型中应返回格式文件扩展名 |
+| [Mime](../../groupdocs.editor.formats/idocumentformat/mime) { get; } | 在实现类型中应返回给定格式的 MIME 代码 |
+| [Name](../../groupdocs.editor.formats/idocumentformat/name) { get; } | 在实现类型中应返回完整的正式格式名称 |
 
 ### 也可以看看
 

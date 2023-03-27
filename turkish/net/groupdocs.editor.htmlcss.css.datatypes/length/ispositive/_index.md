@@ -3,7 +3,7 @@ title: IsPositive
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu uzunluğun sayısal değerinin pozitif bir sayı olup olmadığını belirler
 type: docs
-weight: 140
+weight: 130
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/ispositive/
 ---
 ## Length.IsPositive property

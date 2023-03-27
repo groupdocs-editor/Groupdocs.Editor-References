@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指定分割 ePub 文件的最大标题级别默认值为2 将其设置为0将禁用拆分因此电子书的所有内容将合并到 ePub 内的单个包中
+description: 指定拆分 ePub 文件的最大标题级别默认值为2个 将其设置为0将禁用拆分因此电子书的所有内容将合并到 ePub. 内的单个包中
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/epubsaveoptions/splitheadinglevel/
 ---
 ## EpubSaveOptions.SplitHeadingLevel property
 
-指定分割 ePub 文件的最大标题级别。默认值为`2` 将其设置为`0`将禁用拆分，因此电子书的所有内容将合并到 ePub 内的单个包中。
+指定拆分 ePub 文件的最大标题级别。默认值为`2个` 将其设置为`0`将禁用拆分，因此电子书的所有内容将合并到 ePub. 内的单个包中
 
 ```csharp
 public int SplitHeadingLevel { get; set; }
@@ -16,9 +16,9 @@ public int SplitHeadingLevel { get; set; }
 
 ### 评论
 
-当此属性设置为 1 到 9 之间的值时，文档将按使用 格式化的段落进行拆分**标题 1**,**标题 2** ,**标题 3**等样式直到指定的标题级别。
+当此属性设置为 1 到 9 之间的值时，文档将按格式为 using 的段落拆分**标题 1**,**标题 2** ,**标题 3**等样式到指定的标题级别。
 
-默认情况下，仅**标题 1**和**标题 2**段落会导致文档被拆分。 将此属性设置为零将导致文档根本不会在标题段落处拆分。
+默认情况下，只有**标题 1**和**标题 2**段落导致文档被拆分。 将此属性设置为零将导致文档根本不在标题段落处拆分。
 
 ### 也可以看看
 

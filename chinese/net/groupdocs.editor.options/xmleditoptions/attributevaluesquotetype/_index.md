@@ -16,7 +16,7 @@ public QuoteType AttributeValuesQuoteType { get; set; }
 
 ### 也可以看看
 
-* enum [QuoteType](../../../groupdocs.editor.htmlcss.serialization/quotetype)
+* struct [QuoteType](../../../groupdocs.editor.htmlcss.serialization/quotetype)
 * class [XmlEditOptions](../../xmleditoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmleditoptions)
 * 部件 [GroupDocs.Editor](../../../)

@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: GroupDocs.Editor för .NET API-referens
-description: Anger om innehållet i AZW3 ebok ska delas upp i paket och om ja den maximala nivån för rubriker för att dela upp innehållet i AZW3. Standardvärdet är2 Ställer in den till0 kommer att inaktivera delning så allt innehåll i eboken kommer att inkorporeras i ett enda paket inuti AZW3.
+description: Anger om innehållet i AZW3 ebok ska delas upp i paket och om ja den maximala nivån för rubriker för att dela upp innehållet i AZW3. Standardvärdet är2 . Ställer in den till0kommer att inaktivera delning så allt innehåll i eboken kommer att inkorporeras i ett enda paket inuti AZW3.
 type: docs
 weight: 20
 url: /sv/net/groupdocs.editor.options/azw3saveoptions/splitheadinglevel/
 ---
 ## Azw3SaveOptions.SplitHeadingLevel property
 
-Anger om innehållet i AZW3 e-bok ska delas upp i paket och om ja, den maximala nivån för rubriker för att dela upp innehållet i AZW3. Standardvärdet är`2` Ställer in den till`0` kommer att inaktivera delning, så allt innehåll i e-boken kommer att inkorporeras i ett enda paket inuti AZW3.
+Anger om innehållet i AZW3 e-bok ska delas upp i paket och om ja, den maximala nivån för rubriker för att dela upp innehållet i AZW3. Standardvärdet är`2` . Ställer in den till`0`kommer att inaktivera delning, så allt innehåll i e-boken kommer att inkorporeras i ett enda paket inuti AZW3.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }

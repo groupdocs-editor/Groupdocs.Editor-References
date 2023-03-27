@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Resources.Textual ad alanı metin kaynaklarını temsil eden sınıflar sağlar.
 type: docs
-weight: 100
+weight: 120
 url: /tr/net/groupdocs.editor.htmlcss.resources.textual/
 ---
 GroupDocs.Editor.HtmlCss.Resources.Textual ad alanı, metin kaynaklarını temsil eden sınıflar sağlar.

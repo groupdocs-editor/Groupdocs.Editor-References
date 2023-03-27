@@ -3,23 +3,42 @@ title: QuoteType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Alıntı karakterlerini temsil eder  tek tırnak  ve çift tırnak 
 type: docs
-weight: 520
+weight: 670
 url: /tr/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Alıntı karakterlerini temsil eder - tek tırnak (') ve çift tırnak (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### değerler
+## Özellikleri
 
-| İsim | Değer | Tanım |
-| --- | --- | --- |
-| SingleQuote | `39` | Tek tırnak (U+0027 APOSTROPHE karakteri) |
-| DoubleQuote | `34` | Çift alıntı (U+0022 QUOTATION MARK karakteri) |
+| İsim | Tanım |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Enquote edilecek karakter |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Geçerli karakterin kod noktası (U+0027 veya U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | HTML kodlu karakter |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Alıntı türünün bu örneğinin belirtilen uncasted ile eşit olup olmadığını gösterir. |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Alıntı türünün bu örneğinin, belirtilen ile eşit olup olmadığını gösterir. |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Bu karakter için bir karma kod döndürür |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | İki "QuoteType" değerinin eşit olup olmadığını kontrol eder |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Yayınlar belirtildi[`QuoteType`](../quotetype) örneğineChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | İki "QuoteType" değerinin eşit olup olmadığını kontrol eder |
+
+## Alanlar
+
+| İsim | Tanım |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Çift alıntı (U+0022 QUOTATION MARK karakteri) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Tek tırnak (U+0027 APOSTROPHE karakteri) |
 
 ### Ayrıca bakınız
 

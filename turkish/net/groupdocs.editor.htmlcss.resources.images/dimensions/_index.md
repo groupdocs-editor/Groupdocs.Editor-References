@@ -3,7 +3,7 @@ title: Dimensions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir raster dikdörtgen görüntünün doğrusal boyutlarını genişlik ve yükseklik keyfi birimde temsil eder. değişmez yapı.
 type: docs
-weight: 360
+weight: 460
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure

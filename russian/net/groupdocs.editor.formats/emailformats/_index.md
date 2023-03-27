@@ -26,7 +26,7 @@ public struct EmailFormats : IDocumentFormat, IEquatable<EmailFormats>
 
 | Имя | Описание |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Возвращает экземпляр[`EmailFormats`](../emailformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Возвращает экземпляр[`EmailFormats`](../emailformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | Определяет, равен ли этот экземпляр другому указанному экземпляру Email |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | Определяет, равен ли этот экземпляр другому указанному IDocumentFormat instance |
 | override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | Определяет, равен ли этот экземпляр другому указанному объекту, который предположительно представляет собой упакованный Email |

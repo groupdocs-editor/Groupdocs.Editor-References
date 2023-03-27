@@ -3,7 +3,7 @@ title: IsNegative
 second_title: GroupDocs.Editor för .NET API-referens
 description: Bestämmer om det numeriska värdet för denna längd är ett negativt tal
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/isnegative/
 ---
 ## Length.IsNegative property

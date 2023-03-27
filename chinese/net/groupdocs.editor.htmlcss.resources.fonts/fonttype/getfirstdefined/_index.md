@@ -1,14 +1,14 @@
 ---
 title: GetFirstDefined
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从指定集合返回第一个字体类型它不是未定义值否则返回未定义字体类型当所有项目都是未定义时
+description: 返回指定集中的第一个字体类型它不是未定义值否则为未定义字体类型当所有项目均为未定义时
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/getfirstdefined/
 ---
 ## FontType.GetFirstDefined method
 
-从指定集合返回第一个字体类型，它不是“未定义”值，否则返回“未定义”字体类型（当所有项目都是“未定义”时）
+返回指定集中的第一个字体类型，它不是“未定义”值，否则为“未定义”字体类型（当所有项目均为“未定义”时）
 
 ```csharp
 public static FontType GetFirstDefined(params FontType[] fonts)
@@ -16,11 +16,11 @@ public static FontType GetFirstDefined(params FontType[] fonts)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fonts | FontType[] | 不允许有一个或多个 FontType 值、NULL 或空集合 |
+| fonts | FontType[] | 不允许一个或多个 FontType 值、NULL 或空集合 |
 
 ### 返回值
 
-指定集合中的第一个 FontType 值，即未定义或未定义（如果所有项目均为未定义）
+来自指定集合的第一个 FontType 值，它不是未定义的，或者未定义，如果所有项目都是未定义的
 
 ### 也可以看看
 

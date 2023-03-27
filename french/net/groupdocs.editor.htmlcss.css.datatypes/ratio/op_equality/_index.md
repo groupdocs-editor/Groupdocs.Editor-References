@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Compare deux ratios et renvoie un booléen indiquant si les deux correspondent.
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_equality/
 ---
 ## Ratio Equality operator

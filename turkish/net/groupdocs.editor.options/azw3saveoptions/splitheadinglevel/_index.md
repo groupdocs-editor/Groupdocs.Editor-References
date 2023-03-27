@@ -1,14 +1,14 @@
 ---
 title: SplitHeadingLevel
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: AZW3 ekitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2 olarak ayarlanıyor0 bölmeyi devre dışı bırakır böylece ekitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir.
+description: AZW3 ekitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer2 . olarak ayarlanıyor0bölmeyi devre dışı bırakır böylece ekitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/azw3saveoptions/splitheadinglevel/
 ---
 ## Azw3SaveOptions.SplitHeadingLevel property
 
-AZW3 e-kitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise, AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-kitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir.
+AZW3 e-kitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise, AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` . olarak ayarlanıyor`0`bölmeyi devre dışı bırakır, böylece e-kitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir.
 
 ```csharp
 public int SplitHeadingLevel { get; set; }
@@ -20,7 +20,7 @@ Bazı durumlarda, e-kitabın içeriğini çıktı AZW3 dosyasının içinde bulu
 
 Bu özellik 1 ile 9 arasında bir değere ayarlandığında, belge kullanılarak biçimlendirilen paragraflara bölünür**Başlık 1** ,**Başlık 2** ,**Başlık 3** vb. stiller belirtilen başlık düzeyine kadar.
 
-Varsayılan olarak (değeri`2` ), sadece**Başlık 1** ve**Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfır olarak ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
+Varsayılan olarak (değeri`2` ), sadece**Başlık 1** Ve**Başlık 2** paragraflar belgenin bölünmesine neden olur. Bu özelliğin sıfır olarak ayarlanması, belgenin başlık paragraflarında hiç bölünmemesine neden olur.
 
 ### Ayrıca bakınız
 

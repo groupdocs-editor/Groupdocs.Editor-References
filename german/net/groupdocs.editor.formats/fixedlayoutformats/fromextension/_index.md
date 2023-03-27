@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`FixedLayoutFormats`](../../fixedlayoutformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`FixedLayoutFormats`](../../fixedlayoutformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### Rückgabewert
 
-Instanz von[`FixedLayoutFormats`](../../fixedlayoutformats) Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
+Instanz von[`FixedLayoutFormats`](../../fixedlayoutformats)Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
 
 ### Siehe auch
 

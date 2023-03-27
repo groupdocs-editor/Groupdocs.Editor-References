@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente les types de protection de feuille de calcul onglet de feuille de calcul
 type: docs
-weight: 1030
+weight: 1260
 url: /fr/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

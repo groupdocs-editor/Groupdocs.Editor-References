@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Restituisce listanza diPresentationFormatsgroupdocs.editor.formats/presentationformatsstruttura associata allestensione del nome file specificata o genera uneccezione se lestensione non può essere analizzata correttamente
+description: Restituisce listanza diPresentationFormatsgroupdocs.editor.formats/presentationformats struttura associata allestensione del nome file specificata o genera uneccezione se lestensione non può essere analizzata correttamente
 type: docs
 weight: 130
 url: /it/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-Restituisce l'istanza di[`PresentationFormats`](../../presentationformats)struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente
+Restituisce l'istanza di[`PresentationFormats`](../../presentationformats) struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### Valore di ritorno
 
-Istanza di[`PresentationFormats`](../../presentationformats) struttura in caso di successo o generata un'eccezione in caso di errore
+Istanza di[`PresentationFormats`](../../presentationformats)struttura in caso di successo o generata un'eccezione in caso di fallimento
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Parola oluşturulan PDF belgesine kullanıcı parolası olarak uygulanacak açmak için gereklidir. NULL veya boşsa belgeye parola uygulanmaz. Aksi takdirde belge RC4 anahtar uzunluğu 128 bit ile şifrelenecektir. Varsayılan olarak NULLdur  parola uygulanmaz.
+description: Parola oluşturulan PDF belgesine kullanıcı parolası olarak uygulanacak açılış için gereklidir. NULL veya boşsa belgeye parola uygulanmaz. Aksi takdirde belge RC4 anahtar uzunluğu 128 bit ile şifrelenecektir. Varsayılan olarak NULLdur  parola uygulanmaz.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.editor.options/pdfsaveoptions/password/
 ---
 ## PdfSaveOptions.Password property
 
-Parola, oluşturulan PDF belgesine kullanıcı parolası olarak uygulanacak, açmak için gereklidir. NULL veya boşsa, belgeye parola uygulanmaz. Aksi takdirde, belge RC4 (anahtar uzunluğu 128 bit) ile şifrelenecektir. Varsayılan olarak NULL'dur — parola uygulanmaz.
+Parola, oluşturulan PDF belgesine kullanıcı parolası olarak uygulanacak, açılış için gereklidir. NULL veya boşsa, belgeye parola uygulanmaz. Aksi takdirde, belge RC4 (anahtar uzunluğu 128 bit) ile şifrelenecektir. Varsayılan olarak NULL'dur — parola uygulanmaz.
 
 ```csharp
 public string Password { get; set; }

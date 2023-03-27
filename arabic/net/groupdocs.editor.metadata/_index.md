@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: GroupDocs.Editor لمرجع .NET API
 description: GroupDocs.Editor.Metadata namespace يوفر فئات لوصف خصائص المستند الأساسية التي تعتمد على نوع الوثيقة.
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/groupdocs.editor.metadata/
 ---
 GroupDocs.Editor.Metadata namespace يوفر فئات لوصف خصائص المستند الأساسية التي تعتمد على نوع الوثيقة.

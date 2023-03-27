@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Поскольку документы Markdown не могут быть зашифрованы паролем это свойство всегда возвращает ложь
+description: Поскольку документы Markdown не могут быть зашифрованы паролем это свойство всегда возвращает ЛОЖЬ
 type: docs
 weight: 20
 url: /ru/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-Поскольку документы Markdown не могут быть зашифрованы паролем, это свойство всегда возвращает «ложь»
+Поскольку документы Markdown не могут быть зашифрованы паролем, это свойство всегда возвращает ``ЛОЖЬ`
 
 ```csharp
 public bool IsEncrypted { get; }

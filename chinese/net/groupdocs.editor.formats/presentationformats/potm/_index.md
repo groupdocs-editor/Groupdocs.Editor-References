@@ -1,14 +1,14 @@
 ---
 title: Potm
 second_title: GroupDocs.Editor for .NET API 参考
-description: Microsoft Office Open XML PresentationML 启用宏的模板 POTM 是支持宏的文件 POTM 文件是使用 PowerPoint 2007 或更高版本创建的包含可用于创建更多演示文件的默认设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/potm
+description: Microsoft Office Open XML PresentationML 启用宏的模板 POTM 是支持宏的文件 POTM 文件是使用 PowerPoint 2007 或更高版本创建的包含可用于创建更多演示文稿文件的默认设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/potm
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.formats/presentationformats/potm/
 ---
 ## PresentationFormats.Potm field
 
-Microsoft Office Open XML PresentationML 启用宏的模板 (POTM) 是支持宏的文件。 POTM 文件是使用 PowerPoint 2007 或更高版本创建的，包含可用于创建更多演示文件的默认设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/potm)
+Microsoft Office Open XML PresentationML 启用宏的模板 (POTM) 是支持宏的文件。 POTM 文件是使用 PowerPoint 2007 或更高版本创建的，包含可用于创建更多演示文稿文件的默认设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/potm)
 
 ```csharp
 public static readonly PresentationFormats Potm;

@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Opzioni per il caricamento di documenti di foglio di calcolo basati su testo CSV basati su schede ecc. che utilizzano un separatore delimitatore
 type: docs
-weight: 670
+weight: 820
 url: /it/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. L'impostazione predefinita è false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita in dati numerici. L'impostazione predefinita è false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Abilita i meccanismi di ottimizzazione della memoria durante l'elaborazione del documento di input, che può ridurre le prestazioni in alcuni casi speciali, ma d'altra parte riduce l'utilizzo della memoria. Utile quando si elaborano documenti di grandi dimensioni e si affronta OutOfMemoryException. L'impostazione predefinita è false (l'ottimizzazione della memoria è disabilitata per migliorare le prestazioni). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. L'impostazione predefinita è`falso` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita in dati numerici. L'impostazione predefinita è`falso` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Abilita i meccanismi di ottimizzazione della memoria durante l'elaborazione del documento di input, che può ridurre le prestazioni in alcuni casi speciali, ma d'altra parte riduce l'utilizzo della memoria. Utile quando si elaborano documenti di grandi dimensioni e si affronta OutOfMemoryException. L'impostazione predefinita è`falso` (l'ottimizzazione della memoria è disabilitata per migliorare le prestazioni). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Consente di specificare un separatore di stringa (delimitatore) per documenti di fogli di calcolo basati su testo |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Di default è false. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Definisce se i delimitatori consecutivi devono essere trattati come uno solo. Per impostazione predefinita è`falso` . |
 
 ### Osservazioni
 

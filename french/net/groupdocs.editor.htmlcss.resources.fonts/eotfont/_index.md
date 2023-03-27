@@ -3,7 +3,7 @@ title: EotFont
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente une police au format EOT Embedded OpenType
 type: docs
-weight: 260
+weight: 360
 url: /fr/net/groupdocs.editor.htmlcss.resources.fonts/eotfont/
 ---
 ## EotFont class

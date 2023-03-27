@@ -1,14 +1,14 @@
 ---
 title: Mhtml
 second_title: GroupDocs.Editor for .NET API 参考
-description: 聚合 HTML 文档的 MIME 封装是一种网页存档格式用于在单个计算机文件中组合 HTML 代码及其相关资源 了解有关此文件格式的更多信息这里https//docs.fileformat.com/web/mhtml/.
+description: 聚合 HTML 文档的 MIME 封装是一种网页存档格式用于在单个计算机文件中组合 HTML 代码及其配套资源 了解有关此文件格式的更多信息这里https//docs.fileformat.com/web/mhtml/.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.formats/textualformats/mhtml/
 ---
 ## TextualFormats.Mhtml field
 
-聚合 HTML 文档的 MIME 封装是一种网页存档格式，用于在单个计算机文件中组合 HTML 代码及其相关资源。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/mhtml/).
+聚合 HTML 文档的 MIME 封装是一种网页存档格式，用于在单个计算机文件中组合 HTML 代码及其配套资源。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/web/mhtml/).
 
 ```csharp
 public static readonly TextualFormats Mhtml;

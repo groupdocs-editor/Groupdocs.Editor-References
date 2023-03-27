@@ -13,12 +13,14 @@ is_root: true
 | [GroupDocs.Editor](./groupdocs.editor) | توفر مساحة الاسم GroupDocs.Eitor فئات لتحرير المستندات باستخدام برامج تحرير WYSIWYG للجهات الخارجية بدون أي تطبيقات إضافية. |
 | [GroupDocs.Editor.Formats](./groupdocs.editor.formats) | توفر مساحة الاسم GroupDocs.Editor.Formats واجهات وفئات تصف تنسيقات المستندات المدعومة. |
 | [GroupDocs.Editor.HtmlCss.Css.DataTypes](./groupdocs.editor.htmlcss.css.datatypes) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Css.DataTypes فئات تمثل أنواع بيانات CSS. |
+| [GroupDocs.Editor.HtmlCss.Css.Properties](./groupdocs.editor.htmlcss.css.properties) | توفر مساحة اسم GroupDocs.Editor.HtmlCss.Css.Properties أنواعًا تمثل خصائص CSS مختلفة (مكونات إعلانات CSS). |
 | [GroupDocs.Editor.HtmlCss.Exceptions](./groupdocs.editor.htmlcss.exceptions) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Exceptions الفئات المسؤولة عن جميع عمليات المعالجة المتعلقة بتنسيق HTML و CSS والصور والخطوط وغيرها من عمليات المعالجة المتعلقة بالموارد. |
 | [GroupDocs.Editor.HtmlCss.Resources](./groupdocs.editor.htmlcss.resources) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources الفئات التي تمثل جميع أنواع موارد HTML. |
 | [GroupDocs.Editor.HtmlCss.Resources.Audio](./groupdocs.editor.htmlcss.resources.audio) | The GroupDocs.Editor.HtmlCss.Resources.Audio يوفر مساحة أنواع تمثل موارد الصوت. |
 | [GroupDocs.Editor.HtmlCss.Resources.Fonts](./groupdocs.editor.htmlcss.resources.fonts) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Fonts الفئات التي تمثل موارد الخط. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images](./groupdocs.editor.htmlcss.resources.images) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images الفئات التي تمثل موارد الصور من جميع الأنواع بشكل عام. |
 | [GroupDocs.Editor.HtmlCss.Resources.Images.Raster](./groupdocs.editor.htmlcss.resources.images.raster) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images.Raster الفئات التي تمثل موارد الصور النقطية فقط. |
+| [GroupDocs.Editor.HtmlCss.Resources.Images.Vector](./groupdocs.editor.htmlcss.resources.images.vector) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images.Vector الفئات التي تمثل موارد الصورة المتجهة فقط. |
 | [GroupDocs.Editor.HtmlCss.Resources.Textual](./groupdocs.editor.htmlcss.resources.textual) | GroupDocs.Editor.HtmlCss.Resources.Textual مساحة الاسم توفر الفئات التي تمثل موارد النص. |
 | [GroupDocs.Editor.HtmlCss.Serialization](./groupdocs.editor.htmlcss.serialization) | توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Serialization أنواعًا مسؤولة عن ضبط عملية تسلسل ترميز HTML و CSS. |
 | [GroupDocs.Editor.Metadata](./groupdocs.editor.metadata) | GroupDocs.Editor.Metadata namespace يوفر فئات لوصف خصائص المستند الأساسية التي تعتمد على نوع الوثيقة. |

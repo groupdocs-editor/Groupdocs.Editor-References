@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Consente di abilitare o disabilitare limpaginazione nel documento HTML risultante. Di default è disabilitato falso .
+description: Consente di abilitare o disabilitare limpaginazione nel documento HTML risultante. Di default è disabilitato falso.
 type: docs
 weight: 30
 url: /it/net/groupdocs.editor.options/ebookeditoptions/enablepagination/
 ---
 ## EbookEditOptions.EnablePagination property
 
-Consente di abilitare o disabilitare l'impaginazione nel documento HTML risultante. Di default è disabilitato (`falso` ).
+Consente di abilitare o disabilitare l'impaginazione nel documento HTML risultante. Di default è disabilitato (`falso`).
 
 ```csharp
 public bool EnablePagination { get; set; }
@@ -16,7 +16,7 @@ public bool EnablePagination { get; set; }
 
 ### Osservazioni
 
-Nella sua essenza la maggior parte dei formati di e-book internamente è un formato di flusso come Office Open XML, in cui il contenuto è solido ed è suddiviso in capitoli ma non in pagine. Tuttavia, contiene alcune informazioni specifiche della pagina come numeri di pagina, note a piè di pagina, herader/piè di pagina e così via. Alcuni lettori di e-book eseguono una suddivisione del contenuto dell'e-book in pagine, mentre altri (soprattutto mobili) no. Questa opzione consente di controllare come il contenuto dell'e-book deve essere rappresentato in HTML/CSS durante la modifica — nel float (`falso`) o impaginato (`VERO`) Visualizza.
+Nella sua essenza la maggior parte dei formati di e-book internamente è un formato di flusso come Office Open XML, in cui il contenuto è solido ed è suddiviso in capitoli ma non in pagine. Tuttavia, contiene alcune informazioni specifiche della pagina come numeri di pagina, note a piè di pagina, herader/piè di pagina e così via. Alcuni lettori di e-book eseguono una suddivisione del contenuto dell'e-book in pagine, mentre altri (soprattutto mobili) no. Questa opzione consente di controllare come il contenuto dell'e-book deve essere rappresentato in HTML/CSS durante la modifica — nel float (`falso`) o impaginato (`VERO`) visualizzazione.
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: MimeCode
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Código MIME para este formato de audio
+description: código MIME para este formato de audio
 type: docs
 weight: 60
 url: /es/net/groupdocs.editor.htmlcss.resources.audio/audiotype/mimecode/
 ---
 ## AudioType.MimeCode property
 
-Código MIME para este formato de audio
+código MIME para este formato de audio
 
 ```csharp
 public string MimeCode { get; }

@@ -1,14 +1,14 @@
 ---
 title: Potx
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Il file POTX MacroFree Template di Microsoft Office Open XML PresentationML rappresenta le presentazioni dei modelli di Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/potx .
+description: Il file POTX MacroFree Template di Microsoft Office Open XML PresentationML rappresenta le presentazioni dei modelli di Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/potx .
 type: docs
 weight: 50
 url: /it/net/groupdocs.editor.formats/presentationformats/potx/
 ---
 ## PresentationFormats.Potx field
 
-Il file POTX (Macro-Free Template) di Microsoft Office Open XML PresentationML rappresenta le presentazioni dei modelli di Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/potx) .
+Il file POTX (Macro-Free Template) di Microsoft Office Open XML PresentationML rappresenta le presentazioni dei modelli di Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/potx) .
 
 ```csharp
 public static readonly PresentationFormats Potx;

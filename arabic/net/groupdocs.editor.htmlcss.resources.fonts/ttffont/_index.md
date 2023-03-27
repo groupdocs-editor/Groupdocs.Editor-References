@@ -3,7 +3,7 @@ title: TtfFont
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل خطًا واحدًا بتنسيق TTF خط TrueType 
 type: docs
-weight: 300
+weight: 400
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/
 ---
 ## TtfFont class

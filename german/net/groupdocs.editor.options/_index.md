@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Options
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade und Speicheroptionen.
 type: docs
-weight: 130
+weight: 150
 url: /de/net/groupdocs.editor.options/
 ---
 Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade- und Speicheroptionen.
@@ -20,6 +20,9 @@ Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade- und Spei
 | [EmailSaveOptions](./emailsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von E-Mail-Dokumenten (E-Mail) |
 | [EpubSaveOptions](./epubsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern der IDPF-EPUB-Dokumente (offener Standard für E-Books, der vom International Digital Publishing Forum erstellt wurde) |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Abstrakte Basisklasse für die Optionen für alle Dokumente mit festem Layout wie PDF und XPS |
+| [MarkdownEditOptions](./markdowneditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von Dokumenten im Markdown-Format (MD) |
+| [MarkdownImageLoadArgs](./markdownimageloadargs) | Liefert Daten für dieProcessImage Ereignis. |
+| [MarkdownSaveOptions](./markdownsaveoptions) | Ermöglicht die Angabe benutzerdefinierter Optionen zum Generieren und Speichern von Markdown-Dokumenten |
 | [MhtmlSaveOptions](./mhtmlsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von MHTML (MIME-Kapselung von aggregierten HTML-Dokumenten) documents |
 | [PdfEditOptions](./pdfeditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von PDF-Dokumenten |
 | [PdfLoadOptions](./pdfloadoptions) | Enthält Optionen zum Laden von PDF-Dokumenten in Editor class |
@@ -32,12 +35,14 @@ Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade- und Spei
 | [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von Tabellenkalkulationsdokumenten (Excel-kompatibel) |
 | [TextEditOptions](./texteditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Laden von Textdokumenten (TXT) |
 | [TextSaveOptions](./textsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von Textdokumenten (TXT) |
+| [WebFont](./webfont) | Stellt eine Schrifteinstellung für das Web dar |
 | [WordProcessingEditOptions](./wordprocessingeditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von Dokumenten aller unterstützten WordProcessing (Words-kompatiblen) Formate wie DOC(X), RTF, ODT usw. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Enthält Optionen zum Laden von WordProcessing (Word-kompatiblen) Dokumenten wie DOC(X), RTF, ODT usw. in den Editor class |
 | [WordProcessingProtection](./wordprocessingprotection) | Kapselt Dokumentschutzoptionen für das WordProcessing-Dokument, das aus HTML generiert wird |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von WordProcessing-kompatiblen Dokumenten, nachdem sie bearbeitet wurden |
 | [WorksheetProtection](./worksheetprotection) | Kapselt Arbeitsblattschutzoptionen, die es ermöglichen, ein Arbeitsblatt im ausgegebenen Tabellenkalkulationsdokument vor Änderungen des angegebenen Typs mit einem angegebenen Kennwort zu schützen. |
-| [XmlEditOptions](./xmleditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Laden von XML-Dokumenten (eXtensible Markup Language) und deren Konvertierung in HTML |
+| [XmlEditOptions](./xmleditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von XML-Dokumenten (eXtensible Markup Language) und zum Konvertieren in HTML |
+| [XmlFormatOptions](./xmlformatoptions) | Enthält Optionen, die es ermöglichen, die Formatierung des XML-Dokuments anzupassen, wenn es als HTML dargestellt wird |
 | [XmlHighlightOptions](./xmlhighlightoptions) | Enthält Optionen, mit denen die XML-Hervorhebung während der XML-zu-HTML-Konvertierung angepasst werden kann |
 | [XpsEditOptions](./xpseditoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen für die Bearbeitung (XML-Papierspezifikationen) documents |
 | [XpsSaveOptions](./xpssaveoptions) | Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von XPS-Dokumenten (XML-Papierspezifikationen) |
@@ -52,6 +57,7 @@ Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade- und Spei
 | --- | --- |
 | [IEditOptions](./ieditoptions) | Gemeinsame Schnittstelle für alle Optionen, die für die Dokument-zu-HTML-Konvertierung verantwortlich sind. Erklärt keine Mitglieder. |
 | [ILoadOptions](./iloadoptions) | Gemeinsame Schnittstelle für alle Optionsklassen, verantwortlich für das Laden von Dokumenten unterschiedlicher Formate |
+| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | Implementieren Sie diese Schnittstelle, wenn Sie steuern möchten, wie GroupDocs.Editor Bilder lädt, wenn die Datei im Markdown-Format geladen wird |
 | [ISaveOptions](./isaveoptions) | Schnittstelle für alle Speicheroptionen für alle Dokumententypen. Erklärt keine Mitglieder. |
 ## Aufzählung
 
@@ -60,7 +66,10 @@ Der Namespace GroupDocs.Editor.Options bietet Schnittstellen für Lade- und Spei
 | [FontEmbeddingOptions](./fontembeddingoptions) | Optionen zum Einbetten von Schriftarten steuern, welche Schriftartressourcen in das ausgegebene WordProcessing- oder PDF-Dokument eingebettet werden sollen |
 | [FontExtractionOptions](./fontextractionoptions) | Optionen zum Extrahieren von Schriftarten steuern, welche Schriftarten extrahiert werden sollen und woher |
 | [MailMessageOutput](./mailmessageoutput) | Steuert, welche Teile der E-Mail-Nachricht an die Ausgabeverarbeitung geliefert werden sollen |
+| [MarkdownImageLoadingAction](./markdownimageloadingaction) | Definiert den Modus des Bildladens beim Öffnen zum Bearbeiten der Datei im Markdown-Format |
+| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Ermöglicht die Festlegung der Ausrichtung des Inhalts der zu verwendenden Tabelle beim Export in das Markdown-Format |
 | [PdfCompliance](./pdfcompliance) | Gibt die Konformitätsstufe für PDF-Standards an |
+| [WebFont.TextDecorationLine](./webfont.textdecorationline) | Arten von Dekorationslinien, die für Text in einem Element verwendet werden, z. B. eine Unterstreichung, Überstreichung oder Durchstreichung. Kann zusammen kombiniert werden, oder niemand. |
 | [TextDirection](./textdirection) | Stellt 3 mögliche Varianten dar, wie die Textrichtung in den Klartextdokumenten zu behandeln ist |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | Enthält verfügbare Optionen für die Handhabung von führenden Leerzeichen beim Öffnen von Textdokumenten (TXT) |
 | [TextTrailingSpacesOptions](./texttrailingspacesoptions) | Enthält verfügbare Optionen für die Behandlung von nachgestellten Leerzeichen während des Öffnens von Textdokumenten (TXT) |

@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для создания и сохранения текстовых документов TXT
 type: docs
-weight: 950
+weight: 1160
 url: /ru/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class

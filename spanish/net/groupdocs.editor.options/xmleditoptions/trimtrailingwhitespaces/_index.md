@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite habilitar el truncamiento de los espacios en blanco finales en el texto de la etiqueta interna. De forma predeterminada está deshabilitado falso se conservarán los espacios en blanco finales.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

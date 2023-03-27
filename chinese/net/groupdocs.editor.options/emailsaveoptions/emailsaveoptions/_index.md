@@ -1,14 +1,14 @@
 ---
 title: EmailSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 初始化EmailSaveOptionsgroupdocs.editor.options/emailsaveoptions类其中所有选项都设置为其默认值
+description: 初始化一个新的实例EmailSaveOptionsgroupdocs.editor.options/emailsaveoptions类其中所有选项都设置为其默认值
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/emailsaveoptions/emailsaveoptions/
 ---
 ## EmailSaveOptions() {#constructor}
 
-初始化[`EmailSaveOptions`](../../emailsaveoptions)类，其中所有选项都设置为其默认值
+初始化一个新的实例[`EmailSaveOptions`](../../emailsaveoptions)类，其中所有选项都设置为其默认值
 
 ```csharp
 public EmailSaveOptions()
@@ -24,7 +24,7 @@ public EmailSaveOptions()
 
 ## EmailSaveOptions(MailMessageOutput) {#constructor_1}
 
-初始化[`EmailSaveOptions`](../../emailsaveoptions)类与[`MailMessageOutput`](../mailmessageoutput)参数
+初始化一个新的实例[`EmailSaveOptions`](../../emailsaveoptions)类[`MailMessageOutput`](../mailmessageoutput)参数
 
 ```csharp
 public EmailSaveOptions(MailMessageOutput mailMessageOutput)

@@ -1,14 +1,14 @@
 ---
 title: Dimensions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以任意单位表示一个光栅矩形图像的线性尺寸宽度和高度不可变结构.
+description: 表示任意单位的一个光栅矩形图像的线性尺寸宽度和高度不可变结构.
 type: docs
-weight: 360
+weight: 460
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/
 ---
 ## Dimensions structure
 
-以任意单位表示一个光栅矩形图像的线性尺寸（宽度和高度）。不可变结构.
+表示任意单位的一个光栅矩形图像的线性尺寸（宽度和高度）。不可变结构.
 
 ```csharp
 public struct Dimensions : ICloneable, IEquatable<Dimensions>
@@ -18,33 +18,33 @@ public struct Dimensions : ICloneable, IEquatable<Dimensions>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dimensions](dimensions)(ushort, ushort) | 从指定的宽度和高度创建一个新实例 |
+| [Dimensions](dimensions)(ushort, ushort) | 从指定的宽度和高度 创建一个新实例 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Empty](../../groupdocs.editor.htmlcss.resources.images/dimensions/empty) { get; } | 返回一个空的维度实例 |
+| static [Empty](../../groupdocs.editor.htmlcss.resources.images/dimensions/empty) { get; } | 返回一个空的 Dimensions instance |
 | [Area](../../groupdocs.editor.htmlcss.resources.images/dimensions/area) { get; } | 返回一个区域（宽 x 高） |
-| [AspectRatio](../../groupdocs.editor.htmlcss.resources.images/dimensions/aspectratio) { get; } | 此尺寸的纵横比为宽度/高度 |
+| [AspectRatio](../../groupdocs.editor.htmlcss.resources.images/dimensions/aspectratio) { get; } | 此尺寸的纵横比为 width/height |
 | [Height](../../groupdocs.editor.htmlcss.resources.images/dimensions/height) { get; } | 返回图像的高度 |
-| [IsEmpty](../../groupdocs.editor.htmlcss.resources.images/dimensions/isempty) { get; } | 确定此“Dimensions”实例是否为空且默认，即它不存储正确的宽度和高度 |
-| [IsSquare](../../groupdocs.editor.htmlcss.resources.images/dimensions/issquare) { get; } | 确定指定的“Dimensions”是否代表正方形，即宽度是否等于高度 |
+| [IsEmpty](../../groupdocs.editor.htmlcss.resources.images/dimensions/isempty) { get; } | 确定此“尺寸”实例是否为空且默认，即它未存储正确的宽度和高度 |
+| [IsSquare](../../groupdocs.editor.htmlcss.resources.images/dimensions/issquare) { get; } | 确定指定的“尺寸”是否表示正方形，即宽度是否等于高度 |
 | [Width](../../groupdocs.editor.htmlcss.resources.images/dimensions/width) { get; } | 返回图像的宽度 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromSize](../../groupdocs.editor.htmlcss.resources.images/dimensions/fromsize)(Size) | 从指定的 System.Drawing.Size instance 生成并返回一个新实例 |
+| static [FromSize](../../groupdocs.editor.htmlcss.resources.images/dimensions/fromsize)(Size) | 从指定的 System.Drawing.Size 生成并返回一个新实例 instance |
 | [Clone](../../groupdocs.editor.htmlcss.resources.images/dimensions/clone)() | 返回此实例的完整副本 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals)(Dimensions) | 确定此实例是否等于指定的“维度”实例 |
-| override [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals_1)(object) | 判断这个实例是否与指定的未转换对象相等，大概是另一个“维度”实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals)(Dimensions) | 确定此实例是否等于指定的“维度” instance |
+| override [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals_1)(object) | 确定此实例是否与指定的未转换对象相等，这可能是另一个“维度”实例 |
 | override [GetHashCode](../../groupdocs.editor.htmlcss.resources.images/dimensions/gethashcode)() | 返回此实例的哈希码，在其生命周期内无法更改 |
-| [ProportionallyResizeForNewHeight](../../groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewheight)(ushort) | 创建并返回新的“Dimensions”实例，根据指定的高度从当前按比例调整大小 |
-| [ProportionallyResizeForNewWidth](../../groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewwidth)(ushort) | 创建并返回新的“Dimensions”实例，它根据指定的宽度从当前按比例调整大小 |
-| override [ToString](../../groupdocs.editor.htmlcss.resources.images/dimensions/tostring)() | 返回此“维度”的字符串表示形式 |
-| [operator ==](../../groupdocs.editor.htmlcss.resources.images/dimensions/op_equality) | 检查两个“尺寸”值是否相等，即它们的宽度和高度是否相等，或者两者都为空 |
+| [ProportionallyResizeForNewHeight](../../groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewheight)(ushort) | 创建并返回新的“尺寸”实例，该实例根据指定的高度 从当前按比例调整大小 |
+| [ProportionallyResizeForNewWidth](../../groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewwidth)(ushort) | 创建并返回新的“尺寸”实例，该实例根据指定的 width 从当前按比例调整大小 |
+| override [ToString](../../groupdocs.editor.htmlcss.resources.images/dimensions/tostring)() | 返回此“维度” 的字符串表示形式 |
+| [operator ==](../../groupdocs.editor.htmlcss.resources.images/dimensions/op_equality) | 检查两个“尺寸”值是否相等，即它们的宽度和高度是否相等，或者两者都是空的 |
 | [operator !=](../../groupdocs.editor.htmlcss.resources.images/dimensions/op_inequality) | 检查两个“尺寸”值是否不相等，即它们对应的宽度和/或高度是否不同 |
 
 ### 也可以看看

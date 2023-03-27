@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetLoadOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含将二进制电子表格单元格Excel 兼容文档如 XLSXODS 等加载到编辑器中的选项 class
+description: 包含用于将 XLSXODS 等二进制电子表格单元格Excel 兼容文档加载到编辑器类 中的选项
 type: docs
-weight: 900
+weight: 1110
 url: /zh/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class
 
-包含将二进制电子表格（单元格、Excel 兼容）文档（如 XLS(X)、ODS 等）加载到编辑器中的选项 class
+包含用于将 XLS(X)、ODS 等二进制电子表格（单元格、Excel 兼容）文档加载到编辑器类 中的选项
 
 ```csharp
 public sealed class SpreadsheetLoadOptions : ILoadOptions
@@ -24,8 +24,8 @@ public sealed class SpreadsheetLoadOptions : ILoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/spreadsheetloadoptions/optimizememoryusage) { get; set; } | 在输入文档处理期间启用内存优化机制，在某些特殊情况下可能会降低性能， 但另一方面会降低内存使用量。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为 false（为了更好的性能而禁用内存优化）。 |
-| [Password](../../groupdocs.editor.options/spreadsheetloadoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于打开电子表格文档（如果已编码）。 设置为 NULL 或空字符串，以便不使用密码（默认值）。 |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/spreadsheetloadoptions/optimizememoryusage) { get; set; } | 在输入文档处理期间启用内存优化机制，这在某些特殊情况下可能会降低性能， 但另一方面会减少内存使用。在处理大量文档并面临 OutOfMemoryException 时很有用。 默认为 false（为了更好的性能禁用内存优化）。 |
+| [Password](../../groupdocs.editor.options/spreadsheetloadoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于打开电子表格文档（如果已编码）。 设置为 NULL 或空字符串以便不使用密码（默认值）。 |
 
 ### 也可以看看
 

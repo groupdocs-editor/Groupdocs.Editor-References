@@ -1,14 +1,14 @@
 ---
 title: AllResources
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Mevcut tüm kaynakların bir listesini döndürür tüm stil sayfaları HTMLden görüntüler ve tüm stil sayfaları fonts
+description: Mevcut tüm kaynakların bir listesini döndürür tüm stil sayfaları HTMLden görüntüler ve tüm stil sayfaları yazı tipleri audio
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor/editabledocument/allresources/
 ---
 ## EditableDocument.AllResources property
 
-Mevcut tüm kaynakların bir listesini döndürür: tüm stil sayfaları, HTML'den görüntüler ve tüm stil sayfaları, fonts
+Mevcut tüm kaynakların bir listesini döndürür: tüm stil sayfaları, HTML'den görüntüler ve tüm stil sayfaları, yazı tipleri, audio
 
 ```csharp
 public List<IHtmlResource> AllResources { get; }

@@ -1,14 +1,14 @@
 ---
 title: Denominator
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回这个比率的分母
+description: 返回此比率的分母
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/denominator/
 ---
 ## Ratio.Denominator property
 
-返回这个比率的分母
+返回此比率的分母
 
 ```csharp
 public ushort Denominator { get; }

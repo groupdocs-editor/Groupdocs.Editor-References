@@ -16,7 +16,7 @@ public int PageCount { get; }
 
 ### Notlar
 
-e-Kitap belgelerinin genellikle sabit sayfaları yoktur ve dolayısıyla sayfa sayısı vardır. ePub durumunda, birkaç bölüm hesaplamak mümkündür. Ancak, MOBI ve AZW3 formatlarında da bölüm yoktur, dolayısıyla bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
+e-Kitap belgelerinin genellikle sabit sayfaları yoktur ve dolayısıyla sayfa sayısı vardır. ePub durumunda, birkaç bölüm hesaplamak mümkündür. Ancak MOBI ve AZW3 formatlarında da bölüm yoktur, dolayısıyla bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
 
 ### Ayrıca bakınız
 

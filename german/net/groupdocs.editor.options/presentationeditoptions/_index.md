@@ -3,7 +3,7 @@ title: PresentationEditOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von Dokumenten aller unterstützten Präsentationsformate kompatibel mit PowerPoint
 type: docs
-weight: 860
+weight: 1070
 url: /de/net/groupdocs.editor.options/presentationeditoptions/
 ---
 ## PresentationEditOptions class

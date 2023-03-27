@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: MHTML birleştirilmiş HTML belgelerinin MIME kapsüllemesi belgelerinin oluşturulması ve kaydedilmesi için özel seçeneklerin belirtilmesine izin verir
 type: docs
-weight: 800
+weight: 1010
 url: /tr/net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class
@@ -24,9 +24,9 @@ public sealed class MhtmlSaveOptions : ISaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | MHTML belgelerinde yer alan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (Content-ID) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`yanlış` . |
-| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | Yerleşik ve özel belge özelliklerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` . |
-| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | Dil bilgilerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` . |
+| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | MHTML belgelerinde yer alan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (Content-ID) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`YANLIŞ` . |
+| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | Yerleşik ve özel belge özelliklerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` . |
+| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | Dil bilgilerinin MHTML'ye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` . |
 
 ### Ayrıca bakınız
 

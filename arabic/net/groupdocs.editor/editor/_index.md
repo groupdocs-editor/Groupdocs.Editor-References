@@ -52,7 +52,7 @@ public sealed class Editor : IAuxDisposable
 
 1. قم بتحميل مستند إلى مثيل المحرر من خلال المنشئ الخاص به.
 2. اختياريًا ، اكتشف نوع مستند باستخدام ملف[`GetDocumentInfo`](./getdocumentinfo) طريقة.
-3. افتح مستندًا لتحريره عن طريق استدعاء ملف[`Edit`](./edit) الطريقة والحصول على مثيل[`EditableDocument`](../editabledocument) فئة منه.
+3. افتح مستندًا لتحريره عن طريق استدعاء ملف[`Edit`](./edit)الطريقة والحصول على مثيل[`EditableDocument`](../editabledocument) فئة منه.
 4. تحرير محتوى مستند من جانب العميل باستخدام أي محرر WYSIWYG HTML.
 5. إنشاء مثيل جديد من[`EditableDocument`](../editabledocument) من محتوى المستند المحرر.
 6. حفظ مستند تم تحريره في بعض تنسيقات الإخراج عن طريق استدعاء ملف[`Save`](./save) طريقة.

@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Options
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.Options واجهات لخيارات التحميل والحفظ.
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/groupdocs.editor.options/
 ---
 توفر مساحة الاسم GroupDocs.Editor.Options واجهات لخيارات التحميل والحفظ.
@@ -20,6 +20,9 @@ url: /ar/net/groupdocs.editor.options/
 | [EmailSaveOptions](./emailsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات البريد الإلكتروني (البريد الإلكتروني) |
 | [EpubSaveOptions](./epubsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات IDPF EPUB (معيار مفتوح للكتب الإلكترونية التي أنشأها المنتدى الدولي للنشر الرقمي) |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | فئة الملخص الأساسية لخيارات كافة المستندات ذات التنسيقات ذات التخطيط الثابت مثل PDF و XPS |
+| [MarkdownEditOptions](./markdowneditoptions) | يسمح بتحديد خيارات مخصصة لتحرير المستندات بتنسيق Markdown (MD ) |
+| [MarkdownImageLoadArgs](./markdownimageloadargs) | توفير بيانات لملفProcessImage الحدث . |
+| [MarkdownSaveOptions](./markdownsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات Markdown |
 | [MhtmlSaveOptions](./mhtmlsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء مستندات MHTML (تغليف MIME لمستندات HTML المجمعة) وحفظها |
 | [PdfEditOptions](./pdfeditoptions) | يسمح بتحديد خيارات مخصصة لتحرير مستندات PDF |
 | [PdfLoadOptions](./pdfloadoptions) | يحتوي على خيارات لتحميل مستندات PDF في المحرر class |
@@ -32,12 +35,14 @@ url: /ar/net/groupdocs.editor.options/
 | [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات جداول البيانات (المتوافقة مع Excel) |
 | [TextEditOptions](./texteditoptions) | يسمح بتحديد خيارات مخصصة لتحميل مستندات النص العادي (TXT) |
 | [TextSaveOptions](./textsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات نص عادي (TXT) |
+| [WebFont](./webfont) | يمثل إعدادات الخط للويب |
 | [WordProcessingEditOptions](./wordprocessingeditoptions) | يسمح بتحديد خيارات مخصصة لتحرير المستندات لجميع تنسيقات معالجة الكلمات (المتوافقة مع الكلمات) مثل DOC (X) و RTF و ODT وما إلى ذلك. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | يحتوي على خيارات لتحميل مستندات معالجة Word (متوافقة مع Word) مثل DOC (X) و RTF و ODT وما إلى ذلك في محرر class |
 | [WordProcessingProtection](./wordprocessingprotection) | لتضمين خيارات حماية المستند لمستند معالجة الكلمات ، والذي تم إنشاؤه من HTML |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات متوافقة مع معالجة Word بعد تحريرها |
 | [WorksheetProtection](./worksheetprotection) | تغلف خيارات حماية ورقة العمل ، والتي تسمح بحماية ورقة العمل في مستند جدول البيانات الناتج من تعديل النوع المحدد بكلمة مرور محددة. |
-| [XmlEditOptions](./xmleditoptions) | يسمح بتحديد خيارات مخصصة لتحميل مستندات XML (لغة التوصيف الموسعة) وتحويلها إلى HTML |
+| [XmlEditOptions](./xmleditoptions) | يسمح بتحديد خيارات مخصصة لتحرير مستندات XML (لغة الترميز الموسعة) وتحويلها إلى HTML |
+| [XmlFormatOptions](./xmlformatoptions) | يحتوي على خيارات تسمح بتعديل تنسيق مستند XML ، عندما يتم تمثيله بتنسيق HTML |
 | [XmlHighlightOptions](./xmlhighlightoptions) | يحتوي على خيارات تسمح بتخصيص تمييز XML أثناء تحويل XML إلى HTML |
 | [XpsEditOptions](./xpseditoptions) | يسمح بتحديد خيارات مخصصة للتحرير (مواصفات ورق XML) documents |
 | [XpsSaveOptions](./xpssaveoptions) | يسمح بتحديد خيارات مخصصة لإنشاء مستندات XPS (مواصفات ورق XML) وحفظها |
@@ -52,6 +57,7 @@ url: /ar/net/groupdocs.editor.options/
 | --- | --- |
 | [IEditOptions](./ieditoptions) | واجهة مشتركة لجميع الخيارات ، وهي مسؤولة عن تحويلات المستندات إلى HTML. تعلن عدم وجود أعضاء. |
 | [ILoadOptions](./iloadoptions) | واجهة مشتركة لجميع فئات الخيارات ، مسؤولة عن تحميل المستندات ذات التنسيقات المختلفة |
+| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تحميل GroupDocs.Editor للصور عند تحميل الملف بتنسيق Markdown |
 | [ISaveOptions](./isaveoptions) | واجهة لجميع خيارات الحفظ لجميع أنواع المستندات. تعلن عدم وجود أعضاء. |
 ## تعداد
 
@@ -60,7 +66,10 @@ url: /ar/net/groupdocs.editor.options/
 | [FontEmbeddingOptions](./fontembeddingoptions) | تتحكم خيارات تضمين الخط في تحديد موارد الخط التي يجب تضمينها في معالجة Word أو مستند PDF الناتج |
 | [FontExtractionOptions](./fontextractionoptions) | تتحكم خيارات استخراج الخط في تحديد الخطوط التي يجب استخراجها ومن حيث |
 | [MailMessageOutput](./mailmessageoutput) | يتحكم في أي أجزاء من رسالة البريد يجب تسليمها إلى معالجة الإخراج |
+| [MarkdownImageLoadingAction](./markdownimageloadingaction) | يحدد وضع تحميل الصورة أثناء الفتح لتحرير الملف بتنسيق Markdown |
+| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | يسمح بتحديد محاذاة محتوى الجدول لاستخدامه عند التصدير إلى تنسيق Markdown |
 | [PdfCompliance](./pdfcompliance) | يحدد مستوى الامتثال لمعايير PDF |
+| [WebFont.TextDecorationLine](./webfont.textdecorationline) | أنواع خطوط الزخرفة المستخدمة في النص في عنصر ، مثل تسطير أو خط علوي أو خط من خلاله. يمكن دمجها معًا ، أو عدم دمجها مع أحد. |
 | [TextDirection](./textdirection) | يمثل 3 متغيرات محتملة حول كيفية معالجة اتجاه النص في مستندات النص العادي |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | يحتوي على الخيارات المتاحة لمعالجة المساحة الرائدة أثناء فتح مستند نص عادي (TXT) |
 | [TextTrailingSpacesOptions](./texttrailingspacesoptions) | يحتوي على الخيارات المتاحة لمعالجة المساحة الزائدة أثناء فتح مستند نص عادي (TXT) |

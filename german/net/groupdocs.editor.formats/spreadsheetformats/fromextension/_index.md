@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 160
 url: /de/net/groupdocs.editor.formats/spreadsheetformats/fromextension/
 ---
 ## SpreadsheetFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`SpreadsheetFormats`](../../spreadsheetformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`SpreadsheetFormats`](../../spreadsheetformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static SpreadsheetFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static SpreadsheetFormats FromExtension(string extension)
 
 ### Rückgabewert
 
-Instanz von[`SpreadsheetFormats`](../../spreadsheetformats) Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
+Instanz von[`SpreadsheetFormats`](../../spreadsheetformats)Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob die Zeichenfolge in einem textbasierten Dokument in numerische Daten konvertiert wird. Standard ist false.
+description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob die Zeichenfolge in einem textbasierten Dokument in numerische Daten konvertiert wird. Standard istFALSCH .
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Zeichenfolge in einem textbasierten Dokument in numerische Daten konvertiert wird. Standard ist false.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Zeichenfolge in einem textbasierten Dokument in numerische Daten konvertiert wird. Standard ist`FALSCH` .
 
 ```csharp
 public bool ConvertNumericData { get; set; }

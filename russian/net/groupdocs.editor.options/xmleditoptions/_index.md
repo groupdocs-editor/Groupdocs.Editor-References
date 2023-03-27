@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Позволяет указать пользовательские параметры для загрузки документов XML расширяемый язык разметки и преобразования их в формат HTML
+description: Позволяет указать пользовательские параметры для редактирования документов XML расширяемый язык разметки и преобразования их в формат HTML
 type: docs
-weight: 1040
+weight: 1270
 url: /ru/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-Позволяет указать пользовательские параметры для загрузки документов XML (расширяемый язык разметки) и преобразования их в формат HTML
+Позволяет указать пользовательские параметры для редактирования документов XML (расширяемый язык разметки) и преобразования их в формат HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Позволяет указать тип кавычек (одинарные или двойные) для значений атрибутов. Двойные кавычки по умолчанию. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Кодировка символов текстового документа, которая будет применяться при его открытии. По умолчанию null — будет применена внутренняя кодировка документа. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Позволяет включить или отключить механизм исправления поврежденной структуры XML. По умолчанию отключено (false). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | Позволяет настроить подсветку, которая будет применяться к XML-структуре при ее представлении в HTML. По умолчанию NULL — подсветка применяется по умолчанию. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | Позволяет настроить форматирование XML, которое будет применяться к структуре XML, когда она представлена в HTML. Форматирование по умолчанию используется и настраивается. Не может быть нулевым. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | Позволяет настроить подсветку XML, которая будет применяться к структуре XML, когда она представлена в HTML. Подсветка по умолчанию используется и настраивается. Не может быть нулевым. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Позволяет включить алгоритм распознавания адресов электронной почты в атрибуте values |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | Позволяет включить алгоритм распознавания URI |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | Позволяет включить усечение завершающих пробелов в тексте внутреннего тега. По умолчанию отключено (false) — пробелы в конце будут сохранены. |

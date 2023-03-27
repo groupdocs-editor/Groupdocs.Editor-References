@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Consente di abilitare il troncamento degli spazi bianchi finali nel testo del tag interno. Per impostazione predefinita è disabilitato false  gli spazi bianchi finali verranno preservati.
 type: docs
-weight: 80
+weight: 90
 url: /it/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

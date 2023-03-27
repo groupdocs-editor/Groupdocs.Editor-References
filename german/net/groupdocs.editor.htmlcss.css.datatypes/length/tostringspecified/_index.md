@@ -3,7 +3,7 @@ title: ToStringSpecified
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gibt eine Zeichenfolgendarstellung dieser Länge im angegebenen Einheitentyp zurück. Der numerische Wert wird entsprechend der Änderung des Einheitentyps konvertiert.
 type: docs
-weight: 260
+weight: 250
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/tostringspecified/
 ---
 ## Length.ToStringSpecified method

@@ -3,7 +3,7 @@ title: Length.Unit
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Toutes les unités de longueur prises en charge
 type: docs
-weight: 200
+weight: 270
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length.unit/
 ---
 ## Length.Unit enumeration

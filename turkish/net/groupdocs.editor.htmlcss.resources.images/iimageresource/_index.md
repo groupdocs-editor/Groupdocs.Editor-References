@@ -3,7 +3,7 @@ title: IImageResource
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Raster veya vektör gibi herhangi bir türden görüntü kaynağını temsil eder
 type: docs
-weight: 380
+weight: 480
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/iimageresource/
 ---
 ## IImageResource interface

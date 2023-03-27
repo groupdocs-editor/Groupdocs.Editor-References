@@ -1,14 +1,14 @@
 ---
 title: IsSquare
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定指定的Dimensions是否代表正方形即宽度是否等于高度
+description: 确定指定的尺寸是否表示正方形即宽度是否等于高度
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/issquare/
 ---
 ## Dimensions.IsSquare property
 
-确定指定的“Dimensions”是否代表正方形，即宽度是否等于高度
+确定指定的“尺寸”是否表示正方形，即宽度是否等于高度
 
 ```csharp
 public bool IsSquare { get; }

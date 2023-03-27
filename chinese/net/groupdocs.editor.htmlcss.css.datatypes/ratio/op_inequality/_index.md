@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
 description: 比较两个比率并返回一个布尔值指示两者是否不匹配
 type: docs
-weight: 140
+weight: 130
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality/
 ---
 ## Ratio Inequality operator
@@ -17,7 +17,7 @@ public static bool operator !=(Ratio left, Ratio right)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | left | Ratio | 使用的第一个比率。 |
-| right | Ratio | 使用的第二个比率。 |
+| right | Ratio | 第二个比例使用。 |
 
 ### 返回值
 

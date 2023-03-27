@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Содержит параметры для создания и сохранения текстовых электронных таблиц CSV Tab и т. д. в которых используется разделитель разделитель
 type: docs
-weight: 680
+weight: 830
 url: /ru/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Позволяет установить кодировку для текстового документа электронной таблицы. По умолчанию (и если не указано) UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Указывает, следует ли выводить разделители для пустой строки. Значение по умолчанию — false, что означает, что содержимое пустой строки будет пустым. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Указывает, следует ли выводить разделители для пустой строки. Значение по умолчанию`ЛОЖЬ` что означает, что содержимое пустой строки будет пустым. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Позволяет указать разделитель строк (разделитель) для текстовых электронных таблиц |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Указывает, следует ли обрезать начальные пустые строки и столбцы, как это делает MS Excel |
 

@@ -1,14 +1,14 @@
 ---
 title: Pst
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: I file con estensione .pst rappresentano i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni sullutente. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/email/pst/ .
+description: I file con estensione .pst rappresentano i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni sullutente. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/email/pst/ .
 type: docs
 weight: 100
 url: /it/net/groupdocs.editor.formats/emailformats/pst/
 ---
 ## EmailFormats.Pst field
 
-I file con estensione .pst rappresentano i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni sull'utente. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/email/pst/) .
+I file con estensione .pst rappresentano i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni sull'utente. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/email/pst/) .
 
 ```csharp
 public static readonly EmailFormats Pst;

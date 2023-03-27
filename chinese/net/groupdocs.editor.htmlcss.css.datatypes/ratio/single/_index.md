@@ -1,14 +1,14 @@
 ---
 title: Single
 second_title: GroupDocs.Editor for .NET API 参考
-description: 单个默认比例1/1
+description: 单一默认比率 1/1
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/single/
 ---
 ## Ratio.Single field
 
-单个默认比例1/1
+单一默认比率 1/1
 
 ```csharp
 public static readonly Ratio Single;

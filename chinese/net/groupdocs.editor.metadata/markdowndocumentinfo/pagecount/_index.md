@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回页数 Markdown 文档通常没有固定的页面因此页数所以这个数字是根据纵向设置为 A4 的标准页面大小计算的
+description: 返回页数 Markdown 文档通常没有固定页数因此没有固定页数因此此数字是根据纵向设置为 A4 的标准页面尺寸计算得出的
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/markdowndocumentinfo/pagecount/
 ---
 ## MarkdownDocumentInfo.PageCount property
 
-返回页数。 Markdown 文档通常没有固定的页面，因此页数，所以这个数字是根据纵向设置为 A4 的标准页面大小计算的。
+返回页数。 Markdown 文档通常没有固定页数，因此没有固定页数，因此此数字是根据纵向设置为 A4 的标准页面尺寸计算得出的。
 
 ```csharp
 public int PageCount { get; }

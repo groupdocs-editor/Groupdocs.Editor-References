@@ -3,7 +3,7 @@ title: IsUnitlessZero
 second_title: GroupDocs.Editor لمرجع .NET API
 description: لتحديد ما إذا كان هذا المثيل عبارة عن صفر بدون وحدة أم لا. الصفر اللامحدود هو القيمة الافتراضية لهذا النوع. نفس الخاصية الافتراضية.
 type: docs
-weight: 170
+weight: 160
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero/
 ---
 ## Length.IsUnitlessZero property

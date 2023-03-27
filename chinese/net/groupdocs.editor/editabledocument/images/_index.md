@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许获取此 HTML 文档使用的外部图像资源光栅图像
+description: 允许获取此 HTML 文档使用的外部图像资源光栅和矢量图像
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor/editabledocument/images/
 ---
 ## EditableDocument.Images property
 
-允许获取此 HTML 文档使用的外部图像资源（光栅图像）
+允许获取此 HTML 文档使用的外部图像资源（光栅和矢量图像）
 
 ```csharp
 public List<IImageResource> Images { get; }

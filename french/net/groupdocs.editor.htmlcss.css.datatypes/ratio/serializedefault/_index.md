@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: sérialise ce ratio dans la chaîne et le renvoie it
 type: docs
-weight: 110
+weight: 100
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/serializedefault/
 ---
 ## Ratio.SerializeDefault method

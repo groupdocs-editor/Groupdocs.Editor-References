@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa los tipos de protección de la hoja de cálculo pestaña de la hoja de cálculo
 type: docs
-weight: 1030
+weight: 1260
 url: /es/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration
@@ -20,7 +20,7 @@ public enum WorksheetProtectionType : byte
 | --- | --- | --- |
 | None | `0` | No se aplica protección (valor por defecto) |
 | All | `1` | El usuario no puede modificar nada en la hoja de trabajo |
-| Contents | `2` | El usuario no puede ingresar datos en la hoja de trabajo |
+| Contents | `2` | El usuario no puede ingresar datos en la hoja de cálculo |
 | Objects | `3` | El usuario no puede modificar los objetos de dibujo |
 | Scenarios | `4` | El usuario no puede modificar los escenarios guardados |
 | Structure | `5` | El usuario no puede modificar la estructura |

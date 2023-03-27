@@ -3,14 +3,14 @@ title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Serialization ad alanı HTML ve CSS biçimlendirme serileştirme işleminin ayarlanmasından sorumlu olan türler sağlar.
 type: docs
-weight: 110
+weight: 130
 url: /tr/net/groupdocs.editor.htmlcss.serialization/
 ---
 GroupDocs.Editor.HtmlCss.Serialization ad alanı, HTML ve CSS biçimlendirme serileştirme işleminin ayarlanmasından sorumlu olan türler sağlar.
 
-## numaralandırma
+## Yapılar
 
-| numaralandırma | Tanım |
+| Yapı | Tanım |
 | --- | --- |
 | [QuoteType](./quotetype) | Alıntı karakterlerini temsil eder - tek tırnak (') ve çift tırnak (") |
 

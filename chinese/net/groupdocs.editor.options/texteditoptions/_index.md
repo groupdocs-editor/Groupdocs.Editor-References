@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许指定用于加载纯文本 TXT 文档的自定义选项
 type: docs
-weight: 930
+weight: 1140
 url: /zh/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class
@@ -24,12 +24,12 @@ public class TextEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Direction](../../groupdocs.editor.options/texteditoptions/direction) { get; set; } | 允许指定输入纯文本文档中文本流的方向。默认情况下是从左到右。 |
-| [EnablePagination](../../groupdocs.editor.options/texteditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（假）。 |
-| [Encoding](../../groupdocs.editor.options/texteditoptions/encoding) { get; set; } | 文本文档的字符编码，将应用于其开头 |
-| [LeadingSpaces](../../groupdocs.editor.options/texteditoptions/leadingspaces) { get; set; } | 获取或设置前导空间处理的首选选项。默认情况下将前导空格转换为左缩进。 |
-| [RecognizeLists](../../groupdocs.editor.options/texteditoptions/recognizelists) { get; set; } | 允许指定从纯文本格式导入文档时如何识别编号列表项。默认值为真。 |
-| [TrailingSpaces](../../groupdocs.editor.options/texteditoptions/trailingspaces) { get; set; } | 获取或设置尾随空格处理的首选选项。默认情况下会截断所有尾随空格。 |
+| [Direction](../../groupdocs.editor.options/texteditoptions/direction) { get; set; } | 允许指定输入纯文本文档中文本流的方向。默认情况下是从左到右. |
+| [EnablePagination](../../groupdocs.editor.options/texteditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用 (false). |
+| [Encoding](../../groupdocs.editor.options/texteditoptions/encoding) { get; set; } | 文本文档的字符编码，将应用于其 opening |
+| [LeadingSpaces](../../groupdocs.editor.options/texteditoptions/leadingspaces) { get; set; } | 获取或设置前导空格处理的首选选项。默认情况下将前导空格转换为左缩进。 |
+| [RecognizeLists](../../groupdocs.editor.options/texteditoptions/recognizelists) { get; set; } | 允许指定从纯文本格式导入文档时如何识别编号列表项。默认值为 true. |
+| [TrailingSpaces](../../groupdocs.editor.options/texteditoptions/trailingspaces) { get; set; } | 获取或设置尾随空格处理的首选选项。默认情况下截断所有尾随空格。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AllPages
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示文档的所有现有页面默认值
+description: 表示文档的所有现有页面默认值.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/pagerange/allpages/
 ---
 ## PageRange.AllPages field
 
-表示文档的所有现有页面。默认值。
+表示文档的所有现有页面。默认值.
 
 ```csharp
 public static readonly PageRange AllPages;

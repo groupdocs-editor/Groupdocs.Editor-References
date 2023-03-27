@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许在生成的 HTML 文档中启用 true 或禁用 false 分页默认情况下禁用假
+description: 允许在生成的 HTML 文档中启用 true 或禁用 false 分页默认情况下禁用 false.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.options/fixedlayouteditoptionsbase/enablepagination/
 ---
 ## FixedLayoutEditOptionsBase.EnablePagination property
 
-允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用（假）。
+允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用 (false).
 
 ```csharp
 public bool EnablePagination { get; set; }
@@ -16,7 +16,7 @@ public bool EnablePagination { get; set; }
 
 ### 评论
 
-固定版式格式的文档（尤其是 PDF 和 XPS）本质上是严格分页的，其内容具有固定的版式并分页。但是生成的可编辑 HTML 可以在无页视图或分页视图中表示。
+固定布局格式文档（尤其是PDF和XPS）本质上是严格分页的，其内容具有固定布局并分页。但是生成的可编辑 HTML 可以在无页视图或分页视图中表示。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية خاطئة مما يعني أن محتوى الصف الفارغ سيكون فارغًا.
+description: يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية هيخطأ شنيع مما يعني أن محتوى الصف الفارغ سيكون فارغًا.
 type: docs
 weight: 30
 url: /ar/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية خاطئة مما يعني أن محتوى الصف الفارغ سيكون فارغًا.
+يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية هي`خطأ شنيع` مما يعني أن محتوى الصف الفارغ سيكون فارغًا.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

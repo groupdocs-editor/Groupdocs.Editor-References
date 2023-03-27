@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Interfaccia per tutte le opzioni di salvataggio per tutti i tipi di documenti. Dichiara nessun membro.
 type: docs
-weight: 780
+weight: 940
 url: /it/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

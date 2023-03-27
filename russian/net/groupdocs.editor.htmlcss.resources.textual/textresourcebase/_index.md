@@ -3,7 +3,7 @@ title: TextResourceBase
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Базовый класс для любого поддерживаемого текстового ресурса с текстовым содержимым и кодировкой
 type: docs
-weight: 490
+weight: 640
 url: /ru/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/
 ---
 ## TextResourceBase class

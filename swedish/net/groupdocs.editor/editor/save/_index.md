@@ -16,7 +16,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version av indatadokumentet, som redigerades i WYSIWYG HTML-editor och lagras som instans av '[`EditableDocument`](../../editabledocument)klass, som bör konverteras till utdatadokument av något specifikt format. Får inte vara null eller kasseras. |
+| inputDocument | EditableDocument | Version av indatadokumentet, som redigerades i WYSIWYG HTML-editor och lagras som instans av '[`EditableDocument`](../../editabledocument) klass, som bör konverteras till utdatadokument av något specifikt format. Får inte vara null eller kasseras. |
 | outputDocument | Stream | Utdataflöde, där innehållet i det resulterande dokumentet kommer att registreras. Får inte vara null, kasserad, måste stödja skrivning. |
 | saveOptions | ISaveOptions | Alternativ för att spara dokument, som definierar formatet för det resulterande dokumentet, och även allmänna och formatspecifika sparalternativ. Får inte vara null. |
 
@@ -46,7 +46,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| inputDocument | EditableDocument | Version av indatadokumentet, som redigerades i WYSIWYG HTML-editor och lagras som instans av '[`EditableDocument`](../../editabledocument)klass, som bör konverteras till utdatadokument av något specifikt format. Får inte vara null eller kasseras. |
+| inputDocument | EditableDocument | Version av indatadokumentet, som redigerades i WYSIWYG HTML-editor och lagras som instans av '[`EditableDocument`](../../editabledocument) klass, som bör konverteras till utdatadokument av något specifikt format. Får inte vara null eller kasseras. |
 | filePath | String | Sökväg till filen där utdatadokumentet kommer att sparas. Filen med samma namn finns, den kommer att skrivas om helt. Sträng med sökväg får inte vara null, tom eller endast innehålla blanksteg. |
 | saveOptions | ISaveOptions | Alternativ för att spara dokument, som definierar formatet för det resulterande dokumentet, och även allmänna och formatspecifika sparalternativ. Får inte vara null. |
 

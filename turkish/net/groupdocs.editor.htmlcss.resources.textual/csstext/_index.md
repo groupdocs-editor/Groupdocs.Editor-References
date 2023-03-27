@@ -3,7 +3,7 @@ title: CssText
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bir CSS metin kaynağını temsil eder
 type: docs
-weight: 480
+weight: 630
 url: /tr/net/groupdocs.editor.htmlcss.resources.textual/csstext/
 ---
 ## CssText class

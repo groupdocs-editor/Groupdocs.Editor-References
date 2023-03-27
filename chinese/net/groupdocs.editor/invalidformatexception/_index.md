@@ -1,14 +1,14 @@
 ---
 title: InvalidFormatException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 当用户尝试使用与原始文档格式不兼容的特定格式选项打开某些文档时引发的异常
+description: 当用户尝试使用与原始文档格式不兼容的格式特定选项打开某些文档时引发的异常
 type: docs
-weight: 540
+weight: 690
 url: /zh/net/groupdocs.editor/invalidformatexception/
 ---
 ## InvalidFormatException class
 
-当用户尝试使用与原始文档格式不兼容的特定格式选项打开某些文档时引发的异常。
+当用户尝试使用与原始文档格式不兼容的格式特定选项打开某些文档时引发的异常。
 
 ```csharp
 public sealed class InvalidFormatException : Exception
@@ -16,7 +16,7 @@ public sealed class InvalidFormatException : Exception
 
 ### 评论
 
-例如，如果尝试使用 WordProcessing 文档选项打开电子表格文档，则会引发此异常。
+例如，如果尝试使用 WordProcessing 文档选项打开电子表格文档，则会抛出此异常。
 
 ### 也可以看看
 

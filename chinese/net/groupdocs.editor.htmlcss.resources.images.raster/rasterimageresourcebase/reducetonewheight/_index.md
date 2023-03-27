@@ -20,7 +20,7 @@ public RasterImageResourceBase ReduceToNewHeight(ushort targetHeightInPixels)
 
 ### 返回值
 
-具有指定高度的新实例，即 RasterImageResourceBase 的继承者
+指定高度的新实例，即 RasterImageResourceBase 的继承者
 
 ### 也可以看看
 

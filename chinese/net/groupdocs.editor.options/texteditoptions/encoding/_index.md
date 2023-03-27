@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 文本文档的字符编码将应用于其开头
+description: 文本文档的字符编码将应用于其 opening
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/texteditoptions/encoding/
 ---
 ## TextEditOptions.Encoding property
 
-文本文档的字符编码，将应用于其开头
+文本文档的字符编码，将应用于其 opening
 
 ```csharp
 public Encoding Encoding { get; set; }

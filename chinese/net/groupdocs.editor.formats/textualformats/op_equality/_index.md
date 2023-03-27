@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查两个给定的 TextualFormats 实例是否相等
+description: 在 equality 上检查两个给定的 TextualFormats 实例
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor.formats/textualformats/op_equality/
 ---
 ## TextualFormats Equality operator
 
-检查两个给定的 TextualFormats 实例是否相等
+在 equality 上检查两个给定的 TextualFormats 实例
 
 ```csharp
 public static bool operator ==(TextualFormats first, TextualFormats second)
@@ -16,7 +16,7 @@ public static bool operator ==(TextualFormats first, TextualFormats second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | TextualFormats | 第一个要检查的 TextualFormats 实例 |
+| first | TextualFormats | 要检查的第一个 TextualFormats 实例 |
 | second | TextualFormats | 要检查的第二个 TextualFormats 实例 |
 
 ### 返回值

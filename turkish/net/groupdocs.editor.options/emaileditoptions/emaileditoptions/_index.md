@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-Yeni bir örneğini başlatır.[`EmailEditOptions`](../../emaileditoptions) ile sınıf[`MailMessageOutput`](../mailmessageoutput) parametre
+Yeni bir örneğini başlatır.[`EmailEditOptions`](../../emaileditoptions) ile sınıf[`MailMessageOutput`](../mailmessageoutput)parametre
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

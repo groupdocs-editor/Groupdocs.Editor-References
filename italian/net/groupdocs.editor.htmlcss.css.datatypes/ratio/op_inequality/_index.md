@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Confronta due rapporti e restituisce un valore booleano che indica se i due non corrispondono.
 type: docs
-weight: 140
+weight: 130
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_inequality/
 ---
 ## Ratio Inequality operator

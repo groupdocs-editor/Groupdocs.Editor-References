@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: GroupDocs.Editor for .NET API 参考
-description: 从指定的 WordProcessingFormats 实例的基础字段返回一个字节值
+description: 从指定 WordProcessingFormats instance 的基础字段返回一个字节值
 type: docs
 weight: 210
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats/op_explicit/
 ---
 ## explicit operator {#op_explicit}
 
-从指定的 WordProcessingFormats 实例的基础字段返回一个字节值
+从指定 WordProcessingFormats instance 的基础字段返回一个字节值
 
 ```csharp
 public static explicit operator byte(WordProcessingFormats input)
@@ -28,7 +28,7 @@ public static explicit operator byte(WordProcessingFormats input)
 
 ## explicit operator {#op_explicit_1}
 
-将指定的原始字节值转换为有效的 WordProcessingFormats 实例并返回它或引发异常，指定值无效
+将指定的原始字节值转换为有效的 WordProcessingFormats 实例并返回它或抛出异常，指定的值是 invalid
 
 ```csharp
 public static explicit operator WordProcessingFormats(byte raw)

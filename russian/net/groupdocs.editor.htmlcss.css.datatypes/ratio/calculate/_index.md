@@ -3,7 +3,7 @@ title: Calculate
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Вычисляет и возвращает это отношение как одно число с плавающей запятой
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

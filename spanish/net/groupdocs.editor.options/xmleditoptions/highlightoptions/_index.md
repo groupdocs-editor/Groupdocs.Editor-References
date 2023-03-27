@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Permite ajustar el resaltado que se aplicará a la estructura XML cuando se represente en HTML. Por defecto es NULL  se aplica el resaltado predeterminado.
+description: Permite ajustar el resaltado XML que se aplicará a la estructura XML cuando se represente en HTML. Se utiliza el resaltado predeterminado y es ajustable. No puede ser nulo.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Permite ajustar el resaltado, que se aplicará a la estructura XML, cuando se represente en HTML. Por defecto es NULL — se aplica el resaltado predeterminado.
+Permite ajustar el resaltado XML, que se aplicará a la estructura XML, cuando se represente en HTML. Se utiliza el resaltado predeterminado y es ajustable. No puede ser nulo.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Ver también

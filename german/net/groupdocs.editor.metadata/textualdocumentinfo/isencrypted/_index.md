@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt immer false zurück da Textdokumente nicht verschlüsselt werden können.
+description: gibt immer  zurückFALSCH  da Textdokumente nicht verschlüsselt werden können
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-Gibt immer 'false' zurück, da Textdokumente nicht verschlüsselt werden können.
+gibt immer ` zurück`FALSCH` `, da Textdokumente nicht verschlüsselt werden können
 
 ```csharp
 public bool IsEncrypted { get; }

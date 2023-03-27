@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Exceptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: GroupDocs.Editor.HtmlCss.Exceptions ad alanı tüm HTML CSS resimler yazı tipleri ve diğer kaynakla ilgili işlemlerden sorumlu sınıflar sağlar.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/groupdocs.editor.htmlcss.exceptions/
 ---
 GroupDocs.Editor.HtmlCss.Exceptions ad alanı, tüm HTML-, CSS-, resimler-, yazı tipleri- ve diğer kaynakla ilgili işlemlerden sorumlu sınıflar sağlar.

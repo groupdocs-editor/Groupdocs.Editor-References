@@ -3,7 +3,7 @@ title: IResourceType
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示未知资源类型/格式图像字体文本的一个实例
 type: docs
-weight: 350
+weight: 450
 url: /zh/net/groupdocs.editor.htmlcss.resources/iresourcetype/
 ---
 ## IResourceType interface

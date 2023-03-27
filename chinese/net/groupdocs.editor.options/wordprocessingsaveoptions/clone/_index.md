@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建并返回此 WordProcessingSaveOptions 类实例的完整副本
+description: 创建并返回此 WordProcessingSaveOptions class 实例的完整副本
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/clone/
 ---
 ## WordProcessingSaveOptions.Clone method
 
-创建并返回此 WordProcessingSaveOptions 类实例的完整副本
+创建并返回此 WordProcessingSaveOptions class 实例的完整副本
 
 ```csharp
 public WordProcessingSaveOptions Clone()

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярTextualFormatsgroupdocs.editor.formats/textualformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярTextualFormatsgroupdocs.editor.formats/textualformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 80
 url: /ru/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Возвращает экземпляр[`TextualFormats`](../../textualformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`TextualFormats`](../../textualformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

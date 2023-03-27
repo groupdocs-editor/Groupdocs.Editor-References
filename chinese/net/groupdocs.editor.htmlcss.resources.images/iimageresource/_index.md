@@ -3,7 +3,7 @@ title: IImageResource
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示任何类型的图像资源光栅或矢量
 type: docs
-weight: 380
+weight: 480
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/iimageresource/
 ---
 ## IImageResource interface
@@ -18,9 +18,9 @@ public interface IImageResource : IHtmlResource, IImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../groupdocs.editor.htmlcss.resources.images/iimageresource/aspectratio) { get; } | 在实现类型时，无论其类型如何，都应返回特定图像的纵横比。 矢量和光栅图像在其宽度和高度之间都有固有的纵横比。 |
-| [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images/iimageresource/lineardimensions) { get; } | 在实现类型中应该返回图像的线性尺寸。对于光栅图像，它们是以像素为单位的固有尺寸。 对应的矢量图像没有固定尺寸，但它们的元数据可以包含不同测量单位的一些基本尺寸。 |
-| [Type](../../groupdocs.editor.htmlcss.resources.images/iimageresource/type) { get; } | 在实现type时应该返回一个特定图像的类型作为特定ImageType的一个实例，它封装了所有类型特定的info |
+| [AspectRatio](../../groupdocs.editor.htmlcss.resources.images/iimageresource/aspectratio) { get; } | 在实现类型时，无论其类型如何，都应返回特定图像的纵横比。 矢量图像和光栅图像都具有宽度和高度之间的固有纵横比。 |
+| [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images/iimageresource/lineardimensions) { get; } | 在实现类型中应返回图像的线性尺寸。对于光栅图像，它们是以像素为单位的固有尺寸。 对应的矢量图像没有固定尺寸，但它们的元数据可以包含不同测量单位的一些基本尺寸。 |
+| [Type](../../groupdocs.editor.htmlcss.resources.images/iimageresource/type) { get; } | 在实现类型时应该返回一个特定图像的类型作为特定ImageType的实例，它封装了所有特定类型的信息 |
 
 ### 评论
 

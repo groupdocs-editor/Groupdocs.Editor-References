@@ -1,14 +1,14 @@
 ---
 title: ToPixel
 second_title: GroupDocs.Editor for .NET API 参考
-description: 如果可能将长度转换为像素数如果 当前单位是相对的则会抛出异常
+description: 如果可能将长度转换为像素数如果 当前单位是相对的那么会抛出异常
 type: docs
-weight: 250
+weight: 240
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/topixel/
 ---
 ## Length.ToPixel method
 
-如果可能，将长度转换为像素数。如果 当前单位是相对的，则会抛出异常。
+如果可能，将长度转换为像素数。如果 当前单位是相对的，那么会抛出异常。
 
 ```csharp
 public float ToPixel()

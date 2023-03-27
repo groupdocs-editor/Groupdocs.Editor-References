@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält Optionen mit denen die XMLHervorhebung während der XMLzuHTMLKonvertierung angepasst werden kann
 type: docs
-weight: 1050
+weight: 1290
 url: /de/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ Enthält Optionen, mit denen die XML-Hervorhebung während der XML-zu-HTML-Konve
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Konstrukteure
-
-| Name | Beschreibung |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Default_Constructor |
-
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Definiert die Farbe für die Schriftart von Attributnamen |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart von Attributnamen |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Definiert Farbe für die Schriftart von Attributwerten |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart von Attributwerten |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Definiert die Farbe für die Schriftart von CDATA-Abschnitten (einschließlich Paar öffnender und schließender Tags) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart von CDATA-Abschnitten (einschließlich Paar öffnender und schließender Tags) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Definiert die Farbe für die Schriftart von HTML-Kommentaren (einschließlich Paar öffnender und schließender Tags) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart von HTML-Kommentaren (einschließlich Paar öffnender und schließender Tags) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Definiert die Farbe für die Schriftart des inneren Tags text |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart des inneren Tags text |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Definiert Farbe für die Schriftart von XML-Tags (spitze Klammern bei Tag-Namen) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Verantwortlich für die Darstellung der Schriftart von XML-Tags (spitze Klammern mit Tag-Namen) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart von Attributnamen |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart von Attributwerten |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart von CDATA-Abschnitten (einschließlich Paar öffnender und schließender Tags) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart von HTML-Kommentaren (einschließlich Paar öffnender und schließender Tags) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart des inneren Tags text |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Legt fest, ob dieses XML-Highlight-Optionsobjekt eine Standardschrift hat settings |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Verantwortlich für die Darstellung der Schriftart von XML-Tags (spitze Klammern mit Tag-Namen) |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Setzt die aktuellen Schriftarteinstellungen auf ihre Standardwerte zurück |
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: FontResourceBase
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الفئة الأساسية لأي نوع خط مدعوم كمورد لمستند HTML بكل خصائصه
 type: docs
-weight: 270
+weight: 370
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/
 ---
 ## FontResourceBase class

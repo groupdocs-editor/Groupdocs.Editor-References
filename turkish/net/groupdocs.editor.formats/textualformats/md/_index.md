@@ -1,14 +1,14 @@
 ---
 title: Md
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Markdown düz metin düzenleyici kullanarak biçimlendirilmiş metin oluşturmak için hafif bir biçimlendirme dilidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/wordprocessing/md/ .
+description: Markdown düz metin düzenleyici kullanarak biçimlendirilmiş metin oluşturmak için hafif bir biçimlendirme dilidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/wordprocessing/md/ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/textualformats/md/
 ---
 ## TextualFormats.Md field
 
-Markdown, düz metin düzenleyici kullanarak biçimlendirilmiş metin oluşturmak için hafif bir biçimlendirme dilidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/word-processing/md/) .
+Markdown, düz metin düzenleyici kullanarak biçimlendirilmiş metin oluşturmak için hafif bir biçimlendirme dilidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/word-processing/md/) .
 
 ```csharp
 public static readonly TextualFormats Md;

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定自定义选项以编辑所有可支持的文字处理Wordscompliant格式的文档如 DOCXRTFODT 等
+description: 允许指定自定义选项来编辑所有支持的 WordProcessing符合 Words 标准格式的文档如 DOCXRTFODT 等
 type: docs
-weight: 970
+weight: 1200
 url: /zh/net/groupdocs.editor.options/wordprocessingeditoptions/
 ---
 ## WordProcessingEditOptions class
 
-允许指定自定义选项以编辑所有可支持的文字处理（Words-compliant）格式的文档，如 DOC(X)、RTF、ODT 等。
+允许指定自定义选项来编辑所有支持的 WordProcessing（符合 Words 标准）格式的文档，如 DOC(X)、RTF、ODT 等。
 
 ```csharp
 public class WordProcessingEditOptions : IEditOptions
@@ -25,11 +25,11 @@ public class WordProcessingEditOptions : IEditOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/wordprocessingeditoptions/enablelanguageinformation) { get; set; } | 指定语言信息是否以“lang” HTML 属性的形式导出到 HTML 标记。 此选项可能对多语言文档的往返转换很有用。默认情况下它被禁用（假）。 |
-| [EnablePagination](../../groupdocs.editor.options/wordprocessingeditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（假）。 |
+| [EnableLanguageInformation](../../groupdocs.editor.options/wordprocessingeditoptions/enablelanguageinformation) { get; set; } | 指定语言信息是否以“lang”HTML 属性的形式导出到 HTML 标记。 此选项可能对多语言文档的往返转换很有用。默认情况下它是禁用的 (false). |
+| [EnablePagination](../../groupdocs.editor.options/wordprocessingeditoptions/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用 (false). |
 | [ExtractOnlyUsedFont](../../groupdocs.editor.options/wordprocessingeditoptions/extractonlyusedfont) { get; set; } | 获取或设置一个值，该值指示是否仅提取文档文本内容中使用的字体资源。 |
-| [FontExtraction](../../groupdocs.editor.options/wordprocessingeditoptions/fontextraction) { get; set; } | 负责提取字体资源，在输入的WordProcessing文档中使用。默认情况下不提取任何字体 (NotExtract). |
-| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | 允许指定一个类名，该类名将放置在每个 HTML 元素中的“类”属性中，表示输入字处理文档中的某些字段。默认情况下为 NULL - 不应用“类”属性。 |
+| [FontExtraction](../../groupdocs.editor.options/wordprocessingeditoptions/fontextraction) { get; set; } | 负责提取字体资源，这些资源在输入的 WordProcessing 文档中使用。默认情况下不提取任何字体 (NotExtract). |
+| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | 允许指定一个类名，该类名将被放置到每个 HTML 元素中的“类”属性中，表示输入 WordProcessing 文档中的某个字段。默认情况下为 NULL - 不应用“类”属性。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: ToPixel
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تحويل الطول إلى عدد من البكسل  إن أمكن. إذا كانت الوحدة الحالية نسبية  فسيتم طرح استثناء.
 type: docs
-weight: 250
+weight: 240
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/topixel/
 ---
 ## Length.ToPixel method

@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد الخيارات المخصصة وتعديلها لتحرير مستندات الكتاب الإلكتروني بجميع التنسيقات المدعومة ePub و MOBI و AZW3.
 type: docs
-weight: 690
+weight: 840
 url: /ar/net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class
@@ -25,8 +25,8 @@ public sealed class EbookEditOptions : IEditOptions
 
 | اسم | وصف |
 | --- | --- |
-| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML "lang" . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا، يتم تعطيله (`خاطئة` ) . |
-| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | يسمح بتمكين أو تعطيل ترقيم الصفحات في مستند HTML الناتج. افتراضيا معطل (`خاطئة` ) . |
+| [EnableLanguageInformation](../../groupdocs.editor.options/ebookeditoptions/enablelanguageinformation) { get; set; } | يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML "lang" . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا، يتم تعطيله (`خطأ شنيع` . |
+| [EnablePagination](../../groupdocs.editor.options/ebookeditoptions/enablepagination) { get; set; } | يسمح بتمكين أو تعطيل ترقيم الصفحات في مستند HTML الناتج. افتراضيا معطل (`خطأ شنيع` . |
 
 ### ملاحظات
 

@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مقارنة بين نسبتين وإرجاع قيمة منطقية للإشارة إلى ما إذا كانت هاتان النقطتان متطابقتان.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/op_equality/
 ---
 ## Ratio Equality operator

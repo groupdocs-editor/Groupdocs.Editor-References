@@ -3,7 +3,7 @@ title: WoffFont
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente une police au format WOFF Web Open Font Format
 type: docs
-weight: 320
+weight: 420
 url: /fr/net/groupdocs.editor.htmlcss.resources.fonts/wofffont/
 ---
 ## WoffFont class

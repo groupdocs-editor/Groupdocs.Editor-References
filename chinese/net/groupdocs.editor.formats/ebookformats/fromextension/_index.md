@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回实例EBookFormatsgroupdocs.editor.formats/ebookformats结构关联到指定的文件扩展名或者如果扩展名无法正确解析则抛出异常
+description: 返回实例EBookFormatsgroupdocs.editor.formats/ebookformats结构与指定的文件扩展名相关联或者如果无法正确解析扩展名则抛出异常
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-返回实例[`EBookFormats`](../../ebookformats)结构，关联到指定的文件扩展名，或者如果扩展名无法正确解析，则抛出异常
+返回实例[`EBookFormats`](../../ebookformats)结构，与指定的文件扩展名相关联，或者如果无法正确解析扩展名则抛出异常
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -16,11 +16,11 @@ public static EBookFormats FromExtension(string extension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| extension | String | 任何可支持的电子书格式的文件扩展名，带或不带前导点字符，与大小写无关。 不能为 NULL 或空，应该是有效的。 |
+| extension | String | 任何支持的电子书格式的文件扩展名，带或不带前导点字符，大小写无关。 不能为 NULL 或空，应该是有效的。 |
 
 ### 返回值
 
-实例[`EBookFormats`](../../ebookformats)成功时的结构或失败时抛出的异常
+的实例[`EBookFormats`](../../ebookformats)成功时的结构或失败时抛出的异常
 
 ### 也可以看看
 

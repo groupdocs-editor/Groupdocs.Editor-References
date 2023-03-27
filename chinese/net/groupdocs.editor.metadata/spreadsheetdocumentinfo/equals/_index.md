@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的 SpreadsheetDocumentInfo 实例
+description: 判断这个实例是否等于另一个指定的SpreadsheetDocumentInfo instance
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.metadata/spreadsheetdocumentinfo/equals/
 ---
 ## SpreadsheetDocumentInfo.Equals method
 
-确定此实例是否等于其他指定的 SpreadsheetDocumentInfo 实例
+判断这个实例是否等于另一个指定的SpreadsheetDocumentInfo instance
 
 ```csharp
 public bool Equals(SpreadsheetDocumentInfo other)
@@ -16,7 +16,7 @@ public bool Equals(SpreadsheetDocumentInfo other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | SpreadsheetDocumentInfo | 其他 SpreadsheetDocumentInfo 实例，应检查与此是否相等 |
+| other | SpreadsheetDocumentInfo | 其他 SpreadsheetDocumentInfo 实例，应检查是否与此实例相等 |
 
 ### 返回值
 

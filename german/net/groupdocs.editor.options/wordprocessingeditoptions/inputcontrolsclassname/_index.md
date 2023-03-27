@@ -1,14 +1,14 @@
 ---
 title: InputControlsClassName
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Ermöglicht die Angabe eines Klassennamens der in jedem HTMLElement zu den classAttributen hinzugefügt wird das ein Feld im EingabeWordProcessingDokument darstellt. Standardmäßig ist NULL  classAttribute werden nicht angewendet.
+description: Ermöglicht die Angabe eines Klassennamens der in jedem HTMLElement zu den classAttributen hinzugefügt wird das ein Feld im eingegebenen WordProcessingDokument darstellt. Standardmäßig ist NULL  classAttribute werden nicht angewendet.
 type: docs
 weight: 60
 url: /de/net/groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname/
 ---
 ## WordProcessingEditOptions.InputControlsClassName property
 
-Ermöglicht die Angabe eines Klassennamens, der in jedem HTML-Element zu den 'class'-Attributen hinzugefügt wird, das ein Feld im Eingabe-WordProcessing-Dokument darstellt. Standardmäßig ist NULL – „class“-Attribute werden nicht angewendet.
+Ermöglicht die Angabe eines Klassennamens, der in jedem HTML-Element zu den 'class'-Attributen hinzugefügt wird, das ein Feld im eingegebenen WordProcessing-Dokument darstellt. Standardmäßig ist NULL – „class“-Attribute werden nicht angewendet.
 
 ```csharp
 public string InputControlsClassName { get; set; }

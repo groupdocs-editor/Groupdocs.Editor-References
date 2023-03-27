@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Nom | La description |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Renvoie une liste de toutes les ressources existantes : toutes les feuilles de style, les images de HTML et toutes les feuilles de style, fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Renvoie une liste de toutes les ressources existantes : toutes les feuilles de style, images HTML et toutes les feuilles de style, polices, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Renvoie une liste de ressources audio |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Renvoie une liste de ressources CSS |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Permet d'obtenir des ressources de polices externes, qui sont utilisées par ce document HTML |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Permet d'obtenir des ressources d'images externes (images raster), qui sont utilisées par ce document HTML |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Permet d'obtenir des ressources d'images externes (images raster et vectorielles), qui sont utilisées par ce document HTML |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Détermine si ce document modifiable a déjà été supprimé (true) ou non (false) |
 
 ## Méthodes
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Usine statique, qui crée une instance de EditableDocument à partir du balisage HTML spécifié et d'un ensemble de ressources liées correspondantes |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Usine statique, qui crée une instance de EditableDocument à partir d'un balisage HTML spécifié et de ressources, situées dans le dossier, spécifié par le chemin complet |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Supprime cette instance de document modifiable, supprimant son contenu et rendant ses méthodes et propriétés non fonctionnelles |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Renvoie un corps du document HTML (contenu entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Renvoie un corps du document HTML (contenu entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne, où les liens vers les ressources externes contiennent le préfixe spécifié. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Renvoie un corps du document HTML (contenu interne entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Renvoie un corps du document HTML (contenu interne entre les balises BODY d'ouverture et de fermeture sans ces balises) sous forme de chaîne, où les liens vers les ressources externes contiennent le préfixe spécifié. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Renvoie le contenu global du document HTML sous forme de chaîne. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Renvoie le contenu global du document HTML sous forme de chaîne, où les liens vers les ressources externes contiennent le préfixe spécifié. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Renvoie le contenu de toutes les feuilles de style externes sous forme de liste de chaînes, où une chaîne représente une feuille de style. Renvoie une liste vide, s'il n'y a pas de CSS pour ce document. |

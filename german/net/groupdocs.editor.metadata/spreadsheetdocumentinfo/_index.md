@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert Metadaten eines Tabellendokuments
 type: docs
-weight: 620
+weight: 770
 url: /de/net/groupdocs.editor.metadata/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo structure

@@ -16,8 +16,8 @@ public static bool operator !=(TextualFormats first, TextualFormats second)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| first | TextualFormats | Prima istanza TextualFormats da controllare |
-| second | TextualFormats | Seconda istanza TextualFormats da controllare |
+| first | TextualFormats | Prima istanza TextualFormats da verificare |
+| second | TextualFormats | Seconda istanza TextualFormats da verificare |
 
 ### Valore di ritorno
 

@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
 description: 检查两个给定长度的不等式
 type: docs
-weight: 300
+weight: 290
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/op_inequality/
 ---
 ## Length Inequality operator
@@ -16,8 +16,8 @@ public static bool operator !=(Length left, Length right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Length | 左长度操作数。 |
-| right | Length | 正确的长度操作数。 |
+| left | Length | 左边的长度操作数。 |
+| right | Length | 正确长度的操作数。 |
 
 ### 返回值
 

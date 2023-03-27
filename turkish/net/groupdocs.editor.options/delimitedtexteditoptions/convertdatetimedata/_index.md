@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false.
+description: Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılanYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false.
+Metin tabanlı belgedeki dizenin tarih verilerine dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

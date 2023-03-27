@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلEmailFormatsgroupdocs.editor.formats/emailformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلEmailFormatsgroupdocs.editor.formats/emailformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 130
 url: /ar/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-إرجاع مثيل[`EmailFormats`](../../emailformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`EmailFormats`](../../emailformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### قيمة الإرجاع
 
-حالة[`EmailFormats`](../../emailformats) بناء على النجاح أو استثناء عند الفشل
+حالة[`EmailFormats`](../../emailformats)بناء على النجاح أو استثناء عند الفشل
 
 ### أنظر أيضا
 

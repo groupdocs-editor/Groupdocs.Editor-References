@@ -16,7 +16,7 @@ public bool ExtractOnlyUsedFont { get; set; }
 
 ### El valor de la propiedad
 
-`verdadero` si se requiere extraer solo los recursos de fuentes que se utilizan en el contenido de texto del documento; de lo contrario,`falso` . El valor predeterminado es`falso` .
+`verdadero` si se requiere extraer solo los recursos de fuentes que se utilizan en el contenido de texto del documento; de lo contrario,`FALSO` . El valor predeterminado es`FALSO` .
 
 ### Observaciones
 

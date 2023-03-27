@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: XML etiketlerinin yazı tipini temsil etmekten sorumludur etiket adlarına sahip açılı ayraçlar
 type: docs
-weight: 130
+weight: 70
 url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 XML etiketlerinin yazı tipini temsil etmekten sorumludur (etiket adlarına sahip açılı ayraçlar)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Ayrıca bakınız
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * ad alanı [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * toplantı [GroupDocs.Editor](../../../)

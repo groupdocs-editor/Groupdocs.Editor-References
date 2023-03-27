@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Permet de spécifier des options personnalisées pour le chargement de documents en texte brut TXT
 type: docs
-weight: 930
+weight: 1140
 url: /fr/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

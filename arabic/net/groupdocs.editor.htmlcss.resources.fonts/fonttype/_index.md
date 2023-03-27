@@ -3,7 +3,7 @@ title: FontType
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل نوع خط واحد يمكن دعمه
 type: docs
-weight: 280
+weight: 380
 url: /ar/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/
 ---
 ## FontType structure

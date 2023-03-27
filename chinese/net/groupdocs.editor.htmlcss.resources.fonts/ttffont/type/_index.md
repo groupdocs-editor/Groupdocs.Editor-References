@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回字体类型.Ttf
+description: 返回 FontType.Ttf
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/type/
 ---
 ## TtfFont.Type property
 
-返回字体类型.Ttf
+返回 FontType.Ttf
 
 ```csharp
 public override FontType Type { get; }

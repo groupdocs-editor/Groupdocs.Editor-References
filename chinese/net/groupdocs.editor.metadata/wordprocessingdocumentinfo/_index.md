@@ -1,14 +1,14 @@
 ---
 title: WordProcessingDocumentInfo
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一个文字处理文档的元数据
+description: 表示一个 WordProcessing 文档的元数据
 type: docs
-weight: 640
+weight: 790
 url: /zh/net/groupdocs.editor.metadata/wordprocessingdocumentinfo/
 ---
 ## WordProcessingDocumentInfo structure
 
-表示一个文字处理文档的元数据
+表示一个 WordProcessing 文档的元数据
 
 ```csharp
 public struct WordProcessingDocumentInfo : IDocumentInfo, IEquatable<WordProcessingDocumentInfo>
@@ -18,16 +18,16 @@ public struct WordProcessingDocumentInfo : IDocumentInfo, IEquatable<WordProcess
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/format) { get; } | 返回此文字处理文档的格式 |
-| [IsEncrypted](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/isencrypted) { get; } | 确定此特定字处理文档是否已加密并需要密码才能打开 |
+| [Format](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/format) { get; } | 返回此 WordProcessing 文档的格式 |
+| [IsEncrypted](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/isencrypted) { get; } | 确定此特定的 WordProcessing 文档是否已加密并需要密码才能打开 |
 | [PageCount](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/pagecount) { get; } | 返回页数 |
-| [Size](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/size) { get; } | 返回此 WordProcessing 文档的大小（以字节为单位） |
+| [Size](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/size) { get; } | 返回此 WordProcessing 文档的字节大小 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/equals#equals)(WordProcessingDocumentInfo) | 确定此实例是否等于其他指定的 WordProcessingDocumentInfo 实例 |
+| [Equals](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/equals#equals)(WordProcessingDocumentInfo) | 判断这个实例是否等于其他指定的WordProcessingDocumentInfo instance |
 
 ### 也可以看看
 

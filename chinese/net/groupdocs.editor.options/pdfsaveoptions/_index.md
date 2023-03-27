@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许指定用于生成和保存 PDF便携式文档格式文档的自定义选项
 type: docs
-weight: 850
+weight: 1060
 url: /zh/net/groupdocs.editor.options/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -25,9 +25,9 @@ public sealed class PdfSaveOptions : ISaveOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [Compliance](../../groupdocs.editor.options/pdfsaveoptions/compliance) { get; set; } | 指定输出文档的 PDF 标准合规级别。默认为 PdfCompliance.Pdf17. |
-| [FontEmbedding](../../groupdocs.editor.options/pdfsaveoptions/fontembedding) { get; set; } | 负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中。默认情况下不嵌入任何字体（NotEmbed）。 |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/pdfsaveoptions/optimizememoryusage) { get; set; } | 在从 HTML 生成文档期间启用内存优化机制，这会降低性能，以减少内存使用量为代价。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价生成大型文档。 默认为 false （为了更好的性能，禁用了内存优化）. |
-| [Password](../../groupdocs.editor.options/pdfsaveoptions/password) { get; set; } | 密码，将作为用户密码应用于生成的PDF文档，打开时需要。 如果为NULL或为空，则不会对文档应用密码。否则，文档将使用 RC4 加密（密钥长度为 128 位）。 默认为 NULL — 不应用密码。 |
+| [FontEmbedding](../../groupdocs.editor.options/pdfsaveoptions/fontembedding) { get; set; } | 负责将原始文档中使用的字体资源嵌入到生成的 PDF 文档中。默认情况下不嵌入任何字体 (NotEmbed). |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/pdfsaveoptions/optimizememoryusage) { get; set; } | 在从 HTML 生成文档期间启用内存优化机制，这会以减少内存使用为代价降低性能。 将此选项设置为 true 可以显着减少内存消耗，同时以较慢的保存时间为代价生成大型文档。 默认值为 false （为了更好的性能禁用了内存优化）。 |
+| [Password](../../groupdocs.editor.options/pdfsaveoptions/password) { get; set; } | 密码，将作为用户密码应用于生成的 PDF 文档，打开时需要。 如果为 NULL 或为空，则不会将密码应用于文档。否则，文档将使用 RC4（密钥长度为 128 位）加密。 默认为 NULL — 不应用密码。 |
 
 ### 也可以看看
 

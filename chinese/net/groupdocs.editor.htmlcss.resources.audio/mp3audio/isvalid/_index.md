@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查指定流是否是有效的 MP3 内容
+description: 检查指定流是否为有效的 MP3 内容
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid/
 ---
 ## Mp3Audio.IsValid method
 
-检查指定流是否是有效的 MP3 内容
+检查指定流是否为有效的 MP3 内容
 
 ```csharp
 public static bool IsValid(Stream binaryContent)
@@ -16,11 +16,11 @@ public static bool IsValid(Stream binaryContent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| binaryContent | Stream | 字节流，可能包含 MP3 内容 |
+| binaryContent | Stream | 字节流，大概包含 MP3 内容 |
 
 ### 返回值
 
-如果指定的流包含有效的 MP3 内容，则为 true，否则为 false
+如果指定的流包含有效的 MP3 内容则为真，否则为假
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gör det möjligt att ange anpassade alternativ för att generera och spara kalkylark Excelkompatibla dokument
 type: docs
-weight: 910
+weight: 1120
 url: /sv/net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class
@@ -24,7 +24,7 @@ public sealed class SpreadsheetSaveOptions : ISaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [InsertAsNewWorksheet](../../groupdocs.editor.options/spreadsheetsaveoptions/insertasnewworksheet) { get; set; } | Boolesk flagga, som anger om det redigerade kalkylbladet ska ersätta det befintliga kalkylbladet i det ursprungliga kalkylbladet på positionen, specificerad av[`WorksheetNumber`](./worksheetnumber) egenskap, eller så ska det injiceras mellan befintligt kalkylblad och föregående, utan att ersätta dess innehåll. Som standard är false — befintligt kalkylblad kommer att ersättas. Denna egenskap ignoreras, om värdet på[`WorksheetNumber`](./worksheetnumber) egenskapen är inställd på '0'. |
+| [InsertAsNewWorksheet](../../groupdocs.editor.options/spreadsheetsaveoptions/insertasnewworksheet) { get; set; } | Boolesk flagga, som anger om det redigerade kalkylbladet ska ersätta det befintliga kalkylbladet i det ursprungliga kalkylbladet på den position som anges av[`WorksheetNumber`](./worksheetnumber) egenskap, eller så ska det injiceras mellan befintligt kalkylblad och föregående, utan att ersätta dess innehåll. Som standard är false — befintligt kalkylblad kommer att ersättas. Denna egenskap ignoreras, om värdet på[`WorksheetNumber`](./worksheetnumber) egenskapen är inställd på '0'. |
 | [OutputFormat](../../groupdocs.editor.options/spreadsheetsaveoptions/outputformat) { get; set; } | Gör det möjligt att ange ett kalkylarksformat som kommer att användas för att spara dokumentet |
 | [Password](../../groupdocs.editor.options/spreadsheetsaveoptions/password) { get; set; } | Tillåter att ange, ändra, erhålla eller ta bort ett lösenord, som kommer att användas för att koda det genererade kalkylarksdokumentet, om detta dokumentformat stöder lösenordsskydd. Ange NULL eller tom sträng för att ta bort (rensa) lösenordet. |
 | [WorksheetNumber](../../groupdocs.editor.options/spreadsheetsaveoptions/worksheetnumber) { get; set; } | Tillåter att infoga redigerat kalkylblad i en kopia av befintligt kalkylblad istället för att skapa ett nytt kalkylblad för ett kalkylblad (standardbeteende). WorksheetNumber är ett 1-baserat nummer av ett kalkylblad i kalkylbladet, laddat i klassen Editor. Om det är 0 (standardvärde), kommer det nya kalkylarket att skapas med ett enda redigerat kalkylblad. Om det är större eller mindre än noll, och det finns ett giltigt kalkylblad, laddat i klassen Editor, det redigerade kalkylbladet, som representeras av input EditableDocument-instans, kommer att infogas i detta kalkylblad. |

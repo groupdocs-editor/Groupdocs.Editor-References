@@ -3,7 +3,7 @@ title: WordProcessingProtection
 second_title: GroupDocs.Editor for .NET API 参考
 description: 封装 WordProcessing 文档的文档保护选项由 HTML 生成
 type: docs
-weight: 990
+weight: 1220
 url: /zh/net/groupdocs.editor.options/wordprocessingprotection/
 ---
 ## WordProcessingProtection class
@@ -25,8 +25,8 @@ public sealed class WordProcessingProtection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Password](../../groupdocs.editor.options/wordprocessingprotection/password) { get; set; } | 用于保护文档的密码。如果为 null 或空字符串 - 将不会对文档应用保护。 |
-| [ProtectionType](../../groupdocs.editor.options/wordprocessingprotection/protectiontype) { get; set; } | 允许设置文档的保护类型。默认设置为根本不保护文档。 |
+| [Password](../../groupdocs.editor.options/wordprocessingprotection/password) { get; set; } | 用于保护文档的密码。如果为 null 或空字符串 - 保护将不会应用于文档。 |
+| [ProtectionType](../../groupdocs.editor.options/wordprocessingprotection/protectiontype) { get; set; } | 允许设置文档的保护类型。默认设置为完全不保护文档。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: XLSX ODS vb. gibi ikili Elektronik Tablo Hücreler Excel uyumlu belgeleri Editor class içine yüklemek için seçenekler içerir
 type: docs
-weight: 900
+weight: 1110
 url: /tr/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

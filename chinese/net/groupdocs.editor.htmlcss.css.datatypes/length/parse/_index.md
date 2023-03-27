@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: GroupDocs.Editor for .NET API 参考
-description: 解析并返回指定字符串作为长度值包括其数值和单位名称或在失败时抛出异常
+description: 解析并返回指定的字符串作为长度值包括其数值和单位名称或在失败时抛出异常
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/parse/
 ---
 ## Length.Parse method
 
-解析并返回指定字符串作为长度值，包括其数值和单位名称，或在失败时抛出异常
+解析并返回指定的字符串作为长度值，包括其数值和单位名称，或在失败时抛出异常
 
 ```csharp
 public static Length Parse(string input)
@@ -20,7 +20,7 @@ public static Length Parse(string input)
 
 ### 返回值
 
-有效的解析长度实例
+有效解析的 Length 实例
 
 ### 例外
 

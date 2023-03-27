@@ -3,7 +3,7 @@ title: XmlText
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один текстовый ресурс который является XML.
 type: docs
-weight: 510
+weight: 660
 url: /ru/net/groupdocs.editor.htmlcss.resources.textual/xmltext/
 ---
 ## XmlText class

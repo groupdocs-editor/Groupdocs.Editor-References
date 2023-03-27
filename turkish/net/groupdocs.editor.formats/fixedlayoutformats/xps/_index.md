@@ -1,14 +1,14 @@
 ---
 title: Xps
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: XPS dosyası Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer ancak düzen görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/pagedescriptionlanguage/xps/ .
+description: XPS dosyası Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer ancak düzen görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/pagedescriptionlanguage/xps/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.formats/fixedlayoutformats/xps/
 ---
 ## FixedLayoutFormats.Xps field
 
-XPS dosyası, Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer, ancak düzen, görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/page-description-language/xps/) .
+XPS dosyası, Microsoft tarafından oluşturulan XML Kağıt Spesifikasyonlarına dayalı sayfa düzeni dosyalarını temsil eder. EMF dosya biçiminin yerine geliştirilmiştir ve PDF dosya biçimine benzer, ancak düzen, görünüm ve bir belgenin yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/page-description-language/xps/) .
 
 ```csharp
 public static readonly FixedLayoutFormats Xps;

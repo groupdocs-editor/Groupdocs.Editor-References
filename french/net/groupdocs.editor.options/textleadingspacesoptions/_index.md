@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Contient les options disponibles pour la gestion de lespace de tête lors de louverture dun document en texte brut TXT
 type: docs
-weight: 940
+weight: 1150
 url: /fr/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

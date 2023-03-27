@@ -16,7 +16,7 @@ public static Ratio Create(ushort numerator, ushort denominator)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| numerator | UInt16 | Zähler für das Verhältnis. Sollte eine streng positive Ganzzahl sein. |
+| numerator | UInt16 | Zähler für das Verhältnis. Sollte eine streng positive ganze Zahl sein. |
 | denominator | UInt16 | Nenner für das Verhältnis. Sollte eine streng positive ganze Zahl sein. |
 
 ### Rückgabewert

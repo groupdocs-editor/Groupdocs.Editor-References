@@ -3,7 +3,7 @@ title: ResourceTypeDetector
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Kaynak türlerini biçimleri algılamak için yardımcı statik yöntemler
 type: docs
-weight: 470
+weight: 620
 url: /tr/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/
 ---
 ## ResourceTypeDetector class

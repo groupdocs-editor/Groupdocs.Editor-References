@@ -3,7 +3,7 @@ title: EpubSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: IDPF EPUB belgelerini Uluslararası Dijital Yayıncılık Forumu tarafından oluşturulan ekitaplar için açık standart oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 720
+weight: 870
 url: /tr/net/groupdocs.editor.options/epubsaveoptions/
 ---
 ## EpubSaveOptions class
@@ -24,8 +24,8 @@ public sealed class EpubSaveOptions : ISaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`yanlış` . |
-| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-Kitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir |
+| [ExportDocumentProperties](../../groupdocs.editor.options/epubsaveoptions/exportdocumentproperties) { get; set; } | Yerleşik ve özel belge özelliklerinin IDPF EPUB biçiminde dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`YANLIŞ` . |
+| [SplitHeadingLevel](../../groupdocs.editor.options/epubsaveoptions/splitheadinglevel) { get; set; } | ePub dosyasının bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` . olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-Kitabın tüm içeriği ePub. içindeki tek bir pakette birleştirilir |
 
 ### Ayrıca bakınız
 

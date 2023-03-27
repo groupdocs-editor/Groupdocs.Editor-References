@@ -3,7 +3,7 @@ title: CssText
 second_title: GroupDocs.Editor for .NET API 参考
 description: 代表一个 CSS 文本资源
 type: docs
-weight: 480
+weight: 630
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/csstext/
 ---
 ## CssText class
@@ -18,10 +18,10 @@ public sealed class CssText : TextResourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByteContent](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/bytecontent) { get; } | 以原始编码的字节流形式返回此文本资源的内容 |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/bytecontent) { get; } | 以原始编码 的字节流形式返回此文本资源的内容 |
 | [Encoding](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/encoding) { get; } | 返回此文本资源的编码。通常返回 UTF-8. |
-| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/filenamewithextension) { get; } | 返回此文本资源的正确文件名，由名称和扩展名组成 |
-| [IsDisposed](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/isdisposed) { get; } | 判断这个文本资源是否被释放 |
+| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/filenamewithextension) { get; } | 返回此文本资源的正确文件名，包括名称和扩展名 |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/isdisposed) { get; } | 确定是否处理此文本资源 |
 | [Name](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/name) { get; } | 返回此文本资源的名称，不带文件扩展名 |
 | [TextContent](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/textcontent) { get; } | 将此文本资源的内容作为标准字符串返回 |
 | override [Type](../../groupdocs.editor.htmlcss.resources.textual/csstext/type) { get; } | 返回 TextType.Css |
@@ -30,15 +30,15 @@ public sealed class CssText : TextResourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/dispose)() | 处置此文本资源，处置其内容并使大多数方法和属性无效。容忍多次调用。 |
+| [Dispose](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/dispose)() | 处理此文本资源，处理其内容并使大多数方法和属性无效。容忍多次调用. |
 | [Equals](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/equals)(IHtmlResource) | 检查此实例是否具有指定的相等性。 |
-| [Save](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/save)(string) | 将此文本资源保存到指定文件 |
+| [Save](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/save)(string) | 将此文本资源保存到指定的文件 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/disposed) | 事件，当这个文本资源被释放时发生 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.textual/textresourcebase/disposed) | 事件，当此文本资源被释放时发生 |
 
 ### 也可以看看
 

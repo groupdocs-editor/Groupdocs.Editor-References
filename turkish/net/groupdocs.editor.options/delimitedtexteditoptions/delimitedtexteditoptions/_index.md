@@ -18,6 +18,12 @@ public DelimitedTextEditOptions(string separator)
 | --- | --- | --- |
 | separator | String | NULL veya boş olamaz zorunlu ayırıcı (sınırlayıcı) |
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentException | Belirtilen ayırıcı boş veya boş bir dize olduğunda atılır |
+
 ### Ayrıca bakınız
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

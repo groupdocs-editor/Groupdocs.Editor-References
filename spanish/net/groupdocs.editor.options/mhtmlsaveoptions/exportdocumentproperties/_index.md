@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado esfalso .
+description: Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado esFALSO .
 type: docs
 weight: 30
 url: /es/net/groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties/
 ---
 ## MhtmlSaveOptions.ExportDocumentProperties property
 
-Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado es`falso` .
+Especifica si se exportarán las propiedades del documento integradas y personalizadas a MHTML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

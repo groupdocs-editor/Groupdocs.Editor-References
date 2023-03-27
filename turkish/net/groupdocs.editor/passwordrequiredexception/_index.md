@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Kullanıcı bir biçimde parola korumalı şifrelenmiş bir belgeyi açmaya çalıştığında ve bu belgeyi açmak için bir parola sağlamadığında atılan istisna.
 type: docs
-weight: 1080
+weight: 1320
 url: /tr/net/groupdocs.editor/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

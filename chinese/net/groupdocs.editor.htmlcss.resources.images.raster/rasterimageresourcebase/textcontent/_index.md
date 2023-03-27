@@ -1,14 +1,14 @@
 ---
 title: TextContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此光栅图像的内容返回为 base64 编码的字符串
+description: 以 base64 编码的字符串形式返回此光栅图像的内容
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/textcontent/
 ---
 ## RasterImageResourceBase.TextContent property
 
-将此光栅图像的内容返回为 base64 编码的字符串
+以 base64 编码的字符串形式返回此光栅图像的内容
 
 ```csharp
 public string TextContent { get; }

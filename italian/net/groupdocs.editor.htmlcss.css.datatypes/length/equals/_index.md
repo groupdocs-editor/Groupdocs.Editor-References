@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Definisce se questo valore è uguale allaltra lunghezza specificata
 type: docs
-weight: 210
+weight: 200
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/length/equals/
 ---
 ## Equals(Length) {#equals}

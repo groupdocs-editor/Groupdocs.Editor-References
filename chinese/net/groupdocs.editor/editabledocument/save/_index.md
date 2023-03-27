@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此 HTML 文档保存到指定路径上的文件将存储 HTML 标记以及包含资源的随附文件夹
+description: 将此 HTML 文档保存到指定路径上的文件中其中将存储 HTML 标记并保存到带有资源的随附文件夹中
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor/editabledocument/save/
 ---
 ## Save(string) {#save}
 
-将此 HTML 文档保存到指定路径上的文件（将存储 HTML 标记）以及包含资源的随附文件夹。
+将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，并保存到带有资源的随附文件夹中。
 
 ```csharp
 public void Save(string htmlFilePath)
@@ -16,7 +16,7 @@ public void Save(string htmlFilePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlFilePath | String | 将存储 HTML 标记的文件的完整路径。文件将被创建或覆盖（如果存在）。 随附的资源文件夹将在 HTML 文件所在的同一文件夹中创建。 |
+| htmlFilePath | String | 文件的完整路径，其中将存储 HTML 标记。文件将被创建或覆盖（如果存在）。 随附的资源文件夹将在 HTML 文件所在的同一文件夹中创建。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void Save(string htmlFilePath)
 
 ## Save(string, string) {#save_1}
 
-将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，以及包含资源的随附文件夹， 位于指定路径上。
+将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，并保存到包含资源的随附文件夹中， 位于指定路径上。
 
 ```csharp
 public void Save(string htmlFilePath, string resourcesFolderPath)
@@ -36,8 +36,8 @@ public void Save(string htmlFilePath, string resourcesFolderPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlFilePath | String | 将存储 HTML 标记的文件的完整路径。不能为 NULL 或空。 文件将被创建或覆盖（如果存在）。 |
-| resourcesFolderPath | String | 随附文件夹的完整路径，将存储所有相关资源。如果为 NULL 或空，文件夹将自动创建在同一目录中，其中 *.html 文件。如果指定但不存在，将被创建。 |
+| htmlFilePath | String | 文件的完整路径，其中将存储 HTML 标记。不能为 NULL 或空。 文件将被创建或覆盖（如果存在）。 |
+| resourcesFolderPath | String | 随附文件夹的完整路径，其中将存储所有相关资源。如果为 NULL 或为空，将在 *.html 文件所在的同一目录中自动创建文件夹。如果指定但不存在，将被创建。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.Metadata proporciona clases para describir las propiedades básicas del documento según el tipo de documento.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/groupdocs.editor.metadata/
 ---
 El espacio de nombres GroupDocs.Editor.Metadata proporciona clases para describir las propiedades básicas del documento según el tipo de documento.

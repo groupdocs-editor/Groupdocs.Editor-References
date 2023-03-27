@@ -1,14 +1,14 @@
 ---
 title: Xlsb
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Cartella di lavoro binaria di Excel XLSB specifica il formato di file binario di Excel ovvero una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlsb .
+description: Cartella di lavoro binaria di Excel XLSB specifica il formato di file binario di Excel ovvero una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
 weight: 100
 url: /it/net/groupdocs.editor.formats/spreadsheetformats/xlsb/
 ---
 ## SpreadsheetFormats.Xlsb field
 
-Cartella di lavoro binaria di Excel (XLSB) specifica il formato di file binario di Excel, ovvero una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlsb) .
+Cartella di lavoro binaria di Excel (XLSB) specifica il formato di file binario di Excel, ovvero una raccolta di record e strutture che specificano il contenuto della cartella di lavoro di Excel. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlsb) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsb;

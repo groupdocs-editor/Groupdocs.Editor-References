@@ -3,7 +3,7 @@ title: UnitType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Devuelve un tipo de unidad de esta instancia de Longitud.
 type: docs
-weight: 190
+weight: 180
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/unittype/
 ---
 ## Length.UnitType property

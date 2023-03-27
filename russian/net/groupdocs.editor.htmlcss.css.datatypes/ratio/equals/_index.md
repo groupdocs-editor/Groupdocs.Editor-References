@@ -3,7 +3,7 @@ title: Equals
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Определяет равен ли этот экземпляр заданному Отношению instance
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}

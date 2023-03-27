@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Schnittstelle für alle Speicheroptionen für alle Dokumententypen. Erklärt keine Mitglieder.
 type: docs
-weight: 780
+weight: 940
 url: /de/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

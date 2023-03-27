@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor for .NET API 参考
 description: 返回此实例的哈希码在其生命周期内无法更改
 type: docs
-weight: 90
+weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/gethashcode/
 ---
 ## Ratio.GetHashCode method
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-有符号的 4 字节整数，对于此实例是不可变的
+带符号的 4 字节整数，对于此实例是不可变的
 
 ### 也可以看看
 

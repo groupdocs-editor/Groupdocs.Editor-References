@@ -3,7 +3,7 @@ title: Calculate
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Calcule et renvoie ce rapport sous la forme dun seul nombre à virgule flottante
 type: docs
-weight: 60
+weight: 50
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

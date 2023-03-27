@@ -26,7 +26,7 @@ public struct SpreadsheetFormats : IDocumentFormat, IEquatable<SpreadsheetFormat
 
 | Имя | Описание |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Возвращает экземпляр[`SpreadsheetFormats`](../spreadsheetformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
+| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Возвращает экземпляр[`SpreadsheetFormats`](../spreadsheetformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals)(IDocumentFormat) | Определяет, равен ли этот экземпляр другому указанному IDocumentFormat instance |
 | override [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_2)(object) | Определяет, равен ли этот экземпляр другому указанному объекту, который предположительно имеет коробочную форму SpreadsheetFormats |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_1)(SpreadsheetFormats) | Определяет, равен ли этот экземпляр другому указанному SpreadsheetFormats instance |

@@ -1,14 +1,14 @@
 ---
 title: Locale
 second_title: GroupDocs.Editor för .NET API-referens
-description: Tillåter att ställa in åsidosättande standardspråk språk för WordProcessingdokumentet som kommer att tillämpas under skapandet. När inte anges standardvärde kommer MS Word eller annat program att upptäcka eller välja dokumentets locale enligt till sina egna inställningar eller andra faktorer.
+description: Tillåter att ställa in åsidosättande standardspråk språk för WordProcessingdokumentet som kommer att tillämpas under dess skapande. När inte anges standardvärde kommer MS Word eller annat program att upptäcka eller välja dokumentets locale enligt till sina egna inställningar eller andra faktorer.
 type: docs
 weight: 40
 url: /sv/net/groupdocs.editor.options/wordprocessingsaveoptions/locale/
 ---
 ## WordProcessingSaveOptions.Locale property
 
-Tillåter att ställa in åsidosättande standardspråk (språk) för WordProcessing-dokumentet, som kommer att tillämpas under skapandet. När inte anges (standardvärde), kommer MS Word (eller annat program) att upptäcka (eller välja) dokumentets locale enligt till sina egna inställningar eller andra faktorer.
+Tillåter att ställa in åsidosättande standardspråk (språk) för WordProcessing-dokumentet, som kommer att tillämpas under dess skapande. När inte anges (standardvärde), kommer MS Word (eller annat program) att upptäcka (eller välja) dokumentets locale enligt till sina egna inställningar eller andra faktorer.
 
 ```csharp
 public CultureInfo Locale { get; set; }
@@ -16,7 +16,7 @@ public CultureInfo Locale { get; set; }
 
 ### Anmärkningar
 
-Detta alternativ tillämpar tvångsmässigt den angivna lokalen på den övergripande texten i dokumentet. Använd det inte om dokumentet innehåller olika delar av text, som är skrivna på olika språk.
+Det här alternativet tillämpar tvångsmässigt den angivna lokalen på den övergripande texten i dokumentet. Använd det inte om dokumentet innehåller olika delar av text, som är skrivna på olika språk.
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يوفر طرقًا لترخيص المكون. تعرف على المزيد حول الترخيصهناhttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 550
+weight: 700
 url: /ar/net/groupdocs.editor/license/
 ---
 ## License class

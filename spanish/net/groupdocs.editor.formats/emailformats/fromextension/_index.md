@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve instancia deEmailFormatsgroupdocs.editor.formats/emailformatsestructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
+description: Devuelve instancia deEmailFormatsgroupdocs.editor.formats/emailformats estructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
 type: docs
 weight: 130
 url: /es/net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Devuelve instancia de[`EmailFormats`](../../emailformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
+Devuelve instancia de[`EmailFormats`](../../emailformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EmailFormats FromExtension(string extension)
 
 ### Valor_devuelto
 
-En vez de[`EmailFormats`](../../emailformats) estructura en caso de éxito o excepción lanzada en caso de error
+En vez de[`EmailFormats`](../../emailformats)estructura en caso de éxito o excepción lanzada en caso de error
 
 ### Ver también
 

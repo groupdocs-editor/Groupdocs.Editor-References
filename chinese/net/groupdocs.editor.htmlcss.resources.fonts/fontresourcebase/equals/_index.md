@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在引用相等 上使用指定的 HTML 资源检查此实例
+description: 使用指定的 HTML 资源检查此实例引用 equality
 type: docs
 weight: 90
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals/
 ---
 ## Equals(IHtmlResource) {#equals_1}
 
-在引用相等 上使用指定的 HTML 资源检查此实例
+使用指定的 HTML 资源检查此实例引用 equality
 
 ```csharp
 public bool Equals(IHtmlResource other)
@@ -33,7 +33,7 @@ public bool Equals(IHtmlResource other)
 
 ## Equals(FontResourceBase) {#equals}
 
-在引用相等 上使用指定字体资源检查此实例
+在引用 equality 上使用指定的字体资源检查此实例
 
 ```csharp
 public bool Equals(FontResourceBase other)

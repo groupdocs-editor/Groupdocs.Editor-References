@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gemeinsame Schnittstelle für alle DateimetadatenWrapper
 type: docs
-weight: 590
+weight: 740
 url: /de/net/groupdocs.editor.metadata/idocumentinfo/
 ---
 ## IDocumentInfo interface

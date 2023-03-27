@@ -1,14 +1,14 @@
 ---
 title: Oft
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: I file con estensione .oft sono file modello creati utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/email/oft/ .
+description: I file con estensione .oft sono file modello creati utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/email/oft/ .
 type: docs
 weight: 80
 url: /it/net/groupdocs.editor.formats/emailformats/oft/
 ---
 ## EmailFormats.Oft field
 
-I file con estensione .oft sono file modello creati utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/email/oft/) .
+I file con estensione .oft sono file modello creati utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/email/oft/) .
 
 ```csharp
 public static readonly EmailFormats Oft;

@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء مستندات MHTML تغليف MIME لمستندات HTML المجمعة وحفظها
 type: docs
-weight: 800
+weight: 1010
 url: /ar/net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class
@@ -24,9 +24,9 @@ public sealed class MhtmlSaveOptions : ISaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط و CSS) المضمنة في مستندات MHTML. القيمة الافتراضية هي`خاطئة` . |
-| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هي`خاطئة` . |
-| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | تحديد ما إذا كان سيتم تصدير معلومات اللغة إلى MHTML أم لا. القيمة الافتراضية هي`خاطئة` . |
+| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط و CSS) المضمنة في مستندات MHTML. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى MHTML. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | تحديد ما إذا كان سيتم تصدير معلومات اللغة إلى MHTML أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
 
 ### أنظر أيضا
 

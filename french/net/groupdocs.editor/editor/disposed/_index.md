@@ -16,7 +16,7 @@ public event EventHandler Disposed;
 
 ### Remarques
 
-Cette**Disposé** sera déclenché juste après la fin de la suppression de l'instance de l'éditeur.
+Ce**Disposé** sera déclenché juste après la fin de la suppression de l'instance de l'éditeur.
 
 ### Voir également
 

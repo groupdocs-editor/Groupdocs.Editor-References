@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحميل مستندات النص العادي TXT
 type: docs
-weight: 930
+weight: 1140
 url: /ar/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

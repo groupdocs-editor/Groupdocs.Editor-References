@@ -1,14 +1,14 @@
 ---
 title: Xlsm
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Office Open XML Workbook MacroEnabled XLSM è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlsm .
+description: Office Open XML Workbook MacroEnabled XLSM è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
 weight: 110
 url: /it/net/groupdocs.editor.formats/spreadsheetformats/xlsm/
 ---
 ## SpreadsheetFormats.Xlsm field
 
-Office Open XML Workbook Macro-Enabled (XLSM) è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
+Office Open XML Workbook Macro-Enabled (XLSM) è un tipo di file di foglio elettronico che supporta le macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsm;

@@ -16,8 +16,8 @@ public static bool operator ==(FontType first, FontType second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | FontType | 要检查的第一个 FontType |
-| second | FontType | 要检查的第二个 FontType |
+| first | FontType | 要检查的第一个字体类型 |
+| second | FontType | 要检查的第二个字体类型 |
 
 ### 返回值
 

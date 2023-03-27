@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnutrymmet GroupDocs.Editor.Metadata tillhandahåller klasser för att beskriva grundläggande dokumentegenskaper beroende på dokumenttyp.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/groupdocs.editor.metadata/
 ---
 Namnutrymmet GroupDocs.Editor.Metadata tillhandahåller klasser för att beskriva grundläggande dokumentegenskaper beroende på dokumenttyp.

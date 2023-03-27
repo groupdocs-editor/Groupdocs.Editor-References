@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | namn | Beskrivning |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Returnerar en lista över alla befintliga resurser: alla stilmallar, bilder från HTML och alla stilmallar, fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Returnerar en lista över alla befintliga resurser: alla stilmallar, bilder från HTML och alla stilmallar, typsnitt, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Returnerar en lista över ljudresurser |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Returnerar en lista över CSS-resurser |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Tillåter att få externa teckensnittsresurser som används av detta HTML-dokument |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Tillåter att erhålla externa bildresurser (rasterbilder), som används av detta HTML-dokument |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Gör det möjligt att erhålla externa bildresurser (raster- och vektorbilder), som används av detta HTML-dokument |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Bestämmer om detta redigerbara dokument redan var bortskaffat (true) eller inte (false) |
 
 ## Metoder
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Statisk fabrik, som skapar en instans av EditableDocument från specificerad HTML-kod och en uppsättning motsvarande länkade resurser |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Statisk fabrik, som skapar en instans av EditableDocument från en specificerad HTML-uppmärkning och från resurser, som finns i mappen, specificerad av hela path |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Kastar den här redigerbara dokumentinstansen, kasserar dess innehåll och gör att dess metoder och egenskaper inte fungerar |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Returnerar en brödtext i HTML-dokumentet (innehållet mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Returnerar en brödtext i HTML-dokumentet (innehållet mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng, där länkar till de externa resurserna innehåller specificerat prefix. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Returnerar en brödtext i HTML-dokumentet (inre innehåll mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Returnerar en brödtext i HTML-dokumentet (inre innehåll mellan öppnande och avslutande BODY-taggar utan dessa taggar) som en sträng, där länkar till de externa resurserna innehåller specificerat prefix. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Returnerar det övergripande innehållet i HTML-dokumentet som en sträng. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Returnerar det övergripande innehållet i HTML-dokumentet som en sträng, där länkar till de externa resurserna innehåller specificerat prefix. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Returnerar innehållet i alla externa formatmallar som en lista med strängar, där en sträng representerar en formatmall. Returnerar tom lista, om det inte finns någon CSS för detta dokument. |

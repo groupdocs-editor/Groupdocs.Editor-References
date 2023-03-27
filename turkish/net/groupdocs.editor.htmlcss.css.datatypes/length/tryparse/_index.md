@@ -3,7 +3,7 @@ title: TryParse
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Belirtilen bir diziyi sayısal değeri ve birim adı da dahil olmak üzere bir Uzunluk değeri olarak ayrıştırmaya çalışır
 type: docs
-weight: 280
+weight: 270
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method

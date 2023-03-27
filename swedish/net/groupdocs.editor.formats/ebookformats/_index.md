@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Returnerar instans av[`EBookFormats`](../ebookformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | Returnerar instans av[`EBookFormats`](../ebookformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | Avgör om denna instans är lika med den andra angivna EBookFormats-instansen |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | Bestämmer om den här instansen är lika med det andra angivna objektet, det vill säga antagligen av EBookFormats |
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### Anmärkningar
 
-Lär dig mer om Mobi-format[här](https://docs.fileformat.com/ebook/mobi/) om AZW3-format[här](https://docs.fileformat.com/ebook/azw3/) och om ePub-format[här](https://docs.fileformat.com/ebook/epub/) .
+Lär dig mer om Mobi-format[här](https://docs.fileformat.com/ebook/mobi/) , om AZW3-format[här](https://docs.fileformat.com/ebook/azw3/) och om ePub-format[här](https://docs.fileformat.com/ebook/epub/) .
 
 ### Se även
 

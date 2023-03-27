@@ -3,7 +3,7 @@ title: ImageType
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل نوع صورة واحد يمكن دعمه تنسيق  ويدعم كل من التنسيقات النقطية والمتجهية
 type: docs
-weight: 390
+weight: 490
 url: /ar/net/groupdocs.editor.htmlcss.resources.images/imagetype/
 ---
 ## ImageType structure

@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düz metin TXT belgeleri oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 950
+weight: 1160
 url: /tr/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class

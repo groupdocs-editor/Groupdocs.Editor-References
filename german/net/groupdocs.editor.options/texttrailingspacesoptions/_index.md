@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält verfügbare Optionen für die Behandlung von nachgestellten Leerzeichen während des Öffnens von Textdokumenten TXT
 type: docs
-weight: 960
+weight: 1170
 url: /de/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

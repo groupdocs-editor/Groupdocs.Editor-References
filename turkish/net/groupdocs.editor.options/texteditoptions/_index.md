@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düz metin TXT belgelerini yüklemek için özel seçenekleri belirlemeye izin verir
 type: docs
-weight: 930
+weight: 1140
 url: /tr/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

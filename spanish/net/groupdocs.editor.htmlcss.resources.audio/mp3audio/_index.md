@@ -3,7 +3,7 @@ title: Mp3Audio
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa un recurso de audio de formato arbitrario
 type: docs
-weight: 250
+weight: 350
 url: /es/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/
 ---
 ## Mp3Audio class
@@ -39,7 +39,7 @@ public sealed class Mp3Audio : IEquatable<Mp3Audio>, IHtmlResource
 | [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals_1)(IHtmlResource) | Comprueba esta instancia con el recurso HTML especificado en la referencia equal |
 | [Equals](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/equals#equals)(Mp3Audio) | Comprueba esta instancia con el recurso de fuente especificado en la referencia equal |
 | [Save](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/save)(string) | Guarda este recurso MP3 en el archivo especificado |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid)(Stream) | Comprueba si la secuencia especificada es un contenido MP3 válido |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.audio/mp3audio/isvalid)(Stream) | Comprueba si la transmisión especificada es un contenido MP3 válido |
 
 ## Eventos
 

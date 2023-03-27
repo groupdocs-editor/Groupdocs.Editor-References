@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Raster
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Der Namespace GroupDocs.Editor.HtmlCss.Resources.Images.Raster stellt Klassen bereit die nur Rasterbildressourcen darstellen.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/groupdocs.editor.htmlcss.resources.images.raster/
 ---
 Der Namespace GroupDocs.Editor.HtmlCss.Resources.Images.Raster stellt Klassen bereit, die nur Rasterbildressourcen darstellen.

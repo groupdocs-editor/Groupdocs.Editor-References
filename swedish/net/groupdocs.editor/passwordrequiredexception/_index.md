@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Editor för .NET API-referens
 description: Undantaget som skapas när användaren försöker öppna ett lösenordsskyddat krypterat dokument av något format och inte tillhandahåller ett lösenord för att öppna detta dokument.
 type: docs
-weight: 1080
+weight: 1320
 url: /sv/net/groupdocs.editor/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

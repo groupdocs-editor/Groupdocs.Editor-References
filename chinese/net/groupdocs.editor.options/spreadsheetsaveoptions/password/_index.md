@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定修改获取或删除密码该密码将用于对生成的电子表格文档进行编码 如果 tis 文档格式支持密码保护 指定 NULL 或空字符串以删除清除密码
+description: 允许指定修改获取或删除密码该密码将用于对生成的电子表格文档进行编码 如果此文档格式支持密码保护 指定 NULL 或空字符串以删除清除密码
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/spreadsheetsaveoptions/password/
 ---
 ## SpreadsheetSaveOptions.Password property
 
-允许指定、修改、获取或删除密码，该密码将用于对生成的电子表格文档进行编码， 如果 tis 文档格式支持密码保护。 指定 NULL 或空字符串以删除（清除）密码。
+允许指定、修改、获取或删除密码，该密码将用于对生成的电子表格文档进行编码， 如果此文档格式支持密码保护。 指定 NULL 或空字符串以删除（清除）密码。
 
 ```csharp
 public string Password { get; set; }

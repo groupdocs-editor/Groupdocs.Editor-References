@@ -1,14 +1,14 @@
 ---
 title: FromValueWithUnit
 second_title: GroupDocs.Editor for .NET API 参考
-description: 通过指定的浮点数和单位创建并返回 Length 类型的实例
+description: 通过指定的浮点数和 unit 创建并返回 Length 类型的实例
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/fromvaluewithunit/
 ---
 ## FromValueWithUnit(float, Unit) {#fromvaluewithunit_2}
 
-通过指定的浮点数和单位创建并返回 Length 类型的实例
+通过指定的浮点数和 unit 创建并返回 Length 类型的实例
 
 ```csharp
 public static Length FromValueWithUnit(float value, Unit unit)
@@ -34,7 +34,7 @@ Length 类型的新实例
 
 ## FromValueWithUnit(double, Unit) {#fromvaluewithunit}
 
-通过指定的双精度数和单位创建并返回 Length 类型的实例
+通过指定的双精度数和 unit 创建并返回 Length 类型的实例
 
 ```csharp
 public static Length FromValueWithUnit(double value, Unit unit)
@@ -42,7 +42,7 @@ public static Length FromValueWithUnit(double value, Unit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 将转换为浮点数 (FP32) 的任何双 (FP64) 数字 |
+| value | Double | 将转换为浮点数 (FP32) 的任何双精度数 (FP64) |
 | unit | Unit | 任何有效的单位类型 |
 
 ### 返回值
@@ -60,7 +60,7 @@ Length 类型的新实例
 
 ## FromValueWithUnit(int, Unit) {#fromvaluewithunit_1}
 
-通过指定整数和单位创建并返回 Length 类型的实例
+通过指定的整数和 unit 创建并返回 Length 类型的实例
 
 ```csharp
 public static Length FromValueWithUnit(int value, Unit unit)

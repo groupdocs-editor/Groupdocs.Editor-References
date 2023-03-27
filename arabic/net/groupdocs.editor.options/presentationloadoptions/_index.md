@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحميل المستندات لجميع تنسيقات العروض التقديمية التي يمكن دعمها مثل PPT X و PPTM و PPS X وما إلى ذلك.
 type: docs
-weight: 870
+weight: 1080
 url: /ar/net/groupdocs.editor.options/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

@@ -3,7 +3,7 @@ title: UnitType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu Uzunluk örneğinin birim türünü döndürür.
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/unittype/
 ---
 ## Length.UnitType property

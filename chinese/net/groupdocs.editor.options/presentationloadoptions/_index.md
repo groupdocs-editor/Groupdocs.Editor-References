@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定自定义选项以加载所有可支持的演示文稿格式的文档如 PPTXPPTMPPSX 等
+description: 允许指定用于加载所有支持的演示文稿格式如 PPTXPPTMPPSX 等文档的自定义选项
 type: docs
-weight: 870
+weight: 1080
 url: /zh/net/groupdocs.editor.options/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
 
-允许指定自定义选项以加载所有可支持的演示文稿格式的文档，如 PPT(X)、PPTM、PPS(X) 等。
+允许指定用于加载所有支持的演示文稿格式（如 PPT(X)、PPTM、PPS(X) 等）文档的自定义选项
 
 ```csharp
 public class PresentationLoadOptions : ILoadOptions
@@ -24,7 +24,7 @@ public class PresentationLoadOptions : ILoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Password](../../groupdocs.editor.options/presentationloadoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于打开演示文稿文档（如果已编码）。 设置为 NULL 或空字符串以删除密码。 |
+| [Password](../../groupdocs.editor.options/presentationloadoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于打开演示文档（如果已编码）。 设置为 NULL 或空字符串以删除密码。 |
 
 ### 也可以看看
 

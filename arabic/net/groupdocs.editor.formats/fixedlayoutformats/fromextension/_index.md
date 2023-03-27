@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلFixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 30
 url: /ar/net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-إرجاع مثيل[`FixedLayoutFormats`](../../fixedlayoutformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`FixedLayoutFormats`](../../fixedlayoutformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 ### قيمة الإرجاع
 
-حالة[`FixedLayoutFormats`](../../fixedlayoutformats) بناء على النجاح أو استثناء عند الفشل
+حالة[`FixedLayoutFormats`](../../fixedlayoutformats)بناء على النجاح أو استثناء عند الفشل
 
 ### أنظر أيضا
 

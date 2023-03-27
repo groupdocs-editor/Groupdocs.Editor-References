@@ -3,7 +3,7 @@ title: IsPositive
 second_title: GroupDocs.Editor for .NET API 参考
 description: 判断这个长度的数值是否为正数
 type: docs
-weight: 140
+weight: 130
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/ispositive/
 ---
 ## Length.IsPositive property

@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定修改和获取密码该密码将用于打开演示文稿文档如果已编码 设置为 NULL 或空字符串以删除密码
+description: 允许指定修改和获取密码该密码将用于打开演示文档如果已编码 设置为 NULL 或空字符串以删除密码
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/presentationloadoptions/password/
 ---
 ## PresentationLoadOptions.Password property
 
-允许指定、修改和获取密码，该密码将用于打开演示文稿文档（如果已编码）。 设置为 NULL 或空字符串以删除密码。
+允许指定、修改和获取密码，该密码将用于打开演示文档（如果已编码）。 设置为 NULL 或空字符串以删除密码。
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### 评论
 
-默认情况下，此属性具有 NULL 值 - 未设置密码。如果输入的Presentation文档有密码保护，则密码为必填项，如果密码未指定或密码无效将抛出异常。如果输入的演示文档没有密码保护，但设置了密码，它将被忽略。
+默认情况下，此属性具有 NULL 值 — 未设置密码。如果输入的 Presentation 文档受密码保护，则密码是强制性的，如果密码未指定或无效，将抛出异常。如果输入的演示文稿没有密码保护，但设置了密码，它将被忽略。
 
 ### 也可以看看
 

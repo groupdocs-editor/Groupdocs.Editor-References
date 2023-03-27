@@ -3,7 +3,7 @@ title: AttributeNamesFontSettings
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Отвечает за представление шрифта имен атрибутов
 type: docs
-weight: 30
+weight: 10
 url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeNamesFontSettings property
@@ -11,11 +11,12 @@ url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsett
 Отвечает за представление шрифта имен атрибутов
 
 ```csharp
-public Font AttributeNamesFontSettings { get; set; }
+public WebFont AttributeNamesFontSettings { get; }
 ```
 
 ### Смотрите также
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * пространство имен [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * сборка [GroupDocs.Editor](../../../)

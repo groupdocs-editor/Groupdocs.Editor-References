@@ -1,14 +1,14 @@
 ---
 title: Potx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Microsoft Office Açık XML SunumuML Makro İçermeyen Şablon POTX dosyası Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/potx .
+description: Microsoft Office Açık XML SunumuML Makro İçermeyen Şablon POTX dosyası Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/potx .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.editor.formats/presentationformats/potx/
 ---
 ## PresentationFormats.Potx field
 
-Microsoft Office Açık XML SunumuML Makro İçermeyen Şablon (POTX) dosyası, Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/potx) .
+Microsoft Office Açık XML SunumuML Makro İçermeyen Şablon (POTX) dosyası, Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/potx) .
 
 ```csharp
 public static readonly PresentationFormats Potx;

@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Contiene opciones para generar y guardar documentos de hoja de cálculo basados en texto CSV tabulados etc. que utilizan un separador delimitador
 type: docs
-weight: 680
+weight: 830
 url: /es/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Nombre | Descripción |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Permite establecer una codificación para el documento de hoja de cálculo basado en texto. Por defecto (y si no se especifica) es UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indica si se deben generar separadores para filas en blanco. El valor predeterminado es falso, lo que significa que el contenido de la fila en blanco estará vacío. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indica si se deben generar separadores para filas en blanco. El valor predeterminado es`FALSO` lo que significa que el contenido de la fila en blanco estará vacío. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Permite especificar un separador de cadena (delimitador) para documentos de hoja de cálculo basados en texto |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indica si las filas y columnas en blanco iniciales deben recortarse como lo hace MS Excel |
 

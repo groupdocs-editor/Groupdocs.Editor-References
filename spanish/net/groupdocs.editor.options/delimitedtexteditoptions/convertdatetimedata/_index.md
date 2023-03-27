@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Obtiene o establece un valor que indica si la cadena en el documento basado en texto se convierte en datos de fecha. El valor predeterminado es falso.
+description: Obtiene o establece un valor que indica si la cadena en el documento basado en texto se convierte en datos de fecha. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Obtiene o establece un valor que indica si la cadena en el documento basado en texto se convierte en datos de fecha. El valor predeterminado es falso.
+Obtiene o establece un valor que indica si la cadena en el documento basado en texto se convierte en datos de fecha. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

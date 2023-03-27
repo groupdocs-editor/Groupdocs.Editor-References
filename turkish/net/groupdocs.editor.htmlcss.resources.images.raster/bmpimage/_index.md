@@ -3,7 +3,7 @@ title: BmpImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Meta verileri ve ek yöntemleriyle BMP BitMap Resmi biçimindeki bir görüntüyü temsil eder
 type: docs
-weight: 400
+weight: 500
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/bmpimage/
 ---
 ## BmpImage class

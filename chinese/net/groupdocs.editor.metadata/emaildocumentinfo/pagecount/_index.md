@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: GroupDocs.Editor for .NET API 参考
-description: 总是返回 1因为电子邮件文档没有分页视图
+description: 始终返回 1因为电子邮件文档没有分页视图
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.metadata/emaildocumentinfo/pagecount/
 ---
 ## EmailDocumentInfo.PageCount property
 
-总是返回 1，因为电子邮件文档没有分页视图
+始终返回 1，因为电子邮件文档没有分页视图
 
 ```csharp
 public int PageCount { get; }

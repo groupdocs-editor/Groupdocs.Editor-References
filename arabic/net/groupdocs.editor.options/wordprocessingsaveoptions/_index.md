@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات متوافقة مع معالجة Word بعد تحريرها
 type: docs
-weight: 1010
+weight: 1240
 url: /ar/net/groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class

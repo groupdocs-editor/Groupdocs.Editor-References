@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır yanlış .
+description: Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır YANLIŞ.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.options/ebookeditoptions/enablepagination/
 ---
 ## EbookEditOptions.EnablePagination property
 
-Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (`yanlış` ).
+Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (`YANLIŞ`).
 
 ```csharp
 public bool EnablePagination { get; set; }
@@ -16,7 +16,7 @@ public bool EnablePagination { get; set; }
 
 ### Notlar
 
-Özünde, dahili e-kitap biçimlerinin çoğu, içeriğin katı olduğu ve sayfalara değil bölümlere ayrıldığı Office Açık XML gibi bir akış biçimidir. Ancak, sayfa numaraları, dipnotlar, heraders/footer'lar vb. gibi sayfaya özgü bazı bilgiler içerir. Bazı e-kitap okuyucuları, e-kitap içeriğini sayfalara ayırırken diğerleri (özellikle mobil) — bunu yapmaz. Bu seçenek, düzenleme sırasında e-kitap içeriğinin HTML/CSS'de nasıl temsil edilmesi gerektiğini kontrol etmeyi sağlar — float (`yanlış`) veya disk belleğine alınmış (`doğru`) görüş.
+Özünde, dahili e-kitap biçimlerinin çoğu, içeriğin katı olduğu ve sayfalara değil bölümlere ayrıldığı Office Açık XML gibi bir akış biçimidir. Ancak, sayfa numaraları, dipnotlar, heraders/footer'lar vb. gibi sayfaya özgü bazı bilgiler içerir. Bazı e-kitap okuyucuları, e-kitap içeriğini sayfalara ayırırken diğerleri (özellikle mobil) — bunu yapmaz. Bu seçenek, düzenleme sırasında e-kitap içeriğinin HTML/CSS'de nasıl temsil edilmesi gerektiğini kontrol etmeyi sağlar — float (`YANLIŞ`) veya disk belleğine alınmış (`doğru`) görüş.
 
 ### Ayrıca bakınız
 

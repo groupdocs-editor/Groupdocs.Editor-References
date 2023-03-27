@@ -1,14 +1,14 @@
 ---
 title: Fonts
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许获取外部字体资源此HTML文档使用
+description: 允许获取此 HTML 文档使用的外部字体资源
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor/editabledocument/fonts/
 ---
 ## EditableDocument.Fonts property
 
-允许获取外部字体资源，此HTML文档使用
+允许获取此 HTML 文档使用的外部字体资源
 
 ```csharp
 public List<FontResourceBase> Fonts { get; }

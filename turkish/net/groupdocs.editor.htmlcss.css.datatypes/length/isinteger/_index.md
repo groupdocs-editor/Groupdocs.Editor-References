@@ -3,7 +3,7 @@ title: IsInteger
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Bu Uzunluk örneğinin sayısal değerinin başlangıçta bir tamsayı INT32 numarası olarak belirtilip depolanmadığını gösterir
 type: docs
-weight: 120
+weight: 110
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/isinteger/
 ---
 ## Length.IsInteger property

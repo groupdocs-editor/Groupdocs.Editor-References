@@ -1,14 +1,14 @@
 ---
 title: AspectRatio
 second_title: GroupDocs.Editor for .NET API 参考
-description: 此尺寸的纵横比为宽度/高度
+description: 此尺寸的纵横比为 width/height
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/aspectratio/
 ---
 ## Dimensions.AspectRatio property
 
-此尺寸的纵横比为宽度/高度
+此尺寸的纵横比为 width/height
 
 ```csharp
 public Ratio AspectRatio { get; }

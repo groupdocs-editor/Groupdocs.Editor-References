@@ -1,14 +1,14 @@
 ---
 title: Ost
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Die Offlinespeichertabellendatei OST stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/email/ost/ .
+description: Die Offlinespeichertabellendatei OST stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/email/ost/ .
 type: docs
 weight: 90
 url: /de/net/groupdocs.editor.formats/emailformats/ost/
 ---
 ## EmailFormats.Ost field
 
-Die Offlinespeichertabellendatei (OST) stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/email/ost/) .
+Die Offlinespeichertabellendatei (OST) stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/email/ost/) .
 
 ```csharp
 public static readonly EmailFormats Ost;

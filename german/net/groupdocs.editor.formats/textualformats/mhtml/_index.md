@@ -1,14 +1,14 @@
 ---
 title: Mhtml
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Die MIMEKapselung von aggregierten HTMLDokumenten ist ein Archivformat für Webseiten das verwendet wird um den HTMLCode und die zugehörigen Ressourcen in einer einzigen Computerdatei zu kombinieren. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/web/mhtml/ .
+description: Die MIMEKapselung von aggregierten HTMLDokumenten ist ein Archivformat für Webseiten das verwendet wird um den HTMLCode und die zugehörigen Ressourcen in einer einzigen Computerdatei zu kombinieren. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/web/mhtml/ .
 type: docs
 weight: 50
 url: /de/net/groupdocs.editor.formats/textualformats/mhtml/
 ---
 ## TextualFormats.Mhtml field
 
-Die MIME-Kapselung von aggregierten HTML-Dokumenten ist ein Archivformat für Webseiten, das verwendet wird, um den HTML-Code und die zugehörigen Ressourcen in einer einzigen Computerdatei zu kombinieren. Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/web/mhtml/) .
+Die MIME-Kapselung von aggregierten HTML-Dokumenten ist ein Archivformat für Webseiten, das verwendet wird, um den HTML-Code und die zugehörigen Ressourcen in einer einzigen Computerdatei zu kombinieren. Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/web/mhtml/) .
 
 ```csharp
 public static readonly TextualFormats Mhtml;

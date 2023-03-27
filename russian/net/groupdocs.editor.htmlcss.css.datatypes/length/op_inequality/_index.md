@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Проверяет неравенство двух заданных длин.
 type: docs
-weight: 300
+weight: 290
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/op_inequality/
 ---
 ## Length Inequality operator

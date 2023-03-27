@@ -1,14 +1,14 @@
 ---
 title: EnableLanguageInformation
 second_title: GroupDocs.Editor för .NET API-referens
-description: Anger om språkinformation exporteras till HTMLuppmärkningen i form av lang HTMLattribut. Det här alternativet kan vara användbart för rund och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad falsk .
+description: Anger om språkinformation exporteras till HTMLuppmärkningen i form av lang HTMLattribut. Det här alternativet kan vara användbart för rund och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad falsk.
 type: docs
 weight: 20
 url: /sv/net/groupdocs.editor.options/ebookeditoptions/enablelanguageinformation/
 ---
 ## EbookEditOptions.EnableLanguageInformation property
 
-Anger om språkinformation exporteras till HTML-uppmärkningen i form av "lang" HTML-attribut. Det här alternativet kan vara användbart för rund- och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad (`falsk` ).
+Anger om språkinformation exporteras till HTML-uppmärkningen i form av "lang" HTML-attribut. Det här alternativet kan vara användbart för rund- och returkonvertering av flerspråkiga dokument. Som standard är den inaktiverad (`falsk`).
 
 ```csharp
 public bool EnableLanguageInformation { get; set; }

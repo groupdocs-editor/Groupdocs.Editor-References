@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-Initialisiert eine neue Instanz von[`EmailEditOptions`](../../emaileditoptions) Klasse mit[`MailMessageOutput`](../mailmessageoutput) parameter
+Initialisiert eine neue Instanz von[`EmailEditOptions`](../../emaileditoptions) Klasse mit[`MailMessageOutput`](../mailmessageoutput)parameter
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

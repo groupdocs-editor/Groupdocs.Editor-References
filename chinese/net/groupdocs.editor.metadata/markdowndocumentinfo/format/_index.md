@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此 Markdown 文档的格式  始终为Mdgroupdocs.editor.formats/textualformats/md
+description: 返回此 Markdown 文档的格式始终是Mdgroupdocs.editor.formats/textualformats/md
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.metadata/markdowndocumentinfo/format/
 ---
 ## MarkdownDocumentInfo.Format property
 
-返回此 Markdown 文档的格式 - 始终为[`Md`](../../../groupdocs.editor.formats/textualformats/md)
+返回此 Markdown 文档的格式——始终是[`Md`](../../../groupdocs.editor.formats/textualformats/md)
 
 ```csharp
 public TextualFormats Format { get; }

@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет типы защиты электронной таблицы вкладки
 type: docs
-weight: 1030
+weight: 1260
 url: /ru/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

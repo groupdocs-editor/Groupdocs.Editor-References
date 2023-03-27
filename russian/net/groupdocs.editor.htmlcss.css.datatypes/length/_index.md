@@ -3,7 +3,7 @@ title: Length
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет значение длины CSS в любых поддерживаемых единицах включая проценты и безразмерный тип. Значения могут быть целыми или плавающими отрицательными нулевыми и положительными. Неизменяемая структура.
 type: docs
-weight: 190
+weight: 260
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure
@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/
 Представляет значение длины CSS в любых поддерживаемых единицах, включая проценты и безразмерный тип. Значения могут быть целыми или плавающими, отрицательными, нулевыми и положительными. Неизменяемая структура.
 
 ```csharp
-public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
+public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 ```
 
 ## Характеристики
@@ -21,7 +21,6 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | Возвращает числовое значение с плавающей запятой экземпляра Length. Никогда не выдает исключение — при необходимости преобразует целочисленное значение в число с плавающей запятой. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | Возвращает целочисленное числовое значение этого экземпляра Length, если оно внутренне сохранено как целое число, или выдает исключение, если изначально оно было сохранено как число с плавающей запятой. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | Получает, если длина указана в абсолютных единицах. Такая длина может быть преобразована в пиксели. |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | Указывает, имеет ли этот экземпляр Length значение по умолчанию — безразмерный ноль. То же, что и свойство IsUnitlessZero. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | Указывает, было ли числовое значение этого экземпляра Length изначально задано и сохранено как число с плавающей запятой (FP32) |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | Указывает, было ли числовое значение этого экземпляра Length изначально задано и сохранено как целое число (INT32) number |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | Определяет, является ли числовое значение этой длины отрицательным числом |
@@ -52,6 +51,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 | static [TryParse](../../groupdocs.editor.htmlcss.css.datatypes/length/tryparse)(string, out Length) | Пытается проанализировать указанную строку как значение длины, включая ее числовое значение и имя единицы измерения |
 | [operator ==](../../groupdocs.editor.htmlcss.css.datatypes/length/op_equality) | Проверяет равенство двух заданных длин. |
 | [operator !=](../../groupdocs.editor.htmlcss.css.datatypes/length/op_inequality) | Проверяет неравенство двух заданных длин. |
+| [operator *](../../groupdocs.editor.htmlcss.css.datatypes/length/op_multiply) | Умножает заданную длину на заданный factor |
 
 ## Поля
 
@@ -74,6 +74,7 @@ public struct Length : ICloneable, IEquatable<  >, IEquatable<Length>
 
 ### Смотрите также
 
+* interface [ICssDataType](../icssdatatype)
 * пространство имен [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * сборка [GroupDocs.Editor](../../)
 

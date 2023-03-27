@@ -3,7 +3,7 @@ title: HtmlCommentsFontSettings
 second_title: GroupDocs.Editor for .NET API 参考
 description: 负责表示HTML注释的字体包括一对开始和结束标签
 type: docs
-weight: 90
+weight: 40
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings/
 ---
 ## XmlHighlightOptions.HtmlCommentsFontSettings property
@@ -11,11 +11,12 @@ url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettin
 负责表示HTML注释的字体（包括一对开始和结束标签）
 
 ```csharp
-public Font HtmlCommentsFontSettings { get; set; }
+public WebFont HtmlCommentsFontSettings { get; }
 ```
 
 ### 也可以看看
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * 部件 [GroupDocs.Editor](../../../)

@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء وحفظ مستندات العرض التقديمي متوافق مع PowerPoint
 type: docs
-weight: 880
+weight: 1090
 url: /ar/net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class

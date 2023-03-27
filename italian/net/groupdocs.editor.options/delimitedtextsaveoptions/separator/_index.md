@@ -14,6 +14,12 @@ Consente di specificare un separatore di stringa (delimitatore) per documenti di
 public string Separator { get; set; }
 ```
 
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentException | Viene generato quando il separatore specificato è una stringa nulla o vuota |
+
 ### Guarda anche
 
 * class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)

@@ -37,7 +37,7 @@ public List<string> GetCssContent(string externalImagesPrefix, string externalFo
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | externalImagesPrefix | String | A través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las imágenes externas, que estarán presentes en las declaraciones CSS en las cadenas CSS resultantes. Si es NULL o está vacío, no se agregarán prefijos. |
-| externalFontsPrefix | String | través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las fuentes externas en las reglas @font-face en las cadenas CSS resultantes. Si es NULL o está vacío, no se agregarán prefijos. |
+| externalFontsPrefix | String | A través de este parámetro utilizado puede especificar un prefijo, que se agregará a los enlaces a todas las fuentes externas en las reglas @font-face en las cadenas CSS resultantes. Si es NULL o está vacío, no se agregarán prefijos. |
 
 ### Valor_devuelto
 

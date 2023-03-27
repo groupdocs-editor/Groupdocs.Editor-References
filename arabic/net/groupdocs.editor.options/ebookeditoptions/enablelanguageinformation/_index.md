@@ -1,14 +1,14 @@
 ---
 title: EnableLanguageInformation
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML lang . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا يتم تعطيله خاطئة  .
+description: يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML lang . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا يتم تعطيله خطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.editor.options/ebookeditoptions/enablelanguageinformation/
 ---
 ## EbookEditOptions.EnableLanguageInformation property
 
-يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML "lang" . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا، يتم تعطيله (`خاطئة` ) .
+يحدد ما إذا كان سيتم تصدير معلومات اللغة إلى ترميز HTML في شكل سمات HTML "lang" . قد يكون هذا الخيار مفيدًا لتحويل ذهابًا وإيابًا للمستندات متعددة اللغات. افتراضيا، يتم تعطيله (`خطأ شنيع` .
 
 ```csharp
 public bool EnableLanguageInformation { get; set; }

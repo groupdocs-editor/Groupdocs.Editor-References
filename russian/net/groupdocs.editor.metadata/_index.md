@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Metadata
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.Metadata предоставляет классы для описания основных свойств документа в зависимости от типа документа.
 type: docs
-weight: 120
+weight: 140
 url: /ru/net/groupdocs.editor.metadata/
 ---
 Пространство имен GroupDocs.Editor.Metadata предоставляет классы для описания основных свойств документа в зависимости от типа документа.

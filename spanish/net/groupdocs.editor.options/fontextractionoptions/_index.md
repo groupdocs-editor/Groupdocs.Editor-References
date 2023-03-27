@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Las opciones de extracción de fuentes controlan qué fuentes deben extraerse y de dónde
 type: docs
-weight: 750
+weight: 900
 url: /es/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

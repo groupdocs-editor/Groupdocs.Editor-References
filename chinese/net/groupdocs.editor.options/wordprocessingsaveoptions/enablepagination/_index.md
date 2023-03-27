@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许启用或禁用用于保存字处理文档的分页 如果在分页模式下打开和编辑原始文档也应启用此选项默认情况下是禁用的
+description: 允许启用或禁用将用于保存 WordProcessing 文档的分页 如果在分页模式下打开和编辑原始文档则还应启用此选项默认情况下是禁用的
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/enablepagination/
 ---
 ## WordProcessingSaveOptions.EnablePagination property
 
-允许启用或禁用用于保存字处理文档的分页。 如果在分页模式下打开和编辑原始文档，也应启用此选项。默认情况下是禁用的。
+允许启用或禁用将用于保存 WordProcessing 文档的分页。 如果在分页模式下打开和编辑原始文档，则还应启用此选项。默认情况下是禁用的。
 
 ```csharp
 public bool EnablePagination { get; set; }

@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示引号字符单引号和双引号
 type: docs
-weight: 520
+weight: 670
 url: /zh/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 表示引号字符——单引号（'）和双引号（"）
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### 价值观
+## 特性
 
-| 姓名 | 价值 | 描述 |
-| --- | --- | --- |
-| SingleQuote | `39` | 单引号（U+0027 撇号字符） |
-| DoubleQuote | `34` | 双引号（U+0022 引号字符） |
+| 姓名 | 描述 |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | 要引用的字符 |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | 当前字符的码位（U+0027 或 U+0022） |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | HTML 编码字符 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | 指示引用类型的此实例是否等于指定的 uncasted |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | 表示引用类型的这个实例是否等于指定的 |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | 返回此字符的哈希码 |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | 检查两个“QuoteType”值是否相等 |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | 强制转换[`QuoteType`](../quotetype)实例到Char (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | 检查两个“QuoteType”值是否不相等 |
+
+## 字段
+
+| 姓名 | 描述 |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | 双引号（U+0022 引号字符） |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | 单引号（U+0027 撇号字符） |
 
 ### 也可以看看
 

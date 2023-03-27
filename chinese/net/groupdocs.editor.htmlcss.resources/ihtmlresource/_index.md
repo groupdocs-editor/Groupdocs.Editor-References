@@ -3,7 +3,7 @@ title: IHtmlResource
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示未知 HTML 资源光栅或矢量图像样式表字体文本资源CSSXML音频等的一个实例
 type: docs
-weight: 340
+weight: 440
 url: /zh/net/groupdocs.editor.htmlcss.resources/ihtmlresource/
 ---
 ## IHtmlResource interface
@@ -18,10 +18,10 @@ public interface IHtmlResource : IAuxDisposable, IEquatable<IHtmlResource>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByteContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/bytecontent) { get; } | 字节流形式的 HTML 资源内容 |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/bytecontent) { get; } | 字节流形式的HTML资源内容 |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources/ihtmlresource/filenamewithextension) { get; } | 使用适当的文件扩展名更正指定资源的文件名 |
 | [Name](../../groupdocs.editor.htmlcss.resources/ihtmlresource/name) { get; } | HTML 资源的名称 |
-| [TextContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/textcontent) { get; } | HTML 资源的内容，格式为二进制资源的 base64 编码文本字符串或文本资源的简单文本 |
+| [TextContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/textcontent) { get; } | 二进制资源的 base64 编码文本字符串或文本资源的简单文本形式的 HTML 资源内容 |
 | [Type](../../groupdocs.editor.htmlcss.resources/ihtmlresource/type) { get; } | HTML 资源的类型 |
 
 ## 方法

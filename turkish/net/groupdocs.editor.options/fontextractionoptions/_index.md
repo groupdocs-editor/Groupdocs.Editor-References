@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Yazı tipi çıkarma seçenekleri hangi yazı tiplerinin ve nereden çıkarılacağını kontrol eder
 type: docs
-weight: 750
+weight: 900
 url: /tr/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

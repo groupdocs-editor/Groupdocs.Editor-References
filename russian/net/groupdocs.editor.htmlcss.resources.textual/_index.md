@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Textual
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.HtmlCss.Resources.Textual предоставляет классы представляющие текстовые ресурсы.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/groupdocs.editor.htmlcss.resources.textual/
 ---
 Пространство имен GroupDocs.Editor.HtmlCss.Resources.Textual предоставляет классы, представляющие текстовые ресурсы.

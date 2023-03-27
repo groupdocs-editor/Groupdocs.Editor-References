@@ -3,7 +3,7 @@ title: ToStringSpecified
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Devuelve una representación de cadena de esta longitud en el tipo de unidad especificado. El valor numérico se convertirá en el correspondiente al cambio de tipo de unidad.
 type: docs
-weight: 260
+weight: 250
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/tostringspecified/
 ---
 ## Length.ToStringSpecified method

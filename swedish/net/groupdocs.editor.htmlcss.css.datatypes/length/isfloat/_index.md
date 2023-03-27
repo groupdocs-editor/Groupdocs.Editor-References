@@ -3,7 +3,7 @@ title: IsFloat
 second_title: GroupDocs.Editor för .NET API-referens
 description: Indikerar om det numeriska värdet för denna Lengthinstans ursprungligen specificerades och lagrades som ett flytande FP32 nummer
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/isfloat/
 ---
 ## Length.IsFloat property

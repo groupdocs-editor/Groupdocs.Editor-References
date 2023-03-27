@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры формирования и сохранения документов электронной почты email
 type: docs
-weight: 710
+weight: 860
 url: /ru/net/groupdocs.editor.options/emailsaveoptions/
 ---
 ## EmailSaveOptions class
@@ -19,7 +19,7 @@ public sealed class EmailSaveOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [EmailSaveOptions](emailsaveoptions#constructor)() | Инициализирует новый экземпляр[`EmailSaveOptions`](../emailsaveoptions) class, где для всех параметров установлены значения по умолчанию |
-| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Инициализирует новый экземпляр[`EmailSaveOptions`](../emailsaveoptions) класс с[`MailMessageOutput`](./mailmessageoutput) параметр |
+| [EmailSaveOptions](emailsaveoptions#constructor_1)(MailMessageOutput) | Инициализирует новый экземпляр[`EmailSaveOptions`](../emailsaveoptions) класс с[`MailMessageOutput`](./mailmessageoutput)параметр |
 
 ## Характеристики
 

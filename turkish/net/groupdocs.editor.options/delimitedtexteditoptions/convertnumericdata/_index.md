@@ -1,14 +1,14 @@
 ---
 title: ConvertNumericData
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false.
+description: Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılanYANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata/
 ---
 ## DelimitedTextEditOptions.ConvertNumericData property
 
-Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. Varsayılan değer false.
+Metin tabanlı belgedeki dizenin sayısal verilere dönüştürülüp dönüştürülmediğini gösteren bir değer alır veya ayarlar. varsayılan`YANLIŞ` .
 
 ```csharp
 public bool ConvertNumericData { get; set; }

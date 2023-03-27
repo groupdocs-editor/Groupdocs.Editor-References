@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor för .NET API-referens
-description: Eftersom Markdowndokument inte kan krypteras med lösenord returnerar den här egenskapen alltid false
+description: Eftersom Markdowndokument inte kan krypteras med lösenord returnerar denna egenskap alltid falsk
 type: docs
 weight: 20
 url: /sv/net/groupdocs.editor.metadata/markdowndocumentinfo/isencrypted/
 ---
 ## MarkdownDocumentInfo.IsEncrypted property
 
-Eftersom Markdown-dokument inte kan krypteras med lösenord, returnerar den här egenskapen alltid 'false'
+Eftersom Markdown-dokument inte kan krypteras med lösenord, returnerar denna egenskap alltid ``falsk`
 
 ```csharp
 public bool IsEncrypted { get; }

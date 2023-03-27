@@ -16,7 +16,7 @@ public bool ExtractOnlyUsedFont { get; set; }
 
 ### Eigentumswert
 
-`Stimmt` wenn es erforderlich ist, nur die Font-Ressourcen zu extrahieren, die im Textinhalt des Dokuments verwendet werden; Andernfalls,`FALSCH` . Standardwert ist`FALSCH` .
+`WAHR` wenn es erforderlich ist, nur die Font-Ressourcen zu extrahieren, die im Textinhalt des Dokuments verwendet werden; ansonsten,`FALSCH` . Standardwert ist`FALSCH` .
 
 ### Bemerkungen
 

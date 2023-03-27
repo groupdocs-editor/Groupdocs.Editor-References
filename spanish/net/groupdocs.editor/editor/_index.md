@@ -52,7 +52,7 @@ La clase Editor debe considerarse como un punto de entrada y el objeto raíz de 
 
 1. Cargue un documento en la instancia del Editor a través de su constructor.
 2. Opcionalmente, detecte un tipo de documento usando un[`GetDocumentInfo`](./getdocumentinfo) método.
-3. Abra un documento para editar llamando a un[`Edit`](./edit) método y obtener una instancia de[`EditableDocument`](../editabledocument) clase de ella.
+3. Abra un documento para editar llamando a un[`Edit`](./edit)método y obtener una instancia de[`EditableDocument`](../editabledocument) clase de ella.
 4. Edición del contenido de un documento en el lado del cliente utilizando cualquier editor HTML WYSIWYG.
 5. Crear una nueva instancia de[`EditableDocument`](../editabledocument) del contenido del documento editado.
 6. Guardar un documento editado en algún formato de salida llamando a un[`Save`](./save) método.

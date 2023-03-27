@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Köprü Metni Biçimlendirme Dili belgesi HTML tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/web/html .
+description: Köprü Metni Biçimlendirme Dili belgesi HTML tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/web/html .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.formats/textualformats/html/
 ---
 ## TextualFormats.Html field
 
-Köprü Metni Biçimlendirme Dili belgesi (HTML), tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/html) .
+Köprü Metni Biçimlendirme Dili belgesi (HTML), tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/web/html) .
 
 ```csharp
 public static readonly TextualFormats Html;

@@ -3,7 +3,7 @@ title: Ratio
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Stellt einen VerhältnisCSSDatentyp dar der zur Beschreibung von Seitenverhältnissen in Medienabfragen und für Rasterbilder verwendet wird indem das Verhältnis zwischen zwei einheitslosen Werten namens Zähler und Nenner angegeben wird. Unveränderliche Struktur
 type: docs
-weight: 210
+weight: 280
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /de/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 Stellt einen „Verhältnis“-CSS-Datentyp dar, der zur Beschreibung von Seitenverhältnissen in Medienabfragen und für Rasterbilder verwendet wird, indem das Verhältnis zwischen zwei einheitslosen Werten namens „Zähler“ und „Nenner“ angegeben wird. Unveränderliche Struktur
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Eigenschaften
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | Name | Beschreibung |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Gibt einen Nenner dieses Verhältnisses zurück |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Legt fest, ob dieses Verhältnis einen Standardwert hat oder ein "1/1" ist (Single) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Gibt einen Zähler dieses Verhältnisses zurück |
 
 ## Methoden
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Siehe auch
 
+* interface [ICssDataType](../icssdatatype)
 * namensraum [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * Montage [GroupDocs.Editor](../../)
 

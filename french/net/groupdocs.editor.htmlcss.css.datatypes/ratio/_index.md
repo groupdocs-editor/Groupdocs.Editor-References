@@ -3,7 +3,7 @@ title: Ratio
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente un type de données CSS ratio qui est utilisé pour décrire les proportions dans les requêtes multimédias et pour les images raster en indiquant la proportion entre deux valeurs sans unité appelées numérateur et dénominateur. Structure immuable.
 type: docs
-weight: 210
+weight: 280
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 Représente un type de données CSS "ratio", qui est utilisé pour décrire les proportions dans les requêtes multimédias et pour les images raster en indiquant la proportion entre deux valeurs sans unité appelées "numérateur" et "dénominateur". Structure immuable.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## Propriétés
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | Nom | La description |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Renvoie un dénominateur de ce ratio |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Détermine si ce rapport a une valeur par défaut ou est un "1/1" (Simple) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Renvoie un numérateur de ce ratio |
 
 ## Méthodes
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### Voir également
 
+* interface [ICssDataType](../icssdatatype)
 * espace de noms [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * Assemblée [GroupDocs.Editor](../../)
 

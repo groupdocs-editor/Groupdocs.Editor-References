@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تتحكم خيارات استخراج الخط في تحديد الخطوط التي يجب استخراجها ومن حيث
 type: docs
-weight: 750
+weight: 900
 url: /ar/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

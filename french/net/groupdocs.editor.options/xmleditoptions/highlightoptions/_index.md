@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Permet dajuster la surbrillance qui sera appliquée à la structure XML lorsquelle est représentée en HTML. Par défaut est NULL  la surbrillance par défaut est appliquée.
+description: Permet dajuster la surbrillance XML qui sera appliquée à la structure XML lorsquelle sera représentée en HTML. La surbrillance par défaut est utilisée et est réglable. Ne peut pas être nul.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Permet d'ajuster la surbrillance, qui sera appliquée à la structure XML, lorsqu'elle est représentée en HTML. Par défaut est NULL — la surbrillance par défaut est appliquée.
+Permet d'ajuster la surbrillance XML, qui sera appliquée à la structure XML, lorsqu'elle sera représentée en HTML. La surbrillance par défaut est utilisée et est réglable. Ne peut pas être nul.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Voir également

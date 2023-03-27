@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-Инициализирует новый экземпляр[`EmailEditOptions`](../../emaileditoptions) класс с[`MailMessageOutput`](../mailmessageoutput) параметр
+Инициализирует новый экземпляр[`EmailEditOptions`](../../emaileditoptions) класс с[`MailMessageOutput`](../mailmessageoutput)параметр
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

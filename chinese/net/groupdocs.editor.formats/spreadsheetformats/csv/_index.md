@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Editor for .NET API 参考
-description: 逗号分隔值 CSV 文档表示纯文本其中包含具有逗号分隔值的数据记录 CSV 文件中的每一行都是文件中包含的记录集中的一条新记录 了解有关此文件格式的更多信息这里https//docs.fileformat.com/spreadsheet/csv/.
+description: 逗号分隔值 CSV 文档表示包含具有逗号分隔值的数据记录的纯文本 CSV 文件中的每一行都是文件中包含的记录集中的一条新记录 了解有关此文件格式的更多信息这里https//docs.fileformat.com/spreadsheet/csv/.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/csv/
 ---
 ## SpreadsheetFormats.Csv field
 
-逗号分隔值 (CSV) 文档表示纯文本，其中包含具有逗号分隔值的数据记录。 CSV 文件中的每一行都是文件中包含的记录集中的一条新记录。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/spreadsheet/csv/).
+逗号分隔值 (CSV) 文档表示包含具有逗号分隔值的数据记录的纯文本。 CSV 文件中的每一行都是文件中包含的记录集中的一条新记录。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/spreadsheet/csv/).
 
 ```csharp
 public static readonly SpreadsheetFormats Csv;

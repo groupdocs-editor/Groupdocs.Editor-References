@@ -3,7 +3,7 @@ title: PageRange
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Инкапсулирует один диапазон страниц который может иметь открытые или закрытые границы. По умолчанию полностью открыт  включает все существующие страницы. Нумерация страниц начинается с 1 а не с 0.
 type: docs
-weight: 810
+weight: 1020
 url: /ru/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

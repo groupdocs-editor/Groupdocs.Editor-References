@@ -17,7 +17,7 @@ public TiffImage(string name, string contentInBase64)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | TIFF 图像的名称。不能为 null、空或空格。 |
-| contentInBase64 | String | 内容为 base64 编码的字符串。不能为 null、空或空格。 如果不是 TIFF 内容，会抛出异常。 |
+| contentInBase64 | String | 内容为 base64 编码的字符串。不能为 null、空或空格。 如果不是 TIFF 内容，将抛出异常。 |
 
 ### 例外
 
@@ -44,8 +44,8 @@ public TiffImage(string name, Stream binaryContent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | GIF 图片的名称。不能为 null、空或空格。 |
-| binaryContent | Stream | 内容为字节流。阅读从原始位置开始。不能为空。 应该是可读和可搜索的。如果此实例将被释放，则此流也将被释放。 |
+| name | String | GIF 图像的名称。不能为 null、空或空格。 |
+| binaryContent | Stream | 内容为字节流。阅读从原来的位置开始。不能为空。 应该是可读和可查找的。如果这个实例将被释放，这个流也将被释放。 |
 
 ### 例外
 

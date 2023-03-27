@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Controlla luguaglianza delle due lunghezze date.
 type: docs
-weight: 290
+weight: 280
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/length/op_equality/
 ---
 ## Length Equality operator

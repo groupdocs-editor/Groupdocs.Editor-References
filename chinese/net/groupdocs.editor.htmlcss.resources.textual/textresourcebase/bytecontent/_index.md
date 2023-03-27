@@ -1,14 +1,14 @@
 ---
 title: ByteContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以原始编码的字节流形式返回此文本资源的内容
+description: 以原始编码 的字节流形式返回此文本资源的内容
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/bytecontent/
 ---
 ## TextResourceBase.ByteContent property
 
-以原始编码的字节流形式返回此文本资源的内容
+以原始编码 的字节流形式返回此文本资源的内容
 
 ```csharp
 public Stream ByteContent { get; }

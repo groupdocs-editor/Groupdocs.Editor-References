@@ -20,10 +20,10 @@ public Editor(Func<Stream> document)
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 GroupDocs.Editor 支持的文件类型： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Editor 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+* 有关 GroupDocs.Editor 支持的文件类型的更多信息： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* 有关 GroupDocs.Editor for .NET 功能的更多信息： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
 
 ### 也可以看看
 
@@ -44,15 +44,15 @@ public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Func`1 | 委托，它应该返回一个包含文档内容的流。不应为 NULL。 |
-| loadOptions | Func`1 | 委托，应该返回一个文档加载选项。可能为 NULL 并且可能返回 null - 在这种情况下将自动检测文档类型并应用该类型的默认加载选项。 |
+| loadOptions | Func`1 | 委托，应该返回文档加载选项。可能为 NULL 并且可能返回 null - 在这种情况下将自动检测文档类型并应用该类型的默认加载选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 GroupDocs.Editor 支持的文件类型： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Editor 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
-* 更多关于如何打开和编辑受密码保护的文档和来自不同存储的文档： [使用 GroupDocs.Editor 加载和编辑文档](https://docs.groupdocs.com/display/editornet/Load+document)
+* 有关 GroupDocs.Editor 支持的文件类型的更多信息： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* 有关 GroupDocs.Editor for .NET 功能的更多信息： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+* 更多有关如何打开和编辑受密码保护的文档和来自不同存储的文档的信息： [使用 GroupDocs.Editor 加载和编辑文档](https://docs.groupdocs.com/display/editornet/Load+document)
 
 ### 也可以看看
 
@@ -73,14 +73,14 @@ public Editor(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件的完整路径。不应为 NULL。应该是有效的，并且文件应该存在。 |
+| filePath | String | 文件的完整路径。不应为 NULL。应该有效，并且文件应该存在。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 GroupDocs.Editor 支持的文件类型： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Editor 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+* 有关 GroupDocs.Editor 支持的文件类型的更多信息： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* 有关 GroupDocs.Editor for .NET 功能的更多信息： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
 
 ### 也可以看看
 
@@ -100,16 +100,16 @@ public Editor(string filePath, Func<ILoadOptions> loadOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件的完整路径。不应为 NULL。应该是有效的，并且文件应该存在。 |
-| loadOptions | Func`1 | 委托，应该返回一个文档加载选项。可能为 NULL 并且可能返回 null - 在这种情况下将自动检测文档类型并应用该类型的默认加载选项。 |
+| filePath | String | 文件的完整路径。不应为 NULL。应该有效，并且文件应该存在。 |
+| loadOptions | Func`1 | 委托，应该返回文档加载选项。可能为 NULL 并且可能返回 null - 在这种情况下将自动检测文档类型并应用该类型的默认加载选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于 GroupDocs.Editor 支持的文件类型： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* 更多关于 GroupDocs.Editor 的 .NET 功能： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
-* 更多关于如何打开和编辑受密码保护的文档和来自不同存储的文档： [使用 GroupDocs.Editor 加载和编辑文档](https://docs.groupdocs.com/display/editornet/Load+document)
+* 有关 GroupDocs.Editor 支持的文件类型的更多信息： [GroupDocs.Editor 支持的文档格式](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* 有关 GroupDocs.Editor for .NET 功能的更多信息： [开发者指南](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+* 更多有关如何打开和编辑受密码保护的文档和来自不同存储的文档的信息： [使用 GroupDocs.Editor 加载和编辑文档](https://docs.groupdocs.com/display/editornet/Load+document)
 
 ### 也可以看看
 

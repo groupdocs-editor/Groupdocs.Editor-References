@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Ayırıcı sınırlayıcı kullanan metin tabanlı Elektronik Tablo belgeleri CSV Sekme tabanlı vb. oluşturmak ve kaydetmek için seçenekler içerir
 type: docs
-weight: 680
+weight: 830
 url: /tr/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | İsim | Tanım |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Metin tabanlı Elektronik Tablo belgesi için bir kodlama ayarlamanıza izin verir. Varsayılan olarak (ve belirtilmemişse) UTF8. şeklindedir. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değer yanlıştır, bu da boş satır içeriğinin boş olacağı anlamına gelir. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değer:`YANLIŞ` bu, boş satır içeriğinin boş olacağı anlamına gelir. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Metin tabanlı Elektronik Tablo belgeleri için bir dizi ayırıcı (sınırlayıcı) belirtmeye izin verir |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Öndeki boş satırların ve sütunların MS Excel'in yaptığı gibi kırpılıp kırpılmayacağını belirtir |
 

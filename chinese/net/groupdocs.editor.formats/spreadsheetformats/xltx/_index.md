@@ -1,14 +1,14 @@
 ---
 title: Xltx
 second_title: GroupDocs.Editor for .NET API 参考
-description: Office Open XML 模板无宏 XLTX 文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板它用于创建一个标准模板文件该文件可用于生成 XLSX 文件这些文件具有与 XLTX 文件中指定的相同的设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xltx
+description: Office Open XML 模板无宏 XLTX 文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板它用于创建标准模板文件该文件可用于生成 XLSX 文件这些文件显示与 XLTX 文件中指定的设置相同的设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xltx
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/xltx/
 ---
 ## SpreadsheetFormats.Xltx field
 
-Office Open XML 模板无宏 (XLTX) 文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板。它用于创建一个标准模板文件，该文件可用于生成 XLSX 文件，这些文件具有与 XLTX 文件中指定的相同的设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xltx)
+Office Open XML 模板无宏 (XLTX) 文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板。它用于创建标准模板文件，该文件可用于生成 XLSX 文件，这些文件显示与 XLTX 文件中指定的设置相同的设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xltx)
 
 ```csharp
 public static readonly SpreadsheetFormats Xltx;

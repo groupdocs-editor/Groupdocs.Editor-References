@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Contiene opciones disponibles para el manejo del espacio inicial durante la apertura de un documento de texto sin formato TXT
 type: docs
-weight: 940
+weight: 1150
 url: /es/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

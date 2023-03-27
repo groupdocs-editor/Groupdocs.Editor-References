@@ -20,7 +20,7 @@ public bool Equals(MarkdownDocumentInfo other)
 
 ### Returvärde
 
-Sant om är lika, falskt om är ojämlika
+`Sann` om de är lika,`falsk` om de är ojämlika
 
 ### Se även
 

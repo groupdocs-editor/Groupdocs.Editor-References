@@ -3,7 +3,7 @@ title: FixedLayoutEditOptionsBase
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: PDF ve XPS gibi sabit mizanpaj biçimlerindeki tüm belgelere yönelik seçenekler için temel soyut sınıf
 type: docs
-weight: 730
+weight: 880
 url: /tr/net/groupdocs.editor.options/fixedlayouteditoptionsbase/
 ---
 ## FixedLayoutEditOptionsBase class

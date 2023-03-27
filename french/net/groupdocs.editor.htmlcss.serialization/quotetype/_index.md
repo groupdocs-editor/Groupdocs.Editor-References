@@ -3,23 +3,42 @@ title: QuoteType
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente les guillemets  guillemet simple  et guillemet double 
 type: docs
-weight: 520
+weight: 670
 url: /fr/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 Représente les guillemets - guillemet simple (') et guillemet double ("")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### Valeurs
+## Propriétés
 
-| Nom | Évaluer | La description |
-| --- | --- | --- |
-| SingleQuote | `39` | Apostrophe (caractère U+0027 APOSTROPHE) |
-| DoubleQuote | `34` | Guillemet double (caractère U+0022 GUILLEMET) |
+| Nom | La description |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | Caractère à citer |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | Point de code du caractère actuel (U+0027 ou U+0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | caractère encodé HTML |
+
+## Méthodes
+
+| Nom | La description |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indique si cette instance du type de devis est égale à uncasted spécifié |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indique si cette instance du type de devis est égale à spécifié |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Renvoie un code de hachage pour ce caractère |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Vérifie si deux valeurs "QuoteType" sont égales |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Distributions spécifiées[`QuoteType`](../quotetype) exemple à laChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Vérifie si deux valeurs "QuoteType" ne sont pas égales |
+
+## Des champs
+
+| Nom | La description |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | Guillemet double (caractère U+0022 GUILLEMET) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | Apostrophe (caractère U+0027 APOSTROPHE) |
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: IconImage
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Représente une image au format ICON avec ses métadonnées et des méthodes supplémentaires
 type: docs
-weight: 420
+weight: 520
 url: /fr/net/groupdocs.editor.htmlcss.resources.images.raster/iconimage/
 ---
 ## IconImage class

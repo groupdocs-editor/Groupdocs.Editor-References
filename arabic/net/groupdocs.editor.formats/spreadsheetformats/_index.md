@@ -26,7 +26,7 @@ public struct SpreadsheetFormats : IDocumentFormat, IEquatable<SpreadsheetFormat
 
 | اسم | وصف |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | إرجاع مثيل[`SpreadsheetFormats`](../spreadsheetformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
+| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | إرجاع مثيل[`SpreadsheetFormats`](../spreadsheetformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals)(IDocumentFormat) | تحديد ما إذا كان هذا المثيل مساويًا لمثيل IDocumentFormat المحدد الآخر. |
 | override [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_2)(object) | تحديد ما إذا كان هذا المثيل مساويًا للكائن المحدد الآخر ، والذي يُفترض أنه من SpreadsheetFormats |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_1)(SpreadsheetFormats) | تحديد ما إذا كان هذا المثيل مساويًا لـ SpreadsheetFormats المحدد الآخر ، example |

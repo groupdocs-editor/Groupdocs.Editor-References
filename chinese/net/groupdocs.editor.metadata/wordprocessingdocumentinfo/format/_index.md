@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此文字处理文档的格式
+description: 返回此 WordProcessing 文档的格式
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.metadata/wordprocessingdocumentinfo/format/
 ---
 ## WordProcessingDocumentInfo.Format property
 
-返回此文字处理文档的格式
+返回此 WordProcessing 文档的格式
 
 ```csharp
 public WordProcessingFormats Format { get; }

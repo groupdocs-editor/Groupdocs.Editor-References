@@ -1,14 +1,14 @@
 ---
 title: Oft
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: .oft uzantılı dosyalar Microsoft Outlook kullanılarak oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/oft/ .
+description: .oft uzantılı dosyalar Microsoft Outlook kullanılarak oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/oft/ .
 type: docs
 weight: 80
 url: /tr/net/groupdocs.editor.formats/emailformats/oft/
 ---
 ## EmailFormats.Oft field
 
-.oft uzantılı dosyalar, Microsoft Outlook kullanılarak oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/oft/) .
+.oft uzantılı dosyalar, Microsoft Outlook kullanılarak oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/oft/) .
 
 ```csharp
 public static readonly EmailFormats Oft;

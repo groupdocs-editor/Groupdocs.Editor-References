@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于指定的FontType实例
+description: 确定此实例是否等于指定的FontType instance
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/equals/
 ---
 ## Equals(FontType) {#equals}
 
-确定此实例是否等于指定的“FontType”实例
+确定此实例是否等于指定的“FontType” instance
 
 ```csharp
 public bool Equals(FontType other)
@@ -16,7 +16,7 @@ public bool Equals(FontType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | FontType | 要检查的其他 FontType 实例 |
+| other | FontType | 其他要检查的 FontType 实例 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(FontType other)
 
 ## Equals(object) {#equals_1}
 
-判断这个实例是否与指定的未转换对象相等，大概是另一个“FontType”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“FontType”实例
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 可能是 FontType 结构的其他实例，它被装箱到 System.Object |
+| obj | Object | 其他可能是 FontType 结构的实例，被装箱到 System.Object |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: FromMarkupAndResourceFolder
 second_title: GroupDocs.Editor for .NET API 参考
-description: 静态工厂从指定的 HTML 标记和资源创建 EditableDocument 的实例该资源位于文件夹中由完整路径指定
+description: 静态工厂它根据指定的 HTML 标记和位于文件夹中的资源创建 EditableDocument 的实例该文件夹由完整路径 指定
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor/editabledocument/frommarkupandresourcefolder/
 ---
 ## EditableDocument.FromMarkupAndResourceFolder method
 
-静态工厂，从指定的 HTML 标记和资源创建 EditableDocument 的实例，该资源位于文件夹中，由完整路径指定
+静态工厂，它根据指定的 HTML 标记和位于文件夹中的资源创建 EditableDocument 的实例，该文件夹由完整路径 指定
 
 ```csharp
 public static EditableDocument FromMarkupAndResourceFolder(string newHtmlContent, 
@@ -26,7 +26,7 @@ EditableDocument 的新非空实例
 
 ### 评论
 
-当 HTML 文档的内容以字符串形式呈现时，此静态工厂很有用，但所有资源都位于某个文件夹中，并且 HTML 标记中指向这些资源的链接通常无效且不存在。调用此方法时，它会扫描指定文件夹并自动将所有找到的样式表应用于文档。这种方法在从不同的 HTML 编辑器获取内容时非常有用，通常会切断文档元数据等。
+当 HTML 文档的内容以字符串形式呈现时，此静态工厂非常有用，但所有资源都位于某个文件夹中，并且通常在 HTML 标记中指向这些资源的链接无效且不存在。调用此方法时，它会扫描指定的文件夹并自动将所有找到的样式表应用于文档。当从不同的 HTML 编辑器获取内容时，这种方法非常有用，通常会切断文档元数据等。
 
 ### 也可以看看
 

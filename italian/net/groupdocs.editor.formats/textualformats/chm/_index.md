@@ -1,14 +1,14 @@
 ---
 title: Chm
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Microsoft Compiled HTML Help è un formato binario della guida in linea proprietario di Microsoft costituito da una raccolta di pagine HTML un indice e altri strumenti di navigazione. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/web/chm/ .
+description: Microsoft Compiled HTML Help è un formato binario della guida in linea proprietario di Microsoft costituito da una raccolta di pagine HTML un indice e altri strumenti di navigazione. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/web/chm/ .
 type: docs
 weight: 10
 url: /it/net/groupdocs.editor.formats/textualformats/chm/
 ---
 ## TextualFormats.Chm field
 
-Microsoft Compiled HTML Help è un formato binario della guida in linea proprietario di Microsoft, costituito da una raccolta di pagine HTML, un indice e altri strumenti di navigazione. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/web/chm/) .
+Microsoft Compiled HTML Help è un formato binario della guida in linea proprietario di Microsoft, costituito da una raccolta di pagine HTML, un indice e altri strumenti di navigazione. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly TextualFormats Chm;

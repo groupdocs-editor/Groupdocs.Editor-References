@@ -3,7 +3,7 @@ title: EotFont
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: EOT Gömülü OpenType formatındaki bir yazı tipini temsil eder
 type: docs
-weight: 260
+weight: 360
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/eotfont/
 ---
 ## EotFont class

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Renvoie une instance deWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsstructure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
+description: Renvoie une instance deWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats structure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
 type: docs
 weight: 120
 url: /fr/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-Renvoie une instance de[`WordProcessingFormats`](../../wordprocessingformats)structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
+Renvoie une instance de[`WordProcessingFormats`](../../wordprocessingformats) structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Return_Value
 
-Exemple de[`WordProcessingFormats`](../../wordprocessingformats) structure en cas de succès ou exception levée en cas d'échec
+Exemple de[`WordProcessingFormats`](../../wordprocessingformats)structure en cas de succès ou exception levée en cas d'échec
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Editor for .NET API 参考
 description: 返回此比率的完整副本
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/clone/
 ---
 ## Ratio.Clone method
@@ -16,7 +16,7 @@ public Ratio Clone()
 
 ### 返回值
 
-新 Ratio 实例，这是该实例的完整和深层副本
+新 Ratio 实例，它是这个实例的完整深度副本
 
 ### 也可以看看
 

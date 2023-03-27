@@ -3,7 +3,7 @@ title: To
 second_title: GroupDocs.Editor för .NET API-referens
 description: Konverterar längden till den givna enheten om möjligt. Om den aktuella eller den givna enheten är relativ kommer ett undantag att skapas.
 type: docs
-weight: 240
+weight: 230
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/to/
 ---
 ## Length.To method

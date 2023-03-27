@@ -1,14 +1,14 @@
 ---
 title: ProtectionType
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许设置文档的保护类型默认设置为根本不保护文档
+description: 允许设置文档的保护类型默认设置为完全不保护文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/wordprocessingprotection/protectiontype/
 ---
 ## WordProcessingProtection.ProtectionType property
 
-允许设置文档的保护类型。默认设置为根本不保护文档。
+允许设置文档的保护类型。默认设置为完全不保护文档。
 
 ```csharp
 public WordProcessingProtectionType ProtectionType { get; set; }

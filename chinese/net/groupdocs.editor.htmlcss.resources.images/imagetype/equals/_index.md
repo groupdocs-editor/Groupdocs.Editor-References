@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于指定的ImageType实例
+description: 判断这个实例是否等于指定的ImageType instance
 type: docs
 weight: 180
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/equals/
 ---
 ## Equals(ImageType) {#equals}
 
-确定此实例是否等于指定的“ImageType”实例
+判断这个实例是否等于指定的“ImageType” instance
 
 ```csharp
 public bool Equals(ImageType other)
@@ -16,7 +16,7 @@ public bool Equals(ImageType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | ImageType | 其他 ImageType 实例来检查是否与 this 相等 |
+| other | ImageType | 其他 ImageType 实例来检查是否与此相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(ImageType other)
 
 ## Equals(object) {#equals_1}
 
-判断这个实例是否与指定的未转换对象相等，大概是另一个“ImageType”实例
+确定此实例是否与指定的未转换对象相等，这可能是另一个“ImageType” instance
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 其他 System.Object 实例，可能是 ImageType 类型，用于检查与此的相等性 |
+| obj | Object | 其他 System.Object 实例，大概是 ImageType 类型，检查与此是否相等 |
 
 ### 返回值
 

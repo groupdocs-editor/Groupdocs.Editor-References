@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لتحرير المستندات لجميع تنسيقات جداول البيانات المتوافقة مع Excel التي يمكن دعمها
 type: docs
-weight: 890
+weight: 1100
 url: /ar/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class

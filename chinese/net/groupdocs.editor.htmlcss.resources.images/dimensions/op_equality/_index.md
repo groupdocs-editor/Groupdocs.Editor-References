@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查两个尺寸值是否相等即它们的宽度和高度是否相等或者两者都为空
+description: 检查两个尺寸值是否相等即它们的宽度和高度是否相等或者两者都是空的
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/op_equality/
 ---
 ## Dimensions Equality operator
 
-检查两个“尺寸”值是否相等，即它们的宽度和高度是否相等，或者两者都为空
+检查两个“尺寸”值是否相等，即它们的宽度和高度是否相等，或者两者都是空的
 
 ```csharp
 public static bool operator ==(Dimensions first, Dimensions second)
@@ -16,8 +16,8 @@ public static bool operator ==(Dimensions first, Dimensions second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | Dimensions | 要检查的第一个实例 |
-| second | Dimensions | 第二个实例检查 |
+| first | Dimensions | 一审要查 |
+| second | Dimensions | 二审检查 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückEBookFormatsgroupdocs.editor.formats/ebookformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückEBookFormatsgroupdocs.editor.formats/ebookformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 40
 url: /de/net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`EBookFormats`](../../ebookformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`EBookFormats`](../../ebookformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static EBookFormats FromExtension(string extension)
 
 ### Rückgabewert
 
-Instanz von[`EBookFormats`](../../ebookformats) Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
+Instanz von[`EBookFormats`](../../ebookformats)Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
 
 ### Siehe auch
 

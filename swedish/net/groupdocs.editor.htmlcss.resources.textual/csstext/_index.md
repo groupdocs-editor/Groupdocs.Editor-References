@@ -3,7 +3,7 @@ title: CssText
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar en CSStextresurs
 type: docs
-weight: 480
+weight: 630
 url: /sv/net/groupdocs.editor.htmlcss.resources.textual/csstext/
 ---
 ## CssText class

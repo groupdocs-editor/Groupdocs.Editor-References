@@ -16,7 +16,7 @@ public string GetContent()
 
 ### 返回值
 
-字符串，包含 HTML 文档的内容
+字符串，其中包含 HTML 文档的内容
 
 ### 也可以看看
 
@@ -36,12 +36,12 @@ public string GetContent(string externalImagesPrefix, string externalCssPrefix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| externalImagesPrefix | String | 通过使用此参数可以指定一个前缀，该前缀将添加到 IMG 元素中的所有外部图像的 links 中，该前缀将出现在生成的 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
-| externalCssPrefix | String | 通过使用此参数可以指定一个前缀，该前缀将添加到 LINK 元素中的所有外部样式表的 links 中，该前缀将出现在生成的 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
+| externalImagesPrefix | String | 通过此参数可以指定一个前缀，该前缀将添加到 IMG 元素中所有外部图像的 links 中，该前缀将出现在生成的 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
+| externalCssPrefix | String | 通过此参数，可以指定一个前缀，该前缀将添加到 LINK 元素中所有外部样式表的 links ，该前缀将出现在结果 HTML 字符串中。如果为 NULL 或为空，则不会添加前缀。 |
 
 ### 返回值
 
-字符串，包含带有链接的 HTML 文档的内容，调整为外部资源
+字符串，其中包含带链接的 HTML 文档的内容，调整为外部资源
 
 ### 也可以看看
 

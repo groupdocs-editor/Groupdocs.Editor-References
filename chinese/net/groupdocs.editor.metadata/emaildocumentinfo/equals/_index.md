@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的 EmailDocumentInfo 实例
+description: 判断这个实例是否等于其他指定的EmailDocumentInfo instance
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.metadata/emaildocumentinfo/equals/
 ---
 ## EmailDocumentInfo.Equals method
 
-确定此实例是否等于其他指定的 EmailDocumentInfo 实例
+判断这个实例是否等于其他指定的EmailDocumentInfo instance
 
 ```csharp
 public bool Equals(EmailDocumentInfo other)
@@ -16,7 +16,7 @@ public bool Equals(EmailDocumentInfo other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | EmailDocumentInfo | 其他 EmailDocumentInfo 实例，应检查与此是否相等 |
+| other | EmailDocumentInfo | 其他 EmailDocumentInfo 实例，应检查是否与此实例相等 |
 
 ### 返回值
 

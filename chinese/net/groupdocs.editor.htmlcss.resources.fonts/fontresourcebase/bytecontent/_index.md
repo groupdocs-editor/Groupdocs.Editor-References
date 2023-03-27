@@ -1,14 +1,14 @@
 ---
 title: ByteContent
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以字节流的形式返回此字体的内容
+description: 返回此字体的内容作为字节流
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/bytecontent/
 ---
 ## FontResourceBase.ByteContent property
 
-以字节流的形式返回此字体的内容
+返回此字体的内容作为字节流
 
 ```csharp
 public Stream ByteContent { get; }

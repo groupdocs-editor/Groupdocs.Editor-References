@@ -3,7 +3,7 @@ title: PngImage
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa una imagen en formato PNG Portable Network Graphics con sus metadatos y métodos adicionales
 type: docs
-weight: 440
+weight: 540
 url: /es/net/groupdocs.editor.htmlcss.resources.images.raster/pngimage/
 ---
 ## PngImage class

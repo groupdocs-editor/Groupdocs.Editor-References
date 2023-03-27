@@ -1,14 +1,14 @@
 ---
 title: Dotx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Office Açık XML WordprocessingML Makro İçermeyen Şablon DOTX daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/dotx .
+description: Office Açık XML WordprocessingML Makro İçermeyen Şablon DOTX daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
 weight: 60
 url: /tr/net/groupdocs.editor.formats/wordprocessingformats/dotx/
 ---
 ## WordProcessingFormats.Dotx field
 
-Office Açık XML WordprocessingML Makro İçermeyen Şablon (DOTX), daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/dotx) .
+Office Açık XML WordprocessingML Makro İçermeyen Şablon (DOTX), daha fazla DOCX dosyası oluşturmak için önceden biçimlendirilmiş ayarlara sahip olmak üzere Microsoft Word tarafından oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/dotx) .
 
 ```csharp
 public static readonly WordProcessingFormats Dotx;

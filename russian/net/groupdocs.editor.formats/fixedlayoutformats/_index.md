@@ -26,7 +26,7 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | Имя | Описание |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Возвращает экземпляр[`FixedLayoutFormats`](../fixedlayoutformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Возвращает экземпляр[`FixedLayoutFormats`](../fixedlayoutformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Определяет, равен ли этот экземпляр другому указанному FixedLayoutFormats instance |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Определяет, равен ли этот экземпляр другому указанному IDocumentFormat instance |
 | override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Определяет, равен ли этот экземпляр другому указанному объекту, предположительно упакованному FixedLayoutFormats |

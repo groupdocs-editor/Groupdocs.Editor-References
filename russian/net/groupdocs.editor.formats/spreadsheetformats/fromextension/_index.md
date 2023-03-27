@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 160
 url: /ru/net/groupdocs.editor.formats/spreadsheetformats/fromextension/
 ---
 ## SpreadsheetFormats.FromExtension method
 
-Возвращает экземпляр[`SpreadsheetFormats`](../../spreadsheetformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`SpreadsheetFormats`](../../spreadsheetformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static SpreadsheetFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static SpreadsheetFormats FromExtension(string extension)
 
 ### Возвращаемое значение
 
-Случай[`SpreadsheetFormats`](../../spreadsheetformats) структура в случае успеха или выброшенное исключение в случае неудачи
+Случай[`SpreadsheetFormats`](../../spreadsheetformats)структура в случае успеха или выброшенное исключение в случае неудачи
 
 ### Смотрите также
 

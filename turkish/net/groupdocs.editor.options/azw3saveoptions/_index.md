@@ -3,7 +3,7 @@ title: Azw3SaveOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Kindle Format 8 KF8 olarak da bilinen AZW3 ekitaplarını oluşturmak ve kaydetmek için özel seçenekleri belirlemeye izin verir.
 type: docs
-weight: 660
+weight: 810
 url: /tr/net/groupdocs.editor.options/azw3saveoptions/
 ---
 ## Azw3SaveOptions class
@@ -24,7 +24,7 @@ public sealed class Azw3SaveOptions : ISaveOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [SplitHeadingLevel](../../groupdocs.editor.options/azw3saveoptions/splitheadinglevel) { get; set; } | AZW3 e-kitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise, AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` olarak ayarlanıyor`0` bölmeyi devre dışı bırakır, böylece e-kitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir. |
+| [SplitHeadingLevel](../../groupdocs.editor.options/azw3saveoptions/splitheadinglevel) { get; set; } | AZW3 e-kitabının içeriğinin paketlere bölünüp bölünmeyeceğini ve evet ise, AZW3 içeriğinin bölüneceği maksimum başlık düzeyini belirtir. Varsayılan değer:`2` . olarak ayarlanıyor`0`bölmeyi devre dışı bırakır, böylece e-kitabın tüm içeriği AZW3. içindeki tek bir pakete dahil edilir. |
 
 ### Ayrıca bakınız
 

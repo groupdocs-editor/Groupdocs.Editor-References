@@ -1,14 +1,14 @@
 ---
 title: Xlsx
 second_title: GroupDocs.Editor for .NET API 参考
-description: Office Open XML Workbook MacroFree XLSX 表示 Microsoft 在 Microsoft Office 2007 发行版中引入的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsx
+description: Office Open XML Workbook MacroFree XLSX 表示 Microsoft 在发布 Microsoft Office 2007 时引入的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsx
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats/xlsx/
 ---
 ## SpreadsheetFormats.Xlsx field
 
-Office Open XML Workbook Macro-Free (XLSX) 表示 Microsoft 在 Microsoft Office 2007 发行版中引入的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsx)
+Office Open XML Workbook Macro-Free (XLSX) 表示 Microsoft 在发布 Microsoft Office 2007 时引入的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsx)
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsx;

@@ -3,7 +3,7 @@ title: CssText
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Представляет один текстовый ресурс CSS
 type: docs
-weight: 480
+weight: 630
 url: /ru/net/groupdocs.editor.htmlcss.resources.textual/csstext/
 ---
 ## CssText class

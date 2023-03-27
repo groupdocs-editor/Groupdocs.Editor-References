@@ -36,7 +36,7 @@ public WoffFont(string name, string contentInBase64)
 
 ## WoffFont(string, Stream) {#constructor}
 
-Skapar ny WoffFont-klass från innehåll, representerat som byteström och med specificerat namn
+Skapar ny WoffFont-klass från innehåll, representerad som byteström och med specificerat namn
 
 ```csharp
 public WoffFont(string name, Stream binaryContent)

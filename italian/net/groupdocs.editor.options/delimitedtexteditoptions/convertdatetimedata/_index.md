@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. Limpostazione predefinita è false.
+description: Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. Limpostazione predefinita èfalso .
 type: docs
 weight: 20
 url: /it/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. L'impostazione predefinita è false.
+Ottiene o imposta un valore che indica se la stringa nel documento basato su testo viene convertita nei dati della data. L'impostazione predefinita è`falso` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

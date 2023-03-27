@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Получает или задает значение указывающее преобразуется ли строка в текстовом документе в данные даты. По умолчанию false.
+description: Получает или задает значение указывающее преобразуется ли строка в текстовом документе в данные даты. По умолчаниюЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в данные даты. По умолчанию false.
+Получает или задает значение, указывающее, преобразуется ли строка в текстовом документе в данные даты. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

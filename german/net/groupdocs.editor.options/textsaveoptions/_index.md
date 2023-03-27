@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von Textdokumenten TXT
 type: docs
-weight: 950
+weight: 1160
 url: /de/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class

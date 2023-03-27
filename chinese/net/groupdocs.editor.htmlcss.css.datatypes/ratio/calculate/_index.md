@@ -1,14 +1,14 @@
 ---
 title: Calculate
 second_title: GroupDocs.Editor for .NET API 参考
-description: 计算该比率并将其作为单个浮点数返回
+description: 计算并返回该比率作为单个浮点数
 type: docs
-weight: 60
+weight: 50
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method
 
-计算该比率并将其作为单个浮点数返回
+计算并返回该比率作为单个浮点数
 
 ```csharp
 public double Calculate()

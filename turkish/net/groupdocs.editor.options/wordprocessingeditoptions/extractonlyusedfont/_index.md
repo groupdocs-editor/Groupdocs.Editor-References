@@ -16,7 +16,7 @@ public bool ExtractOnlyUsedFont { get; set; }
 
 ### Mülk değeri
 
-`doğru` sadece belgenin metin içeriğinde kullanılan yazı tipi kaynaklarının çıkarılması gerekiyorsa; aksi halde,`yanlış` . Varsayılan değer:`yanlış` .
+`doğru` sadece belgenin metin içeriğinde kullanılan yazı tipi kaynaklarının çıkarılması gerekiyorsa; aksi takdirde,`YANLIŞ` . Varsayılan değer:`YANLIŞ` .
 
 ### Notlar
 

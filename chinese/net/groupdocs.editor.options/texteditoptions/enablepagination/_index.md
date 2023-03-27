@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许在生成的 HTML 文档中启用或禁用分页默认情况下禁用假
+description: 允许在生成的 HTML 文档中启用或禁用分页默认情况下禁用 false.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/texteditoptions/enablepagination/
 ---
 ## TextEditOptions.EnablePagination property
 
-允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用（假）。
+允许在生成的 HTML 文档中启用或禁用分页。默认情况下禁用 (false).
 
 ```csharp
 public bool EnablePagination { get; set; }

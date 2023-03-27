@@ -1,21 +1,22 @@
 ---
 title: CDataFontSettings
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责表示CDATA部分的字体包括一对开始和结束标签
+description: 负责表示 CDATA 部分的字体包括一对开始和结束标记
 type: docs
-weight: 70
+weight: 30
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 ---
 ## XmlHighlightOptions.CDataFontSettings property
 
-负责表示CDATA部分的字体（包括一对开始和结束标签）
+负责表示 CDATA 部分的字体（包括一对开始和结束标记）
 
 ```csharp
-public Font CDataFontSettings { get; set; }
+public WebFont CDataFontSettings { get; }
 ```
 
 ### 也可以看看
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * 部件 [GroupDocs.Editor](../../../)

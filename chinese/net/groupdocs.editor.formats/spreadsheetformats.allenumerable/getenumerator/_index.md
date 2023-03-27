@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回所有可支持的 SpreadsheetFormats 格式的枚举器
+description: 返回所有支持的 SpreadsheetFormats 格式的枚举器
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.formats/spreadsheetformats.allenumerable/getenumerator/
 ---
 ## SpreadsheetFormats.AllEnumerable.GetEnumerator method
 
-返回所有可支持的 SpreadsheetFormats 格式的枚举器
+返回所有支持的 SpreadsheetFormats 格式的枚举器
 
 ```csharp
 public IEnumerator<SpreadsheetFormats> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<SpreadsheetFormats> GetEnumerator()
 
 ### 返回值
 
-实现 IEnumerator 的内部类的实例
+内部类的实例，实现了 IEnumerator
 
 ### 也可以看看
 

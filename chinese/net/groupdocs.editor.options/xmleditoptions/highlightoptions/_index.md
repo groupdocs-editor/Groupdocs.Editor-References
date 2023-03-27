@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许调整突出显示当它以 HTML 表示时将应用于 XML 结构 默认为 NULL  应用默认突出显示
+description: 允许调整 XML 突出显示当它以 HTML 表示时将应用于 XML 结构使用默认突出显示并且可以调整不能为 null.
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-允许调整突出显示，当它以 HTML 表示时，将应用于 XML 结构。 默认为 NULL — 应用默认突出显示。
+允许调整 XML 突出显示，当它以 HTML 表示时，将应用于 XML 结构。使用默认突出显示并且可以调整。不能为 null.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### 也可以看看

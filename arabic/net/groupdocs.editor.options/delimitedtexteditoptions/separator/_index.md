@@ -14,6 +14,12 @@ url: /ar/net/groupdocs.editor.options/delimitedtexteditoptions/separator/
 public string Separator { get; set; }
 ```
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentException | يتم طرحه عندما يكون الفاصل المحدد عبارة عن سلسلة فارغة أو فارغة |
+
 ### أنظر أيضا
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

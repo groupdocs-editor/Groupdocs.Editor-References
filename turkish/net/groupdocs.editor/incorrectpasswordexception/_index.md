@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Belirtilen şifre yanlış olduğunda atılan istisna.
 type: docs
-weight: 530
+weight: 680
 url: /tr/net/groupdocs.editor/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

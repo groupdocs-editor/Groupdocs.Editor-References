@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع خطأ دائمًا  حيث لا يمكن تشفير المستندات النصية.
+description: تُرجع دائمًا خطأ شنيع  حيث لا يمكن تشفير المستندات النصية
 type: docs
 weight: 30
 url: /ar/net/groupdocs.editor.metadata/textualdocumentinfo/isencrypted/
 ---
 ## TextualDocumentInfo.IsEncrypted property
 
-إرجاع "خطأ" دائمًا ، حيث لا يمكن تشفير المستندات النصية.
+تُرجع دائمًا ``خطأ شنيع` `، حيث لا يمكن تشفير المستندات النصية
 
 ```csharp
 public bool IsEncrypted { get; }

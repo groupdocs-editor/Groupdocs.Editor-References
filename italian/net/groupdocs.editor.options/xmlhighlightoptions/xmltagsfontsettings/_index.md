@@ -3,7 +3,7 @@ title: XmlTagsFontSettings
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Responsabile della rappresentazione del carattere dei tag XML parentesi angolari con nomi di tag
 type: docs
-weight: 130
+weight: 70
 url: /it/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
@@ -11,11 +11,12 @@ url: /it/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 Responsabile della rappresentazione del carattere dei tag XML (parentesi angolari con nomi di tag)
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### Guarda anche
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * spazio dei nomi [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * assemblea [GroupDocs.Editor](../../../)

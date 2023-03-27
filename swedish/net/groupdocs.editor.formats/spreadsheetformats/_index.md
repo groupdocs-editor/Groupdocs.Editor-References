@@ -26,7 +26,7 @@ public struct SpreadsheetFormats : IDocumentFormat, IEquatable<SpreadsheetFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Returnerar instans av[`SpreadsheetFormats`](../spreadsheetformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/spreadsheetformats/fromextension)(string) | Returnerar instans av[`SpreadsheetFormats`](../spreadsheetformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_2)(object) | Bestämmer om denna instans är lika med det andra angivna objektet, det vill säga antagligen av boxed SpreadsheetFormats |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_1)(SpreadsheetFormats) | Avgör om denna instans är lika med den andra angivna SpreadsheetFormats-instansen |

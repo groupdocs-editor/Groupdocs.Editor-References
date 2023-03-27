@@ -16,7 +16,7 @@ public static bool operator !=(FixedLayoutFormats first, FixedLayoutFormats seco
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| first | FixedLayoutFormats | Prima istanza FixedLayoutFormats da verificare |
+| first | FixedLayoutFormats | Prima istanza FixedLayoutFormats da controllare |
 | second | FixedLayoutFormats | Seconda istanza FixedLayoutFormats da controllare |
 
 ### Valore di ritorno

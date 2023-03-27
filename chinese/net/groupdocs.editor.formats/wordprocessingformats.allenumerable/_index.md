@@ -1,14 +1,14 @@
 ---
 title: WordProcessingFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API 参考
-description: 实现 IEnumerable 通用接口为 WordProcessingFormats 类型启用foreach可能性
+description: 实现 IEnumerable 通用接口为 WordProcessingFormats type 启用foreach可能性
 type: docs
 weight: 180
 url: /zh/net/groupdocs.editor.formats/wordprocessingformats.allenumerable/
 ---
 ## WordProcessingFormats.AllEnumerable class
 
-实现 IEnumerable 通用接口，为 WordProcessingFormats 类型启用“foreach”可能性
+实现 IEnumerable 通用接口，为 WordProcessingFormats type 启用“foreach”可能性
 
 ```csharp
 public sealed class AllEnumerable : IEnumerable<WordProcessingFormats>
@@ -24,7 +24,7 @@ public sealed class AllEnumerable : IEnumerable<WordProcessingFormats>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../groupdocs.editor.formats/allenumerable/getenumerator)() | 返回所有可支持的字处理格式的枚举器 |
+| [GetEnumerator](../../groupdocs.editor.formats/allenumerable/getenumerator)() | 返回所有支持的文字处理格式的枚举器 |
 
 ### 也可以看看
 

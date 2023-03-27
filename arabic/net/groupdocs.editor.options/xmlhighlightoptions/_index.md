@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على خيارات تسمح بتخصيص تمييز XML أثناء تحويل XML إلى HTML
 type: docs
-weight: 1050
+weight: 1290
 url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Default_Constructor |
-
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | يحدد لون خط أسماء السمات |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | مسؤول عن تمثيل خط أسماء السمات |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | يحدد لون خط قيم السمة |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | مسؤول عن تمثيل خط قيم السمة |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | يحدد لون خط أقسام CDATA (بما في ذلك زوج من علامات الفتح والإغلاق) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | مسؤول عن تمثيل خط أقسام CDATA (بما في ذلك زوج من علامات الفتح والإغلاق) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | يحدد لون خط تعليقات HTML (بما في ذلك زوج من علامات الفتح والإغلاق) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | مسؤول عن تمثيل خط تعليقات HTML (بما في ذلك زوج من علامات الفتح والإغلاق) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | يحدد لون خط نص العلامة الداخلية |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | مسؤول عن تمثيل خط نص العلامة الداخلية |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | يحدد لون خط علامات XML (أقواس زاوية بأسماء العلامات) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | مسؤول عن تمثيل خط علامات XML (الأقواس المعقوفة بأسماء العلامات) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | مسؤول عن تمثيل خط أسماء السمات |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | مسؤول عن تمثيل خط قيم السمة |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | مسؤول عن تمثيل خط أقسام CDATA (بما في ذلك زوج من علامات الفتح والإغلاق) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | مسؤول عن تمثيل خط تعليقات HTML (بما في ذلك زوج من علامات الفتح والإغلاق) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | مسؤول عن تمثيل خط نص العلامة الداخلية |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | تحديد ما إذا كان كائن خيارات تمييز XML هذا يحتوي على إعدادات الخط الافتراضية |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | مسؤول عن تمثيل خط علامات XML (الأقواس المعقوفة بأسماء العلامات) |
+
+## طُرق
+
+| اسم | وصف |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | إعادة تعيين إعدادات الخط الحالية إلى قيمها الافتراضية |
 
 ### أنظر أيضا
 

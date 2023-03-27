@@ -3,7 +3,7 @@ title: TextualDocumentInfo
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل البيانات الوصفية لمستند نصي واحد مثل XML أو HTML أو نص عادي TXT
 type: docs
-weight: 630
+weight: 780
 url: /ar/net/groupdocs.editor.metadata/textualdocumentinfo/
 ---
 ## TextualDocumentInfo structure
@@ -20,7 +20,7 @@ public struct TextualDocumentInfo : IDocumentInfo
 | --- | --- |
 | [Encoding](../../groupdocs.editor.metadata/textualdocumentinfo/encoding) { get; } | المرتجعات التي تم اكتشافها عن ترميز النص المفترض للوثيقة |
 | [Format](../../groupdocs.editor.metadata/textualdocumentinfo/format) { get; } | إرجاع تنسيق هذا المستند النصي. قد لا تكون صحيحة بنسبة 100٪ في بعض الحالات . |
-| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | إرجاع "خطأ" دائمًا ، حيث لا يمكن تشفير المستندات النصية. |
+| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | تُرجع دائمًا ``خطأ شنيع` `، حيث لا يمكن تشفير المستندات النصية |
 | [PageCount](../../groupdocs.editor.metadata/textualdocumentinfo/pagecount) { get; } | تُرجع دائمًا 1 |
 | [Size](../../groupdocs.editor.metadata/textualdocumentinfo/size) { get; } | إرجاع الحجم بالبايت (وليس عدد الأحرف) لهذا المستند النصي |
 

@@ -3,7 +3,7 @@ title: InvalidImageFormatException
 second_title: GroupDocs.Editor för .NET API-referens
 description: Undantaget som skapas när man försöker öppna ladda spara eller bearbeta på något annat sätt något innehåll som förmodligen är en bild raster eller vektor men som faktiskt är en bild av oväntat och/eller ostödd format eller inte en bild på alla.
 type: docs
-weight: 230
+weight: 330
 url: /sv/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class

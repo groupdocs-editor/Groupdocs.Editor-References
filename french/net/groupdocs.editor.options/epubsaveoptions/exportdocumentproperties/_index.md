@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Spécifie sil faut exporter les propriétés de document intégrées et personnalisées au format IDPF EPUB. La valeur par défaut estfaux .
+description: Spécifie sil faut exporter les propriétés de document intégrées et personnalisées au format IDPF EPUB. La valeur par défaut estFAUX .
 type: docs
 weight: 20
 url: /fr/net/groupdocs.editor.options/epubsaveoptions/exportdocumentproperties/
 ---
 ## EpubSaveOptions.ExportDocumentProperties property
 
-Spécifie s'il faut exporter les propriétés de document intégrées et personnalisées au format IDPF EPUB. La valeur par défaut est`faux` .
+Spécifie s'il faut exporter les propriétés de document intégrées et personnalisées au format IDPF EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

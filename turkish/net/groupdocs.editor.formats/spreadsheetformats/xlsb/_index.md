@@ -1,14 +1,14 @@
 ---
 title: Xlsb
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Excel İkili Çalışma Kitabı XLSB Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlsb .
+description: Excel İkili Çalışma Kitabı XLSB Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/xlsb/
 ---
 ## SpreadsheetFormats.Xlsb field
 
-Excel İkili Çalışma Kitabı (XLSB), Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlsb) .
+Excel İkili Çalışma Kitabı (XLSB), Excel çalışma kitabı içeriğini belirten bir kayıt ve yapı koleksiyonu olan Excel İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlsb) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsb;

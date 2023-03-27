@@ -1,14 +1,14 @@
 ---
 title: WorksheetProtection
 second_title: GroupDocs.Editor for .NET API 参考
-description: 封装工作表保护选项允许保护输出电子表格文档中的工作表不被修改指定类型 与指定的密码
+description: 封装工作表保护选项允许使用指定密码保护输出电子表格文档中的工作表免受指定类型 的修改
 type: docs
-weight: 1020
+weight: 1250
 url: /zh/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class
 
-封装工作表保护选项，允许保护输出电子表格文档中的工作表不被修改指定类型 与指定的密码。
+封装工作表保护选项，允许使用指定密码保护输出电子表格文档中的工作表免受指定类型 的修改。
 
 ```csharp
 public sealed class WorksheetProtection
@@ -18,19 +18,19 @@ public sealed class WorksheetProtection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WorksheetProtection](worksheetprotection#constructor)() | 使用默认参数创建新实例。如果未修改并传递给 SpreadsheetSaveOptions，则不会应用任何工作表保护 |
-| [WorksheetProtection](worksheetprotection#constructor_1)(WorksheetProtectionType, string) | 使用指定的工作表保护类型和密码创建新实例 |
+| [WorksheetProtection](worksheetprotection#constructor)() | 使用默认参数创建新实例。如果不修改并传递给 SpreadsheetSaveOptions，则不会应用任何工作表保护 |
+| [WorksheetProtection](worksheetprotection#constructor_1)(WorksheetProtectionType, string) | 创建具有指定工作表保护类型和密码的新实例 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Password](../../groupdocs.editor.options/worksheetprotection/password) { get; set; } | 密码，用于保护工作表。如果为 NULL 或空字符串，则不会应用保护。 |
-| [ProtectionType](../../groupdocs.editor.options/worksheetprotection/protectiontype) { get; set; } | 允许指定工作表保护类型。默认情况下为“无” - 不应用保护。 |
+| [ProtectionType](../../groupdocs.editor.options/worksheetprotection/protectiontype) { get; set; } | 允许指定一种工作表保护。默认情况下为“无”- 不应用保护。 |
 
 ### 评论
 
-大多数电子表格格式（如 XLSX）都允许使用密码保护工作表不被编辑。 此类允许启用此类保护并指定其选项。
+大多数电子表格格式（如 XLSX）允许使用密码保护工作表不被编辑。 此类允许启用此类保护并指定其选项。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Pptm
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: File PPTM Microsoft Office Open XML PresentationML creati con Microsoft PowerPoint 2007 o versioni successive. Sono simili ai file PPTX con la differenza che i laterali non possono eseguire macro sebbene possano contenere macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/pptm .
+description: File PPTM Microsoft Office Open XML PresentationML creati con Microsoft PowerPoint 2007 o versioni successive. Sono simili ai file PPTX con la differenza che i laterali non possono eseguire macro sebbene possano contenere macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/pptm .
 type: docs
 weight: 110
 url: /it/net/groupdocs.editor.formats/presentationformats/pptm/
 ---
 ## PresentationFormats.Pptm field
 
-File PPTM (Microsoft Office Open XML PresentationML) creati con Microsoft PowerPoint 2007 o versioni successive. Sono simili ai file PPTX con la differenza che i laterali non possono eseguire macro sebbene possano contenere macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/pptm) .
+File PPTM (Microsoft Office Open XML PresentationML) creati con Microsoft PowerPoint 2007 o versioni successive. Sono simili ai file PPTX con la differenza che i laterali non possono eseguire macro sebbene possano contenere macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/pptm) .
 
 ```csharp
 public static readonly PresentationFormats Pptm;

@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: GroupDocs.Editor för .NET API-referens
 description: Värdet har enhetslös typ men är inte en nolla  positivt eller negativt tal
 type: docs
-weight: 160
+weight: 150
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

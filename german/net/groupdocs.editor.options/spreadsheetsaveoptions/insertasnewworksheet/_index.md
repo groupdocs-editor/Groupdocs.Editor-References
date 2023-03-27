@@ -16,7 +16,7 @@ public bool InsertAsNewWorksheet { get; set; }
 
 ### Bemerkungen
 
-Standardmäßig wird das Arbeitsblatt ersetzt. Dies bedeutet, dass eine gegebene Tabelle 5 Arbeitsblätter hat und[`WorksheetNumber`](../worksheetnumber) =4, dann wird das vierte Arbeitsblatt durch das neu bearbeitete Arbeitsblatt ersetzt, während die Gesamtzahl der Arbeitsblätter in der Tabelle (5) unverändert bleibt. Wenn der Wert dieser Eigenschaft jedoch auf gesetzt istStimmtwird das neu bearbeitete Arbeitsblatt als 4. Arbeitsblatt eingefügt, und alle nachfolgenden Arbeitsblätter werden an das Ende verschoben: Das "alte" 4. Arbeitsblatt wird zum 5., und das 5. wird zum 6., und die Gesamtzahl der Arbeitsblätter in der Tabelle wird um eins erhöht und gleich 6.
+Standardmäßig wird das Arbeitsblatt ersetzt. Dies bedeutet, dass eine gegebene Tabelle 5 Arbeitsblätter hat und[`WorksheetNumber`](../worksheetnumber) =4, dann wird das vierte Arbeitsblatt durch das neu bearbeitete Arbeitsblatt ersetzt, während die Gesamtzahl der Arbeitsblätter in der Tabelle (5) unverändert bleibt. Wenn der Wert dieser Eigenschaft jedoch auf gesetzt istWAHRwird das neu bearbeitete Arbeitsblatt als 4. Arbeitsblatt eingefügt, und alle nachfolgenden Arbeitsblätter werden an das Ende verschoben: Das "alte" 4. Arbeitsblatt wird zum 5., und das 5. wird zum 6., und die Gesamtzahl der Arbeitsblätter in der Tabelle wird um eins erhöht und gleich 6.
 
 ### Siehe auch
 

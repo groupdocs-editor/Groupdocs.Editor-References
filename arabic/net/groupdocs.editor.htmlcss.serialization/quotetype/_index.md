@@ -3,23 +3,42 @@ title: QuoteType
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل أحرف الاقتباس  علامة الاقتباس الفردية  والاقتباس المزدوج 
 type: docs
-weight: 520
+weight: 670
 url: /ar/net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
-## QuoteType enumeration
+## QuoteType structure
 
 يمثل أحرف الاقتباس - علامة الاقتباس الفردية (') والاقتباس المزدوج (")
 
 ```csharp
-public enum QuoteType
+public struct QuoteType : IEquatable<QuoteType>
 ```
 
-### قيم
+## الخصائص
 
-| اسم | قيمة | وصف |
-| --- | --- | --- |
-| SingleQuote | `39` | اقتباس مفرد (U + 0027 حرف APOSTROPHE) |
-| DoubleQuote | `34` | اقتباس مزدوج (U + 0022 حرف علامة اقتباس) |
+| اسم | وصف |
+| --- | --- |
+| [Character](../../groupdocs.editor.htmlcss.serialization/quotetype/character) { get; } | الحرف المطلوب enquote |
+| [Code](../../groupdocs.editor.htmlcss.serialization/quotetype/code) { get; } | نقطة الرمز للحرف الحالي (U + 0027 أو U + 0022) |
+| [HtmlEncoded](../../groupdocs.editor.htmlcss.serialization/quotetype/htmlencoded) { get; } | حرف بتشفير HTML |
+
+## طُرق
+
+| اسم | وصف |
+| --- | --- |
+| override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | يشير إلى ما إذا كان مثيل نوع عرض الأسعار هذا مساويًا لـ uncasted المحدد |
+| [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | يشير إلى ما إذا كان هذا المثيل لنوع عرض الأسعار مساويًا لـ selected |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | إرجاع رمز تجزئة لهذا الحرف |
+| [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | التحقق مما إذا كانت قيمتا "QuoteType" متساويتين |
+| [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | قوالب محددة[`QuoteType`](../quotetype) مثال علىChar (2 operators) |
+| [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | التحقق مما إذا كانت قيمتان "QuoteType" غير متساويتين |
+
+## مجالات
+
+| اسم | وصف |
+| --- | --- |
+| static readonly [DoubleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/doublequote) | اقتباس مزدوج (U + 0022 حرف علامة اقتباس) |
+| static readonly [SingleQuote](../../groupdocs.editor.htmlcss.serialization/quotetype/singlequote) | اقتباس مفرد (U + 0027 حرف APOSTROPHE) |
 
 ### أنظر أيضا
 

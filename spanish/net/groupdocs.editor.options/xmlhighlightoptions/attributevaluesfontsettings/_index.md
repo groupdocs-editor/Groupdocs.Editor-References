@@ -3,7 +3,7 @@ title: AttributeValuesFontSettings
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Responsable de representar la fuente de valores de atributo
 type: docs
-weight: 50
+weight: 20
 url: /es/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings/
 ---
 ## XmlHighlightOptions.AttributeValuesFontSettings property
@@ -11,11 +11,12 @@ url: /es/net/groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontset
 Responsable de representar la fuente de valores de atributo
 
 ```csharp
-public Font AttributeValuesFontSettings { get; set; }
+public WebFont AttributeValuesFontSettings { get; }
 ```
 
 ### Ver también
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * espacio de nombres [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * asamblea [GroupDocs.Editor](../../../)

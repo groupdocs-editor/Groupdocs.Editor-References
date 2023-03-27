@@ -1,14 +1,14 @@
 ---
 title: ShowHiddenSlides
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指定是否应包含隐藏的幻灯片默认为 false  不显示隐藏的幻灯片并且在尝试编辑它们时将引发异常
+description: 指定是否应包含隐藏的幻灯片默认为 false  隐藏的幻灯片不会显示并且在尝试编辑它们时会抛出异常
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/presentationeditoptions/showhiddenslides/
 ---
 ## PresentationEditOptions.ShowHiddenSlides property
 
-指定是否应包含隐藏的幻灯片。默认为 false - 不显示隐藏的幻灯片，并且在尝试编辑它们时将引发异常。
+指定是否应包含隐藏的幻灯片。默认为 false - 隐藏的幻灯片不会显示，并且在尝试编辑它们时会抛出异常。
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

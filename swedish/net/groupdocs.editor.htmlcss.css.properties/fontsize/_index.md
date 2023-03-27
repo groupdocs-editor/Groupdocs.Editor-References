@@ -1,0 +1,59 @@
+---
+title: FontSize
+second_title: GroupDocs.Editor för .NET API-referens
+description: Representerar en teckenstorlek som en speciell enhet eller ett längdvärde som anger storleken på teckensnittet historiskt bredden på versaler M.
+type: docs
+weight: 290
+url: /sv/net/groupdocs.editor.htmlcss.css.properties/fontsize/
+---
+## FontSize structure
+
+Representerar en teckenstorlek som en speciell enhet eller ett längdvärde, som anger storleken på teckensnittet (historiskt bredden på versaler "M").
+
+```csharp
+public struct FontSize : IEquatable<FontSize>
+```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [IsAbsoluteSize](../../groupdocs.editor.htmlcss.css.properties/fontsize/isabsolutesize) { get; } | Indikerar om denna teckensnittsstorlek är definierad med en absolut storlek som ett nyckelord, baserat på användarens standardteckenstorlek (som är medium) |
+| [IsInitial](../../groupdocs.editor.htmlcss.css.properties/fontsize/isinitial) { get; } | Indikerar om den här teckensnittsstorleken har ett initialt värde (Medium) |
+| [IsLengthDefined](../../groupdocs.editor.htmlcss.css.properties/fontsize/islengthdefined) { get; } | Indikerar om denna typsnittsstorlek är definierad med en[`Length`](../../groupdocs.editor.htmlcss.css.datatypes/length) värde |
+| [IsRelativeSize](../../groupdocs.editor.htmlcss.css.properties/fontsize/isrelativesize) { get; } | Indikerar om denna teckensnittsstorlek är definierad med en relativ storlek som nyckelord. Teckensnittet kommer att vara större eller mindre i förhållande till det överordnade elementets teckensnittsstorlek, ungefär med förhållandet som används för att separera nyckelorden i absolut storlek. |
+| [Length](../../groupdocs.editor.htmlcss.css.properties/fontsize/length) { get; } | Ett längdvärde, om den här teckenstorleken definierades med den, eller ett undantag annars |
+| [Value](../../groupdocs.editor.htmlcss.css.properties/fontsize/value) { get; } | Returnerar ett värde av denna teckenstorlek som en string |
+
+## Metoder
+
+| namn | Beskrivning |
+| --- | --- |
+| static [FromLength](../../groupdocs.editor.htmlcss.css.properties/fontsize/fromlength)(Length) | Skapar en teckenstorlek från angiven längd |
+| [Equals](../../groupdocs.editor.htmlcss.css.properties/fontsize/equals#equals)(FontSize) | Avgör om den här font-size-instansen är lika med specific |
+| override [Equals](../../groupdocs.editor.htmlcss.css.properties/fontsize/equals#equals_1)(object) | Bestämmer om den här font-size-instansen är lika med specificerad uncasted |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.css.properties/fontsize/gethashcode)() | Returnerar en hash-kod för denna instans |
+| static [TryParse](../../groupdocs.editor.htmlcss.css.properties/fontsize/tryparse)(string, out FontSize) | Försöker känna igen ett specificerat nyckelord som ett korrekt nyckelordsvärde för "font-size" och returnerar det vid framgång eller NULL vid misslyckande. |
+| [operator ==](../../groupdocs.editor.htmlcss.css.properties/fontsize/op_equality) | Kontrollerar om två "FontSize"-värden är lika |
+| [operator !=](../../groupdocs.editor.htmlcss.css.properties/fontsize/op_inequality) | Kontrollerar om två "FontSize"-värden inte är lika |
+
+## Fält
+
+| namn | Beskrivning |
+| --- | --- |
+| static readonly [Large](../../groupdocs.editor.htmlcss.css.properties/fontsize/large) | Den normalt stora absoluta storleken |
+| static readonly [Larger](../../groupdocs.editor.htmlcss.css.properties/fontsize/larger) | Larger relative-size - teckensnittet kommer att vara större i förhållande till det överordnade elementets teckensnittsstorlek, ungefär med förhållandet som används för att separera nyckelorden i absolut storlek ovan. |
+| static readonly [Medium](../../groupdocs.editor.htmlcss.css.properties/fontsize/medium) | Medium storlek. Initialt värde. |
+| static readonly [Small](../../groupdocs.editor.htmlcss.css.properties/fontsize/small) | Den normalt sett lilla absoluta storleken |
+| static readonly [Smaller](../../groupdocs.editor.htmlcss.css.properties/fontsize/smaller) | Mindre relativ storlek - teckensnittet kommer att vara mindre i förhållande till det överordnade elementets teckensnittsstorlek, ungefär med förhållandet som används för att separera nyckelorden i absolut storlek ovan. |
+| static readonly [XLarge](../../groupdocs.editor.htmlcss.css.properties/fontsize/xlarge) | Den mediokra stora absoluta storleken |
+| static readonly [XSmall](../../groupdocs.editor.htmlcss.css.properties/fontsize/xsmall) | Den mediokra lilla absoluta storleken |
+| static readonly [XxLarge](../../groupdocs.editor.htmlcss.css.properties/fontsize/xxlarge) | Den mycket stora absoluta storleken |
+| static readonly [XxSmall](../../groupdocs.editor.htmlcss.css.properties/fontsize/xxsmall) | Den mycket lilla absoluta storleken |
+
+### Se även
+
+* namnutrymme [GroupDocs.Editor.HtmlCss.Css.Properties](../../groupdocs.editor.htmlcss.css.properties)
+* hopsättning [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Editor.dll -->

@@ -1,14 +1,14 @@
 ---
 title: AudioType
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一种可支持的音频类型格式
+description: 代表一种可支持的音频类型格式
 type: docs
-weight: 240
+weight: 340
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/audiotype/
 ---
 ## AudioType structure
 
-表示一种可支持的音频类型（格式）
+代表一种可支持的音频类型（格式）
 
 ```csharp
 public struct AudioType : IEquatable<AudioType>, IResourceType
@@ -28,10 +28,10 @@ public struct AudioType : IEquatable<AudioType>, IResourceType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.audio/audiotype/parsefromfilenamewithextension)(string) | 返回AudioType值，相当于文件扩展名，从指定文件名中提取 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.audio/audiotype/equals#equals)(AudioType) | 确定此实例是否等于指定的“AudioType”实例 |
-| override [Equals](../../groupdocs.editor.htmlcss.resources.audio/audiotype/equals#equals_1)(object) | 判断此实例是否与指定的未转换对象相等，推测为另一个“AudioType”实例 |
-| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.audio/audiotype/gethashcode)() | 返回一个哈希码，它是这个特定值类型的常数 |
+| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.audio/audiotype/parsefromfilenamewithextension)(string) | 返回AudioType值，相当于从指定文件名 中提取的文件扩展名 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.audio/audiotype/equals#equals)(AudioType) | 确定此实例是否等于指定的“AudioType” instance |
+| override [Equals](../../groupdocs.editor.htmlcss.resources.audio/audiotype/equals#equals_1)(object) | 确定此实例是否与指定的未转换对象相等，这可能是另一个“AudioType”实例 |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.audio/audiotype/gethashcode)() | 返回一个哈希码，它是这个特定值 type 的常数 |
 | [operator ==](../../groupdocs.editor.htmlcss.resources.audio/audiotype/op_equality) | 检查两个“AudioType”值是否相等 |
 | [operator !=](../../groupdocs.editor.htmlcss.resources.audio/audiotype/op_inequality) | 检查两个“AudioType”值是否不相等 |
 

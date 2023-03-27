@@ -16,7 +16,13 @@ public DelimitedTextEditOptions(string separator)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| separator | String | 强制分隔符（分隔符），不能为 NULL 或空 |
+| separator | String | 强制分隔符（定界符），不能为 NULL 或为空 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | 当指定的分隔符为 null 或空字符串时抛出 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gränssnitt för alla sparalternativ för alla dokumenttyper. Deklarerar inga medlemmar.
 type: docs
-weight: 780
+weight: 940
 url: /sv/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

@@ -1,14 +1,14 @@
 ---
 title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定用于生成和保存演示文稿PowerPoint 兼容文档的自定义选项
+description: 允许指定用于生成和保存演示文稿与 PowerPoint 兼容文档的自定义选项
 type: docs
-weight: 880
+weight: 1090
 url: /zh/net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class
 
-允许指定用于生成和保存演示文稿（PowerPoint 兼容）文档的自定义选项
+允许指定用于生成和保存演示文稿（与 PowerPoint 兼容）文档的自定义选项
 
 ```csharp
 public sealed class PresentationSaveOptions : ISaveOptions
@@ -18,20 +18,20 @@ public sealed class PresentationSaveOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationSaveOptions](presentationsaveoptions)(PresentationFormats) | 创建具有指定强制演示输出格式的 PresentationSaveOptions 的新实例，而所有其他参数均为默认值 |
+| [PresentationSaveOptions](presentationsaveoptions)(PresentationFormats) | 使用指定的强制演示输出格式创建 PresentationSaveOptions 的新实例，而所有其他参数均为 default |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InsertAsNewSlide](../../groupdocs.editor.options/presentationsaveoptions/insertasnewslide) { get; set; } | 布尔标志，它指定编辑的幻灯片是否应该替换现有幻灯片在原始演示文稿中的位置，由[`SlideNumber`](./slidenumber)属性，或者应该在现有幻灯片和上一张幻灯片之间注入，而不替换其内容。 默认为 false - 现有幻灯片将被替换。如果值为[`SlideNumber`](./slidenumber)属性设置为“0”。 |
-| [OutputFormat](../../groupdocs.editor.options/presentationsaveoptions/outputformat) { get; set; } | 允许指定用于保存文档的演示格式 |
+| [InsertAsNewSlide](../../groupdocs.editor.options/presentationsaveoptions/insertasnewslide) { get; set; } | 布尔标志，指定编辑后的幻灯片是否应替换原始演示文稿中现有幻灯片的位置，由[`SlideNumber`](./slidenumber)属性，或者应该在现有幻灯片和上一张幻灯片之间注入，而不替换其内容。 默认为 false — 现有幻灯片将被替换。如果值为[`SlideNumber`](./slidenumber)属性设置为“0”. |
+| [OutputFormat](../../groupdocs.editor.options/presentationsaveoptions/outputformat) { get; set; } | 允许指定一种演示文稿格式，该格式将用于保存文档 |
 | [Password](../../groupdocs.editor.options/presentationsaveoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于对生成的演示文档进行编码。 默认为 NULL - 不会设置密码。设置为 NULL 或空字符串以删除密码（如果之前已设置）。 |
-| [SlideNumber](../../groupdocs.editor.options/presentationsaveoptions/slidenumber) { get; set; } | 允许将已编辑的幻灯片插入到现有演示文稿中，而不是创建新的单张幻灯片演示文稿（默认行为）。 幻灯片编号是演示文稿中从 1 开始的幻灯片编号，加载到编辑器类中。如果它是 0（默认值），新的演示文稿将使用单个编辑的幻灯片创建。如果它大于或小于零，并且在 Editor 类中加载了有效的演示文稿，则存储在输入 EditableDocument 实例中的已编辑幻灯片将插入到此演示文稿中。 |
+| [SlideNumber](../../groupdocs.editor.options/presentationsaveoptions/slidenumber) { get; set; } | 允许将已编辑的幻灯片插入现有演示文稿，而不是创建新的单张幻灯片演示文稿（默认行为）。 幻灯片编号是演示文稿中幻灯片的从 1 开始的编号，在 Editor 类中加载。如果它是 0（默认值），新的演示文稿将使用单个编辑过的幻灯片创建。如果它大于或小于零，并且存在有效的演示文稿，加载到 Editor 类中，则存储在输入 EditableDocument 实例中的已编辑幻灯片将被插入到此演示文稿中。 |
 
 ### 评论
 
-这个类的实例应该传入[`Save`](../../groupdocs.editor/editor/save)方法，以便将编辑的演示文稿保存到某些特定于演示文稿格式的最终文档中。它的构造函数有一个强制参数——输出 Presentation 的格式。所有其他参数都是可选的，可以省略。
+此类的实例应传递到[`Save`](../../groupdocs.editor/editor/save)方法，以便将编辑后的演示文稿保存到某些演示文稿特定格式的最终文档中。它的构造函数有一个强制参数——输出 Presentation 的格式。所有其他参数都是可选的，可以省略。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve bu nedenle sayfa sayısı vardır bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
+description: Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve dolayısıyla sayfa sayısı vardır bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.metadata/markdowndocumentinfo/pagecount/
 ---
 ## MarkdownDocumentInfo.PageCount property
 
-Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve bu nedenle sayfa sayısı vardır, bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
+Sayfa sayısını döndürür. Markdown belgelerinin genellikle sabit sayfaları yoktur ve dolayısıyla sayfa sayısı vardır, bu nedenle bu sayı dikey yönde A4 olarak ayarlanan standart sayfa boyutundan hesaplanır.
 
 ```csharp
 public int PageCount { get; }

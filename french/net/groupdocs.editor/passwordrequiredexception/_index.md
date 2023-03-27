@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Lexception qui est levée lorsque lutilisateur essaie douvrir un document crypté protégé par mot de passe dun certain format et ne fournit pas de mot de passe pour ouvrir ce document.
 type: docs
-weight: 1080
+weight: 1320
 url: /fr/net/groupdocs.editor/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

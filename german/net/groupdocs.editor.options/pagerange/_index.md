@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Kapselt einen Seitenbereich ein der offene oder geschlossene Grenzen haben kann. Standardmäßig ist vollständig geöffnet  es enthält alle vorhandenen Seiten. Die Seitennummerierung beginnt bei 1 nicht bei 0.
 type: docs
-weight: 810
+weight: 1020
 url: /de/net/groupdocs.editor.options/pagerange/
 ---
 ## PageRange structure

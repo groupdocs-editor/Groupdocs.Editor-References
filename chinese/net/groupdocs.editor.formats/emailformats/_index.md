@@ -18,46 +18,46 @@ public struct EmailFormats : IDocumentFormat, IEquatable<EmailFormats>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Extension](../../groupdocs.editor.formats/emailformats/extension) { get; } | 在实现类型中应该返回格式文件扩展名（不带前导点字符）。 |
-| [Mime](../../groupdocs.editor.formats/emailformats/mime) { get; } | 在实现类型中应该返回给定格式的 MIME 代码 |
-| [Name](../../groupdocs.editor.formats/emailformats/name) { get; } | 在实现类型中应该返回完整的正式格式 name |
+| [Extension](../../groupdocs.editor.formats/emailformats/extension) { get; } | 在实现类型中应返回格式文件扩展名（不带前导点字符）。 |
+| [Mime](../../groupdocs.editor.formats/emailformats/mime) { get; } | 在实现类型中应返回给定格式的 MIME 代码 |
+| [Name](../../groupdocs.editor.formats/emailformats/name) { get; } | 在实现类型中应返回完整的正式格式名称 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | 返回实例[`EmailFormats`](../emailformats)结构，关联到指定的文件扩展名，或者如果扩展名无法正确解析，则抛出异常 |
-| [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | 确定此实例是否等于其他指定的电子邮件实例 |
-| [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | 确定此实例是否等于其他指定的 IDocumentFormat 实例 |
-| override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | 判断这个实例是否等于另一个指定的对象，大概是装箱的Email |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | 返回实例[`EmailFormats`](../emailformats)结构，与指定的文件扩展名相关联，或者如果无法正确解析扩展名则抛出异常 |
+| [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | 判断这个实例是否等于其他指定的Email实例 |
+| [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | 判断这个实例是否等于另一个指定的IDocumentFormat instance |
+| override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | 确定此实例是否等于其他指定对象，大概是装箱的 Email |
 | override [GetHashCode](../../groupdocs.editor.formats/emailformats/gethashcode)() | 返回一个哈希码，对于这个实例是不可变的 |
 | override [ToString](../../groupdocs.editor.formats/emailformats/tostring)() | 返回此格式的格式名称 |
-| [operator ==](../../groupdocs.editor.formats/emailformats/op_equality) | 检查两个给定的电子邮件实例是否相等 |
-| [operator !=](../../groupdocs.editor.formats/emailformats/op_inequality) | 在不等式 上检查两个给定的电子邮件实例 |
+| [operator ==](../../groupdocs.editor.formats/emailformats/op_equality) | 在 equality 上检查两个给定的 Email 实例 |
+| [operator !=](../../groupdocs.editor.formats/emailformats/op_inequality) | 在 inequality 上检查两个给定的电子邮件实例 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
 | static readonly [Eml](../../groupdocs.editor.formats/emailformats/eml) | EML 文件格式表示使用 Outlook 和其他相关应用程序保存的电子邮件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/eml/). |
-| static readonly [Emlx](../../groupdocs.editor.formats/emailformats/emlx) | EMLX 文件格式由 Apple 实现和开发。 Apple Mail 应用程序使用 EMLX 文件格式导出电子邮件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/emlx/). |
+| static readonly [Emlx](../../groupdocs.editor.formats/emailformats/emlx) | EMLX 文件格式由 Apple 实施和开发。 Apple Mail 应用程序使用 EMLX 文件格式导出电子邮件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/emlx/). |
 | static readonly [Html](../../groupdocs.editor.formats/emailformats/html) | HTML 格式的电子邮件。 |
 | static readonly [Ics](../../groupdocs.editor.formats/emailformats/ics) | Internet 日历和调度核心对象规范 (iCalendar) 是用于交换和部署日历事件和调度的 Internet 标准 (RFC 2445)。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/ics/). |
 | static readonly [Mbox](../../groupdocs.editor.formats/emailformats/mbox) | MBox 文件格式是一个通用术语，表示用于收集电子邮件消息的容器。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/mbox/). |
 | static readonly [Mhtml](../../groupdocs.editor.formats/emailformats/mhtml) | MHTML，“聚合HTML文档的MIME封装”的缩写 |
-| static readonly [Msg](../../groupdocs.editor.formats/emailformats/msg) | MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件、联系人、约会或其他任务的文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/msg/). |
-| static readonly [Oft](../../groupdocs.editor.formats/emailformats/oft) | 带有 .oft 扩展名的文件是使用 Microsoft Outlook 创建的模板文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/oft/). |
-| static readonly [Ost](../../groupdocs.editor.formats/emailformats/ost) | 脱机存储表 (OST) 文件表示在使用 Microsoft Outlook 向 Exchange Server 注册后，在本地计算机上处于脱机模式的用户邮箱数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/ost/). |
-| static readonly [Pst](../../groupdocs.editor.formats/emailformats/pst) | 扩展名为 .pst 的文件代表 Outlook 个人存储文件（也称为个人存储表），用于存储各种用户信息。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/pst/). |
-| static readonly [Tnef](../../groupdocs.editor.formats/emailformats/tnef) | 传输中性封装格式 (TNEF) 是 Microsoft 专有的，用于封装基于消息应用程序编程接口 (MAPI) 的电子邮件附件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/tnef/). |
-| static readonly [Vcf](../../groupdocs.editor.formats/emailformats/vcf) | VCF（虚拟卡格式）或 vCard 是一种用于存储联系信息的数字文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/vcf/). |
-| static readonly [All](../../groupdocs.editor.formats/emailformats/all) | 返回一个内部类，它为所有现有的电子邮件格式提供了可枚举的可能性 |
+| static readonly [Msg](../../groupdocs.editor.formats/emailformats/msg) | MSG 是 Microsoft Outlook 和 Exchange 用来存储电子邮件、联系人、约会或其他任务的文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/msg/). |
+| static readonly [Oft](../../groupdocs.editor.formats/emailformats/oft) | 扩展名为 .oft 的文件是使用 Microsoft Outlook 创建的模板文件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/oft/). |
+| static readonly [Ost](../../groupdocs.editor.formats/emailformats/ost) | 离线存储表 (OST) 文件表示用户在使用 Microsoft Outlook 注册 Exchange Server 后在本地计算机上处于离线模式的邮箱数据。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/ost/). |
+| static readonly [Pst](../../groupdocs.editor.formats/emailformats/pst) | 扩展名为 .pst 的文件代表存储各种用户信息的 Outlook 个人存储文件（也称为个人存储表）。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/pst/). |
+| static readonly [Tnef](../../groupdocs.editor.formats/emailformats/tnef) | Transport Neutral Encapsulation Format (TNEF) 是 Microsoft 专有的，用于封装基于消息应用程序编程接口 (MAPI) 的电子邮件附件。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/tnef/). |
+| static readonly [Vcf](../../groupdocs.editor.formats/emailformats/vcf) | VCF（虚拟卡格式）或 vCard 是一种用于存储联系人信息的数字文件格式。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/email/vcf/). |
+| static readonly [All](../../groupdocs.editor.formats/emailformats/all) | 返回一个内部类，它提供了所有现有电子邮件格式的可枚举可能性 |
 
 ## 其他成员
 
 | 姓名 | 描述 |
 | --- | --- |
-| class [AllEnumerable](emailformats.allenumerable) | 实现 IEnumerable 通用接口，为电子邮件类型启用“foreach”可能性 |
+| class [AllEnumerable](emailformats.allenumerable) | 实现 IEnumerable 通用接口，为电子邮件类型 启用“foreach”可能性 |
 
 ### 评论
 

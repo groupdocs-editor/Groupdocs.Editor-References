@@ -1,14 +1,14 @@
 ---
 title: FileExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 小写特定图像类型的文件扩展名不带前导点字符对于未定义类型返回字符串 unsefined.
+description: 特定图像类型的小写文件扩展名无前导点字符对于 Undefined 类型返回一个字符串 unsefined.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/fileextension/
 ---
 ## ImageType.FileExtension property
 
-小写特定图像类型的文件扩展名（不带前导点字符）。对于未定义类型，返回字符串 'unsefined'.
+特定图像类型的小写文件扩展名（无前导点字符）。对于 Undefined 类型返回一个字符串 'unsefined'.
 
 ```csharp
 public string FileExtension { get; }

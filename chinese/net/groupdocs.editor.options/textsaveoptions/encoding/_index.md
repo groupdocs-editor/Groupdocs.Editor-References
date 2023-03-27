@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 文本文档的字符编码将应用于其保存
+description: 文本文档的字符编码将用于保存
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/textsaveoptions/encoding/
 ---
 ## TextSaveOptions.Encoding property
 
-文本文档的字符编码，将应用于其保存
+文本文档的字符编码，将用于保存
 
 ```csharp
 public Encoding Encoding { get; set; }

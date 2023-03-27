@@ -3,7 +3,7 @@ title: XpsEditOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para editar documentos Especificaciones de papel XML
 type: docs
-weight: 1060
+weight: 1300
 url: /es/net/groupdocs.editor.options/xpseditoptions/
 ---
 ## XpsEditOptions class

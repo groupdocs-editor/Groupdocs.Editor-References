@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Étend linterface standard System.IDisposable permet dobtenir un état actuel dun objet et de sabonner à lévénement de disposition
 type: docs
-weight: 330
+weight: 430
 url: /fr/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

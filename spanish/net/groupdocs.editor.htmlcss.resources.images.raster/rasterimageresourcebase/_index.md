@@ -3,7 +3,7 @@ title: RasterImageResourceBase
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Clase base para cualquier imagen ráster admitida con nombre dimensiones relación de aspecto tipo tamaño y contenido fijos.
 type: docs
-weight: 450
+weight: 550
 url: /es/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/
 ---
 ## RasterImageResourceBase class

@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Contiene opciones que permiten personalizar el resaltado de XML durante la conversión de XML a HTML
 type: docs
-weight: 1050
+weight: 1290
 url: /es/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
@@ -14,28 +14,23 @@ Contiene opciones que permiten personalizar el resaltado de XML durante la conve
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## Constructores
-
-| Nombre | Descripción |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | Constructor predeterminado |
-
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | Define el color de la fuente de los nombres de los atributos |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | Responsable de representar la fuente de los nombres de atributos |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | Define el color para la fuente de los valores de atributo |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | Responsable de representar la fuente de valores de atributo |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | Define el color de la fuente de las secciones CDATA (incluido un par de etiquetas de apertura y cierre) |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | Responsable de representar la fuente de las secciones CDATA (incluyendo un par de etiquetas de apertura y cierre) |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | Define el color de la fuente de los comentarios HTML (incluyendo un par de etiquetas de apertura y cierre) |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | Responsable de representar la fuente de los comentarios HTML (incluyendo un par de etiquetas de apertura y cierre) |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | Define el color de la fuente del texto de la etiqueta interna |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | Responsable de representar la fuente del texto de la etiqueta interna |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | Define el color de la fuente de las etiquetas XML (corchetes angulares con los nombres de las etiquetas) |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | Responsable de representar la fuente de las etiquetas XML (corchetes angulares con los nombres de las etiquetas) |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | Responsable de representar la fuente de los nombres de atributos |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | Responsable de representar la fuente de valores de atributo |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | Responsable de representar la fuente de las secciones CDATA (incluyendo un par de etiquetas de apertura y cierre) |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | Responsable de representar la fuente de los comentarios HTML (incluyendo un par de etiquetas de apertura y cierre) |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | Responsable de representar la fuente del texto de la etiqueta interna |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | Determina si este objeto de opciones XML Highlight tiene una configuración de fuente predeterminada |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | Responsable de representar la fuente de las etiquetas XML (corchetes angulares con los nombres de las etiquetas) |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | Restablece la configuración de fuente actual a sus valores predeterminados |
 
 ### Ver también
 

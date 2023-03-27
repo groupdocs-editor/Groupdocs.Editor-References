@@ -1,14 +1,14 @@
 ---
 title: MailMessageOutput
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许控制邮件消息的哪些部分应发送到输出电子邮件文档这将生成并与Savegroupdocs.editor/editor/save方法
+description: 允许控制将邮件消息的哪些部分传递到输出电子邮件文档该文档将与Savegroupdocs.editor/editor/save方法
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/emailsaveoptions/mailmessageoutput/
 ---
 ## EmailSaveOptions.MailMessageOutput property
 
-允许控制邮件消息的哪些部分应发送到输出电子邮件文档，这将生成并与[`Save`](../../../groupdocs.editor/editor/save)方法
+允许控制将邮件消息的哪些部分传递到输出电子邮件文档，该文档将与[`Save`](../../../groupdocs.editor/editor/save)方法
 
 ```csharp
 public MailMessageOutput MailMessageOutput { get; set; }
@@ -16,7 +16,7 @@ public MailMessageOutput MailMessageOutput { get; set; }
 
 ### 适当的价值
 
-标记的枚举，用于控制应处理的邮件消息部分。默认值为All
+标记的枚举，控制应处理的邮件消息部分。默认值为All
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: PresentationEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Desteklenen tüm Sunum PowerPoint uyumlu biçimlerindeki belgeleri düzenlemek için özel seçenekler belirlemeye izin verir
 type: docs
-weight: 860
+weight: 1070
 url: /tr/net/groupdocs.editor.options/presentationeditoptions/
 ---
 ## PresentationEditOptions class

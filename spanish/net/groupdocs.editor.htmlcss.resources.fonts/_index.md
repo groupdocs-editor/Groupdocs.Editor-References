@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Fonts proporciona clases que representan recursos de fuentes.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 El espacio de nombres GroupDocs.Editor.HtmlCss.Resources.Fonts proporciona clases que representan recursos de fuentes.

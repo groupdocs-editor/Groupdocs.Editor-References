@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve instancia deWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsestructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
+description: Devuelve instancia deWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats estructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
 type: docs
 weight: 120
 url: /es/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-Devuelve instancia de[`WordProcessingFormats`](../../wordprocessingformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
+Devuelve instancia de[`WordProcessingFormats`](../../wordprocessingformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Valor_devuelto
 
-En vez de[`WordProcessingFormats`](../../wordprocessingformats) estructura en caso de éxito o excepción lanzada en caso de error
+En vez de[`WordProcessingFormats`](../../wordprocessingformats)estructura en caso de éxito o excepción lanzada en caso de error
 
 ### Ver también
 

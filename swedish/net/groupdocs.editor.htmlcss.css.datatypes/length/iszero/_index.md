@@ -3,7 +3,7 @@ title: IsZero
 second_title: GroupDocs.Editor för .NET API-referens
 description: Bestämmer om det numeriska värdet för denna längd är ett nolltal
 type: docs
-weight: 180
+weight: 170
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/iszero/
 ---
 ## Length.IsZero property

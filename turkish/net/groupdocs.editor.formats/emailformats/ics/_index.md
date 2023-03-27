@@ -1,14 +1,14 @@
 ---
 title: Ics
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: İnternet Takvimi ve Çizelgeleme Temel Nesne Spesifikasyonu iCalendar takvim olaylarını ve programlamayı değiş tokuş etmek ve dağıtmak için bir internet standardıdır RFC 2445. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/email/ics/ .
+description: İnternet Takvimi ve Çizelgeleme Temel Nesne Spesifikasyonu iCalendar takvim olaylarını ve programlamayı değiş tokuş etmek ve dağıtmak için bir internet standardıdır RFC 2445. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/email/ics/ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.editor.formats/emailformats/ics/
 ---
 ## EmailFormats.Ics field
 
-İnternet Takvimi ve Çizelgeleme Temel Nesne Spesifikasyonu (iCalendar), takvim olaylarını ve programlamayı değiş tokuş etmek ve dağıtmak için bir internet standardıdır (RFC 2445). Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/email/ics/) .
+İnternet Takvimi ve Çizelgeleme Temel Nesne Spesifikasyonu (iCalendar), takvim olaylarını ve programlamayı değiş tokuş etmek ve dağıtmak için bir internet standardıdır (RFC 2445). Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/email/ics/) .
 
 ```csharp
 public static readonly EmailFormats Ics;

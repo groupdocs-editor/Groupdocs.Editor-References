@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückTextualFormatsgroupdocs.editor.formats/textualformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückTextualFormatsgroupdocs.editor.formats/textualformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 80
 url: /de/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`TextualFormats`](../../textualformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`TextualFormats`](../../textualformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

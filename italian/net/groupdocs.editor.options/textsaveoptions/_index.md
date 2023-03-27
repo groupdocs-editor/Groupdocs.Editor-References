@@ -1,14 +1,14 @@
 ---
 title: TextSaveOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Consente di specificare opzioni personalizzate per la generazione e il salvataggio di documenti in testo normale TXT
+description: Consente di specificare opzioni personalizzate per la generazione e il salvataggio di documenti in testo semplice TXT
 type: docs
-weight: 950
+weight: 1160
 url: /it/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class
 
-Consente di specificare opzioni personalizzate per la generazione e il salvataggio di documenti in testo normale (TXT)
+Consente di specificare opzioni personalizzate per la generazione e il salvataggio di documenti in testo semplice (TXT)
 
 ```csharp
 public sealed class TextSaveOptions : ISaveOptions

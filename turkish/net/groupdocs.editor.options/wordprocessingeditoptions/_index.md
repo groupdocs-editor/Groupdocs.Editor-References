@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: DOCX RTF ODT vb. gibi tüm desteklenen WordProcessing Wordsuyumlu biçimlerindeki belgeleri düzenlemek için özel seçenekler belirlemeye izin verir.
 type: docs
-weight: 970
+weight: 1200
 url: /tr/net/groupdocs.editor.options/wordprocessingeditoptions/
 ---
 ## WordProcessingEditOptions class
@@ -29,7 +29,7 @@ public class WordProcessingEditOptions : IEditOptions
 | [EnablePagination](../../groupdocs.editor.options/wordprocessingeditoptions/enablepagination) { get; set; } | Ortaya çıkan HTML belgesinde sayfalandırmayı etkinleştirmeye veya devre dışı bırakmaya izin verir. Varsayılan olarak devre dışıdır (yanlış). |
 | [ExtractOnlyUsedFont](../../groupdocs.editor.options/wordprocessingeditoptions/extractonlyusedfont) { get; set; } | Yalnızca belgenin metin içeriğinde kullanılan yazı tipi kaynaklarının ayıklanıp ayıklanmayacağını belirten bir değer alır veya ayarlar. |
 | [FontExtraction](../../groupdocs.editor.options/wordprocessingeditoptions/fontextraction) { get; set; } | Giriş WordProcessing belgesinde kullanılan yazı tipi kaynaklarının ayıklanmasından sorumludur. Varsayılan olarak herhangi bir yazı tipi çıkarmaz (NotExtract). |
-| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | Girdi Kelime İşleme belgesindeki bazı alanları temsil eden, her HTML öğesindeki 'sınıf' özniteliklerine yerleştirilecek bir sınıf adı belirtmeye izin verir. Varsayılan olarak NULL'dur - 'sınıf' öznitelikleri uygulanmaz. |
+| [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | Girdi WordProcessing belgesindeki bazı alanları temsil eden, her HTML öğesindeki 'sınıf' özniteliklerine yerleştirilecek bir sınıf adının belirtilmesine izin verir. Varsayılan olarak NULL'dur - 'sınıf' öznitelikleri uygulanmaz. |
 
 ### Ayrıca bakınız
 

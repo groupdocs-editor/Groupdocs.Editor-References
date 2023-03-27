@@ -3,7 +3,7 @@ title: GroupDocs.Editor.Options
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.Options предоставляет интерфейсы для параметров загрузки и сохранения.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/groupdocs.editor.options/
 ---
 Пространство имен GroupDocs.Editor.Options предоставляет интерфейсы для параметров загрузки и сохранения.
@@ -20,6 +20,9 @@ url: /ru/net/groupdocs.editor.options/
 | [EmailSaveOptions](./emailsaveoptions) | Позволяет указать пользовательские параметры формирования и сохранения документов электронной почты (email) |
 | [EpubSaveOptions](./epubsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения документов IDPF EPUB (открытый стандарт для электронных книг, созданный Международным форумом цифровых публикаций) |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Базовый абстрактный класс для параметров всех документов форматов с фиксированным макетом, таких как PDF и XPS |
+| [MarkdownEditOptions](./markdowneditoptions) | Позволяет указать пользовательские параметры редактирования документов в формате Markdown (MD) |
+| [MarkdownImageLoadArgs](./markdownimageloadargs) | Предоставляет данные дляProcessImage событие. |
+| [MarkdownSaveOptions](./markdownsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения документов Markdown |
 | [MhtmlSaveOptions](./mhtmlsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения MHTML (инкапсуляция MIME совокупных документов HTML) document |
 | [PdfEditOptions](./pdfeditoptions) | Позволяет указать пользовательские параметры редактирования PDF-документов |
 | [PdfLoadOptions](./pdfloadoptions) | Содержит опции для загрузки PDF-документов в редактор class |
@@ -32,12 +35,14 @@ url: /ru/net/groupdocs.editor.options/
 | [SpreadsheetSaveOptions](./spreadsheetsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения электронных таблиц (совместимых с Excel) документов |
 | [TextEditOptions](./texteditoptions) | Позволяет указать пользовательские параметры для загрузки документов в виде простого текста (TXT) |
 | [TextSaveOptions](./textsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения текстовых документов (TXT) |
+| [WebFont](./webfont) | Представляет настройки шрифта для web |
 | [WordProcessingEditOptions](./wordprocessingeditoptions) | Позволяет указать пользовательские параметры для редактирования документов всех поддерживаемых форматов WordProcessing (Words-совместимых), таких как DOC(X), RTF, ODT и т. д. |
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Содержит параметры для загрузки документов WordProcessing (Word-совместимых), таких как DOC(X), RTF, ODT и т. д., в редактор class |
 | [WordProcessingProtection](./wordprocessingprotection) | Инкапсулирует параметры защиты документа WordProcessing, созданного из HTML |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения документов, совместимых с WordProcessing, после их редактирования |
 | [WorksheetProtection](./worksheetprotection) | Инкапсулирует параметры защиты рабочего листа, которые позволяют защитить рабочий лист в выходном документе электронной таблицы от модификации указанного типа с указанным паролем. |
-| [XmlEditOptions](./xmleditoptions) | Позволяет указать пользовательские параметры для загрузки документов XML (расширяемый язык разметки) и преобразования их в формат HTML |
+| [XmlEditOptions](./xmleditoptions) | Позволяет указать пользовательские параметры для редактирования документов XML (расширяемый язык разметки) и преобразования их в формат HTML |
+| [XmlFormatOptions](./xmlformatoptions) | Содержит параметры, позволяющие настроить форматирование XML-документа, когда он представлен как HTML |
 | [XmlHighlightOptions](./xmlhighlightoptions) | Содержит параметры, позволяющие настроить подсветку XML при преобразовании XML в HTML |
 | [XpsEditOptions](./xpseditoptions) | Позволяет указать пользовательские параметры редактирования (спецификации бумаги XML) документов |
 | [XpsSaveOptions](./xpssaveoptions) | Позволяет указать пользовательские параметры для создания и сохранения документов XPS (XML Paper Specifications) |
@@ -52,6 +57,7 @@ url: /ru/net/groupdocs.editor.options/
 | --- | --- |
 | [IEditOptions](./ieditoptions) | Общий интерфейс для всех опций, отвечающих за преобразование документа в HTML. Объявляет об отсутствии членов. |
 | [ILoadOptions](./iloadoptions) | Общий интерфейс для всех классов опционов, отвечающих за загрузку документов разных типов форматов |
+| [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | Реализуйте этот интерфейс, если вы хотите управлять тем, как GroupDocs.Editor загружает изображения при загрузке файла в формате Markdown |
 | [ISaveOptions](./isaveoptions) | Интерфейс для всех вариантов сохранения для всех типов документов. Объявляет об отсутствии членов. |
 ## перечисление
 
@@ -60,7 +66,10 @@ url: /ru/net/groupdocs.editor.options/
 | [FontEmbeddingOptions](./fontembeddingoptions) | Параметры внедрения шрифтов определяют, какие ресурсы шрифтов должны быть встроены в выходной документ WordProcessing или PDF |
 | [FontExtractionOptions](./fontextractionoptions) | Параметры извлечения шрифтов определяют, какие шрифты следует извлекать и откуда |
 | [MailMessageOutput](./mailmessageoutput) | Управляет тем, какие части почтового сообщения должны быть доставлены в выходную обработку |
+| [MarkdownImageLoadingAction](./markdownimageloadingaction) | Определяет режим загрузки изображения при открытии для редактирования файла в формате Markdown |
+| [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Позволяет указать выравнивание содержимого таблицы, которое будет использоваться при экспорте в формат Markdown |
 | [PdfCompliance](./pdfcompliance) | Указывает уровень соответствия стандартам PDF |
+| [WebFont.TextDecorationLine](./webfont.textdecorationline) | Виды декоративной линии, которая используется в тексте в элементе, например, подчеркивание, надчеркивание или сквозная линия. Можно совмещать вместе или ни с кем. |
 | [TextDirection](./textdirection) | Представляет 3 возможных варианта обработки направления текста в обычных текстовых документах |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | Содержит доступные параметры для обработки начального пробела при открытии текстового документа (TXT) |
 | [TextTrailingSpacesOptions](./texttrailingspacesoptions) | Содержит доступные параметры обработки пробелов в конце при открытии текстового документа (TXT) |

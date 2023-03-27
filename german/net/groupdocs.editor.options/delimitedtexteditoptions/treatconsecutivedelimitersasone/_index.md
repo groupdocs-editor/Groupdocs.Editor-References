@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Definiert ob aufeinanderfolgende Trennzeichen als eines behandelt werden sollen. Standardmäßig ist false.
+description: Definiert ob aufeinanderfolgende Trennzeichen als eines behandelt werden sollen. Standardmäßig istFALSCH .
 type: docs
 weight: 60
 url: /de/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Definiert, ob aufeinanderfolgende Trennzeichen als eines behandelt werden sollen. Standardmäßig ist false.
+Definiert, ob aufeinanderfolgende Trennzeichen als eines behandelt werden sollen. Standardmäßig ist`FALSCH` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

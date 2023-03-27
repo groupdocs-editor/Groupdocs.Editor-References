@@ -3,7 +3,7 @@ title: InvalidFontFormatException
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Muhtemelen desteklenen bilinen formatta bir yazı tipi olan ancak aslında beklenmedik ve/veya desteklenmeyen biçimde bir yazı tipi olan veya şu anda bir yazı tipi olmayan bazı içerikleri açmaya yüklemeye kaydetmeye veya başka bir şekilde işlemeye çalışırken atılan istisna. tümü.
 type: docs
-weight: 220
+weight: 320
 url: /tr/net/groupdocs.editor.htmlcss.exceptions/invalidfontformatexception/
 ---
 ## InvalidFontFormatException class

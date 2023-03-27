@@ -1,14 +1,14 @@
 ---
 title: LocaleBi
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为 RTL从右到左文本的 WordProcessing 文档设置覆盖区域设置语言这将在其创建期间应用 未指定时默认值MS Word或其他程序会根据自己的设置或其他因素检测或选择文档RTL locale 
+description: 允许为 RTL从右到左文本的 WordProcessing 文档设置覆盖区域设置语言这将在其创建期间应用 未指定时默认值MS Word或其他程序会根据自己的设置或其他因素检测或选择文档RTL locale .
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/localebi/
 ---
 ## WordProcessingSaveOptions.LocaleBi property
 
-允许为 RTL（从右到左）文本的 WordProcessing 文档设置覆盖区域设置（语言），这将在其创建期间应用。 未指定时（默认值），MS Word（或其他程序）会根据自己的设置或其他因素检测（或选择）文档RTL locale 。
+允许为 RTL（从右到左）文本的 WordProcessing 文档设置覆盖区域设置（语言），这将在其创建期间应用。 未指定时（默认值），MS Word（或其他程序）会根据自己的设置或其他因素检测（或选择）文档RTL locale .
 
 ```csharp
 public CultureInfo LocaleBi { get; set; }
@@ -16,7 +16,7 @@ public CultureInfo LocaleBi { get; set; }
 
 ### 评论
 
-此选项强制将指定的区域设置应用于文档中的整体 RTL 文本。 如果文档包含不同的文本部分，则不要使用它，这些部分是用不同的语言编写的。
+此选项强制将指定的区域设置应用于文档中的整个 RTL 文本。 如果文档包含用不同语言编写的不同文本部分，请不要使用它。
 
 ### 也可以看看
 

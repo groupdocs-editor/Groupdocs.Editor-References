@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images الفئات التي تمثل موارد الصور من جميع الأنواع بشكل عام.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/groupdocs.editor.htmlcss.resources.images/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images الفئات التي تمثل موارد الصور من جميع الأنواع بشكل عام.

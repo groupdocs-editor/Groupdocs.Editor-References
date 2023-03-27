@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.editor.options/spreadsheetloadoptions/password/
 ---
 ## SpreadsheetLoadOptions.Password property
 
-允许指定、修改和获取密码，该密码将用于打开电子表格文档（如果已编码）。 设置为 NULL 或空字符串，以便不使用密码（默认值）。
+允许指定、修改和获取密码，该密码将用于打开电子表格文档（如果已编码）。 设置为 NULL 或空字符串以便不使用密码（默认值）。
 
 ```csharp
 public string Password { get; set; }

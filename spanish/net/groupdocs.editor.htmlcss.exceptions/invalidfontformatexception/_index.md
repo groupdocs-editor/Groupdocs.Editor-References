@@ -3,7 +3,7 @@ title: InvalidFontFormatException
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: La excepción que se lanza cuando se intenta abrir cargar guardar o procesar de alguna otra manera algún contenido que presumiblemente es una fuente de formato compatible conocido pero en realidad es una fuente de formato inesperado y/o no compatible o no es una fuente en todo.
 type: docs
-weight: 220
+weight: 320
 url: /es/net/groupdocs.editor.htmlcss.exceptions/invalidfontformatexception/
 ---
 ## InvalidFontFormatException class

@@ -26,7 +26,7 @@ public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormat
 
 | اسم | وصف |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | إرجاع مثيل[`FixedLayoutFormats`](../fixedlayoutformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | إرجاع مثيل[`FixedLayoutFormats`](../fixedlayoutformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | تحديد ما إذا كان هذا المثيل مساويًا لتنسيقات FixedLayoutFormats المحددة الأخرى. |
 | [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | تحديد ما إذا كان هذا المثيل مساويًا لمثيل IDocumentFormat المحدد الآخر. |
 | override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | تحديد ما إذا كان هذا المثيل مساويًا للكائن المحدد الآخر ، والذي يُفترض أنه من تنسيقات FixedLayoutFormats المعبأة |

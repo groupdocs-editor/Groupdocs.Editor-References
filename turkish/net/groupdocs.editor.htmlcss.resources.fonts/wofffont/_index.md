@@ -3,7 +3,7 @@ title: WoffFont
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: WOFF Web Açık Yazı Tipi Biçimi formatındaki bir yazı tipini temsil eder
 type: docs
-weight: 320
+weight: 420
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/wofffont/
 ---
 ## WoffFont class

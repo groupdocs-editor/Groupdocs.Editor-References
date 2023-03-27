@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Содержит параметры для загрузки двоичных электронных таблиц ячейки совместимые с Excel документов таких как XLSX ODS и т. д. в редактор class
 type: docs
-weight: 900
+weight: 1110
 url: /ru/net/groupdocs.editor.options/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

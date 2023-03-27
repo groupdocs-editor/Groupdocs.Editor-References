@@ -18,6 +18,12 @@ public DelimitedTextEditOptions(string separator)
 | --- | --- | --- |
 | separator | String | Separatore obbligatorio (delimitatore), che non può essere NULL o vuoto |
 
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentException | Viene generato quando il separatore specificato è una stringa nulla o vuota |
+
 ### Guarda anche
 
 * class [DelimitedTextEditOptions](../../delimitedtexteditoptions)

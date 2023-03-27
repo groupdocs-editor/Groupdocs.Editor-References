@@ -3,7 +3,7 @@ title: InvalidFormatException
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Kullanıcı bazı belgeleri orijinal belge biçimiyle uyumsuz biçime özgü seçeneklerle açmaya çalıştığında atılan istisna.
 type: docs
-weight: 540
+weight: 690
 url: /tr/net/groupdocs.editor/invalidformatexception/
 ---
 ## InvalidFormatException class

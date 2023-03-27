@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры для загрузки документов всех поддерживаемых форматов презентаций таких как PPTX PPTM PPSX и т. д.
 type: docs
-weight: 870
+weight: 1080
 url: /ru/net/groupdocs.editor.options/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

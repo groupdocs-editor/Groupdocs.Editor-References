@@ -3,7 +3,7 @@ title: RecognizeUris
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: URI tanıma algoritmasını etkinleştirmeye izin verir
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/groupdocs.editor.options/xmleditoptions/recognizeuris/
 ---
 ## XmlEditOptions.RecognizeUris property

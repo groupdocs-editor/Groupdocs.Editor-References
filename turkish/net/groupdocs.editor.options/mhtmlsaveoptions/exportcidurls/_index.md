@@ -1,14 +1,14 @@
 ---
 title: ExportCidUrls
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: MHTML belgelerinde yer alan kaynaklara resimler yazı tipleri CSS başvurmak için CID ContentID URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değeryanlış .
+description: MHTML belgelerinde yer alan kaynaklara resimler yazı tipleri CSS başvurmak için CID ContentID URLlerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.editor.options/mhtmlsaveoptions/exportcidurls/
 ---
 ## MhtmlSaveOptions.ExportCidUrls property
 
-MHTML belgelerinde yer alan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (Content-ID) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`yanlış` .
+MHTML belgelerinde yer alan kaynaklara (resimler, yazı tipleri, CSS) başvurmak için CID (Content-ID) URL'lerinin kullanılıp kullanılmayacağını belirtir. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ExportCidUrls { get; set; }

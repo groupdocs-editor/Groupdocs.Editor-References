@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: WMF Windows Meta Dosyası vektör görüntü tipi
+description: WMF Windows Meta Dosyası vektör görüntü türü
 type: docs
 weight: 100
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/imagetype/wmf/
 ---
 ## ImageType.Wmf property
 
-WMF (Windows Meta Dosyası) vektör görüntü tipi
+WMF (Windows Meta Dosyası) vektör görüntü türü
 
 ```csharp
 public static ImageType Wmf { get; }

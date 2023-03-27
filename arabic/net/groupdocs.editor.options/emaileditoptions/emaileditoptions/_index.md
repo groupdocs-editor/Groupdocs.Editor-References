@@ -24,7 +24,7 @@ public EmailEditOptions()
 
 ## EmailEditOptions(MailMessageOutput) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`EmailEditOptions`](../../emaileditoptions) فئة مع[`MailMessageOutput`](../mailmessageoutput) المعلمة
+يقوم بتهيئة مثيل جديد لملف[`EmailEditOptions`](../../emaileditoptions) فئة مع[`MailMessageOutput`](../mailmessageoutput)المعلمة
 
 ```csharp
 public EmailEditOptions(MailMessageOutput mailMessageOutput)

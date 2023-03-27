@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查两个给定的电子邮件实例是否相等
+description: 在 equality 上检查两个给定的 Email 实例
 type: docs
 weight: 210
 url: /zh/net/groupdocs.editor.formats/emailformats/op_equality/
 ---
 ## EmailFormats Equality operator
 
-检查两个给定的电子邮件实例是否相等
+在 equality 上检查两个给定的 Email 实例
 
 ```csharp
 public static bool operator ==(EmailFormats first, EmailFormats second)

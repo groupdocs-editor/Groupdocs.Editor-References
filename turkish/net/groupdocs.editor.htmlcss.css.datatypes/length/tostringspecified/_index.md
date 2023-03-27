@@ -3,7 +3,7 @@ title: ToStringSpecified
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Belirtilen birim türünde bu uzunluğun dize gösterimini döndürür. Sayısal değer birim tipi değişikliğine karşılık gelecek şekilde dönüştürülecektir.
 type: docs
-weight: 260
+weight: 250
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/tostringspecified/
 ---
 ## Length.ToStringSpecified method

@@ -1,14 +1,14 @@
 ---
 title: GetBodyContent
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: HTML belgesinin gövdesini bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki içerik bir dize olarak döndürür.
+description: HTML belgesinin gövdesini bu etiketler olmadan BODY etiketlerini açma ve kapatma arasındaki iç içeriği bir dize olarak döndürür.
 type: docs
 weight: 120
 url: /tr/net/groupdocs.editor/editabledocument/getbodycontent/
 ---
 ## GetBodyContent() {#getbodycontent}
 
-HTML belgesinin gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki içerik) bir dize olarak döndürür.
+HTML belgesinin gövdesini (bu etiketler olmadan BODY etiketlerini açma ve kapatma arasındaki iç içeriği) bir dize olarak döndürür.
 
 ```csharp
 public string GetBodyContent()
@@ -16,11 +16,11 @@ public string GetBodyContent()
 
 ### Geri dönüş değeri
 
-HTML belgesinin gövdesini içeren dize
+HTML belgesinin gövdesini içeren dize (BODY etiketlerini açıp kapatmadan)
 
 ### Notlar
 
-WYSIWYG editörleri, belgenin gövdesiyle birlikte çalışır ve HEAD bloğundaki meta bilgilerini doğru bir şekilde işleyemez. Bu yöntem, bu tür durumlar için tasarlanmıştır. Bu aşırı yükleme, harici kaynak istekleri için URI'lerin ayarlanmasına izin vermiyor.
+WYSIWYG düzenleyicilerinin çoğu genellikle belgenin BODY'sinin iç içeriğiyle çalışır ve HEAD bloğundaki meta bilgilerini doğru şekilde işleyemez. Bu yöntem bu tür durumlar için tasarlanmıştır. Bu aşırı yükleme, harici kaynak istekleri için URI'lerin ayarlanmasına izin vermiyor.
 
 ### Ayrıca bakınız
 
@@ -32,7 +32,7 @@ WYSIWYG editörleri, belgenin gövdesiyle birlikte çalışır ve HEAD bloğunda
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-HTML belgesinin bir gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki içerik) bir dize, olarak döndürür; burada harici kaynaklara bağlantılar belirtilen öneki içerir.
+HTML belgesinin bir gövdesini (bu etiketler olmadan BODY etiketlerinin açılması ve kapatılması arasındaki iç içerik) bir dize, olarak döndürür; burada harici kaynaklara bağlantılar belirtilen öneki içerir.
 
 ```csharp
 public string GetBodyContent(string externalImagesPrefix)
@@ -44,11 +44,11 @@ public string GetBodyContent(string externalImagesPrefix)
 
 ### Geri dönüş değeri
 
-Bağlantılarla birlikte HTML belgesinin gövdesini içeren dize, harici görüntülere göre ayarlanmış
+Bağlantılarla birlikte HTML belgesinin gövdesini (BODY etiketlerini açıp kapatmadan) içeren dize, harici görüntülere göre ayarlanmış
 
 ### Notlar
 
-WYSIWYG editörleri, belgenin gövdesiyle birlikte çalışır ve HEAD bloğundaki meta bilgilerini doğru bir şekilde işleyemez. Bu yöntem, bu tür durumlar için tasarlanmıştır. Bu aşırı yükleme, harici kaynak istekleri için URI'lerin ayarlanmasına izin verir.
+WYSIWYG düzenleyicilerinin çoğu genellikle belgenin BODY'sinin iç içeriğiyle çalışır ve HEAD bloğundaki meta bilgilerini doğru şekilde işleyemez. Bu yöntem bu tür durumlar için tasarlanmıştır. Bu aşırı yükleme, harici kaynak istekleri için URI'lerin ayarlanmasına izin verir.
 
 ### Ayrıca bakınız
 

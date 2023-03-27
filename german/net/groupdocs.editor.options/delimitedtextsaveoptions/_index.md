@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält Optionen zum Generieren und Speichern von textbasierten SpreadsheetDokumenten CSV Tabbasiert etc. die ein Trennzeichen Delimiter verwenden
 type: docs
-weight: 680
+weight: 830
 url: /de/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Name | Beschreibung |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Ermöglicht das Festlegen einer Kodierung für das textbasierte Spreadsheet-Dokument. Standardmäßig (und wenn nicht angegeben) ist UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Gibt an, ob Trennzeichen für Leerzeile ausgegeben werden sollen. Der Standardwert ist „false“, was bedeutet, dass der Inhalt für eine leere Zeile leer ist. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Gibt an, ob Trennzeichen für Leerzeile ausgegeben werden sollen. Standardwert ist`FALSCH` was bedeutet, dass der Inhalt für eine leere Zeile leer ist. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Ermöglicht die Angabe eines Zeichenkettentrennzeichens (Trennzeichen) für textbasierte Tabellenkalkulationsdokumente |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Gibt an, ob führende leere Zeilen und Spalten gekürzt werden sollen, wie es MS Excel tut |
 

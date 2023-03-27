@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هو خطأ.
+description: يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هوخطأ شنيع .
 type: docs
 weight: 60
 url: /ar/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هو خطأ.
+يحدد ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. افتراضيا هو`خطأ شنيع` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

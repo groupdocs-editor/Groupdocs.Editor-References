@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء مستندات PDF تنسيق المستند المحمول وحفظها
 type: docs
-weight: 850
+weight: 1060
 url: /ar/net/groupdocs.editor.options/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

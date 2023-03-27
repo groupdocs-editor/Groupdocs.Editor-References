@@ -1,14 +1,14 @@
 ---
 title: Azw3
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Kindle Format 8 KF8 olarak da bilinen AZW3 Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/ebook/azw3/ .
+description: Kindle Format 8 KF8 olarak da bilinen AZW3 Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/ebook/azw3/ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.editor.formats/ebookformats/azw3/
 ---
 ## EBookFormats.Azw3 field
 
-Kindle Format 8 (KF8) olarak da bilinen AZW3, Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim, eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/azw3/) .
+Kindle Format 8 (KF8) olarak da bilinen AZW3, Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim, eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/azw3/) .
 
 ```csharp
 public static readonly EBookFormats Azw3;

@@ -52,7 +52,7 @@ La classe Editor deve essere considerata un punto di ingresso e l'oggetto radice
 
 1. Carica un documento nell'istanza Editor tramite il suo costruttore.
 2. Facoltativamente, rilevare un tipo di documento utilizzando a[`GetDocumentInfo`](./getdocumentinfo) metodo.
-3. Apri un documento per la modifica chiamando an[`Edit`](./edit) metodo e ottenere un'istanza di[`EditableDocument`](../editabledocument) classe da esso.
+3. Apri un documento per la modifica chiamando an[`Edit`](./edit)metodo e ottenere un'istanza di[`EditableDocument`](../editabledocument) classe da esso.
 4. Modifica del contenuto di un documento sul lato client utilizzando qualsiasi editor HTML WYSIWYG.
 5. Creazione di una nuova istanza di[`EditableDocument`](../editabledocument) dal contenuto del documento modificato.
 6. Salvataggio di un documento modificato in un formato di output chiamando a[`Save`](./save) metodo.

@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Yazı tipi gömme seçenekleri hangi yazı tipi kaynaklarının WordProcessing veya PDF belgesinin çıktısına gömülmesi gerektiğini kontrol eder
 type: docs
-weight: 740
+weight: 890
 url: /tr/net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

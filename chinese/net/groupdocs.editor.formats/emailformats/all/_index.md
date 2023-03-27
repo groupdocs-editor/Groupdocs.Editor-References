@@ -1,14 +1,14 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回一个内部类它为所有现有的电子邮件格式提供了可枚举的可能性
+description: 返回一个内部类它提供了所有现有电子邮件格式的可枚举可能性
 type: docs
 weight: 200
 url: /zh/net/groupdocs.editor.formats/emailformats/all/
 ---
 ## EmailFormats.All field
 
-返回一个内部类，它为所有现有的电子邮件格式提供了可枚举的可能性
+返回一个内部类，它提供了所有现有电子邮件格式的可枚举可能性
 
 ```csharp
 public static readonly AllEnumerable All;

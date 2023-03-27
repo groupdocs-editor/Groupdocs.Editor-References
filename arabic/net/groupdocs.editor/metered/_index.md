@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يوفر طرقًا للتطبيقمقننةhttps//purchase.groupdocs.com/faqs/licensing/metered ترخيص .
 type: docs
-weight: 650
+weight: 800
 url: /ar/net/groupdocs.editor/metered/
 ---
 ## Metered class

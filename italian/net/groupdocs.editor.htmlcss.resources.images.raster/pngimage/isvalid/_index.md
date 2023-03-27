@@ -40,7 +40,7 @@ public static bool IsValid(string contentInBase64)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| contentInBase64 | String | Contenuto dell'immagine presumibilmente PNG sotto forma di stringa con codifica Base64 |
+| contentInBase64 | String | Contenuto dell'immagine presumibilmente PNG sotto forma di stringa con codifica base64 |
 
 ### Valore di ritorno
 

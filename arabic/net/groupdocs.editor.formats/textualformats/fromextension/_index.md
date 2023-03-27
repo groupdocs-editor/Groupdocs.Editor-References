@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلTextualFormatsgroupdocs.editor.formats/textualformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلTextualFormatsgroupdocs.editor.formats/textualformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 80
 url: /ar/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-إرجاع مثيل[`TextualFormats`](../../textualformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`TextualFormats`](../../textualformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

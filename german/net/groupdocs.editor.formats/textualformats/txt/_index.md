@@ -1,14 +1,14 @@
 ---
 title: Txt
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Plain Text Document TXT stellt ein Textdokument dar das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/txt .
+description: Plain Text Document TXT stellt ein Textdokument dar das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
 weight: 60
 url: /de/net/groupdocs.editor.formats/textualformats/txt/
 ---
 ## TextualFormats.Txt field
 
-Plain Text Document (TXT) stellt ein Textdokument dar, das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/txt) .
+Plain Text Document (TXT) stellt ein Textdokument dar, das einfachen Text in Form von Zeilen enthält. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/txt) .
 
 ```csharp
 public static readonly TextualFormats Txt;

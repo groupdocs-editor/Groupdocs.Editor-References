@@ -16,11 +16,11 @@ public bool Equals(MarkdownDocumentInfo other)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| other | MarkdownDocumentInfo | Başka[`MarkdownDocumentInfo`](../../markdowndocumentinfo) örneğin, bununla eşitlik açısından kontrol edilmesi gereken |
+| other | MarkdownDocumentInfo | Diğer[`MarkdownDocumentInfo`](../../markdowndocumentinfo) örneğin, bununla eşitlik açısından kontrol edilmesi gereken |
 
 ### Geri dönüş değeri
 
-Eşitse doğru, eşit değilse yanlış
+`doğru` eşit ise,`YANLIŞ` eşit değilse
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: FixedLayoutDocumentInfo
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert Metadaten eines Dokuments mit festem Layoutformat wie PDF oder XPS
 type: docs
-weight: 580
+weight: 730
 url: /de/net/groupdocs.editor.metadata/fixedlayoutdocumentinfo/
 ---
 ## FixedLayoutDocumentInfo structure

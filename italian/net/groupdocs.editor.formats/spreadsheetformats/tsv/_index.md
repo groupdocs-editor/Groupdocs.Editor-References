@@ -1,14 +1,14 @@
 ---
 title: Tsv
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Il formato di file con valori separati da tabulazioni TSV rappresenta i dati separati da tabulazioni in formato di testo normale. Il formato file simile a CSV viene utilizzato per lorganizzazione dei dati in modo strutturato al fine di importare ed esportare tra diverse applicazioni. Ulteriori informazioni su questo formato filequihttps//docs.fileformat.com/spreadsheet/tsv/ .
+description: Il formato di file con valori separati da tabulazioni TSV rappresenta i dati separati da tabulazioni in formato di testo normale. Il formato file simile a CSV viene utilizzato per lorganizzazione dei dati in modo strutturato al fine di importare ed esportare tra diverse applicazioni. Ulteriori informazioni su questo formato fileQuihttps//docs.fileformat.com/spreadsheet/tsv/ .
 type: docs
 weight: 70
 url: /it/net/groupdocs.editor.formats/spreadsheetformats/tsv/
 ---
 ## SpreadsheetFormats.Tsv field
 
-Il formato di file con valori separati da tabulazioni (TSV) rappresenta i dati separati da tabulazioni in formato di testo normale. Il formato file, simile a CSV, viene utilizzato per l'organizzazione dei dati in modo strutturato al fine di importare ed esportare tra diverse applicazioni. Ulteriori informazioni su questo formato file[qui](https://docs.fileformat.com/spreadsheet/tsv/) .
+Il formato di file con valori separati da tabulazioni (TSV) rappresenta i dati separati da tabulazioni in formato di testo normale. Il formato file, simile a CSV, viene utilizzato per l'organizzazione dei dati in modo strutturato al fine di importare ed esportare tra diverse applicazioni. Ulteriori informazioni su questo formato file[Qui](https://docs.fileformat.com/spreadsheet/tsv/) .
 
 ```csharp
 public static readonly SpreadsheetFormats Tsv;

@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Permite especificar opciones personalizadas para generar y guardar documentos de texto sin formato TXT
 type: docs
-weight: 950
+weight: 1160
 url: /es/net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class

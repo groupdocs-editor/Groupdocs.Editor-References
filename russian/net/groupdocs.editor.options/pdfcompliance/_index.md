@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Указывает уровень соответствия стандартам PDF
 type: docs
-weight: 820
+weight: 1030
 url: /ru/net/groupdocs.editor.options/pdfcompliance/
 ---
 ## PdfCompliance enumeration

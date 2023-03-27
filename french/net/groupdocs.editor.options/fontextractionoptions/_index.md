@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Les options dextraction de polices contrôlent quelles polices doivent être extraites et doù
 type: docs
-weight: 750
+weight: 900
 url: /fr/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

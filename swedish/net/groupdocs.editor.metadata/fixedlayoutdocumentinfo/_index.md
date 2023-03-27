@@ -3,7 +3,7 @@ title: FixedLayoutDocumentInfo
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar metadata för ett dokument med fast layoutformat som PDF eller XPS
 type: docs
-weight: 580
+weight: 730
 url: /sv/net/groupdocs.editor.metadata/fixedlayoutdocumentinfo/
 ---
 ## FixedLayoutDocumentInfo structure

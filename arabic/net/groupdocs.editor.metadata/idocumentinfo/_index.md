@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Editor لمرجع .NET API
 description: واجهة مشتركة لجميع أغلفة البيانات الوصفية للملفات
 type: docs
-weight: 590
+weight: 740
 url: /ar/net/groupdocs.editor.metadata/idocumentinfo/
 ---
 ## IDocumentInfo interface

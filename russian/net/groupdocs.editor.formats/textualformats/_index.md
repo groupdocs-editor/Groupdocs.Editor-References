@@ -26,7 +26,7 @@ public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
 
 | Имя | Описание |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Возвращает экземпляр[`TextualFormats`](../textualformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
+| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Возвращает экземпляр[`TextualFormats`](../textualformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | Определяет, равен ли этот экземпляр другому указанному IDocumentFormat instance |
 | override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | Определяет, равен ли этот экземпляр другому указанному объекту, который предположительно представляет собой упакованный TextualFormats |
 | [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | Определяет, равен ли этот экземпляр другому указанному TextualFormats instance |

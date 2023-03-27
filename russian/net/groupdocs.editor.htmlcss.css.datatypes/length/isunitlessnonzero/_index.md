@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Значение имеет безразмерный тип но не является нулем  положительным или отрицательным числом
 type: docs
-weight: 160
+weight: 150
 url: /ru/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

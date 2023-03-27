@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يسمح بضبط التمييز  الذي سيتم تطبيقه على بنية XML  عندما يتم تمثيله في HTML . افتراضيًا هو NULL  يتم تطبيق التمييز الافتراضي.
+description: يسمح بضبط تمييز XML  الذي سيتم تطبيقه على بنية XML  عندما يتم تمثيله في HTML. يتم استخدام التظليل الافتراضي وهو قابل للتعديل. لا يمكن أن يكون فارغًا.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-يسمح بضبط التمييز ، الذي سيتم تطبيقه على بنية XML ، عندما يتم تمثيله في HTML . افتراضيًا هو NULL - يتم تطبيق التمييز الافتراضي.
+يسمح بضبط تمييز XML ، الذي سيتم تطبيقه على بنية XML ، عندما يتم تمثيله في HTML. يتم استخدام التظليل الافتراضي وهو قابل للتعديل. لا يمكن أن يكون فارغًا.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### أنظر أيضا

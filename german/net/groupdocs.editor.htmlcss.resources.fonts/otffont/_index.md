@@ -3,7 +3,7 @@ title: OtfFont
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Stellt eine Schriftart im OTFFormat Open Type Format dar
 type: docs
-weight: 290
+weight: 390
 url: /de/net/groupdocs.editor.htmlcss.resources.fonts/otffont/
 ---
 ## OtfFont class

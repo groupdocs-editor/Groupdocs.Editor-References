@@ -3,7 +3,7 @@ title: CDataFontSettings
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Отвечает за представление шрифта разделов CDATA включая пару открывающих и закрывающих тегов
 type: docs
-weight: 70
+weight: 30
 url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 ---
 ## XmlHighlightOptions.CDataFontSettings property
@@ -11,11 +11,12 @@ url: /ru/net/groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings/
 Отвечает за представление шрифта разделов CDATA (включая пару открывающих и закрывающих тегов)
 
 ```csharp
-public Font CDataFontSettings { get; set; }
+public WebFont CDataFontSettings { get; }
 ```
 
 ### Смотрите также
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * пространство имен [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * сборка [GroupDocs.Editor](../../../)

@@ -24,7 +24,7 @@ Exempel på '[`EditableDocument`](../../editabledocument) klass, som kapslar in 
 
 ### Anmärkningar
 
-När inmatat originaldokument läses in i "Editor"-instansen genom konstruktorn, tillåter denna metod att öppna dokument för redigering genom att konvertera det till mellanformat, som är inkapslat i instans av klassen "EditableDocument". '[`EditableDocument`](../../editabledocument) , som returneras från den här metoden, innehåller alla nödvändiga metoder och egenskaper för att producera HTML-uppmärkning och motsvarande resurser (som bilder, typsnitt och stilmallar) i alla nödvändiga konfigurationer för att senare överföra dem till valfri WYSIWYG HTML-redigerare. Denna överbelastning erhåller redigeringsalternativ, som är specifika för familjeformat. **Läs mer**
+När inmatat originaldokument läses in i "Editor"-instansen genom konstruktorn, tillåter denna metod att öppna dokument för redigering genom att konvertera det till mellanformat, som är inkapslat i instans av klassen "EditableDocument". '[`EditableDocument`](../../editabledocument) som returneras från den här metoden, innehåller alla nödvändiga metoder och egenskaper för att producera HTML-uppmärkning och motsvarande resurser (som bilder, typsnitt och stilmallar) i alla nödvändiga konfigurationer för att senare överföra dem till valfri WYSIWYG HTML-redigerare. Denna överbelastning erhåller redigeringsalternativ, som är specifika för familjeformat. **Läs mer**
 
 * Mer om att redigera dokument med GroupDocs.Editor: [Hur man redigerar dokument med GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Edit+document)
 
@@ -52,7 +52,7 @@ Exempel på '[`EditableDocument`](../../editabledocument) klass, som kapslar in 
 
 ### Anmärkningar
 
-När inmatat originaldokument läses in i 'Editor'-instansen via konstruktorn, tillåter denna metod att öppna dokument för redigering genom att konvertera det till mellanformat, som är inkapslat i instans av '[`EditableDocument`](../../editabledocument) klass. '[`EditableDocument`](../../editabledocument) , som returneras från den här metoden, innehåller alla nödvändiga metoder och egenskaper för att producera HTML-uppmärkning och motsvarande resurser (som bilder, typsnitt och stilmallar) i alla nödvändiga konfigurationer för att senare överföra dem till valfri WYSIWYG HTML-redigerare. Denna överbelastning tillämpar redigeringsalternativ, som är standard för formatet som inmatningsdokumentet tillhör. **Läs mer**
+När inmatat originaldokument läses in i 'Editor'-instansen via konstruktorn, tillåter denna metod att öppna dokument för redigering genom att konvertera det till mellanformat, som är inkapslat i instans av '[`EditableDocument`](../../editabledocument) klass. '[`EditableDocument`](../../editabledocument) som returneras från den här metoden, innehåller alla nödvändiga metoder och egenskaper för att producera HTML-uppmärkning och motsvarande resurser (som bilder, typsnitt och stilmallar) i alla nödvändiga konfigurationer för att senare överföra dem till valfri WYSIWYG HTML-redigerare. Denna överbelastning tillämpar redigeringsalternativ, som är standard för formatet som inmatningsdokumentet tillhör. **Läs mer**
 
 * Mer om att redigera dokument med GroupDocs.Editor: [Hur man redigerar dokument med GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Edit+document)
 

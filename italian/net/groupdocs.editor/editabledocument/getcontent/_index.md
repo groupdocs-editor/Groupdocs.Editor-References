@@ -41,7 +41,7 @@ public string GetContent(string externalImagesPrefix, string externalCssPrefix)
 
 ### Valore di ritorno
 
-Stringa, che contiene il contenuto del documento HTML con collegamenti, adattata alle risorse esterne
+Stringa, che contiene il contenuto del documento HTML con collegamenti, adattato alle risorse esterne
 
 ### Guarda anche
 

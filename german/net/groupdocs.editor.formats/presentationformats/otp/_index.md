@@ -1,14 +1,14 @@
 ---
 title: Otp
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: OTPDatei OpenDocument Presentation Template stellt Präsentationsvorlagendateien dar die von Anwendungen im OASIS OpenDocumentStandardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/otp .
+description: OTPDatei OpenDocument Presentation Template stellt Präsentationsvorlagendateien dar die von Anwendungen im OASIS OpenDocumentStandardformat erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/otp .
 type: docs
 weight: 20
 url: /de/net/groupdocs.editor.formats/presentationformats/otp/
 ---
 ## PresentationFormats.Otp field
 
-OTP-Datei (OpenDocument Presentation Template) stellt Präsentationsvorlagendateien dar, die von Anwendungen im OASIS OpenDocument-Standardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/otp) .
+OTP-Datei (OpenDocument Presentation Template) stellt Präsentationsvorlagendateien dar, die von Anwendungen im OASIS OpenDocument-Standardformat erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/otp) .
 
 ```csharp
 public static readonly PresentationFormats Otp;

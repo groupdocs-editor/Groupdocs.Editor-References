@@ -3,7 +3,7 @@ title: InnerTextFontSettings
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Verantwortlich für die Darstellung der Schriftart des inneren Tags text
 type: docs
-weight: 110
+weight: 50
 url: /de/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 ---
 ## XmlHighlightOptions.InnerTextFontSettings property
@@ -11,11 +11,12 @@ url: /de/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 Verantwortlich für die Darstellung der Schriftart des inneren Tags text
 
 ```csharp
-public Font InnerTextFontSettings { get; set; }
+public WebFont InnerTextFontSettings { get; }
 ```
 
 ### Siehe auch
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namensraum [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * Montage [GroupDocs.Editor](../../../)

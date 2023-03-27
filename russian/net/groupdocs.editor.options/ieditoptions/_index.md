@@ -3,7 +3,7 @@ title: IEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Общий интерфейс для всех опций отвечающих за преобразование документа в HTML. Объявляет об отсутствии членов.
 type: docs
-weight: 760
+weight: 910
 url: /ru/net/groupdocs.editor.options/ieditoptions/
 ---
 ## IEditOptions interface

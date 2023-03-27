@@ -1,14 +1,14 @@
 ---
 title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许启用内部标记文本中尾随空格的截断 默认禁用 false  将保留尾随空格
+description: 允许在内部标记文本中启用尾随空格的截断 默认情况下禁用 false  将保留尾随空格
 type: docs
-weight: 80
+weight: 90
 url: /zh/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property
 
-允许启用内部标记文本中尾随空格的截断。 默认禁用 (false) — 将保留尾随空格。
+允许在内部标记文本中启用尾随空格的截断。 默认情况下禁用 (false) — 将保留尾随空格。
 
 ```csharp
 public bool TrimTrailingWhitespaces { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回检测到的文本文档的推测编码
+description: 返回检测到的文本文档的假定编码
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.metadata/textualdocumentinfo/encoding/
 ---
 ## TextualDocumentInfo.Encoding property
 
-返回检测到的文本文档的推测编码
+返回检测到的文本文档的假定编码
 
 ```csharp
 public Encoding Encoding { get; }

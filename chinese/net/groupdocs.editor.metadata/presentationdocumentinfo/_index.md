@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示一个 Presentation 文档的元数据
 type: docs
-weight: 610
+weight: 760
 url: /zh/net/groupdocs.editor.metadata/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo structure
@@ -18,10 +18,16 @@ public struct PresentationDocumentInfo : IDocumentInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../groupdocs.editor.metadata/presentationdocumentinfo/format) { get; } | 返回此演示文稿文档的格式 |
-| [IsEncrypted](../../groupdocs.editor.metadata/presentationdocumentinfo/isencrypted) { get; } | 指示此特定演示文稿文档是否已加密并需要密码才能打开 |
-| [PageCount](../../groupdocs.editor.metadata/presentationdocumentinfo/pagecount) { get; } | 返回此演示文稿文档中的幻灯片数 |
-| [Size](../../groupdocs.editor.metadata/presentationdocumentinfo/size) { get; } | 返回此演示文稿文档的大小（以字节为单位） |
+| [Format](../../groupdocs.editor.metadata/presentationdocumentinfo/format) { get; } | 返回此演示文档的格式 |
+| [IsEncrypted](../../groupdocs.editor.metadata/presentationdocumentinfo/isencrypted) { get; } | 表示这个特定的演示文档是否加密并且需要密码才能打开 |
+| [PageCount](../../groupdocs.editor.metadata/presentationdocumentinfo/pagecount) { get; } | 返回此演示文档中的幻灯片数量 |
+| [Size](../../groupdocs.editor.metadata/presentationdocumentinfo/size) { get; } | 返回此演示文档的字节大小 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [GeneratePreview](../../groupdocs.editor.metadata/presentationdocumentinfo/generatepreview)(int) | 以 SVG image 的形式生成并返回所选幻灯片的预览 |
 
 ### 也可以看看
 

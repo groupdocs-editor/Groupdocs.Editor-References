@@ -1,14 +1,14 @@
 ---
 title: IsVector
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示此特定格式是矢量真还是光栅假
+description: 指示此特定格式是矢量 true 还是栅格 false
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/isvector/
 ---
 ## ImageType.IsVector property
 
-表示此特定格式是矢量（真）还是光栅（假）
+指示此特定格式是矢量 (true) 还是栅格 (false)
 
 ```csharp
 public bool IsVector { get; }

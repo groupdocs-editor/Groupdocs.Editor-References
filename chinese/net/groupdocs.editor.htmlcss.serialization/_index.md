@@ -1,16 +1,16 @@
 ---
 title: GroupDocs.Editor.HtmlCss.Serialization
 second_title: GroupDocs.Editor for .NET API 参考
-description: GroupDocs.Editor.HtmlCss.Serialization 命名空间提供了负责调整 HTML 和 CSS 标记序列化过程的类型
+description: GroupDocs.Editor.HtmlCss.Serialization 命名空间提供类型负责调整 HTML 和 CSS 标记序列化过程
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/groupdocs.editor.htmlcss.serialization/
 ---
-GroupDocs.Editor.HtmlCss.Serialization 命名空间提供了负责调整 HTML 和 CSS 标记序列化过程的类型。
+GroupDocs.Editor.HtmlCss.Serialization 命名空间提供类型，负责调整 HTML 和 CSS 标记序列化过程。
 
-## 枚举
+## 结构
 
-| 枚举 | 描述 |
+| 结构 | 描述 |
 | --- | --- |
 | [QuoteType](./quotetype) | 表示引号字符——单引号（'）和双引号（"） |
 

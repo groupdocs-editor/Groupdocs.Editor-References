@@ -1,14 +1,14 @@
 ---
 title: Mime
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现类型中应该返回给定格式的 MIME 代码
+description: 在实现类型中应返回给定格式的 MIME 代码
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.formats/idocumentformat/mime/
 ---
 ## IDocumentFormat.Mime property
 
-在实现类型中应该返回给定格式的 MIME 代码
+在实现类型中应返回给定格式的 MIME 代码
 
 ```csharp
 public string Mime { get; }

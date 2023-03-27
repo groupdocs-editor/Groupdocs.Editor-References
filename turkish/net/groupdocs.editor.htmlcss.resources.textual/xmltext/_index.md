@@ -3,7 +3,7 @@ title: XmlText
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: XML olan bir metin kaynağını temsil eder.
 type: docs
-weight: 510
+weight: 660
 url: /tr/net/groupdocs.editor.htmlcss.resources.textual/xmltext/
 ---
 ## XmlText class

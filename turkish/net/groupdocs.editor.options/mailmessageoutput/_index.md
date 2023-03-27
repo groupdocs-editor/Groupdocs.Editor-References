@@ -3,7 +3,7 @@ title: MailMessageOutput
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Posta iletisinin hangi bölümlerinin çıktı işlemeye teslim edilmesi gerektiğini kontrol eder
 type: docs
-weight: 790
+weight: 950
 url: /tr/net/groupdocs.editor.options/mailmessageoutput/
 ---
 ## MailMessageOutput enumeration

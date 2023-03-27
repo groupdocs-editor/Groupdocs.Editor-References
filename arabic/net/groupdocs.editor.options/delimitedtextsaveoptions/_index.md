@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يحتوي على خيارات لإنشاء مستندات جداول بيانات نصية وحفظها CSV أو مستند إلى علامة تبويب وما إلى ذلك  والتي تستخدم فاصلًا محددًا
 type: docs
-weight: 680
+weight: 830
 url: /ar/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | اسم | وصف |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | يسمح بتعيين تشفير لمستند جدول البيانات المستند إلى النص. بشكل افتراضي (وإذا لم يتم تحديده) هو UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية خاطئة مما يعني أن محتوى الصف الفارغ سيكون فارغًا. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | يشير إلى ما إذا كان يجب إخراج الفواصل لصف فارغ. القيمة الافتراضية هي`خطأ شنيع` مما يعني أن محتوى الصف الفارغ سيكون فارغًا. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | يسمح بتحديد فاصل سلسلة (محدد) لوثائق جداول البيانات النصية |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | يشير إلى ما إذا كان يجب قطع الصفوف والأعمدة الفارغة البادئة مثل ما يفعله MS Excel |
 

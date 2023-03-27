@@ -3,7 +3,7 @@ title: RasterImageResourceBase
 second_title: GroupDocs.Editor لمرجع .NET API
 description: الفئة الأساسية لأي صورة نقطية مدعومة ذات اسم وأبعاد ونسبة عرض إلى ارتفاع ونوع وحجم ومحتوى ثابت.
 type: docs
-weight: 450
+weight: 550
 url: /ar/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/
 ---
 ## RasterImageResourceBase class

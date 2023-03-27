@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取或设置一个值该值指示基于文本的文档中的字符串是否转换为日期数据默认为假
+description: 获取或设置一个值该值指示基于文本的文档中的字符串是否转换为日期数据默认是错误的.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为日期数据。默认为假。
+获取或设置一个值，该值指示基于文本的文档中的字符串是否转换为日期数据。默认是`错误的`.
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

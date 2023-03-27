@@ -3,7 +3,7 @@ title: EmailEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Farklı elektronik posta eposta biçimlerinde belgeleri düzenlemek için özel seçenekler belirlemeye izin verir
 type: docs
-weight: 700
+weight: 850
 url: /tr/net/groupdocs.editor.options/emaileditoptions/
 ---
 ## EmailEditOptions class
@@ -19,7 +19,7 @@ public sealed class EmailEditOptions : IEditOptions
 | İsim | Tanım |
 | --- | --- |
 | [EmailEditOptions](emaileditoptions#constructor)() | Yeni bir örneğini başlatır.[`EmailEditOptions`](../emaileditoptions) tüm seçeneklerin varsayılan değerlerine ayarlandığı sınıf |
-| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | Yeni bir örneğini başlatır.[`EmailEditOptions`](../emaileditoptions) ile sınıf[`MailMessageOutput`](./mailmessageoutput) parametre |
+| [EmailEditOptions](emaileditoptions#constructor_1)(MailMessageOutput) | Yeni bir örneğini başlatır.[`EmailEditOptions`](../emaileditoptions) ile sınıf[`MailMessageOutput`](./mailmessageoutput)parametre |
 
 ## Özellikleri
 

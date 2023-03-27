@@ -8,12 +8,23 @@ url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/
 ---
 Namnutrymmet GroupDocs.Editor.HtmlCss.Css.DataTypes tillhandahåller klasser som representerar CSS-datatyper.
 
+## Klasser
+
+| Klass | Beskrivning |
+| --- | --- |
+| [ArgbColor.KnownColors](./argbcolor.knowncolors) | Innehåller alla "kända färger", som har fast unikt namn och värde i CSS standart |
 ## Strukturer
 
 | Strukturera | Beskrivning |
 | --- | --- |
+| [ArgbColor](./argbcolor) | Representerar ett färgvärde i ARGB-format med omvandlare och serializers |
 | [Length](./length) | Representerar ett CSS-längdvärde i valfri enhet som stöds, inklusive procent och enhetslös typ. Värden kan vara heltal eller flytande, negativ, noll och positiv. Oföränderlig struktur. |
 | [Ratio](./ratio) | Representerar en "kvot" CSS-datatyp, som används för att beskriva bildförhållanden i mediefrågor och för rasterbilder genom att beteckna proportionen mellan två enhetslösa värden som kallas "täljare" och "nämnare". Oföränderlig struktur. |
+## Gränssnitt
+
+| Gränssnitt | Beskrivning |
+| --- | --- |
+| [ICssDataType](./icssdatatype) | Gemensamt gränssnitt för alla CSS-datatyper, som används i CSS-egenskaperna |
 ## Uppräkning
 
 | Uppräkning | Beskrivning |

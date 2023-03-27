@@ -3,7 +3,7 @@ title: InnerTextFontSettings
 second_title: GroupDocs.Editor لمرجع .NET API
 description: مسؤول عن تمثيل خط نص العلامة الداخلية
 type: docs
-weight: 110
+weight: 50
 url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 ---
 ## XmlHighlightOptions.InnerTextFontSettings property
@@ -11,11 +11,12 @@ url: /ar/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 مسؤول عن تمثيل خط نص العلامة الداخلية
 
 ```csharp
-public Font InnerTextFontSettings { get; set; }
+public WebFont InnerTextFontSettings { get; }
 ```
 
 ### أنظر أيضا
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * مساحة الاسم [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * المجسم [GroupDocs.Editor](../../../)

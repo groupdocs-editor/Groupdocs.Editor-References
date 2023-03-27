@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在不等式 上检查两个给定的 EBookFormats 实例
+description: 在 inequality 上检查两个给定的 EBookFormats 实例
 type: docs
 weight: 130
 url: /zh/net/groupdocs.editor.formats/ebookformats/op_inequality/
 ---
 ## EBookFormats Inequality operator
 
-在不等式 上检查两个给定的 EBookFormats 实例
+在 inequality 上检查两个给定的 EBookFormats 实例
 
 ```csharp
 public static bool operator !=(EBookFormats first, EBookFormats second)

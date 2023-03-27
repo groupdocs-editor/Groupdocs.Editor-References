@@ -1,14 +1,14 @@
 ---
 title: Eot
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示 EOT嵌入式 OpenType字体类型
+description: 代表一个EOTEmbedded OpenType字体type
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/eot/
 ---
 ## FontType.Eot property
 
-表示 EOT（嵌入式 OpenType）字体类型
+代表一个EOT（Embedded OpenType）字体type
 
 ```csharp
 public static FontType Eot { get; }

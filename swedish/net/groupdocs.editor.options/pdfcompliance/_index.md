@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: GroupDocs.Editor för .NET API-referens
 description: Anger PDFstandardens efterlevnadsnivå
 type: docs
-weight: 820
+weight: 1030
 url: /sv/net/groupdocs.editor.options/pdfcompliance/
 ---
 ## PdfCompliance enumeration

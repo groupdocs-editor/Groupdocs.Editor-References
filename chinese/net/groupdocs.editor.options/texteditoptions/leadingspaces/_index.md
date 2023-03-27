@@ -1,14 +1,14 @@
 ---
 title: LeadingSpaces
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取或设置前导空间处理的首选选项默认情况下将前导空格转换为左缩进
+description: 获取或设置前导空格处理的首选选项默认情况下将前导空格转换为左缩进
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor.options/texteditoptions/leadingspaces/
 ---
 ## TextEditOptions.LeadingSpaces property
 
-获取或设置前导空间处理的首选选项。默认情况下将前导空格转换为左缩进。
+获取或设置前导空格处理的首选选项。默认情况下将前导空格转换为左缩进。
 
 ```csharp
 public TextLeadingSpacesOptions LeadingSpaces { get; set; }

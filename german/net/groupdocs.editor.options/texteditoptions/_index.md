@@ -3,7 +3,7 @@ title: TextEditOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Laden von Textdokumenten TXT
 type: docs
-weight: 930
+weight: 1140
 url: /de/net/groupdocs.editor.options/texteditoptions/
 ---
 ## TextEditOptions class

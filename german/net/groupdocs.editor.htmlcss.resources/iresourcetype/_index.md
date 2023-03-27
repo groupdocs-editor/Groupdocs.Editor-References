@@ -3,7 +3,7 @@ title: IResourceType
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert eine Instanz des unbekannten Ressourcentyps/formats Bild Schriftart Text
 type: docs
-weight: 350
+weight: 450
 url: /de/net/groupdocs.editor.htmlcss.resources/iresourcetype/
 ---
 ## IResourceType interface

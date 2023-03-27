@@ -1,14 +1,14 @@
 ---
 title: TextualFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API 参考
-description: 实现 IEnumerable 通用接口为 TextualFormats 类型启用foreach可能性
+description: 实现 IEnumerable 通用接口为 TextualFormats type 启用foreach可能性
 type: docs
 weight: 160
 url: /zh/net/groupdocs.editor.formats/textualformats.allenumerable/
 ---
 ## TextualFormats.AllEnumerable class
 
-实现 IEnumerable 通用接口，为 TextualFormats 类型启用“foreach”可能性
+实现 IEnumerable 通用接口，为 TextualFormats type 启用“foreach”可能性
 
 ```csharp
 public sealed class AllEnumerable : IEnumerable<TextualFormats>
@@ -24,7 +24,7 @@ public sealed class AllEnumerable : IEnumerable<TextualFormats>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../groupdocs.editor.formats/allenumerable/getenumerator)() | 返回所有可支持的文本格式的枚举器 |
+| [GetEnumerator](../../groupdocs.editor.formats/allenumerable/getenumerator)() | 返回所有支持的文本格式的枚举器 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Renvoie une instance dePresentationFormatsgroupdocs.editor.formats/presentationformatsstructure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
+description: Renvoie une instance dePresentationFormatsgroupdocs.editor.formats/presentationformats structure associée à lextension de nom de fichier spécifiée ou lève une exception si lextension ne peut pas être correctement analysée
 type: docs
 weight: 130
 url: /fr/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-Renvoie une instance de[`PresentationFormats`](../../presentationformats)structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
+Renvoie une instance de[`PresentationFormats`](../../presentationformats) structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### Return_Value
 
-Exemple de[`PresentationFormats`](../../presentationformats) structure en cas de succès ou exception levée en cas d'échec
+Exemple de[`PresentationFormats`](../../presentationformats)structure en cas de succès ou exception levée en cas d'échec
 
 ### Voir également
 

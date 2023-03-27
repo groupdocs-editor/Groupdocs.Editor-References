@@ -3,7 +3,7 @@ title: GifImage
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Meta verileri ve ek yöntemleriyle GIF Grafik Değişim Biçimi biçimindeki bir görüntüyü temsil eder
 type: docs
-weight: 410
+weight: 510
 url: /tr/net/groupdocs.editor.htmlcss.resources.images.raster/gifimage/
 ---
 ## GifImage class

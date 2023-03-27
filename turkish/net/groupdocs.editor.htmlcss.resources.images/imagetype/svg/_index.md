@@ -1,14 +1,14 @@
 ---
 title: Svg
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: SVG vektör görüntü tipi
+description: SVG vektör görüntü türü
 type: docs
 weight: 70
 url: /tr/net/groupdocs.editor.htmlcss.resources.images/imagetype/svg/
 ---
 ## ImageType.Svg property
 
-SVG vektör görüntü tipi
+SVG vektör görüntü türü
 
 ```csharp
 public static ImageType Svg { get; }

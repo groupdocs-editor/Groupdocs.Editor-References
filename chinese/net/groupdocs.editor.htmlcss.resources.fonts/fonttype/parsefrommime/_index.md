@@ -1,14 +1,14 @@
 ---
 title: ParseFromMime
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 FontType 值相当于指定的 MIMEcode
+description: 返回 FontType 值相当于指定的 MIME 代码
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefrommime/
 ---
 ## FontType.ParseFromMime method
 
-返回 FontType 值，相当于指定的 MIME-code
+返回 FontType 值，相当于指定的 MIME 代码
 
 ```csharp
 public static FontType ParseFromMime(string mimeCode)
@@ -16,7 +16,7 @@ public static FontType ParseFromMime(string mimeCode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mimeCode | String | MIME 码 |
+| mimeCode | String | MIME代码 |
 
 ### 返回值
 

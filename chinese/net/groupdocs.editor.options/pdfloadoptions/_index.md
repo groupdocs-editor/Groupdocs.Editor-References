@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含将 PDF 文档加载到编辑器的选项类
+description: 包含将 PDF 文档加载到编辑器类 的选项
 type: docs
-weight: 840
+weight: 1050
 url: /zh/net/groupdocs.editor.options/pdfloadoptions/
 ---
 ## PdfLoadOptions class
 
-包含将 PDF 文档加载到编辑器的选项类
+包含将 PDF 文档加载到编辑器类 的选项
 
 ```csharp
 public sealed class PdfLoadOptions : ILoadOptions
@@ -24,7 +24,7 @@ public sealed class PdfLoadOptions : ILoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Password](../../groupdocs.editor.options/pdfloadoptions/password) { get; set; } | 允许指定、修改和获取用于打开 PDF 文档的密码（如果已编码）。 设置为 NULL 或空字符串，以便不使用密码（默认值）。 |
+| [Password](../../groupdocs.editor.options/pdfloadoptions/password) { get; set; } | 允许指定、修改和获取密码，该密码将用于打开 PDF 文档（如果已编码）。 设置为 NULL 或空字符串以便不使用密码（默认值）。 |
 
 ### 也可以看看
 

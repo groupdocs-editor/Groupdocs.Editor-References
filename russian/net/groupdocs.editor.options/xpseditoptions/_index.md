@@ -3,7 +3,7 @@ title: XpsEditOptions
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Позволяет указать пользовательские параметры редактирования спецификации бумаги XML документов
 type: docs
-weight: 1060
+weight: 1300
 url: /ru/net/groupdocs.editor.options/xpseditoptions/
 ---
 ## XpsEditOptions class

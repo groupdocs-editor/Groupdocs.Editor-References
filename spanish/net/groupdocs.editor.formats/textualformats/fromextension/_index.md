@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Devuelve instancia deTextualFormatsgroupdocs.editor.formats/textualformatsestructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
+description: Devuelve instancia deTextualFormatsgroupdocs.editor.formats/textualformats estructura asociada a la extensión de nombre de archivo especificada o genera una excepción si la extensión no se puede analizar correctamente
 type: docs
 weight: 80
 url: /es/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Devuelve instancia de[`TextualFormats`](../../textualformats)estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
+Devuelve instancia de[`TextualFormats`](../../textualformats) estructura, asociada a la extensión de nombre de archivo especificada, o genera una excepción, si la extensión no se puede analizar correctamente
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

@@ -1,14 +1,14 @@
 ---
 title: TryDetectResource
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Versucht einen Eingabestrom zu analysieren und daraus eine der unterstützten HTMLRessourcen zu erstellen wobei ein angegebener angenommener Typ berücksichtigt wird wenn er nicht null ist
+description: Versucht einen Eingabestrom zu analysieren und daraus eine der unterstützten HTMLRessourcen zu erstellen wobei ein angegebener angenommener Typ berücksichtigt wird falls dieser nicht null ist
 type: docs
 weight: 20
 url: /de/net/groupdocs.editor.htmlcss.resources/resourcetypedetector/trydetectresource/
 ---
 ## ResourceTypeDetector.TryDetectResource method
 
-Versucht, einen Eingabestrom zu analysieren und daraus eine der unterstützten HTML-Ressourcen zu erstellen, wobei ein angegebener angenommener Typ berücksichtigt wird, wenn er nicht null ist
+Versucht, einen Eingabestrom zu analysieren und daraus eine der unterstützten HTML-Ressourcen zu erstellen, wobei ein angegebener angenommener Typ berücksichtigt wird, falls dieser nicht null ist
 
 ```csharp
 public static IHtmlResource TryDetectResource(Stream inputResourceStream, string name, 

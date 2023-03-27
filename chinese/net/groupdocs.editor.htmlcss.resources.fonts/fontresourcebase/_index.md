@@ -1,14 +1,14 @@
 ---
 title: FontResourceBase
 second_title: GroupDocs.Editor for .NET API 参考
-description: 任何受支持字体类型的基类作为 HTML 文档及其所有属性的资源
+description: 任何支持的字体类型的基类作为 HTML 文档及其所有属性的资源
 type: docs
-weight: 270
+weight: 370
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/
 ---
 ## FontResourceBase class
 
-任何受支持字体类型的基类，作为 HTML 文档及其所有属性的资源
+任何支持的字体类型的基类作为 HTML 文档及其所有属性的资源
 
 ```csharp
 public abstract class FontResourceBase : IEquatable<FontResourceBase>, IHtmlResource
@@ -18,27 +18,27 @@ public abstract class FontResourceBase : IEquatable<FontResourceBase>, IHtmlReso
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByteContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/bytecontent) { get; } | 以字节流的形式返回此字体的内容 |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/bytecontent) { get; } | 返回此字体的内容作为字节流 |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/filenamewithextension) { get; } | 返回此字体资源的正确文件名，由名称和扩展名组成。理论上可以与名称不同。 |
-| [IsDisposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed) { get; } | 确定是否处理此字体 |
-| [Name](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/name) { get; } | 返回此字体资源的名称。通常不包含文件扩展名，理论上可能与 filename. 不同 |
-| [TextContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/textcontent) { get; } | 将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后被缓存。 |
-| abstract [Type](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/type) { get; } | 在实现type时应该返回特定字体资源的类型信息 作为特定FontType类型的一个实例，它封装了所有类型特定的info |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed) { get; } | 判断是否释放该字体 |
+| [Name](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/name) { get; } | 返回此字体资源的名称。通常不包含文件扩展名，理论上可以不同于文件名. |
+| [TextContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/textcontent) { get; } | 将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后缓存。 |
+| abstract [Type](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/type) { get; } | 在实现类型时应返回有关特定字体资源类型的信息 作为特定 FontType 类型的实例，它封装了所有类型特定的信息 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/dispose)() | 处理此字体资源，处理其内容并使大多数方法和属性无效 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals#equals)(FontResourceBase) | 在引用相等 上使用指定字体资源检查此实例 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals#equals_1)(IHtmlResource) | 在引用相等 上使用指定的 HTML 资源检查此实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals#equals)(FontResourceBase) | 在引用 equality 上使用指定的字体资源检查此实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals#equals_1)(IHtmlResource) | 使用指定的 HTML 资源检查此实例引用 equality |
 | [Save](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/save)(string) | 将此字体保存到指定文件 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed) | 事件，当该字体被释放时发生 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed) | 事件，当这个字体被释放时发生 |
 
 ### 也可以看看
 

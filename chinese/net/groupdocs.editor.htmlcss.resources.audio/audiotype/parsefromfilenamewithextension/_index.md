@@ -1,14 +1,14 @@
 ---
 title: ParseFromFilenameWithExtension
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回AudioType值相当于文件扩展名从指定文件名中提取
+description: 返回AudioType值相当于从指定文件名 中提取的文件扩展名
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/audiotype/parsefromfilenamewithextension/
 ---
 ## AudioType.ParseFromFilenameWithExtension method
 
-返回AudioType值，相当于文件扩展名，从指定文件名中提取
+返回AudioType值，相当于从指定文件名 中提取的文件扩展名
 
 ```csharp
 public static AudioType ParseFromFilenameWithExtension(string filename)
@@ -20,7 +20,7 @@ public static AudioType ParseFromFilenameWithExtension(string filename)
 
 ### 返回值
 
-音频类型值。如果扩展名无法识别，则返回 AudioType.Undefined。
+音频类型值。如果无法识别扩展名，则返回 AudioType.Undefined。
 
 ### 也可以看看
 

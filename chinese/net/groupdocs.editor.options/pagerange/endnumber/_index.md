@@ -1,14 +1,14 @@
 ---
 title: EndNumber
 second_title: GroupDocs.Editor for .NET API 参考
-description: 独占结束页号直到此页范围继续并且独占停止如果 0  页面范围扩展到文档末尾
+description: 独占结束页码直到此页面范围继续并以独占方式停止如果为 0  页面范围扩展到文档结尾
 type: docs
 weight: 70
 url: /zh/net/groupdocs.editor.options/pagerange/endnumber/
 ---
 ## PageRange.EndNumber property
 
-独占结束页号，直到此页范围继续，并且独占停止。如果 0 - 页面范围扩展到文档末尾
+独占结束页码，直到此页面范围继续并以独占方式停止。如果为 0 - 页面范围扩展到文档结尾
 
 ```csharp
 public ushort EndNumber { get; }

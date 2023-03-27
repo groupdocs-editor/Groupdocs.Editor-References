@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: GroupDocs.Editor for .NET API 参考
-description: 检查指定流是否是有效的 TIFF 图像
+description: 检查指定流是否为有效的 TIFF 图像
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/isvalid/
 ---
 ## IsValid(Stream) {#isvalid}
 
-检查指定流是否是有效的 TIFF 图像
+检查指定流是否为有效的 TIFF 图像
 
 ```csharp
 public static bool IsValid(Stream binaryContent)
@@ -20,7 +20,7 @@ public static bool IsValid(Stream binaryContent)
 
 ### 返回值
 
-如果指定的流包含有效的 TIFF 图像，则为 true，否则为 false
+如果指定的流包含有效的 TIFF 图像，则为 True，否则为 false
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static bool IsValid(Stream binaryContent)
 
 ## IsValid(string) {#isvalid_1}
 
-检查指定的 base64 编码字符串是否是有效的 TIFF 图像
+检查指定的 base64 编码字符串是否为有效的 TIFF 图像
 
 ```csharp
 public static bool IsValid(string contentInBase64)
@@ -40,11 +40,11 @@ public static bool IsValid(string contentInBase64)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contentInBase64 | String | 可能是 TIFF 图像的内容，格式为 base64 编码的字符串 |
+| contentInBase64 | String | 可能为 base64 编码字符串形式的 TIFF 图像的内容 |
 
 ### 返回值
 
-如果指定的字符串包含有效的 TIFF 图像，则为 true，否则为 false
+如果指定的字符串包含有效的 TIFF 图像，则为 True，否则为 false
 
 ### 也可以看看
 

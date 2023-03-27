@@ -3,7 +3,7 @@ title: GetUnitFromName
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Versucht den angegebenen Einheitennamen zu analysieren und den entsprechenden Wert einer Einheitennummer zurückzugeben. Gibt Unit.Unitless zurück wenn die entsprechende Einheit nicht gefunden werden kann.
 type: docs
-weight: 270
+weight: 260
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method

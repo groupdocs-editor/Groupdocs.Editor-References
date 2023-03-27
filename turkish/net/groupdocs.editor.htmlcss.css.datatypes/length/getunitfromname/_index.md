@@ -3,7 +3,7 @@ title: GetUnitFromName
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Belirtilen birim adını ayrıştırmaya ve bir Birime karşılık gelen değeri döndürmeye çalışır. Uygun birimi bulamazsa Birimi.Birimsiz döndürür.
 type: docs
-weight: 270
+weight: 260
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method

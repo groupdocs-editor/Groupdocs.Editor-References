@@ -1,14 +1,14 @@
 ---
 title: InvalidImageFormatException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 尝试打开加载保存或以其他方式处理某些内容时引发的异常可能是图像光栅或矢量 但实际上是意外和/或不受支持格式的图像或者不是位于所有.
+description: 尝试打开加载保存或以其他方式处理某些内容时抛出的异常这些内容可能是图像光栅或矢量 但实际上是意外和/或不支持格式的图像或者不是图像所有.
 type: docs
-weight: 230
+weight: 330
 url: /zh/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class
 
-尝试打开、加载、保存或以其他方式处理某些内容时引发的异常，可能是图像（光栅或矢量）， 但实际上是意外和/或不受支持格式的图像，或者不是位于所有.
+尝试打开、加载、保存或以其他方式处理某些内容时抛出的异常，这些内容可能是图像（光栅或矢量）， 但实际上是意外和/或不支持格式的图像，或者不是图像所有.
 
 ```csharp
 public class InvalidImageFormatException : Exception
@@ -18,8 +18,8 @@ public class InvalidImageFormatException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InvalidImageFormatException](invalidimageformatexception#constructor)(string) | 创建新的实例[`InvalidImageFormatException`](../invalidimageformatexception)带有指定的错误消息 |
-| [InvalidImageFormatException](invalidimageformatexception#constructor_1)(string, Exception) | 创建新的实例[`InvalidImageFormatException`](../invalidimageformatexception)带有指定的错误消息和对导致此异常的内部异常的引用 |
+| [InvalidImageFormatException](invalidimageformatexception#constructor)(string) | 创建新实例[`InvalidImageFormatException`](../invalidimageformatexception)带有指定的错误消息 |
+| [InvalidImageFormatException](invalidimageformatexception#constructor_1)(string, Exception) | 创建新实例[`InvalidImageFormatException`](../invalidimageformatexception)带有指定的错误消息和对导致此异常的内部异常的引用 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: TextType
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Representa un tipo de recurso textual compatible
 type: docs
-weight: 500
+weight: 650
 url: /es/net/groupdocs.editor.htmlcss.resources.textual/texttype/
 ---
 ## TextType structure

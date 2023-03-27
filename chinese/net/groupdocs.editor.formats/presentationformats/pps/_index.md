@@ -1,14 +1,14 @@
 ---
 title: Pps
 second_title: GroupDocs.Editor for .NET API 参考
-description: Microsoft PowerPoint 972003 幻灯片 PPS 文件是使用 Microsoft PowerPoint 为幻灯片目的创建的 Microsoft PowerPoint 972003 支持 PPS 文件读取和创建 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pps
+description: Microsoft PowerPoint 972003 幻灯片 PPS 文件是使用 Microsoft PowerPoint 创建的用于幻灯片放映 Microsoft PowerPoint 972003 支持 PPS 文件读取和创建 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pps
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.formats/presentationformats/pps/
 ---
 ## PresentationFormats.Pps field
 
-Microsoft PowerPoint 97-2003 幻灯片 (PPS) 文件是使用 Microsoft PowerPoint 为幻灯片目的创建的。 Microsoft PowerPoint 97-2003 支持 PPS 文件读取和创建。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pps)
+Microsoft PowerPoint 97-2003 幻灯片 (PPS) 文件是使用 Microsoft PowerPoint 创建的，用于幻灯片放映。 Microsoft PowerPoint 97-2003 支持 PPS 文件读取和创建。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pps)
 
 ```csharp
 public static readonly PresentationFormats Pps;

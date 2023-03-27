@@ -26,7 +26,7 @@ public struct WordProcessingFormats : IDocumentFormat, IEquatable<WordProcessing
 
 | Nom | La description |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Renvoie une instance de[`WordProcessingFormats`](../wordprocessingformats)structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée |
+| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Renvoie une instance de[`WordProcessingFormats`](../wordprocessingformats) structure, associée à l'extension de nom de fichier spécifiée, ou lève une exception, si l'extension ne peut pas être correctement analysée |
 | [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals)(IDocumentFormat) | Détermine si cette instance est égale à l'autre instance IDocumentFormat spécifiée |
 | override [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_2)(object) | Détermine si cette instance est égale à l'autre objet spécifié, qui est vraisemblablement de WordProcessingFormats en boîte |
 | [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_1)(WordProcessingFormats) | Détermine si cette instance est égale à l'autre instance WordProcessingFormats spécifiée |

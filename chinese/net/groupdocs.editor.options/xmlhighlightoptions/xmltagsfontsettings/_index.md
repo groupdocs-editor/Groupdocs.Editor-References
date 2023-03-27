@@ -1,21 +1,22 @@
 ---
 title: XmlTagsFontSettings
 second_title: GroupDocs.Editor for .NET API 参考
-description: 负责表示XML标签的字体带标签名称的尖括号
+description: 负责表示XML标签的字体尖括号中有标签名称
 type: docs
-weight: 130
+weight: 70
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings/
 ---
 ## XmlHighlightOptions.XmlTagsFontSettings property
 
-负责表示XML标签的字体（带标签名称的尖括号）
+负责表示XML标签的字体（尖括号中有标签名称）
 
 ```csharp
-public Font XmlTagsFontSettings { get; set; }
+public WebFont XmlTagsFontSettings { get; }
 ```
 
 ### 也可以看看
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * 命名空间 [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * 部件 [GroupDocs.Editor](../../../)

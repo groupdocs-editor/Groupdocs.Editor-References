@@ -26,7 +26,7 @@ public struct EmailFormats : IDocumentFormat, IEquatable<EmailFormats>
 
 | اسم | وصف |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | إرجاع مثيل[`EmailFormats`](../emailformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | إرجاع مثيل[`EmailFormats`](../emailformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | يحدد ما إذا كان هذا المثيل يساوي مثيل البريد الإلكتروني المحدد الآخر |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | تحديد ما إذا كان هذا المثيل مساويًا لمثيل IDocumentFormat المحدد الآخر. |
 | override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | لتحديد ما إذا كان هذا المثيل مساويًا للكائن المحدد الآخر ، والذي يُفترض أنه من Email المعبأ |

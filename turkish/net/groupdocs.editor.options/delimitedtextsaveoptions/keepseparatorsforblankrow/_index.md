@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değer yanlıştır bu da boş satır içeriğinin boş olacağı anlamına gelir.
+description: Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değerYANLIŞ bu boş satır içeriğinin boş olacağı anlamına gelir.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değer yanlıştır, bu da boş satır içeriğinin boş olacağı anlamına gelir.
+Boş satır için ayırıcıların gösterilmesi gerekip gerekmediğini gösterir. Varsayılan değer:`YANLIŞ` bu, boş satır içeriğinin boş olacağı anlamına gelir.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

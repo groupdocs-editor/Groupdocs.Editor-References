@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تحديد ما إذا كان هذا المثيل مساويًا لـ النسبة المحددة مثيل
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}

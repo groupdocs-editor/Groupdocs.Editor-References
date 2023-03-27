@@ -1,14 +1,14 @@
 ---
 title: WordProcessingProtectionType
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示文字处理文档的所有可用保护类型
+description: 代表WordProcessing文档的所有可用保护类型
 type: docs
-weight: 1000
+weight: 1230
 url: /zh/net/groupdocs.editor.options/wordprocessingprotectiontype/
 ---
 ## WordProcessingProtectionType enumeration
 
-表示文字处理文档的所有可用保护类型
+代表WordProcessing文档的所有可用保护类型
 
 ```csharp
 public enum WordProcessingProtectionType : byte
@@ -18,11 +18,11 @@ public enum WordProcessingProtectionType : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoProtection | `0` | 文档不受保护。默认值。 |
-| AllowOnlyRevisions | `1` | 用户只能在文档中添加修订标记 |
-| AllowOnlyComments | `2` | 用户只能修改文档中的评论 |
-| AllowOnlyFormFields | `3` | 用户只能在文档中的表单字段中输入数据 |
-| ReadOnly | `4` | 不允许更改文档 |
+| NoProtection | `0` | 文档不受保护。默认值. |
+| AllowOnlyRevisions | `1` | 用户只能向文档添加修订标记 |
+| AllowOnlyComments | `2` | 用户只能修改文档中的注释 |
+| AllowOnlyFormFields | `3` | 用户只能在文档的表单字段中输入数据 |
+| ReadOnly | `4` | 不允许对文档 进行任何更改 |
 
 ### 也可以看看
 

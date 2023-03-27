@@ -3,7 +3,7 @@ title: RasterImageResourceBase
 second_title: GroupDocs.Editor för .NET API-referens
 description: Basklass för alla rasterbilder som stöds med fast namn dimensioner bildförhållande typ storlek och innehåll.
 type: docs
-weight: 450
+weight: 550
 url: /sv/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/
 ---
 ## RasterImageResourceBase class

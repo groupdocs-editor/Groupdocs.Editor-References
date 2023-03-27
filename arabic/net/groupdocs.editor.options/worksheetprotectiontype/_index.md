@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل ورقة عمل جدول البيانات علامة التبويب أنواع الحماية
 type: docs
-weight: 1030
+weight: 1260
 url: /ar/net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

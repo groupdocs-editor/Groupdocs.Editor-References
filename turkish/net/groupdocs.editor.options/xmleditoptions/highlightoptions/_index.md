@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: HTMLde temsil edildiğinde XML yapısına uygulanacak vurgulamayı ayarlamaya izin verir. Varsayılan olarak NULLdur  varsayılan vurgulama uygulanır.
+description: HTMLde gösterildiğinde XML yapısına uygulanacak XML vurgulamanın ayarlanmasına izin verir. Varsayılan vurgulama kullanılır ve ayarlanabilir. Boş olamaz.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-HTML'de temsil edildiğinde XML yapısına uygulanacak vurgulamayı ayarlamaya izin verir. Varsayılan olarak NULL'dur — varsayılan vurgulama uygulanır.
+HTML'de gösterildiğinde XML yapısına uygulanacak XML vurgulamanın ayarlanmasına izin verir. Varsayılan vurgulama kullanılır ve ayarlanabilir. Boş olamaz.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Ayrıca bakınız

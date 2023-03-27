@@ -3,7 +3,7 @@ title: InnerTextFontSettings
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: İç etiket metninin yazı tipini temsil etmekten sorumludur
 type: docs
-weight: 110
+weight: 50
 url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 ---
 ## XmlHighlightOptions.InnerTextFontSettings property
@@ -11,11 +11,12 @@ url: /tr/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 İç etiket metninin yazı tipini temsil etmekten sorumludur
 
 ```csharp
-public Font InnerTextFontSettings { get; set; }
+public WebFont InnerTextFontSettings { get; }
 ```
 
 ### Ayrıca bakınız
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * ad alanı [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * toplantı [GroupDocs.Editor](../../../)

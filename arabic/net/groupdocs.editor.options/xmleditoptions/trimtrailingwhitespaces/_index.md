@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتمكين اقتطاع المسافات البيضاء الزائدة في نص العلامة الداخلية. افتراضيًا معطل خطأ  سيتم الاحتفاظ بالمسافات الزائدة.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

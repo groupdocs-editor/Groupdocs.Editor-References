@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلPresentationFormatsgroupdocs.editor.formats/presentationformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلPresentationFormatsgroupdocs.editor.formats/presentationformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 130
 url: /ar/net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-إرجاع مثيل[`PresentationFormats`](../../presentationformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`PresentationFormats`](../../presentationformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static PresentationFormats FromExtension(string extension)
 
 ### قيمة الإرجاع
 
-حالة[`PresentationFormats`](../../presentationformats) بناء على النجاح أو استثناء عند الفشل
+حالة[`PresentationFormats`](../../presentationformats)بناء على النجاح أو استثناء عند الفشل
 
 ### أنظر أيضا
 

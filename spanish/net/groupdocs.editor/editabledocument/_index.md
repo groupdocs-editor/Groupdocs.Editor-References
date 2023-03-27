@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | Nombre | Descripción |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Devuelve una lista de todos los recursos existentes: todas las hojas de estilo, imágenes de HTML y todas las hojas de estilo, fuentes |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Devuelve una lista de todos los recursos existentes: todas las hojas de estilo, imágenes de HTML y todas las hojas de estilo, fuentes, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Devuelve una lista de recursos de audio |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | Devuelve una lista de recursos CSS |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Permite obtener recursos de fuentes externas, que son utilizadas por este documento HTML |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Permite obtener recursos de imágenes externas (imágenes raster), que son utilizadas por este documento HTML |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | Permite obtener recursos de imágenes externas (imágenes rasterizadas y vectoriales), que son utilizadas por este documento HTML |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Determina si este documento Editable ya fue eliminado (verdadero) o no (falso) |
 
 ## Métodos
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Fábrica estática, que crea una instancia de EditableDocument a partir del marcado HTML especificado y un conjunto de recursos vinculados correspondientes |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Fábrica estática, que crea una instancia de EditableDocument a partir de un marcado HTML específico y de recursos, ubicados en la carpeta, especificada por la ruta completa |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Elimina esta instancia de documento Editable, eliminando su contenido y haciendo que sus métodos y propiedades no funcionen |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Devuelve el cuerpo del documento HTML (contenido entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena. |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Devuelve el cuerpo del documento HTML (contenido entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena, donde los enlaces a los recursos externos contienen el prefijo especificado. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Devuelve el cuerpo del documento HTML (contenido interno entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | Devuelve el cuerpo del documento HTML (contenido interno entre abrir y cerrar las etiquetas BODY sin estas etiquetas) como una cadena, donde los enlaces a los recursos externos contienen el prefijo especificado. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | Devuelve el contenido general del documento HTML como una cadena. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | Devuelve el contenido general del documento HTML como una cadena, donde los enlaces a los recursos externos contienen el prefijo especificado. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | Devuelve el contenido de todas las hojas de estilo externas como una lista de cadenas, donde una cadena representa una hoja de estilo. Devuelve una lista vacía, si no hay CSS para este documento. |

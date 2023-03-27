@@ -1,17 +1,17 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Consente di regolare levidenziazione che verrà applicata alla struttura XML quando è rappresentata in HTML. Per impostazione predefinita è NULL  viene applicata levidenziazione predefinita.
+description: Consente di regolare levidenziazione XML che verrà applicata alla struttura XML quando viene rappresentata in HTML. Viene utilizzata levidenziazione predefinita ed è regolabile. Non può essere nullo.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.editor.options/xmleditoptions/highlightoptions/
 ---
 ## XmlEditOptions.HighlightOptions property
 
-Consente di regolare l'evidenziazione, che verrà applicata alla struttura XML, quando è rappresentata in HTML. Per impostazione predefinita è NULL — viene applicata l'evidenziazione predefinita.
+Consente di regolare l'evidenziazione XML, che verrà applicata alla struttura XML, quando viene rappresentata in HTML. Viene utilizzata l'evidenziazione predefinita ed è regolabile. Non può essere nullo.
 
 ```csharp
-public XmlHighlightOptions HighlightOptions { get; set; }
+public XmlHighlightOptions HighlightOptions { get; }
 ```
 
 ### Guarda anche

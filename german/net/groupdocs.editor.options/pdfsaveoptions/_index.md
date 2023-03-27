@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von PDFDokumenten Portable Document Format
 type: docs
-weight: 850
+weight: 1060
 url: /de/net/groupdocs.editor.options/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

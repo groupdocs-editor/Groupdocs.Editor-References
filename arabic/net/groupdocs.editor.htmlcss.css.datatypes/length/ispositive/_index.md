@@ -3,7 +3,7 @@ title: IsPositive
 second_title: GroupDocs.Editor لمرجع .NET API
 description: تحديد ما إذا كانت القيمة الرقمية لهذا الطول رقمًا موجبًا
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/length/ispositive/
 ---
 ## Length.IsPositive property

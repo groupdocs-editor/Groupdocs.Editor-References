@@ -3,7 +3,7 @@ title: FontExtractionOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Alternativ för teckensnittsextraktion styr vilka teckensnitt som ska extraheras och varifrån
 type: docs
-weight: 750
+weight: 900
 url: /sv/net/groupdocs.editor.options/fontextractionoptions/
 ---
 ## FontExtractionOptions enumeration

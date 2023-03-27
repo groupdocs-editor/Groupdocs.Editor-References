@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 处理此光栅图像时发生的事件
+description: 事件当处理此光栅图像时发生
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/disposed/
 ---
 ## RasterImageResourceBase.Disposed event
 
-处理此光栅图像时发生的事件
+事件，当处理此光栅图像时发生
 
 ```csharp
 public event EventHandler Disposed;

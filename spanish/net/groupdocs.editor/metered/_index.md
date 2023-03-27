@@ -3,7 +3,7 @@ title: Metered
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Proporciona métodos para aplicarmedidohttps//purchase.groupdocs.com/faqs/licensing/metered licencia.
 type: docs
-weight: 650
+weight: 800
 url: /es/net/groupdocs.editor/metered/
 ---
 ## Metered class

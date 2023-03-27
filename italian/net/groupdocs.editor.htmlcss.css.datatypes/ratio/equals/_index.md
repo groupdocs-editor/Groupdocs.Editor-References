@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Determina se questa istanza è uguale al Rapporto specificato instance
 type: docs
-weight: 80
+weight: 70
 url: /it/net/groupdocs.editor.htmlcss.css.datatypes/ratio/equals/
 ---
 ## Equals(Ratio) {#equals}

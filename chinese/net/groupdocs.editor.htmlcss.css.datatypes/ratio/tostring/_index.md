@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回此比率的字符串表示形式与SerializeDefault 相同
+description: 返回该比率的字符串表示形式与SerializeDefault 相同
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/ratio/tostring/
 ---
 ## Ratio.ToString method
 
-返回此比率的字符串表示形式；与“SerializeDefault()” 相同
+返回该比率的字符串表示形式；与“SerializeDefault()” 相同
 
 ```csharp
 public override string ToString()

@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images.Raster
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images.Raster الفئات التي تمثل موارد الصور النقطية فقط.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/groupdocs.editor.htmlcss.resources.images.raster/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources.Images.Raster الفئات التي تمثل موارد الصور النقطية فقط.

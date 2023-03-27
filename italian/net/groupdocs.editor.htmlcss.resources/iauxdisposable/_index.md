@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Espande linterfaccia standard System.IDisposable consente di ottenere uno stato corrente di un oggetto e iscriversi allevento di smaltimento
 type: docs
-weight: 330
+weight: 430
 url: /it/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

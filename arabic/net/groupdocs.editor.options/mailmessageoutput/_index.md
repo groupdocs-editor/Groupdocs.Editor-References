@@ -3,7 +3,7 @@ title: MailMessageOutput
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يتحكم في أي أجزاء من رسالة البريد يجب تسليمها إلى معالجة الإخراج
 type: docs
-weight: 790
+weight: 950
 url: /ar/net/groupdocs.editor.options/mailmessageoutput/
 ---
 ## MailMessageOutput enumeration

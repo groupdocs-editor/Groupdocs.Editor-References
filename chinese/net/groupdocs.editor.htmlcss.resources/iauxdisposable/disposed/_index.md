@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在对象被处置时发生
+description: 对象被释放时发生
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.htmlcss.resources/iauxdisposable/disposed/
 ---
 ## IAuxDisposable.Disposed event
 
-在对象被处置时发生
+对象被释放时发生
 
 ```csharp
 public event EventHandler Disposed;

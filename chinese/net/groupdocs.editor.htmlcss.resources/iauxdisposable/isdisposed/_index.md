@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定资源是否关闭真或不假
+description: 确定资源是否关闭真或不关闭假
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.resources/iauxdisposable/isdisposed/
 ---
 ## IAuxDisposable.IsDisposed property
 
-确定资源是否关闭（真）或不（假）
+确定资源是否关闭（真）或不关闭（假）
 
 ```csharp
 public bool IsDisposed { get; }

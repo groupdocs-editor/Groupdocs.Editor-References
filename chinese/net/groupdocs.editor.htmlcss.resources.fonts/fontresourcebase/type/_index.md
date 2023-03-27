@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Editor for .NET API 参考
-description: 在实现type时应该返回特定字体资源的类型信息 作为特定FontType类型的一个实例它封装了所有类型特定的info
+description: 在实现类型时应返回有关特定字体资源类型的信息 作为特定 FontType 类型的实例它封装了所有类型特定的信息
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/type/
 ---
 ## FontResourceBase.Type property
 
-在实现type时应该返回特定字体资源的类型信息 作为特定FontType类型的一个实例，它封装了所有类型特定的info
+在实现类型时应返回有关特定字体资源类型的信息 作为特定 FontType 类型的实例，它封装了所有类型特定的信息
 
 ```csharp
 public abstract FontType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: AddBidiMarks
 second_title: GroupDocs.Editor for .NET API 参考
-description: 指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记默认为假不添加双向标记
+description: 指定在以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记默认为false不添加 BiDi 标记
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor.options/textsaveoptions/addbidimarks/
 ---
 ## TextSaveOptions.AddBidiMarks property
 
-指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。默认为“假”——不添加双向标记。
+指定在以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。默认为“false”——不添加 BiDi 标记。
 
 ```csharp
 public bool AddBidiMarks { get; set; }

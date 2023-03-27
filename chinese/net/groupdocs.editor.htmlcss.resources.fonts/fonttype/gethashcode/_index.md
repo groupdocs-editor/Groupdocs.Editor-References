@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回一个哈希码它是这个特定值类型的常数
+description: 返回一个哈希码它是这个特定值 type 的常数
 type: docs
 weight: 170
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/gethashcode/
 ---
 ## FontType.GetHashCode method
 
-返回一个哈希码，它是这个特定值类型的常数
+返回一个哈希码，它是这个特定值 type 的常数
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-4 字节有符号整数，0 表示未定义值
+字节有符号整数，0 表示未定义值
 
 ### 也可以看看
 

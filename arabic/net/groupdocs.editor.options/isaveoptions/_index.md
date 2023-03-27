@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: واجهة لجميع خيارات الحفظ لجميع أنواع المستندات. تعلن عدم وجود أعضاء.
 type: docs
-weight: 780
+weight: 940
 url: /ar/net/groupdocs.editor.options/isaveoptions/
 ---
 ## ISaveOptions interface

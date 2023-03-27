@@ -1,14 +1,14 @@
 ---
 title: OptimizeMemoryUsage
 second_title: Referencia de API de GroupDocs.Editor para .NET
-description: Habilita mecanismos de optimización de memoria durante el procesamiento de documentos de entrada lo que puede degradar el rendimiento en algunos casos especiales pero por otro lado reduce el uso de memoria. Útil cuando se procesan documentos grandes y se enfrentan a OutOfMemoryException. El valor predeterminado es falso la optimización de la memoria está deshabilitada en aras de un mejor rendimiento.
+description: Habilita mecanismos de optimización de memoria durante el procesamiento de documentos de entrada lo que puede degradar el rendimiento en algunos casos especiales pero por otro lado reduce el uso de memoria. Útil cuando se procesan documentos grandes y se enfrentan a OutOfMemoryException. El valor predeterminado esFALSO la optimización de la memoria está deshabilitada en aras de un mejor rendimiento.
 type: docs
 weight: 40
 url: /es/net/groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage/
 ---
 ## DelimitedTextEditOptions.OptimizeMemoryUsage property
 
-Habilita mecanismos de optimización de memoria durante el procesamiento de documentos de entrada, lo que puede degradar el rendimiento en algunos casos especiales, pero, por otro lado, reduce el uso de memoria. Útil cuando se procesan documentos grandes y se enfrentan a OutOfMemoryException. El valor predeterminado es falso (la optimización de la memoria está deshabilitada en aras de un mejor rendimiento).
+Habilita mecanismos de optimización de memoria durante el procesamiento de documentos de entrada, lo que puede degradar el rendimiento en algunos casos especiales, pero, por otro lado, reduce el uso de memoria. Útil cuando se procesan documentos grandes y se enfrentan a OutOfMemoryException. El valor predeterminado es`FALSO` (la optimización de la memoria está deshabilitada en aras de un mejor rendimiento).
 
 ```csharp
 public bool OptimizeMemoryUsage { get; set; }

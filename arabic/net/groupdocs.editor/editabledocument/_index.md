@@ -18,11 +18,11 @@ public sealed class EditableDocument : IAuxDisposable
 
 | اسم | وصف |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | إرجاع قائمة بجميع الموارد الموجودة: جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | إرجاع قائمة بجميع الموارد الموجودة: جميع أوراق الأنماط والصور من HTML وجميع أوراق الأنماط والخطوط و audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | إرجاع قائمة بالموارد الصوتية |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | إرجاع قائمة بموارد CSS |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | يسمح بالحصول على موارد الخطوط الخارجية ، والتي يتم استخدامها بواسطة مستند HTML هذا |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | يسمح بالحصول على موارد الصور الخارجية (الصور النقطية) ، والتي يتم استخدامها بواسطة مستند HTML هذا |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | يسمح بالحصول على موارد الصور الخارجية (الصور النقطية والمتجهة) ، والتي يتم استخدامها بواسطة مستند HTML هذا |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | تحديد ما إذا كان هذا المستند القابل للتحرير قد تم التخلص منه بالفعل (صواب) أم لا (خطأ) |
 
 ## طُرق
@@ -33,8 +33,8 @@ public sealed class EditableDocument : IAuxDisposable
 | static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | مصنع ثابت ، يقوم بإنشاء مثيل EditableDocument من ترميز HTML المحدد ومجموعة من الموارد المرتبطة المقابلة |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | مصنع ثابت ، يقوم بإنشاء مثيل EditableDocument من ترميز HTML محدد ومن الموارد الموجودة في المجلد المحدد بواسطة المسار الكامل |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | التخلص من هذا المستند القابل للتحرير ، والتخلص من محتواه وجعل أساليبه وخصائصه غير عاملة |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | إرجاع نص مستند HTML (المحتوى بين علامات الفتح والإغلاق BODY بدون هذه العلامات) كسلسلة . |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | إرجاع نص مستند HTML (المحتوى بين علامات الفتح والإغلاق BODY بدون هذه العلامات) كسلسلة ، حيث تحتوي الارتباطات إلى الموارد الخارجية على بادئة محددة. |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | إرجاع نص مستند HTML (المحتوى الداخلي بين فتح وإغلاق علامات BODY بدون هذه العلامات) كسلسلة . |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | إرجاع نص مستند HTML (المحتوى الداخلي بين فتح وإغلاق علامات BODY بدون هذه العلامات) كسلسلة ، حيث تحتوي الارتباطات إلى الموارد الخارجية على بادئة محددة. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | إرجاع المحتوى الكلي لمستند HTML كسلسلة. |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | إرجاع المحتوى الكلي لمستند HTML كسلسلة ، حيث تحتوي الارتباطات إلى الموارد الخارجية على بادئة محددة. |
 | [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | إرجاع محتوى جميع أوراق الأنماط الخارجية كقائمة من السلاسل ، حيث تمثل إحدى السلاسل ورقة أنماط واحدة . إرجاع قائمة فارغة ، إذا لم يكن هناك CSS لهذا المستند. |

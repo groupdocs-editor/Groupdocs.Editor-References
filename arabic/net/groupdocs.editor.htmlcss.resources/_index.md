@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources
 second_title: GroupDocs.Editor لمرجع .NET API
 description: توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources الفئات التي تمثل جميع أنواع موارد HTML.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.editor.htmlcss.resources/
 ---
 توفر مساحة الاسم GroupDocs.Editor.HtmlCss.Resources الفئات التي تمثل جميع أنواع موارد HTML.

@@ -3,7 +3,7 @@ title: ILoadOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Tüm seçenek sınıfları için ortak arabirim farklı türdeki belgeleri yüklemekten sorumludur biçimler
 type: docs
-weight: 770
+weight: 920
 url: /tr/net/groupdocs.editor.options/iloadoptions/
 ---
 ## ILoadOptions interface

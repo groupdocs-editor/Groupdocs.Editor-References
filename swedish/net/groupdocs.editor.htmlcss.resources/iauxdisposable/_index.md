@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Editor för .NET API-referens
 description: Utökar standardgränssnittet System.IDisposable gör det möjligt att erhålla ett aktuellt tillstånd för ett objekt och prenumerera på att disponera event
 type: docs
-weight: 330
+weight: 430
 url: /sv/net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

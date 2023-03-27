@@ -1,14 +1,14 @@
 ---
 title: Xlsx
 second_title: .NET API Başvurusu için GroupDocs.Editor
-description: Makro İçermeyen Office Açık XML Çalışma Kitabı XLSX Microsoft tarafından Microsoft Office 2007nin piyasaya sürülmesiyle kullanıma sunulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlsx .
+description: Makro İçermeyen Office Açık XML Çalışma Kitabı XLSX Microsoft tarafından Microsoft Office 2007nin piyasaya sürülmesiyle kullanıma sunulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlsx .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.editor.formats/spreadsheetformats/xlsx/
 ---
 ## SpreadsheetFormats.Xlsx field
 
-Makro İçermeyen Office Açık XML Çalışma Kitabı (XLSX), Microsoft tarafından Microsoft Office 2007'nin piyasaya sürülmesiyle kullanıma sunulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlsx) .
+Makro İçermeyen Office Açık XML Çalışma Kitabı (XLSX), Microsoft tarafından Microsoft Office 2007'nin piyasaya sürülmesiyle kullanıma sunulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlsx) .
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsx;

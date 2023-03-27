@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يسمح بتحديد خيارات مخصصة لإنشاء مستندات XPS مواصفات ورق XML وحفظها
 type: docs
-weight: 1070
+weight: 1310
 url: /ar/net/groupdocs.editor.options/xpssaveoptions/
 ---
 ## XpsSaveOptions class

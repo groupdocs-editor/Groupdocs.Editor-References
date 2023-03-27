@@ -3,7 +3,7 @@ title: License
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Fournit des méthodes pour licencier le composant. En savoir plus sur les licencesicihttps//purchase.groupdocs.com/faqs/licensing .
 type: docs
-weight: 550
+weight: 700
 url: /fr/net/groupdocs.editor/license/
 ---
 ## License class

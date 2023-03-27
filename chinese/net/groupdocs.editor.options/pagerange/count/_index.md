@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Editor for .NET API 参考
-description: 范围内的页数如果 0  页面范围扩展到文档末尾无论它包含多少页
+description: 范围内的页数如果为 0  页面范围扩展到文档末尾无论它由多少页组成
 type: docs
 weight: 60
 url: /zh/net/groupdocs.editor.options/pagerange/count/
 ---
 ## PageRange.Count property
 
-范围内的页数。如果 0 - 页面范围扩展到文档末尾，无论它包含多少页
+范围内的页数。如果为 0 - 页面范围扩展到文档末尾，无论它由多少页组成
 
 ```csharp
 public ushort Count { get; }

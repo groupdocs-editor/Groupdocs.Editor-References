@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: GroupDocs.Editor for .NET API 参考
-description: WMF Windows MetaFile 矢量图像类型
+description: WMFWindows 图元文件矢量图像类型
 type: docs
 weight: 100
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/wmf/
 ---
 ## ImageType.Wmf property
 
-WMF (Windows MetaFile) 矢量图像类型
+WMF（Windows 图元文件）矢量图像类型
 
 ```csharp
 public static ImageType Wmf { get; }

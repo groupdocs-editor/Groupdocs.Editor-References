@@ -1,14 +1,14 @@
 ---
 title: XpsEditOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定用于编辑XML 纸张规格文档的自定义选项
+description: 允许指定用于编辑XML 纸张规范文档的自定义选项
 type: docs
-weight: 1060
+weight: 1300
 url: /zh/net/groupdocs.editor.options/xpseditoptions/
 ---
 ## XpsEditOptions class
 
-允许指定用于编辑（XML 纸张规格）文档的自定义选项
+允许指定用于编辑（XML 纸张规范）文档的自定义选项
 
 ```csharp
 public sealed class XpsEditOptions : FixedLayoutEditOptionsBase
@@ -19,15 +19,15 @@ public sealed class XpsEditOptions : FixedLayoutEditOptionsBase
 | 姓名 | 描述 |
 | --- | --- |
 | [XpsEditOptions](xpseditoptions#constructor)() | 创建并返回 XpsEditOptions 类的新实例，其中所有选项都设置为其默认值 |
-| [XpsEditOptions](xpseditoptions#constructor_1)(bool) | 创建并返回具有指定分页和默认所有其他选项的 XpsEditOptions 类的新实例 |
+| [XpsEditOptions](xpseditoptions#constructor_1)(bool) | 创建并返回具有指定分页的 XpsEditOptions 类的新实例，并默认所有其他选项 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnablePagination](../../groupdocs.editor.options/fixedlayouteditoptionsbase/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用（假）。 |
+| [EnablePagination](../../groupdocs.editor.options/fixedlayouteditoptionsbase/enablepagination) { get; set; } | 允许在生成的 HTML 文档中启用 (true) 或禁用 (false) 分页。默认情况下禁用 (false). |
 | [Pages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/pages) { get; set; } | 允许设置要处理的页面范围。默认情况下，处理固定布局文档的所有页面。 |
-| [SkipImages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/skipimages) { get; set; } | 获取或设置标志，指示在将输入固定布局文档转换为结果 HTML 时是否必须跳过图像。默认为 false - 保留图像。 |
+| [SkipImages](../../groupdocs.editor.options/fixedlayouteditoptionsbase/skipimages) { get; set; } | 获取或设置标志，指示在将输入的固定布局文档转换为生成的 HTML 时是否必须跳过图像。默认为 false - 图像被保留。 |
 
 ### 也可以看看
 

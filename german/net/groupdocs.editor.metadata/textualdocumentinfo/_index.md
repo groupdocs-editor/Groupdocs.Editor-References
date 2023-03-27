@@ -3,7 +3,7 @@ title: TextualDocumentInfo
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Repräsentiert Metadaten eines Textdokuments wie XML HTML oder Klartext TXT
 type: docs
-weight: 630
+weight: 780
 url: /de/net/groupdocs.editor.metadata/textualdocumentinfo/
 ---
 ## TextualDocumentInfo structure
@@ -20,7 +20,7 @@ public struct TextualDocumentInfo : IDocumentInfo
 | --- | --- |
 | [Encoding](../../groupdocs.editor.metadata/textualdocumentinfo/encoding) { get; } | Gibt erkannte mutmaßliche Codierung des Texts document zurück |
 | [Format](../../groupdocs.editor.metadata/textualdocumentinfo/format) { get; } | Gibt ein Format dieses Textdokuments zurück. Kann in manchen Fällen nicht 100 % korrekt sein. |
-| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | Gibt immer 'false' zurück, da Textdokumente nicht verschlüsselt werden können. |
+| [IsEncrypted](../../groupdocs.editor.metadata/textualdocumentinfo/isencrypted) { get; } | gibt immer ` zurück`FALSCH` `, da Textdokumente nicht verschlüsselt werden können |
 | [PageCount](../../groupdocs.editor.metadata/textualdocumentinfo/pagecount) { get; } | gibt immer 1 zurück |
 | [Size](../../groupdocs.editor.metadata/textualdocumentinfo/size) { get; } | Gibt die Größe dieses Textdokuments in Bytes (nicht die Anzahl der Zeichen) zurück |
 

@@ -1,14 +1,14 @@
 ---
 title: ReduceToNewHeight
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建并返回一个新的缩小的 PNG 图像但具有指定的新缩小的高度和按比例缩小的宽度
+description: 创建并返回一个新的缩小 PNG 图像但具有指定的新缩小高度和按比例缩小的宽度
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/pngimage/reducetonewheight/
 ---
 ## PngImage.ReduceToNewHeight method
 
-创建并返回一个新的缩小的 PNG 图像，但具有指定的新缩小的高度和按比例缩小的宽度。
+创建并返回一个新的缩小 PNG 图像，但具有指定的新缩小高度和按比例缩小的宽度。
 
 ```csharp
 public PngImage ReduceToNewHeight(ushort targetHeightInPixels)

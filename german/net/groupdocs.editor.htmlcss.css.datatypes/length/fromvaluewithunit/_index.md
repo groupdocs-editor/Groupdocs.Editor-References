@@ -42,7 +42,7 @@ public static Length FromValueWithUnit(double value, Unit unit)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | Double | Jede doppelte (FP64) Zahl, die in Float (FP32) umgewandelt wird |
+| value | Double | Jede doppelte (FP64) Zahl, die in Float (FP32) konvertiert wird |
 | unit | Unit | Jeder gültige Einheitentyp |
 
 ### Rückgabewert

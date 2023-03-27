@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: GroupDocs.Editor لمرجع .NET API
-description: يسمح بتحديد خيارات مخصصة لتحميل مستندات XML لغة التوصيف الموسعة وتحويلها إلى HTML
+description: يسمح بتحديد خيارات مخصصة لتحرير مستندات XML لغة الترميز الموسعة وتحويلها إلى HTML
 type: docs
-weight: 1040
+weight: 1270
 url: /ar/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-يسمح بتحديد خيارات مخصصة لتحميل مستندات XML (لغة التوصيف الموسعة) وتحويلها إلى HTML
+يسمح بتحديد خيارات مخصصة لتحرير مستندات XML (لغة الترميز الموسعة) وتحويلها إلى HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | يسمح بتحديد نوع عرض الأسعار (علامات اقتباس مفردة أو مزدوجة) لقيم السمات. علامات الاقتباس المزدوجة هي الافتراضية. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | ترميز الأحرف للمستند النصي ، والذي سيتم تطبيقه عند فتحه. بشكل افتراضي فارغ - سيتم تطبيق ترميز المستند الداخلي. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | يسمح بتمكين أو تعطيل آلية إصلاح بنية XML التالفة. افتراضيا معطل (خطأ) . |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | يسمح بضبط التمييز ، الذي سيتم تطبيقه على بنية XML ، عندما يتم تمثيله في HTML . افتراضيًا هو NULL - يتم تطبيق التمييز الافتراضي. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | يسمح بضبط تنسيق XML ، الذي سيتم تطبيقه على بنية XML ، عندما يتم تمثيله بتنسيق HTML. يتم استخدام التنسيق الافتراضي وهو قابل للتعديل. لا يمكن أن يكون فارغًا. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | يسمح بضبط تمييز XML ، الذي سيتم تطبيقه على بنية XML ، عندما يتم تمثيله في HTML. يتم استخدام التظليل الافتراضي وهو قابل للتعديل. لا يمكن أن يكون فارغًا. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | يسمح بتمكين خوارزمية التعرف على عناوين البريد الإلكتروني في قيم السمة |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | يسمح بتمكين خوارزمية التعرف على URI |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | يسمح بتمكين اقتطاع المسافات البيضاء الزائدة في نص العلامة الداخلية. افتراضيًا معطل (خطأ) - سيتم الاحتفاظ بالمسافات الزائدة. |

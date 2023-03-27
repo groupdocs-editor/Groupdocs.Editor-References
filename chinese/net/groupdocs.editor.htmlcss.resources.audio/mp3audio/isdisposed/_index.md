@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定是否处理此 MP3 内容
+description: 判断是否处理该MP3内容
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/isdisposed/
 ---
 ## Mp3Audio.IsDisposed property
 
-确定是否处理此 MP3 内容
+判断是否处理该MP3内容
 
 ```csharp
 public bool IsDisposed { get; }

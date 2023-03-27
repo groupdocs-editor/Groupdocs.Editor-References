@@ -24,7 +24,7 @@ public EmailSaveOptions()
 
 ## EmailSaveOptions(MailMessageOutput) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`EmailSaveOptions`](../../emailsaveoptions) فئة مع[`MailMessageOutput`](../mailmessageoutput) المعلمة
+يقوم بتهيئة مثيل جديد لملف[`EmailSaveOptions`](../../emailsaveoptions) فئة مع[`MailMessageOutput`](../mailmessageoutput)المعلمة
 
 ```csharp
 public EmailSaveOptions(MailMessageOutput mailMessageOutput)

@@ -1,14 +1,14 @@
 ---
 title: Editor
 second_title: GroupDocs.Editor for .NET API 参考
-description: Main类封装了转换方法 Editor类提供了加载编辑保存所有支持格式的文档的方法它是一次性的因此请使用使用指令或通过Dispose方法调用手动处理其资源文档加载是通过构造函数执行的文档编辑通过编辑方法并在编辑后保存回结果文档通过保存方法
+description: 主类封装了转换方法 Editor 类提供了加载编辑和保存所有支持格式文档的方法它是一次性的因此请使用using指令或通过Dispose方法调用手动处理其资源文档加载是通过构造函数执行的文档编辑  通过方法编辑编辑后保存回生成的文档  通过方法保存.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.editor/editor/
 ---
 ## Editor class
 
-Main类，封装了转换方法。 Editor类提供了加载、编辑、保存所有支持格式的文档的方法。它是一次性的，因此请使用“使用”指令或通过“Dispose()”方法调用手动处理其资源。文档加载是通过构造函数执行的。文档编辑-通过“编辑”方法，并在编辑后保存回结果文档-通过“保存”方法。
+主类，封装了转换方法。 Editor 类提供了加载、编辑和保存所有支持格式文档的方法。它是一次性的，因此请使用“using”指令或通过“Dispose()”方法调用手动处理其资源。文档加载是通过构造函数执行的。文档编辑 - 通过方法“编辑”，编辑后保存回生成的文档 - 通过方法“保存”.
 
 ```csharp
 public sealed class Editor : IAuxDisposable
@@ -27,36 +27,36 @@ public sealed class Editor : IAuxDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsDisposed](../../groupdocs.editor/editor/isdisposed) { get; } | 指示此编辑器实例是否已被释放且不能再使用 (true) 或尚未释放并因此处于活动状态 (false) |
+| [IsDisposed](../../groupdocs.editor/editor/isdisposed) { get; } | 指示此 Editor 实例是否已被处置且不能再使用 (true) 或尚未处置因此处于活动状态 (false) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../groupdocs.editor/editor/dispose)() | 处理此编辑器实例，以便它释放所有内部资源并变得不可用以供进一步使用 |
-| [Edit](../../groupdocs.editor/editor/edit#edit)() | 通过生成并返回 ' 的实例，使用默认选项打开以前加载的文档以进行编辑[`EditableDocument`](../editabledocument)该类又包含生成 HTML 标记和相关资源的方法。 |
-| [Edit](../../groupdocs.editor/editor/edit#edit_1)(IEditOptions) | 通过生成并返回 ' 的实例，使用指定的格式特定选项打开以前加载的文档以进行编辑[`EditableDocument`](../editabledocument)该类又包含生成 HTML 标记和相关资源的方法。 |
-| [GetDocumentInfo](../../groupdocs.editor/editor/getdocumentinfo)(string) | 返回有关文档的元数据，该元数据已加载到此“编辑器”实例 |
-| [Save](../../groupdocs.editor/editor/save#save)(EditableDocument, Stream, ISaveOptions) | 转换指定的已编辑文档，表示为 ' 的实例[`EditableDocument`](../editabledocument) 到指定格式的结果文档，并将其内容保存到指定的stream |
-| [Save](../../groupdocs.editor/editor/save#save_1)(EditableDocument, string, ISaveOptions) | 转换指定的已编辑文档，表示为 ' 的实例[`EditableDocument`](../editabledocument) 到指定格式的结果文档，并将其内容保存到指定文件path 的文件中 |
+| [Dispose](../../groupdocs.editor/editor/dispose)() | 处理此 Editor 实例，以便它释放所有内部资源并变得不可用于进一步使用 |
+| [Edit](../../groupdocs.editor/editor/edit#edit)() | 通过生成并返回 ' 的实例，使用默认选项打开先前加载的文档进行编辑[`EditableDocument`](../editabledocument)类，该类又包含用于生成 HTML 标记和相关资源的方法。 |
+| [Edit](../../groupdocs.editor/editor/edit#edit_1)(IEditOptions) | 通过生成并返回 '[`EditableDocument`](../editabledocument)类，该类又包含用于生成 HTML 标记和相关资源的方法。 |
+| [GetDocumentInfo](../../groupdocs.editor/editor/getdocumentinfo)(string) | 返回有关文档的元数据，该文档已加载到此“编辑器”实例 |
+| [Save](../../groupdocs.editor/editor/save#save)(EditableDocument, Stream, ISaveOptions) | 转换指定的编辑文档，表示为 '[`EditableDocument`](../editabledocument) , 到指定格式的结果文档并将其内容保存到指定的 stream |
+| [Save](../../groupdocs.editor/editor/save#save_1)(EditableDocument, string, ISaveOptions) | 转换指定的编辑文档，表示为 '[`EditableDocument`](../editabledocument) 到指定格式的结果文档，并将其内容保存到指定文件path 的文件中 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor/editor/disposed) | 事件，当此编辑器实例及其所有内部资源被处置时发生 |
+| event [Disposed](../../groupdocs.editor/editor/disposed) | 事件，当此 Editor 实例及其所有内部资源都被释放时发生 |
 
 ### 评论
 
-Editor 类应被视为 GroupDocs.Editor 的入口点和根对象。所有操作都使用此类执行。执行完整文档编辑管道的 Editor 类的典型用法如下：
+Editor 类应被视为 GroupDocs.Editor 的入口点和根对象。所有操作都使用此类执行。用于执行完整文档编辑管道的 Editor 类的典型用法如下：
 
 1. 通过其构造函数将文档加载到 Editor 实例中。
 2. 或者，使用[`GetDocumentInfo`](./getdocumentinfo)方法。
-3. 通过调用[`Edit`](./edit)方法并获取实例[`EditableDocument`](../editabledocument)从中类。
+3. 通过调用打开文档进行编辑[`Edit`](./edit)方法并获取实例[`EditableDocument`](../editabledocument)从它上课。
 4. 使用任何所见即所得的 HTML 编辑器在客户端编辑文档内容。
-5. 创建一个新的实例[`EditableDocument`](../editabledocument)来自已编辑的文档内容。
-6. 通过调用[`Save`](./save)方法。
-7. 通过“使用”运算符或手动处理编辑器类的实例。
+5. 创建一个新的实例[`EditableDocument`](../editabledocument)来自编辑的文档内容。
+6. 通过调用将编辑过的文档保存为某种输出格式[`Save`](./save)方法。
+7. 通过“使用”运算符或手动处理 Editor 类的实例。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedHtml
 second_title: GroupDocs.Editor for .NET API 参考
-description: 以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源其中所有资源都以 base64 编码的形式嵌入到 HTML 标记中
+description: 以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源其中所有资源都以 base64 编码形式嵌入到 HTML 标记中
 type: docs
 weight: 150
 url: /zh/net/groupdocs.editor/editabledocument/getembeddedhtml/
 ---
 ## EditableDocument.GetEmbeddedHtml method
 
-以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源，其中所有资源都以 base64 编码的形式嵌入到 HTML 标记中。
+以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源，其中所有资源都以 base64 编码形式嵌入到 HTML 标记中。
 
 ```csharp
 public string GetEmbeddedHtml()
@@ -16,22 +16,22 @@ public string GetEmbeddedHtml()
 
 ### 返回值
 
-字符串，在任何情况下都不为 NULL 或为空
+字符串，在任何情况下都不是 NULL 或空的
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ObjectDisposedException | 此 EditableDocument 实例已被释放 |
+| ObjectDisposedException | 此 EditableDocument 实例已被处置 |
 
 ### 评论
 
-此方法将此 EditableDocument 转换为 HTML 并序列化为单个字符串， ，其中所有资源与 HTML 标记一起嵌入到字符串中：
+此方法将此 EditableDocument 转换为 HTML 并序列化为单个字符串， ，其中所有资源都与 HTML 标记一起嵌入到字符串中：
 
-* HTML-&gt;BODY 中的所有图像都转换为 base64 格式并位于 IMG 'src' 属性中
-* 所有样式表都存储在 HTML-&gt;HEAD 部分内的 STYLE 元素中
+* 来自 HTML-&gt;BODY 的所有图像都转换为 base64 格式并位于 IMG 的“src”属性中
+* 所有样式表都存储在 HTML-&gt;HEAD 部分的 STYLE 元素中
 * 样式表中的所有图像都转换为 base64 格式并位于适当的 CSS 声明中
-* 样式表中的所有字体都转换为 base64 格式并位于适当的@font-face at-rules
+* 样式表中的所有字体都转换为 base64 格式并位于适当的@font-face 规则中
 
 ### 也可以看看
 

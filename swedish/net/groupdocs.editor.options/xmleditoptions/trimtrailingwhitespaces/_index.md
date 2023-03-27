@@ -3,7 +3,7 @@ title: TrimTrailingWhitespaces
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillåter att trunkering av efterföljande blanksteg i den inre taggtexten. Som standard är inaktiverad false  efterföljande blanksteg kommer att bevaras.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces/
 ---
 ## XmlEditOptions.TrimTrailingWhitespaces property

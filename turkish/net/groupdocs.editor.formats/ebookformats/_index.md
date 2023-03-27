@@ -26,7 +26,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | örneğini döndürür[`EBookFormats`](../ebookformats)yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar |
+| static [FromExtension](../../groupdocs.editor.formats/ebookformats/fromextension)(string) | örneğini döndürür[`EBookFormats`](../ebookformats) yapı, belirtilen dosya adı uzantısıyla ilişkilendirilir veya uzantı düzgün bir şekilde ayrıştırılamazsa bir istisna atar |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals)(EBookFormats) | Bu örneğin belirtilen diğer EBookFormats örneğine eşit olup olmadığını belirler |
 | [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_1)(IDocumentFormat) | Bu örneğin belirtilen diğer IDocumentFormat örneğine eşit olup olmadığını belirler |
 | override [Equals](../../groupdocs.editor.formats/ebookformats/equals#equals_2)(object) | Bu örneğin, muhtemelen kutulu EBookFormats olan belirtilen diğer nesneye eşit olup olmadığını belirler. |
@@ -39,9 +39,9 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [Azw3](../../groupdocs.editor.formats/ebookformats/azw3) | Kindle Format 8 (KF8) olarak da bilinen AZW3, Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim, eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/azw3/) . |
-| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Elektronik Yayın (ePub) biçimi, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/epub/) . |
-| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI, MobiPocket Reader için geliştirilmiş formata verilen isimdir. Şu anda Amazon tarafından biraz farklı bir DRM şemasıyla kullanılıyor ve adı AZW. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/mobi/) . |
+| static readonly [Azw3](../../groupdocs.editor.formats/ebookformats/azw3) | Kindle Format 8 (KF8) olarak da bilinen AZW3, Amazon Kindle cihazları için geliştirilmiş AZW ebook dijital dosya formatının değiştirilmiş versiyonudur. Biçim, eski AZW dosyalarına yönelik bir geliştirmedir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/azw3/) . |
+| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Elektronik Yayın (ePub) biçimi, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/epub/) . |
+| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI, MobiPocket Reader için geliştirilmiş formata verilen isimdir. Şu anda Amazon tarafından biraz farklı bir DRM şemasıyla kullanılıyor ve adı AZW. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/mobi/) . |
 | static readonly [All](../../groupdocs.editor.formats/ebookformats/all) | Mevcut tüm E-Kitap biçimleri üzerinde sayısız olasılık sağlayan dahili bir sınıf döndürür |
 
 ## Diğer_Üyeler
@@ -52,7 +52,7 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 
 ### Notlar
 
-Mobi formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/ebook/mobi/) AZW3 formatı hakkında[burada](https://docs.fileformat.com/ebook/azw3/) ve ePub formatı hakkında[burada](https://docs.fileformat.com/ebook/epub/) .
+Mobi formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/ebook/mobi/) , AZW3 formatı hakkında[Burada](https://docs.fileformat.com/ebook/azw3/) ve ePub formatı hakkında[Burada](https://docs.fileformat.com/ebook/epub/) .
 
 ### Ayrıca bakınız
 

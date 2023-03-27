@@ -1,14 +1,14 @@
 ---
 title: EnablePagination
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Permet dactiver ou de désactiver la pagination dans le document HTML résultant. Par défaut est désactivé faux .
+description: Permet dactiver ou de désactiver la pagination dans le document HTML résultant. Par défaut est désactivé FAUX.
 type: docs
 weight: 30
 url: /fr/net/groupdocs.editor.options/ebookeditoptions/enablepagination/
 ---
 ## EbookEditOptions.EnablePagination property
 
-Permet d'activer ou de désactiver la pagination dans le document HTML résultant. Par défaut est désactivé (`faux` ).
+Permet d'activer ou de désactiver la pagination dans le document HTML résultant. Par défaut est désactivé (`FAUX`).
 
 ```csharp
 public bool EnablePagination { get; set; }
@@ -16,7 +16,7 @@ public bool EnablePagination { get; set; }
 
 ### Remarques
 
-Dans son essence, la plupart des formats de livres électroniques en interne sont un format de flux comme Office Open XML, où le contenu est un solide et est divisé en chapitres mais pas en pages. Cependant, il contient des informations spécifiques à la page, telles que les numéros de page, les notes de bas de page, les en-têtes/pieds de page, etc. Certains lecteurs de livres électroniques divisent le contenu du livre électronique en pages, tandis que d'autres (surtout mobiles) ne le font pas. Cette option permet de contrôler la façon dont le contenu du livre électronique doit être représenté en HTML/CSS lors de l'édition — dans le flottant (`faux`) ou paginé (`vrai`) voir.
+Dans son essence, la plupart des formats de livres électroniques en interne sont un format de flux comme Office Open XML, où le contenu est un solide et est divisé en chapitres mais pas en pages. Cependant, il contient des informations spécifiques à la page, telles que les numéros de page, les notes de bas de page, les en-têtes/pieds de page, etc. Certains lecteurs de livres électroniques divisent le contenu du livre électronique en pages, tandis que d'autres (surtout mobiles) ne le font pas. Cette option permet de contrôler la façon dont le contenu du livre électronique doit être représenté en HTML/CSS lors de l'édition — dans le flottant (`FAUX`) ou paginé (`vrai`) voir.
 
 ### Voir également
 

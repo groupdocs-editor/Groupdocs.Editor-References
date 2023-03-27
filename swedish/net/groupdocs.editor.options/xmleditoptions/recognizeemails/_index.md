@@ -3,7 +3,7 @@ title: RecognizeEmails
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gör det möjligt att aktivera igenkänningsalgoritm för epostadresser i attributvärden
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/groupdocs.editor.options/xmleditoptions/recognizeemails/
 ---
 ## XmlEditOptions.RecognizeEmails property

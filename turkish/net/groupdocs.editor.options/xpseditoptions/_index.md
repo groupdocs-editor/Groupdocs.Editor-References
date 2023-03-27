@@ -3,7 +3,7 @@ title: XpsEditOptions
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düzenleme XML Kağıt Spesifikasyonları belgeleri için özel seçenekler belirtmeye izin verir
 type: docs
-weight: 1060
+weight: 1300
 url: /tr/net/groupdocs.editor.options/xpseditoptions/
 ---
 ## XpsEditOptions class

@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Contiene opzioni per la generazione e il salvataggio di documenti di fogli di calcolo basati su testo CSV basati su schede ecc. che utilizzano un separatore delimitatore
 type: docs
-weight: 680
+weight: 830
 url: /it/net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -25,7 +25,7 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 | Nome | Descrizione |
 | --- | --- |
 | [Encoding](../../groupdocs.editor.options/delimitedtextsaveoptions/encoding) { get; set; } | Consente di impostare una codifica per il documento Spreadsheet basato su testo. Di default (e se non specificato) è UTF8. |
-| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito è false, il che significa che il contenuto della riga vuota sarà vuoto. |
+| [KeepSeparatorsForBlankRow](../../groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow) { get; set; } | Indica se i separatori devono essere emessi per la riga vuota. Il valore predefinito è`falso` il che significa che il contenuto della riga vuota sarà vuoto. |
 | [Separator](../../groupdocs.editor.options/delimitedtextsaveoptions/separator) { get; set; } | Consente di specificare un separatore di stringa (delimitatore) per documenti di fogli di calcolo basati su testo |
 | [TrimLeadingBlankRowAndColumn](../../groupdocs.editor.options/delimitedtextsaveoptions/trimleadingblankrowandcolumn) { get; set; } | Indica se le righe e le colonne vuote iniziali devono essere tagliate come fa MS Excel |
 

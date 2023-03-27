@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Editor for .NET API 参考
-description: 判断这个文本资源是否被释放
+description: 确定是否处理此文本资源
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.htmlcss.resources.textual/textresourcebase/isdisposed/
 ---
 ## TextResourceBase.IsDisposed property
 
-判断这个文本资源是否被释放
+确定是否处理此文本资源
 
 ```csharp
 public bool IsDisposed { get; }

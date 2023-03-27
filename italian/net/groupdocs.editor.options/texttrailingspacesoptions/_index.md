@@ -3,7 +3,7 @@ title: TextTrailingSpacesOptions
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Contiene le opzioni disponibili per la gestione dello spazio finale durante lapertura del documento di testo normale TXT
 type: docs
-weight: 960
+weight: 1170
 url: /it/net/groupdocs.editor.options/texttrailingspacesoptions/
 ---
 ## TextTrailingSpacesOptions enumeration

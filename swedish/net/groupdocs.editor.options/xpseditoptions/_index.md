@@ -3,7 +3,7 @@ title: XpsEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Tillåter att ange anpassade alternativ för redigering XML Paper Specifications documents
 type: docs
-weight: 1060
+weight: 1300
 url: /sv/net/groupdocs.editor.options/xpseditoptions/
 ---
 ## XpsEditOptions class

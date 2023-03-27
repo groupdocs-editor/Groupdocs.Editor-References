@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 定义这个值是否等于其他指定的长度
+description: 定义这个值是否等于另一个指定的length
 type: docs
-weight: 210
+weight: 200
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/equals/
 ---
 ## Equals(Length) {#equals}
 
-定义这个值是否等于其他指定的长度
+定义这个值是否等于另一个指定的length
 
 ```csharp
 public bool Equals(Length other)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Length 类型的其他实例，即装箱到 System.Object 或任何其他抽象类型或接口 |
+| obj | Object | Length 类型的其他实例，装箱到 System.Object 或任何其他抽象类型或接口 |
 
 ### 返回值
 

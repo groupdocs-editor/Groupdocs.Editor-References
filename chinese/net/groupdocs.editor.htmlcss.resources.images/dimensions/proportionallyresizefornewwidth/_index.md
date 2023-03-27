@@ -1,14 +1,14 @@
 ---
 title: ProportionallyResizeForNewWidth
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建并返回新的Dimensions实例它根据指定的宽度从当前按比例调整大小
+description: 创建并返回新的尺寸实例该实例根据指定的 width 从当前按比例调整大小
 type: docs
 weight: 140
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewwidth/
 ---
 ## Dimensions.ProportionallyResizeForNewWidth method
 
-创建并返回新的“Dimensions”实例，它根据指定的宽度从当前按比例调整大小
+创建并返回新的“尺寸”实例，该实例根据指定的 width 从当前按比例调整大小
 
 ```csharp
 public Dimensions ProportionallyResizeForNewWidth(ushort targetWidth)

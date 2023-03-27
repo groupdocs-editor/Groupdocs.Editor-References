@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 使用指定的引用相等性检查此实例
+description: 检查此实例是否具有指定的引用相等性
 type: docs
 weight: 120
 url: /zh/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/equals/
 ---
 ## RasterImageResourceBase.Equals method
 
-使用指定的引用相等性检查此实例。
+检查此实例是否具有指定的引用相等性。
 
 ```csharp
 public bool Equals(IHtmlResource other)

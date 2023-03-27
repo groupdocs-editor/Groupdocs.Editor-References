@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Gibt eine Zeichenfolgendarstellung dieser Länge in ihrer ursprünglichen nativen Form wie sie gespeichert ist zurück ohne den Längenwert in eine andere Einheit umzuwandeln type
 type: docs
-weight: 230
+weight: 220
 url: /de/net/groupdocs.editor.htmlcss.css.datatypes/length/serializedefault/
 ---
 ## Length.SerializeDefault method

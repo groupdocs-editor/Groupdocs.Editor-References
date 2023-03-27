@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Editor för .NET API-referens
 description: Representerar metadata för ett Markdowndokument
 type: docs
-weight: 600
+weight: 750
 url: /sv/net/groupdocs.editor.metadata/markdowndocumentinfo/
 ---
 ## MarkdownDocumentInfo structure
@@ -19,7 +19,7 @@ public struct MarkdownDocumentInfo : IDocumentInfo, IEquatable<MarkdownDocumentI
 | namn | Beskrivning |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/markdowndocumentinfo/format) { get; } | Returnerar ett format för detta Markdown-dokument — är det alltid[`Md`](../../groupdocs.editor.formats/textualformats/md) |
-| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Eftersom Markdown-dokument inte kan krypteras med lösenord, returnerar den här egenskapen alltid 'false' |
+| [IsEncrypted](../../groupdocs.editor.metadata/markdowndocumentinfo/isencrypted) { get; } | Eftersom Markdown-dokument inte kan krypteras med lösenord, returnerar denna egenskap alltid ``falsk` |
 | [PageCount](../../groupdocs.editor.metadata/markdowndocumentinfo/pagecount) { get; } | Returnerar antal sidor. Markdown-dokument har vanligtvis inga fasta sidor och därmed sidantal, så detta antal beräknas från standard sidstorlek inställd på A4 i stående orientering. |
 | [Size](../../groupdocs.editor.metadata/markdowndocumentinfo/size) { get; } | Returnerar storlek i byte av detta Markdown-dokument |
 

@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor för .NET API-referens
 description: Gör det möjligt att ange anpassade alternativ för redigering av dokument av alla stödbara kalkylarksformat Excelkompatibla
 type: docs
-weight: 890
+weight: 1100
 url: /sv/net/groupdocs.editor.options/spreadsheeteditoptions/
 ---
 ## SpreadsheetEditOptions class

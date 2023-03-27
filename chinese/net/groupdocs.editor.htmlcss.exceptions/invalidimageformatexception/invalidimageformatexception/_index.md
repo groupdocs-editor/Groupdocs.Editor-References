@@ -1,14 +1,14 @@
 ---
 title: InvalidImageFormatException
 second_title: GroupDocs.Editor for .NET API 参考
-description: 创建新的实例InvalidImageFormatExceptiongroupdocs.editor.htmlcss.exceptions/invalidimageformatexception带有指定的错误消息
+description: 创建新实例InvalidImageFormatExceptiongroupdocs.editor.htmlcss.exceptions/invalidimageformatexception带有指定的错误消息
 type: docs
 weight: 10
 url: /zh/net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/invalidimageformatexception/
 ---
 ## InvalidImageFormatException(string) {#constructor}
 
-创建新的实例[`InvalidImageFormatException`](../../invalidimageformatexception)带有指定的错误消息
+创建新实例[`InvalidImageFormatException`](../../invalidimageformatexception)带有指定的错误消息
 
 ```csharp
 public InvalidImageFormatException(string message)
@@ -28,7 +28,7 @@ public InvalidImageFormatException(string message)
 
 ## InvalidImageFormatException(string, Exception) {#constructor_1}
 
-创建新的实例[`InvalidImageFormatException`](../../invalidimageformatexception)带有指定的错误消息和对导致此异常的内部异常的引用
+创建新实例[`InvalidImageFormatException`](../../invalidimageformatexception)带有指定的错误消息和对导致此异常的内部异常的引用
 
 ```csharp
 public InvalidImageFormatException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public InvalidImageFormatException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 描述错误的文本消息可以为 null 或为空 |
-| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用。 |
+| innerException | Exception | 导致当前异常的异常，如果未指定内部异常，则为空引用。 |
 
 ### 也可以看看
 

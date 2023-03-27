@@ -3,7 +3,7 @@ title: IsUnitlessZero
 second_title: GroupDocs.Editor för .NET API-referens
 description: Bestämmer om denna instans är en enhetslös nolla eller inte. Unitless noll är standardvärdet av denna typ. Samma som IsDefaultegenskapen.
 type: docs
-weight: 170
+weight: 160
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlesszero/
 ---
 ## Length.IsUnitlessZero property

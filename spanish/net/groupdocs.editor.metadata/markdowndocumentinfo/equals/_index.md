@@ -20,7 +20,7 @@ public bool Equals(MarkdownDocumentInfo other)
 
 ### Valor_devuelto
 
-Verdadero si son iguales, falso si son desiguales
+`verdadero` si son iguales,`FALSO` si son desiguales
 
 ### Ver también
 

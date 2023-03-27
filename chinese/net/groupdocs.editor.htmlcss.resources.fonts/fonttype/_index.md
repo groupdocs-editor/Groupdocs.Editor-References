@@ -1,14 +1,14 @@
 ---
 title: FontType
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示一种可支持的字体类型
+description: 代表一种支持的字体类型
 type: docs
-weight: 280
+weight: 380
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/
 ---
 ## FontType structure
 
-表示一种可支持的字体类型
+代表一种支持的字体类型
 
 ```csharp
 public struct FontType : IEquatable<FontType>, IResourceType
@@ -18,13 +18,13 @@ public struct FontType : IEquatable<FontType>, IResourceType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Eot](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/eot) { get; } | 表示 EOT（嵌入式 OpenType）字体类型 |
-| static [Otf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/otf) { get; } | 表示一个OTF（OpenType Font）字体类型 |
-| static [Ttf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/ttf) { get; } | 表示 TTF（TrueType 字体）字体类型 |
+| static [Eot](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/eot) { get; } | 代表一个EOT（Embedded OpenType）字体type |
+| static [Otf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/otf) { get; } | 代表一个OTF（OpenType Font）字体type |
+| static [Ttf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/ttf) { get; } | 代表一个TTF（TrueType Font）字体type |
 | static [Undefined](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/undefined) { get; } | 特殊值，标记未定义、未知或不支持的字体资源 |
-| static [Woff](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/woff) { get; } | 表示一种 WOFF（Web Open Font Format）字体类型 |
-| static [Woff2](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/woff2) { get; } | 表示一个 WOFF2（Web Open Font Format version 2）字体类型 |
-| [CssName](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/cssname) { get; } | 返回此字体类型的 CSS 兼容名称，在@font-face at-rule 中使用 |
+| static [Woff](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/woff) { get; } | 代表一个WOFF（Web Open Font Format）字体类型 |
+| static [Woff2](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/woff2) { get; } | 代表一个WOFF2（Web Open Font Format version 2）字体类型 |
+| [CssName](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/cssname) { get; } | 返回此字体类型的 CSS 兼容名称，用于 @font-face at-rule |
 | [FileExtension](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/fileextension) { get; } | 此字体类型的文件扩展名（不带点字符） |
 | [FontFormat](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/fontformat) { get; } | @font-face format 的字体格式 |
 | [FormalName](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/formalname) { get; } | 返回此字体类型的正式名称 |
@@ -34,13 +34,13 @@ public struct FontType : IEquatable<FontType>, IResourceType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GetFirstDefined](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/getfirstdefined)(params FontType[]) | 从指定集合返回第一个字体类型，它不是“未定义”值，否则返回“未定义”字体类型（当所有项目都是“未定义”时） |
-| static [ParseFromCssName](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromcssname)(string) | 返回 FontType 值，相当于指定的字体类型的 CSS 兼容名称 |
-| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromfilenamewithextension)(string) | 返回 FontType 值，相当于从指定文件名中提取的文件扩展名 |
-| static [ParseFromMime](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefrommime)(string) | 返回 FontType 值，相当于指定的 MIME-code |
-| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/equals#equals)(FontType) | 确定此实例是否等于指定的“FontType”实例 |
-| override [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/equals#equals_1)(object) | 判断这个实例是否与指定的未转换对象相等，大概是另一个“FontType”实例 |
-| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/gethashcode)() | 返回一个哈希码，它是这个特定值类型的常数 |
+| static [GetFirstDefined](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/getfirstdefined)(params FontType[]) | 返回指定集中的第一个字体类型，它不是“未定义”值，否则为“未定义”字体类型（当所有项目均为“未定义”时） |
+| static [ParseFromCssName](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromcssname)(string) | 返回 FontType 值，相当于指定的 CSS 兼容字体名称 type |
+| static [ParseFromFilenameWithExtension](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromfilenamewithextension)(string) | 返回 FontType 值，相当于从指定文件名 中提取的文件扩展名 |
+| static [ParseFromMime](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefrommime)(string) | 返回 FontType 值，相当于指定的 MIME 代码 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/equals#equals)(FontType) | 确定此实例是否等于指定的“FontType” instance |
+| override [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/equals#equals_1)(object) | 确定此实例是否与指定的未转换对象相等，这可能是另一个“FontType”实例 |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/gethashcode)() | 返回一个哈希码，它是这个特定值 type 的常数 |
 | [operator ==](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/op_equality) | 检查两个“FontType”值是否相等 |
 | [operator !=](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/op_inequality) | 检查两个“FontType”值是否不相等 |
 

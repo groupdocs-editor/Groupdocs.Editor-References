@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Fonts
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Fonts tillhandahåller klasser som representerar teckensnittsresurser.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/groupdocs.editor.htmlcss.resources.fonts/
 ---
 Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Fonts tillhandahåller klasser som representerar teckensnittsresurser.

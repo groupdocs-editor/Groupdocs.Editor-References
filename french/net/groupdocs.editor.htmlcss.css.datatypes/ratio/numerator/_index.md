@@ -3,7 +3,7 @@ title: Numerator
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Renvoie un numérateur de ce ratio
 type: docs
-weight: 50
+weight: 40
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/ratio/numerator/
 ---
 ## Ratio.Numerator property

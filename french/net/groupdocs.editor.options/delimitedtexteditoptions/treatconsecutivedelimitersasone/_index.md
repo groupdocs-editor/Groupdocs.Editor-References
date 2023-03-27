@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: Référence de l'API GroupDocs.Editor pour .NET
-description: Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut est faux.
+description: Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut estFAUX .
 type: docs
 weight: 60
 url: /fr/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut est faux.
+Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut est`FAUX` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

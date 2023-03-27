@@ -3,7 +3,7 @@ title: Ratio
 second_title: GroupDocs.Editor لمرجع .NET API
 description: يمثل نوع بيانات CSS نسبة  والذي يستخدم لوصف نسب العرض إلى الارتفاع في استعلامات الوسائط وللصور النقطية عن طريق الإشارة إلى النسبة بين قيمتين بدون وحدات تسمى البسط و المقام. هيكل غير قابل للتغيير.
 type: docs
-weight: 210
+weight: 280
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure
@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 يمثل نوع بيانات CSS "نسبة" ، والذي يستخدم لوصف نسب العرض إلى الارتفاع في استعلامات الوسائط وللصور النقطية عن طريق الإشارة إلى النسبة بين قيمتين بدون وحدات تسمى "البسط" و "المقام". هيكل غير قابل للتغيير.
 
 ```csharp
-public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
+public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 ```
 
 ## الخصائص
@@ -19,7 +19,6 @@ public struct Ratio : ICloneable, IEquatable<  >, IEquatable<Ratio>
 | اسم | وصف |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | إرجاع مقام بهذه النسبة |
-| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | لتحديد ما إذا كانت هذه النسبة لها قيمة افتراضية أم أنها "1/1" (مفردة) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | إرجاع بسط هذه النسبة |
 
 ## طُرق
@@ -50,6 +49,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/ratio
 
 ### أنظر أيضا
 
+* interface [ICssDataType](../icssdatatype)
 * مساحة الاسم [GroupDocs.Editor.HtmlCss.Css.DataTypes](../../groupdocs.editor.htmlcss.css.datatypes)
 * المجسم [GroupDocs.Editor](../../)
 

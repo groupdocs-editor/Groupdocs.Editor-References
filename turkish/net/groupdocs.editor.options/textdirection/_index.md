@@ -3,7 +3,7 @@ title: TextDirection
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Düz metin belgelerinde metin yönünün nasıl ele alınacağını 3 olası varyantı temsil eder
 type: docs
-weight: 920
+weight: 1130
 url: /tr/net/groupdocs.editor.options/textdirection/
 ---
 ## TextDirection enumeration

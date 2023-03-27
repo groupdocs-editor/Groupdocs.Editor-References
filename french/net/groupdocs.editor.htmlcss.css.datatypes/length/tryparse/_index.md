@@ -3,7 +3,7 @@ title: TryParse
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Tente danalyser une chaîne spécifiée en tant que valeur de longueur y compris sa valeur numérique et son nom dunité
 type: docs
-weight: 280
+weight: 270
 url: /fr/net/groupdocs.editor.htmlcss.css.datatypes/length/tryparse/
 ---
 ## Length.TryParse method

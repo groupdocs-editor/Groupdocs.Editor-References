@@ -16,7 +16,13 @@ public DelimitedTextSaveOptions(string separator)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| separator | String | Separador de cadenas (delimitador) para documentos de hoja de cálculo basados en texto |
+| separator | String | Separador de cadena (delimitador), que no puede ser NULL o vacío |
+
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| ArgumentException | Se lanza cuando el separador especificado es una cadena nula o vacía |
 
 ### Ver también
 

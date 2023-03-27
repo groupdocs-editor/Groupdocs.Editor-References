@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Referencia de API de GroupDocs.Editor para .NET
 description: Comprueba la desigualdad de las dos longitudes dadas.
 type: docs
-weight: 300
+weight: 290
 url: /es/net/groupdocs.editor.htmlcss.css.datatypes/length/op_inequality/
 ---
 ## Length Inequality operator

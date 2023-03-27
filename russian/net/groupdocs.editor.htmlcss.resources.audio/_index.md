@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Audio
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Пространство имен GroupDocs.Editor.HtmlCss.Resources.Audio предоставляет типы представляющие аудиоресурсы.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/groupdocs.editor.htmlcss.resources.audio/
 ---
 Пространство имен GroupDocs.Editor.HtmlCss.Resources.Audio предоставляет типы, представляющие аудиоресурсы.

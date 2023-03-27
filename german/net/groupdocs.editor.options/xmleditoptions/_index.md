@@ -1,14 +1,14 @@
 ---
 title: XmlEditOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Laden von XMLDokumenten eXtensible Markup Language und deren Konvertierung in HTML
+description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von XMLDokumenten eXtensible Markup Language und zum Konvertieren in HTML
 type: docs
-weight: 1040
+weight: 1270
 url: /de/net/groupdocs.editor.options/xmleditoptions/
 ---
 ## XmlEditOptions class
 
-Ermöglicht das Festlegen benutzerdefinierter Optionen zum Laden von XML-Dokumenten (eXtensible Markup Language) und deren Konvertierung in HTML
+Ermöglicht das Festlegen benutzerdefinierter Optionen zum Bearbeiten von XML-Dokumenten (eXtensible Markup Language) und zum Konvertieren in HTML
 
 ```csharp
 public sealed class XmlEditOptions : IEditOptions
@@ -27,7 +27,8 @@ public sealed class XmlEditOptions : IEditOptions
 | [AttributeValuesQuoteType](../../groupdocs.editor.options/xmleditoptions/attributevaluesquotetype) { get; set; } | Ermöglicht die Angabe des Anführungstyps (einfache oder doppelte Anführungszeichen) für Attributwerte. Doppelte Anführungszeichen sind Standard. |
 | [Encoding](../../groupdocs.editor.options/xmleditoptions/encoding) { get; set; } | Zeichenkodierung des Textdokuments, die zum Öffnen verwendet wird. Standardmäßig ist null – interne Dokumentcodierung wird angewendet. |
 | [FixIncorrectStructure](../../groupdocs.editor.options/xmleditoptions/fixincorrectstructure) { get; set; } | Ermöglicht das Aktivieren oder Deaktivieren des Mechanismus zum Reparieren beschädigter XML-Strukturen. Standardmäßig ist deaktiviert (false). |
-| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; set; } | Ermöglicht die Anpassung der Hervorhebung, die auf die XML-Struktur angewendet wird, wenn sie in HTML dargestellt wird. Standardmäßig ist NULL — Standardhervorhebung wird angewendet. |
+| [FormatOptions](../../groupdocs.editor.options/xmleditoptions/formatoptions) { get; } | Ermöglicht die Anpassung der XML-Formatierung, die auf die XML-Struktur angewendet wird, wenn sie in HTML dargestellt wird. Standardformatierung wird verwendet und ist anpassbar. Kann nicht null sein. |
+| [HighlightOptions](../../groupdocs.editor.options/xmleditoptions/highlightoptions) { get; } | Ermöglicht die Anpassung der XML-Hervorhebung, die auf die XML-Struktur angewendet wird, wenn sie in HTML dargestellt wird. Die Standardhervorhebung wird verwendet und ist einstellbar. Kann nicht null sein. |
 | [RecognizeEmails](../../groupdocs.editor.options/xmleditoptions/recognizeemails) { get; set; } | Ermöglicht die Aktivierung des Erkennungsalgorithmus für E-Mail-Adressen in Attributwerten |
 | [RecognizeUris](../../groupdocs.editor.options/xmleditoptions/recognizeuris) { get; set; } | Ermöglicht die Aktivierung des URI-Erkennungsalgorithmus |
 | [TrimTrailingWhitespaces](../../groupdocs.editor.options/xmleditoptions/trimtrailingwhitespaces) { get; set; } | Ermöglicht das Abschneiden nachgestellter Leerzeichen im inneren Tag-Text. ist standardmäßig deaktiviert (false) – nachgestellte Leerzeichen bleiben erhalten. |

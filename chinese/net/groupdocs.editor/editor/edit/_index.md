@@ -1,14 +1,14 @@
 ---
 title: Edit
 second_title: GroupDocs.Editor for .NET API 参考
-description: 通过生成并返回  的实例使用指定的格式特定选项打开以前加载的文档以进行编辑EditableDocumentgroupdocs.editor/editabledocument该类又包含生成 HTML 标记和相关资源的方法
+description: 通过生成并返回 EditableDocumentgroupdocs.editor/editabledocument类该类又包含用于生成 HTML 标记和相关资源的方法
 type: docs
 weight: 50
 url: /zh/net/groupdocs.editor/editor/edit/
 ---
 ## Edit(IEditOptions) {#edit_1}
 
-通过生成并返回 ' 的实例，使用指定的格式特定选项打开以前加载的文档以进行编辑[`EditableDocument`](../../editabledocument)该类又包含生成 HTML 标记和相关资源的方法。
+通过生成并返回 '[`EditableDocument`](../../editabledocument)类，该类又包含用于生成 HTML 标记和相关资源的方法。
 
 ```csharp
 public EditableDocument Edit(IEditOptions editOptions)
@@ -16,15 +16,15 @@ public EditableDocument Edit(IEditOptions editOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| editOptions | IEditOptions | 格式特定的文档选项，允许调整转换过程。可能为 NULL — 在这种情况下，GroupDocs.Editor 检测到先前加载的文档的格式并应用选项，此格式的默认值。不应与先前应用的负载选项冲突。 |
+| editOptions | IEditOptions | 格式特定的文档选项，允许调整转换过程。可能为 NULL — 在这种情况下，GroupDocs.Editor 会检测先前加载的文档的格式并应用选项，此格式的默认选项。不应与以前应用的加载选项冲突。 |
 
 ### 返回值
 
-'的实例[`EditableDocument`](../../editabledocument)类，它以中间格式封装整个输入文档及其所有资源。此方法如果成功完成，则永远不会返回 NULL。
+'的实例[`EditableDocument`](../../editabledocument)类，它以中间格式封装整个输入文档及其所有资源。如果成功完成，此方法永远不会返回 NULL。
 
 ### 评论
 
-当输入的原始文档通过构造函数加载到“Editor”实例时，该方法允许通过将其转换为中间格式来打开文档进行编辑，该格式封装在“EditableDocument”类的实例中。 '[`EditableDocument`](../../editabledocument) ，从这个方法返回，包含所有必要的方法和属性，用于在所有必要的配置中生成 HTML 标记和相应的资源（如图像、字体和样式表），以便随后将它们传递到任何 WYSIWYG HTML 编辑器。此重载获得特定于系列格式的编辑选项。 **学到更多**
+当输入的原始文档通过构造函数加载到“Editor”实例时，此方法允许通过将文档转换为中间格式来打开文档进行编辑，中间格式封装在“EditableDocument”类的实例中。 '[`EditableDocument`](../../editabledocument)，从此方法返回，包含所有必要的方法和属性，用于生成 HTML 标记和相应资源（如图像、字体和样式表）在所有必要的配置中，以便随后将它们传递到任何 WYSIWYG HTML 编辑器。此重载获取特定于系列格式的编辑选项。 **了解更多**
 
 * 更多关于使用 GroupDocs.Editor 编辑文档的信息： [如何使用 GroupDocs.Editor 编辑文档](https://docs.groupdocs.com/display/editornet/Edit+document)
 
@@ -40,7 +40,7 @@ public EditableDocument Edit(IEditOptions editOptions)
 
 ## Edit() {#edit}
 
-通过生成并返回 ' 的实例，使用默认选项打开以前加载的文档以进行编辑[`EditableDocument`](../../editabledocument)该类又包含生成 HTML 标记和相关资源的方法。
+通过生成并返回 ' 的实例，使用默认选项打开先前加载的文档进行编辑[`EditableDocument`](../../editabledocument)类，该类又包含用于生成 HTML 标记和相关资源的方法。
 
 ```csharp
 public EditableDocument Edit()
@@ -48,11 +48,11 @@ public EditableDocument Edit()
 
 ### 返回值
 
-'的实例[`EditableDocument`](../../editabledocument)类，它以中间格式封装整个输入文档及其所有资源。此方法如果成功完成，则永远不会返回 NULL。
+'的实例[`EditableDocument`](../../editabledocument)类，它以中间格式封装整个输入文档及其所有资源。如果成功完成，此方法永远不会返回 NULL。
 
 ### 评论
 
-当输入的原始文档通过构造函数加载到'Editor'实例时，该方法允许通过将其转换为中间格式来打开文档进行编辑，该格式封装在'实例中[`EditableDocument`](../../editabledocument)班级。 '[`EditableDocument`](../../editabledocument) ，从这个方法返回，包含所有必要的方法和属性，用于在所有必要的配置中生成 HTML 标记和相应的资源（如图像、字体和样式表），以便随后将它们传递到任何 WYSIWYG HTML 编辑器。此重载应用了输入文档所属格式的默认编辑选项。 **学到更多**
+当输入原始文档通过构造函数加载到“编辑器”实例时，此方法允许通过将文档转换为中间格式来打开文档进行编辑，中间格式封装在“[`EditableDocument`](../../editabledocument)班级。 '[`EditableDocument`](../../editabledocument)，从此方法返回，包含所有必要的方法和属性，用于生成 HTML 标记和相应资源（如图像、字体和样式表）在所有必要的配置中，以便随后将它们传递到任何 WYSIWYG HTML 编辑器。此重载应用编辑选项，这是输入文档所属格式的默认选项。 **了解更多**
 
 * 更多关于使用 GroupDocs.Editor 编辑文档的信息： [如何使用 GroupDocs.Editor 编辑文档](https://docs.groupdocs.com/display/editornet/Edit+document)
 

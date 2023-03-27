@@ -3,7 +3,7 @@ title: IsUnitlessNonZero
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Değerin türü birimsizdir ancak sıfır değildir  pozitif veya negatif sayı
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/groupdocs.editor.htmlcss.css.datatypes/length/isunitlessnonzero/
 ---
 ## Length.IsUnitlessNonZero property

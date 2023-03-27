@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Options de chargement de documents de feuille de calcul à base de texte CSV basés sur des onglets etc. qui utilisent un séparateur délimiteur
 type: docs
-weight: 670
+weight: 820
 url: /fr/net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class
@@ -24,11 +24,11 @@ public sealed class DelimitedTextEditOptions : IEditOptions
 
 | Nom | La description |
 | --- | --- |
-| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Obtient ou définit une valeur qui indique si la chaîne dans le document textuel est convertie en données de date. La valeur par défaut est false. |
-| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Obtient ou définit une valeur qui indique si la chaîne dans le document textuel est convertie en données numériques. La valeur par défaut est false. |
-| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Active les mécanismes d'optimisation de la mémoire lors du traitement du document d'entrée, ce qui peut dégrader les performances dans certains cas particuliers, mais d'autre part diminuer l'utilisation de la mémoire. Utile lors du traitement de documents volumineux et face à OutOfMemoryException. La valeur par défaut est false (l'optimisation de la mémoire est désactivée pour de meilleures performances). |
+| [ConvertDateTimeData](../../groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata) { get; set; } | Obtient ou définit une valeur qui indique si la chaîne dans le document textuel est convertie en données de date. La valeur par défaut est`FAUX` . |
+| [ConvertNumericData](../../groupdocs.editor.options/delimitedtexteditoptions/convertnumericdata) { get; set; } | Obtient ou définit une valeur qui indique si la chaîne dans le document textuel est convertie en données numériques. La valeur par défaut est`FAUX` . |
+| [OptimizeMemoryUsage](../../groupdocs.editor.options/delimitedtexteditoptions/optimizememoryusage) { get; set; } | Active les mécanismes d'optimisation de la mémoire lors du traitement du document d'entrée, ce qui peut dégrader les performances dans certains cas particuliers, mais d'autre part diminuer l'utilisation de la mémoire. Utile lors du traitement de documents volumineux et face à OutOfMemoryException. La valeur par défaut est`FAUX` (l'optimisation de la mémoire est désactivée pour de meilleures performances). |
 | [Separator](../../groupdocs.editor.options/delimitedtexteditoptions/separator) { get; set; } | Permet de spécifier un séparateur de chaîne (délimiteur) pour les documents de feuille de calcul textuels |
-| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut est faux. |
+| [TreatConsecutiveDelimitersAsOne](../../groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone) { get; set; } | Définit si les délimiteurs consécutifs doivent être traités comme un seul. Par défaut est`FAUX` . |
 
 ### Remarques
 

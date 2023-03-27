@@ -26,7 +26,7 @@ public struct EmailFormats : IDocumentFormat, IEquatable<EmailFormats>
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Returnerar instans av[`EmailFormats`](../emailformats)struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | Returnerar instans av[`EmailFormats`](../emailformats) struktur, kopplad till angivet filnamnstillägg, eller ger ett undantag, om tillägget inte kan analyseras korrekt |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals)(EmailFormats) | Avgör om denna instans är lika med den andra angivna e-postinstansen |
 | [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_1)(IDocumentFormat) | Bestämmer om denna instans är lika med den andra specificerade IDocumentFormat-instansen |
 | override [Equals](../../groupdocs.editor.formats/emailformats/equals#equals_2)(object) | Bestämmer om denna instans är lika med det andra angivna objektet, det vill säga antagligen av boxed Email |

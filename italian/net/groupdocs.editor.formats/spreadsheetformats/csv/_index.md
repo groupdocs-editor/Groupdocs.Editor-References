@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: I documenti con valori separati da virgola CSV rappresentano testo semplice che contiene record di dati con valori separati da virgola. Ogni riga in un file CSV è un nuovo record dallinsieme di record contenuti nel file. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/spreadsheet/csv/ .
+description: I documenti con valori separati da virgola CSV rappresentano testo semplice che contiene record di dati con valori separati da virgola. Ogni riga in un file CSV è un nuovo record dallinsieme di record contenuti nel file. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/spreadsheet/csv/ .
 type: docs
 weight: 10
 url: /it/net/groupdocs.editor.formats/spreadsheetformats/csv/
 ---
 ## SpreadsheetFormats.Csv field
 
-I documenti con valori separati da virgola (CSV) rappresentano testo semplice che contiene record di dati con valori separati da virgola. Ogni riga in un file CSV è un nuovo record dall'insieme di record contenuti nel file. Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/spreadsheet/csv/) .
+I documenti con valori separati da virgola (CSV) rappresentano testo semplice che contiene record di dati con valori separati da virgola. Ogni riga in un file CSV è un nuovo record dall'insieme di record contenuti nel file. Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/spreadsheet/csv/) .
 
 ```csharp
 public static readonly SpreadsheetFormats Csv;

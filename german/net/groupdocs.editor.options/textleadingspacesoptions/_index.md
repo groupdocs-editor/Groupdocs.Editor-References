@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält verfügbare Optionen für die Handhabung von führenden Leerzeichen beim Öffnen von Textdokumenten TXT
 type: docs
-weight: 940
+weight: 1150
 url: /de/net/groupdocs.editor.options/textleadingspacesoptions/
 ---
 ## TextLeadingSpacesOptions enumeration

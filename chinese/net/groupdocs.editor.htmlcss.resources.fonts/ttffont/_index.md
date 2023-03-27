@@ -1,14 +1,14 @@
 ---
 title: TtfFont
 second_title: GroupDocs.Editor for .NET API 参考
-description: 表示 TTFTrueType 字体格式中的一种字体
+description: 代表TTFTrueType Font格式中的一种字体
 type: docs
-weight: 300
+weight: 400
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/
 ---
 ## TtfFont class
 
-表示 TTF（TrueType 字体）格式中的一种字体
+代表TTF（TrueType Font）格式中的一种字体
 
 ```csharp
 public sealed class TtfFont : FontResourceBase
@@ -25,35 +25,35 @@ public sealed class TtfFont : FontResourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ByteContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/bytecontent) { get; } | 以字节流的形式返回此字体的内容 |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/bytecontent) { get; } | 返回此字体的内容作为字节流 |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/filenamewithextension) { get; } | 返回此字体资源的正确文件名，由名称和扩展名组成。理论上可以与名称不同。 |
-| [IsDisposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed) { get; } | 确定是否处理此字体 |
-| [Name](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/name) { get; } | 返回此字体资源的名称。通常不包含文件扩展名，理论上可能与 filename. 不同 |
-| [TextContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/textcontent) { get; } | 将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后被缓存。 |
-| override [Type](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/type) { get; } | 返回字体类型.Ttf |
+| [IsDisposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed) { get; } | 判断是否释放该字体 |
+| [Name](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/name) { get; } | 返回此字体资源的名称。通常不包含文件扩展名，理论上可以不同于文件名. |
+| [TextContent](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/textcontent) { get; } | 将此字体的内容作为 base64 编码的字符串返回。该值在第一次调用后缓存。 |
+| override [Type](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/type) { get; } | 返回 FontType.Ttf |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/dispose)() | 处理此字体资源，处理其内容并使大多数方法和属性无效 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals)(FontResourceBase) | 在引用相等 上使用指定字体资源检查此实例 |
-| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals)(IHtmlResource) | 在引用相等 上使用指定的 HTML 资源检查此实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals)(FontResourceBase) | 在引用 equality 上使用指定的字体资源检查此实例 |
+| [Equals](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/equals)(IHtmlResource) | 使用指定的 HTML 资源检查此实例引用 equality |
 | [Save](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/save)(string) | 将此字体保存到指定文件 |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/isvalid#isvalid)(Stream) | 检查指定流是否是有效的 TTF 字体 |
-| static [IsValid](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/isvalid#isvalid_1)(string) | 检查指定的 base64 编码字符串是否是有效的 TTF 字体 |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/isvalid#isvalid)(Stream) | 检查指定的流是否是有效的 TTF font |
+| static [IsValid](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/isvalid#isvalid_1)(string) | 检查指定的 base64 编码字符串是否是有效的 TTF font |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [RequiredHeaderSize](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/requiredheadersize) | TTF 标头大小（以字节为单位），验证所需的 |
+| const [RequiredHeaderSize](../../groupdocs.editor.htmlcss.resources.fonts/ttffont/requiredheadersize) | TTF 标头大小（以字节为单位），这是其验证所必需的 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed) | 事件，当该字体被释放时发生 |
+| event [Disposed](../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/disposed) | 事件，当这个字体被释放时发生 |
 
 ### 也可以看看
 

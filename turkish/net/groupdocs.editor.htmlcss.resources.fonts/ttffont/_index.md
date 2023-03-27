@@ -3,7 +3,7 @@ title: TtfFont
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: TTF TrueType Yazı Tipi formatındaki bir yazı tipini temsil eder
 type: docs
-weight: 300
+weight: 400
 url: /tr/net/groupdocs.editor.htmlcss.resources.fonts/ttffont/
 ---
 ## TtfFont class

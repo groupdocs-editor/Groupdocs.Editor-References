@@ -3,7 +3,7 @@ title: InnerTextFontSettings
 second_title: GroupDocs.Editor för .NET API-referens
 description: Ansvarig för att representera typsnittet för innertaggen text
 type: docs
-weight: 110
+weight: 50
 url: /sv/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 ---
 ## XmlHighlightOptions.InnerTextFontSettings property
@@ -11,11 +11,12 @@ url: /sv/net/groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings/
 Ansvarig för att representera typsnittet för innertaggen text
 
 ```csharp
-public Font InnerTextFontSettings { get; set; }
+public WebFont InnerTextFontSettings { get; }
 ```
 
 ### Se även
 
+* class [WebFont](../../webfont)
 * class [XmlHighlightOptions](../../xmlhighlightoptions)
 * namnutrymme [GroupDocs.Editor.Options](../../xmlhighlightoptions)
 * hopsättning [GroupDocs.Editor](../../../)

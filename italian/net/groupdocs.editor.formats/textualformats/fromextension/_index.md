@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor per Riferimento API .NET
-description: Restituisce listanza diTextualFormatsgroupdocs.editor.formats/textualformatsstruttura associata allestensione del nome file specificata o genera uneccezione se lestensione non può essere analizzata correttamente
+description: Restituisce listanza diTextualFormatsgroupdocs.editor.formats/textualformats struttura associata allestensione del nome file specificata o genera uneccezione se lestensione non può essere analizzata correttamente
 type: docs
 weight: 80
 url: /it/net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Restituisce l'istanza di[`TextualFormats`](../../textualformats)struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente
+Restituisce l'istanza di[`TextualFormats`](../../textualformats) struttura, associata all'estensione del nome file specificata o genera un'eccezione, se l'estensione non può essere analizzata correttamente
 
 ```csharp
 public static TextualFormats FromExtension(string extension)

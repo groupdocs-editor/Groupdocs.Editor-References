@@ -3,7 +3,7 @@ title: IResourceType
 second_title: GroupDocs.Editor per Riferimento API .NET
 description: Rappresenta unistanza del tipo/formato di risorsa sconosciuto immagine font testo
 type: docs
-weight: 350
+weight: 450
 url: /it/net/groupdocs.editor.htmlcss.resources/iresourcetype/
 ---
 ## IResourceType interface

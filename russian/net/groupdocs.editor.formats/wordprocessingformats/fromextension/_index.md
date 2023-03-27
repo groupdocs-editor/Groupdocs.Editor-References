@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Возвращает экземплярWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsструктура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
+description: Возвращает экземплярWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats структура связанная с указанным расширением имени файла или выдает исключение если расширение не может быть правильно проанализировано
 type: docs
 weight: 120
 url: /ru/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-Возвращает экземпляр[`WordProcessingFormats`](../../wordprocessingformats)структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
+Возвращает экземпляр[`WordProcessingFormats`](../../wordprocessingformats) структура, связанная с указанным расширением имени файла, или выдает исключение, если расширение не может быть правильно проанализировано
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Возвращаемое значение
 
-Случай[`WordProcessingFormats`](../../wordprocessingformats) структура в случае успеха или выброшенное исключение в случае неудачи
+Случай[`WordProcessingFormats`](../../wordprocessingformats)структура в случае успеха или выброшенное исключение в случае неудачи
 
 ### Смотрите также
 

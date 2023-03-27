@@ -1,14 +1,14 @@
 ---
 title: Locale
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许为 WordProcessing 文档设置覆盖默认区域设置语言这将在其创建期间应用 如果未指定默认值MS Word或其他程序将检测或选择文档区域设置 根据取决于它自己的设置或其他因素
+description: 允许为 WordProcessing 文档设置覆盖默认区域设置语言这将在其创建期间应用 未指定默认值时MS Word或其他程序将检测或选择文档 locale 根据到它自己的设置或其他因素
 type: docs
 weight: 40
 url: /zh/net/groupdocs.editor.options/wordprocessingsaveoptions/locale/
 ---
 ## WordProcessingSaveOptions.Locale property
 
-允许为 WordProcessing 文档设置覆盖默认区域设置（语言），这将在其创建期间应用。 如果未指定（默认值），MS Word（或其他程序）将检测（或选择）文档区域设置 根据取决于它自己的设置或其他因素。
+允许为 WordProcessing 文档设置覆盖默认区域设置（语言），这将在其创建期间应用。 未指定（默认值）时，MS Word（或其他程序）将检测（或选择）文档 locale 根据到它自己的设置或其他因素。
 
 ```csharp
 public CultureInfo Locale { get; set; }
@@ -16,7 +16,7 @@ public CultureInfo Locale { get; set; }
 
 ### 评论
 
-此选项强制将指定的语言环境应用于文档中的整体文本。 如果文档包含不同的文本部分，则不要使用它，这些部分是用不同的语言编写的。
+此选项强制将指定的区域设置应用于文档中的整个文本。 如果文档包含用不同语言编写的不同文本部分，请不要使用它。
 
 ### 也可以看看
 

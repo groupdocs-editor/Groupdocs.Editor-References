@@ -3,7 +3,7 @@ title: IsInteger
 second_title: GroupDocs.Editor för .NET API-referens
 description: Indikerar om det numeriska värdet för denna Lengthinstans ursprungligen specificerades och lagrades som ett heltal INT32 number
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/groupdocs.editor.htmlcss.css.datatypes/length/isinteger/
 ---
 ## Length.IsInteger property

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt eine Instanz von zurückWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformatsStruktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
+description: Gibt eine Instanz von zurückWordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats Struktur die der angegebenen Dateinamenerweiterung zugeordnet ist oder löst eine Ausnahme aus wenn die Erweiterung nicht richtig analysiert werden kann
 type: docs
 weight: 120
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/fromextension/
 ---
 ## WordProcessingFormats.FromExtension method
 
-Gibt eine Instanz von zurück[`WordProcessingFormats`](../../wordprocessingformats)Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
+Gibt eine Instanz von zurück[`WordProcessingFormats`](../../wordprocessingformats) Struktur, die der angegebenen Dateinamenerweiterung zugeordnet ist, oder löst eine Ausnahme aus, wenn die Erweiterung nicht richtig analysiert werden kann
 
 ```csharp
 public static WordProcessingFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 ### Rückgabewert
 
-Instanz von[`WordProcessingFormats`](../../wordprocessingformats) Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
+Instanz von[`WordProcessingFormats`](../../wordprocessingformats)Struktur bei Erfolg oder ausgelöste Ausnahme bei Fehler
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: WordProcessingProtectionType
 second_title: .NET API Başvurusu için GroupDocs.Editor
 description: Kelime İşleme belgesinin kullanılabilir tüm koruma türlerini temsil eder
 type: docs
-weight: 1000
+weight: 1230
 url: /tr/net/groupdocs.editor.options/wordprocessingprotectiontype/
 ---
 ## WordProcessingProtectionType enumeration

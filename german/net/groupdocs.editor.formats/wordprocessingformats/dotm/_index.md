@@ -1,14 +1,14 @@
 ---
 title: Dotm
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Office Open XML WordprocessingML MacroEnabled Template DOTM stellt eine Vorlagendatei dar die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/dotm .
+description: Office Open XML WordprocessingML MacroEnabled Template DOTM stellt eine Vorlagendatei dar die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
 weight: 50
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/dotm/
 ---
 ## WordProcessingFormats.Dotm field
 
-Office Open XML WordprocessingML Macro-Enabled Template (DOTM) stellt eine Vorlagendatei dar, die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/dotm) .
+Office Open XML WordprocessingML Macro-Enabled Template (DOTM) stellt eine Vorlagendatei dar, die mit Microsoft Word 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/dotm) .
 
 ```csharp
 public static readonly WordProcessingFormats Dotm;

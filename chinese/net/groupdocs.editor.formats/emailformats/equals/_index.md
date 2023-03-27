@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的电子邮件实例
+description: 判断这个实例是否等于其他指定的Email实例
 type: docs
 weight: 170
 url: /zh/net/groupdocs.editor.formats/emailformats/equals/
 ---
 ## Equals(EmailFormats) {#equals}
 
-确定此实例是否等于其他指定的电子邮件实例
+判断这个实例是否等于其他指定的Email实例
 
 ```csharp
 public bool Equals(EmailFormats other)
@@ -16,7 +16,7 @@ public bool Equals(EmailFormats other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | EmailFormats | 其他电子邮件实例，应检查与此是否相等 |
+| other | EmailFormats | 其他 Email 实例，应检查是否与此实例相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(EmailFormats other)
 
 ## Equals(IDocumentFormat) {#equals_1}
 
-确定此实例是否等于其他指定的 IDocumentFormat 实例
+判断这个实例是否等于另一个指定的IDocumentFormat instance
 
 ```csharp
 public bool Equals(IDocumentFormat other)
@@ -57,7 +57,7 @@ public bool Equals(IDocumentFormat other)
 
 ## Equals(object) {#equals_2}
 
-判断这个实例是否等于另一个指定的对象，大概是装箱的Email
+确定此实例是否等于其他指定对象，大概是装箱的 Email
 
 ```csharp
 public override bool Equals(object obj)
@@ -65,7 +65,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 其他盒装电子邮件实例 |
+| obj | Object | 其他盒装邮件实例 |
 
 ### 返回值
 

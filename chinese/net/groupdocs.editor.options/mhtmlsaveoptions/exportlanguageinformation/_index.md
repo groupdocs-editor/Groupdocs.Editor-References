@@ -16,7 +16,7 @@ public bool ExportLanguageInformation { get; set; }
 
 ### 评论
 
-当此属性设置为`真的` GroupDocs.Editor 发出`郎`指定语言的文档元素的 HTML 属性。这可能需要保留与语言相关的语义。
+当此属性设置为`真的` GroupDocs.Editor 发出`郎`指定语言的文档元素上的 HTML 属性。这可能需要保留与语言相关的语义。
 
 ### 也可以看看
 

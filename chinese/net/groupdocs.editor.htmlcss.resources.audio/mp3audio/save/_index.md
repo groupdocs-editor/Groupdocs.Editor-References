@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: GroupDocs.Editor for .NET API 参考
-description: 将此 MP3 资源保存到指定文件
+description: 将此 MP3 资源保存到指定的文件
 type: docs
 weight: 110
 url: /zh/net/groupdocs.editor.htmlcss.resources.audio/mp3audio/save/
 ---
 ## Mp3Audio.Save method
 
-将此 MP3 资源保存到指定文件
+将此 MP3 资源保存到指定的文件
 
 ```csharp
 public void Save(string fullPathToFile)
@@ -16,7 +16,7 @@ public void Save(string fullPathToFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fullPathToFile | String | 文件的完整路径，将被创建或重写 |
+| fullPathToFile | String | 将创建或重写的文件的完整路径 |
 
 ### 也可以看看
 

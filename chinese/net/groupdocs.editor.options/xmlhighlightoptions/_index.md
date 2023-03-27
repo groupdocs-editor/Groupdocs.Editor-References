@@ -1,41 +1,36 @@
 ---
 title: XmlHighlightOptions
 second_title: GroupDocs.Editor for .NET API 参考
-description: 包含允许在 XML 到 HTML 转换期间自定义 XML 突出显示的选项
+description: 包含选项允许在 XML 到 HTML 转换期间自定义 XML 突出显示
 type: docs
-weight: 1050
+weight: 1290
 url: /zh/net/groupdocs.editor.options/xmlhighlightoptions/
 ---
 ## XmlHighlightOptions class
 
-包含允许在 XML 到 HTML 转换期间自定义 XML 突出显示的选项
+包含选项，允许在 XML 到 HTML 转换期间自定义 XML 突出显示
 
 ```csharp
 public sealed class XmlHighlightOptions : IEditOptions
 ```
 
-## 构造函数
-
-| 姓名 | 描述 |
-| --- | --- |
-| [XmlHighlightOptions](xmlhighlightoptions)() | 默认构造函数。 |
-
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AttributeNamesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontcolor) { get; set; } | 定义属性名称字体的颜色 |
-| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; set; } | 负责表示属性名称的字体 |
-| [AttributeValuesFontColor](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontcolor) { get; set; } | 定义属性值字体的颜色 |
-| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; set; } | 负责表示属性值的字体 |
-| [CDataFontColor](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontcolor) { get; set; } | 定义 CDATA 部分的字体颜色（包括一对开始和结束标签） |
-| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; set; } | 负责表示CDATA部分的字体（包括一对开始和结束标签） |
-| [HtmlCommentsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontcolor) { get; set; } | 定义 HTML 注释字体的颜色（包括一对开始和结束标签） |
-| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; set; } | 负责表示HTML注释的字体（包括一对开始和结束标签） |
-| [InnerTextFontColor](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontcolor) { get; set; } | 定义内部标签文本的字体颜色 |
-| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; set; } | 负责表示inner-tag text的字体 |
-| [XmlTagsFontColor](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontcolor) { get; set; } | 定义 XML 标签字体的颜色（带有标签名称的尖括号） |
-| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; set; } | 负责表示XML标签的字体（带标签名称的尖括号） |
+| [AttributeNamesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributenamesfontsettings) { get; } | 负责表示属性名称的字体 |
+| [AttributeValuesFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/attributevaluesfontsettings) { get; } | 负责表示属性值的字体 |
+| [CDataFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/cdatafontsettings) { get; } | 负责表示 CDATA 部分的字体（包括一对开始和结束标记） |
+| [HtmlCommentsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/htmlcommentsfontsettings) { get; } | 负责表示HTML注释的字体（包括一对开始和结束标签） |
+| [InnerTextFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/innertextfontsettings) { get; } | 负责表示内标签text 的字体 |
+| [IsDefault](../../groupdocs.editor.options/xmlhighlightoptions/isdefault) { get; } | 确定此 XML 突出显示选项对象是否具有默认字体设置 |
+| [XmlTagsFontSettings](../../groupdocs.editor.options/xmlhighlightoptions/xmltagsfontsettings) { get; } | 负责表示XML标签的字体（尖括号中有标签名称） |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [ResetToDefault](../../groupdocs.editor.options/xmlhighlightoptions/resettodefault)() | 将当前字体设置重置为其默认值 |
 
 ### 也可以看看
 

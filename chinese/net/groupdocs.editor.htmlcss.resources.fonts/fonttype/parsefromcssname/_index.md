@@ -1,14 +1,14 @@
 ---
 title: ParseFromCssName
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 FontType 值相当于指定的字体类型的 CSS 兼容名称
+description: 返回 FontType 值相当于指定的 CSS 兼容字体名称 type
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromcssname/
 ---
 ## FontType.ParseFromCssName method
 
-返回 FontType 值，相当于指定的字体类型的 CSS 兼容名称
+返回 FontType 值，相当于指定的 CSS 兼容字体名称 type
 
 ```csharp
 public static FontType ParseFromCssName(string name)

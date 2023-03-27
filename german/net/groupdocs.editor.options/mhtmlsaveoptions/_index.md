@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Ermöglicht das Festlegen benutzerdefinierter Optionen zum Generieren und Speichern von MHTML MIMEKapselung von aggregierten HTMLDokumenten documents
 type: docs
-weight: 800
+weight: 1010
 url: /de/net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class

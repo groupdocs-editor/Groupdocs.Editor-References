@@ -1,14 +1,14 @@
 ---
 title: Rtf
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Rich Text Format RTF ist eine Methode zur Codierung von formatiertem Text und Grafiken zur Verwendung in Anwendungen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/rtf .
+description: Rich Text Format RTF ist eine Methode zur Codierung von formatiertem Text und Grafiken zur Verwendung in Anwendungen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
 weight: 100
 url: /de/net/groupdocs.editor.formats/wordprocessingformats/rtf/
 ---
 ## WordProcessingFormats.Rtf field
 
-Rich Text Format (RTF) ist eine Methode zur Codierung von formatiertem Text und Grafiken zur Verwendung in Anwendungen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/rtf) .
+Rich Text Format (RTF) ist eine Methode zur Codierung von formatiertem Text und Grafiken zur Verwendung in Anwendungen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/rtf) .
 
 ```csharp
 public static readonly WordProcessingFormats Rtf;

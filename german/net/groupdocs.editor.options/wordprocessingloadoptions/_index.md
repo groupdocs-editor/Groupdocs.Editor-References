@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Editor für .NET-API-Referenz
 description: Enthält Optionen zum Laden von WordProcessing Wordkompatiblen Dokumenten wie DOCX RTF ODT usw. in den Editor class
 type: docs
-weight: 980
+weight: 1210
 url: /de/net/groupdocs.editor.options/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor لمرجع .NET API
 description: إرجاع تمثيل سلسلة لهذه النسبة  مثل SerializeDefault 
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/groupdocs.editor.htmlcss.css.datatypes/ratio/tostring/
 ---
 ## Ratio.ToString method

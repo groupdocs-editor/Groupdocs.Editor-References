@@ -3,7 +3,7 @@ title: EmailDocumentInfo
 second_title: GroupDocs.Editor for .NET API 参考
 description: 表示任何支持的电子邮件格式的一个电子邮件文档的元数据
 type: docs
-weight: 570
+weight: 720
 url: /zh/net/groupdocs.editor.metadata/emaildocumentinfo/
 ---
 ## EmailDocumentInfo structure
@@ -19,15 +19,15 @@ public struct EmailDocumentInfo : IDocumentInfo, IEquatable<EmailDocumentInfo>
 | 姓名 | 描述 |
 | --- | --- |
 | [Format](../../groupdocs.editor.metadata/emaildocumentinfo/format) { get; } | 返回此电子邮件文档的格式 |
-| [IsEncrypted](../../groupdocs.editor.metadata/emaildocumentinfo/isencrypted) { get; } | 因为电子邮件文档不能用密码加密，所以这个属性总是返回'false' |
-| [PageCount](../../groupdocs.editor.metadata/emaildocumentinfo/pagecount) { get; } | 总是返回 1，因为电子邮件文档没有分页视图 |
+| [IsEncrypted](../../groupdocs.editor.metadata/emaildocumentinfo/isencrypted) { get; } | 因为无法使用密码加密电子邮件文档，所以此属性始终返回“false” |
+| [PageCount](../../groupdocs.editor.metadata/emaildocumentinfo/pagecount) { get; } | 始终返回 1，因为电子邮件文档没有分页视图 |
 | [Size](../../groupdocs.editor.metadata/emaildocumentinfo/size) { get; } | 返回此电子邮件文档的大小（以字节为单位） |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../groupdocs.editor.metadata/emaildocumentinfo/equals#equals)(EmailDocumentInfo) | 确定此实例是否等于其他指定的 EmailDocumentInfo 实例 |
+| [Equals](../../groupdocs.editor.metadata/emaildocumentinfo/equals#equals)(EmailDocumentInfo) | 判断这个实例是否等于其他指定的EmailDocumentInfo instance |
 
 ### 也可以看看
 

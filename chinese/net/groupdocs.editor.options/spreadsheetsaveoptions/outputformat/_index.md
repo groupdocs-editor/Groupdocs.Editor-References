@@ -1,14 +1,14 @@
 ---
 title: OutputFormat
 second_title: GroupDocs.Editor for .NET API 参考
-description: 允许指定电子表格格式用于保存文档
+description: 允许指定电子表格格式该格式将用于保存文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.editor.options/spreadsheetsaveoptions/outputformat/
 ---
 ## SpreadsheetSaveOptions.OutputFormat property
 
-允许指定电子表格格式，用于保存文档
+允许指定电子表格格式，该格式将用于保存文档
 
 ```csharp
 public SpreadsheetFormats OutputFormat { get; set; }

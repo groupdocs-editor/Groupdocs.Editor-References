@@ -1,14 +1,14 @@
 ---
 title: KeepSeparatorsForBlankRow
 second_title: GroupDocs.Editor für .NET-API-Referenz
-description: Gibt an ob Trennzeichen für Leerzeile ausgegeben werden sollen. Der Standardwert ist false was bedeutet dass der Inhalt für eine leere Zeile leer ist.
+description: Gibt an ob Trennzeichen für Leerzeile ausgegeben werden sollen. Standardwert istFALSCH was bedeutet dass der Inhalt für eine leere Zeile leer ist.
 type: docs
 weight: 30
 url: /de/net/groupdocs.editor.options/delimitedtextsaveoptions/keepseparatorsforblankrow/
 ---
 ## DelimitedTextSaveOptions.KeepSeparatorsForBlankRow property
 
-Gibt an, ob Trennzeichen für Leerzeile ausgegeben werden sollen. Der Standardwert ist „false“, was bedeutet, dass der Inhalt für eine leere Zeile leer ist.
+Gibt an, ob Trennzeichen für Leerzeile ausgegeben werden sollen. Standardwert ist`FALSCH` was bedeutet, dass der Inhalt für eine leere Zeile leer ist.
 
 ```csharp
 public bool KeepSeparatorsForBlankRow { get; set; }

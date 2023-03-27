@@ -3,7 +3,7 @@ title: WordProcessingProtection
 second_title: Référence de l'API GroupDocs.Editor pour .NET
 description: Encapsule les options de protection de document pour le document WordProcessing qui est généré à partir de HTML
 type: docs
-weight: 990
+weight: 1220
 url: /fr/net/groupdocs.editor.options/wordprocessingprotection/
 ---
 ## WordProcessingProtection class

@@ -1,14 +1,14 @@
 ---
 title: ConvertDateTimeData
 second_title: GroupDocs.Editor لمرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هو خطأ.
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هوخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.editor.options/delimitedtexteditoptions/convertdatetimedata/
 ---
 ## DelimitedTextEditOptions.ConvertDateTimeData property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هو خطأ.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في المستند النصي قد تم تحويلها إلى بيانات التاريخ. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ConvertDateTimeData { get; set; }

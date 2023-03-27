@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Editor for .NET API 参考
-description: 确定此实例是否等于其他指定的 EBookFormats 实例
+description: 判断这个实例是否等于其他指定的 EBookFormats instance
 type: docs
 weight: 80
 url: /zh/net/groupdocs.editor.formats/ebookformats/equals/
 ---
 ## Equals(EBookFormats) {#equals}
 
-确定此实例是否等于其他指定的 EBookFormats 实例
+判断这个实例是否等于其他指定的 EBookFormats instance
 
 ```csharp
 public bool Equals(EBookFormats other)
@@ -16,7 +16,7 @@ public bool Equals(EBookFormats other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | EBookFormats | 其他 EBookFormats 实例，应检查与此是否相等 |
+| other | EBookFormats | 其他 EBookFormats 实例，应检查是否与此实例相等 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(EBookFormats other)
 
 ## Equals(IDocumentFormat) {#equals_1}
 
-确定此实例是否等于其他指定的 IDocumentFormat 实例
+判断这个实例是否等于另一个指定的IDocumentFormat instance
 
 ```csharp
 public bool Equals(IDocumentFormat other)
@@ -40,7 +40,7 @@ public bool Equals(IDocumentFormat other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果它不是 EBookFormats，方法将返回 'false' |
+| other | IDocumentFormat | 其他 IDocumentFormat 实例。如果它不是 EBookFormats，方法将返回“false” |
 
 ### 返回值
 
@@ -57,7 +57,7 @@ public bool Equals(IDocumentFormat other)
 
 ## Equals(object) {#equals_2}
 
-确定此实例是否等于其他指定对象，可能是盒装的 EBookFormats
+确定此实例是否等于其他指定对象，大概是盒装 EBookFormats
 
 ```csharp
 public override bool Equals(object obj)

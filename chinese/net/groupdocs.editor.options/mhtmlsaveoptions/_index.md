@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: GroupDocs.Editor for .NET API 参考
 description: 允许指定用于生成和保存 MHTML聚合 HTML 文档的 MIME 封装文档的自定义选项
 type: docs
-weight: 800
+weight: 1010
 url: /zh/net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class
@@ -24,7 +24,7 @@ public sealed class MhtmlSaveOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | 指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为`错误的`. |
+| [ExportCidUrls](../../groupdocs.editor.options/mhtmlsaveoptions/exportcidurls) { get; set; } | 指定是否使用 CID（内容 ID）URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为`错误的`. |
 | [ExportDocumentProperties](../../groupdocs.editor.options/mhtmlsaveoptions/exportdocumentproperties) { get; set; } | 指定是否将内置和自定义文档属性导出到 MHTML。默认值为`错误的`. |
 | [ExportLanguageInformation](../../groupdocs.editor.options/mhtmlsaveoptions/exportlanguageinformation) { get; set; } | 指定是否将语言信息导出到 MHTML。默认值为`错误的`. |
 

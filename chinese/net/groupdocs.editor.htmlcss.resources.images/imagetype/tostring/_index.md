@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Editor for .NET API 参考
-description: 返回 FormalName 属性
+description: 返回一个 FormalName property
 type: docs
 weight: 200
 url: /zh/net/groupdocs.editor.htmlcss.resources.images/imagetype/tostring/
 ---
 ## ImageType.ToString method
 
-返回 FormalName 属性
+返回一个 FormalName property
 
 ```csharp
 public override string ToString()

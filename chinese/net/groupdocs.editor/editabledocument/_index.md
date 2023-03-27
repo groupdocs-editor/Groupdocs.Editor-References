@@ -18,40 +18,40 @@ public sealed class EditableDocument : IAuxDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | 返回所有现有资源的列表：所有样式表、来自 HTML 的图像和所有样式表、fonts |
+| [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | 返回所有现有资源的列表：所有样式表、来自 HTML 的图像和所有样式表、字体、audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | 返回音频资源列表 |
 | [Css](../../groupdocs.editor/editabledocument/css) { get; } | 返回 CSS 资源列表 |
-| [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | 允许获取外部字体资源，此HTML文档使用 |
-| [Images](../../groupdocs.editor/editabledocument/images) { get; } | 允许获取此 HTML 文档使用的外部图像资源（光栅图像） |
-| [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | 确定此可编辑文档是否已被处置 (true) 或未处置 (false) |
+| [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | 允许获取此 HTML 文档使用的外部字体资源 |
+| [Images](../../groupdocs.editor/editabledocument/images) { get; } | 允许获取此 HTML 文档使用的外部图像资源（光栅和矢量图像） |
+| [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | 确定此可编辑文档是否已处理 (true) 或未处理 (false) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromFile](../../groupdocs.editor/editabledocument/fromfile)(string, string) | 静态工厂，从 HTML 文件创建 EditableDocument 的实例， 由 *.html 文件本身的路径和具有链接资源的文件夹指定 |
-| static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | 静态工厂，从指定的 HTML 标记和一组相应的链接资源创建 EditableDocument 的实例 |
-| static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | 静态工厂，从指定的 HTML 标记和资源创建 EditableDocument 的实例，该资源位于文件夹中，由完整路径指定 |
-| [Dispose](../../groupdocs.editor/editabledocument/dispose)() | 处置此可编辑文档实例，处置其内容并使其方法和属性无效 |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | 以字符串形式返回 HTML 文档的正文（在开始和结束 BODY 标记之间的内容，没有这些标记）。 |
-| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | 以字符串的形式返回 HTML 文档的正文（在没有这些标签的情况下在开始和结束 BODY 标记之间的内容）， 其中指向外部资源的链接包含指定的前缀。 |
+| static [FromFile](../../groupdocs.editor/editabledocument/fromfile)(string, string) | 静态工厂，它从 HTML 文件创建 EditableDocument 的实例， 由 *.html 文件本身的路径和具有链接资源的文件夹指定 |
+| static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | 静态工厂，它根据指定的 HTML 标记和一组相应的链接资源创建 EditableDocument 实例 |
+| static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | 静态工厂，它根据指定的 HTML 标记和位于文件夹中的资源创建 EditableDocument 的实例，该文件夹由完整路径 指定 |
+| [Dispose](../../groupdocs.editor/editabledocument/dispose)() | 处理此可编辑文档实例，处理其内容并使其方法和属性无效 |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | 以字符串形式返回 HTML 文档的正文（开始和结束 BODY 标签之间的内部内容，没有这些标签）。 |
+| [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent_1)(string) | 返回 HTML 文档的正文（在没有这些标签的情况下打开和关闭 BODY 标签之间的内部内容）作为字符串， 其中指向外部资源的链接包含指定的前缀。 |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent)() | 以字符串形式返回 HTML 文档的全部内容。 |
 | [GetContent](../../groupdocs.editor/editabledocument/getcontent#getcontent_1)(string, string) | 以字符串形式返回 HTML 文档的全部内容，其中指向外部资源的链接包含指定的前缀。 |
-| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | 以字符串列表的形式返回所有外部样式表的内容，其中一个字符串代表一个样式表。 如果此文档没有 CSS，则返回空列表。 |
-| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent_1)(string, string) | 将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 指定的前缀将应用于每个生成的样式表中指向外部资源的每个链接。 如果没有 CSS，则返回空列表文件. |
-| [GetEmbeddedHtml](../../groupdocs.editor/editabledocument/getembeddedhtml)() | 以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源，其中所有资源都以 base64 编码的形式嵌入到 HTML 标记中。 |
-| [Save](../../groupdocs.editor/editabledocument/save#save)(string) | 将此 HTML 文档保存到指定路径上的文件（将存储 HTML 标记）以及包含资源的随附文件夹。 |
-| [Save](../../groupdocs.editor/editabledocument/save#save_1)(string, string) | 将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，以及包含资源的随附文件夹， 位于指定路径上。 |
+| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent)() | 将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 如果此文档没有 CSS，则返回空列表。 |
+| [GetCssContent](../../groupdocs.editor/editabledocument/getcsscontent#getcsscontent_1)(string, string) | 将所有外部样式表的内容作为字符串列表返回，其中一个字符串代表一个样式表。 指定的前缀将应用于每个结果样式表中指向外部资源的每个链接。 返回空列表，如果此列表没有 CSS文档. |
+| [GetEmbeddedHtml](../../groupdocs.editor/editabledocument/getembeddedhtml)() | 以单个字符串的形式返回此 HTML 文档的所有内容以及所有相关资源，其中所有资源都以 base64 编码形式嵌入到 HTML 标记中。 |
+| [Save](../../groupdocs.editor/editabledocument/save#save)(string) | 将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，并保存到带有资源的随附文件夹中。 |
+| [Save](../../groupdocs.editor/editabledocument/save#save_1)(string, string) | 将此 HTML 文档保存到指定路径上的文件中，其中将存储 HTML 标记，并保存到包含资源的随附文件夹中， 位于指定路径上。 |
 
 ## 活动
 
 | 姓名 | 描述 |
 | --- | --- |
-| event [Disposed](../../groupdocs.editor/editabledocument/disposed) | 事件，当这个 Editable 文档被释放时发生，在完成释放过程之后 |
+| event [Disposed](../../groupdocs.editor/editabledocument/disposed) | 事件，当这个可编辑文档被释放时发生，在完成释放过程后立即发生 |
 
 ### 评论
 
-EditableDocument 类的实例可以由 '[`Edit`](../editor/edit)方法或由用户自己使用静态工厂创建。 EditableDocument 在内部以自己的封闭格式存储文档，该格式与所有导入和导出格式兼容（可转换）， GroupDocs.Editor 支持。为了使文档在任何所见即所得的客户端编辑器（如 CKEditor 或 TinyMCE）中可编辑， EditableDocument 提供了生成 HTML 标记和生成资源的方法，这些方法可以被用户接受。
+EditableDocument 类的实例可以由 '[`Edit`](../editor/edit)方法或由用户自己使用静态工厂创建。 EditableDocument 在内部以其自己的封闭格式存储文档，该格式与 GroupDocs.Editor 支持的所有导入和导出格式兼容（可转换） 。为了使文档在任何所见即所得的客户端编辑器（如 CKEditor 或 TinyMCE）中可编辑， EditableDocument 提供了生成 HTML 标记和生成资源的方法，这些方法可以被用户接受。
 
 ### 也可以看看
 

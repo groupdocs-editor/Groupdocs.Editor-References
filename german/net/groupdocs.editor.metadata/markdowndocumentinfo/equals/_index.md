@@ -16,11 +16,11 @@ public bool Equals(MarkdownDocumentInfo other)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| other | MarkdownDocumentInfo | Sonstiges[`MarkdownDocumentInfo`](../../markdowndocumentinfo) B. auf Gleichheit mit diesem geprüft werden |
+| other | MarkdownDocumentInfo | Andere[`MarkdownDocumentInfo`](../../markdowndocumentinfo) B. auf Gleichheit mit diesem geprüft werden |
 
 ### Rückgabewert
 
-True wenn gleich, false wenn ungleich
+`WAHR` wenn gleich sind,`FALSCH` wenn ungleich sind
 
 ### Siehe auch
 

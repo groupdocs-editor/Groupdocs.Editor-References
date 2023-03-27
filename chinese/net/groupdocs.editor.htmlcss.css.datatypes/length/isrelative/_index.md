@@ -1,14 +1,14 @@
 ---
 title: IsRelative
 second_title: GroupDocs.Editor for .NET API 参考
-description: 获取长度是否以相对单位给出这样的长度不能转换成像素
+description: 获取长度是否以相对单位给出这样的长度无法转换为像素
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/groupdocs.editor.htmlcss.css.datatypes/length/isrelative/
 ---
 ## Length.IsRelative property
 
-获取长度是否以相对单位给出。这样的长度不能转换成像素。
+获取长度是否以相对单位给出。这样的长度无法转换为像素。
 
 ```csharp
 public bool IsRelative { get; }

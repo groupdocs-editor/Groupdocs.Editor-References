@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Geri dönüş değeri
 
-BirString bu örneği temsil eder.
+birString bu örneği temsil eder.
 
 ### Ayrıca bakınız
 

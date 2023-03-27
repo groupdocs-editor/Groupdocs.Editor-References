@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Audio
 second_title: GroupDocs.Editor för .NET API-referens
 description: Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Audio tillhandahåller typer som representerar ljudresurser.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/groupdocs.editor.htmlcss.resources.audio/
 ---
 Namnutrymmet GroupDocs.Editor.HtmlCss.Resources.Audio tillhandahåller typer som representerar ljudresurser.

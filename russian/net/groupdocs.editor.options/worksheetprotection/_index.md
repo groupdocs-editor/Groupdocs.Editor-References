@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: Справочник по API GroupDocs.Editor для .NET
 description: Инкапсулирует параметры защиты рабочего листа которые позволяют защитить рабочий лист в выходном документе электронной таблицы от модификации указанного типа с указанным паролем.
 type: docs
-weight: 1020
+weight: 1250
 url: /ru/net/groupdocs.editor.options/worksheetprotection/
 ---
 ## WorksheetProtection class

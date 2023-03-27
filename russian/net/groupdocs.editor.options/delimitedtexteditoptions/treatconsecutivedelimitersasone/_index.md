@@ -1,14 +1,14 @@
 ---
 title: TreatConsecutiveDelimitersAsOne
 second_title: Справочник по API GroupDocs.Editor для .NET
-description: Определяет следует ли рассматривать последовательные разделители как один. По умолчанию false.
+description: Определяет следует ли рассматривать последовательные разделители как один. По умолчаниюЛОЖЬ .
 type: docs
 weight: 60
 url: /ru/net/groupdocs.editor.options/delimitedtexteditoptions/treatconsecutivedelimitersasone/
 ---
 ## DelimitedTextEditOptions.TreatConsecutiveDelimitersAsOne property
 
-Определяет, следует ли рассматривать последовательные разделители как один. По умолчанию false.
+Определяет, следует ли рассматривать последовательные разделители как один. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool TreatConsecutiveDelimitersAsOne { get; set; }

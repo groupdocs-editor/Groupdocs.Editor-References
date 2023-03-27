@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor لمرجع .NET API
-description: إرجاع مثيلSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformatsالهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
+description: إرجاع مثيلSpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformats الهيكل  المرتبط بامتداد اسم الملف المحدد  أو يطرح استثناءً  إذا كان التمديد لا يمكن تحليله بشكل صحيح
 type: docs
 weight: 160
 url: /ar/net/groupdocs.editor.formats/spreadsheetformats/fromextension/
 ---
 ## SpreadsheetFormats.FromExtension method
 
-إرجاع مثيل[`SpreadsheetFormats`](../../spreadsheetformats)الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
+إرجاع مثيل[`SpreadsheetFormats`](../../spreadsheetformats) الهيكل ، المرتبط بامتداد اسم الملف المحدد ، أو يطرح استثناءً ، إذا كان التمديد لا يمكن تحليله بشكل صحيح
 
 ```csharp
 public static SpreadsheetFormats FromExtension(string extension)
@@ -20,7 +20,7 @@ public static SpreadsheetFormats FromExtension(string extension)
 
 ### قيمة الإرجاع
 
-حالة[`SpreadsheetFormats`](../../spreadsheetformats) بناء على النجاح أو استثناء عند الفشل
+حالة[`SpreadsheetFormats`](../../spreadsheetformats)بناء على النجاح أو استثناء عند الفشل
 
 ### أنظر أيضا
 

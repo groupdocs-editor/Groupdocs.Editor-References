@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Expands the standard System.IDisposable interface allows to obtain a current state of an object and subscribe to disposing event
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.editor.htmlcss.resources/iauxdisposable/
 ---
 ## IAuxDisposable interface

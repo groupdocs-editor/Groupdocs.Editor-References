@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether two QuoteType values are equal
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.editor.htmlcss.serialization/quotetype/op_equality/
 ---
 ## QuoteType Equality operator

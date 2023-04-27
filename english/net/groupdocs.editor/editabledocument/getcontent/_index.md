@@ -1,11 +1,45 @@
 ---
 title: GetContent
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns overall content of the HTML document as a string.
+description: Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding
 type: docs
 weight: 130
 url: /net/groupdocs.editor/editabledocument/getcontent/
 ---
+## GetContent&lt;TStream&gt;(TStream, Encoding) {#getcontent_2}
+
+Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding
+
+```csharp
+public TStream GetContent<TStream>(TStream storage, Encoding encoding)
+    where TStream : Stream
+```
+
+| Parameter | Description |
+| --- | --- |
+| TStream | Any implementation of the Stream |
+| storage | Non-null byte stream, which supports writing |
+| encoding | Non-null text encoding, which should be apllied while writing text content into specified *storage* |
+
+### Return Value
+
+Instance of specified *storage*
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Any of input arguments are null |
+| ArgumentException | Specified stream is not writable |
+
+### See Also
+
+* class [EditableDocument](../../editabledocument)
+* namespace [GroupDocs.Editor](../../editabledocument)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
 ## GetContent() {#getcontent}
 
 Returns overall content of the HTML document as a string.

@@ -3,7 +3,7 @@ title: QuoteType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents quote characters  single quote  and double quote 
 type: docs
-weight: 670
+weight: 680
 url: /net/groupdocs.editor.htmlcss.serialization/quotetype/
 ---
 ## QuoteType structure
@@ -29,6 +29,7 @@ public struct QuoteType : IEquatable<QuoteType>
 | override [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals_1)(object) | Indicates whether this instance of the quote type is equal to specified uncasted |
 | [Equals](../../groupdocs.editor.htmlcss.serialization/quotetype/equals#equals)(QuoteType) | Indicates whether this instance of the quote type is equal to specified |
 | override [GetHashCode](../../groupdocs.editor.htmlcss.serialization/quotetype/gethashcode)() | Returns a hash-code for this character |
+| override [ToString](../../groupdocs.editor.htmlcss.serialization/quotetype/tostring)() | Returns a "SingleQuote" or "DoubleQuote" string depending on the current value |
 | [operator ==](../../groupdocs.editor.htmlcss.serialization/quotetype/op_equality) | Checks whether two "QuoteType" values are equal |
 | [explicit operator](../../groupdocs.editor.htmlcss.serialization/quotetype/op_explicit#op_explicit) | Casts specified [`QuoteType`](../quotetype) instance to the Char (2 operators) |
 | [operator !=](../../groupdocs.editor.htmlcss.serialization/quotetype/op_inequality) | Checks whether two "QuoteType" values are not equal |

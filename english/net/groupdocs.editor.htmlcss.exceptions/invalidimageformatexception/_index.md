@@ -3,7 +3,7 @@ title: InvalidImageFormatException
 second_title: GroupDocs.Editor for .NET API Reference
 description: The exception that is thrown when trying to open load save or process somehow else some content that presumably is an image raster or vector but actually is an image of unexpected and/or unsupported format or not an image at all.
 type: docs
-weight: 330
+weight: 340
 url: /net/groupdocs.editor.htmlcss.exceptions/invalidimageformatexception/
 ---
 ## InvalidImageFormatException class

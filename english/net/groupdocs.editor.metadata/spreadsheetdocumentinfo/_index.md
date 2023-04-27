@@ -3,7 +3,7 @@ title: SpreadsheetDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents metadata of one Spreadsheet document
 type: docs
-weight: 770
+weight: 780
 url: /net/groupdocs.editor.metadata/spreadsheetdocumentinfo/
 ---
 ## SpreadsheetDocumentInfo structure
@@ -28,6 +28,7 @@ public struct SpreadsheetDocumentInfo : IDocumentInfo, IEquatable<SpreadsheetDoc
 | Name | Description |
 | --- | --- |
 | [Equals](../../groupdocs.editor.metadata/spreadsheetdocumentinfo/equals#equals)(SpreadsheetDocumentInfo) | Determines whether this instance is equal to the other specified SpreadsheetDocumentInfo instance |
+| [GeneratePreview](../../groupdocs.editor.metadata/spreadsheetdocumentinfo/generatepreview)(int) | Generates and returns a preview of the selected worksheet in a form of SVG image |
 
 ### See Also
 

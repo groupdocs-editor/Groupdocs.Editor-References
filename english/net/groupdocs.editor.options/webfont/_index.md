@@ -33,12 +33,6 @@ public sealed class WebFont : ICloneable, IEquatable<WebFont>
 | override [Equals](../../groupdocs.editor.options/webfont/equals#equals_1)(object) | Determines whether this instance of WebFont is equal to specified uncasted object |
 | [Equals](../../groupdocs.editor.options/webfont/equals#equals)(WebFont) | Determines whether this instance of WebFont is equal to specified |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| [Flags] enum [TextDecorationLine](webfont.textdecorationline) | Kinds of decoration line that is used on text in an element, such as an underline, overline or line-through. May be combined together, or no one. |
-
 ### See Also
 
 * namespace [GroupDocs.Editor.Options](../../groupdocs.editor.options)

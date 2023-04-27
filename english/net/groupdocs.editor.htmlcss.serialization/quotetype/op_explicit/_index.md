@@ -3,7 +3,7 @@ title: op_Explicit
 second_title: GroupDocs.Editor for .NET API Reference
 description: Casts specified QuoteTypegroupdocs.editor.htmlcss.serialization/quotetype instance to the Char
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.htmlcss.serialization/quotetype/op_explicit/
 ---
 ## explicit operator {#op_explicit}

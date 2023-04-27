@@ -3,7 +3,7 @@ title: XmlFormatOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains options that allow to adjust the formatting of XML document when it is represented as HTML
 type: docs
-weight: 1280
+weight: 1270
 url: /net/groupdocs.editor.options/xmlformatoptions/
 ---
 ## XmlFormatOptions class

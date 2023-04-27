@@ -3,7 +3,7 @@ title: SvgImage
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one vector image in SVG Scalable Vector Graphics format with its metadata and additional methods
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/svgimage/
 ---
 ## SvgImage class

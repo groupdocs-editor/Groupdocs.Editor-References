@@ -12,13 +12,12 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 
 | Class | Description |
 | --- | --- |
-| [Azw3SaveOptions](./azw3saveoptions) | Allows to specify custom options for generating and saving the AZW3 e-books, also known as Kindle Format 8 (KF8) |
 | [DelimitedTextEditOptions](./delimitedtexteditoptions) | Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [DelimitedTextSaveOptions](./delimitedtextsaveoptions) | Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [EbookEditOptions](./ebookeditoptions) | Allows to specify and adjust custom options for editing E-book documents in all supported formats: ePub, MOBI, and AZW3. |
+| [EbookSaveOptions](./ebooksaveoptions) | Allows to specify custom options for generating and saving the document in all supportable e-Book formats: ePub, MOBI, and AZW3. |
 | [EmailEditOptions](./emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
 | [EmailSaveOptions](./emailsaveoptions) | Allows to specify custom options for generating and saving electronic mail (email) documents |
-| [EpubSaveOptions](./epubsaveoptions) | Allows to specify custom options for generating and saving the IDPF EPUB documents (open standard for e-books created by the International Digital Publishing Forum) |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
 | [MarkdownEditOptions](./markdowneditoptions) | Allows to specify custom options for editing documents in Markdown (MD) format |
 | [MarkdownImageLoadArgs](./markdownimageloadargs) | Provides data for the ProcessImage event. |
@@ -69,7 +68,6 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [MarkdownImageLoadingAction](./markdownimageloadingaction) | Defines the mode of image loading while opening for editing the file in Markdown format |
 | [MarkdownTableContentAlignment](./markdowntablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format |
 | [PdfCompliance](./pdfcompliance) | Specifies the PDF standards compliance level |
-| [WebFont.TextDecorationLine](./webfont.textdecorationline) | Kinds of decoration line that is used on text in an element, such as an underline, overline or line-through. May be combined together, or no one. |
 | [TextDirection](./textdirection) | Represents 3 possible variants how to treat text direction in the plain text documents |
 | [TextLeadingSpacesOptions](./textleadingspacesoptions) | Contains available options for leading space handling during opening plain text document (TXT) |
 | [TextTrailingSpacesOptions](./texttrailingspacesoptions) | Contains available options for trailing space handling during opening plain text document (TXT) |

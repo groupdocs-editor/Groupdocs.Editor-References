@@ -40,8 +40,8 @@ public struct EBookFormats : IDocumentFormat, IEquatable<EBookFormats>
 | Name | Description |
 | --- | --- |
 | static readonly [Azw3](../../groupdocs.editor.formats/ebookformats/azw3) | AZW3, also known as Kindle Format 8 (KF8), is the modified version of the AZW ebook digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files. Learn more about this file format [here](https://docs.fileformat.com/ebook/azw3/). |
-| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Electronic Publication (ePub) format is an e-book file format that provide a standard digital publication format for publishers and consumers. Learn more about this file format [here](https://docs.fileformat.com/ebook/epub/). |
-| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI is the name given to the format developed for the MobiPocket Reader. It is currently used by Amazon with a slightly different DRM scheme and called AZW. Learn more about this file format [here](https://docs.fileformat.com/ebook/mobi/). |
+| static readonly [Epub](../../groupdocs.editor.formats/ebookformats/epub) | Electronic Publication (IDPF ePub) format is an e-book file format that provide a standard digital publication format for publishers and consumers. Learn more about this file format [here](https://docs.fileformat.com/ebook/epub/). |
+| static readonly [Mobi](../../groupdocs.editor.formats/ebookformats/mobi) | MOBI is the name given to the format developed for the MobiPocket Reader. Also called PRC, AZW. It is currently used by Amazon with a slightly different DRM scheme and called AZW. Learn more about this file format [here](https://docs.fileformat.com/ebook/mobi/). |
 | static readonly [All](../../groupdocs.editor.formats/ebookformats/all) | Returns an internal class, that provides enumerable possibilities over all existing EBook formats |
 
 ## Other Members

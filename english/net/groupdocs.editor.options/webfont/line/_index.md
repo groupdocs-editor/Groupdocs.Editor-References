@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.options/webfont/line/
 Sets a line or combination of lines, applied to the text
 
 ```csharp
-public TextDecorationLine Line { get; set; }
+public TextDecorationLineType Line { get; set; }
 ```
 
 ### See Also
 
-* enum [TextDecorationLine](../../webfont.textdecorationline)
+* struct [TextDecorationLineType](../../../groupdocs.editor.htmlcss.css.properties/textdecorationlinetype)
 * class [WebFont](../../webfont)
 * namespace [GroupDocs.Editor.Options](../../webfont)
 * assembly [GroupDocs.Editor](../../../)

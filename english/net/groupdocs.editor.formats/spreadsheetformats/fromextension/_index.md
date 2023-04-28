@@ -16,7 +16,7 @@ public static SpreadsheetFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable Spreadsheet format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | Filename extension solely or filename with proper extension of any supportable Spreadsheet format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
 
 ### Return Value
 

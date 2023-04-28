@@ -3,7 +3,7 @@ title: IImageResource
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents image resource of any type raster or vector
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.editor.htmlcss.resources.images/iimageresource/
 ---
 ## IImageResource interface

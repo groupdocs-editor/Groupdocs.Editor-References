@@ -16,17 +16,17 @@ public SvgImage GeneratePreview(int slideIndex)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| slideIndex | Int32 | 0-based index of the desired slide. Canot be lesser then 0, cannot exceed the number of slides in this presentation. |
+| slideIndex | Int32 | 0-based index of the desired slide. Cannot be lesser then 0, cannot exceed the number of slides in this presentation. |
 
 ### Return Value
 
-SVG image as the non-null instance of the SvgImage class
+SVG image as the non-null instance of the [`SvgImage`](../../../groupdocs.editor.htmlcss.resources.images.vector/svgimage) class
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Specidied slideIndex is lesser then 0 or bigger then the number of slides in this presentation |
+| ArgumentOutOfRangeException | Specidied *slideIndex* is lesser then 0 or bigger then the number of slides in this presentation |
 
 ### See Also
 

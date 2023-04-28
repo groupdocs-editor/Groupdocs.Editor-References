@@ -3,7 +3,7 @@ title: EmailEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for editing documents in the different electronic mail email formats
 type: docs
-weight: 850
+weight: 860
 url: /net/groupdocs.editor.options/emaileditoptions/
 ---
 ## EmailEditOptions class

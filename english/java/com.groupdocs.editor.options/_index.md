@@ -3,7 +3,7 @@ title: com.groupdocs.editor.options
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.options namespace provides interfaces for load and save options.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.groupdocs.editor.options/
 ---
 
@@ -43,6 +43,8 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [TextLeadingSpacesOptions](../com.groupdocs.editor.options/textleadingspacesoptions) | Contains available options for leading space handling during opening plain text document (TXT) |
 | [TextSaveOptions](../com.groupdocs.editor.options/textsaveoptions) | Allows to specify custom options for generating and saving plain text (TXT) documents |
 | [TextTrailingSpacesOptions](../com.groupdocs.editor.options/texttrailingspacesoptions) | Contains available options for trailing space handling during opening plain text document (TXT) |
+| [WebFont](../com.groupdocs.editor.options/webfont) | Represents a font settings for the web |
+| [WebFont.TextDecorationLine](../com.groupdocs.editor.options/webfont.textdecorationline) | Kinds of decoration line that is used on text in an element, such as an underline, overline or line-through. |
 | [WordProcessingEditOptions](../com.groupdocs.editor.options/wordprocessingeditoptions) | Allows to specify custom options for editing documents of all supportable WordProcessing (Words-compliant) formats like DOC(X), RTF, ODT etc. |
 | [WordProcessingLoadOptions](../com.groupdocs.editor.options/wordprocessingloadoptions) | Contains options for loading WordProcessing (Word-compatible) documents like DOC(X), RTF, ODT etc. |
 | [WordProcessingProtection](../com.groupdocs.editor.options/wordprocessingprotection) | Encapsulates document protection options for the WordProcessing document, which is generated from HTML |
@@ -51,6 +53,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [WorksheetProtection](../com.groupdocs.editor.options/worksheetprotection) | Encapsulates worksheet protection options, which allow to protect a worksheet in the output Spreadsheet document from modification of specified type with a specified password. |
 | [WorksheetProtectionType](../com.groupdocs.editor.options/worksheetprotectiontype) | Represents Spreadsheet worksheet (tab) protection types |
 | [XmlEditOptions](../com.groupdocs.editor.options/xmleditoptions) | Allows to specify custom options for loading XML (eXtensible Markup Language) documents and converting them to the HTML |
+| [XmlFormatOptions](../com.groupdocs.editor.options/xmlformatoptions) | Contains options, that allow to adjust the formatting of XML document, when it is represented as HTML |
 | [XmlHighlightOptions](../com.groupdocs.editor.options/xmlhighlightoptions) | Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion |
 | [XpsSaveOptions](../com.groupdocs.editor.options/xpssaveoptions) | Allows to specify custom options for generating and saving XPS (XML Paper Specifications) documents |
 

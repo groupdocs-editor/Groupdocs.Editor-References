@@ -3,7 +3,7 @@ title: ILoadOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Common interface for all option classes responsible for loading documents of different type formats
 type: docs
-weight: 50
+weight: 52
 url: /java/com.groupdocs.editor.options/iloadoptions/
 ---```
 public interface ILoadOptions

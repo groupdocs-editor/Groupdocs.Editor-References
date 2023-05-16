@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving XPS XML Paper Specifications documents
 type: docs
-weight: 48
+weight: 50
 url: /java/com.groupdocs.editor.options/xpssaveoptions/
 ---
 **Inheritance:**

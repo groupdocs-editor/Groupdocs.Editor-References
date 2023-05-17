@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.fonts
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.fonts namespace provides classes that represent font resources.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.editor.htmlcss.resources.fonts/
 ---
 

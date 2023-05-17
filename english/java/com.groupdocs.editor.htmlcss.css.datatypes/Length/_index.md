@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents a CSS length value in any supportable unit including percentage    and unitless type.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 **Inheritance:**
@@ -63,6 +63,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
 | [serializeDefault()](#serializeDefault--) | Returns a string representation of this length in its original native form (as it is stored), without converting length value to some other unit type |
 | [equals(Length other)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.Length-) | Defines whether this value is equal to the other specified length |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this length is equal to specified object |
+| [op_Multiply(Length multiplicand, int factor)](#op-Multiply-com.groupdocs.editor.htmlcss.css.datatypes.Length-int-) | Multiplicates the given Length onto the given factor |
 | [op_Equality(Length left, Length right)](#op-Equality-com.groupdocs.editor.htmlcss.css.datatypes.Length-com.groupdocs.editor.htmlcss.css.datatypes.Length-) | Checks the equality of the two given lengths. |
 | [op_Inequality(Length left, Length right)](#op-Inequality-com.groupdocs.editor.htmlcss.css.datatypes.Length-com.groupdocs.editor.htmlcss.css.datatypes.Length-) | Checks the inequality of the two given lengths. |
 | [hashCode()](#hashCode--) | Calculates and returns a hash-code of this Length instance by combining hash-codes of the value and unit type |
@@ -366,6 +367,22 @@ Determines whether this length is equal to specified object
 
 **Returns:**
 boolean - True if equal, otherwise false
+### op_Multiply(Length multiplicand, int factor) {#op-Multiply-com.groupdocs.editor.htmlcss.css.datatypes.Length-int-}
+```
+public static Length op_Multiply(Length multiplicand, int factor)
+```
+
+
+Multiplicates the given Length onto the given factor
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| multiplicand | [Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) | Length - multiplicand |
+| factor | int | Arbitrary integer - factor |
+
+**Returns:**
+[Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) - A new Length - a product of multiplication
 ### op_Equality(Length left, Length right) {#op-Equality-com.groupdocs.editor.htmlcss.css.datatypes.Length-com.groupdocs.editor.htmlcss.css.datatypes.Length-}
 ```
 public static boolean op_Equality(Length left, Length right)

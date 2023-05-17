@@ -3,7 +3,7 @@ title: XmlEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for loading XML eXtensible Markup Language documents and converting them to the HTML
 type: docs
-weight: 46
+weight: 47
 url: /java/com.groupdocs.editor.options/xmleditoptions/
 ---
 **Inheritance:**
@@ -36,11 +36,9 @@ Allows to specify custom options for loading XML (eXtensible Markup Language) do
 | [getTrimTrailingWhitespaces()](#getTrimTrailingWhitespaces--) | Allows to enable the truncation of trailing whitespaces in the inner-tag text. |
 | [setTrimTrailingWhitespaces(boolean value)](#setTrimTrailingWhitespaces-boolean-) | Allows to enable the truncation of trailing whitespaces in the inner-tag text. |
 | [getAttributeValuesQuoteType()](#getAttributeValuesQuoteType--) | Allows to specify quote type (single or double quotes) for attribute values. |
-| [setAttributeValuesQuoteType(Integer value)](#setAttributeValuesQuoteType-java.lang.Integer-) | Allows to specify quote type (single or double quotes) for attribute values. |
-| [getHighlightOptions()](#getHighlightOptions--) | Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. |
-| [setHighlightOptions(XmlHighlightOptions value)](#setHighlightOptions-com.groupdocs.editor.options.XmlHighlightOptions-) | Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. |
-| [getFormattingOptions()](#getFormattingOptions--) | Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. |
-| [setFormattingOptions(XmlFormattingOptions value)](#setFormattingOptions-com.groupdocs.editor.options.XmlFormattingOptions-) | Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. |
+| [setAttributeValuesQuoteType(QuoteType value)](#setAttributeValuesQuoteType-com.groupdocs.editor.htmlcss.serialization.QuoteType-) | Allows to specify quote type (single or double quotes) for attribute values. |
+| [getHighlightOptions()](#getHighlightOptions--) | Allows to adjust the XML highlighting, that will be applied to the XML structure, when it is represented in HTML. |
+| [getFormatOptions()](#getFormatOptions--) | Allows to adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. |
 ### XmlEditOptions() {#XmlEditOptions--}
 ```
 public XmlEditOptions()
@@ -172,17 +170,17 @@ Allows to enable the truncation of trailing whitespaces in the inner-tag text. B
 
 ### getAttributeValuesQuoteType() {#getAttributeValuesQuoteType--}
 ```
-public final Integer getAttributeValuesQuoteType()
+public final QuoteType getAttributeValuesQuoteType()
 ```
 
 
 Allows to specify quote type (single or double quotes) for attribute values. Double quotes are default.
 
 **Returns:**
-java.lang.Integer
-### setAttributeValuesQuoteType(Integer value) {#setAttributeValuesQuoteType-java.lang.Integer-}
+[QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype)
+### setAttributeValuesQuoteType(QuoteType value) {#setAttributeValuesQuoteType-com.groupdocs.editor.htmlcss.serialization.QuoteType-}
 ```
-public final void setAttributeValuesQuoteType(Integer value)
+public final void setAttributeValuesQuoteType(QuoteType value)
 ```
 
 
@@ -191,7 +189,7 @@ Allows to specify quote type (single or double quotes) for attribute values. Dou
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.Integer |  |
+| value | [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype) |  |
 
 ### getHighlightOptions() {#getHighlightOptions--}
 ```
@@ -199,43 +197,17 @@ public final XmlHighlightOptions getHighlightOptions()
 ```
 
 
-Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 default highlighting is applied.
+Allows to adjust the XML highlighting, that will be applied to the XML structure, when it is represented in HTML. Default highlighting is used and is adjustable. Cannot be null.
 
 **Returns:**
 [XmlHighlightOptions](../../com.groupdocs.editor.options/xmlhighlightoptions)
-### setHighlightOptions(XmlHighlightOptions value) {#setHighlightOptions-com.groupdocs.editor.options.XmlHighlightOptions-}
+### getFormatOptions() {#getFormatOptions--}
 ```
-public final void setHighlightOptions(XmlHighlightOptions value)
-```
-
-
-Allows to adjust the highlighting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 default highlighting is applied.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmlHighlightOptions](../../com.groupdocs.editor.options/xmlhighlightoptions) |  |
-
-### getFormattingOptions() {#getFormattingOptions--}
-```
-public final XmlFormattingOptions getFormattingOptions()
+public final XmlFormatOptions getFormatOptions()
 ```
 
 
-Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 XML will be translated to the HTML "as is", without formatting.
+Allows to adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. Default formatting is used and is adjustable. Cannot be null.
 
 **Returns:**
-[XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions)
-### setFormattingOptions(XmlFormattingOptions value) {#setFormattingOptions-com.groupdocs.editor.options.XmlFormattingOptions-}
-```
-public final void setFormattingOptions(XmlFormattingOptions value)
-```
-
-
-Allows to enable and adjust the XML formatting, that will be applied to the XML structure, when it is represented in HTML. By default is NULL \\u2014 XML will be translated to the HTML "as is", without formatting.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [XmlFormattingOptions](../../com.groupdocs.editor.options/xmlformattingoptions) |  |
-
+[XmlFormatOptions](../../com.groupdocs.editor.options/xmlformatoptions)

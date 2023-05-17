@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.images.raster
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.images.raster namespace provides classes that represent only raster image resources.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.editor.htmlcss.resources.images.raster/
 ---
 

@@ -3,7 +3,7 @@ title: WordProcessingProtectionType
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents all available protection types of the WordProcessing document
 type: docs
-weight: 42
+weight: 43
 url: /java/com.groupdocs.editor.options/wordprocessingprotectiontype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: com.groupdocs.editor.license
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.license Provides methods to license the component.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.editor.license/
 ---
 

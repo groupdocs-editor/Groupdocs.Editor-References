@@ -26,7 +26,7 @@ SVG image as the non-null instance of the [`SvgImage`](../../../groupdocs.editor
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Specidied *worksheetIndex* is lesser then 0 or bigger then the number of worksheets in this spreadsheet |
+| ArgumentOutOfRangeException | Specified *worksheetIndex* is lesser then 0 or bigger then the number of worksheets in this spreadsheet |
 
 ### See Also
 

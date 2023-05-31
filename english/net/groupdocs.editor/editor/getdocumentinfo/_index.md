@@ -27,7 +27,7 @@ Format-specific inheritor of [`IDocumentInfo`](../../../groupdocs.editor.metadat
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Is thrown when Editor instance was already disposed when "GetDocumentInfo" is invoked |
-| [PasswordRequiredException](../../passwordrequiredexception) | Is thrown when loaded document is password protected, but the password was not specified in the parameter "*password*" |
+| [PasswordRequiredException](../../passwordrequiredexception) | Is thrown when loaded document is password protected, but the password was not specified in the parameter "*password*" and in the loading options during creation of the  instance |
 | [IncorrectPasswordException](../../incorrectpasswordexception) | Is thrown when loaded document is password protected, password is specified, but is incorrect |
 | InvalidOperationException | Is thrown when unexpected error of unknown nature has occured |
 

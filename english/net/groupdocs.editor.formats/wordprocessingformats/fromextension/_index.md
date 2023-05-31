@@ -16,7 +16,7 @@ public static WordProcessingFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable WordProcessing format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | Filename extension solely or filename with proper extension of any supportable WordProcessing format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
 
 ### Return Value
 

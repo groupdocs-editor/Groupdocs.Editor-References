@@ -1,14 +1,14 @@
 ---
 title: op_Division
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an intersection between first and second line types where only those flags are enabled which are enabled simultaneously in both operands. Has the highest priority between all operators higher then union and difference
+description: Returns an intersection between first and second line types where only those flags are enabled which are enabled simultaneously in both operands. Has the highest priority between all operators higher than union and difference
 type: docs
 weight: 160
 url: /net/groupdocs.editor.htmlcss.css.properties/textdecorationlinetype/op_division/
 ---
 ## TextDecorationLineType Division operator
 
-Returns an intersection between first and second line types, where only those flags are enabled, which are enabled simultaneously in both operands. Has the highest priority between all operators (higher then union and difference)
+Returns an intersection between first and second line types, where only those flags are enabled, which are enabled simultaneously in both operands. Has the highest priority between all operators (higher than union and difference)
 
 ```csharp
 public static TextDecorationLineType operator /(TextDecorationLineType first, 

@@ -28,6 +28,7 @@ public struct WordProcessingDocumentInfo : IDocumentInfo, IEquatable<WordProcess
 | Name | Description |
 | --- | --- |
 | [Equals](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/equals#equals)(WordProcessingDocumentInfo) | Determines whether this instance is equal to the other specified WordProcessingDocumentInfo instance |
+| [GeneratePreview](../../groupdocs.editor.metadata/wordprocessingdocumentinfo/generatepreview)(int) | Generates and returns a preview of the selected page in a form of SVG image |
 
 ### See Also
 

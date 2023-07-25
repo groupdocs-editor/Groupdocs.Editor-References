@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.groupdocs.editor.options.IEditOptions](../../com.groupdocs.editor.options/ieditoptions)
 ```
-public final class XmlHighlightOptions implements IEditOptions
+public class XmlHighlightOptions implements IEditOptions
 ```
 
 Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion

@@ -8,11 +8,8 @@ url: /java/com.groupdocs.editor.options/webfont/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-com.aspose.ms.System.IEquatable, com.aspose.ms.System.ICloneable
 ```
-public final class WebFont implements System.IEquatable<WebFont>, System.ICloneable
+public class WebFont
 ```
 
 Represents a font settings for the web

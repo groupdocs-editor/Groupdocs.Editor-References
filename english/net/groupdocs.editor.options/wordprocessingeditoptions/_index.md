@@ -30,6 +30,7 @@ public class WordProcessingEditOptions : IEditOptions
 | [ExtractOnlyUsedFont](../../groupdocs.editor.options/wordprocessingeditoptions/extractonlyusedfont) { get; set; } | Gets or sets a value indicating whether extract only font resources that are used in the textual content of the document. |
 | [FontExtraction](../../groupdocs.editor.options/wordprocessingeditoptions/fontextraction) { get; set; } | Responsible for extracting font resources, which are used in the input WordProcessing document. By default doesn't extract any fonts (NotExtract). |
 | [InputControlsClassName](../../groupdocs.editor.options/wordprocessingeditoptions/inputcontrolsclassname) { get; set; } | Allows to specify a class name, which will be placed to the 'class' attributes in every HTML element, that represents some field in the input WordProcessing document. By default is NULL - 'class' attributes are not applied. |
+| [UseInlineStyles](../../groupdocs.editor.options/wordprocessingeditoptions/useinlinestyles) { get; set; } | Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet (`false`) or as inline styles in the HTML markup (`true`). By default external styles are used (`false`). |
 
 ### See Also
 

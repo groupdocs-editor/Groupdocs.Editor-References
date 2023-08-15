@@ -11,13 +11,13 @@ url: /net/groupdocs.editor.htmlcss.resources.fonts/eotfont/eotfont/
 Creates new EotFont class from content, represented as base64-encoded string, and with specified name
 
 ```csharp
-public EotFont(string name, string contentInBase64)
+public EotFont(string eotName, string eotContentInBase64)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of the EOT font. Cannot be null, empty or whitespaces. |
-| contentInBase64 | String | Content as base64-encoded string. Cannot be null, empty or whitespaces. If it is not a EOT content, exception will be thrown. |
+| eotName | String | Name of the EOT font. Cannot be null, empty or whitespaces. |
+| eotContentInBase64 | String | Content as base64-encoded string. Cannot be null, empty or whitespaces. If it is not a EOT content, exception will be thrown. |
 
 ### Exceptions
 
@@ -39,13 +39,13 @@ public EotFont(string name, string contentInBase64)
 Creates new EotFont class from content, represented as byte stream, and with specified name
 
 ```csharp
-public EotFont(string name, Stream binaryContent)
+public EotFont(string eotName, Stream eotBinaryContent)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of the EOT font. Cannot be null, empty or whitespaces. |
-| binaryContent | Stream | Content as byte stream. Reading begins from original position. Cannot be null. Should be readable and seekable. If this instance will be disposed, this stream will be disposed too. |
+| eotName | String | Name of the EOT font. Cannot be null, empty or whitespaces. |
+| eotBinaryContent | Stream | Content as byte stream. Reading begins from original position. Cannot be null. Should be readable and seekable. If this instance will be disposed, this stream will be disposed too. |
 
 ### Exceptions
 

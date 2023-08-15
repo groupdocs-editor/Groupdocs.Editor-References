@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.htmlcss.resources.fonts/eotfont/isvalid/
 Checks whether specified stream is a valid EOT font
 
 ```csharp
-public static bool IsValid(Stream binaryContent)
+public static bool IsValid(Stream eotBinaryContent)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| binaryContent | Stream | Byte stream, that presumably contains a EOT resource |
+| eotBinaryContent | Stream | Byte stream, that presumably contains a EOT resource |
 
 ### Return Value
 
@@ -35,12 +35,12 @@ True if specified stream contains valid EOT font, false otherwise
 Checks whether specified base64-encoded string is a valid EOT font
 
 ```csharp
-public static bool IsValid(string contentInBase64)
+public static bool IsValid(string eotContentInBase64)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| contentInBase64 | String | Content of the presumably EOT font in a form of base64-encoded string |
+| eotContentInBase64 | String | Content of the presumably EOT font in a form of base64-encoded string |
 
 ### Return Value
 

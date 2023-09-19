@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains options for loading WordProcessing Word-compatible documents like DOCX RTF ODT etc.
 type: docs
-weight: 41
+weight: 40
 url: /java/com.groupdocs.editor.options/wordprocessingloadoptions/
 ---
 **Inheritance:**

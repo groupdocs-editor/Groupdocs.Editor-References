@@ -14,7 +14,6 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 
 | Class | Description |
 | --- | --- |
-| [Azw3SaveOptions](../com.groupdocs.editor.options/azw3saveoptions) | Allows to specify custom options for generating and saving the AZW3 e-books, also known as Kindle Format 8 (KF8) |
 | [DelimitedTextEditOptions](../com.groupdocs.editor.options/delimitedtexteditoptions) | Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [DelimitedTextSaveOptions](../com.groupdocs.editor.options/delimitedtextsaveoptions) | Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [EmailEditOptions](../com.groupdocs.editor.options/emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
@@ -44,7 +43,6 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [TextSaveOptions](../com.groupdocs.editor.options/textsaveoptions) | Allows to specify custom options for generating and saving plain text (TXT) documents |
 | [TextTrailingSpacesOptions](../com.groupdocs.editor.options/texttrailingspacesoptions) | Contains available options for trailing space handling during opening plain text document (TXT) |
 | [WebFont](../com.groupdocs.editor.options/webfont) | Represents a font settings for the web |
-| [WebFont.TextDecorationLine](../com.groupdocs.editor.options/webfont.textdecorationline) | Kinds of decoration line that is used on text in an element, such as an underline, overline or line-through. |
 | [WordProcessingEditOptions](../com.groupdocs.editor.options/wordprocessingeditoptions) | Allows to specify custom options for editing documents of all supportable WordProcessing (Words-compliant) formats like DOC(X), RTF, ODT etc. |
 | [WordProcessingLoadOptions](../com.groupdocs.editor.options/wordprocessingloadoptions) | Contains options for loading WordProcessing (Word-compatible) documents like DOC(X), RTF, ODT etc. |
 | [WordProcessingProtection](../com.groupdocs.editor.options/wordprocessingprotection) | Encapsulates document protection options for the WordProcessing document, which is generated from HTML |

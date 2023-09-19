@@ -3,7 +3,7 @@ title: MailMessageOutput
 second_title: GroupDocs.Editor for Java API Reference
 description: Controls which parts of the mail message should be delivered to the output processing
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.editor.options/mailmessageoutput/
 ---
 **Inheritance:**

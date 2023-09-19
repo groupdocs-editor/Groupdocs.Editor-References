@@ -40,7 +40,7 @@ Base class for any supported vector image
 | [getByteContent()](#getByteContent--) | In implementing type should return a content of this vector image as byte stream |
 | [getTextContent()](#getTextContent--) | In implementing type should return a content of this vector image in text form: base64-encoded of XML regarding of image type |
 | [save(String fullPathToFile)](#save-java.lang.String-) | In implementing type should save this image to the disk by specified path |
-| [saveToPng(InputStream outputPngContent)](#saveToPng-java.io.InputStream-) | In implementing type should save a current vector image to the raster PNG format into specified byte stream |
+| [saveToPng(OutputStream outputPngContent)](#saveToPng-java.io.OutputStream-) | In implementing type should save a current vector image to the raster PNG format into specified byte stream |
 | [dispose()](#dispose--) | In implementing type should dispose this instance |
 ### VectorImageResourceBase() {#VectorImageResourceBase--}
 ```
@@ -162,9 +162,9 @@ In implementing type should save this image to the disk by specified path
 | --- | --- | --- |
 | fullPathToFile | java.lang.String |  |
 
-### saveToPng(InputStream outputPngContent) {#saveToPng-java.io.InputStream-}
+### saveToPng(OutputStream outputPngContent) {#saveToPng-java.io.OutputStream-}
 ```
-public abstract void saveToPng(InputStream outputPngContent)
+public abstract void saveToPng(OutputStream outputPngContent)
 ```
 
 
@@ -173,7 +173,7 @@ In implementing type should save a current vector image to the raster PNG format
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputPngContent | java.io.InputStream | Byte stream, into which the PNG version of this raster image will be stored. Should not be NULL and should support writing. |
+| outputPngContent | java.io.OutputStream | Byte stream, into which the PNG version of this raster image will be stored. Should not be NULL and should support writing. |
 
 ### dispose() {#dispose--}
 ```

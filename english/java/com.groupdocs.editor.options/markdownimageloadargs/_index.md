@@ -3,7 +3,7 @@ title: MarkdownImageLoadArgs
 second_title: GroupDocs.Editor for Java API Reference
 description: Provides data for the MGroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImageMarkdownImageLoadArgs event.
 type: docs
-weight: 20
+weight: 19
 url: /java/com.groupdocs.editor.options/markdownimageloadargs/
 ---
 **Inheritance:**

@@ -31,6 +31,7 @@ Represents quote characters - single quote (') and double quote (")
 | [getCode()](#getCode--) | Code point of the current character (U+0027 or U+0022) |
 | [getCharacter()](#getCharacter--) | Character to enquote |
 | [getHtmlEncoded()](#getHtmlEncoded--) | HTML-encoded character |
+| [toString()](#toString--) | Returns a "SingleQuote" or "DoubleQuote" string depending on the current value |
 | [equals(QuoteType other)](#equals-com.groupdocs.editor.htmlcss.serialization.QuoteType-) | Indicates whether this instance of the quote type is equal to specified |
 | [equals(Object obj)](#equals-java.lang.Object-) | Indicates whether this instance of the quote type is equal to specified uncasted |
 | [hashCode()](#hashCode--) | Returns a hash-code for this character |
@@ -94,6 +95,16 @@ HTML-encoded character
 
 **Returns:**
 java.lang.String
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns a "SingleQuote" or "DoubleQuote" string depending on the current value
+
+**Returns:**
+java.lang.String - 
 ### equals(QuoteType other) {#equals-com.groupdocs.editor.htmlcss.serialization.QuoteType-}
 ```
 public final boolean equals(QuoteType other)

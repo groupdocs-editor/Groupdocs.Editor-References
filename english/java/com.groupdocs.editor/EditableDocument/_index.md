@@ -34,10 +34,11 @@ Instance of EditableDocument class can be produced by the Editor.edit() method o
 | [getCss()](#getCss--) | Returns a list of CSS resources |
 | [getAudio()](#getAudio--) | Returns a list of audio resources |
 | [getAllResources()](#getAllResources--) | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts |
+| [getContent(ByteArrayOutputStream storage, Charset encoding)](#getContent-java.io.ByteArrayOutputStream-java.nio.charset.Charset-) | Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding |
 | [getBodyContent()](#getBodyContent--) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string. |
 | [getBodyContent(String externalImagesPrefix)](#getBodyContent-java.lang.String-) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
 | [getContent()](#getContent--) | Returns overall content of the HTML document as a string. |
-| [getContent(String externalImagesPrefix, String externalCssPrefix)](#getContent-java.lang.String-java.lang.String-) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
+| [getContentString(String externalImagesPrefix, String externalCssPrefix)](#getContentString-java.lang.String-java.lang.String-) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
 | [getCssContent()](#getCssContent--) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
 | [getCssContent(String externalImagesPrefix, String externalFontsPrefix)](#getCssContent-java.lang.String-java.lang.String-) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
 | [getEmbeddedHtml()](#getEmbeddedHtml--) | Returns all content of this HTML document with all related resources in a form of a single string, where all resources are embedded inside the HTML markup in a base64-encoded form. |
@@ -108,6 +109,24 @@ This property returns a concatenated result of 'Images', 'Fonts', and 'Css' prop
 
 **Returns:**
 java.util.List<com.groupdocs.editor.htmlcss.resources.IHtmlResource>
+### getContent(ByteArrayOutputStream storage, Charset encoding) {#getContent-java.io.ByteArrayOutputStream-java.nio.charset.Charset-}
+```
+public OutputStream getContent(ByteArrayOutputStream storage, Charset encoding)
+```
+
+
+Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| storage | java.io.ByteArrayOutputStream | Non-null byte stream, which supports writing |
+| encoding | java.nio.charset.Charset | Non-null text encoding, which should be apllied while writing text content into specified  storage 
+
+ TStream : Any implementation of the java.io.InputStream |
+
+**Returns:**
+java.io.OutputStream - Instance of specified  storage 
 ### getBodyContent() {#getBodyContent--}
 ```
 public final String getBodyContent()
@@ -143,7 +162,7 @@ WYSIWYG editors operate with the body of the document and cannot correctly proce
 java.lang.String - String, which contains the body of the HTML document with links, adjusted to the external images
 ### getContent() {#getContent--}
 ```
-public final String getContent()
+public String getContent()
 ```
 
 
@@ -151,9 +170,9 @@ Returns overall content of the HTML document as a string.
 
 **Returns:**
 java.lang.String - String, which contains the content of the HTML document
-### getContent(String externalImagesPrefix, String externalCssPrefix) {#getContent-java.lang.String-java.lang.String-}
+### getContentString(String externalImagesPrefix, String externalCssPrefix) {#getContentString-java.lang.String-java.lang.String-}
 ```
-public final String getContent(String externalImagesPrefix, String externalCssPrefix)
+public String getContentString(String externalImagesPrefix, String externalCssPrefix)
 ```
 
 

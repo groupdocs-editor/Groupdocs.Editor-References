@@ -3,7 +3,7 @@ title: PageRange
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates one page range which can have open or closed bounds.
 type: docs
-weight: 25
+weight: 24
 url: /java/com.groupdocs.editor.options/pagerange/
 ---
 **Inheritance:**

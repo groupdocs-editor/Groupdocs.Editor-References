@@ -21,9 +21,14 @@ Allows to specify custom options for generating and saving the document in all s
 
 Supported E-book formats:
 
-1.  
-2.  
-3.  
+1.  [ePub][] (Electronic Publication)
+2.  [MOBI][] (MobiPocket)
+3.  [AZW3][] (Kindle Format 8t)
+
+
+[ePub]: https://docs.fileformat.com/ebook/epub/
+[MOBI]: https://docs.fileformat.com/ebook/mobi/
+[AZW3]: https://docs.fileformat.com/ebook/azw3/
 ## Constructors
 
 | Constructor | Description |

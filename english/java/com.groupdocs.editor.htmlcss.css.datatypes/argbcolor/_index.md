@@ -55,10 +55,6 @@ This type is designed to be useful for (but not limited to) CSS operations. See 
 | [equals(ICssDataType other)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.ICssDataType-) | Checks two [ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) colors for equality |
 | [equals(Object other)](#equals-java.lang.Object-) | Tests if another object is equal to this [ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) instance. |
 | [hashCode()](#hashCode--) | Returns a hash code that defines the current color. |
-| [CloneTo(ArgbColor that)](#CloneTo-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-) |  |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(ArgbColor obj1, ArgbColor obj2)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-) |  |
 ### ArgbColor() {#ArgbColor--}
 ```
 public ArgbColor()
@@ -377,52 +373,3 @@ Returns a hash code that defines the current color.
 
 **Returns:**
 int - The integer value of the hashcode.
-### CloneTo(ArgbColor that) {#CloneTo-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-}
-```
-public void CloneTo(ArgbColor that)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) |  |
-
-### Clone() {#Clone--}
-```
-public ArgbColor Clone()
-```
-
-
-
-
-**Returns:**
-[ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor)
-### clone() {#clone--}
-```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(ArgbColor obj1, ArgbColor obj2) {#equals-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor-}
-```
-public static boolean equals(ArgbColor obj1, ArgbColor obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) |  |
-| obj2 | [ArgbColor](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) |  |
-
-**Returns:**
-boolean

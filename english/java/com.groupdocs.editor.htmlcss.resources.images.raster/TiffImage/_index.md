@@ -29,7 +29,6 @@ See https://en.wikipedia.org/wiki/TIFF for details. In very rare cases TIFF is p
 | Method | Description |
 | --- | --- |
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid TIFF image |
-| [isValidInternal(System.IO.Stream binaryContent)](#isValidInternal-com.aspose.ms.System.IO.Stream-) |  |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid TIFF image |
 | [getType()](#getType--) | Returns ImageType.Tiff |
 | [getFramesCount()](#getFramesCount--) | Returns a number of frames (images) inside this TIFF image. |
@@ -88,21 +87,6 @@ Checks whether specified stream is a valid TIFF image
 
 **Returns:**
 boolean - True if specified stream contains valid TIFF image, false otherwise
-### isValidInternal(System.IO.Stream binaryContent) {#isValidInternal-com.aspose.ms.System.IO.Stream-}
-```
-public static boolean isValidInternal(System.IO.Stream binaryContent)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| binaryContent | com.aspose.ms.System.IO.Stream |  |
-
-**Returns:**
-boolean
 ### isValid(String contentInBase64) {#isValid-java.lang.String-}
 ```
 public static boolean isValid(String contentInBase64)

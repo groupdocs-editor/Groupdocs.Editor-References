@@ -30,11 +30,6 @@ Represents metadata of one EBook document
 | [getSize()](#getSize--) | Returns size in bytes of this eBook document |
 | [isEncrypted()](#isEncrypted--) | Because eBook documents cannot be encrypted with password, this property always returns 'false' |
 | [equals(EbookDocumentInfo other)](#equals-com.groupdocs.editor.metadata.EbookDocumentInfo-) | Determines whether this instance is equal to the other specified EbookDocumentInfo instance |
-| [CloneTo(EbookDocumentInfo that)](#CloneTo-com.groupdocs.editor.metadata.EbookDocumentInfo-) |  |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [equals(EbookDocumentInfo obj1, EbookDocumentInfo obj2)](#equals-com.groupdocs.editor.metadata.EbookDocumentInfo-com.groupdocs.editor.metadata.EbookDocumentInfo-) |  |
 ### EbookDocumentInfo() {#EbookDocumentInfo--}
 ```
 public EbookDocumentInfo()
@@ -100,67 +95,3 @@ Determines whether this instance is equal to the other specified EbookDocumentIn
 
 **Returns:**
 boolean - True if are equal, false if are unequal
-### CloneTo(EbookDocumentInfo that) {#CloneTo-com.groupdocs.editor.metadata.EbookDocumentInfo-}
-```
-public void CloneTo(EbookDocumentInfo that)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [EbookDocumentInfo](../../com.groupdocs.editor.metadata/ebookdocumentinfo) |  |
-
-### Clone() {#Clone--}
-```
-public EbookDocumentInfo Clone()
-```
-
-
-
-
-**Returns:**
-[EbookDocumentInfo](../../com.groupdocs.editor.metadata/ebookdocumentinfo)
-### clone() {#clone--}
-```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### equals(EbookDocumentInfo obj1, EbookDocumentInfo obj2) {#equals-com.groupdocs.editor.metadata.EbookDocumentInfo-com.groupdocs.editor.metadata.EbookDocumentInfo-}
-```
-public static boolean equals(EbookDocumentInfo obj1, EbookDocumentInfo obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [EbookDocumentInfo](../../com.groupdocs.editor.metadata/ebookdocumentinfo) |  |
-| obj2 | [EbookDocumentInfo](../../com.groupdocs.editor.metadata/ebookdocumentinfo) |  |
-
-**Returns:**
-boolean

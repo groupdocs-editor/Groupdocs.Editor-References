@@ -40,7 +40,6 @@ Immutable struct, that encapsulates a page range, which is not related to any sp
 | [fromStartPageTillEnd(int startPageNumber)](#fromStartPageTillEnd-int-) | Creates a page range, that starts from the specified page number and continues till the end of the document |
 | [fromStartPageWithCount(int startPageNumber, int pageCount)](#fromStartPageWithCount-int-int-) | Creates a page range, that starts from the specified page number and has specified amount of pages, or unlimited page count (till the end) |
 | [fromStartPageTillEndPage(int startPageNumber, int endPageNumber)](#fromStartPageTillEndPage-int-int-) | Creates a page range, that starts from the specified page number (inclusively) and continues until the specified page number (exclusively) |
-| [convertToAspose()](#convertToAspose--) |  |
 ### PageRange() {#PageRange--}
 ```
 public PageRange()
@@ -172,13 +171,3 @@ Creates a page range, that starts from the specified page number (inclusively) a
 
 **Returns:**
 [PageRange](../../com.groupdocs.editor.options/pagerange) - 
-### convertToAspose() {#convertToAspose--}
-```
-public final System.Collections.Generic.KeyValuePair<Integer,Integer> convertToAspose()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.Integer,java.lang.Integer>

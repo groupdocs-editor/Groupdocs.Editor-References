@@ -55,7 +55,6 @@ Immutable struct. Similar to the https://developer.mozilla.org/en-US/docs/Web/CS
 | [op_Subtraction(TextDecorationLineType first, TextDecorationLineType second)](#op-Subtraction-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-) | Subtracts second specified line type from the first specified line type and produces new resultant line type, where are present only those flags from the first operand, which are not found in the second operand (difference) |
 | [op_Division(TextDecorationLineType first, TextDecorationLineType second)](#op-Division-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-) | Returns an intersection between first and second line types, where only those flags are enabled, which are enabled simultaneously in both operands. |
 | [to_TextDecorationLineType(byte octet)](#to-TextDecorationLineType-byte-) | Casts specific byte (8-bit octet) to the corresponding [TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype), throws exception if casting is invalid |
-| [equals(TextDecorationLineType obj1, TextDecorationLineType obj2)](#equals-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-) |  |
 ### TextDecorationLineType() {#TextDecorationLineType--}
 ```
 public TextDecorationLineType()
@@ -333,19 +332,3 @@ Casts specific byte (8-bit octet) to the corresponding [TextDecorationLineType](
 
 **Returns:**
 [TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype)
-### equals(TextDecorationLineType obj1, TextDecorationLineType obj2) {#equals-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-}
-```
-public static boolean equals(TextDecorationLineType obj1, TextDecorationLineType obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype) |  |
-| obj2 | [TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype) |  |
-
-**Returns:**
-boolean

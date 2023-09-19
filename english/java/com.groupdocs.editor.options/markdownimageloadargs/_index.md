@@ -27,7 +27,6 @@ Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.Pro
 | [isAbsoluteUri()](#isAbsoluteUri--) | Get a value indicating whether this image has absolute URI link. |
 | [setAbsoluteUri(boolean value)](#setAbsoluteUri-boolean-) | Get a value indicating whether this image has absolute URI link. |
 | [setData(byte[] data)](#setData-byte---) | Sets user provided data of the resource which is used if  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  |
-| [getImageData()](#getImageData--) |  |
 ### MarkdownImageLoadArgs() {#MarkdownImageLoadArgs--}
 ```
 public MarkdownImageLoadArgs()
@@ -97,13 +96,3 @@ Sets user provided data of the resource which is used if  M:GroupDocs.Editor.Opt
 | --- | --- | --- |
 | data | byte[] |  |
 
-### getImageData() {#getImageData--}
-```
-public final byte[] getImageData()
-```
-
-
-
-
-**Returns:**
-byte[]

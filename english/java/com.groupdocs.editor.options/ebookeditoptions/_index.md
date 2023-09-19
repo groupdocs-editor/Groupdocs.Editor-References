@@ -21,9 +21,14 @@ Allows to specify and adjust custom options for editing E-book documents in all 
 
 Supported E-book formats:
 
-1.  
-2.  
-3.  
+1.  [ePub][] (Electronic Publication)
+2.  [MOBI][] (MobiPocket)
+3.  [AZW3][] (Kindle Format 8t)
+
+
+[ePub]: https://docs.fileformat.com/ebook/epub/
+[MOBI]: https://docs.fileformat.com/ebook/mobi/
+[AZW3]: https://docs.fileformat.com/ebook/azw3/
 ## Constructors
 
 | Constructor | Description |
@@ -38,7 +43,6 @@ Supported E-book formats:
 | [setEnablePagination(boolean value)](#setEnablePagination-boolean-) | Allows to enable or disable pagination in the resultant HTML document. |
 | [getEnableLanguageInformation()](#getEnableLanguageInformation--) | Specifies whether language information is exported to the HTML markup in a form of 'lang' HTML attributes. |
 | [setEnableLanguageInformation(boolean value)](#setEnableLanguageInformation-boolean-) | Specifies whether language information is exported to the HTML markup in a form of 'lang' HTML attributes. |
-| [cloneToWordProcessing()](#cloneToWordProcessing--) |  |
 ### EbookEditOptions() {#EbookEditOptions--}
 ```
 public EbookEditOptions()
@@ -114,13 +118,3 @@ Specifies whether language information is exported to the HTML markup in a form 
 | --- | --- | --- |
 | value | boolean |  |
 
-### cloneToWordProcessing() {#cloneToWordProcessing--}
-```
-public final WordProcessingEditOptions cloneToWordProcessing()
-```
-
-
-
-
-**Returns:**
-[WordProcessingEditOptions](../../com.groupdocs.editor.options/wordprocessingeditoptions)

@@ -39,10 +39,6 @@ Represents quote characters - single quote (') and double quote (")
 | [op_Inequality(QuoteType first, QuoteType second)](#op-Inequality-com.groupdocs.editor.htmlcss.serialization.QuoteType-com.groupdocs.editor.htmlcss.serialization.QuoteType-) | Checks whether two "QuoteType" values are not equal |
 | [to_Char(QuoteType quote)](#to-Char-com.groupdocs.editor.htmlcss.serialization.QuoteType-) | Casts specified [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype) instance to the char |
 | [to_QuoteType(char character)](#to-QuoteType-char-) | Casts specific char to the corresponding [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype), throws exception if casting is invalid |
-| [CloneTo(QuoteType that)](#CloneTo-com.groupdocs.editor.htmlcss.serialization.QuoteType-) |  |
-| [Clone()](#Clone--) |  |
-| [clone()](#clone--) |  |
-| [equals(QuoteType obj1, QuoteType obj2)](#equals-com.groupdocs.editor.htmlcss.serialization.QuoteType-com.groupdocs.editor.htmlcss.serialization.QuoteType-) |  |
 ### QuoteType() {#QuoteType--}
 ```
 public QuoteType()
@@ -207,52 +203,3 @@ Casts specific char to the corresponding [QuoteType](../../com.groupdocs.editor.
 
 **Returns:**
 [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype)
-### CloneTo(QuoteType that) {#CloneTo-com.groupdocs.editor.htmlcss.serialization.QuoteType-}
-```
-public void CloneTo(QuoteType that)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| that | [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype) |  |
-
-### Clone() {#Clone--}
-```
-public QuoteType Clone()
-```
-
-
-
-
-**Returns:**
-[QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype)
-### clone() {#clone--}
-```
-public Object clone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object
-### equals(QuoteType obj1, QuoteType obj2) {#equals-com.groupdocs.editor.htmlcss.serialization.QuoteType-com.groupdocs.editor.htmlcss.serialization.QuoteType-}
-```
-public static boolean equals(QuoteType obj1, QuoteType obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype) |  |
-| obj2 | [QuoteType](../../com.groupdocs.editor.htmlcss.serialization/quotetype) |  |
-
-**Returns:**
-boolean

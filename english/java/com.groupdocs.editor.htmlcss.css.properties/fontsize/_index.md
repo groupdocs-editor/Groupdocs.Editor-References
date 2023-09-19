@@ -51,7 +51,6 @@ Represents a font size as a special unit or a length value, which specifies the 
 | [op_Inequality(FontSize first, FontSize second)](#op-Inequality-com.groupdocs.editor.htmlcss.css.properties.FontSize-com.groupdocs.editor.htmlcss.css.properties.FontSize-) | Checks whether two "FontSize" values are not equal |
 | [fromLength(Length length)](#fromLength-com.groupdocs.editor.htmlcss.css.datatypes.Length-) | Creates a font-size from specified length |
 | [tryParse(String keyword, FontSize[] result)](#tryParse-java.lang.String-com.groupdocs.editor.htmlcss.css.properties.FontSize---) | Tries to recognize a specified keyword as a proper keyword value of the 'font-size' and return it on success or NULL on failure. |
-| [equals(FontSize obj1, FontSize obj2)](#equals-com.groupdocs.editor.htmlcss.css.properties.FontSize-com.groupdocs.editor.htmlcss.css.properties.FontSize-) |  |
 ### FontSize() {#FontSize--}
 ```
 public FontSize()
@@ -293,19 +292,3 @@ Tries to recognize a specified keyword as a proper keyword value of the 'font-si
 
 **Returns:**
 boolean - true if parsing was successful, false otherwise
-### equals(FontSize obj1, FontSize obj2) {#equals-com.groupdocs.editor.htmlcss.css.properties.FontSize-com.groupdocs.editor.htmlcss.css.properties.FontSize-}
-```
-public static boolean equals(FontSize obj1, FontSize obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [FontSize](../../com.groupdocs.editor.htmlcss.css.properties/fontsize) |  |
-| obj2 | [FontSize](../../com.groupdocs.editor.htmlcss.css.properties/fontsize) |  |
-
-**Returns:**
-boolean

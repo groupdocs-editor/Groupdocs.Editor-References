@@ -40,7 +40,6 @@ Defines how the font should be styled with: a normal, italic, or oblique face fr
 | [op_Equality(FontStyle first, FontStyle second)](#op-Equality-com.groupdocs.editor.htmlcss.css.properties.FontStyle-com.groupdocs.editor.htmlcss.css.properties.FontStyle-) | Checks whether two "FontStyle" values are equal |
 | [op_Inequality(FontStyle first, FontStyle second)](#op-Inequality-com.groupdocs.editor.htmlcss.css.properties.FontStyle-com.groupdocs.editor.htmlcss.css.properties.FontStyle-) | Checks whether two "FontStyle" values are not equal |
 | [tryParse(String keyword, FontStyle[] result)](#tryParse-java.lang.String-com.groupdocs.editor.htmlcss.css.properties.FontStyle---) | Tries to recognize a specified keyword as a proper keyword value of the 'font-style' and return it on success or NULL on failure. |
-| [equals(FontStyle obj1, FontStyle obj2)](#equals-com.groupdocs.editor.htmlcss.css.properties.FontStyle-com.groupdocs.editor.htmlcss.css.properties.FontStyle-) |  |
 ### FontStyle() {#FontStyle--}
 ```
 public FontStyle()
@@ -179,19 +178,3 @@ Tries to recognize a specified keyword as a proper keyword value of the 'font-st
 
 **Returns:**
 boolean - true if parsing was successful, false otherwise
-### equals(FontStyle obj1, FontStyle obj2) {#equals-com.groupdocs.editor.htmlcss.css.properties.FontStyle-com.groupdocs.editor.htmlcss.css.properties.FontStyle-}
-```
-public static boolean equals(FontStyle obj1, FontStyle obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [FontStyle](../../com.groupdocs.editor.htmlcss.css.properties/fontstyle) |  |
-| obj2 | [FontStyle](../../com.groupdocs.editor.htmlcss.css.properties/fontstyle) |  |
-
-**Returns:**
-boolean

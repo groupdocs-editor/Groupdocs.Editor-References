@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for editing documents of all supportable WordProcessing Words-compliant formats like DOCX RTF ODT etc.
 type: docs
-weight: 39
+weight: 41
 url: /java/com.groupdocs.editor.options/wordprocessingeditoptions/
 ---
 **Inheritance:**

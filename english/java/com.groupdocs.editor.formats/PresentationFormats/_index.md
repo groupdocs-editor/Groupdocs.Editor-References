@@ -3,7 +3,7 @@ title: PresentationFormats
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates all Presentation formats.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.editor.formats/presentationformats/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: MarkdownImageLoadingAction
 second_title: GroupDocs.Editor for Java API Reference
 description: Defines the mode of image loading while opening for editing the file in Markdown format
 type: docs
-weight: 20
+weight: 22
 url: /java/com.groupdocs.editor.options/markdownimageloadingaction/
 ---
 **Inheritance:**

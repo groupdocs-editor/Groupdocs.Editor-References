@@ -3,7 +3,7 @@ title: EmailFormats
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates all emails formats.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.editor.formats/emailformats/
 ---
 **Inheritance:**

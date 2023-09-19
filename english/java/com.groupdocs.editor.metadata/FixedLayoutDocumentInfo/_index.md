@@ -3,7 +3,7 @@ title: FixedLayoutDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents metadata of one document with fixed layout format like PDF or XPS
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.editor.metadata/fixedlayoutdocumentinfo/
 ---
 **Inheritance:**

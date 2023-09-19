@@ -34,7 +34,7 @@ Instance of EditableDocument class can be produced by the Editor.edit() method o
 | [getCss()](#getCss--) | Returns a list of CSS resources |
 | [getAudio()](#getAudio--) | Returns a list of audio resources |
 | [getAllResources()](#getAllResources--) | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts |
-| [getContent(ByteArrayOutputStream storage, Charset encoding)](#getContent-java.io.ByteArrayOutputStream-java.nio.charset.Charset-) | Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding |
+| [getContent(OutputStream storage, Charset encoding)](#getContent-java.io.OutputStream-java.nio.charset.Charset-) | Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding |
 | [getBodyContent()](#getBodyContent--) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string. |
 | [getBodyContent(String externalImagesPrefix)](#getBodyContent-java.lang.String-) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
 | [getContent()](#getContent--) | Returns overall content of the HTML document as a string. |
@@ -109,9 +109,9 @@ This property returns a concatenated result of 'Images', 'Fonts', and 'Css' prop
 
 **Returns:**
 java.util.List<com.groupdocs.editor.htmlcss.resources.IHtmlResource>
-### getContent(ByteArrayOutputStream storage, Charset encoding) {#getContent-java.io.ByteArrayOutputStream-java.nio.charset.Charset-}
+### getContent(OutputStream storage, Charset encoding) {#getContent-java.io.OutputStream-java.nio.charset.Charset-}
 ```
-public OutputStream getContent(ByteArrayOutputStream storage, Charset encoding)
+public OutputStream getContent(OutputStream storage, Charset encoding)
 ```
 
 
@@ -120,7 +120,7 @@ Returns overall content of the HTML document as a byte stream by writing this co
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| storage | java.io.ByteArrayOutputStream | Non-null byte stream, which supports writing |
+| storage | java.io.OutputStream | Non-null byte stream, which supports writing |
 | encoding | java.nio.charset.Charset | Non-null text encoding, which should be apllied while writing text content into specified  storage 
 
  TStream : Any implementation of the java.io.InputStream |

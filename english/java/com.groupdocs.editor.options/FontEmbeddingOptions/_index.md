@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Font embedding options control which font resources should be embedded into the output WordProcessing document
 type: docs
-weight: 15
+weight: 17
 url: /java/com.groupdocs.editor.options/fontembeddingoptions/
 ---
 **Inheritance:**

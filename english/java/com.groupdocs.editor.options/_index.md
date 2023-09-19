@@ -16,6 +16,8 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | --- | --- |
 | [DelimitedTextEditOptions](../com.groupdocs.editor.options/delimitedtexteditoptions) | Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
 | [DelimitedTextSaveOptions](../com.groupdocs.editor.options/delimitedtextsaveoptions) | Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter) |
+| [EbookEditOptions](../com.groupdocs.editor.options/ebookeditoptions) | Allows to specify and adjust custom options for editing E-book documents in all supported formats: ePub, MOBI, and AZW3. |
+| [EbookSaveOptions](../com.groupdocs.editor.options/ebooksaveoptions) | Allows to specify custom options for generating and saving the document in all supportable e-Book formats: ePub, MOBI, and AZW3. |
 | [EmailEditOptions](../com.groupdocs.editor.options/emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
 | [EmailSaveOptions](../com.groupdocs.editor.options/emailsaveoptions) | Allows to specify custom options for generating and saving electronic mail (email) documents |
 | [FixedLayoutEditOptionsBase](../com.groupdocs.editor.options/fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |

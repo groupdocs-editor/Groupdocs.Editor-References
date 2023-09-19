@@ -3,7 +3,7 @@ title: XmlFormatOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains options that allow to adjust the formatting of XML document when it is represented as HTML
 type: docs
-weight: 47
+weight: 49
 url: /java/com.groupdocs.editor.options/xmlformatoptions/
 ---
 **Inheritance:**

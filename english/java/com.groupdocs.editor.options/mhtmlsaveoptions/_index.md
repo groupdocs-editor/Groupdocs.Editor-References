@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving the MHTML MIME encapsulation of aggregate HTML documents documents
 type: docs
-weight: 23
+weight: 25
 url: /java/com.groupdocs.editor.options/mhtmlsaveoptions/
 ---
 **Inheritance:**

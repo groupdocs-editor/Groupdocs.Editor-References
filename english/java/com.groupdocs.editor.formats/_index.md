@@ -14,6 +14,7 @@ The **com.groupdocs.editor.formats** namespace provides interfaces and classes t
 
 | Class | Description |
 | --- | --- |
+| [EBookFormats](../com.groupdocs.editor.formats/ebookformats) | Encapsulates all eBook formats. |
 | [EmailFormats](../com.groupdocs.editor.formats/emailformats) | Encapsulates all emails formats. |
 | [FixedLayoutFormats](../com.groupdocs.editor.formats/fixedlayoutformats) | Encapsulates all fixed-layout (also know as "fixed-page") formats, which includes PDF and XPS (this does not include raster images) |
 | [PresentationFormats](../com.groupdocs.editor.formats/presentationformats) | Encapsulates all Presentation formats. |

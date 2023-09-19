@@ -3,7 +3,7 @@ title: MarkdownDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents metadata of one Markdown document
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.editor.metadata/markdowndocumentinfo/
 ---
 **Inheritance:**

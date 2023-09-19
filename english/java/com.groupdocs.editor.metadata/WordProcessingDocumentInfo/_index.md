@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents metadata of one WordProcessing document
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.editor.metadata/wordprocessingdocumentinfo/
 ---
 **Inheritance:**

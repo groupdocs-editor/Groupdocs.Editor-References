@@ -3,7 +3,7 @@ title: WordProcessingDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents metadata of one WordProcessing document
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.editor.metadata/wordprocessingdocumentinfo/
 ---
 **Inheritance:**
@@ -24,6 +24,7 @@ Represents metadata of one WordProcessing document
 | [getPageCount()](#getPageCount--) | Returns number of pages |
 | [getSize()](#getSize--) | Returns size in bytes of this WordProcessing document |
 | [isEncrypted()](#isEncrypted--) | Determines whether this specific WordProcessing document in encrypted and requires password for opening |
+| [generatePreview(int pageIndex)](#generatePreview-int-) | Generates and returns a preview of the selected page in a form of SVG image |
 | [equals(WordProcessingDocumentInfo other)](#equals-com.groupdocs.editor.metadata.WordProcessingDocumentInfo-) | Determines whether this instance is equal to the other specified WordProcessingDocumentInfo instance |
 ### getFormat() {#getFormat--}
 ```
@@ -65,6 +66,21 @@ Determines whether this specific WordProcessing document in encrypted and requir
 
 **Returns:**
 boolean
+### generatePreview(int pageIndex) {#generatePreview-int-}
+```
+public final SvgImage generatePreview(int pageIndex)
+```
+
+
+Generates and returns a preview of the selected page in a form of SVG image
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | 0-based index of the desired page. Cannot be lesser then 0, cannot exceed the number of pages in this WordProcessing document. |
+
+**Returns:**
+[SvgImage](../../com.groupdocs.editor.htmlcss.resources.images.vector/svgimage) - SVG image as the non-null instance of the [SvgImage](../../com.groupdocs.editor.htmlcss.resources.images.vector/svgimage) class
 ### equals(WordProcessingDocumentInfo other) {#equals-com.groupdocs.editor.metadata.WordProcessingDocumentInfo-}
 ```
 public final boolean equals(WordProcessingDocumentInfo other)

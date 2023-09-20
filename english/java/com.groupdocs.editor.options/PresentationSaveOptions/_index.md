@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving Presentation PowerPoint-compatible documents
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.editor.options/presentationsaveoptions/
 ---
 **Inheritance:**

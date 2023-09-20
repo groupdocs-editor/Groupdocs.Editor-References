@@ -14,3 +14,4 @@ url: /java/com.groupdocs.editor.htmlcss.css.properties/
 | [FontSize](../com.groupdocs.editor.htmlcss.css.properties/fontsize) | Represents a font size as a special unit or a length value, which specifies the size of the font (historically the width of the capital "M"). |
 | [FontStyle](../com.groupdocs.editor.htmlcss.css.properties/fontstyle) | Defines how the font should be styled with: a normal, italic, or oblique face from its font-family. |
 | [FontWeight](../com.groupdocs.editor.htmlcss.css.properties/fontweight) | Font-weight property sets the weight (or boldness) of the font. |
+| [TextDecorationLineType](../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype) | Represents types of the text decoration line: underline (underscore), overline, and line-through (strikethrough) |

@@ -29,7 +29,7 @@ Represents one vector image in SVG (Scalable Vector Graphics) format with its me
 | [getTextContent()](#getTextContent--) | Returns a content of this SVG image as a plain text (in XML format) |
 | [getXmlContent()](#getXmlContent--) | Returns a content of this SVG image int its original XML-compliant textual form |
 | [save(String fullPathToFile)](#save-java.lang.String-) | Saves this SVG image to the file |
-| [saveToPng(InputStream outputPngContent)](#saveToPng-java.io.InputStream-) | Saves this vector SVG image into raster PNG image |
+| [saveToPng(OutputStream outputPngContent)](#saveToPng-java.io.OutputStream-) | Saves this vector SVG image into raster PNG image |
 | [dispose()](#dispose--) | Disposes this raster image, disposing its content and making most methods and properties non-working |
 ### SvgImage(String name, String content) {#SvgImage-java.lang.String-java.lang.String-}
 ```
@@ -127,9 +127,9 @@ Saves this SVG image to the file
 | --- | --- | --- |
 | fullPathToFile | java.lang.String | Full path to the file, which will be created (if it doesn't exist) or overwritten (if exists) with the content of this SVG image |
 
-### saveToPng(InputStream outputPngContent) {#saveToPng-java.io.InputStream-}
+### saveToPng(OutputStream outputPngContent) {#saveToPng-java.io.OutputStream-}
 ```
-public void saveToPng(InputStream outputPngContent)
+public void saveToPng(OutputStream outputPngContent)
 ```
 
 
@@ -138,7 +138,7 @@ Saves this vector SVG image into raster PNG image
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputPngContent | java.io.InputStream | Output stream, into which the content of PNG image will be written. Cannot be NULL and should be writable. |
+| outputPngContent | java.io.OutputStream | Output stream, into which the content of PNG image will be written. Cannot be NULL and should be writable. |
 
 ### dispose() {#dispose--}
 ```

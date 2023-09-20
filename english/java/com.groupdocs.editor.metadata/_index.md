@@ -14,6 +14,7 @@ The **com.groupdocs.editor.metadata** namespace provides classes for describing 
 
 | Class | Description |
 | --- | --- |
+| [EbookDocumentInfo](../com.groupdocs.editor.metadata/ebookdocumentinfo) | Represents metadata of one EBook document |
 | [EmailDocumentInfo](../com.groupdocs.editor.metadata/emaildocumentinfo) | Represents metadata of one email document of any supported email format |
 | [FixedLayoutDocumentInfo](../com.groupdocs.editor.metadata/fixedlayoutdocumentinfo) | Represents metadata of one document with fixed layout format like PDF or XPS |
 | [MarkdownDocumentInfo](../com.groupdocs.editor.metadata/markdowndocumentinfo) | Represents metadata of one Markdown document |

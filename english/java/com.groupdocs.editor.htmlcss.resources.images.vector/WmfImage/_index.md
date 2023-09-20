@@ -29,7 +29,7 @@ Represents one vector image in WMF (Windows MetaFile) format with its metadata a
 | [getByteContent()](#getByteContent--) | Returns a content of this WMF image as a binary stream |
 | [getTextContent()](#getTextContent--) | Returns a content of this WMF image as a plain text |
 | [save(String fullPathToFile)](#save-java.lang.String-) | Saves this WMF image to the file |
-| [saveToPng(InputStream outputPngContent)](#saveToPng-java.io.InputStream-) | Saves this vector WMF image into raster PNG image |
+| [saveToPng(OutputStream outputPngContent)](#saveToPng-java.io.OutputStream-) | Saves this vector WMF image into raster PNG image |
 | [saveToSvg(OutputStream outputSvgContent)](#saveToSvg-java.io.OutputStream-) | Saves this vector WMF image into vector SVG image |
 | [dispose()](#dispose--) | Disposes this WMF image by disposing its content and making most its methods and properties non-working |
 ### WmfImage(String name, String contentInBase64) {#WmfImage-java.lang.String-java.lang.String-}
@@ -133,9 +133,9 @@ Saves this WMF image to the file
 | --- | --- | --- |
 | fullPathToFile | java.lang.String | Full path to the file, which will be created (if it doesn't exist) or overwritten (if exists) with the content of this WMF image |
 
-### saveToPng(InputStream outputPngContent) {#saveToPng-java.io.InputStream-}
+### saveToPng(OutputStream outputPngContent) {#saveToPng-java.io.OutputStream-}
 ```
-public void saveToPng(InputStream outputPngContent)
+public void saveToPng(OutputStream outputPngContent)
 ```
 
 
@@ -144,7 +144,7 @@ Saves this vector WMF image into raster PNG image
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputPngContent | java.io.InputStream | Output stream, into which the content of PNG image will be written. Cannot be NULL and should be writable. |
+| outputPngContent | java.io.OutputStream | Output stream, into which the content of PNG image will be written. Cannot be NULL and should be writable. |
 
 ### saveToSvg(OutputStream outputSvgContent) {#saveToSvg-java.io.OutputStream-}
 ```

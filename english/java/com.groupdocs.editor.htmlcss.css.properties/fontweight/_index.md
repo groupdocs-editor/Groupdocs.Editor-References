@@ -45,7 +45,6 @@ Font-weight property sets the weight (or boldness) of the font. The weights avai
 | [op_Inequality(FontWeight first, FontWeight second)](#op-Inequality-com.groupdocs.editor.htmlcss.css.properties.FontWeight-com.groupdocs.editor.htmlcss.css.properties.FontWeight-) | Checks whether two "FontWeight" values are not equal |
 | [fromNumber(int number)](#fromNumber-int-) | Creates a font-weight from specified number |
 | [tryParse(String input, FontWeight[] result)](#tryParse-java.lang.String-com.groupdocs.editor.htmlcss.css.properties.FontWeight---) | Tries to parse a specified string and return a valid FontWeight instance on success |
-| [equals(FontWeight obj1, FontWeight obj2)](#equals-com.groupdocs.editor.htmlcss.css.properties.FontWeight-com.groupdocs.editor.htmlcss.css.properties.FontWeight-) |  |
 ### FontWeight() {#FontWeight--}
 ```
 public FontWeight()
@@ -237,19 +236,3 @@ Tries to parse a specified string and return a valid FontWeight instance on succ
 
 **Returns:**
 boolean - Success (true) or failure (false) of the parsing
-### equals(FontWeight obj1, FontWeight obj2) {#equals-com.groupdocs.editor.htmlcss.css.properties.FontWeight-com.groupdocs.editor.htmlcss.css.properties.FontWeight-}
-```
-public static boolean equals(FontWeight obj1, FontWeight obj2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj1 | [FontWeight](../../com.groupdocs.editor.htmlcss.css.properties/fontweight) |  |
-| obj2 | [FontWeight](../../com.groupdocs.editor.htmlcss.css.properties/fontweight) |  |
-
-**Returns:**
-boolean

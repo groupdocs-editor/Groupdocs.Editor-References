@@ -3,7 +3,7 @@ title: TextualDocumentInfo
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents metadata of one textual document like XML HTML or plain text TXT
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.editor.metadata/textualdocumentinfo/
 ---
 **Inheritance:**

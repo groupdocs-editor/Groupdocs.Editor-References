@@ -3,7 +3,7 @@ title: SpreadsheetEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for editing documents of all supportable Spreadsheet Excel-compatible formats
 type: docs
-weight: 31
+weight: 32
 url: /java/com.groupdocs.editor.options/spreadsheeteditoptions/
 ---
 **Inheritance:**

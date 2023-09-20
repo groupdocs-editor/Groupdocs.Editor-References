@@ -34,11 +34,6 @@ Editor class should be considered as an entry point and the root object of the G
 | [Editor(InputStream document, ILoadOptions loadOptions)](#Editor-java.io.InputStream-com.groupdocs.editor.options.ILoadOptions-) | Initializes new Editor instance with specified input document (as a stream) with its load options |
 | [Editor(String filePath)](#Editor-java.lang.String-) | Initializes new Editor instance with specified input document (as a full file path) |
 | [Editor(String filePath, ILoadOptions loadOptions)](#Editor-java.lang.String-com.groupdocs.editor.options.ILoadOptions-) | Initializes new Editor instance with specified input document (as a full file path) with its load options |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [Disposed](#Disposed) |  |
 ## Methods
 
 | Method | Description |
@@ -135,12 +130,6 @@ Initializes new Editor instance with specified input document (as a full file pa
 [Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/supported-document-formats/
 [Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/
 [Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/load-document/ |
-
-### Disposed {#Disposed}
-```
-public final Event<EventHandler> Disposed
-```
-
 
 ### edit(IEditOptions editOptions) {#edit-com.groupdocs.editor.options.IEditOptions-}
 ```

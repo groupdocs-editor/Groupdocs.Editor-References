@@ -3,7 +3,7 @@ title: TextLeadingSpacesOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains available options for leading space handling during opening plain text document TXT
 type: docs
-weight: 36
+weight: 37
 url: /java/com.groupdocs.editor.options/textleadingspacesoptions/
 ---
 **Inheritance:**

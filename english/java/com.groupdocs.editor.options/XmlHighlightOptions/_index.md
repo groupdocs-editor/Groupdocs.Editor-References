@@ -3,7 +3,7 @@ title: XmlHighlightOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Contains options that allow to customize the XML highlighting during XML-to-HTML conversion
 type: docs
-weight: 49
+weight: 50
 url: /java/com.groupdocs.editor.options/xmlhighlightoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: WordProcessingFormats
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates all WordProcessing formats.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.editor.formats/wordprocessingformats/
 ---
 **Inheritance:**

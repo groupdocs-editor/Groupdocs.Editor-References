@@ -3,13 +3,13 @@ title: WebFont
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents a font settings for the web
 type: docs
-weight: 39
+weight: 40
 url: /java/com.groupdocs.editor.options/webfont/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class WebFont
+public final class WebFont
 ```
 
 Represents a font settings for the web
@@ -24,7 +24,7 @@ Represents a font settings for the web
 | [getStyle()](#getStyle--) | Sets whether a font should be styled with a normal, italic, or oblique face from its font-family. |
 | [setStyle(FontStyle value)](#setStyle-com.groupdocs.editor.htmlcss.css.properties.FontStyle-) | Sets whether a font should be styled with a normal, italic, or oblique face from its font-family. |
 | [getLine()](#getLine--) | Sets a line or combination of lines, applied to the text |
-| [setLine(byte value)](#setLine-byte-) | Sets a line or combination of lines, applied to the text |
+| [setLine(TextDecorationLineType value)](#setLine-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-) | Sets a line or combination of lines, applied to the text |
 | [getSize()](#getSize--) | Sets the size of the font in absolute or relative units |
 | [setSize(FontSize value)](#setSize-com.groupdocs.editor.htmlcss.css.properties.FontSize-) | Sets the size of the font in absolute or relative units |
 | [getName()](#getName--) | Sets the font name. |
@@ -103,17 +103,17 @@ Sets whether a font should be styled with a normal, italic, or oblique face from
 
 ### getLine() {#getLine--}
 ```
-public final byte getLine()
+public final TextDecorationLineType getLine()
 ```
 
 
 Sets a line or combination of lines, applied to the text
 
 **Returns:**
-byte
-### setLine(byte value) {#setLine-byte-}
+[TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype)
+### setLine(TextDecorationLineType value) {#setLine-com.groupdocs.editor.htmlcss.css.properties.TextDecorationLineType-}
 ```
-public final void setLine(byte value)
+public final void setLine(TextDecorationLineType value)
 ```
 
 
@@ -122,7 +122,7 @@ Sets a line or combination of lines, applied to the text
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | [TextDecorationLineType](../../com.groupdocs.editor.htmlcss.css.properties/textdecorationlinetype) |  |
 
 ### getSize() {#getSize--}
 ```

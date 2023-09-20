@@ -3,7 +3,7 @@ title: IMarkdownImageLoadCallback
 second_title: GroupDocs.Editor for Java API Reference
 description: Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.groupdocs.editor.options/imarkdownimageloadcallback/
 ---```
 public interface IMarkdownImageLoadCallback

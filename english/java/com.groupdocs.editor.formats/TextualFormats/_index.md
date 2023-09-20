@@ -3,7 +3,7 @@ title: TextualFormats
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates all textual text-based formats including markup XML HTML and others.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.editor.formats/textualformats/
 ---
 **Inheritance:**

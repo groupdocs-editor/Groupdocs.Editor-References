@@ -3,7 +3,7 @@ title: WordProcessingEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for editing documents of all supportable WordProcessing Words-compliant formats like DOCX RTF ODT etc.
 type: docs
-weight: 40
+weight: 41
 url: /java/com.groupdocs.editor.options/wordprocessingeditoptions/
 ---
 **Inheritance:**
@@ -36,6 +36,8 @@ Allows to specify custom options for editing documents of all supportable WordPr
 | [setFontExtraction(byte value)](#setFontExtraction-byte-) | Responsible for extracting font resources, which are used in the input WordProcessing document. |
 | [getInputControlsClassName()](#getInputControlsClassName--) | Allows to specify a class name, which will be placed to the 'class' attributes in every HTML element, that represents some field in the input WordProcessing document. |
 | [setInputControlsClassName(String value)](#setInputControlsClassName-java.lang.String-) | Allows to specify a class name, which will be placed to the 'class' attributes in every HTML element, that represents some field in the input WordProcessing document. |
+| [getUseInlineStyles()](#getUseInlineStyles--) | Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet ( false ) or as inline styles in the HTML markup ( true ). |
+| [setUseInlineStyles(boolean value)](#setUseInlineStyles-boolean-) | Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet ( false ) or as inline styles in the HTML markup ( true ). |
 ### WordProcessingEditOptions() {#WordProcessingEditOptions--}
 ```
 public WordProcessingEditOptions()
@@ -191,4 +193,27 @@ Almost all formats from WordProcessing format family contain fields \\u2014 spec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getUseInlineStyles() {#getUseInlineStyles--}
+```
+public final boolean getUseInlineStyles()
+```
+
+
+Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet ( false ) or as inline styles in the HTML markup ( true ). By default external styles are used ( false ).
+
+**Returns:**
+boolean
+### setUseInlineStyles(boolean value) {#setUseInlineStyles-boolean-}
+```
+public final void setUseInlineStyles(boolean value)
+```
+
+
+Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet ( false ) or as inline styles in the HTML markup ( true ). By default external styles are used ( false ).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

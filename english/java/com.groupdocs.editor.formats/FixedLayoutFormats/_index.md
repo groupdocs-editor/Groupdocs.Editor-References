@@ -3,7 +3,7 @@ title: FixedLayoutFormats
 second_title: GroupDocs.Editor for Java API Reference
 description: Encapsulates all fixed-layout also know as fixed-page formats which includes PDF and XPS this does not include raster images
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.editor.formats/fixedlayoutformats/
 ---
 **Inheritance:**

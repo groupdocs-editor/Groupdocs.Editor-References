@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a hashcode for this instance which cannot be changed during its lifetime
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/gethashcode/
 ---
 ## Dimensions.GetHashCode method

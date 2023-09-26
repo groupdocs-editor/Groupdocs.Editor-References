@@ -1,12 +1,28 @@
 ---
 title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates a new instance of PresentationSaveOptions with specified mandatory Presentation output format while all other parameters are default
+description: This parameterless constructor creates a new instance of PresentationSaveOptions with PPTX output format can be modified then through OutputFormatgroupdocs.editor.options/presentationsaveoptions/outputformat property
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/presentationsaveoptions/presentationsaveoptions/
 ---
-## PresentationSaveOptions constructor
+## PresentationSaveOptions() {#constructor}
+
+This parameterless constructor creates a new instance of PresentationSaveOptions with PPTX output format (can be modified then through [`OutputFormat`](../outputformat) property)
+
+```csharp
+public PresentationSaveOptions()
+```
+
+### See Also
+
+* class [PresentationSaveOptions](../../presentationsaveoptions)
+* namespace [GroupDocs.Editor.Options](../../presentationsaveoptions)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## PresentationSaveOptions(PresentationFormats) {#constructor_1}
 
 Creates a new instance of PresentationSaveOptions with specified mandatory Presentation output format, while all other parameters are default
 

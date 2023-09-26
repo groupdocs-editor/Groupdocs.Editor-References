@@ -3,7 +3,7 @@ title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains options for generating and saving textbased Spreadsheet documents CSV Tabbased etc. that use a separator delimiter
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.editor.options/delimitedtextsaveoptions/
 ---
 ## DelimitedTextSaveOptions class
@@ -18,7 +18,8 @@ public sealed class DelimitedTextSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [DelimitedTextSaveOptions](delimitedtextsaveoptions)(string) | Creates an instance of options class for delimited text with mandatory separator (delimiter) |
+| [DelimitedTextSaveOptions](delimitedtextsaveoptions#constructor)() | This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through [`Separator`](./separator) property) |
+| [DelimitedTextSaveOptions](delimitedtextsaveoptions#constructor_1)(string) | Creates an instance of options class for delimited text with mandatory separator (delimiter) |
 
 ## Properties
 

@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns width of the image
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/width/
 ---
 ## Dimensions.Width property

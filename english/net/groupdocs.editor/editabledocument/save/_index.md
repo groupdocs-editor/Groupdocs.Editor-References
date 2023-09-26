@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/groupdocs.editor/editabledocument/save/
 ---
-## Save(string) {#save}
+## Save(string) {#save_1}
 
 Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources.
 
@@ -26,7 +26,7 @@ public void Save(string htmlFilePath)
 
 ---
 
-## Save(string, string) {#save_1}
+## Save(string, string) {#save_2}
 
 Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources, which is located on specified path.
 
@@ -41,6 +41,28 @@ public void Save(string htmlFilePath, string resourcesFolderPath)
 
 ### See Also
 
+* class [EditableDocument](../../editabledocument)
+* namespace [GroupDocs.Editor](../../editabledocument)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Save(TextWriter, HtmlSaveOptions) {#save}
+
+Saves the content of this [`EditableDocument`](../../editabledocument) as the HTML document to the specified text writer, while the second options parameter allows to customize the saving procedure and resource saving callback
+
+```csharp
+public void Save(TextWriter htmlMarkup, HtmlSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlMarkup | TextWriter | Implementation of the text writer, into which the HTML markup will be written. Can not be null. |
+| saveOptions | HtmlSaveOptions | HTML save options, that control the saving procedure: how and where will be saved CSS, resources, tag names and quote types. |
+
+### See Also
+
+* class [HtmlSaveOptions](../../../groupdocs.editor.options/htmlsaveoptions)
 * class [EditableDocument](../../editabledocument)
 * namespace [GroupDocs.Editor](../../editabledocument)
 * assembly [GroupDocs.Editor](../../../)

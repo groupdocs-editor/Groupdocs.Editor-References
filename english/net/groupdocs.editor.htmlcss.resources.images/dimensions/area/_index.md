@@ -3,7 +3,7 @@ title: Area
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns an area Width x Height
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/area/
 ---
 ## Dimensions.Area property

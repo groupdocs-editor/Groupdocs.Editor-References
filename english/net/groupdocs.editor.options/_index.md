@@ -19,6 +19,7 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [EmailEditOptions](./emaileditoptions) | Allows to specify custom options for editing documents in the different electronic mail (email) formats |
 | [EmailSaveOptions](./emailsaveoptions) | Allows to specify custom options for generating and saving electronic mail (email) documents |
 | [FixedLayoutEditOptionsBase](./fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
+| [HtmlSaveOptions](./htmlsaveoptions) | Allows to specify custom options for saving the [`EditableDocument`](../groupdocs.editor/editabledocument) instance to the HTML format |
 | [MarkdownEditOptions](./markdowneditoptions) | Allows to specify custom options for editing documents in Markdown (MD) format |
 | [MarkdownImageLoadArgs](./markdownimageloadargs) | Provides data for the ProcessImage event. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Allows to specify custom options for generating and saving Markdown documents |
@@ -55,6 +56,7 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | Interface | Description |
 | --- | --- |
 | [IEditOptions](./ieditoptions) | Common interface for all options, which are responsible for document-to-HTML conversions. Declares no members. |
+| [IHtmlSavingCallback](./ihtmlsavingcallback) | Interface, that is used while saving the  to the HTML format and which must be implemented by the end-user in order to save the provided resource and returns a link to it |
 | [ILoadOptions](./iloadoptions) | Common interface for all option classes, responsible for loading documents of different type formats |
 | [IMarkdownImageLoadCallback](./imarkdownimageloadcallback) | Implement this interface if you want to control how GroupDocs.Editor load images when loading the file in Markdown format |
 | [ISaveOptions](./isaveoptions) | Interface for all saving options for all documents types. Declares no members. |

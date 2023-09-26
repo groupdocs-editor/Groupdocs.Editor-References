@@ -36,7 +36,6 @@ public struct Dimensions : ICloneable, IEquatable<Dimensions>
 
 | Name | Description |
 | --- | --- |
-| static [FromSize](../../groupdocs.editor.htmlcss.resources.images/dimensions/fromsize)(Size) | Generates and returns a new instance from specified System.Drawing.Size instance |
 | [Clone](../../groupdocs.editor.htmlcss.resources.images/dimensions/clone)() | Returns a full copy of this instance |
 | [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals)(Dimensions) | Determines whether this instance is equal with specified "Dimensions" instance |
 | override [Equals](../../groupdocs.editor.htmlcss.resources.images/dimensions/equals#equals_1)(object) | Determines whether this instance is equal with specified uncasted object, which presumably is another "Dimensions" instance |

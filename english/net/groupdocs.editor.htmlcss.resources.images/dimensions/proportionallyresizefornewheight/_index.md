@@ -3,7 +3,7 @@ title: ProportionallyResizeForNewHeight
 second_title: GroupDocs.Editor for .NET API Reference
 description: Creates and returns new Dimensions instance which is proportionally resized from current based on specified height
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewheight/
 ---
 ## Dimensions.ProportionallyResizeForNewHeight method

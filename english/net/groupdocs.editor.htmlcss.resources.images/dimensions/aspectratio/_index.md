@@ -3,7 +3,7 @@ title: AspectRatio
 second_title: GroupDocs.Editor for .NET API Reference
 description: Aspect ratio of this dimensions as width/height
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/aspectratio/
 ---
 ## Dimensions.AspectRatio property

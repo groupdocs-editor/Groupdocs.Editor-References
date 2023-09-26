@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving plain text TXT documents
 type: docs
-weight: 1160
+weight: 1190
 url: /net/groupdocs.editor.options/textsaveoptions/
 ---
 ## TextSaveOptions class

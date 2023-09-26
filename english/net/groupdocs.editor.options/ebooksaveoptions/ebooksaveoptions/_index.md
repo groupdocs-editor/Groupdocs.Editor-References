@@ -1,12 +1,28 @@
 ---
 title: EbookSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates a new instance of EbookSaveOptionsgroupdocs.editor.options/ebooksaveoptions with specified mandatory eBook output format while all other parameters are default
+description: This parameterless constructor creates a new instance of EbookSaveOptions with ePub output format can be modified then through OutputFormatgroupdocs.editor.options/ebooksaveoptions/outputformat property
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/ebooksaveoptions/ebooksaveoptions/
 ---
-## EbookSaveOptions constructor
+## EbookSaveOptions() {#constructor}
+
+This parameterless constructor creates a new instance of EbookSaveOptions with ePub output format (can be modified then through [`OutputFormat`](../outputformat) property)
+
+```csharp
+public EbookSaveOptions()
+```
+
+### See Also
+
+* class [EbookSaveOptions](../../ebooksaveoptions)
+* namespace [GroupDocs.Editor.Options](../../ebooksaveoptions)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## EbookSaveOptions(EBookFormats) {#constructor_1}
 
 Creates a new instance of [`EbookSaveOptions`](../../ebooksaveoptions) with specified mandatory e-Book output format, while all other parameters are default
 

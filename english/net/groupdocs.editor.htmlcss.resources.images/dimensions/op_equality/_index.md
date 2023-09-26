@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether two Dimensions values are equal i.e. they have equal width and height or both are empty
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/op_equality/
 ---
 ## Dimensions Equality operator

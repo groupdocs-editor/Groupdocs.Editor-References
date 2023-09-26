@@ -3,7 +3,7 @@ title: MarkdownImageLoadingAction
 second_title: GroupDocs.Editor for .NET API Reference
 description: Defines the mode of image loading while opening for editing the file in Markdown format
 type: docs
-weight: 980
+weight: 1010
 url: /net/groupdocs.editor.options/markdownimageloadingaction/
 ---
 ## MarkdownImageLoadingAction enumeration

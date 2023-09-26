@@ -3,7 +3,7 @@ title: Height
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns height of the image
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/height/
 ---
 ## Dimensions.Height property

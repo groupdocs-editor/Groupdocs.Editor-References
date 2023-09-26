@@ -1,12 +1,28 @@
 ---
 title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spreadsheet output format while all other parameters are default
+description: This parameterless constructor creates a new instance of SpreadsheetSaveOptions with XLSX output format can be modified then through OutputFormatgroupdocs.editor.options/spreadsheetsaveoptions/outputformat property
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/spreadsheetsaveoptions/spreadsheetsaveoptions/
 ---
-## SpreadsheetSaveOptions constructor
+## SpreadsheetSaveOptions() {#constructor}
+
+This parameterless constructor creates a new instance of SpreadsheetSaveOptions with XLSX output format (can be modified then through [`OutputFormat`](../outputformat) property)
+
+```csharp
+public SpreadsheetSaveOptions()
+```
+
+### See Also
+
+* class [SpreadsheetSaveOptions](../../spreadsheetsaveoptions)
+* namespace [GroupDocs.Editor.Options](../../spreadsheetsaveoptions)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## SpreadsheetSaveOptions(SpreadsheetFormats) {#constructor_1}
 
 Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spreadsheet output format, while all other parameters are default
 

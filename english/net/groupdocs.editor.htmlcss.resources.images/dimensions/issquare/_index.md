@@ -3,7 +3,7 @@ title: IsSquare
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether specified Dimensions represents square i.e. if width is equal to height
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/issquare/
 ---
 ## Dimensions.IsSquare property

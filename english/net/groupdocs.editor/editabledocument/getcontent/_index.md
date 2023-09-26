@@ -62,16 +62,16 @@ String, which contains the content of the HTML document
 
 ## GetContent(string, string) {#getcontent_1}
 
-Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix.
+Returns overall content of the HTML document as a string, where links to the external resources contain specified template with placeholders.
 
 ```csharp
-public string GetContent(string externalImagesPrefix, string externalCssPrefix)
+public string GetContent(string externalImagesTemplate, string externalCssTemplate)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalImagesPrefix | String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
-| externalCssPrefix | String | Through this parameter used can specify a prefix, which will be added to the links to all external stylesheets in LINK elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
+| externalImagesTemplate | String | Through this parameter used can specify a string template with one placeholder, which will be applied to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, template will not be added, and pure filenames will be present in the resultant HTML markup. Is template is invalid, it will be treated as a prefix, so filenames will be concatenated to the its end. |
+| externalCssTemplate | String | Through this parameter used can specify a string template with one placeholder, which will be added to the links to all external stylesheets in LINK elements, which will be present in the resultant HTML string. If NULL or empty, template will not be added, and pure filenames will be present in the resultant HTML markup. Is template is invalid, it will be treated as a prefix, so filenames will be concatenated to the its end. |
 
 ### Return Value
 

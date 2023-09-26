@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving WordProcessingcompliant documents after they were edited
 type: docs
-weight: 1230
+weight: 1260
 url: /net/groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class
@@ -18,7 +18,8 @@ public sealed class WordProcessingSaveOptions : ICloneable, ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [WordProcessingSaveOptions](wordprocessingsaveoptions)(WordProcessingFormats) | Creates a new instance of WordProcessingSaveOptions with specified mandatory WordProcessing output format, while all other parameters are default |
+| [WordProcessingSaveOptions](wordprocessingsaveoptions#constructor)() | This parameterless constructor creates a new instance of WordProcessingSaveOptions with DOCX output format (can be modified then through [`OutputFormat`](./outputformat) property) |
+| [WordProcessingSaveOptions](wordprocessingsaveoptions#constructor_1)(WordProcessingFormats) | Creates a new instance of WordProcessingSaveOptions with specified mandatory WordProcessing output format, while all other parameters are default |
 
 ## Properties
 

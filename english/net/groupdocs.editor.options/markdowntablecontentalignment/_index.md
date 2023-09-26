@@ -3,7 +3,7 @@ title: MarkdownTableContentAlignment
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format
 type: docs
-weight: 1000
+weight: 1030
 url: /net/groupdocs.editor.options/markdowntablecontentalignment/
 ---
 ## MarkdownTableContentAlignment enumeration

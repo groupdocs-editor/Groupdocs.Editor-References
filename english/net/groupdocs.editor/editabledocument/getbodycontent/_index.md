@@ -32,15 +32,15 @@ Most of WYSIWYG editors usually operate with the inner content of the BODY of th
 
 ## GetBodyContent(string) {#getbodycontent_1}
 
-Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix.
+Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified template with placeholders.
 
 ```csharp
-public string GetBodyContent(string externalImagesPrefix)
+public string GetBodyContent(string externalImagesTemplate)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalImagesPrefix | String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
+| externalImagesTemplate | String | Through this parameter used can specify a string template with one placeholder, which will be applied to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, template will not be added, and pure filenames will be present in the resultant HTML markup. Is template is invalid, it will be treated as a prefix, so filenames will be concatenated to the its end. |
 
 ### Return Value
 

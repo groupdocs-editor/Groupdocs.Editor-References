@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this instance is equal with specified Dimensions instance
 type: docs
-weight: 110
+weight: 100
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/equals/
 ---
 ## Equals(Dimensions) {#equals}

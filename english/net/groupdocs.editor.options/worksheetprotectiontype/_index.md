@@ -3,7 +3,7 @@ title: WorksheetProtectionType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents Spreadsheet worksheet tab protection types
 type: docs
-weight: 1250
+weight: 1280
 url: /net/groupdocs.editor.options/worksheetprotectiontype/
 ---
 ## WorksheetProtectionType enumeration

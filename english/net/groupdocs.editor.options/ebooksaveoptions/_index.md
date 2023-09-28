@@ -3,7 +3,7 @@ title: EbookSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving the document in all supportable eBook formats ePub MOBI and AZW3.
 type: docs
-weight: 850
+weight: 860
 url: /net/groupdocs.editor.options/ebooksaveoptions/
 ---
 ## EbookSaveOptions class
@@ -18,7 +18,8 @@ public sealed class EbookSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [EbookSaveOptions](ebooksaveoptions)(EBookFormats) | Creates a new instance of [`EbookSaveOptions`](../ebooksaveoptions) with specified mandatory e-Book output format, while all other parameters are default |
+| [EbookSaveOptions](ebooksaveoptions#constructor)() | This parameterless constructor creates a new instance of EbookSaveOptions with ePub output format (can be modified then through [`OutputFormat`](./outputformat) property) |
+| [EbookSaveOptions](ebooksaveoptions#constructor_1)(EBookFormats) | Creates a new instance of [`EbookSaveOptions`](../ebooksaveoptions) with specified mandatory e-Book output format, while all other parameters are default |
 
 ## Properties
 

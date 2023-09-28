@@ -3,7 +3,7 @@ title: IMarkdownImageLoadCallback
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implement this interface if you want to control how GroupDocs.Editor load images when loading the file in Markdown format
 type: docs
-weight: 930
+weight: 960
 url: /net/groupdocs.editor.options/imarkdownimageloadcallback/
 ---
 ## IMarkdownImageLoadCallback interface

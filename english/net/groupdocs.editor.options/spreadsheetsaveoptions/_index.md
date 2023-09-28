@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Spreadsheet Excelcompliant documents
 type: docs
-weight: 1120
+weight: 1150
 url: /net/groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class
@@ -18,7 +18,8 @@ public sealed class SpreadsheetSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SpreadsheetSaveOptions](spreadsheetsaveoptions)(SpreadsheetFormats) | Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spreadsheet output format, while all other parameters are default |
+| [SpreadsheetSaveOptions](spreadsheetsaveoptions#constructor)() | This parameterless constructor creates a new instance of SpreadsheetSaveOptions with XLSX output format (can be modified then through [`OutputFormat`](./outputformat) property) |
+| [SpreadsheetSaveOptions](spreadsheetsaveoptions#constructor_1)(SpreadsheetFormats) | Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spreadsheet output format, while all other parameters are default |
 
 ## Properties
 

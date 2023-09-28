@@ -3,7 +3,7 @@ title: IsEmpty
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this Dimensions instance is empty and default i.e. it doesnt store correct width and height
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/isempty/
 ---
 ## Dimensions.IsEmpty property

@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether two Dimensions values are not equal i.e. their corresponding width and/or height are different
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/op_inequality/
 ---
 ## Dimensions Inequality operator

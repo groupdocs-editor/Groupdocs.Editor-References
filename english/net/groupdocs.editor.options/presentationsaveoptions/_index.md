@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Presentation PowerPointcompatible documents
 type: docs
-weight: 1090
+weight: 1120
 url: /net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class
@@ -18,7 +18,8 @@ public sealed class PresentationSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PresentationSaveOptions](presentationsaveoptions)(PresentationFormats) | Creates a new instance of PresentationSaveOptions with specified mandatory Presentation output format, while all other parameters are default |
+| [PresentationSaveOptions](presentationsaveoptions#constructor)() | This parameterless constructor creates a new instance of PresentationSaveOptions with PPTX output format (can be modified then through [`OutputFormat`](./outputformat) property) |
+| [PresentationSaveOptions](presentationsaveoptions#constructor_1)(PresentationFormats) | Creates a new instance of PresentationSaveOptions with specified mandatory Presentation output format, while all other parameters are default |
 
 ## Properties
 

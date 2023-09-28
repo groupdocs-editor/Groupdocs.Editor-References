@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a full copy of this instance
 type: docs
-weight: 100
+weight: 90
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/clone/
 ---
 ## Dimensions.Clone method

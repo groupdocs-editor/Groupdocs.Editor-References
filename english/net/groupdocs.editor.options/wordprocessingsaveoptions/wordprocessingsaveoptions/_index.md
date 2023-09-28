@@ -1,12 +1,28 @@
 ---
 title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates a new instance of WordProcessingSaveOptions with specified mandatory WordProcessing output format while all other parameters are default
+description: This parameterless constructor creates a new instance of WordProcessingSaveOptions with DOCX output format can be modified then through OutputFormatgroupdocs.editor.options/wordprocessingsaveoptions/outputformat property
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/wordprocessingsaveoptions/wordprocessingsaveoptions/
 ---
-## WordProcessingSaveOptions constructor
+## WordProcessingSaveOptions() {#constructor}
+
+This parameterless constructor creates a new instance of WordProcessingSaveOptions with DOCX output format (can be modified then through [`OutputFormat`](../outputformat) property)
+
+```csharp
+public WordProcessingSaveOptions()
+```
+
+### See Also
+
+* class [WordProcessingSaveOptions](../../wordprocessingsaveoptions)
+* namespace [GroupDocs.Editor.Options](../../wordprocessingsaveoptions)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## WordProcessingSaveOptions(WordProcessingFormats) {#constructor_1}
 
 Creates a new instance of WordProcessingSaveOptions with specified mandatory WordProcessing output format, while all other parameters are default
 

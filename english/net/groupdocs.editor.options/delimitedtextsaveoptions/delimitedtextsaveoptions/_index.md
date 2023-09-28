@@ -1,12 +1,28 @@
 ---
 title: DelimitedTextSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates an instance of options class for delimited text with mandatory separator delimiter
+description: This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon  default separator can be modified then through Separatorgroupdocs.editor.options/delimitedtextsaveoptions/separator property
 type: docs
 weight: 10
 url: /net/groupdocs.editor.options/delimitedtextsaveoptions/delimitedtextsaveoptions/
 ---
-## DelimitedTextSaveOptions constructor
+## DelimitedTextSaveOptions() {#constructor}
+
+This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through [`Separator`](../separator) property)
+
+```csharp
+public DelimitedTextSaveOptions()
+```
+
+### See Also
+
+* class [DelimitedTextSaveOptions](../../delimitedtextsaveoptions)
+* namespace [GroupDocs.Editor.Options](../../delimitedtextsaveoptions)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## DelimitedTextSaveOptions(string) {#constructor_1}
 
 Creates an instance of options class for delimited text with mandatory separator (delimiter)
 

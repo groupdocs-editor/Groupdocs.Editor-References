@@ -3,7 +3,7 @@ title: MhtmlSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving the MHTML MIME encapsulation of aggregate HTML documents documents
 type: docs
-weight: 1010
+weight: 1040
 url: /net/groupdocs.editor.options/mhtmlsaveoptions/
 ---
 ## MhtmlSaveOptions class

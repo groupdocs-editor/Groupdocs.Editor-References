@@ -3,7 +3,7 @@ title: TextDirection
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents 3 possible variants how to treat text direction in the plain text documents
 type: docs
-weight: 1130
+weight: 1160
 url: /net/groupdocs.editor.options/textdirection/
 ---
 ## TextDirection enumeration

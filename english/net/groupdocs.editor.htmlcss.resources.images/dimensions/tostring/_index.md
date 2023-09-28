@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a string representation of this Dimensions
 type: docs
-weight: 150
+weight: 140
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/tostring/
 ---
 ## Dimensions.ToString method

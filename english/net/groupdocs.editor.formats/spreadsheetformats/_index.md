@@ -31,6 +31,7 @@ public struct SpreadsheetFormats : IDocumentFormat, IEquatable<SpreadsheetFormat
 | override [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed SpreadsheetFormats |
 | [Equals](../../groupdocs.editor.formats/spreadsheetformats/equals#equals_1)(SpreadsheetFormats) | Determines whether this instance is equal to the other specified SpreadsheetFormats instance |
 | override [GetHashCode](../../groupdocs.editor.formats/spreadsheetformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
+| override [ToString](../../groupdocs.editor.formats/spreadsheetformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
 | [operator ==](../../groupdocs.editor.formats/spreadsheetformats/op_equality) | Checks two given SpreadsheetFormats instances on equality |
 | [operator !=](../../groupdocs.editor.formats/spreadsheetformats/op_inequality) | Checks two given SpreadsheetFormats instances on inequality |
 

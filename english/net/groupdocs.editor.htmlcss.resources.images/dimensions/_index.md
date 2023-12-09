@@ -18,7 +18,7 @@ public struct Dimensions : ICloneable, IEquatable<Dimensions>
 
 | Name | Description |
 | --- | --- |
-| [Dimensions](dimensions)(ushort, ushort) | Creates a new instance from specified width and height |
+| [Dimensions](dimensions)(ushort, ushort) | Creates a new instance from specified width and height. |
 
 ## Properties
 
@@ -27,7 +27,7 @@ public struct Dimensions : ICloneable, IEquatable<Dimensions>
 | static [Empty](../../groupdocs.editor.htmlcss.resources.images/dimensions/empty) { get; } | Returns an empty Dimensions instance |
 | [Area](../../groupdocs.editor.htmlcss.resources.images/dimensions/area) { get; } | Returns an area (Width x Height) |
 | [AspectRatio](../../groupdocs.editor.htmlcss.resources.images/dimensions/aspectratio) { get; } | Aspect ratio of this dimensions as width/height |
-| [Height](../../groupdocs.editor.htmlcss.resources.images/dimensions/height) { get; } | Returns height of the image |
+| [Height](../../groupdocs.editor.htmlcss.resources.images/dimensions/height) { get; } | Returns height of the image. |
 | [IsEmpty](../../groupdocs.editor.htmlcss.resources.images/dimensions/isempty) { get; } | Determines whether this "Dimensions" instance is empty and default, i.e. it doesn't store correct width and height |
 | [IsSquare](../../groupdocs.editor.htmlcss.resources.images/dimensions/issquare) { get; } | Determines whether specified 'Dimensions' represents square, i.e. if width is equal to height |
 | [Width](../../groupdocs.editor.htmlcss.resources.images/dimensions/width) { get; } | Returns width of the image |

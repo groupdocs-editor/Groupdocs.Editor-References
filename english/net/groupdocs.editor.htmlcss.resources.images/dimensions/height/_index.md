@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns height of the image
+description: Returns height of the image.
 type: docs
 weight: 50
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/height/
 ---
 ## Dimensions.Height property
 
-Returns height of the image
+Returns height of the image.
 
 ```csharp
 public ushort Height { get; }

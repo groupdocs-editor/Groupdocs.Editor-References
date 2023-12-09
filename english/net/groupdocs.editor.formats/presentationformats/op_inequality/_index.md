@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given PresentationFormats instances on inequality
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.editor.formats/presentationformats/op_inequality/
 ---
 ## PresentationFormats Inequality operator

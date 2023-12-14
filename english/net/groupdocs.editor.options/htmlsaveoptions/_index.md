@@ -24,7 +24,7 @@ public sealed class HtmlSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AttributeValueDelimiter](../../groupdocs.editor.options/htmlsaveoptions/attributevaluedelimiter) { get; set; } | Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or doubnle quote |
+| [AttributeValueDelimiter](../../groupdocs.editor.options/htmlsaveoptions/attributevaluedelimiter) { get; set; } | Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or double quote |
 | [EmbedStylesheetsIntoMarkup](../../groupdocs.editor.options/htmlsaveoptions/embedstylesheetsintomarkup) { get; set; } | Controls where to store the CSS stylesheet(s): as external resources (`false`), or embed them into the HTML markup, inside the STYLE element in the HTML-&gt;HEAD section (`true`) |
 | [HtmlTagCase](../../groupdocs.editor.options/htmlsaveoptions/htmltagcase) { get; set; } | Controls how the HTML tag names will be present in HTML markup: All lower case (default value), All upper case, or First letter upper case |
 | [SavingCallback](../../groupdocs.editor.options/htmlsaveoptions/savingcallback) { get; set; } | Interface, which must be implemented by the end-user for saving all the external HTML resources |

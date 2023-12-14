@@ -31,6 +31,7 @@ public struct PresentationFormats : IDocumentFormat, IEquatable<PresentationForm
 | override [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed PresentationFormats |
 | [Equals](../../groupdocs.editor.formats/presentationformats/equals#equals_1)(PresentationFormats) | Determines whether this instance is equal to the other specified PresentationFormats instance |
 | override [GetHashCode](../../groupdocs.editor.formats/presentationformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
+| override [ToString](../../groupdocs.editor.formats/presentationformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
 | [operator ==](../../groupdocs.editor.formats/presentationformats/op_equality) | Checks two given PresentationFormats instances on equality |
 | [operator !=](../../groupdocs.editor.formats/presentationformats/op_inequality) | Checks two given PresentationFormats instances on inequality |
 

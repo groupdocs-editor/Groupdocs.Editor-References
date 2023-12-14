@@ -1,14 +1,14 @@
 ---
 title: Dimensions
 second_title: GroupDocs.Editor for .NET API Reference
-description: Creates a new instance from specified width and height
+description: Creates a new instance from specified width and height.
 type: docs
 weight: 10
 url: /net/groupdocs.editor.htmlcss.resources.images/dimensions/dimensions/
 ---
 ## Dimensions constructor
 
-Creates a new instance from specified width and height
+Creates a new instance from specified width and height.
 
 ```csharp
 public Dimensions(ushort width, ushort height)

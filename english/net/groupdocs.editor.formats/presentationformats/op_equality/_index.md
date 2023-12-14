@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given PresentationFormats instances on equality
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.editor.formats/presentationformats/op_equality/
 ---
 ## PresentationFormats Equality operator

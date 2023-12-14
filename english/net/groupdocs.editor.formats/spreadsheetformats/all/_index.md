@@ -3,7 +3,7 @@ title: All
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns an internal class that provides enumerable possibilities over all existing Spreadsheet formats
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.editor.formats/spreadsheetformats/all/
 ---
 ## SpreadsheetFormats.All field

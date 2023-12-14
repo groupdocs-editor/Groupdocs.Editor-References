@@ -1,14 +1,14 @@
 ---
 title: AttributeValueDelimiter
 second_title: GroupDocs.Editor for .NET API Reference
-description: Controls which delimiter around the attribute values in HTML elements will be used single quote default value or doubnle quote
+description: Controls which delimiter around the attribute values in HTML elements will be used single quote default value or double quote
 type: docs
 weight: 20
 url: /net/groupdocs.editor.options/htmlsaveoptions/attributevaluedelimiter/
 ---
 ## HtmlSaveOptions.AttributeValueDelimiter property
 
-Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or doubnle quote
+Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or double quote
 
 ```csharp
 public QuoteType AttributeValueDelimiter { get; set; }

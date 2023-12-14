@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given SpreadsheetFormats instances on inequality
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.editor.formats/spreadsheetformats/op_inequality/
 ---
 ## SpreadsheetFormats Inequality operator

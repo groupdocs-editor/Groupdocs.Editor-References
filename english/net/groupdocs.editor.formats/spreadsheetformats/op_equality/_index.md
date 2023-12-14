@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two given SpreadsheetFormats instances on equality
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.editor.formats/spreadsheetformats/op_equality/
 ---
 ## SpreadsheetFormats Equality operator

@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Defines whether two specific ImageType instances are equal
 type: docs
-weight: 210
+weight: 200
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/op_equality/
 ---
 ## ImageType Equality operator

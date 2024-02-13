@@ -3,7 +3,7 @@ title: Save
 second_title: GroupDocs.Editor for .NET API Reference
 description: Saves this raster image to the specified file
 type: docs
-weight: 150
+weight: 130
 url: /net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/save/
 ---
 ## RasterImageResourceBase.Save method

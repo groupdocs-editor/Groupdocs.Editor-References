@@ -3,7 +3,7 @@ title: MimeCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: MIME code of a particular image type as a string. For the Undefined type returns a string unsefined.
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/mimecode/
 ---
 ## ImageType.MimeCode property

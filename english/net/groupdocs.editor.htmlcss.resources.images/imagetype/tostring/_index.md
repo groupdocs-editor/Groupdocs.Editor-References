@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a FormalName property
 type: docs
-weight: 200
+weight: 190
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/tostring/
 ---
 ## ImageType.ToString method

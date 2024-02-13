@@ -30,7 +30,6 @@ public struct ImageType : IEquatable<ImageType>, IResourceType
 | static [Wmf](../../groupdocs.editor.htmlcss.resources.images/imagetype/wmf) { get; } | WMF (Windows MetaFile) vector image type |
 | [FileExtension](../../groupdocs.editor.htmlcss.resources.images/imagetype/fileextension) { get; } | File extension (without leading dot character) of a particular image type in lower case. For the Undefined type returns a string 'unsefined'. |
 | [FormalName](../../groupdocs.editor.htmlcss.resources.images/imagetype/formalname) { get; } | Returns a formal name of this image format. Never reurns NULL. If instance is not corrupted, never throws an exception. |
-| [Format](../../groupdocs.editor.htmlcss.resources.images/imagetype/format) { get; } | .NET-standard image format description of a particular image format, if it has a .NET-specific representation. For the Undefined type returns a null value. For all formats, which are not represented in .NET, throws an InvalidOperationException. |
 | [IsVector](../../groupdocs.editor.htmlcss.resources.images/imagetype/isvector) { get; } | Indicates whether this particular format is vector (true) or raster (false) |
 | [MimeCode](../../groupdocs.editor.htmlcss.resources.images/imagetype/mimecode) { get; } | MIME code of a particular image type as a string. For the Undefined type returns a string 'unsefined'. |
 

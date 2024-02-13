@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a hashcode which is an immutable number for this specific instance
 type: docs
-weight: 190
+weight: 180
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/gethashcode/
 ---
 ## ImageType.GetHashCode method

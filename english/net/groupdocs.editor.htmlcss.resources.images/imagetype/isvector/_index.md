@@ -3,7 +3,7 @@ title: IsVector
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether this particular format is vector true or raster false
 type: docs
-weight: 160
+weight: 150
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/isvector/
 ---
 ## ImageType.IsVector property

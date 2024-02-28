@@ -42,8 +42,6 @@ public sealed class TiffImage : RasterImageResourceBase
 | --- | --- |
 | [Dispose](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/dispose)() | Disposes this raster image, disposing its content and making most methods and properties non-working |
 | [Equals](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/equals)(IHtmlResource) | Checks this instance with specified on reference equality. |
-| [GenerateBitmap](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/generatebitmap)() | Generates and returns a new instance of the 'System.Drawing.Bitmap' from this raster image. |
-| [ReduceToNewHeight](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/reducetonewheight)(ushort) | Creates and returns a new reduced image resource of the same type, but with specified new reduced height and proportionally reduced width. |
 | [Save](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/save)(string) | Saves this raster image to the specified file |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/isvalid#isvalid)(Stream) | Checks whether specified stream is a valid TIFF image |
 | static [IsValid](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/isvalid#isvalid_1)(string) | Checks whether specified base64-encoded string is a valid TIFF image |

@@ -11,15 +11,9 @@ url: /net/groupdocs.editor.options/xpseditoptions/
 Allows to specify custom options for editing (XML Paper Specifications) documents
 
 ```csharp
+[Obsolete("The Xps edit is deprecated and will be removed after version 24.9")]
 public sealed class XpsEditOptions : FixedLayoutEditOptionsBase
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [XpsEditOptions](xpseditoptions#constructor)() | Creates and returns a new instance of the XpsEditOptions class, where all options are set to their default values |
-| [XpsEditOptions](xpseditoptions#constructor_1)(bool) | Creates and returns a new instance of the XpsEditOptions class with specified pagination and default all other options |
 
 ## Properties
 

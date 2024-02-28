@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this instance is equal with specified ImageType instance
 type: docs
-weight: 180
+weight: 170
 url: /net/groupdocs.editor.htmlcss.resources.images/imagetype/equals/
 ---
 ## Equals(ImageType) {#equals}

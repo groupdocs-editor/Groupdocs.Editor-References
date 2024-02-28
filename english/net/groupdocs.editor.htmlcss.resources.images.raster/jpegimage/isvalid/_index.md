@@ -3,7 +3,7 @@ title: IsValid
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether specified stream is a valid JPEG image
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.editor.htmlcss.resources.images.raster/jpegimage/isvalid/
 ---
 ## IsValid(Stream) {#isvalid}

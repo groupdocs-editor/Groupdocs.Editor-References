@@ -3,7 +3,7 @@ title: IsValid
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether specified stream is a valid ICON image
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.editor.htmlcss.resources.images.raster/iconimage/isvalid/
 ---
 ## IsValid(Stream) {#isvalid}

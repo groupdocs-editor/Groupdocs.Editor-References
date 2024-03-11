@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Editor for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "24.2.0"
+version: "24.4.0"
 ---
 ## Namespaces
 

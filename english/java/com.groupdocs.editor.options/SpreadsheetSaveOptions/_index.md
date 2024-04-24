@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving Spreadsheet Excel-compliant documents
 type: docs
-weight: 34
+weight: 35
 url: /java/com.groupdocs.editor.options/spreadsheetsaveoptions/
 ---
 **Inheritance:**
@@ -20,6 +20,7 @@ Allows to specify custom options for generating and saving Spreadsheet (Excel-co
 
 | Constructor | Description |
 | --- | --- |
+| [SpreadsheetSaveOptions()](#SpreadsheetSaveOptions--) | This parameterless constructor creates a new instance of SpreadsheetSaveOptions with XLSX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(SpreadsheetFormats).setOutputFormat(SpreadsheetFormats)) property) |
 | [SpreadsheetSaveOptions(SpreadsheetFormats outputFormat)](#SpreadsheetSaveOptions-com.groupdocs.editor.formats.SpreadsheetFormats-) | Creates a new instance of SpreadsheetSaveOptions with specified mandatory Spreadsheet output format, while all other parameters are default |
 ## Methods
 
@@ -35,6 +36,14 @@ Allows to specify custom options for generating and saving Spreadsheet (Excel-co
 | [setOutputFormat(SpreadsheetFormats value)](#setOutputFormat-com.groupdocs.editor.formats.SpreadsheetFormats-) | Allows to specify a Spreadsheet format, which will be used for saving the document |
 | [getWorksheetProtection()](#getWorksheetProtection--) | Allows to enable a worksheet protection for the output Spreadsheet document. |
 | [setWorksheetProtection(WorksheetProtection value)](#setWorksheetProtection-com.groupdocs.editor.options.WorksheetProtection-) | Allows to enable a worksheet protection for the output Spreadsheet document. |
+### SpreadsheetSaveOptions() {#SpreadsheetSaveOptions--}
+```
+public SpreadsheetSaveOptions()
+```
+
+
+This parameterless constructor creates a new instance of SpreadsheetSaveOptions with XLSX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(SpreadsheetFormats).setOutputFormat(SpreadsheetFormats)) property)
+
 ### SpreadsheetSaveOptions(SpreadsheetFormats outputFormat) {#SpreadsheetSaveOptions-com.groupdocs.editor.formats.SpreadsheetFormats-}
 ```
 public SpreadsheetSaveOptions(SpreadsheetFormats outputFormat)

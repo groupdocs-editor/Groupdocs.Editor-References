@@ -30,6 +30,7 @@ Editor class should be considered as an entry point and the root object of the G
 
 | Constructor | Description |
 | --- | --- |
+| [Editor(Action<InputStream> newDocumentAction, IDocumentFormat format)](#Editor-com.groupdocs.editor.interfaces.Action-java.io.InputStream--com.groupdocs.editor.formats.IDocumentFormat-) | Initializes a new instance of the [Editor](../../com.groupdocs.editor/editor) class and creates a new empty document based on the specified format. |
 | [Editor(InputStream document)](#Editor-java.io.InputStream-) | Initializes new Editor instance with specified input document (as a stream) |
 | [Editor(InputStream document, ILoadOptions loadOptions)](#Editor-java.io.InputStream-com.groupdocs.editor.options.ILoadOptions-) | Initializes new Editor instance with specified input document (as a stream) with its load options |
 | [Editor(String filePath)](#Editor-java.lang.String-) | Initializes new Editor instance with specified input document (as a full file path) |
@@ -45,6 +46,27 @@ Editor class should be considered as an entry point and the root object of the G
 | [getDocumentInfo(String password)](#getDocumentInfo-java.lang.String-) | Returns metadata about the document, that was loaded to this 'Editor' instance |
 | [dispose()](#dispose--) | Disposes this instance of Editor, so that it releases all internal resources and becomes unavailable for further usage |
 | [isDisposed()](#isDisposed--) | Indicates whether this Editor instance was already disposed and cannot be used anymore (true) or not and is active (false) |
+### Editor(Action<InputStream> newDocumentAction, IDocumentFormat format) {#Editor-com.groupdocs.editor.interfaces.Action-java.io.InputStream--com.groupdocs.editor.formats.IDocumentFormat-}
+```
+public Editor(Action<InputStream> newDocumentAction, IDocumentFormat format)
+```
+
+
+Initializes a new instance of the [Editor](../../com.groupdocs.editor/editor) class and creates a new empty document based on the specified format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newDocumentAction | com.groupdocs.editor.interfaces.Action<java.io.InputStream> | delegate that allows saving or performing some action with a stream of the new document. |
+| format | [IDocumentFormat](../../com.groupdocs.editor.formats/idocumentformat) | represents the file format of the document that will be created. **Learn more**
+
+ *  More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor][]
+ *  More about GroupDocs.Editor for Java features: [Developer Guide][]
+
+
+[Document formats supported by GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/ |
+
 ### Editor(InputStream document) {#Editor-java.io.InputStream-}
 ```
 public Editor(InputStream document)

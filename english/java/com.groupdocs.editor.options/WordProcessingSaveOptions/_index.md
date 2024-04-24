@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving WordProcessing-compliant documents after they were edited
 type: docs
-weight: 45
+weight: 46
 url: /java/com.groupdocs.editor.options/wordprocessingsaveoptions/
 ---
 **Inheritance:**
@@ -24,6 +24,7 @@ WordProcessingSaveOptions is applied in situations when there is an instance of 
 
 | Constructor | Description |
 | --- | --- |
+| [WordProcessingSaveOptions()](#WordProcessingSaveOptions--) | This parameterless constructor creates a new instance of WordProcessingSaveOptions with DOCX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(WordProcessingFormats).setOutputFormat(WordProcessingFormats)) property) |
 | [WordProcessingSaveOptions(WordProcessingFormats outputFormat)](#WordProcessingSaveOptions-com.groupdocs.editor.formats.WordProcessingFormats-) | Creates a new instance of WordProcessingSaveOptions with specified mandatory WordProcessing output format, while all other parameters are default |
 ## Methods
 
@@ -48,6 +49,14 @@ WordProcessingSaveOptions is applied in situations when there is an instance of 
 | [getFontEmbedding()](#getFontEmbedding--) | Responsible for embedding font resources into output WordProcessing document. |
 | [setFontEmbedding(byte value)](#setFontEmbedding-byte-) | Responsible for embedding font resources into output WordProcessing document. |
 | [deepClone()](#deepClone--) | Creates and returns a full copy of this instance of WordProcessingSaveOptions class |
+### WordProcessingSaveOptions() {#WordProcessingSaveOptions--}
+```
+public WordProcessingSaveOptions()
+```
+
+
+This parameterless constructor creates a new instance of WordProcessingSaveOptions with DOCX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(WordProcessingFormats).setOutputFormat(WordProcessingFormats)) property)
+
 ### WordProcessingSaveOptions(WordProcessingFormats outputFormat) {#WordProcessingSaveOptions-com.groupdocs.editor.formats.WordProcessingFormats-}
 ```
 public WordProcessingSaveOptions(WordProcessingFormats outputFormat)

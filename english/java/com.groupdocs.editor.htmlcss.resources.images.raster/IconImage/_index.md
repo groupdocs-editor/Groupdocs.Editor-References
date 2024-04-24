@@ -26,7 +26,6 @@ Represents one image in ICON format with its metadata and additional methods
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid ICON image |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid ICON image |
 | [getType()](#getType--) | Returns ImageType.Icon |
-| [reduceToNewHeight_IconImage_New(int targetHeightInPixels)](#reduceToNewHeight-IconImage-New-int-) | Creates and returns a new reduced Icon image, but with specified new reduced height and proportionally reduced width. |
 | [getNumberOfImages()](#getNumberOfImages--) | Returns number of images, which are present in this ICON file |
 ### IconImage(String name, String contentInBase64) {#IconImage-java.lang.String-java.lang.String-}
 ```
@@ -96,21 +95,6 @@ Returns ImageType.Icon
 
 **Returns:**
 [ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype)
-### reduceToNewHeight_IconImage_New(int targetHeightInPixels) {#reduceToNewHeight-IconImage-New-int-}
-```
-public final IconImage reduceToNewHeight_IconImage_New(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced Icon image, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired Icon image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[IconImage](../../com.groupdocs.editor.htmlcss.resources.images.raster/iconimage) - New IconImage instance with specified height
 ### getNumberOfImages() {#getNumberOfImages--}
 ```
 public final int getNumberOfImages()

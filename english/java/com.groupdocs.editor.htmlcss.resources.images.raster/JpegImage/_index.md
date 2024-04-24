@@ -26,7 +26,6 @@ Represents one image in JPEG (Joint Photographic Experts Group) format with its 
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid JPEG image |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid JPEG image |
 | [getType()](#getType--) | Returns ImageType.Jpeg |
-| [reduceToNewHeight(int targetHeightInPixels)](#reduceToNewHeight-int-) | Creates and returns a new reduced JPEG image, but with specified new reduced height and proportionally reduced width. |
 ### JpegImage(String name, String contentInBase64) {#JpegImage-java.lang.String-java.lang.String-}
 ```
 public JpegImage(String name, String contentInBase64)
@@ -95,18 +94,3 @@ Returns ImageType.Jpeg
 
 **Returns:**
 [ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype) - 
-### reduceToNewHeight(int targetHeightInPixels) {#reduceToNewHeight-int-}
-```
-public final JpegImage reduceToNewHeight(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced JPEG image, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired JPEG image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[JpegImage](../../com.groupdocs.editor.htmlcss.resources.images.raster/jpegimage) - New JpegImage instance with specified height

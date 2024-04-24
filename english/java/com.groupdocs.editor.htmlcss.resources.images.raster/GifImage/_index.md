@@ -26,7 +26,6 @@ Represents one image in GIF (Graphics Interchange Format) format with its metada
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid GIF image |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid GIF image |
 | [getType()](#getType--) | Returns ImageType.Gif |
-| [reduceToNewHeight(int targetHeightInPixels)](#reduceToNewHeight-int-) | Creates and returns a new reduced GIF image, but with specified new reduced height and proportionally reduced width. |
 | [getVersion()](#getVersion--) | Returns internal version of this GIF image (version is extracted from header) |
 ### GifImage(String name, String contentInBase64) {#GifImage-java.lang.String-java.lang.String-}
 ```
@@ -96,21 +95,6 @@ Returns ImageType.Gif
 
 **Returns:**
 [ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype)
-### reduceToNewHeight(int targetHeightInPixels) {#reduceToNewHeight-int-}
-```
-public final GifImage reduceToNewHeight(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced GIF image, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired GIF image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[GifImage](../../com.groupdocs.editor.htmlcss.resources.images.raster/gifimage) - New GifImage instance with specified height
 ### getVersion() {#getVersion--}
 ```
 public final String getVersion()

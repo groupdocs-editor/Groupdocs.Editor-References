@@ -3,7 +3,7 @@ title: WebFont
 second_title: GroupDocs.Editor for Java API Reference
 description: Represents a font settings for the web
 type: docs
-weight: 40
+weight: 41
 url: /java/com.groupdocs.editor.options/webfont/
 ---
 **Inheritance:**

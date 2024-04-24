@@ -38,7 +38,6 @@ Represents the linear dimensions (width and height) of one raster rectangular im
 | [toString()](#toString--) | Returns a string representation of this "Dimensions" |
 | [deepClone()](#deepClone--) | Returns a full copy of this instance |
 | [getEmpty()](#getEmpty--) | Returns an empty Dimensions instance |
-| [fromSize(Dimension size)](#fromSize-java.awt.Dimension-) | Generates and returns a new instance from specified System.Drawing.Size instance |
 ### Dimensions(int width, int height) {#Dimensions-int-int-}
 ```
 public Dimensions(int width, int height)
@@ -251,18 +250,3 @@ Returns an empty Dimensions instance
 
 **Returns:**
 [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions)
-### fromSize(Dimension size) {#fromSize-java.awt.Dimension-}
-```
-public static Dimensions fromSize(Dimension size)
-```
-
-
-Generates and returns a new instance from specified System.Drawing.Size instance
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| size | java.awt.Dimension | Any instance of System.Drawing.Size |
-
-**Returns:**
-[Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) - New instance, that has the same width and height, as the specified

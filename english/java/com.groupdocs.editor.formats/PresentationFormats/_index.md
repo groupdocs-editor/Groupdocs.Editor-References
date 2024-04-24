@@ -55,6 +55,7 @@ Encapsulates all Presentation formats. Includes the following formats: [Odp](../
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed PresentationFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
+| [toString()](#toString--) | Returns the name of this particular format, same as 'Name' property |
 ### PresentationFormats() {#PresentationFormats--}
 ```
 public PresentationFormats()
@@ -330,3 +331,13 @@ Returns instance of [PresentationFormats](../../com.groupdocs.editor.formats/pre
 
 **Returns:**
 [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) - Instance of [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) structure on success or thrown exception on failure
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns the name of this particular format, same as 'Name' property
+
+**Returns:**
+java.lang.String - A String that represents this instance

@@ -33,6 +33,7 @@ Supported E-book formats:
 
 | Constructor | Description |
 | --- | --- |
+| [EbookSaveOptions()](#EbookSaveOptions--) | This parameterless constructor creates a new instance of EbookSaveOptions with ePub output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(EBookFormats).setOutputFormat(EBookFormats)) property) |
 | [EbookSaveOptions(EBookFormats outputFormat)](#EbookSaveOptions-com.groupdocs.editor.formats.EBookFormats-) | Creates a new instance of [EbookSaveOptions](../../com.groupdocs.editor.options/ebooksaveoptions) with specified mandatory e-Book output format, while all other parameters are default |
 ## Methods
 
@@ -44,6 +45,14 @@ Supported E-book formats:
 | [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | Specifies whether to export built-in and custom document properties in resultant file. |
 | [getOutputFormat()](#getOutputFormat--) | Specifies the format of the resultant e-Book file: IDPF ePub, MOBI, or AZW3. |
 | [setOutputFormat(EBookFormats value)](#setOutputFormat-com.groupdocs.editor.formats.EBookFormats-) | Specifies the format of the resultant e-Book file: IDPF ePub, MOBI, or AZW3. |
+### EbookSaveOptions() {#EbookSaveOptions--}
+```
+public EbookSaveOptions()
+```
+
+
+This parameterless constructor creates a new instance of EbookSaveOptions with ePub output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(EBookFormats).setOutputFormat(EBookFormats)) property)
+
 ### EbookSaveOptions(EBookFormats outputFormat) {#EbookSaveOptions-com.groupdocs.editor.formats.EBookFormats-}
 ```
 public EbookSaveOptions(EBookFormats outputFormat)

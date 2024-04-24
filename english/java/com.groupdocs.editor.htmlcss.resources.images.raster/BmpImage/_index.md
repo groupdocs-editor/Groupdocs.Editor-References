@@ -26,7 +26,6 @@ Represents one image in BMP (BitMap Picture) format with its metadata and additi
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid BMP image |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid BMP image |
 | [getType()](#getType--) | Returns ImageType.Bmp |
-| [reduceToNewHeight(int targetHeightInPixels)](#reduceToNewHeight-int-) | Creates and returns a new reduced BMP image, but with specified new reduced height and proportionally reduced width. |
 ### BmpImage(String name, String contentInBase64) {#BmpImage-java.lang.String-java.lang.String-}
 ```
 public BmpImage(String name, String contentInBase64)
@@ -95,18 +94,3 @@ Returns ImageType.Bmp
 
 **Returns:**
 [ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype)
-### reduceToNewHeight(int targetHeightInPixels) {#reduceToNewHeight-int-}
-```
-public final BmpImage reduceToNewHeight(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced BMP image, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired BMP image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[BmpImage](../../com.groupdocs.editor.htmlcss.resources.images.raster/bmpimage) - New BmpImage instance with specified height

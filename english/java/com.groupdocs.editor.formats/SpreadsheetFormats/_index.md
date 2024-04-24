@@ -58,6 +58,7 @@ Encapsulates all binary, XML and textual Spreadsheet formats (excluding all text
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed SpreadsheetFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
+| [toString()](#toString--) | Returns the name of this particular format, same as 'Name' property |
 ### SpreadsheetFormats() {#SpreadsheetFormats--}
 ```
 public SpreadsheetFormats()
@@ -387,3 +388,13 @@ Returns instance of [SpreadsheetFormats](../../com.groupdocs.editor.formats/spre
 
 **Returns:**
 [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) - Instance of [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) structure on success or thrown exception on failure
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Returns the name of this particular format, same as 'Name' property
+
+**Returns:**
+java.lang.String - A String that represents this instance

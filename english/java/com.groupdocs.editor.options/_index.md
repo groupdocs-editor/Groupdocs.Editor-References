@@ -23,6 +23,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | [FixedLayoutEditOptionsBase](../com.groupdocs.editor.options/fixedlayouteditoptionsbase) | Base abstract class for the options for all documents of fixed-layout formats like PDF and XPS |
 | [FontEmbeddingOptions](../com.groupdocs.editor.options/fontembeddingoptions) | Font embedding options control which font resources should be embedded into the output WordProcessing document |
 | [FontExtractionOptions](../com.groupdocs.editor.options/fontextractionoptions) | Font extraction options control which fonts should be extracted and from where |
+| [HtmlSaveOptions](../com.groupdocs.editor.options/htmlsaveoptions) | Allows to specify custom options for saving the [EditableDocument](../com.groupdocs.editor/editabledocument) instance to the HTML format |
 | [MailMessageOutput](../com.groupdocs.editor.options/mailmessageoutput) | Controls which parts of the mail message should be delivered to the output processing |
 | [MarkdownEditOptions](../com.groupdocs.editor.options/markdowneditoptions) | Allows to specify custom options for editing documents in Markdown format. |
 | [MarkdownImageLoadArgs](../com.groupdocs.editor.options/markdownimageloadargs) | Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  event. |
@@ -62,6 +63,7 @@ The **com.groupdocs.editor.options** namespace provides interfaces for load and 
 | Interface | Description |
 | --- | --- |
 | [IEditOptions](../com.groupdocs.editor.options/ieditoptions) | Common interface for all options, which are responsible for document-to-HTML conversions. |
+| [IHtmlSavingCallback](../com.groupdocs.editor.options/ihtmlsavingcallback) | Interface, that is used while saving the to the HTML format and which must be implemented by the end-user in order to save the provided resource and returns a link to it |
 | [ILoadOptions](../com.groupdocs.editor.options/iloadoptions) | Common interface for all option classes, responsible for loading documents of different type formats |
 | [IMarkdownImageLoadCallback](../com.groupdocs.editor.options/imarkdownimageloadcallback) | Implement this interface if you want to control how GroupDocs.Editor load images when converting Markdown to Html. |
 | [ISaveOptions](../com.groupdocs.editor.options/isaveoptions) | Interface for all saving options for all documents types |

@@ -38,8 +38,6 @@ Base class for any supported raster image with fixed name, dimensions, aspect ra
 | [getByteContent()](#getByteContent--) | Returns content of this raster image as byte stream |
 | [getTextContent()](#getTextContent--) | Returns content of this raster image as base64-encoded string |
 | [save(String fullPathToFile)](#save-java.lang.String-) | Saves this raster image to the specified file |
-| [generateBitmap()](#generateBitmap--) | Generates and returns a new instance of the 'System.Drawing.Bitmap' from this raster image. |
-| [reduceToNewHeight(int targetHeightInPixels)](#reduceToNewHeight-int-) | Creates and returns a new reduced image resource of the same type, but with specified new reduced height and proportionally reduced width. |
 | [equals(IHtmlResource other)](#equals-com.groupdocs.editor.htmlcss.resources.IHtmlResource-) | Checks this instance with specified on reference equality. |
 | [dispose()](#dispose--) | Disposes this raster image, disposing its content and making most methods and properties non-working |
 | [isDisposed()](#isDisposed--) | Determines whether this raster image is disposed or not |
@@ -139,35 +137,6 @@ Saves this raster image to the specified file
 | --- | --- | --- |
 | fullPathToFile | java.lang.String | Full path to the file, which will be created or rewritten |
 
-### generateBitmap() {#generateBitmap--}
-```
-public final BufferedImage generateBitmap()
-```
-
-
-Generates and returns a new instance of the 'System.Drawing.Bitmap' from this raster image.
-
-**Returns:**
-java.awt.image.BufferedImage - New instance of 'System.Drawing.Bitmap'
-
---------------------
-
-'System.Drawing.Bitmap' is not cached and thus will be generated every time this method will be called
-### reduceToNewHeight(int targetHeightInPixels) {#reduceToNewHeight-int-}
-```
-public RasterImageResourceBase reduceToNewHeight(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced image resource of the same type, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[RasterImageResourceBase](../../com.groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase) - New instance with specified height, that is inheritor of RasterImageResourceBase
 ### equals(IHtmlResource other) {#equals-com.groupdocs.editor.htmlcss.resources.IHtmlResource-}
 ```
 public final boolean equals(IHtmlResource other)

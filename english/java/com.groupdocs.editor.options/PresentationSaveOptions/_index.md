@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for generating and saving Presentation PowerPoint-compatible documents
 type: docs
-weight: 31
+weight: 32
 url: /java/com.groupdocs.editor.options/presentationsaveoptions/
 ---
 **Inheritance:**
@@ -20,6 +20,7 @@ Allows to specify custom options for generating and saving Presentation (PowerPo
 
 | Constructor | Description |
 | --- | --- |
+| [PresentationSaveOptions()](#PresentationSaveOptions--) | This parameterless constructor creates a new instance of PresentationSaveOptions with PPTX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(PresentationFormats).setOutputFormat(PresentationFormats)) property) |
 | [PresentationSaveOptions(PresentationFormats outputFormat)](#PresentationSaveOptions-com.groupdocs.editor.formats.PresentationFormats-) | Creates a new instance of PresentationSaveOptions with specified mandatory Presentation output format, while all other parameters are default |
 ## Methods
 
@@ -33,6 +34,14 @@ Allows to specify custom options for generating and saving Presentation (PowerPo
 | [setInsertAsNewSlide(boolean value)](#setInsertAsNewSlide-boolean-) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber (\#getSlideNumber.getSlideNumber/\#setSlideNumber(int).setSlideNumber(int)) property, or it should be injected between existing slide and previous one, without replacing its content. |
 | [getOutputFormat()](#getOutputFormat--) | Allows to specify a Presentation format, which will be used for saving the document |
 | [setOutputFormat(PresentationFormats value)](#setOutputFormat-com.groupdocs.editor.formats.PresentationFormats-) | Allows to specify a Presentation format, which will be used for saving the document |
+### PresentationSaveOptions() {#PresentationSaveOptions--}
+```
+public PresentationSaveOptions()
+```
+
+
+This parameterless constructor creates a new instance of PresentationSaveOptions with PPTX output format (can be modified then through  OutputFormat (\#getOutputFormat.getOutputFormat/\#setOutputFormat(PresentationFormats).setOutputFormat(PresentationFormats)) property)
+
 ### PresentationSaveOptions(PresentationFormats outputFormat) {#PresentationSaveOptions-com.groupdocs.editor.formats.PresentationFormats-}
 ```
 public PresentationSaveOptions(PresentationFormats outputFormat)

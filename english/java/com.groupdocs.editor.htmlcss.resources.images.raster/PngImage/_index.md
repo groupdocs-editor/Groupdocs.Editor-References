@@ -26,7 +26,6 @@ Represents one image in PNG (Portable Network Graphics) format with its metadata
 | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Checks whether specified stream is a valid PNG image |
 | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Checks whether specified base64-encoded string is a valid PNG image |
 | [getType()](#getType--) | Returns ImageType.Png |
-| [reduceToNewHeight(int targetHeightInPixels)](#reduceToNewHeight-int-) | Creates and returns a new reduced PNG image, but with specified new reduced height and proportionally reduced width. |
 ### PngImage(String name, String contentInBase64) {#PngImage-java.lang.String-java.lang.String-}
 ```
 public PngImage(String name, String contentInBase64)
@@ -95,18 +94,3 @@ Returns ImageType.Png
 
 **Returns:**
 [ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype) - 
-### reduceToNewHeight(int targetHeightInPixels) {#reduceToNewHeight-int-}
-```
-public final PngImage reduceToNewHeight(int targetHeightInPixels)
-```
-
-
-Creates and returns a new reduced PNG image, but with specified new reduced height and proportionally reduced width.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetHeightInPixels | int | Height of the desired PNG image in pixels. Should be strictly lesser than original height. |
-
-**Returns:**
-[PngImage](../../com.groupdocs.editor.htmlcss.resources.images.raster/pngimage) - New PngImage instance with specified height

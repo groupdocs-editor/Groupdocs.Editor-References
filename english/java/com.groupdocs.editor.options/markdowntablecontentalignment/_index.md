@@ -3,7 +3,7 @@ title: MarkdownTableContentAlignment
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.groupdocs.editor.options/markdowntablecontentalignment/
 ---
 **Inheritance:**

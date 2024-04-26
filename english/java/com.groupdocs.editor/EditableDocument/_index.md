@@ -36,14 +36,15 @@ Instance of EditableDocument class can be produced by the Editor.edit() method o
 | [getAllResources()](#getAllResources--) | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts |
 | [getContent(OutputStream storage, Charset encoding)](#getContent-java.io.OutputStream-java.nio.charset.Charset-) | Returns overall content of the HTML document as a byte stream by writing this content into specified stream with specified text encoding |
 | [getBodyContent()](#getBodyContent--) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string. |
-| [getBodyContent(String externalImagesPrefix)](#getBodyContent-java.lang.String-) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
+| [getBodyContent(String externalImagesTemplate)](#getBodyContent-java.lang.String-) | Returns a body of the HTML document (content between opening and closing BODY tags without these tags) as a string, where links to the external resources contain specified prefix. |
 | [getContent()](#getContent--) | Returns overall content of the HTML document as a string. |
-| [getContentString(String externalImagesPrefix, String externalCssPrefix)](#getContentString-java.lang.String-java.lang.String-) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
+| [getContentString(String externalImagesTemplate, String externalCssTemplate)](#getContentString-java.lang.String-java.lang.String-) | Returns overall content of the HTML document as a string, where links to the external resources contain specified prefix. |
 | [getCssContent()](#getCssContent--) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
 | [getCssContent(String externalImagesPrefix, String externalFontsPrefix)](#getCssContent-java.lang.String-java.lang.String-) | Returns content of all external stylesheets as a list of strings, where one string represents one stylesheet. |
 | [getEmbeddedHtml()](#getEmbeddedHtml--) | Returns all content of this HTML document with all related resources in a form of a single string, where all resources are embedded inside the HTML markup in a base64-encoded form. |
 | [save(String htmlFilePath)](#save-java.lang.String-) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources. |
 | [save(String htmlFilePath, String resourcesFolderPath)](#save-java.lang.String-java.lang.String-) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources, which is located on specified path. |
+| [save(Writer htmlMarkup, HtmlSaveOptions saveOptions)](#save-java.io.Writer-com.groupdocs.editor.options.HtmlSaveOptions-) |  |
 | [fromMarkup(String newHtmlContent, List<IHtmlResource> resources)](#fromMarkup-java.lang.String-java.util.List-com.groupdocs.editor.htmlcss.resources.IHtmlResource--) | Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources |
 | [fromMarkupAndResourceFolder(String newHtmlContent, String resourceFolderPath)](#fromMarkupAndResourceFolder-java.lang.String-java.lang.String-) | Static factory, that creates an instance of EditableDocument from a specified HTML markup and from resources, located in the folder, specified by the full path |
 | [fromFile(String htmlFilePath, String resourceFolderPath)](#fromFile-java.lang.String-java.lang.String-) | Static factory, that creates an instance of EditableDocument from a HTML file, that is specified by a path to the \*.html file itself and a folder with linked resources |
@@ -141,9 +142,9 @@ java.lang.String - String, which contains the body of the HTML document
 --------------------
 
 WYSIWYG editors operate with the body of the document and cannot correctly process its meta information from the HEAD block. This method is designed for such cases. This overload doesn't allow to adjust URIs for external resource requests.
-### getBodyContent(String externalImagesPrefix) {#getBodyContent-java.lang.String-}
+### getBodyContent(String externalImagesTemplate) {#getBodyContent-java.lang.String-}
 ```
-public final String getBodyContent(String externalImagesPrefix)
+public final String getBodyContent(String externalImagesTemplate)
 ```
 
 
@@ -152,7 +153,7 @@ Returns a body of the HTML document (content between opening and closing BODY ta
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalImagesPrefix | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added.
+| externalImagesTemplate | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added.
 
 --------------------
 
@@ -170,9 +171,9 @@ Returns overall content of the HTML document as a string.
 
 **Returns:**
 java.lang.String - String, which contains the content of the HTML document
-### getContentString(String externalImagesPrefix, String externalCssPrefix) {#getContentString-java.lang.String-java.lang.String-}
+### getContentString(String externalImagesTemplate, String externalCssTemplate) {#getContentString-java.lang.String-java.lang.String-}
 ```
-public String getContentString(String externalImagesPrefix, String externalCssPrefix)
+public String getContentString(String externalImagesTemplate, String externalCssTemplate)
 ```
 
 
@@ -181,8 +182,8 @@ Returns overall content of the HTML document as a string, where links to the ext
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| externalImagesPrefix | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
-| externalCssPrefix | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external stylesheets in LINK elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
+| externalImagesTemplate | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external images in IMG elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
+| externalCssTemplate | java.lang.String | Through this parameter used can specify a prefix, which will be added to the links to all external stylesheets in LINK elements, which will be present in the resultant HTML string. If NULL or empty, prefixes will not be added. |
 
 **Returns:**
 java.lang.String - String, which contains the content of the HTML document with links, adjusted to the external resources
@@ -248,6 +249,20 @@ Saves this HTML document to the file on specified path, where HTML markup will b
 | --- | --- | --- |
 | htmlFilePath | java.lang.String | Full path to the file, where HTML markup will be stored. Cannot be NULL or empty. File will be created or overwritten, if exists. |
 | resourcesFolderPath | java.lang.String | Full path to the accompanying folder, where all related resources will be stored. If NULL or empty, folder will be created automatically in the same directory, where \*.html file. If specified and not exists, will be created. |
+
+### save(Writer htmlMarkup, HtmlSaveOptions saveOptions) {#save-java.io.Writer-com.groupdocs.editor.options.HtmlSaveOptions-}
+```
+public void save(Writer htmlMarkup, HtmlSaveOptions saveOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlMarkup | java.io.Writer |  |
+| saveOptions | [HtmlSaveOptions](../../com.groupdocs.editor.options/htmlsaveoptions) |  |
 
 ### fromMarkup(String newHtmlContent, List<IHtmlResource> resources) {#fromMarkup-java.lang.String-java.util.List-com.groupdocs.editor.htmlcss.resources.IHtmlResource--}
 ```

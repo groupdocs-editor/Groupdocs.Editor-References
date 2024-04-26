@@ -15,3 +15,4 @@ The **com.groupdocs.editor.htmlcss.serialization** namespace provides types, tha
 | Class | Description |
 | --- | --- |
 | [QuoteType](../com.groupdocs.editor.htmlcss.serialization/quotetype) | Represents quote characters - single quote (') and double quote (") |
+| [TagRenderingCase](../com.groupdocs.editor.htmlcss.serialization/tagrenderingcase) | Represents different types of serialization the HTML tag names |

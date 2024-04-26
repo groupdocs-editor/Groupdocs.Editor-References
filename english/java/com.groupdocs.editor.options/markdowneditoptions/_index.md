@@ -3,7 +3,7 @@ title: MarkdownEditOptions
 second_title: GroupDocs.Editor for Java API Reference
 description: Allows to specify custom options for editing documents in Markdown format.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.editor.options/markdowneditoptions/
 ---
 **Inheritance:**

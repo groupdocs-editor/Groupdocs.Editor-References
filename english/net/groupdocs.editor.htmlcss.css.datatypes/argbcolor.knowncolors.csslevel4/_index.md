@@ -3,7 +3,7 @@ title: ArgbColor.KnownColors.CssLevel4
 second_title: GroupDocs.Editor for .NET API Reference
 description: Named colors specified in the CSS Colors level 4. All are fully opaque.
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor.knowncolors.csslevel4/
 ---
 ## ArgbColor.KnownColors.CssLevel4 class

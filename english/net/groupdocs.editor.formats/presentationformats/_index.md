@@ -3,7 +3,7 @@ title: PresentationFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all Presentation formats. Includes the following formats Odp./presentationformats/odp Otp./presentationformats/otp Pot./presentationformats/pot Potm./presentationformats/potm Potx./presentationformats/potx Pps./presentationformats/pps Ppsm./presentationformats/ppsm Ppsx./presentationformats/ppsx Ppt./presentationformats/ppt Ppt95./presentationformats/ppt95 Pptm./presentationformats/pptm Pptx./presentationformats/pptx. Learn more about Presentation formats herehttps//wiki.fileformat.com/presentation.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.editor.formats/presentationformats/
 ---
 ## PresentationFormats structure

@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for saving the EditableDocument../groupdocs.editor/editabledocument instance to the HTML format
 type: docs
-weight: 920
+weight: 930
 url: /net/groupdocs.editor.options/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

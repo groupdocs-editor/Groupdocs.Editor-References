@@ -3,7 +3,7 @@ title: FixedLayoutFormats
 second_title: GroupDocs.Editor for .NET API Reference
 description: Encapsulates all fixedlayout also know as fixedpage formats which includes PDF and XPS this does not include raster images
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.editor.formats/fixedlayoutformats/
 ---
 ## FixedLayoutFormats structure

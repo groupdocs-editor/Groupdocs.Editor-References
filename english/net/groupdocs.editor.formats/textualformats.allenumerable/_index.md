@@ -3,7 +3,7 @@ title: TextualFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the TextualFormats type
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.editor.formats/textualformats.allenumerable/
 ---
 ## TextualFormats.AllEnumerable class

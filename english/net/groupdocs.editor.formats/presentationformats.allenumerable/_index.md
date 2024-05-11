@@ -3,7 +3,7 @@ title: PresentationFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the PresentationFormats type
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.editor.formats/presentationformats.allenumerable/
 ---
 ## PresentationFormats.AllEnumerable class

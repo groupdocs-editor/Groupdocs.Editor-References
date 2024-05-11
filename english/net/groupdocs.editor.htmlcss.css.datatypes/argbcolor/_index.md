@@ -3,7 +3,7 @@ title: ArgbColor
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one color value in ARGB format with converters and serializers
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/
 ---
 ## ArgbColor structure

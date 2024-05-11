@@ -3,7 +3,7 @@ title: FontStyle
 second_title: GroupDocs.Editor for .NET API Reference
 description: Defines how the font should be styled with a normal italic or oblique face from its fontfamily.
 type: docs
-weight: 300
+weight: 310
 url: /net/groupdocs.editor.htmlcss.css.properties/fontstyle/
 ---
 ## FontStyle structure

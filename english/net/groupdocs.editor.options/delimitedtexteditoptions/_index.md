@@ -3,7 +3,7 @@ title: DelimitedTextEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Options for loading textbased Spreadsheet documents CSV Tabbased etc. that use a separator delimiter
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.editor.options/delimitedtexteditoptions/
 ---
 ## DelimitedTextEditOptions class

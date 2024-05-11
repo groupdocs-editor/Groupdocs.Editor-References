@@ -3,7 +3,7 @@ title: ArgbColor.KnownColors.CssLevel3
 second_title: GroupDocs.Editor for .NET API Reference
 description: Named colors specified in the CSS Colors level 3. All are fully opaque.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor.knowncolors.csslevel3/
 ---
 ## ArgbColor.KnownColors.CssLevel3 class

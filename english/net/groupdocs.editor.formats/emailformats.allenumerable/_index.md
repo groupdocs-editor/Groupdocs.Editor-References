@@ -3,7 +3,7 @@ title: EmailFormats.AllEnumerable
 second_title: GroupDocs.Editor for .NET API Reference
 description: Implements IEnumerable generic interface that enables a foreach possibility for the Email type
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.editor.formats/emailformats.allenumerable/
 ---
 ## EmailFormats.AllEnumerable class

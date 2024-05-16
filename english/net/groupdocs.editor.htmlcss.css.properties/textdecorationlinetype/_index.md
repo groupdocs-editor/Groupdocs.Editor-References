@@ -3,7 +3,7 @@ title: TextDecorationLineType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents types of the text decoration line underline underscore overline and linethrough strikethrough
 type: docs
-weight: 320
+weight: 330
 url: /net/groupdocs.editor.htmlcss.css.properties/textdecorationlinetype/
 ---
 ## TextDecorationLineType structure

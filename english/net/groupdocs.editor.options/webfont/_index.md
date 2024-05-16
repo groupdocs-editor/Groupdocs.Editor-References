@@ -3,7 +3,7 @@ title: WebFont
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a font settings for the web
 type: docs
-weight: 1210
+weight: 1220
 url: /net/groupdocs.editor.options/webfont/
 ---
 ## WebFont class

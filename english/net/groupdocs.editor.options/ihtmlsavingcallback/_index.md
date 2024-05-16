@@ -3,7 +3,7 @@ title: IHtmlSavingCallback
 second_title: GroupDocs.Editor for .NET API Reference
 description: Interface that is used while saving the  to the HTML format and which must be implemented by the enduser in order to save the provided resource and returns a link to it
 type: docs
-weight: 940
+weight: 950
 url: /net/groupdocs.editor.options/ihtmlsavingcallback/
 ---
 ## IHtmlSavingCallback interface

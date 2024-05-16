@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Presentation PowerPointcompatible documents
 type: docs
-weight: 1120
+weight: 1130
 url: /net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class

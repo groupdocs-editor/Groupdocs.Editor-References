@@ -3,7 +3,7 @@ title: Ratio
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a ratio CSS data type which is used for describing aspect ratios in media queries and for raster images by denoting the proportion between two unitless values called numerator and denominator. Immutable struct.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 ## Ratio structure

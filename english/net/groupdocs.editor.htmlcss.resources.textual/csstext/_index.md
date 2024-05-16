@@ -3,7 +3,7 @@ title: CssText
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one CSS textual resource
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.editor.htmlcss.resources.textual/csstext/
 ---
 ## CssText class

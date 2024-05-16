@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Markdown documents
 type: docs
-weight: 1020
+weight: 1030
 url: /net/groupdocs.editor.options/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class

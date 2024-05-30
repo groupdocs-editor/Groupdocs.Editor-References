@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/markdownimageloadingaction/
 Defines the mode of image loading while opening for editing the file in Markdown format
 
 ```csharp
-public enum MarkdownImageLoadingAction
+public enum MarkdownImageLoadingAction : byte
 ```
 
 ### Values

@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.htmlcss.css.datatypes/length.unit/
 All supported length units
 
 ```csharp
-public enum Unit
+public enum Unit : byte
 ```
 
 ### Values

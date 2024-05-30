@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/pdfcompliance/
 Specifies the PDF standards compliance level
 
 ```csharp
-public enum PdfCompliance
+public enum PdfCompliance : byte
 ```
 
 ### Values

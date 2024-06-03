@@ -1,31 +1,50 @@
 ---
-title: ArgbColor.KnownColors.CssLevel3
+title: ArgbColors
 second_title: GroupDocs.Editor for Node.js via Java API Reference
-description: Named colors specified in the CSS Colors level 3.
+description: Contains all known colors that have fixed unique name and value in CSS standart
 type: docs
-weight: 12
-url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/argbcolor.knowncolors.csslevel3/
+weight: 11
+url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/argbcolors/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public static class ArgbColor.KnownColors.CssLevel3
+public class ArgbColors
 ```
 
-Named colors, specified in the CSS Colors level 3. All are fully opaque.
+Contains all "known colors", that have fixed unique name and value in CSS standart
 
 --------------------
 
-See also: https://developer.mozilla.org/en-US/docs/Web/CSS/named-color\#css\_level\_3\_values https://drafts.csswg.org/css-color-3/\#svg-color
+See also: https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CssLevel3()](#CssLevel3--) |  |
+| [ArgbColors()](#ArgbColors--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
+| [Empty](#Empty) | Returns an empty color, which has no channels info and is fully transparent. |
+| [Transparent](#Transparent) | Fully transparent empty color. |
+| [Black](#Black) | Black color |
+| [Silver](#Silver) | Silver color |
+| [Gray](#Gray) | Gray color |
+| [White](#White) | White color |
+| [Maroon](#Maroon) | Maroon color |
+| [Red](#Red) | Red color |
+| [Purple](#Purple) | Purple color |
+| [Fuchsia](#Fuchsia) | Fuchsia color, also known as Magenta |
+| [Green](#Green) | Green color |
+| [Lime](#Lime) | Lime color, also known as Pure Green |
+| [Olive](#Olive) | Olive color |
+| [Yellow](#Yellow) | Yellow color |
+| [Navy](#Navy) | Navy color |
+| [Blue](#Blue) | Blue color |
+| [Teal](#Teal) | Teal color |
+| [Aqua](#Aqua) | Aqua color |
+| [Orange](#Orange) | Orange color |
 | [Aliceblue](#Aliceblue) | Alice Blue color |
 | [Antiquewhite](#Antiquewhite) | Antique White color |
 | [Aquamarine](#Aquamarine) | Aquamarine color |
@@ -156,11 +175,169 @@ See also: https://developer.mozilla.org/en-US/docs/Web/CSS/named-color\#css\_lev
 | [Wheat](#Wheat) | Wheat color |
 | [Whitesmoke](#Whitesmoke) | Whitesmoke color |
 | [Yellowgreen](#Yellowgreen) | Yellowgreen color |
-### CssLevel3() {#CssLevel3--}
+| [Rebeccapurple](#Rebeccapurple) | Rebecca Purple color |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [tryFind(String keyword, ArgbColor[] output)](#tryFind-java.lang.String-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor---) | Tries to find a color by its string name |
+### ArgbColors() {#ArgbColors--}
 ```
-public CssLevel3()
+public ArgbColors()
 ```
 
+
+### Empty {#Empty}
+```
+public static final ArgbColor Empty
+```
+
+
+Returns an empty color, which has no channels info and is fully transparent. Same as '\#Transparent.Transparent'. Default value.
+
+### Transparent {#Transparent}
+```
+public static final ArgbColor Transparent
+```
+
+
+Fully transparent empty color. The same as default '\#Empty.Empty' color value.
+
+### Black {#Black}
+```
+public static final ArgbColor Black
+```
+
+
+Black color
+
+### Silver {#Silver}
+```
+public static final ArgbColor Silver
+```
+
+
+Silver color
+
+### Gray {#Gray}
+```
+public static final ArgbColor Gray
+```
+
+
+Gray color
+
+### White {#White}
+```
+public static final ArgbColor White
+```
+
+
+White color
+
+### Maroon {#Maroon}
+```
+public static final ArgbColor Maroon
+```
+
+
+Maroon color
+
+### Red {#Red}
+```
+public static final ArgbColor Red
+```
+
+
+Red color
+
+### Purple {#Purple}
+```
+public static final ArgbColor Purple
+```
+
+
+Purple color
+
+### Fuchsia {#Fuchsia}
+```
+public static final ArgbColor Fuchsia
+```
+
+
+Fuchsia color, also known as Magenta
+
+### Green {#Green}
+```
+public static final ArgbColor Green
+```
+
+
+Green color
+
+### Lime {#Lime}
+```
+public static final ArgbColor Lime
+```
+
+
+Lime color, also known as Pure Green
+
+### Olive {#Olive}
+```
+public static final ArgbColor Olive
+```
+
+
+Olive color
+
+### Yellow {#Yellow}
+```
+public static final ArgbColor Yellow
+```
+
+
+Yellow color
+
+### Navy {#Navy}
+```
+public static final ArgbColor Navy
+```
+
+
+Navy color
+
+### Blue {#Blue}
+```
+public static final ArgbColor Blue
+```
+
+
+Blue color
+
+### Teal {#Teal}
+```
+public static final ArgbColor Teal
+```
+
+
+Teal color
+
+### Aqua {#Aqua}
+```
+public static final ArgbColor Aqua
+```
+
+
+Aqua color
+
+### Orange {#Orange}
+```
+public static final ArgbColor Orange
+```
+
+
+Orange color
 
 ### Aliceblue {#Aliceblue}
 ```
@@ -1202,3 +1379,31 @@ public static final ArgbColor Yellowgreen
 
 Yellowgreen color
 
+### Rebeccapurple {#Rebeccapurple}
+```
+public static final ArgbColor Rebeccapurple
+```
+
+
+Rebecca Purple color
+
+--------------------
+
+CSS Colors Level 4 added the ' **rebeccapurple** ' keyword to honor web pioneer Eric Meyer: https://codepen.io/trezy/post/honoring-a-great-man
+
+### tryFind(String keyword, ArgbColor[] output) {#tryFind-java.lang.String-com.groupdocs.editor.htmlcss.css.datatypes.ArgbColor---}
+```
+public static boolean tryFind(String keyword, ArgbColor[] output)
+```
+
+
+Tries to find a color by its string name
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| keyword | java.lang.String | A color name |
+| output | [ArgbColor\[\]](../../com.groupdocs.editor.htmlcss.css.datatypes/argbcolor) | The resultant color value on success or \#Transparent.Transparent value on failure |
+
+**Returns:**
+boolean - True if color was successfully found by its name, or false otherwise

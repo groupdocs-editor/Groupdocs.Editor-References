@@ -54,6 +54,7 @@ Encapsulates all Presentation formats. Includes the following formats: [Odp](../
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed PresentationFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable PresentationFormats formats |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
 | [toString()](#toString--) | Returns the name of this particular format, same as 'Name' property |
 ### PresentationFormats() {#PresentationFormats--}
@@ -193,7 +194,7 @@ OpenDocument Presentation template (OTP) file represents presentation template f
 
 ### All {#All}
 ```
-public static final PresentationFormats.AllEnumerable All
+public static final Iterator<PresentationFormats> All
 ```
 
 
@@ -316,6 +317,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<PresentationFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable PresentationFormats formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.PresentationFormats> - Instance of internal class, that implements IEnumerator
 ### fromExtension(String extension) {#fromExtension-java.lang.String-}
 ```
 public static PresentationFormats fromExtension(String extension)

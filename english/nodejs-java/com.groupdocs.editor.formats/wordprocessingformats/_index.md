@@ -56,6 +56,7 @@ MIME codes are grabbed from the given resources: https://filext.com/faq/office\_
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed WordProcessingFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable WordProcessing formats |
 | [to_Byte(WordProcessingFormats input)](#to-Byte-com.groupdocs.editor.formats.WordProcessingFormats-) | Returns a byte value from underlying field of specified WordProcessingFormats instance |
 | [to_WordProcessingFormats(byte raw)](#to-WordProcessingFormats-byte-) | Casts specified raw byte value to valid WordProcessingFormats instance and returns it or throws an exception, is specified value is invalid |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [WordProcessingFormats](../../com.groupdocs.editor.formats/wordprocessingformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
@@ -189,7 +190,7 @@ Microsoft Office Word 2003 XML Format \\u2014 WordProcessingML or WordML (.XML)
 
 ### All {#All}
 ```
-public static final WordProcessingFormats.AllEnumerable All
+public static final Iterator<WordProcessingFormats> All
 ```
 
 
@@ -322,6 +323,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<WordProcessingFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable WordProcessing formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.WordProcessingFormats> - Instance of internal class, that implements IEnumerator
 ### to_Byte(WordProcessingFormats input) {#to-Byte-com.groupdocs.editor.formats.WordProcessingFormats-}
 ```
 public static byte to_Byte(WordProcessingFormats input)

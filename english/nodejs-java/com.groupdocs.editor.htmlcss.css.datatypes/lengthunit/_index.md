@@ -1,15 +1,15 @@
 ---
-title: Length.Unit
+title: LengthUnit
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: All supported length units
 type: docs
-weight: 10
-url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/length.unit/
+weight: 13
+url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/lengthunit/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public static final class Length.Unit
+public final class LengthUnit
 ```
 
 All supported length units

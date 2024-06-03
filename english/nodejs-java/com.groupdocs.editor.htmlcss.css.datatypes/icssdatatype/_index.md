@@ -3,7 +3,7 @@ title: ICssDataType
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: Common interface for all CSS data types which are used in the CSS properties
 type: docs
-weight: 13
+weight: 15
 url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/icssdatatype/
 ---
 **All Implemented Interfaces:**

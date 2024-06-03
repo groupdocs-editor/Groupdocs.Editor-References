@@ -57,6 +57,7 @@ Encapsulates all binary, XML and textual Spreadsheet formats (excluding all text
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed SpreadsheetFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable SpreadsheetFormats formats |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [SpreadsheetFormats](../../com.groupdocs.editor.formats/spreadsheetformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
 | [toString()](#toString--) | Returns the name of this particular format, same as 'Name' property |
 ### SpreadsheetFormats() {#SpreadsheetFormats--}
@@ -250,7 +251,7 @@ Tab-Separated Values (TSV) file format represents data separated with tabs in pl
 
 ### All {#All}
 ```
-public static final SpreadsheetFormats.AllEnumerable All
+public static final Iterator<SpreadsheetFormats> All
 ```
 
 
@@ -373,6 +374,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<SpreadsheetFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable SpreadsheetFormats formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.SpreadsheetFormats> - Instance of internal class, that implements IEnumerator
 ### fromExtension(String extension) {#fromExtension-java.lang.String-}
 ```
 public static SpreadsheetFormats fromExtension(String extension)

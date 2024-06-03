@@ -3,7 +3,7 @@ title: Ratio
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: Represents a ratio CSS data type which is used for describing aspect ratios in media queries and for raster images by denoting the proportion between two unitless values called numerator and denominator.
 type: docs
-weight: 12
+weight: 14
 url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/ratio/
 ---
 **Inheritance:**

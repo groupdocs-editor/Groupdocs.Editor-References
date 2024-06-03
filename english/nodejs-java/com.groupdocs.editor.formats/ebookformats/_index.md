@@ -46,6 +46,7 @@ Encapsulates all eBook formats. Includes the following file types: [Mobi](../../
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed EBookFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable EBookFormats formats |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [EBookFormats](../../com.groupdocs.editor.formats/ebookformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
 | [toString()](#toString--) | Returns a format name of this format |
 ### EBookFormats() {#EBookFormats--}
@@ -89,7 +90,7 @@ AZW3, also known as Kindle Format 8 (KF8), is the modified version of the AZW eb
 
 ### All {#All}
 ```
-public static final EBookFormats.AllEnumerable All
+public static final Iterator<EBookFormats> All
 ```
 
 
@@ -212,6 +213,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<EBookFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable EBookFormats formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.EBookFormats> - Instance of internal class, that implements IEnumerator
 ### fromExtension(String extension) {#fromExtension-java.lang.String-}
 ```
 public static EBookFormats fromExtension(String extension)

@@ -58,6 +58,7 @@ Learn more about emails format [here][].
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed Email |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable Email formats |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [EmailFormats](../../com.groupdocs.editor.formats/emailformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
 | [toString()](#toString--) | Returns a format name of this format |
 ### EmailFormats() {#EmailFormats--}
@@ -194,7 +195,7 @@ Offline Storage Table (OST) file represents user\\u2019s mailbox data in offline
 
 ### All {#All}
 ```
-public static final EmailFormats.AllEnumerable All
+public static final Iterator<EmailFormats> All
 ```
 
 
@@ -317,6 +318,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<EmailFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable Email formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.EmailFormats> - Instance of internal class, that implements IEnumerator
 ### fromExtension(String extension) {#fromExtension-java.lang.String-}
 ```
 public static EmailFormats fromExtension(String extension)

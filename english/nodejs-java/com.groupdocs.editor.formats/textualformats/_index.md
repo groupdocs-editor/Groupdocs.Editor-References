@@ -47,6 +47,7 @@ Encapsulates all textual (text-based) formats, including markup (XML, HTML) and 
 | [equals(IDocumentFormat other)](#equals-com.groupdocs.editor.formats.IDocumentFormat-) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance is equal to the other specified object, that is presumably of boxed TextualFormats |
 | [hashCode()](#hashCode--) | Returns a hash-code, that is immutable for this instance |
+| [iterator()](#iterator--) | Returns an enumerator for all supportable Textual formats |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Returns instance of [TextualFormats](../../com.groupdocs.editor.formats/textualformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
 ### TextualFormats() {#TextualFormats--}
 ```
@@ -133,7 +134,7 @@ Microsoft Compiled HTML Help is a Microsoft proprietary online help binary forma
 
 ### All {#All}
 ```
-public static final TextualFormats.AllEnumerable All
+public static final Iterator<TextualFormats> All
 ```
 
 
@@ -266,6 +267,16 @@ Returns a hash-code, that is immutable for this instance
 
 **Returns:**
 int - Signed 4-byte integer
+### iterator() {#iterator--}
+```
+public final Iterator<TextualFormats> iterator()
+```
+
+
+Returns an enumerator for all supportable Textual formats
+
+**Returns:**
+java.util.Iterator<com.groupdocs.editor.formats.TextualFormats> - Instance of internal class, that implements IEnumerator
 ### fromExtension(String extension) {#fromExtension-java.lang.String-}
 ```
 public static TextualFormats fromExtension(String extension)

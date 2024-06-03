@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: Represents a CSS length value in any supportable unit including percentage    and unitless type.
 type: docs
-weight: 11
+weight: 12
 url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 **Inheritance:**
@@ -441,7 +441,7 @@ public static byte getUnitFromName(String unitName)
 ```
 
 
-Tries to parse specified unit name and return corresponding value of a Unit enum. Returns Unit.Unitless if cannot find appropriate unit.
+Tries to parse specified unit name and return corresponding value of a Unit enum. Returns LengthUnit.Unitless if cannot find appropriate LengthUnit.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ Tries to parse specified unit name and return corresponding value of a Unit enum
 | unitName | java.lang.String | String, that represents a unit name |
 
 **Returns:**
-byte - Value of Unit enum in any case, Unit.Unitless when cannot find appropriate unit
+byte - Value of Unit enum in any case, LengthUnit.Unitless when cannot find appropriate unit
 ### tryParse(String input, Length[] result) {#tryParse-java.lang.String-com.groupdocs.editor.htmlcss.css.datatypes.Length---}
 ```
 public static boolean tryParse(String input, Length[] result)

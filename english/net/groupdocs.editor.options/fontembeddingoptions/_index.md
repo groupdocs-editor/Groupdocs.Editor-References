@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/fontembeddingoptions/
 Font embedding options controls which font resources should be embedded into the output WordProcessing or PDF document
 
 ```csharp
-public enum FontEmbeddingOptions : byte
+public enum FontEmbeddingOptions
 ```
 
 ### Values

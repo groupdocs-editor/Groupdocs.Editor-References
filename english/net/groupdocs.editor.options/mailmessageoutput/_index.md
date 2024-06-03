@@ -12,7 +12,7 @@ Controls which parts of the mail message should be delivered to the output proce
 
 ```csharp
 [Flags]
-public enum MailMessageOutput : ushort
+public enum MailMessageOutput
 ```
 
 ### Values

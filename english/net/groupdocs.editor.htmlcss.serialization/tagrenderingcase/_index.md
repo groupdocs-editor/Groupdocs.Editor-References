@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.htmlcss.serialization/tagrenderingcase/
 Represents different types of serialization the HTML tag names
 
 ```csharp
-public enum TagRenderingCase : byte
+public enum TagRenderingCase
 ```
 
 ### Values

@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/fontextractionoptions/
 Font extraction options control which fonts should be extracted and from where
 
 ```csharp
-public enum FontExtractionOptions : byte
+public enum FontExtractionOptions
 ```
 
 ### Values

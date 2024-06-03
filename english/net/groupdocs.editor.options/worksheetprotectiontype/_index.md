@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/worksheetprotectiontype/
 Represents Spreadsheet worksheet (tab) protection types
 
 ```csharp
-public enum WorksheetProtectionType : byte
+public enum WorksheetProtectionType
 ```
 
 ### Values

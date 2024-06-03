@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/groupdocs.editor/editor/save/
 ---
-## Save(EditableDocument, Stream, ISaveOptions) {#save_2}
+## Save(EditableDocument, Stream, ISaveOptions) {#save_1}
 
 Converts specified edited document, represented as instance of '[`EditableDocument`](../../editabledocument)', to the resultant document of specified format and saves its content to specified stream
 
@@ -36,7 +36,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 ---
 
-## Save(EditableDocument, string, ISaveOptions) {#save_3}
+## Save(EditableDocument, string, ISaveOptions) {#save_2}
 
 Converts specified edited document, represented as instance of '[`EditableDocument`](../../editabledocument)', to the resultant document of specified format and saves its content to file by specified file path
 
@@ -66,7 +66,7 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 ---
 
-## Save(Stream, WordProcessingSaveOptions) {#save_1}
+## Save(Stream, WordProcessingSaveOptions) {#save}
 
 Converts the original document after modification (for example, [`FormFieldManager`](../formfieldmanager)), to the resultant document of the specified format and saves its content to the provided stream.
 
@@ -94,40 +94,6 @@ Thrown when *outputDocument* or *saveOptions* is null, or when the document to s
 ### See Also
 
 * class [WordProcessingSaveOptions](../../../groupdocs.editor.options/wordprocessingsaveoptions)
-* class [Editor](../../editor)
-* namespace [GroupDocs.Editor](../../../groupdocs.editor)
-* assembly [GroupDocs.Editor](../../../)
-
----
-
-## Save(Stream) {#save}
-
-Save the current document content to the specified output stream.
-
-```csharp
-public Stream Save(Stream outputDocument)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outputDocument | Stream | The stream to which the document content will be saved. This cannot be null. |
-
-### Return Value
-
-The stream with the saved document content.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | Thrown when *outputDocument* is null or if the document content is missing. |
-
-### Remarks
-
-This method copies the content from the internal document representation to the provided output stream. The stream's original position is preserved after the save operation.
-
-### See Also
-
 * class [Editor](../../editor)
 * namespace [GroupDocs.Editor](../../../groupdocs.editor)
 * assembly [GroupDocs.Editor](../../../)

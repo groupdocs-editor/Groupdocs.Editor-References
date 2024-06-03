@@ -6,16 +6,17 @@ type: docs
 weight: 10
 url: /net/groupdocs.editor/editor/editor/
 ---
-## Editor(IDocumentFormat) {#constructor}
+## Editor(Action&lt;Stream&gt;, IDocumentFormat) {#constructor}
 
 Initializes a new instance of the [`Editor`](../../editor) class and creates a new empty document based on the specified format.
 
 ```csharp
-public Editor(IDocumentFormat format)
+public Editor(Action<Stream> newDocumentAction, IDocumentFormat format)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
+| newDocumentAction | Action`1 | delegate that allows saving or performing some action with a stream of the new document. |
 | format | IDocumentFormat | represents the file format of the document that will be created. |
 
 ### Remarks
@@ -34,7 +35,7 @@ public Editor(IDocumentFormat format)
 
 ---
 
-## Editor(Func&lt;Stream&gt;) {#constructor_2}
+## Editor(Func&lt;Stream&gt;) {#constructor_1}
 
 Initializes new Editor instance with specified input document (as a stream)
 
@@ -61,7 +62,7 @@ public Editor(Func<Stream> document)
 
 ---
 
-## Editor(Func&lt;Stream&gt;, Func&lt;ILoadOptions&gt;) {#constructor_3}
+## Editor(Func&lt;Stream&gt;, Func&lt;ILoadOptions&gt;) {#constructor_2}
 
 Initializes new Editor instance with specified input document (as a stream) with its load options
 
@@ -91,7 +92,7 @@ public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
 
 ---
 
-## Editor(string) {#constructor_4}
+## Editor(string) {#constructor_3}
 
 Initializes new Editor instance with specified input document (as a full file path)
 
@@ -118,7 +119,7 @@ public Editor(string filePath)
 
 ---
 
-## Editor(string, Func&lt;ILoadOptions&gt;) {#constructor_5}
+## Editor(string, Func&lt;ILoadOptions&gt;) {#constructor_4}
 
 Initializes new Editor instance with specified input document (as a full file path) with its load options
 

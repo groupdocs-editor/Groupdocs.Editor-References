@@ -35,3 +35,17 @@ Document editing API for Microsoft Office, OpenOffice, HTML and other documents 
 These are links to some useful resources:
 
 - [GroupDocs.Editor for Java API Reference](/editor/java/)
+
+## GroupDocs.Editor for Node.js via Java
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Editor for for Node.js via Java Product Logo](gdocs_nodejs.png)
+
+Document editing API for Microsoft Office, OpenOffice, HTML and other documents to manipulate within your Node.js based applications.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Editor for for Node.js via Java API Reference](/editor/nodejs-java/)

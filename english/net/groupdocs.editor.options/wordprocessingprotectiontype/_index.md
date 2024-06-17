@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/wordprocessingprotectiontype/
 Represents all available protection types of the WordProcessing document
 
 ```csharp
-public enum WordProcessingProtectionType : byte
+public enum WordProcessingProtectionType
 ```
 
 ### Values

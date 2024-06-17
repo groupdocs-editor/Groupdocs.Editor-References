@@ -11,7 +11,7 @@ url: /net/groupdocs.editor.options/markdowntablecontentalignment/
 Allows to specify the alignment of the content of the table to be used when exporting into Markdown format
 
 ```csharp
-public enum MarkdownTableContentAlignment : byte
+public enum MarkdownTableContentAlignment
 ```
 
 ### Values

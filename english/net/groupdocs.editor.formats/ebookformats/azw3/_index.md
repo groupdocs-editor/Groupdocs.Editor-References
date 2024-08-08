@@ -16,7 +16,7 @@ public static readonly EBookFormats Azw3;
 
 ### See Also
 
-* struct [EBookFormats](../../ebookformats)
+* class [EBookFormats](../../ebookformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

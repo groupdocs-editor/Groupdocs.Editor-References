@@ -16,7 +16,7 @@ public static readonly FixedLayoutFormats Pdf;
 
 ### See Also
 
-* struct [FixedLayoutFormats](../../fixedlayoutformats)
+* class [FixedLayoutFormats](../../fixedlayoutformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

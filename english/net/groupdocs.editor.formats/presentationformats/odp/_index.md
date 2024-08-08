@@ -1,14 +1,14 @@
 ---
 title: Odp
 second_title: GroupDocs.Editor for .NET API Reference
-description: OpenDocument Presentation ODP file represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format herehttps//wiki.fileformat.com/presentation/odp.
+description: OpenDocument Presentation ODP. Learn more about this file format herehttps//wiki.fileformat.com/presentation/odp.
 type: docs
 weight: 10
 url: /net/groupdocs.editor.formats/presentationformats/odp/
 ---
 ## PresentationFormats.Odp field
 
-OpenDocument Presentation (ODP) file represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format [here](https://wiki.fileformat.com/presentation/odp).
+OpenDocument Presentation (ODP). Learn more about this file format [here](https://wiki.fileformat.com/presentation/odp).
 
 ```csharp
 public static readonly PresentationFormats Odp;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Odp;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

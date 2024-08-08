@@ -1,14 +1,14 @@
 ---
 title: Ics
 second_title: GroupDocs.Editor for .NET API Reference
-description: The Internet Calendaring and Scheduling Core Object Specification iCalendar is an internet standard RFC 2445 for exchanging and deploying the calendaring events and scheduling. Learn more about this file format herehttps//docs.fileformat.com/email/ics/.
+description: The Internet Calendaring and Scheduling Core Object Specification iCalendar is an internet standard RFC 2445 for exchanging and deploying calendaring events and scheduling. Learn more about this file format herehttps//docs.fileformat.com/email/ics/.
 type: docs
 weight: 40
 url: /net/groupdocs.editor.formats/emailformats/ics/
 ---
 ## EmailFormats.Ics field
 
-The Internet Calendaring and Scheduling Core Object Specification (iCalendar) is an internet standard (RFC 2445) for exchanging and deploying the calendaring events and scheduling. Learn more about this file format [here](https://docs.fileformat.com/email/ics/).
+The Internet Calendaring and Scheduling Core Object Specification (iCalendar) is an internet standard (RFC 2445) for exchanging and deploying calendaring events and scheduling. Learn more about this file format [here](https://docs.fileformat.com/email/ics/).
 
 ```csharp
 public static readonly EmailFormats Ics;
@@ -16,7 +16,7 @@ public static readonly EmailFormats Ics;
 
 ### See Also
 
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

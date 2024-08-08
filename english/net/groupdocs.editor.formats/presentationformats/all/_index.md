@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing Presentation formats
+description: Gets an enumerable collection of all PresentationFormatsgroupdocs.editor.formats/presentationformats.
 type: docs
-weight: 200
+weight: 140
 url: /net/groupdocs.editor.formats/presentationformats/all/
 ---
-## PresentationFormats.All field
+## PresentationFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing Presentation formats
+Gets an enumerable collection of all [`PresentationFormats`](../../presentationformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<PresentationFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`PresentationFormats`](../../presentationformats).
 
 ### See Also
 
-* class [AllEnumerable](../../presentationformats.allenumerable)
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

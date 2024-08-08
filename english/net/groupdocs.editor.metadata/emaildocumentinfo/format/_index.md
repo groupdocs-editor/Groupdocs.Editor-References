@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.metadata/emaildocumentinfo/format/
 Returns a format of this email document
 
 ```csharp
-public EmailFormats Format { get; }
+public DocumentFormatBase Format { get; }
 ```
 
 ### See Also
 
-* struct [EmailFormats](../../../groupdocs.editor.formats/emailformats)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * struct [EmailDocumentInfo](../../emaildocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

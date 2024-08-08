@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Resources.Images
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Resources.Images namespace provides classes that represent image resources of all types in general.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.htmlcss.resources.images/
 ---
 The GroupDocs.Editor.HtmlCss.Resources.Images namespace provides classes that represent image resources of all types in general.

@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns instance of EmailFormatsgroupdocs.editor.formats/emailformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
+description: Retrieves an instance of the specified type EmailFormatsgroupdocs.editor.formats/emailformats that has the specified file extension.
 type: docs
 weight: 130
 url: /net/groupdocs.editor.formats/emailformats/fromextension/
 ---
 ## EmailFormats.FromExtension method
 
-Returns instance of [`EmailFormats`](../../emailformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed
+Retrieves an instance of the specified type [`EmailFormats`](../../emailformats) that has the specified file extension.
 
 ```csharp
 public static EmailFormats FromExtension(string extension)
@@ -16,15 +16,21 @@ public static EmailFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable Email format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | The file extension of the document format. |
 
 ### Return Value
 
-Instance of [`EmailFormats`](../../emailformats) structure on success or thrown exception on failure
+An instance of the specified type [`EmailFormats`](../../emailformats) with the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when no matching document format is found. |
 
 ### See Also
 
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

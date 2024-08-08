@@ -3,7 +3,7 @@ title: TagRenderingCase
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents different types of serialization the HTML tag names
 type: docs
-weight: 700
+weight: 660
 url: /net/groupdocs.editor.htmlcss.serialization/tagrenderingcase/
 ---
 ## TagRenderingCase enumeration

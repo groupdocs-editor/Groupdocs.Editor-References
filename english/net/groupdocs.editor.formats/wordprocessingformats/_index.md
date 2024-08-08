@@ -1,71 +1,75 @@
 ---
 title: WordProcessingFormats
 second_title: GroupDocs.Editor for .NET API Reference
-description: Encapsulates all WordProcessing formats. Includes the following file types Doc./wordprocessingformats/doc Docm./wordprocessingformats/docm Docx./wordprocessingformats/docx Dot./wordprocessingformats/dot Dotm./wordprocessingformats/dotm Dotx./wordprocessingformats/dotx FlatOpc./wordprocessingformats/flatopc Odt./wordprocessingformats/odt Ott./wordprocessingformats/ott Rtf./wordprocessingformats/rtf WordML./wordprocessingformats/wordml. Learn more about Word Processing formats herehttps//wiki.fileformat.com/wordprocessing.
+description: Encapsulates all WordProcessing formats. Includes the following file types
 type: docs
-weight: 180
+weight: 150
 url: /net/groupdocs.editor.formats/wordprocessingformats/
 ---
-## WordProcessingFormats structure
+## WordProcessingFormats class
 
-Encapsulates all WordProcessing formats. Includes the following file types: [`Doc`](./doc), [`Docm`](./docm), [`Docx`](./docx), [`Dot`](./dot), [`Dotm`](./dotm), [`Dotx`](./dotx), [`FlatOpc`](./flatopc), [`Odt`](./odt), [`Ott`](./ott), [`Rtf`](./rtf), [`WordML`](./wordml). Learn more about Word Processing formats [here](https://wiki.fileformat.com/word-processing).
+Encapsulates all WordProcessing formats. Includes the following file types:
+
+* [`Doc`](./doc)
+* [`Docm`](./docm)
+* [`Docx`](./docx)
+* [`Dot`](./dot)
+* [`Dotm`](./dotm)
+* [`Dotx`](./dotx)
+* [`FlatOpc`](./flatopc)
+* [`Odt`](./odt)
+* [`Ott`](./ott)
+* [`Rtf`](./rtf)
+* [`WordML`](./wordml)
+
+Learn more about Word Processing formats [here](https://wiki.fileformat.com/word-processing).
 
 ```csharp
-public struct WordProcessingFormats : IDocumentFormat, IEquatable<WordProcessingFormats>
+public class WordProcessingFormats : DocumentFormatBase
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Extension](../../groupdocs.editor.formats/wordprocessingformats/extension) { get; } | Returns an extension (without leading dot character) of this WordProcessing format in lower case |
-| [Mime](../../groupdocs.editor.formats/wordprocessingformats/mime) { get; } | Returns a MIME code for this format |
-| [Name](../../groupdocs.editor.formats/wordprocessingformats/name) { get; } | Returns a formal full name of this WordProcessing format |
+| [Extension](../../groupdocs.editor.formats.abstraction/documentformatbase/extension) { get; } | Gets the file extension of the document format. |
+| [FormatFamily](../../groupdocs.editor.formats.abstraction/documentformatbase/formatfamily) { get; } | Gets the format family to which the document format belongs. |
+| [Id](../../groupdocs.editor.formats.abstraction/formatfamilybase/id) { get; } | Gets the unique identifier for the format family. |
+| [Mime](../../groupdocs.editor.formats.abstraction/documentformatbase/mime) { get; } | Gets the MIME type of the document format. |
+| [Name](../../groupdocs.editor.formats.abstraction/formatfamilybase/name) { get; } | Gets the name of the format family. |
+| static [All](../../groupdocs.editor.formats/wordprocessingformats/all) { get; } | Gets an enumerable collection of all [`WordProcessingFormats`](../wordprocessingformats). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Returns instance of [`WordProcessingFormats`](../wordprocessingformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
-| [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals)(IDocumentFormat) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
-| override [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed WordProcessingFormats |
-| [Equals](../../groupdocs.editor.formats/wordprocessingformats/equals#equals_1)(WordProcessingFormats) | Determines whether this instance is equal to the other specified WordProcessingFormats instance |
-| override [GetHashCode](../../groupdocs.editor.formats/wordprocessingformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
-| override [ToString](../../groupdocs.editor.formats/wordprocessingformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
-| [operator ==](../../groupdocs.editor.formats/wordprocessingformats/op_equality) | Checks two given WordProcessingFormats instances on equality |
-| [explicit operator](../../groupdocs.editor.formats/wordprocessingformats/op_explicit#op_explicit) | Returns a byte value from underlying field of specified WordProcessingFormats instance (2 operators) |
-| [operator !=](../../groupdocs.editor.formats/wordprocessingformats/op_inequality) | Checks two given WordProcessingFormats instances on inequality |
+| static [FromExtension](../../groupdocs.editor.formats/wordprocessingformats/fromextension)(string) | Retrieves an instance of the specified type [`WordProcessingFormats`](../wordprocessingformats) that has the specified file extension. |
+| [Equals](../../groupdocs.editor.formats.abstraction/formatfamilybase/equals)(FormatFamilyBase) | Determines whether this instance is equal to the specified [`FormatFamilyBase`](../../groupdocs.editor.formats.abstraction/formatfamilybase) instance. |
+| [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(IDocumentFormat) | Determines whether this instance is equal to the specified [`IDocumentFormat`](../../groupdocs.editor.formats.abstraction/idocumentformat) instance. |
+| override [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(object) | Determines whether this instance is equal to the specified [`DocumentFormatBase`](../../groupdocs.editor.formats.abstraction/documentformatbase) instance. |
+| override [GetHashCode](../../groupdocs.editor.formats.abstraction/documentformatbase/gethashcode)() | Returns a hash code for the current object. |
+| override [ToString](../../groupdocs.editor.formats.abstraction/formatfamilybase/tostring)() | Returns a string that represents the current object. |
+| [explicit operator](../../groupdocs.editor.formats/wordprocessingformats/op_explicit) | Converts a string representing a file extension to a [`WordProcessingFormats`](../wordprocessingformats) object. |
 
 ## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Doc](../../groupdocs.editor.formats/wordprocessingformats/doc) | MS Word 97-2007 Binary File Format (DOC) represent documents generated by Microsoft Word or other word processing documents in binary file format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/doc). |
+| static readonly [Doc](../../groupdocs.editor.formats/wordprocessingformats/doc) | MS Word 97-2007 Binary File Format (DOC) represents documents generated by Microsoft Word or other word processing documents in binary file format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/doc). |
 | static readonly [Docm](../../groupdocs.editor.formats/wordprocessingformats/docm) | Office Open XML WordProcessingML Macro-Enabled Document (DOCM) files are Microsoft Word 2007 or higher generated documents with the ability to run macros. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docm). |
-| static readonly [Docx](../../groupdocs.editor.formats/wordprocessingformats/docx) | Office Open XML WordProcessingML Macro-Free Document (DOCX)is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docx). |
-| static readonly [Dot](../../groupdocs.editor.formats/wordprocessingformats/dot) | MS Word 97-2007 Template are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dot). |
-| static readonly [Dotm](../../groupdocs.editor.formats/wordprocessingformats/dotm) | Office Open XML WordprocessingML Macro-Enabled Template (DOTM) represents template file created with Microsoft Word 2007 or higher. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotm). |
+| static readonly [Docx](../../groupdocs.editor.formats/wordprocessingformats/docx) | Office Open XML WordProcessingML Macro-Free Document (DOCX) is a well-known format for Microsoft Word documents. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docx). |
+| static readonly [Dot](../../groupdocs.editor.formats/wordprocessingformats/dot) | MS Word 97-2007 Template (DOT) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dot). |
+| static readonly [Dotm](../../groupdocs.editor.formats/wordprocessingformats/dotm) | Office Open XML WordprocessingML Macro-Enabled Template (DOTM) represents template files created with Microsoft Word 2007 or higher. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotm). |
 | static readonly [Dotx](../../groupdocs.editor.formats/wordprocessingformats/dotx) | Office Open XML WordprocessingML Macro-Free Template (DOTX) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotx). |
-| static readonly [FlatOpc](../../groupdocs.editor.formats/wordprocessingformats/flatopc) | Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package |
+| static readonly [FlatOpc](../../groupdocs.editor.formats/wordprocessingformats/flatopc) | Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package. |
 | static readonly [Odt](../../groupdocs.editor.formats/wordprocessingformats/odt) | Open Document Format Text Document (ODT) files are type of documents created with word processing applications that are based on OpenDocument Text File format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/odt). |
 | static readonly [Ott](../../groupdocs.editor.formats/wordprocessingformats/ott) | Open Document Format Text Document Template (OTT) represent template documents generated by applications in compliance with the OASIS' OpenDocument standard format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/ott). |
 | static readonly [Rtf](../../groupdocs.editor.formats/wordprocessingformats/rtf) | Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/rtf). |
-| static readonly [WordML](../../groupdocs.editor.formats/wordprocessingformats/wordml) | Microsoft Office Word 2003 XML Format — WordProcessingML or WordML (.XML) |
-| static readonly [All](../../groupdocs.editor.formats/wordprocessingformats/all) | Returns an internal class, that provides enumerable possibilities over all existing WordProcessing formats |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| class [AllEnumerable](wordprocessingformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the WordProcessingFormats type |
-
-### Remarks
-
-MIME codes are grabbed from the given resources: https://filext.com/faq/office_mime_types.html https://docs.microsoft.com/en-us/previous-versions//cc179224(v=technet.10)
+| static readonly [WordML](../../groupdocs.editor.formats/wordprocessingformats/wordml) | Microsoft Office Word 2003 XML Format — WordProcessingML or WordML (.XML). |
 
 ### See Also
 
-* interface [IDocumentFormat](../idocumentformat)
+* class [DocumentFormatBase](../../groupdocs.editor.formats.abstraction/documentformatbase)
 * namespace [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../)
 

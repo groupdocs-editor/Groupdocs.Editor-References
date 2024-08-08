@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns instance of FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
+description: Retrieves an instance of the specified type FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats that has the specified file extension.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Returns instance of [`FixedLayoutFormats`](../../fixedlayoutformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed
+Retrieves an instance of the specified type [`FixedLayoutFormats`](../../fixedlayoutformats) that has the specified file extension.
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -16,15 +16,21 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable FixedLayoutFormats format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | The file extension of the document format. |
 
 ### Return Value
 
-Instance of [`FixedLayoutFormats`](../../fixedlayoutformats) structure on success or thrown exception on failure
+An instance of the specified type [`FixedLayoutFormats`](../../fixedlayoutformats) with the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when no matching document format is found. |
 
 ### See Also
 
-* struct [FixedLayoutFormats](../../fixedlayoutformats)
+* class [FixedLayoutFormats](../../fixedlayoutformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

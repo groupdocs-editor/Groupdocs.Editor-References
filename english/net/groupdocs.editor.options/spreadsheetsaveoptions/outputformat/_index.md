@@ -16,7 +16,7 @@ public SpreadsheetFormats OutputFormat { get; set; }
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../../groupdocs.editor.formats/spreadsheetformats)
+* class [SpreadsheetFormats](../../../groupdocs.editor.formats/spreadsheetformats)
 * class [SpreadsheetSaveOptions](../../spreadsheetsaveoptions)
 * namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
 * assembly [GroupDocs.Editor](../../../)

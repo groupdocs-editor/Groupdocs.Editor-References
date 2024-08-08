@@ -20,7 +20,7 @@ Output format is usually set in the constructor of this class, because it is man
 
 ### See Also
 
-* struct [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
+* class [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
 * class [PresentationSaveOptions](../../presentationsaveoptions)
 * namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
 * assembly [GroupDocs.Editor](../../../)

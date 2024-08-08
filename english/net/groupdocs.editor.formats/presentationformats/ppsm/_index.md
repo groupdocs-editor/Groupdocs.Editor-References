@@ -1,14 +1,14 @@
 ---
 title: Ppsm
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft Office Open XML PresentationML MacroEnabled SlideShow PPSM files are created with Microsoft PowerPoint 2007 or higher. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsm.
+description: Microsoft Office Open XML PresentationML MacroEnabled SlideShow PPSM. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsm.
 type: docs
 weight: 70
 url: /net/groupdocs.editor.formats/presentationformats/ppsm/
 ---
 ## PresentationFormats.Ppsm field
 
-Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM) files are created with Microsoft PowerPoint 2007 or higher. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsm).
+Microsoft Office Open XML PresentationML Macro-Enabled SlideShow (PPSM). Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsm).
 
 ```csharp
 public static readonly PresentationFormats Ppsm;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Ppsm;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

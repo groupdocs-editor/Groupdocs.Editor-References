@@ -1,26 +1,22 @@
 ---
 title: Xlam
 second_title: GroupDocs.Editor for .NET API Reference
-description: Excel Addin XLAM
+description: Excel Addin XLAM.
 type: docs
 weight: 80
 url: /net/groupdocs.editor.formats/spreadsheetformats/xlam/
 ---
 ## SpreadsheetFormats.Xlam field
 
-Excel Add-in (XLAM)
+Excel Add-in (XLAM).
 
 ```csharp
 public static readonly SpreadsheetFormats Xlam;
 ```
 
-### Remarks
-
-Excel add-in to add extra functionality and tools. Inherent macro support because of the file purpose.
-
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

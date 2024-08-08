@@ -1,14 +1,14 @@
 ---
 title: Pptm
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft Office Open XML PresentationML MacroEnabled Document PPTM files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral cant execute macros though they can contain macros. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pptm.
+description: Microsoft Office Open XML PresentationML MacroEnabled Document PPTM. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pptm.
 type: docs
 weight: 110
 url: /net/groupdocs.editor.formats/presentationformats/pptm/
 ---
 ## PresentationFormats.Pptm field
 
-Microsoft Office Open XML PresentationML Macro-Enabled Document (PPTM) files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptm).
+Microsoft Office Open XML PresentationML Macro-Enabled Document (PPTM). Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptm).
 
 ```csharp
 public static readonly PresentationFormats Pptm;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Pptm;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

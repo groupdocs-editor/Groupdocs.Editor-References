@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Css.Properties
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Css.Properties namespace provides types that represent different CSS properties components of CSS declarations.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.editor.htmlcss.css.properties/
 ---
 The GroupDocs.Editor.HtmlCss.Css.Properties namespace provides types that represent different CSS properties (components of CSS declarations).

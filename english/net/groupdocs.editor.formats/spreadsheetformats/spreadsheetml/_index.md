@@ -1,26 +1,22 @@
 ---
 title: SpreadsheetML
 second_title: GroupDocs.Editor for .NET API Reference
-description: SpreadsheetML  Microsoft Office Excel 2002 and Excel 2003 XML Format
+description: SpreadsheetML  Microsoft Office Excel 2002 and Excel 2003 XML Format.
 type: docs
 weight: 50
 url: /net/groupdocs.editor.formats/spreadsheetformats/spreadsheetml/
 ---
 ## SpreadsheetFormats.SpreadsheetML field
 
-SpreadsheetML — Microsoft Office Excel 2002 and Excel 2003 XML Format
+SpreadsheetML — Microsoft Office Excel 2002 and Excel 2003 XML Format.
 
 ```csharp
 public static readonly SpreadsheetFormats SpreadsheetML;
 ```
 
-### Remarks
-
-https://en.wikipedia.org/wiki/SpreadsheetML https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats
-
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

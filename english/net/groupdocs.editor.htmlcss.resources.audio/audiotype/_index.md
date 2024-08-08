@@ -3,7 +3,7 @@ title: AudioType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents one supportable audio type format
 type: docs
-weight: 360
+weight: 320
 url: /net/groupdocs.editor.htmlcss.resources.audio/audiotype/
 ---
 ## AudioType structure

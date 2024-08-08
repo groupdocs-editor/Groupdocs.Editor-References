@@ -3,7 +3,7 @@ title: FontSize
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a font size as a special unit or a length value which specifies the size of the font historically the width of the capital M.
 type: docs
-weight: 300
+weight: 260
 url: /net/groupdocs.editor.htmlcss.css.properties/fontsize/
 ---
 ## FontSize structure

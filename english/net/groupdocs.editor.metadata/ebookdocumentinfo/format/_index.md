@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.metadata/ebookdocumentinfo/format/
 Returns a format of this e-Book
 
 ```csharp
-public EBookFormats Format { get; }
+public DocumentFormatBase Format { get; }
 ```
 
 ### See Also
 
-* struct [EBookFormats](../../../groupdocs.editor.formats/ebookformats)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * struct [EbookDocumentInfo](../../ebookdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

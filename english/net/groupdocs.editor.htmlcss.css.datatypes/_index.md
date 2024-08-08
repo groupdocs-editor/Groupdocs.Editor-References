@@ -3,7 +3,7 @@ title: GroupDocs.Editor.HtmlCss.Css.DataTypes
 second_title: GroupDocs.Editor for .NET API Reference
 description: The GroupDocs.Editor.HtmlCss.Css.DataTypes namespace provides classes that represent CSS data types.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.editor.htmlcss.css.datatypes/
 ---
 The GroupDocs.Editor.HtmlCss.Css.DataTypes namespace provides classes that represent CSS data types.

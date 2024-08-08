@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing WordProcessing formats
+description: Gets an enumerable collection of all WordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats.
 type: docs
-weight: 190
+weight: 130
 url: /net/groupdocs.editor.formats/wordprocessingformats/all/
 ---
-## WordProcessingFormats.All field
+## WordProcessingFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing WordProcessing formats
+Gets an enumerable collection of all [`WordProcessingFormats`](../../wordprocessingformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<WordProcessingFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`WordProcessingFormats`](../../wordprocessingformats).
 
 ### See Also
 
-* class [AllEnumerable](../../wordprocessingformats.allenumerable)
-* struct [WordProcessingFormats](../../wordprocessingformats)
+* class [WordProcessingFormats](../../wordprocessingformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

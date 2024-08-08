@@ -1,14 +1,14 @@
 ---
 title: Ppsx
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft Office Open XML PresentationML MacroFree SlideShow PPSX file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsx.
+description: Microsoft Office Open XML PresentationML MacroFree SlideShow PPSX. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsx.
 type: docs
 weight: 80
 url: /net/groupdocs.editor.formats/presentationformats/ppsx/
 ---
 ## PresentationFormats.Ppsx field
 
-Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX) file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsx).
+Microsoft Office Open XML PresentationML Macro-Free SlideShow (PPSX). Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsx).
 
 ```csharp
 public static readonly PresentationFormats Ppsx;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Ppsx;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

@@ -3,7 +3,7 @@ title: NumberFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field that accepts a number input.
 type: docs
-weight: 1460
+weight: 1420
 url: /net/groupdocs.editor.words.fieldmanagement/numberformfield/
 ---
 ## NumberFormField class

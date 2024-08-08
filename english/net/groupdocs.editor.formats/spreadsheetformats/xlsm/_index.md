@@ -1,14 +1,14 @@
 ---
 title: Xlsm
 second_title: GroupDocs.Editor for .NET API Reference
-description: Office Open XML Workbook MacroEnabled XLSM is a type of Spreasheet files that support macros. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsm.
+description: Office Open XML Workbook MacroEnabled XLSM. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsm.
 type: docs
 weight: 110
 url: /net/groupdocs.editor.formats/spreadsheetformats/xlsm/
 ---
 ## SpreadsheetFormats.Xlsm field
 
-Office Open XML Workbook Macro-Enabled (XLSM) is a type of Spreasheet files that support macros. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsm).
+Office Open XML Workbook Macro-Enabled (XLSM). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsm).
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsm;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlsm;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

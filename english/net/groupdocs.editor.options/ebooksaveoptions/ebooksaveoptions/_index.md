@@ -36,7 +36,7 @@ public EbookSaveOptions(EBookFormats outputFormat)
 
 ### See Also
 
-* struct [EBookFormats](../../../groupdocs.editor.formats/ebookformats)
+* class [EBookFormats](../../../groupdocs.editor.formats/ebookformats)
 * class [EbookSaveOptions](../../ebooksaveoptions)
 * namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
 * assembly [GroupDocs.Editor](../../../)

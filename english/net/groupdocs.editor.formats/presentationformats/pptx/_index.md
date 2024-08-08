@@ -1,14 +1,14 @@
 ---
 title: Pptx
 second_title: GroupDocs.Editor for .NET API Reference
-description: PowerPoint Open XML Presentation .pptx is a presentation file created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pptx.
+description: Microsoft Office Open XML PresentationML MacroFree Document PPTX. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pptx.
 type: docs
 weight: 120
 url: /net/groupdocs.editor.formats/presentationformats/pptx/
 ---
 ## PresentationFormats.Pptx field
 
-PowerPoint Open XML Presentation (.pptx) is a presentation file created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptx).
+Microsoft Office Open XML PresentationML Macro-Free Document (PPTX). Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptx).
 
 ```csharp
 public static readonly PresentationFormats Pptx;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Pptx;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

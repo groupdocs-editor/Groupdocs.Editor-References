@@ -16,7 +16,7 @@ public WordProcessingFormats Format { get; }
 
 ### See Also
 
-* struct [WordProcessingFormats](../../../groupdocs.editor.formats/wordprocessingformats)
+* class [WordProcessingFormats](../../../groupdocs.editor.formats/wordprocessingformats)
 * struct [WordProcessingDocumentInfo](../../wordprocessingdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

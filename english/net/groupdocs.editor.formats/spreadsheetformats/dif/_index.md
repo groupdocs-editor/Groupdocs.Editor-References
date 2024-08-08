@@ -1,26 +1,22 @@
 ---
 title: Dif
 second_title: GroupDocs.Editor for .NET API Reference
-description: Data Interchange Format DIF
+description: Data Interchange Format DIF.
 type: docs
 weight: 20
 url: /net/groupdocs.editor.formats/spreadsheetformats/dif/
 ---
 ## SpreadsheetFormats.Dif field
 
-Data Interchange Format (DIF)
+Data Interchange Format (DIF).
 
 ```csharp
 public static readonly SpreadsheetFormats Dif;
 ```
 
-### Remarks
-
-https://en.wikipedia.org/wiki/Data_Interchange_Format
-
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

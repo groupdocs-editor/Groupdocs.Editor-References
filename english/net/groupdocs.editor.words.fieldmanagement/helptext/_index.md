@@ -3,7 +3,7 @@ title: HelpText
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents help text for a form field.
 type: docs
-weight: 1430
+weight: 1390
 url: /net/groupdocs.editor.words.fieldmanagement/helptext/
 ---
 ## HelpText class

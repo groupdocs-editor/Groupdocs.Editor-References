@@ -16,7 +16,7 @@ public TextualFormats Format { get; }
 
 ### See Also
 
-* struct [TextualFormats](../../../groupdocs.editor.formats/textualformats)
+* class [TextualFormats](../../../groupdocs.editor.formats/textualformats)
 * struct [TextualDocumentInfo](../../textualdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

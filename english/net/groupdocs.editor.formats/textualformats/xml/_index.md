@@ -16,7 +16,7 @@ public static readonly TextualFormats Xml;
 
 ### See Also
 
-* struct [TextualFormats](../../textualformats)
+* class [TextualFormats](../../textualformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

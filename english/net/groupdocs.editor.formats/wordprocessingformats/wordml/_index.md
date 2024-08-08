@@ -1,14 +1,14 @@
 ---
 title: WordML
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft Office Word 2003 XML Format  WordProcessingML or WordML .XML
+description: Microsoft Office Word 2003 XML Format  WordProcessingML or WordML .XML.
 type: docs
 weight: 110
 url: /net/groupdocs.editor.formats/wordprocessingformats/wordml/
 ---
 ## WordProcessingFormats.WordML field
 
-Microsoft Office Word 2003 XML Format — WordProcessingML or WordML (.XML)
+Microsoft Office Word 2003 XML Format — WordProcessingML or WordML (.XML).
 
 ```csharp
 public static readonly WordProcessingFormats WordML;
@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats
 
 ### See Also
 
-* struct [WordProcessingFormats](../../wordprocessingformats)
+* class [WordProcessingFormats](../../wordprocessingformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

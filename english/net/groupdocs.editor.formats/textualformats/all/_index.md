@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing Textual formats.
+description: Gets an enumerable collection of all TextualFormatsgroupdocs.editor.formats/textualformats.
 type: docs
-weight: 150
+weight: 90
 url: /net/groupdocs.editor.formats/textualformats/all/
 ---
-## TextualFormats.All field
+## TextualFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing Textual formats.
+Gets an enumerable collection of all [`TextualFormats`](../../textualformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<TextualFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`TextualFormats`](../../textualformats).
 
 ### See Also
 
-* class [AllEnumerable](../../textualformats.allenumerable)
-* struct [TextualFormats](../../textualformats)
+* class [TextualFormats](../../textualformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

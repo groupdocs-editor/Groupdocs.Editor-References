@@ -1,14 +1,14 @@
 ---
 title: Tnef
 second_title: GroupDocs.Editor for .NET API Reference
-description: Transport Neutral Encapsulation Format TNEF is a Microsoft proprietary for encapsulating email attachments based on Messaging Application Programming Interface MAPI. Learn more about this file format herehttps//docs.fileformat.com/email/tnef/.
+description: Transport Neutral Encapsulation Format TNEF is a Microsoft proprietary format for encapsulating email attachments based on Messaging Application Programming Interface MAPI. Learn more about this file format herehttps//docs.fileformat.com/email/tnef/.
 type: docs
 weight: 110
 url: /net/groupdocs.editor.formats/emailformats/tnef/
 ---
 ## EmailFormats.Tnef field
 
-Transport Neutral Encapsulation Format (TNEF) is a Microsoft proprietary, for encapsulating email attachments based on Messaging Application Programming Interface (MAPI). Learn more about this file format [here](https://docs.fileformat.com/email/tnef/).
+Transport Neutral Encapsulation Format (TNEF) is a Microsoft proprietary format for encapsulating email attachments based on Messaging Application Programming Interface (MAPI). Learn more about this file format [here](https://docs.fileformat.com/email/tnef/).
 
 ```csharp
 public static readonly EmailFormats Tnef;
@@ -16,7 +16,7 @@ public static readonly EmailFormats Tnef;
 
 ### See Also
 
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

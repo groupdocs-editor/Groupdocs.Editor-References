@@ -16,7 +16,7 @@ public static readonly WordProcessingFormats Docm;
 
 ### See Also
 
-* struct [WordProcessingFormats](../../wordprocessingformats)
+* class [WordProcessingFormats](../../wordprocessingformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

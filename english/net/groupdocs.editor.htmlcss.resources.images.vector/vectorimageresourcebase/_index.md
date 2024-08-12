@@ -3,7 +3,7 @@ title: VectorImageResourceBase
 second_title: GroupDocs.Editor for .NET API Reference
 description: Base class for any supported vector image
 type: docs
-weight: 620
+weight: 580
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/
 ---
 ## VectorImageResourceBase class

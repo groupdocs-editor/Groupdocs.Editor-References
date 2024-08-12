@@ -16,7 +16,7 @@ public SpreadsheetFormats Format { get; }
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../../groupdocs.editor.formats/spreadsheetformats)
+* class [SpreadsheetFormats](../../../groupdocs.editor.formats/spreadsheetformats)
 * struct [SpreadsheetDocumentInfo](../../spreadsheetdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

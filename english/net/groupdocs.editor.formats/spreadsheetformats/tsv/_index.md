@@ -1,14 +1,14 @@
 ---
 title: Tsv
 second_title: GroupDocs.Editor for .NET API Reference
-description: TabSeparated Values TSV file format represents data separated with tabs in plain text format. The file format similar to CSV is used for organization of data in a structured manner in order to import and export between different applications. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/tsv/.
+description: TabSeparated Values TSV. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/tsv/.
 type: docs
 weight: 70
 url: /net/groupdocs.editor.formats/spreadsheetformats/tsv/
 ---
 ## SpreadsheetFormats.Tsv field
 
-Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/tsv/).
+Tab-Separated Values (TSV). Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/tsv/).
 
 ```csharp
 public static readonly SpreadsheetFormats Tsv;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Tsv;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

@@ -1,14 +1,14 @@
 ---
 title: Xlsb
 second_title: GroupDocs.Editor for .NET API Reference
-description: Excel Binary Workbook XLSBspecifies the Excel Binary File Format which is a collection of records and structures that specify Excel workbook content. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsb.
+description: Excel Binary Workbook XLSB. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsb.
 type: docs
 weight: 100
 url: /net/groupdocs.editor.formats/spreadsheetformats/xlsb/
 ---
 ## SpreadsheetFormats.Xlsb field
 
-Excel Binary Workbook (XLSB)specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsb).
+Excel Binary Workbook (XLSB). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsb).
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsb;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlsb;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

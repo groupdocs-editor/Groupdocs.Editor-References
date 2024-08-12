@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns instance of EBookFormatsgroupdocs.editor.formats/ebookformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
+description: Retrieves an instance of the specified type EBookFormatsgroupdocs.editor.formats/ebookformats that has the specified file extension.
 type: docs
 weight: 40
 url: /net/groupdocs.editor.formats/ebookformats/fromextension/
 ---
 ## EBookFormats.FromExtension method
 
-Returns instance of [`EBookFormats`](../../ebookformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed
+Retrieves an instance of the specified type [`EBookFormats`](../../ebookformats) that has the specified file extension.
 
 ```csharp
 public static EBookFormats FromExtension(string extension)
@@ -16,15 +16,21 @@ public static EBookFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable EBook format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | The file extension of the document format. |
 
 ### Return Value
 
-Instance of [`EBookFormats`](../../ebookformats) structure on success or thrown exception on failure
+An instance of the specified type [`EBookFormats`](../../ebookformats) with the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when no matching document format is found. |
 
 ### See Also
 
-* struct [EBookFormats](../../ebookformats)
+* class [EBookFormats](../../ebookformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

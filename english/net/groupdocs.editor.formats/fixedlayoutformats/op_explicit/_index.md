@@ -1,46 +1,36 @@
 ---
 title: op_Explicit
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a byte value from underlying field of specified FixedLayoutFormats instance
+description: Converts a string representing a file extension to a FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats object.
 type: docs
-weight: 120
+weight: 40
 url: /net/groupdocs.editor.formats/fixedlayoutformats/op_explicit/
 ---
-## explicit operator {#op_explicit}
+## FixedLayoutFormats Explicit operator
 
-Returns a byte value from underlying field of specified FixedLayoutFormats instance
+Converts a string representing a file extension to a [`FixedLayoutFormats`](../../fixedlayoutformats) object.
 
 ```csharp
-public static explicit operator byte(FixedLayoutFormats input)
+public static explicit operator FixedLayoutFormats(string extension)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | FixedLayoutFormats | Input FixedLayoutFormats instance |
+| extension | String | The file extension to convert. If the extension contains multiple periods, the part after the last period is used. |
+
+### Return Value
+
+A [`FixedLayoutFormats`](../../fixedlayoutformats) object corresponding to the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [FixedLayoutFormats](../../fixedlayoutformats) | Thrown when the specified file extension is null. |
 
 ### See Also
 
-* struct [FixedLayoutFormats](../../fixedlayoutformats)
-* namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
-* assembly [GroupDocs.Editor](../../../)
-
----
-
-## explicit operator {#op_explicit_1}
-
-Casts specified raw byte value to valid FixedLayoutFormats instance and returns it or throws an exception, is specified value is invalid
-
-```csharp
-public static explicit operator FixedLayoutFormats(byte raw)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| raw | Byte | Raw byte value |
-
-### See Also
-
-* struct [FixedLayoutFormats](../../fixedlayoutformats)
+* class [FixedLayoutFormats](../../fixedlayoutformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

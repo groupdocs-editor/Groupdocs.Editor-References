@@ -3,7 +3,7 @@ title: ArgbColor.KnownColors
 second_title: GroupDocs.Editor for .NET API Reference
 description: Contains all known colors that have fixed unique name and value in CSS standart
 type: docs
-weight: 210
+weight: 170
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor.knowncolors/
 ---
 ## ArgbColor.KnownColors class

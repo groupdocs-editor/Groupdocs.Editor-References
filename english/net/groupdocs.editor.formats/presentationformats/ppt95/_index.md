@@ -1,14 +1,14 @@
 ---
 title: Ppt95
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft PowerPoint 95 Presentation PPT
+description: Microsoft PowerPoint 95 Presentation PPT.
 type: docs
 weight: 100
 url: /net/groupdocs.editor.formats/presentationformats/ppt95/
 ---
 ## PresentationFormats.Ppt95 field
 
-Microsoft PowerPoint 95 Presentation (PPT)
+Microsoft PowerPoint 95 Presentation (PPT).
 
 ```csharp
 public static readonly PresentationFormats Ppt95;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Ppt95;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

@@ -16,7 +16,7 @@ public PresentationFormats Format { get; }
 
 ### See Also
 
-* struct [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
+* class [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
 * struct [PresentationDocumentInfo](../../presentationdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

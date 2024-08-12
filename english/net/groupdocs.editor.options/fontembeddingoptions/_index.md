@@ -3,7 +3,7 @@ title: FontEmbeddingOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Font embedding options controls which font resources should be embedded into the output WordProcessing or PDF document
 type: docs
-weight: 910
+weight: 870
 url: /net/groupdocs.editor.options/fontembeddingoptions/
 ---
 ## FontEmbeddingOptions enumeration

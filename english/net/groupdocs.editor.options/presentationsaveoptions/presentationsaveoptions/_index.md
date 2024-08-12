@@ -36,7 +36,7 @@ public PresentationSaveOptions(PresentationFormats outputFormat)
 
 ### See Also
 
-* struct [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
+* class [PresentationFormats](../../../groupdocs.editor.formats/presentationformats)
 * class [PresentationSaveOptions](../../presentationsaveoptions)
 * namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
 * assembly [GroupDocs.Editor](../../../)

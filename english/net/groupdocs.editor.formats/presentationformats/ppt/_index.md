@@ -1,14 +1,14 @@
 ---
 title: Ppt
 second_title: GroupDocs.Editor for .NET API Reference
-description: PowerPoint Presentation .ppt represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 972003. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppt.
+description: Microsoft PowerPoint 972003 Presentation PPT. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppt.
 type: docs
 weight: 90
 url: /net/groupdocs.editor.formats/presentationformats/ppt/
 ---
 ## PresentationFormats.Ppt field
 
-PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppt).
+Microsoft PowerPoint 97-2003 Presentation (PPT). Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppt).
 
 ```csharp
 public static readonly PresentationFormats Ppt;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Ppt;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

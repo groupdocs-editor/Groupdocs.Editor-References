@@ -1,14 +1,14 @@
 ---
 title: Ods
 second_title: GroupDocs.Editor for .NET API Reference
-description: OpenDocument Spreadsheet ODS stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ods.
+description: OpenDocument Spreadsheet ODS. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ods.
 type: docs
 weight: 40
 url: /net/groupdocs.editor.formats/spreadsheetformats/ods/
 ---
 ## SpreadsheetFormats.Ods field
 
-OpenDocument Spreadsheet (ODS) stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ods).
+OpenDocument Spreadsheet (ODS). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ods).
 
 ```csharp
 public static readonly SpreadsheetFormats Ods;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Ods;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

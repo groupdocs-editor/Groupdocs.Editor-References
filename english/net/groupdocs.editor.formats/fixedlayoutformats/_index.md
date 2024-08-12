@@ -1,54 +1,47 @@
 ---
 title: FixedLayoutFormats
 second_title: GroupDocs.Editor for .NET API Reference
-description: Encapsulates all fixedlayout also know as fixedpage formats which includes PDF and XPS this does not include raster images
+description: Encapsulates all fixedlayout also known as fixedpage formats which includes PDF and XPS this does not include raster images.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.formats/fixedlayoutformats/
 ---
-## FixedLayoutFormats structure
+## FixedLayoutFormats class
 
-Encapsulates all fixed-layout (also know as "fixed-page") formats, which includes PDF and XPS (this does not include raster images)
+Encapsulates all fixed-layout (also known as "fixed-page") formats, which includes PDF and XPS (this does not include raster images).
 
 ```csharp
-public struct FixedLayoutFormats : IDocumentFormat, IEquatable<FixedLayoutFormats>
+public class FixedLayoutFormats : DocumentFormatBase
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Extension](../../groupdocs.editor.formats/fixedlayoutformats/extension) { get; } | Returns an extension (without leading dot character) of this fixed-layout format in lower case |
-| [Mime](../../groupdocs.editor.formats/fixedlayoutformats/mime) { get; } | Returns a MIME code for this format |
-| [Name](../../groupdocs.editor.formats/fixedlayoutformats/name) { get; } | Returns a formal full name of this fixed layout format |
+| [Extension](../../groupdocs.editor.formats.abstraction/documentformatbase/extension) { get; } | Gets the file extension of the document format. |
+| [FormatFamily](../../groupdocs.editor.formats.abstraction/documentformatbase/formatfamily) { get; } | Gets the format family to which the document format belongs. |
+| [Id](../../groupdocs.editor.formats.abstraction/formatfamilybase/id) { get; } | Gets the unique identifier for the format family. |
+| [Mime](../../groupdocs.editor.formats.abstraction/documentformatbase/mime) { get; } | Gets the MIME type of the document format. |
+| [Name](../../groupdocs.editor.formats.abstraction/formatfamilybase/name) { get; } | Gets the name of the format family. |
+| static [All](../../groupdocs.editor.formats/fixedlayoutformats/all) { get; } | Gets an enumerable collection of all [`FixedLayoutFormats`](../fixedlayoutformats). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Returns instance of [`FixedLayoutFormats`](../fixedlayoutformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
-| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals)(FixedLayoutFormats) | Determines whether this instance is equal to the other specified FixedLayoutFormats instance |
-| [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_1)(IDocumentFormat) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
-| override [Equals](../../groupdocs.editor.formats/fixedlayoutformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed FixedLayoutFormats |
-| override [GetHashCode](../../groupdocs.editor.formats/fixedlayoutformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
-| override [ToString](../../groupdocs.editor.formats/fixedlayoutformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
-| [operator ==](../../groupdocs.editor.formats/fixedlayoutformats/op_equality) | Checks two given FixedLayoutFormats instances on equality |
-| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit#op_explicit) | Returns a byte value from underlying field of specified FixedLayoutFormats instance (2 operators) |
-| [operator !=](../../groupdocs.editor.formats/fixedlayoutformats/op_inequality) | Checks two given FixedLayoutFormats instances on inequality |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Retrieves an instance of the specified type [`FixedLayoutFormats`](../fixedlayoutformats) that has the specified file extension. |
+| [Equals](../../groupdocs.editor.formats.abstraction/formatfamilybase/equals)(FormatFamilyBase) | Determines whether this instance is equal to the specified [`FormatFamilyBase`](../../groupdocs.editor.formats.abstraction/formatfamilybase) instance. |
+| [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(IDocumentFormat) | Determines whether this instance is equal to the specified [`IDocumentFormat`](../../groupdocs.editor.formats.abstraction/idocumentformat) instance. |
+| override [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(object) | Determines whether this instance is equal to the specified [`DocumentFormatBase`](../../groupdocs.editor.formats.abstraction/documentformatbase) instance. |
+| override [GetHashCode](../../groupdocs.editor.formats.abstraction/documentformatbase/gethashcode)() | Returns a hash code for the current object. |
+| override [ToString](../../groupdocs.editor.formats.abstraction/formatfamilybase/tostring)() | Returns a string that represents the current object. |
+| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit) | Converts a string representing a file extension to a [`FixedLayoutFormats`](../fixedlayoutformats) object. |
 
 ## Fields
 
 | Name | Description |
 | --- | --- |
 | static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here](https://docs.fileformat.com/pdf/). |
-| static readonly [Xps](../../groupdocs.editor.formats/fixedlayoutformats/xps) | XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. It was developed as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format [here](https://docs.fileformat.com/page-description-language/xps/). |
-| static readonly [All](../../groupdocs.editor.formats/fixedlayoutformats/all) | Returns an internal class, that provides enumerable possibilities over all existing fixed-layout formats |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| class [AllEnumerable](fixedlayoutformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the FixedLayoutFormats type |
 
 ### Remarks
 
@@ -56,7 +49,7 @@ Various document viewing or publishing applications allow users to open (Adobe A
 
 ### See Also
 
-* interface [IDocumentFormat](../idocumentformat)
+* class [DocumentFormatBase](../../groupdocs.editor.formats.abstraction/documentformatbase)
 * namespace [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../)
 

@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify custom options for generating and saving Presentation PowerPointcompatible documents
 type: docs
-weight: 1130
+weight: 1090
 url: /net/groupdocs.editor.options/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class
@@ -32,7 +32,7 @@ public sealed class PresentationSaveOptions : ISaveOptions
 
 ### Remarks
 
-Instance of this class should be passed into the [`Save`](../../groupdocs.editor/editor/save) method in order to save edited presentation into the final document of some Presentation-specific format. Its constructor has one mandatory parameter — format of the output Presentation. All other parameters are optional and may be omitted.
+Instance of this class should be passed into the Save method in order to save edited presentation into the final document of some Presentation-specific format. Its constructor has one mandatory parameter — format of the output Presentation. All other parameters are optional and may be omitted.
 
 ### See Also
 

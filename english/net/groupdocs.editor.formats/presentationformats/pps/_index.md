@@ -1,14 +1,14 @@
 ---
 title: Pps
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft PowerPoint 972003 SlideShow PPS files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 972003. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pps.
+description: Microsoft PowerPoint 972003 SlideShow PPS. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pps.
 type: docs
 weight: 60
 url: /net/groupdocs.editor.formats/presentationformats/pps/
 ---
 ## PresentationFormats.Pps field
 
-Microsoft PowerPoint 97-2003 SlideShow (PPS) files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pps).
+Microsoft PowerPoint 97-2003 SlideShow (PPS). Learn more about this file format [here](https://wiki.fileformat.com/presentation/pps).
 
 ```csharp
 public static readonly PresentationFormats Pps;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Pps;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

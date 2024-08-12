@@ -16,7 +16,7 @@ public WordProcessingFormats OutputFormat { get; set; }
 
 ### See Also
 
-* struct [WordProcessingFormats](../../../groupdocs.editor.formats/wordprocessingformats)
+* class [WordProcessingFormats](../../../groupdocs.editor.formats/wordprocessingformats)
 * class [WordProcessingSaveOptions](../../wordprocessingsaveoptions)
 * namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
 * assembly [GroupDocs.Editor](../../../)

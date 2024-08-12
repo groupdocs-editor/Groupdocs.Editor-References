@@ -3,7 +3,7 @@ title: PresentationDocumentInfo
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents metadata of one Presentation document
 type: docs
-weight: 790
+weight: 750
 url: /net/groupdocs.editor.metadata/presentationdocumentinfo/
 ---
 ## PresentationDocumentInfo structure

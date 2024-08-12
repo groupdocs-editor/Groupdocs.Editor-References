@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Editor for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "24.6.0"
+version: "24.8.0"
 ---
 ## Namespaces
 
@@ -13,6 +13,7 @@ version: "24.6.0"
 | --- | --- |
 | [GroupDocs.Editor](./groupdocs.editor) | The GroupDocs.Editor namespace provides classes for editing documents using 3rd party front-end WYSIWYG editors without any additional applications. |
 | [GroupDocs.Editor.Formats](./groupdocs.editor.formats) | The GroupDocs.Editor.Formats namespace provides interfaces and classes that describes supported document formats. |
+| [GroupDocs.Editor.Formats.Abstraction](./groupdocs.editor.formats.abstraction) | The Abstraction namespace provides interfaces and classes that describe supported document formats in the GroupDocs.Editor library. |
 | [GroupDocs.Editor.HtmlCss.Css.DataTypes](./groupdocs.editor.htmlcss.css.datatypes) | The GroupDocs.Editor.HtmlCss.Css.DataTypes namespace provides classes that represent CSS data types. |
 | [GroupDocs.Editor.HtmlCss.Css.Properties](./groupdocs.editor.htmlcss.css.properties) | The GroupDocs.Editor.HtmlCss.Css.Properties namespace provides types that represent different CSS properties (components of CSS declarations). |
 | [GroupDocs.Editor.HtmlCss.Exceptions](./groupdocs.editor.htmlcss.exceptions) | The GroupDocs.Editor.HtmlCss.Exceptions namespace provides classes that are responsible for all HTML-, CSS-, images-, fonts-, and other resource-related processing. |

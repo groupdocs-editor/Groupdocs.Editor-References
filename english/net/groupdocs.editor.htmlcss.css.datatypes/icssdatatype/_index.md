@@ -3,7 +3,7 @@ title: ICssDataType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Common interface for all CSS data types which are used in the CSS properties
 type: docs
-weight: 260
+weight: 220
 url: /net/groupdocs.editor.htmlcss.css.datatypes/icssdatatype/
 ---
 ## ICssDataType interface

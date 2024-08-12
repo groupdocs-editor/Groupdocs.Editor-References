@@ -1,14 +1,14 @@
 ---
 title: Pot
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft PowerPoint 972003 Presentation Template POT file represents Microsoft PowerPoint template files created by PowerPoint 972003 versions. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pot.
+description: Microsoft PowerPoint 972003 Presentation Template POT. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pot.
 type: docs
 weight: 30
 url: /net/groupdocs.editor.formats/presentationformats/pot/
 ---
 ## PresentationFormats.Pot field
 
-Microsoft PowerPoint 97-2003 Presentation Template (POT) file represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pot).
+Microsoft PowerPoint 97-2003 Presentation Template (POT). Learn more about this file format [here](https://wiki.fileformat.com/presentation/pot).
 
 ```csharp
 public static readonly PresentationFormats Pot;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Pot;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

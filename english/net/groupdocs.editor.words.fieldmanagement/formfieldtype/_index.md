@@ -3,7 +3,7 @@ title: FormFieldType
 second_title: GroupDocs.Editor for .NET API Reference
 description: Specifies the type of form field.
 type: docs
-weight: 1420
+weight: 1380
 url: /net/groupdocs.editor.words.fieldmanagement/formfieldtype/
 ---
 ## FormFieldType enumeration

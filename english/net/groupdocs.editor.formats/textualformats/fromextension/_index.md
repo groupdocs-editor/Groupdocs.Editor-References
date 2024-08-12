@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns instance of TextualFormatsgroupdocs.editor.formats/textualformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
+description: Retrieves an instance of the specified type TextualFormatsgroupdocs.editor.formats/textualformats that has the specified file extension.
 type: docs
 weight: 80
 url: /net/groupdocs.editor.formats/textualformats/fromextension/
 ---
 ## TextualFormats.FromExtension method
 
-Returns instance of [`TextualFormats`](../../textualformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed
+Retrieves an instance of the specified type [`TextualFormats`](../../textualformats) that has the specified file extension.
 
 ```csharp
 public static TextualFormats FromExtension(string extension)
@@ -16,15 +16,21 @@ public static TextualFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension of any supportable textual format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | The file extension of the document format. |
 
 ### Return Value
 
-Instance of TextualFormats structure on success or thrown exception on failure
+An instance of the specified type [`TextualFormats`](../../textualformats) with the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when no matching document format is found. |
 
 ### See Also
 
-* struct [TextualFormats](../../textualformats)
+* class [TextualFormats](../../textualformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

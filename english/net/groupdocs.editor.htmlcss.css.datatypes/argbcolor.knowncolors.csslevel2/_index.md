@@ -3,7 +3,7 @@ title: ArgbColor.KnownColors.CssLevel2
 second_title: GroupDocs.Editor for .NET API Reference
 description: Named colors specified in the CSS level 2. All are fully opaque.
 type: docs
-weight: 230
+weight: 190
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor.knowncolors.csslevel2/
 ---
 ## ArgbColor.KnownColors.CssLevel2 class

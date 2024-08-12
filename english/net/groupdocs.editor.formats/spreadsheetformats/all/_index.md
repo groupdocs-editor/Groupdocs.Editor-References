@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing Spreadsheet formats
+description: Gets an enumerable collection of all SpreadsheetFormatsgroupdocs.editor.formats/spreadsheetformats.
 type: docs
-weight: 230
+weight: 170
 url: /net/groupdocs.editor.formats/spreadsheetformats/all/
 ---
-## SpreadsheetFormats.All field
+## SpreadsheetFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing Spreadsheet formats
+Gets an enumerable collection of all [`SpreadsheetFormats`](../../spreadsheetformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<SpreadsheetFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`SpreadsheetFormats`](../../spreadsheetformats).
 
 ### See Also
 
-* class [AllEnumerable](../../spreadsheetformats.allenumerable)
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

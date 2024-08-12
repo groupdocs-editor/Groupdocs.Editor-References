@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns instance of PresentationFormatsgroupdocs.editor.formats/presentationformats structure associated to specified filename extension or throws an exception if extension cannot be properly parsed
+description: Retrieves an instance of the specified type PresentationFormatsgroupdocs.editor.formats/presentationformats that has the specified file extension.
 type: docs
 weight: 130
 url: /net/groupdocs.editor.formats/presentationformats/fromextension/
 ---
 ## PresentationFormats.FromExtension method
 
-Returns instance of [`PresentationFormats`](../../presentationformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed
+Retrieves an instance of the specified type [`PresentationFormats`](../../presentationformats) that has the specified file extension.
 
 ```csharp
 public static PresentationFormats FromExtension(string extension)
@@ -16,15 +16,21 @@ public static PresentationFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | Filename extension solely or filename with proper extension of any supportable Presentation format, with or without leading dot character, case-independent. Cannot be NULL or empty, should be valid. |
+| extension | String | The file extension of the document format. |
 
 ### Return Value
 
-Instance of [`PresentationFormats`](../../presentationformats) structure on success or thrown exception on failure
+An instance of the specified type [`PresentationFormats`](../../presentationformats) with the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when no matching document format is found. |
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

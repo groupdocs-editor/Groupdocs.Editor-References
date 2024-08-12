@@ -1,14 +1,14 @@
 ---
 title: Xlsx
 second_title: GroupDocs.Editor for .NET API Reference
-description: Office Open XML Workbook MacroFree XLSX represents documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsx.
+description: Office Open XML Workbook MacroFree XLSX. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsx.
 type: docs
 weight: 120
 url: /net/groupdocs.editor.formats/spreadsheetformats/xlsx/
 ---
 ## SpreadsheetFormats.Xlsx field
 
-Office Open XML Workbook Macro-Free (XLSX) represents documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsx).
+Office Open XML Workbook Macro-Free (XLSX). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsx).
 
 ```csharp
 public static readonly SpreadsheetFormats Xlsx;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlsx;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

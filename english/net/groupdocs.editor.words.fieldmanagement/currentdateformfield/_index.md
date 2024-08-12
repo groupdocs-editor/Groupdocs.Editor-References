@@ -3,7 +3,7 @@ title: CurrentDateFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field that displays the current date.
 type: docs
-weight: 1370
+weight: 1330
 url: /net/groupdocs.editor.words.fieldmanagement/currentdateformfield/
 ---
 ## CurrentDateFormField class

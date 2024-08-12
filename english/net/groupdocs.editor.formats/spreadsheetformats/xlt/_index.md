@@ -1,14 +1,14 @@
 ---
 title: Xlt
 second_title: GroupDocs.Editor for .NET API Reference
-description: Excel 972003 Template XLT represents template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 972003 supported creating new XLT files as well as opening these. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlt.
+description: Excel 972003 Template XLT. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlt.
 type: docs
 weight: 130
 url: /net/groupdocs.editor.formats/spreadsheetformats/xlt/
 ---
 ## SpreadsheetFormats.Xlt field
 
-Excel 97-2003 Template (XLT) represents template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlt).
+Excel 97-2003 Template (XLT). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlt).
 
 ```csharp
 public static readonly SpreadsheetFormats Xlt;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xlt;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

@@ -6,17 +6,17 @@ type: docs
 weight: 10
 url: /net/groupdocs.editor/editor/editor/
 ---
-## Editor(IDocumentFormat) {#constructor}
+## Editor(DocumentFormatBase) {#constructor}
 
 Initializes a new instance of the [`Editor`](../../editor) class and creates a new empty document based on the specified format.
 
 ```csharp
-public Editor(IDocumentFormat format)
+public Editor(DocumentFormatBase format)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | IDocumentFormat | represents the file format of the document that will be created. |
+| format | DocumentFormatBase | Represents the file format of the document that will be created. |
 
 ### Remarks
 
@@ -25,26 +25,36 @@ public Editor(IDocumentFormat format)
 * More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
 
+### Examples
+
+```csharp
+IDocumentFormat format = new WordProcessingFormats.Docx();
+using (Editor editor = new Editor(format))
+{
+    // Use the editor instance to edit and save documents
+}
+```
+
 ### See Also
 
-* interface [IDocumentFormat](../../../groupdocs.editor.formats/idocumentformat)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * class [Editor](../../editor)
 * namespace [GroupDocs.Editor](../../../groupdocs.editor)
 * assembly [GroupDocs.Editor](../../../)
 
 ---
 
-## Editor(Func&lt;Stream&gt;) {#constructor_2}
+## Editor(Stream) {#constructor_4}
 
-Initializes new Editor instance with specified input document (as a stream)
+Initializes new Editor instance with specified input document (as a stream).
 
 ```csharp
-public Editor(Func<Stream> document)
+public Editor(Stream document)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`1 | Delegate, that should return a stream with document content. Should not be NULL. |
+| document | Stream | Stream that contains document content. Should not be null. |
 
 ### Remarks
 
@@ -52,6 +62,18 @@ public Editor(Func<Stream> document)
 
 * More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### Examples
+
+```csharp
+using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Read))
+{
+    using (Editor editor = new Editor(fs))
+    {
+        // Use the editor instance to edit and save documents
+    }
+}
+```
 
 ### See Also
 
@@ -61,18 +83,25 @@ public Editor(Func<Stream> document)
 
 ---
 
-## Editor(Func&lt;Stream&gt;, Func&lt;ILoadOptions&gt;) {#constructor_3}
+## Editor(Stream, ILoadOptions) {#constructor_5}
 
-Initializes new Editor instance with specified input document (as a stream) with its load options
+Initializes new Editor instance with specified input document (as a stream) with its load options.
 
 ```csharp
-public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
+public Editor(Stream document, ILoadOptions loadOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | Func`1 | Delegate, that should return a stream with document content. Should not be NULL. |
-| loadOptions | Func`1 | Delegate, that should return a document load options. May be NULL and may return null - in that case document type will be detected automatically and default load options for that type will be applied. |
+| document | Stream | Stream that contains document content. Should not be null. |
+| loadOptions | ILoadOptions | Document load options. May be null. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when the document stream is null. |
+| ArgumentException | Thrown when the document stream is invalid. |
 
 ### Remarks
 
@@ -80,7 +109,19 @@ public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
 
 * More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
 * More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
-* More about how to open and edit password-protected documents and document from different storages: [Load and edit documents using GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Load+document)
+
+### Examples
+
+```csharp
+using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Read))
+{
+    ILoadOptions loadOptions = new WordProcessingLoadOptions();
+    using (Editor editor = new Editor(fs, loadOptions))
+    {
+        // Use the editor instance to edit and save documents
+    }
+}
+```
 
 ### See Also
 
@@ -91,9 +132,56 @@ public Editor(Func<Stream> document, Func<ILoadOptions> loadOptions)
 
 ---
 
-## Editor(string) {#constructor_4}
+## Editor(string, ILoadOptions) {#constructor_7}
 
-Initializes new Editor instance with specified input document (as a full file path)
+Initializes new Editor instance with specified input document (as a full file path) with its load options.
+
+```csharp
+public Editor(string filePath, ILoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Full path to the file. Should not be null, empty or contain only whitespaces. Should be valid, and file should exist. |
+| loadOptions | ILoadOptions | Document load options. May be null. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Thrown when the file path is invalid. |
+| FileNotFoundException | Thrown when the file does not exist. |
+
+### Remarks
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### Examples
+
+```csharp
+string filePath = "input.docx";
+ILoadOptions loadOptions = new WordProcessingLoadOptions();
+using (Editor editor = new Editor(filePath, loadOptions))
+{
+    // Use the editor instance to edit and save documents
+}
+```
+
+### See Also
+
+* interface [ILoadOptions](../../../groupdocs.editor.options/iloadoptions)
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Editor(string) {#constructor_6}
+
+Initializes new Editor instance with specified input document (as a full file path) and Editor settings
 
 ```csharp
 public Editor(string filePath)
@@ -103,45 +191,8 @@ public Editor(string filePath)
 | --- | --- | --- |
 | filePath | String | Full path to the file. Should not be NULL. Should be valid, and file should exist. |
 
-### Remarks
-
-**Learn more**
-
-* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
-
 ### See Also
 
-* class [Editor](../../editor)
-* namespace [GroupDocs.Editor](../../../groupdocs.editor)
-* assembly [GroupDocs.Editor](../../../)
-
----
-
-## Editor(string, Func&lt;ILoadOptions&gt;) {#constructor_5}
-
-Initializes new Editor instance with specified input document (as a full file path) with its load options
-
-```csharp
-public Editor(string filePath, Func<ILoadOptions> loadOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | String | Full path to the file. Should not be NULL. Should be valid, and file should exist. |
-| loadOptions | Func`1 | Delegate, that should return a document load options. May be NULL and may return null - in that case document type will be detected automatically and default load options for that type will be applied. |
-
-### Remarks
-
-**Learn more**
-
-* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
-* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
-* More about how to open and edit password-protected documents and document from different storages: [Load and edit documents using GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Load+document)
-
-### See Also
-
-* interface [ILoadOptions](../../../groupdocs.editor.options/iloadoptions)
 * class [Editor](../../editor)
 * namespace [GroupDocs.Editor](../../../groupdocs.editor)
 * assembly [GroupDocs.Editor](../../../)

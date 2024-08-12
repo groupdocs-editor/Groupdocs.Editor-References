@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.metadata/fixedlayoutdocumentinfo/format/
 Returns a format of this fixed-layout format document
 
 ```csharp
-public FixedLayoutFormats Format { get; }
+public DocumentFormatBase Format { get; }
 ```
 
 ### See Also
 
-* struct [FixedLayoutFormats](../../../groupdocs.editor.formats/fixedlayoutformats)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * struct [FixedLayoutDocumentInfo](../../fixedlayoutdocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

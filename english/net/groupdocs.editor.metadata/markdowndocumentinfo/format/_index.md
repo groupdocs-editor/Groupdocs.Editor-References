@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.metadata/markdowndocumentinfo/format/
 Returns a format of this Markdown document — always is [`Md`](../../../groupdocs.editor.formats/textualformats/md)
 
 ```csharp
-public TextualFormats Format { get; }
+public DocumentFormatBase Format { get; }
 ```
 
 ### See Also
 
-* struct [TextualFormats](../../../groupdocs.editor.formats/textualformats)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * struct [MarkdownDocumentInfo](../../markdowndocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

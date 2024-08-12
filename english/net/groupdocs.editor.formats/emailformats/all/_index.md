@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing email formats
+description: Gets an enumerable collection of all EmailFormatsgroupdocs.editor.formats/emailformats.
 type: docs
-weight: 200
+weight: 140
 url: /net/groupdocs.editor.formats/emailformats/all/
 ---
-## EmailFormats.All field
+## EmailFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing email formats
+Gets an enumerable collection of all [`EmailFormats`](../../emailformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<EmailFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`EmailFormats`](../../emailformats).
 
 ### See Also
 
-* class [AllEnumerable](../../emailformats.allenumerable)
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

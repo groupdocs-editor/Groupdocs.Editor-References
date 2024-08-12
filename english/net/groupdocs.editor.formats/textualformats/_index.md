@@ -1,39 +1,41 @@
 ---
 title: TextualFormats
 second_title: GroupDocs.Editor for .NET API Reference
-description: Encapsulates all textual textbased formats including markup XML HTML and others. Includes the following formats Html./textualformats/html Txt./textualformats/txt Xml./textualformats/xml. Md./textualformats/md Json./textualformats/json.
+description: Encapsulates all textual textbased formats including markup XML HTML and others. Includes the following formats Html./textualformats/html Txt./textualformats/txt Xml./textualformats/xml Md./textualformats/md Json./textualformats/json Mhtml./textualformats/mhtml Chm./textualformats/chm.
 type: docs
-weight: 160
+weight: 140
 url: /net/groupdocs.editor.formats/textualformats/
 ---
-## TextualFormats structure
+## TextualFormats class
 
-Encapsulates all textual (text-based) formats, including markup (XML, HTML) and others. Includes the following formats: [`Html`](./html), [`Txt`](./txt), [`Xml`](./xml). [`Md`](./md), [`Json`](./json).
+Encapsulates all textual (text-based) formats, including markup (XML, HTML) and others. Includes the following formats: [`Html`](./html), [`Txt`](./txt), [`Xml`](./xml), [`Md`](./md), [`Json`](./json), [`Mhtml`](./mhtml), [`Chm`](./chm).
 
 ```csharp
-public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
+public class TextualFormats : DocumentFormatBase
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Extension](../../groupdocs.editor.formats/textualformats/extension) { get; } | Returns an extension (without leading dot character) of this textual format in lower case |
-| [Mime](../../groupdocs.editor.formats/textualformats/mime) { get; } | Returns a MIME code for this format |
-| [Name](../../groupdocs.editor.formats/textualformats/name) { get; } | Returns a formal full name of this textual format |
+| [Extension](../../groupdocs.editor.formats.abstraction/documentformatbase/extension) { get; } | Gets the file extension of the document format. |
+| [FormatFamily](../../groupdocs.editor.formats.abstraction/documentformatbase/formatfamily) { get; } | Gets the format family to which the document format belongs. |
+| [Id](../../groupdocs.editor.formats.abstraction/formatfamilybase/id) { get; } | Gets the unique identifier for the format family. |
+| [Mime](../../groupdocs.editor.formats.abstraction/documentformatbase/mime) { get; } | Gets the MIME type of the document format. |
+| [Name](../../groupdocs.editor.formats.abstraction/formatfamilybase/name) { get; } | Gets the name of the format family. |
+| static [All](../../groupdocs.editor.formats/textualformats/all) { get; } | Gets an enumerable collection of all [`TextualFormats`](../textualformats). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Returns instance of [`TextualFormats`](../textualformats) structure, associated to specified filename extension, or throws an exception, if extension cannot be properly parsed |
-| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals)(IDocumentFormat) | Determines whether this instance is equal to the other specified IDocumentFormat instance |
-| override [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_2)(object) | Determines whether this instance is equal to the other specified object, that is presumably of boxed TextualFormats |
-| [Equals](../../groupdocs.editor.formats/textualformats/equals#equals_1)(TextualFormats) | Determines whether this instance is equal to the other specified TextualFormats instance |
-| override [GetHashCode](../../groupdocs.editor.formats/textualformats/gethashcode)() | Returns a hash-code, that is immutable for this instance |
-| override [ToString](../../groupdocs.editor.formats/textualformats/tostring)() | Returns the name of this particular format, same as 'Name' property |
-| [operator ==](../../groupdocs.editor.formats/textualformats/op_equality) | Checks two given TextualFormats instances on equality |
-| [operator !=](../../groupdocs.editor.formats/textualformats/op_inequality) | Checks two given TextualFormats instances on inequality |
+| static [FromExtension](../../groupdocs.editor.formats/textualformats/fromextension)(string) | Retrieves an instance of the specified type [`TextualFormats`](../textualformats) that has the specified file extension. |
+| [Equals](../../groupdocs.editor.formats.abstraction/formatfamilybase/equals)(FormatFamilyBase) | Determines whether this instance is equal to the specified [`FormatFamilyBase`](../../groupdocs.editor.formats.abstraction/formatfamilybase) instance. |
+| [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(IDocumentFormat) | Determines whether this instance is equal to the specified [`IDocumentFormat`](../../groupdocs.editor.formats.abstraction/idocumentformat) instance. |
+| override [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(object) | Determines whether this instance is equal to the specified [`DocumentFormatBase`](../../groupdocs.editor.formats.abstraction/documentformatbase) instance. |
+| override [GetHashCode](../../groupdocs.editor.formats.abstraction/documentformatbase/gethashcode)() | Returns a hash code for the current object. |
+| override [ToString](../../groupdocs.editor.formats.abstraction/formatfamilybase/tostring)() | Returns a string that represents the current object. |
+| [explicit operator](../../groupdocs.editor.formats/textualformats/op_explicit) | Converts a string representing a file extension to a [`TextualFormats`](../textualformats) object. |
 
 ## Fields
 
@@ -46,17 +48,10 @@ public struct TextualFormats : IDocumentFormat, IEquatable<TextualFormats>
 | static readonly [Mhtml](../../groupdocs.editor.formats/textualformats/mhtml) | MIME encapsulation of aggregate HTML documents is a web page archive format used to combine, in a single computer file, the HTML code and its companion resources. Learn more about this file format [here](https://docs.fileformat.com/web/mhtml/). |
 | static readonly [Txt](../../groupdocs.editor.formats/textualformats/txt) | Plain Text Document (TXT) represents a text document that contains plain text in the form of lines. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/txt). |
 | static readonly [Xml](../../groupdocs.editor.formats/textualformats/xml) | eXtensible Markup Language document (XML) that is similar to HTML but different in using tags for defining objects. Learn more about this file format [here](https://wiki.fileformat.com/web/xml). |
-| static readonly [All](../../groupdocs.editor.formats/textualformats/all) | Returns an internal class, that provides enumerable possibilities over all existing Textual formats. |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| class [AllEnumerable](textualformats.allenumerable) | Implements IEnumerable generic interface, that enables a 'foreach' possibility for the TextualFormats type |
 
 ### See Also
 
-* interface [IDocumentFormat](../idocumentformat)
+* class [DocumentFormatBase](../../groupdocs.editor.formats.abstraction/documentformatbase)
 * namespace [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../)
 

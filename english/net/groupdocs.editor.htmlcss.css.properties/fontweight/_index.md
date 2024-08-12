@@ -3,7 +3,7 @@ title: FontWeight
 second_title: GroupDocs.Editor for .NET API Reference
 description: Fontweight property sets the weight or boldness of the font. The weights available depend on the fontfamily that is currently set.
 type: docs
-weight: 320
+weight: 280
 url: /net/groupdocs.editor.htmlcss.css.properties/fontweight/
 ---
 ## FontWeight structure

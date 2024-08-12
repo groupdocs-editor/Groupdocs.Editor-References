@@ -1,26 +1,22 @@
 ---
 title: Sxc
 second_title: GroupDocs.Editor for .NET API Reference
-description: StarOffice or OpenOffice.org Calc XML Spreadsheet SXC
+description: StarOffice or OpenOffice.org Calc XML Spreadsheet SXC.
 type: docs
 weight: 60
 url: /net/groupdocs.editor.formats/spreadsheetformats/sxc/
 ---
 ## SpreadsheetFormats.Sxc field
 
-StarOffice or OpenOffice.org Calc XML Spreadsheet (SXC)
+StarOffice or OpenOffice.org Calc XML Spreadsheet (SXC).
 
 ```csharp
 public static readonly SpreadsheetFormats Sxc;
 ```
 
-### Remarks
-
-https://en.wikipedia.org/wiki/OpenOffice.org_XML#File_formats
-
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

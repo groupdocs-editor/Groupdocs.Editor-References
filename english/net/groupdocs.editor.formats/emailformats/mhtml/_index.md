@@ -1,14 +1,14 @@
 ---
 title: Mhtml
 second_title: GroupDocs.Editor for .NET API Reference
-description: MHTML an initialism of MIME encapsulation of aggregate HTML documents
+description: MHTML an initialism of MIME encapsulation of aggregate HTML documents.
 type: docs
 weight: 60
 url: /net/groupdocs.editor.formats/emailformats/mhtml/
 ---
 ## EmailFormats.Mhtml field
 
-MHTML, an initialism of "MIME encapsulation of aggregate HTML documents"
+MHTML, an initialism of "MIME encapsulation of aggregate HTML documents".
 
 ```csharp
 public static readonly EmailFormats Mhtml;
@@ -16,7 +16,7 @@ public static readonly EmailFormats Mhtml;
 
 ### See Also
 
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

@@ -1,14 +1,14 @@
 ---
 title: Potm
 second_title: GroupDocs.Editor for .NET API Reference
-description: Microsoft Office Open XML PresentationML MacroEnabled Template POTM are files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format herehttps//wiki.fileformat.com/presentation/potm.
+description: Microsoft Office Open XML PresentationML MacroEnabled Template POTM. Learn more about this file format herehttps//wiki.fileformat.com/presentation/potm.
 type: docs
 weight: 40
 url: /net/groupdocs.editor.formats/presentationformats/potm/
 ---
 ## PresentationFormats.Potm field
 
-Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM) are files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format [here](https://wiki.fileformat.com/presentation/potm).
+Microsoft Office Open XML PresentationML Macro-Enabled Template (POTM). Learn more about this file format [here](https://wiki.fileformat.com/presentation/potm).
 
 ```csharp
 public static readonly PresentationFormats Potm;
@@ -16,7 +16,7 @@ public static readonly PresentationFormats Potm;
 
 ### See Also
 
-* struct [PresentationFormats](../../presentationformats)
+* class [PresentationFormats](../../presentationformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

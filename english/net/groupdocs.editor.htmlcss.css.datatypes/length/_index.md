@@ -3,7 +3,7 @@ title: Length
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a CSS length value in any supportable unit including percentage and unitless type. Values may be integer or float negative zero and positive. Immutable structure.
 type: docs
-weight: 270
+weight: 230
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/
 ---
 ## Length structure

@@ -1,14 +1,14 @@
 ---
 title: FlatOpc
 second_title: GroupDocs.Editor for .NET API Reference
-description: Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package
+description: Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package.
 type: docs
 weight: 70
 url: /net/groupdocs.editor.formats/wordprocessingformats/flatopc/
 ---
 ## WordProcessingFormats.FlatOpc field
 
-Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package
+Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package.
 
 ```csharp
 public static readonly WordProcessingFormats FlatOpc;
@@ -16,7 +16,7 @@ public static readonly WordProcessingFormats FlatOpc;
 
 ### See Also
 
-* struct [WordProcessingFormats](../../wordprocessingformats)
+* class [WordProcessingFormats](../../wordprocessingformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

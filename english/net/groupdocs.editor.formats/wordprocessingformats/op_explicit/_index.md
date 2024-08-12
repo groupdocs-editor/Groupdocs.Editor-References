@@ -1,46 +1,36 @@
 ---
 title: op_Explicit
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a byte value from underlying field of specified WordProcessingFormats instance
+description: Converts a string representing a file extension to a WordProcessingFormatsgroupdocs.editor.formats/wordprocessingformats object.
 type: docs
-weight: 210
+weight: 140
 url: /net/groupdocs.editor.formats/wordprocessingformats/op_explicit/
 ---
-## explicit operator {#op_explicit}
+## WordProcessingFormats Explicit operator
 
-Returns a byte value from underlying field of specified WordProcessingFormats instance
+Converts a string representing a file extension to a [`WordProcessingFormats`](../../wordprocessingformats) object.
 
 ```csharp
-public static explicit operator byte(WordProcessingFormats input)
+public static explicit operator WordProcessingFormats(string extension)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | WordProcessingFormats | Input WordProcessingFormats instance |
+| extension | String | The file extension to convert. If the extension contains multiple periods, the part after the last period is used. |
+
+### Return Value
+
+A [`WordProcessingFormats`](../../wordprocessingformats) object corresponding to the specified file extension.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when the specified file extension is null. |
 
 ### See Also
 
-* struct [WordProcessingFormats](../../wordprocessingformats)
-* namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
-* assembly [GroupDocs.Editor](../../../)
-
----
-
-## explicit operator {#op_explicit_1}
-
-Casts specified raw byte value to valid WordProcessingFormats instance and returns it or throws an exception, is specified value is invalid
-
-```csharp
-public static explicit operator WordProcessingFormats(byte raw)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| raw | Byte | Raw byte value |
-
-### See Also
-
-* struct [WordProcessingFormats](../../wordprocessingformats)
+* class [WordProcessingFormats](../../wordprocessingformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

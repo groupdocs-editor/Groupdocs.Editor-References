@@ -1,14 +1,14 @@
 ---
 title: Xltx
 second_title: GroupDocs.Editor for .NET API Reference
-description: Office Open XML Template MacroFree XLTX file represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xltx.
+description: Office Open XML Template MacroFree XLTX. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xltx.
 type: docs
 weight: 150
 url: /net/groupdocs.editor.formats/spreadsheetformats/xltx/
 ---
 ## SpreadsheetFormats.Xltx field
 
-Office Open XML Template Macro-Free (XLTX) file represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xltx).
+Office Open XML Template Macro-Free (XLTX). Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xltx).
 
 ```csharp
 public static readonly SpreadsheetFormats Xltx;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Xltx;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

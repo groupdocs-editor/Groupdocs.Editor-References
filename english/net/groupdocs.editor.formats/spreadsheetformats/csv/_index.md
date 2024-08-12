@@ -1,14 +1,14 @@
 ---
 title: Csv
 second_title: GroupDocs.Editor for .NET API Reference
-description: Comma Separated Values CSV documents represent plain text that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/csv/.
+description: Comma Separated Values CSV. Learn more about this file format herehttps//docs.fileformat.com/spreadsheet/csv/.
 type: docs
 weight: 10
 url: /net/groupdocs.editor.formats/spreadsheetformats/csv/
 ---
 ## SpreadsheetFormats.Csv field
 
-Comma Separated Values (CSV) documents represent plain text that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/csv/).
+Comma Separated Values (CSV). Learn more about this file format [here](https://docs.fileformat.com/spreadsheet/csv/).
 
 ```csharp
 public static readonly SpreadsheetFormats Csv;
@@ -16,7 +16,7 @@ public static readonly SpreadsheetFormats Csv;
 
 ### See Also
 
-* struct [SpreadsheetFormats](../../spreadsheetformats)
+* class [SpreadsheetFormats](../../spreadsheetformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

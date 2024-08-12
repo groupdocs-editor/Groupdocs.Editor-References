@@ -1,23 +1,26 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns an internal class that provides enumerable possibilities over all existing EBook formats
+description: Gets an enumerable collection of all EBookFormatsgroupdocs.editor.formats/ebookformats.
 type: docs
-weight: 110
+weight: 50
 url: /net/groupdocs.editor.formats/ebookformats/all/
 ---
-## EBookFormats.All field
+## EBookFormats.All property
 
-Returns an internal class, that provides enumerable possibilities over all existing EBook formats
+Gets an enumerable collection of all [`EBookFormats`](../../ebookformats).
 
 ```csharp
-public static readonly AllEnumerable All;
+public static IEnumerable<EBookFormats> All { get; }
 ```
+
+### Property Value
+
+An IEnumerable containing all instances of [`EBookFormats`](../../ebookformats).
 
 ### See Also
 
-* class [AllEnumerable](../../ebookformats.allenumerable)
-* struct [EBookFormats](../../ebookformats)
+* class [EBookFormats](../../ebookformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

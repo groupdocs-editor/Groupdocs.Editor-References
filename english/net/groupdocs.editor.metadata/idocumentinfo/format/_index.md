@@ -11,12 +11,12 @@ url: /net/groupdocs.editor.metadata/idocumentinfo/format/
 In implementing type should return a document format as a single value from a type, that represents one format family and inherits from IDocumentFormat interface
 
 ```csharp
-public IDocumentFormat Format { get; }
+public DocumentFormatBase Format { get; }
 ```
 
 ### See Also
 
-* interface [IDocumentFormat](../../../groupdocs.editor.formats/idocumentformat)
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
 * interface [IDocumentInfo](../../idocumentinfo)
 * namespace [GroupDocs.Editor.Metadata](../../../groupdocs.editor.metadata)
 * assembly [GroupDocs.Editor](../../../)

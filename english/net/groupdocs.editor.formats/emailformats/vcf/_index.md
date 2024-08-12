@@ -16,7 +16,7 @@ public static readonly EmailFormats Vcf;
 
 ### See Also
 
-* struct [EmailFormats](../../emailformats)
+* class [EmailFormats](../../emailformats)
 * namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
 * assembly [GroupDocs.Editor](../../../)
 

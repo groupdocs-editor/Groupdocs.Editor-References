@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.images.vector
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.images.vector namespace provides classes that represent only vector image resources.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.editor.htmlcss.resources.images.vector/
 ---
 

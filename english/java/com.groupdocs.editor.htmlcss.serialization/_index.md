@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.serialization
 second_title: GroupDocs.Editor for Java API Reference
 description: The com.groupdocs.editor.htmlcss.serialization namespace provides types that are responsible for tuning HTML and CSS markup serialization process..
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.editor.htmlcss.serialization/
 ---
 

@@ -13,6 +13,7 @@ version: 24.9
 | --- | --- |
 | [com.groupdocs.editor](./com.groupdocs.editor) | The **com.groupdocs.editor** namespace is a root namespace, which provides classes for editing multiple document formats in your Java applications. |
 | [com.groupdocs.editor.formats](./com.groupdocs.editor.formats) | The **com.groupdocs.editor.formats** namespace provides interfaces and classes that describes supported document formats. |
+| [com.groupdocs.editor.formats.abstraction](./com.groupdocs.editor.formats.abstraction) |  |
 | [com.groupdocs.editor.htmlcss.css.datatypes](./com.groupdocs.editor.htmlcss.css.datatypes) | The **com.groupdocs.editor.htmlcss.css.datatypes** namespace provides classes that represent CSS data types. |
 | [com.groupdocs.editor.htmlcss.css.properties](./com.groupdocs.editor.htmlcss.css.properties) |  |
 | [com.groupdocs.editor.htmlcss.exceptions](./com.groupdocs.editor.htmlcss.exceptions) | The **com.groupdocs.editor.htmlcss.exceptions** namespace provides exceptions that is thrown when trying to open, load, save or process somehow else some content. |

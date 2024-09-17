@@ -22,7 +22,7 @@ Represents different types of serialization the HTML tag names
 | [FirstLetterUpperCase](#FirstLetterUpperCase) | First letter in the tag name will be serialized in Upper case, while all others - in lower. |
 ### LowerCase {#LowerCase}
 ```
-public static final byte LowerCase
+public static final int LowerCase
 ```
 
 
@@ -30,7 +30,7 @@ all-lower - all letters in the tag name will be serialized in lower case
 
 ### UpperCase {#UpperCase}
 ```
-public static final byte UpperCase
+public static final int UpperCase
 ```
 
 
@@ -38,7 +38,7 @@ ALL-CAPITAL - all letters in the tag name will be serialized in UPPER case
 
 ### FirstLetterUpperCase {#FirstLetterUpperCase}
 ```
-public static final byte FirstLetterUpperCase
+public static final int FirstLetterUpperCase
 ```
 
 

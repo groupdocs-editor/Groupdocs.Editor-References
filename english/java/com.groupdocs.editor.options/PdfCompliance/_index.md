@@ -26,7 +26,7 @@ Specifies the PDF standards compliance level
 | [PdfUa1](#PdfUa1) | PDF/UA-1 (ISO 14289-1) standard. |
 ### Pdf17 {#Pdf17}
 ```
-public static final byte Pdf17
+public static final int Pdf17
 ```
 
 
@@ -34,7 +34,7 @@ PDF 1.7 (ISO 32000-1) standard
 
 ### Pdf20 {#Pdf20}
 ```
-public static final byte Pdf20
+public static final int Pdf20
 ```
 
 
@@ -42,7 +42,7 @@ PDF 2.0 (ISO 32000-2) standard
 
 ### PdfA1a {#PdfA1a}
 ```
-public static final byte PdfA1a
+public static final int PdfA1a
 ```
 
 
@@ -54,7 +54,7 @@ Note that exporting the document structure significantly increases the memory co
 
 ### PdfA1b {#PdfA1b}
 ```
-public static final byte PdfA1b
+public static final int PdfA1b
 ```
 
 
@@ -62,7 +62,7 @@ PDF/A-1b (ISO 19005-1). PDF/A-1b has the objective of ensuring reliable reproduc
 
 ### PdfA2a {#PdfA2a}
 ```
-public static final byte PdfA2a
+public static final int PdfA2a
 ```
 
 
@@ -74,7 +74,7 @@ Note that exporting the document structure significantly increases the memory co
 
 ### PdfA2u {#PdfA2u}
 ```
-public static final byte PdfA2u
+public static final int PdfA2u
 ```
 
 
@@ -82,7 +82,7 @@ PDF/A-2u (ISO 19005-2) standard. PDF/A-2u has the objective of preserving docume
 
 ### PdfUa1 {#PdfUa1}
 ```
-public static final byte PdfUa1
+public static final int PdfUa1
 ```
 
 

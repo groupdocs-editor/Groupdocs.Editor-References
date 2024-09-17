@@ -25,6 +25,7 @@ This type is designed to be useful for (but not limited to) CSS operations. See 
 | Constructor | Description |
 | --- | --- |
 | [ArgbColor()](#ArgbColor--) |  |
+| [ArgbColor(int r, int g, int b)](#ArgbColor-int-int-int-) |  |
 ## Methods
 
 | Method | Description |
@@ -60,6 +61,19 @@ This type is designed to be useful for (but not limited to) CSS operations. See 
 public ArgbColor()
 ```
 
+
+### ArgbColor(int r, int g, int b) {#ArgbColor-int-int-int-}
+```
+public ArgbColor(int r, int g, int b)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| r | int |  |
+| g | int |  |
+| b | int |  |
 
 ### fromRgba(int red, int green, int blue, int alpha) {#fromRgba-int-int-int-int-}
 ```

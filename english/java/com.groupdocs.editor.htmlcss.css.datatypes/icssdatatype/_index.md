@@ -3,7 +3,7 @@ title: ICssDataType
 second_title: GroupDocs.Editor for Java API Reference
 description: Common interface for all CSS data types which are used in the CSS properties
 type: docs
-weight: 13
+weight: 15
 url: /java/com.groupdocs.editor.htmlcss.css.datatypes/icssdatatype/
 ---
 **All Implemented Interfaces:**

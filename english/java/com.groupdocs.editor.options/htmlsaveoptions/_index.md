@@ -23,7 +23,7 @@ Allows to specify custom options for saving the [EditableDocument](../../com.gro
 | Method | Description |
 | --- | --- |
 | [getHtmlTagCase()](#getHtmlTagCase--) | Controls how the HTML tag names will be present in HTML markup: All lower case (default value), All upper case, or First letter upper case |
-| [setHtmlTagCase(byte value)](#setHtmlTagCase-byte-) | Controls how the HTML tag names will be present in HTML markup: All lower case (default value), All upper case, or First letter upper case |
+| [setHtmlTagCase(int value)](#setHtmlTagCase-int-) | Controls how the HTML tag names will be present in HTML markup: All lower case (default value), All upper case, or First letter upper case |
 | [getAttributeValueDelimiter()](#getAttributeValueDelimiter--) | Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or double quote |
 | [setAttributeValueDelimiter(int value)](#setAttributeValueDelimiter-int-) | Controls which delimiter around the attribute values in HTML elements will be used: single quote (default value) or double quote |
 | [getEmbedStylesheetsIntoMarkup()](#getEmbedStylesheetsIntoMarkup--) | Controls where to store the CSS stylesheet(s): as external resources ( false ), or embed them into the HTML markup, inside the STYLE element in the HTML->HEAD section ( true ) |
@@ -38,17 +38,17 @@ public HtmlSaveOptions()
 
 ### getHtmlTagCase() {#getHtmlTagCase--}
 ```
-public final byte getHtmlTagCase()
+public final int getHtmlTagCase()
 ```
 
 
 Controls how the HTML tag names will be present in HTML markup: All lower case (default value), All upper case, or First letter upper case
 
 **Returns:**
-byte
-### setHtmlTagCase(byte value) {#setHtmlTagCase-byte-}
+int
+### setHtmlTagCase(int value) {#setHtmlTagCase-int-}
 ```
-public final void setHtmlTagCase(byte value)
+public final void setHtmlTagCase(int value)
 ```
 
 
@@ -57,7 +57,7 @@ Controls how the HTML tag names will be present in HTML markup: All lower case (
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getAttributeValueDelimiter() {#getAttributeValueDelimiter--}
 ```

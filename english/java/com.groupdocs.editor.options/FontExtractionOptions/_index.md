@@ -28,7 +28,7 @@ Font extraction options control which fonts should be extracted and from where
 | [getFontExtractionOptions()](#getFontExtractionOptions--) |  |
 ### NotExtract {#NotExtract}
 ```
-public static final byte NotExtract
+public static final int NotExtract
 ```
 
 
@@ -36,7 +36,7 @@ Does not extract any font resource neither from document not from the system. De
 
 ### ExtractAllEmbedded {#ExtractAllEmbedded}
 ```
-public static final byte ExtractAllEmbedded
+public static final int ExtractAllEmbedded
 ```
 
 
@@ -48,7 +48,7 @@ Converter finds and extracts all 100% font resources, which are embedded into th
 
 ### ExtractEmbeddedWithoutSystem {#ExtractEmbeddedWithoutSystem}
 ```
-public static final byte ExtractEmbeddedWithoutSystem
+public static final int ExtractEmbeddedWithoutSystem
 ```
 
 
@@ -60,7 +60,7 @@ Converter finds and extracts all embedded font resources, and then tries to dete
 
 ### ExtractAll {#ExtractAll}
 ```
-public static final byte ExtractAll
+public static final int ExtractAll
 ```
 
 
@@ -72,11 +72,11 @@ Converter is analyzing an input WordProcessing document and finds all fonts, whi
 
 ### getFontExtractionOptions() {#getFontExtractionOptions--}
 ```
-public static byte[] getFontExtractionOptions()
+public static int[] getFontExtractionOptions()
 ```
 
 
 
 
 **Returns:**
-byte[]
+int[]

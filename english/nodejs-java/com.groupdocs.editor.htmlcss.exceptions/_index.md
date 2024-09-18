@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.exceptions
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.exceptions namespace provides exceptions that is thrown when trying to open load save or process somehow else some content.
 type: docs
-weight: 14
+weight: 15
 url: /nodejs-java/com.groupdocs.editor.htmlcss.exceptions/
 ---
 

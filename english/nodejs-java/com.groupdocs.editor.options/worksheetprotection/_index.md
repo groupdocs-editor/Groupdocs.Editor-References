@@ -22,13 +22,13 @@ Most of Spreadsheet formats like XLSX allows to protect a worksheet from editing
 | Constructor | Description |
 | --- | --- |
 | [WorksheetProtection()](#WorksheetProtection--) | Creates new instance with default parameters. |
-| [WorksheetProtection(byte protectionType, String password)](#WorksheetProtection-byte-java.lang.String-) | Creates new instance with specified worksheet protection type and password |
+| [WorksheetProtection(int protectionType, String password)](#WorksheetProtection-int-java.lang.String-) | Creates new instance with specified worksheet protection type and password |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getProtectionType()](#getProtectionType--) | Allows to specify a type of worksheet protection. |
-| [setProtectionType(byte value)](#setProtectionType-byte-) | Allows to specify a type of worksheet protection. |
+| [setProtectionType(int value)](#setProtectionType-int-) | Allows to specify a type of worksheet protection. |
 | [getPassword()](#getPassword--) | Password, which is used for protecting a worksheet. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Password, which is used for protecting a worksheet. |
 ### WorksheetProtection() {#WorksheetProtection--}
@@ -39,9 +39,9 @@ public WorksheetProtection()
 
 Creates new instance with default parameters. If not modified and passed to SpreadsheetSaveOptions, no worksheet protection will be applied
 
-### WorksheetProtection(byte protectionType, String password) {#WorksheetProtection-byte-java.lang.String-}
+### WorksheetProtection(int protectionType, String password) {#WorksheetProtection-int-java.lang.String-}
 ```
-public WorksheetProtection(byte protectionType, String password)
+public WorksheetProtection(int protectionType, String password)
 ```
 
 
@@ -50,22 +50,22 @@ Creates new instance with specified worksheet protection type and password
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | byte | Type of worksheet protection |
+| protectionType | int | Type of worksheet protection |
 | password | java.lang.String | Password, that locks the protection |
 
 ### getProtectionType() {#getProtectionType--}
 ```
-public final byte getProtectionType()
+public final int getProtectionType()
 ```
 
 
 Allows to specify a type of worksheet protection. By default is 'None' - protection is not applied.
 
 **Returns:**
-byte
-### setProtectionType(byte value) {#setProtectionType-byte-}
+int
+### setProtectionType(int value) {#setProtectionType-int-}
 ```
-public final void setProtectionType(byte value)
+public final void setProtectionType(int value)
 ```
 
 
@@ -74,7 +74,7 @@ Allows to specify a type of worksheet protection. By default is 'None' - protect
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getPassword() {#getPassword--}
 ```

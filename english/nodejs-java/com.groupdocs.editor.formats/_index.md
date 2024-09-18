@@ -21,9 +21,3 @@ The **com.groupdocs.editor.formats** namespace provides interfaces and classes t
 | [SpreadsheetFormats](../com.groupdocs.editor.formats/spreadsheetformats) | Encapsulates all binary, XML and textual Spreadsheet formats (excluding all textual delimiter-based formats with separator like CSV, TSV, semicolon-delimited etc.), in which the workbook can be saved. |
 | [TextualFormats](../com.groupdocs.editor.formats/textualformats) | Encapsulates all textual (text-based) formats, including markup (XML, HTML) and others. |
 | [WordProcessingFormats](../com.groupdocs.editor.formats/wordprocessingformats) | Encapsulates all WordProcessing formats. |
-
-## Interfaces
-
-| Interface | Description |
-| --- | --- |
-| [IDocumentFormat](../com.groupdocs.editor.formats/idocumentformat) | Root interface for all supporting document formats |

@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.images
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.images namespace provides classes that represent image resources of all types in general.
 type: docs
-weight: 18
+weight: 19
 url: /nodejs-java/com.groupdocs.editor.htmlcss.resources.images/
 ---
 

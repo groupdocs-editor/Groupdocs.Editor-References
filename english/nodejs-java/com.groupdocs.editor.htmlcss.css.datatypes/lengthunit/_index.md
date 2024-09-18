@@ -9,7 +9,7 @@ url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/lengthunit/
 **Inheritance:**
 java.lang.Object
 ```
-public final class LengthUnit
+public class LengthUnit
 ```
 
 All supported length units
@@ -48,7 +48,7 @@ All supported length units
 | [getUnits()](#getUnits--) |  |
 ### Unitless {#Unitless}
 ```
-public static final byte Unitless
+public static final int Unitless
 ```
 
 
@@ -56,7 +56,7 @@ Unitless - no defined length unit. Default value.
 
 ### Px {#Px}
 ```
-public static final byte Px
+public static final int Px
 ```
 
 
@@ -64,7 +64,7 @@ Pixel. Relative to the viewing device. For screen display, typically one device 
 
 ### Em {#Em}
 ```
-public static final byte Em
+public static final int Em
 ```
 
 
@@ -72,7 +72,7 @@ Em. This unit represents the calculated font-size of the element.
 
 ### Ex {#Ex}
 ```
-public static final byte Ex
+public static final int Ex
 ```
 
 
@@ -80,7 +80,7 @@ Ex (x-length). This unit represents the x-height of the element's font. On fonts
 
 ### Cm {#Cm}
 ```
-public static final byte Cm
+public static final int Cm
 ```
 
 
@@ -88,7 +88,7 @@ Cm. One centimeter (10 millimeters).
 
 ### Mm {#Mm}
 ```
-public static final byte Mm
+public static final int Mm
 ```
 
 
@@ -96,7 +96,7 @@ Mm. One millimeter.
 
 ### In {#In}
 ```
-public static final byte In
+public static final int In
 ```
 
 
@@ -104,7 +104,7 @@ In. One inch (2.54 centimeters).
 
 ### Pt {#Pt}
 ```
-public static final byte Pt
+public static final int Pt
 ```
 
 
@@ -112,7 +112,7 @@ Pt. One point is 1/72th of an inch or 0.353 mm.
 
 ### Pc {#Pc}
 ```
-public static final byte Pc
+public static final int Pc
 ```
 
 
@@ -120,7 +120,7 @@ Pc. One pica (12 points).
 
 ### Ch {#Ch}
 ```
-public static final byte Ch
+public static final int Ch
 ```
 
 
@@ -128,7 +128,7 @@ Ch. This unit represents the width, or more precisely the advance measure, of th
 
 ### Rem {#Rem}
 ```
-public static final byte Rem
+public static final int Rem
 ```
 
 
@@ -136,7 +136,7 @@ Rem. This unit represents the font-size of the root element (e.g. the font-size 
 
 ### Vw {#Vw}
 ```
-public static final byte Vw
+public static final int Vw
 ```
 
 
@@ -144,7 +144,7 @@ Vw - viewport width. 1/100th of the width of the viewport.
 
 ### Vh {#Vh}
 ```
-public static final byte Vh
+public static final int Vh
 ```
 
 
@@ -152,7 +152,7 @@ Vh - viewport height. 1/100th of the height of the viewport.
 
 ### Vmin {#Vmin}
 ```
-public static final byte Vmin
+public static final int Vmin
 ```
 
 
@@ -160,7 +160,7 @@ Vmin. 1/100th of the minimum value between the height and the width of the viewp
 
 ### Vmax {#Vmax}
 ```
-public static final byte Vmax
+public static final int Vmax
 ```
 
 
@@ -168,7 +168,7 @@ Vmax. 1/100th of the maximum value between the height and the width of the viewp
 
 ### Percent {#Percent}
 ```
-public static final byte Percent
+public static final int Percent
 ```
 
 
@@ -176,21 +176,21 @@ The value is relative to a fixed (external) value, that is context dependent. 1%
 
 ### getUnit() {#getUnit--}
 ```
-public static byte[] getUnit()
+public static Integer[] getUnit()
 ```
 
 
 
 
 **Returns:**
-byte[]
+java.lang.Integer[]
 ### getUnits() {#getUnits--}
 ```
-public static Map<Byte,String> getUnits()
+public static Map<Integer,String> getUnits()
 ```
 
 
 
 
 **Returns:**
-java.util.Map<java.lang.Byte,java.lang.String>
+java.util.Map<java.lang.Integer,java.lang.String>

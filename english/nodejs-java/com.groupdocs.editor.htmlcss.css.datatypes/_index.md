@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.css.datatypes
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.css.datatypes namespace provides classes that represent CSS data types.
 type: docs
-weight: 12
+weight: 13
 url: /nodejs-java/com.groupdocs.editor.htmlcss.css.datatypes/
 ---
 

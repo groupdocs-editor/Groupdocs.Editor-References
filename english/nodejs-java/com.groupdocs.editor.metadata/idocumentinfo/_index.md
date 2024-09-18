@@ -50,11 +50,11 @@ Indicates whether specific file is encrypted and requires password for opening. 
 boolean - 
 ### getFormat() {#getFormat--}
 ```
-public abstract IDocumentFormat getFormat()
+public abstract DocumentFormatBase getFormat()
 ```
 
 
 Returns a document format
 
 **Returns:**
-[IDocumentFormat](../../com.groupdocs.editor.formats/idocumentformat) - 
+[DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase) - 

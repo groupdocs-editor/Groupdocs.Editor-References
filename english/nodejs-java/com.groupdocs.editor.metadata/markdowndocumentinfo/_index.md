@@ -27,14 +27,14 @@ Represents metadata of one Markdown document
 | [equals(MarkdownDocumentInfo other)](#equals-com.groupdocs.editor.metadata.MarkdownDocumentInfo-) | Determines whether this instance is equal to the other specified [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance. |
 ### getFormat() {#getFormat--}
 ```
-public final TextualFormats getFormat()
+public final DocumentFormatBase getFormat()
 ```
 
 
 Returns a format of this Markdown document \\u2014 always is [TextualFormats.Md](../../com.groupdocs.editor.formats/textualformats\#Md)
 
 **Returns:**
-[TextualFormats](../../com.groupdocs.editor.formats/textualformats)
+[DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()

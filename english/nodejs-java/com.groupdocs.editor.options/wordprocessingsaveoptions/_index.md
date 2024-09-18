@@ -47,7 +47,7 @@ WordProcessingSaveOptions is applied in situations when there is an instance of 
 | [getProtection()](#getProtection--) | Allows to control and apply the document protection options for the WordProcessing document of any format, which supports document protection. |
 | [setProtection(WordProcessingProtection value)](#setProtection-com.groupdocs.editor.options.WordProcessingProtection-) | Allows to control and apply the document protection options for the WordProcessing document of any format, which supports document protection. |
 | [getFontEmbedding()](#getFontEmbedding--) | Responsible for embedding font resources into output WordProcessing document. |
-| [setFontEmbedding(byte value)](#setFontEmbedding-byte-) | Responsible for embedding font resources into output WordProcessing document. |
+| [setFontEmbedding(int value)](#setFontEmbedding-int-) | Responsible for embedding font resources into output WordProcessing document. |
 | [deepClone()](#deepClone--) | Creates and returns a full copy of this instance of WordProcessingSaveOptions class |
 ### WordProcessingSaveOptions() {#WordProcessingSaveOptions--}
 ```
@@ -280,17 +280,17 @@ Allows to control and apply the document protection options for the WordProcessi
 
 ### getFontEmbedding() {#getFontEmbedding--}
 ```
-public final byte getFontEmbedding()
+public final int getFontEmbedding()
 ```
 
 
 Responsible for embedding font resources into output WordProcessing document. By default doesn't embed any fonts (NotEmbed).
 
 **Returns:**
-byte - 
-### setFontEmbedding(byte value) {#setFontEmbedding-byte-}
+int - 
+### setFontEmbedding(int value) {#setFontEmbedding-int-}
 ```
-public final void setFontEmbedding(byte value)
+public final void setFontEmbedding(int value)
 ```
 
 
@@ -299,7 +299,7 @@ Responsible for embedding font resources into output WordProcessing document. By
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### deepClone() {#deepClone--}
 ```

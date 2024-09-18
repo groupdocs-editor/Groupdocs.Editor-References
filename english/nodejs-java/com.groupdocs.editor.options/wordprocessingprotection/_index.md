@@ -18,16 +18,16 @@ Encapsulates document protection options for the WordProcessing document, which 
 | Constructor | Description |
 | --- | --- |
 | [WordProcessingProtection()](#WordProcessingProtection--) | Parameterless constructor - all parameters have default values |
-| [WordProcessingProtection(byte protectionType, String password)](#WordProcessingProtection-byte-java.lang.String-) | Allows to set all parameters during class instantiation |
+| [WordProcessingProtection(int protectionType, String password)](#WordProcessingProtection-int-java.lang.String-) | Allows to set all parameters during class instantiation |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getProtectionType()](#getProtectionType--) | Allows to set a protection type of the document. |
-| [setProtectionType(byte value)](#setProtectionType-byte-) | Allows to set a protection type of the document. |
+| [setProtectionType(int value)](#setProtectionType-int-) | Allows to set a protection type of the document. |
 | [getPassword()](#getPassword--) | The password to protect the document with. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | The password to protect the document with. |
-| [convertToAsposeWords(byte protectionType)](#convertToAsposeWords-byte-) |  |
+| [convertToAsposeWords(int protectionType)](#convertToAsposeWords-int-) |  |
 ### WordProcessingProtection() {#WordProcessingProtection--}
 ```
 public WordProcessingProtection()
@@ -36,9 +36,9 @@ public WordProcessingProtection()
 
 Parameterless constructor - all parameters have default values
 
-### WordProcessingProtection(byte protectionType, String password) {#WordProcessingProtection-byte-java.lang.String-}
+### WordProcessingProtection(int protectionType, String password) {#WordProcessingProtection-int-java.lang.String-}
 ```
-public WordProcessingProtection(byte protectionType, String password)
+public WordProcessingProtection(int protectionType, String password)
 ```
 
 
@@ -47,22 +47,22 @@ Allows to set all parameters during class instantiation
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | byte | Set the protection type of the document |
+| protectionType | int | Set the protection type of the document |
 | password | java.lang.String | Set the protection password |
 
 ### getProtectionType() {#getProtectionType--}
 ```
-public final byte getProtectionType()
+public final int getProtectionType()
 ```
 
 
 Allows to set a protection type of the document. By default is set to not protect the document at all.
 
 **Returns:**
-byte
-### setProtectionType(byte value) {#setProtectionType-byte-}
+int
+### setProtectionType(int value) {#setProtectionType-int-}
 ```
-public final void setProtectionType(byte value)
+public final void setProtectionType(int value)
 ```
 
 
@@ -71,7 +71,7 @@ Allows to set a protection type of the document. By default is set to not protec
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getPassword() {#getPassword--}
 ```
@@ -96,9 +96,9 @@ The password to protect the document with. If null or empty string - the protect
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### convertToAsposeWords(byte protectionType) {#convertToAsposeWords-byte-}
+### convertToAsposeWords(int protectionType) {#convertToAsposeWords-int-}
 ```
-public static int convertToAsposeWords(byte protectionType)
+public static int convertToAsposeWords(int protectionType)
 ```
 
 
@@ -107,7 +107,7 @@ public static int convertToAsposeWords(byte protectionType)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | byte |  |
+| protectionType | int |  |
 
 **Returns:**
 int

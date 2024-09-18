@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Editor for Java API Reference
 description: The exception that is thrown when user tries to open a password-protected encrypted document of some format and doesnt provide a password for opening this document.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.editor/passwordrequiredexception/
 ---
 **Inheritance:**

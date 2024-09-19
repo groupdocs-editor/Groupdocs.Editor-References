@@ -28,9 +28,9 @@ Allows to specify custom options for generating and saving PDF (Portable Documen
 | [getPassword()](#getPassword--) | Password, which will be applied to the generated PDF document as user password, required for opening. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Password, which will be applied to the generated PDF document as user password, required for opening. |
 | [getCompliance()](#getCompliance--) | Specifies the PDF standards compliance level for output documents. |
-| [setCompliance(byte value)](#setCompliance-byte-) | Specifies the PDF standards compliance level for output documents. |
+| [setCompliance(int value)](#setCompliance-int-) | Specifies the PDF standards compliance level for output documents. |
 | [getFontEmbedding()](#getFontEmbedding--) | Responsible for embedding font resources into resultant PDF document, which are used in the original document. |
-| [setFontEmbedding(byte value)](#setFontEmbedding-byte-) | Responsible for embedding font resources into resultant PDF document, which are used in the original document. |
+| [setFontEmbedding(int value)](#setFontEmbedding-int-) | Responsible for embedding font resources into resultant PDF document, which are used in the original document. |
 | [getOptimizeMemoryUsage()](#getOptimizeMemoryUsage--) | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. |
 | [setOptimizeMemoryUsage(boolean value)](#setOptimizeMemoryUsage-boolean-) | Enables memory optimization mechanisms during document generation from HTML, which degrades performance in as a cost of decreasing memory usage. |
 ### PdfSaveOptions() {#PdfSaveOptions--}
@@ -64,17 +64,17 @@ Password, which will be applied to the generated PDF document as user password, 
 
 ### getCompliance() {#getCompliance--}
 ```
-public final byte getCompliance()
+public final int getCompliance()
 ```
 
 
 Specifies the PDF standards compliance level for output documents. Default is PdfCompliance.Pdf17.
 
 **Returns:**
-byte
-### setCompliance(byte value) {#setCompliance-byte-}
+int
+### setCompliance(int value) {#setCompliance-int-}
 ```
-public final void setCompliance(byte value)
+public final void setCompliance(int value)
 ```
 
 
@@ -83,21 +83,21 @@ Specifies the PDF standards compliance level for output documents. Default is Pd
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getFontEmbedding() {#getFontEmbedding--}
 ```
-public final byte getFontEmbedding()
+public final int getFontEmbedding()
 ```
 
 
 Responsible for embedding font resources into resultant PDF document, which are used in the original document. By default doesn't embed any fonts (NotEmbed).
 
 **Returns:**
-byte
-### setFontEmbedding(byte value) {#setFontEmbedding-byte-}
+int
+### setFontEmbedding(int value) {#setFontEmbedding-int-}
 ```
-public final void setFontEmbedding(byte value)
+public final void setFontEmbedding(int value)
 ```
 
 
@@ -106,7 +106,7 @@ Responsible for embedding font resources into resultant PDF document, which are 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getOptimizeMemoryUsage() {#getOptimizeMemoryUsage--}
 ```

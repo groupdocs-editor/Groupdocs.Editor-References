@@ -16,6 +16,11 @@ public class WordProcessingDocumentInfo implements IDocumentInfo
 ```
 
 Represents metadata of one WordProcessing document
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [WordProcessingDocumentInfo()](#WordProcessingDocumentInfo--) |  |
 ## Methods
 
 | Method | Description |
@@ -26,6 +31,12 @@ Represents metadata of one WordProcessing document
 | [isEncrypted()](#isEncrypted--) | Determines whether this specific WordProcessing document in encrypted and requires password for opening |
 | [generatePreview(int pageIndex)](#generatePreview-int-) | Generates and returns a preview of the selected page in a form of SVG image |
 | [equals(WordProcessingDocumentInfo other)](#equals-com.groupdocs.editor.metadata.WordProcessingDocumentInfo-) | Determines whether this instance is equal to the other specified WordProcessingDocumentInfo instance |
+### WordProcessingDocumentInfo() {#WordProcessingDocumentInfo--}
+```
+public WordProcessingDocumentInfo()
+```
+
+
 ### getFormat() {#getFormat--}
 ```
 public final WordProcessingFormats getFormat()

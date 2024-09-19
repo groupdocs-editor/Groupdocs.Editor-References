@@ -16,6 +16,11 @@ public class SpreadsheetDocumentInfo implements IDocumentInfo
 ```
 
 Represents metadata of one Spreadsheet document
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SpreadsheetDocumentInfo()](#SpreadsheetDocumentInfo--) |  |
 ## Methods
 
 | Method | Description |
@@ -26,6 +31,12 @@ Represents metadata of one Spreadsheet document
 | [isEncrypted()](#isEncrypted--) | Indicates whether this specific Spreadsheet document in encrypted and requires password for opening |
 | [generatePreview(int worksheetIndex)](#generatePreview-int-) | Generates and returns a preview of the selected worksheet in a form of SVG image |
 | [equals(SpreadsheetDocumentInfo other)](#equals-com.groupdocs.editor.metadata.SpreadsheetDocumentInfo-) | Determines whether this instance is equal to the other specified SpreadsheetDocumentInfo instance |
+### SpreadsheetDocumentInfo() {#SpreadsheetDocumentInfo--}
+```
+public SpreadsheetDocumentInfo()
+```
+
+
 ### getFormat() {#getFormat--}
 ```
 public final SpreadsheetFormats getFormat()

@@ -3,7 +3,7 @@ title: InvalidFormatException
 second_title: GroupDocs.Editor for Java API Reference
 description: The exception that is thrown when user tries to open some document with format-specific options that are incompatible with original document format.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.editor/invalidformatexception/
 ---
 **Inheritance:**

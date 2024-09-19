@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.css.properties
 second_title: GroupDocs.Editor for Java API Reference
 description: 
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.editor.htmlcss.css.properties/
 ---
 

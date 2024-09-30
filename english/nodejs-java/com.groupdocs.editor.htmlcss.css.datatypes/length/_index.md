@@ -41,9 +41,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
 
 | Method | Description |
 | --- | --- |
-| [fromValueWithUnit(float value, byte unit)](#fromValueWithUnit-float-byte-) | Creates and returns an instance of Length type by specified float number and unit |
-| [fromValueWithUnit(double value, byte unit)](#fromValueWithUnit-double-byte-) | Creates and returns an instance of Length type by specified double number and unit |
-| [fromValueWithUnit(int value, byte unit)](#fromValueWithUnit-int-byte-) | Creates and returns an instance of Length type by specified integer number and unit |
+| [fromValueWithUnit(float value, int unit)](#fromValueWithUnit-float-int-) | Creates and returns an instance of Length type by specified float number and unit |
+| [fromValueWithUnit(double value, int unit)](#fromValueWithUnit-double-int-) | Creates and returns an instance of Length type by specified double number and unit |
+| [fromValueWithUnit(int value, int unit)](#fromValueWithUnit-int-int-) | Creates and returns an instance of Length type by specified integer number and unit |
 | [isUnitlessZero()](#isUnitlessZero--) | Determines whether this instance is a unitless zero or not. |
 | [isDefault()](#isDefault--) | Indicates whether this Length instance has a default value \\u2014 unitless zero. |
 | [getUnitType()](#getUnitType--) | Returns a unit type of this Length instance. |
@@ -58,8 +58,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
 | [isPositive()](#isPositive--) | Determines whether the numeric value of this length is a positive number |
 | [isUnitlessNonZero()](#isUnitlessNonZero--) | The value has unitless type, but is not a zero - positive or negative number |
 | [toPixel()](#toPixel--) | Converts the length to a number of pixels, if possible. |
-| [to(byte unit)](#to-byte-) | Converts the length to the given unit, if possible. |
-| [toStringSpecified(byte unit)](#toStringSpecified-byte-) | Returns a string representation of this length in specified unit type. |
+| [to(int unit)](#to-int-) | Converts the length to the given unit, if possible. |
+| [toStringSpecified(int unit)](#toStringSpecified-int-) | Returns a string representation of this length in specified unit type. |
 | [serializeDefault()](#serializeDefault--) | Returns a string representation of this length in its original native form (as it is stored), without converting length value to some other unit type |
 | [equals(Length other)](#equals-com.groupdocs.editor.htmlcss.css.datatypes.Length-) | Defines whether this value is equal to the other specified length |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this length is equal to specified object |
@@ -109,9 +109,9 @@ public static final Length ZeroPercents
 
 0%
 
-### fromValueWithUnit(float value, byte unit) {#fromValueWithUnit-float-byte-}
+### fromValueWithUnit(float value, int unit) {#fromValueWithUnit-float-int-}
 ```
-public static Length fromValueWithUnit(float value, byte unit)
+public static Length fromValueWithUnit(float value, int unit)
 ```
 
 
@@ -121,13 +121,13 @@ Creates and returns an instance of Length type by specified float number and uni
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float | >Any float (FP32) number |
-| unit | byte | Any valid unit type |
+| unit | int | Any valid unit type |
 
 **Returns:**
 [Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) - New instance of Length type
-### fromValueWithUnit(double value, byte unit) {#fromValueWithUnit-double-byte-}
+### fromValueWithUnit(double value, int unit) {#fromValueWithUnit-double-int-}
 ```
-public static Length fromValueWithUnit(double value, byte unit)
+public static Length fromValueWithUnit(double value, int unit)
 ```
 
 
@@ -137,13 +137,13 @@ Creates and returns an instance of Length type by specified double number and un
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | Any double (FP64) number, that will be converted to float (FP32) |
-| unit | byte | Any valid unit type |
+| unit | int | Any valid unit type |
 
 **Returns:**
 [Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) - New instance of Length type
-### fromValueWithUnit(int value, byte unit) {#fromValueWithUnit-int-byte-}
+### fromValueWithUnit(int value, int unit) {#fromValueWithUnit-int-int-}
 ```
-public static Length fromValueWithUnit(int value, byte unit)
+public static Length fromValueWithUnit(int value, int unit)
 ```
 
 
@@ -153,7 +153,7 @@ Creates and returns an instance of Length type by specified integer number and u
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | Any integer number |
-| unit | byte | Any valid unit type |
+| unit | int | Any valid unit type |
 
 **Returns:**
 [Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) - New instance of Length type
@@ -179,14 +179,14 @@ Indicates whether this Length instance has a default value \\u2014 unitless zero
 boolean
 ### getUnitType() {#getUnitType--}
 ```
-public final byte getUnitType()
+public final int getUnitType()
 ```
 
 
 Returns a unit type of this Length instance.
 
 **Returns:**
-byte
+int
 ### isInteger() {#isInteger--}
 ```
 public final boolean isInteger()
@@ -297,9 +297,9 @@ Converts the length to a number of pixels, if possible. If the current unit is r
 
 **Returns:**
 float - The number of pixels represented by the current length.
-### to(byte unit) {#to-byte-}
+### to(int unit) {#to-int-}
 ```
-public final float to(byte unit)
+public final float to(int unit)
 ```
 
 
@@ -308,13 +308,13 @@ Converts the length to the given unit, if possible. If the current or given unit
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unit | byte | The unit to convert to. |
+| unit | int | The unit to convert to. |
 
 **Returns:**
 float - The value in the given unit of the current length.
-### toStringSpecified(byte unit) {#toStringSpecified-byte-}
+### toStringSpecified(int unit) {#toStringSpecified-int-}
 ```
-public final String toStringSpecified(byte unit)
+public final String toStringSpecified(int unit)
 ```
 
 
@@ -323,7 +323,7 @@ Returns a string representation of this length in specified unit type. Numeric v
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unit | byte | Specified unit, to which this instance should be converted before serializing to the string. Should be valid. Cannot be unitless. |
+| unit | int | Specified unit, to which this instance should be converted before serializing to the string. Should be valid. Cannot be unitless. |
 
 **Returns:**
 java.lang.String - String representation
@@ -437,7 +437,7 @@ Returns a full copy of this Length instance
 [Length](../../com.groupdocs.editor.htmlcss.css.datatypes/length) - New separate instance of this Length, that is absolutely identical to this one
 ### getUnitFromName(String unitName) {#getUnitFromName-java.lang.String-}
 ```
-public static byte getUnitFromName(String unitName)
+public static int getUnitFromName(String unitName)
 ```
 
 
@@ -449,7 +449,7 @@ Tries to parse specified unit name and return corresponding value of a Unit enum
 | unitName | java.lang.String | String, that represents a unit name |
 
 **Returns:**
-byte - Value of Unit enum in any case, LengthUnit.Unitless when cannot find appropriate unit
+int - Value of Unit enum in any case, LengthUnit.Unitless when cannot find appropriate unit
 ### tryParse(String input, Length[] result) {#tryParse-java.lang.String-com.groupdocs.editor.htmlcss.css.datatypes.Length---}
 ```
 public static boolean tryParse(String input, Length[] result)

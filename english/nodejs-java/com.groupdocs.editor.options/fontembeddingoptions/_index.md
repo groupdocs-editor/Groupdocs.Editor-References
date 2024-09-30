@@ -31,7 +31,7 @@ Font embedding options are applied during document saving (from intermediate Edi
 | [getFontEmbeddingOptions()](#getFontEmbeddingOptions--) |  |
 ### NotEmbed {#NotEmbed}
 ```
-public static final byte NotEmbed
+public static final int NotEmbed
 ```
 
 
@@ -39,7 +39,7 @@ Do not embed any font resource neither from EditableDocument nor from the system
 
 ### EmbedAll {#EmbedAll}
 ```
-public static final byte EmbedAll
+public static final int EmbedAll
 ```
 
 
@@ -51,7 +51,7 @@ First of all GroupDocs.Editor analyzes a content of EditableDocument and forms a
 
 ### EmbedWithoutSystem {#EmbedWithoutSystem}
 ```
-public static final byte EmbedWithoutSystem
+public static final int EmbedWithoutSystem
 ```
 
 
@@ -63,11 +63,11 @@ MS Windows has a concept of system fonts, which are the most basic and used font
 
 ### getFontEmbeddingOptions() {#getFontEmbeddingOptions--}
 ```
-public static byte[] getFontEmbeddingOptions()
+public static int[] getFontEmbeddingOptions()
 ```
 
 
 
 
 **Returns:**
-byte[]
+int[]

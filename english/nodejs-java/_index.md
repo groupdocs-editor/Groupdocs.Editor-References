@@ -5,7 +5,7 @@ weight: 11
 url: /nodejs-java/
 description: GroupDocs.Editor for Node.js via Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
 is_root: true
-version: 24.4
+version: 24.9
 ---
 
 ## Packages
@@ -13,6 +13,7 @@ version: 24.4
 | --- | --- |
 | [com.groupdocs.editor](./com.groupdocs.editor) | The **com.groupdocs.editor** namespace is a root namespace, which provides classes for editing multiple document formats in your Java applications. |
 | [com.groupdocs.editor.formats](./com.groupdocs.editor.formats) | The **com.groupdocs.editor.formats** namespace provides interfaces and classes that describes supported document formats. |
+| [com.groupdocs.editor.formats.abstraction](./com.groupdocs.editor.formats.abstraction) | The **com.groupdocs.editor.formats.abstraction** namespace provides interfaces and classes that describe supported document formats in the GroupDocs.Editor library. |
 | [com.groupdocs.editor.htmlcss.css.datatypes](./com.groupdocs.editor.htmlcss.css.datatypes) | The **com.groupdocs.editor.htmlcss.css.datatypes** namespace provides classes that represent CSS data types. |
 | [com.groupdocs.editor.htmlcss.css.properties](./com.groupdocs.editor.htmlcss.css.properties) |  |
 | [com.groupdocs.editor.htmlcss.exceptions](./com.groupdocs.editor.htmlcss.exceptions) | The **com.groupdocs.editor.htmlcss.exceptions** namespace provides exceptions that is thrown when trying to open, load, save or process somehow else some content. |
@@ -27,3 +28,4 @@ version: 24.4
 | [com.groupdocs.editor.license](./com.groupdocs.editor.license) | The **com.groupdocs.editor.license** Provides methods to license the component. |
 | [com.groupdocs.editor.metadata](./com.groupdocs.editor.metadata) | The **com.groupdocs.editor.metadata** namespace provides classes for describing basic document properties dependent on document type. |
 | [com.groupdocs.editor.options](./com.groupdocs.editor.options) | The **com.groupdocs.editor.options** namespace provides interfaces for load and save options. |
+| [com.groupdocs.editor.words.fieldmanagement](./com.groupdocs.editor.words.fieldmanagement) | The **com.groupdocs.editor.words.fieldmanagement** namespace contains classes and interfaces related to the management and manipulation of form fields within documents. |

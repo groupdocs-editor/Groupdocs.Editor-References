@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.audio
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.audio namespace provides classes that represent audio resources.
 type: docs
-weight: 16
+weight: 17
 url: /nodejs-java/com.groupdocs.editor.htmlcss.resources.audio/
 ---
 

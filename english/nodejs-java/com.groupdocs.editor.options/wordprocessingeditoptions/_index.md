@@ -33,7 +33,7 @@ Allows to specify custom options for editing documents of all supportable WordPr
 | [getExtractOnlyUsedFont()](#getExtractOnlyUsedFont--) | Gets or sets a value indicating whether extract only font resources that are used in the textual content of the document. |
 | [setExtractOnlyUsedFont(boolean value)](#setExtractOnlyUsedFont-boolean-) | Gets or sets a value indicating whether extract only font resources that are used in the textual content of the document. |
 | [getFontExtraction()](#getFontExtraction--) | Responsible for extracting font resources, which are used in the input WordProcessing document. |
-| [setFontExtraction(byte value)](#setFontExtraction-byte-) | Responsible for extracting font resources, which are used in the input WordProcessing document. |
+| [setFontExtraction(int value)](#setFontExtraction-int-) | Responsible for extracting font resources, which are used in the input WordProcessing document. |
 | [getInputControlsClassName()](#getInputControlsClassName--) | Allows to specify a class name, which will be placed to the 'class' attributes in every HTML element, that represents some field in the input WordProcessing document. |
 | [setInputControlsClassName(String value)](#setInputControlsClassName-java.lang.String-) | Allows to specify a class name, which will be placed to the 'class' attributes in every HTML element, that represents some field in the input WordProcessing document. |
 | [getUseInlineStyles()](#getUseInlineStyles--) | Controls where to store the styling and formatting data of the input WordProcessing document: in external stylesheet ( false ) or as inline styles in the HTML markup ( true ). |
@@ -142,17 +142,17 @@ Not all fonts, used in the WordProcessing document, are 100% used directly (appl
 
 ### getFontExtraction() {#getFontExtraction--}
 ```
-public final byte getFontExtraction()
+public final int getFontExtraction()
 ```
 
 
 Responsible for extracting font resources, which are used in the input WordProcessing document. By default doesn't extract any fonts (NotExtract).
 
 **Returns:**
-byte
-### setFontExtraction(byte value) {#setFontExtraction-byte-}
+int
+### setFontExtraction(int value) {#setFontExtraction-int-}
 ```
-public final void setFontExtraction(byte value)
+public final void setFontExtraction(int value)
 ```
 
 
@@ -161,7 +161,7 @@ Responsible for extracting font resources, which are used in the input WordProce
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | int |  |
 
 ### getInputControlsClassName() {#getInputControlsClassName--}
 ```

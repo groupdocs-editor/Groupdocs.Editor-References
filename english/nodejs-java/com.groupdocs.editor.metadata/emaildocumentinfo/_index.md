@@ -38,14 +38,14 @@ public EmailDocumentInfo()
 
 ### getFormat() {#getFormat--}
 ```
-public final EmailFormats getFormat()
+public final DocumentFormatBase getFormat()
 ```
 
 
 Returns a format of this email document
 
 **Returns:**
-[EmailFormats](../../com.groupdocs.editor.formats/emailformats)
+[DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()

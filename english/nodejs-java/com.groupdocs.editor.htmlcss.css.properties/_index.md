@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.css.properties
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: 
 type: docs
-weight: 13
+weight: 14
 url: /nodejs-java/com.groupdocs.editor.htmlcss.css.properties/
 ---
 

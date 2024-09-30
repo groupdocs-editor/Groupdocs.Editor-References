@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.fonts
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.fonts namespace provides classes that represent font resources.
 type: docs
-weight: 17
+weight: 18
 url: /nodejs-java/com.groupdocs.editor.htmlcss.resources.fonts/
 ---
 

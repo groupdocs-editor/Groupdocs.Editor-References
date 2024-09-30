@@ -3,7 +3,7 @@ title: com.groupdocs.editor.options
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.options namespace provides interfaces for load and save options.
 type: docs
-weight: 25
+weight: 26
 url: /nodejs-java/com.groupdocs.editor.options/
 ---
 

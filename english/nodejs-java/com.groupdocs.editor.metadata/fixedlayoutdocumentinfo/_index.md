@@ -38,14 +38,14 @@ public FixedLayoutDocumentInfo()
 
 ### getFormat() {#getFormat--}
 ```
-public final FixedLayoutFormats getFormat()
+public final DocumentFormatBase getFormat()
 ```
 
 
 Returns a format of this fixed-layout format document
 
 **Returns:**
-[FixedLayoutFormats](../../com.groupdocs.editor.formats/fixedlayoutformats)
+[DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()

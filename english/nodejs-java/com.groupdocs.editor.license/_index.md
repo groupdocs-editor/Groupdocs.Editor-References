@@ -3,7 +3,7 @@ title: com.groupdocs.editor.license
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.license Provides methods to license the component.
 type: docs
-weight: 23
+weight: 24
 url: /nodejs-java/com.groupdocs.editor.license/
 ---
 

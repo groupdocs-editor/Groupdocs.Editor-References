@@ -3,7 +3,7 @@ title: com.groupdocs.editor.htmlcss.resources.images.raster
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: The com.groupdocs.editor.htmlcss.resources.images.raster namespace provides classes that represent only raster image resources.
 type: docs
-weight: 19
+weight: 20
 url: /nodejs-java/com.groupdocs.editor.htmlcss.resources.images.raster/
 ---
 

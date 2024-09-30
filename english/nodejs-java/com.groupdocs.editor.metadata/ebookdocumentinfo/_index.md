@@ -38,14 +38,14 @@ public EbookDocumentInfo()
 
 ### getFormat() {#getFormat--}
 ```
-public final EBookFormats getFormat()
+public final DocumentFormatBase getFormat()
 ```
 
 
 Returns a format of this document
 
 **Returns:**
-[EBookFormats](../../com.groupdocs.editor.formats/ebookformats)
+[DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
 ```
 public final int getPageCount()

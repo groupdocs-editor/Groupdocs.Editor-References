@@ -19,10 +19,10 @@ public sealed class Editor : IAuxDisposable
 | Name | Description |
 | --- | --- |
 | [Editor](editor#constructor)(DocumentFormatBase) | Initializes a new instance of the [`Editor`](../editor) class and creates a new empty document based on the specified format. |
-| [Editor](editor#constructor_4)(Stream) | Initializes new Editor instance with specified input document (as a stream). |
-| [Editor](editor#constructor_6)(string) | Initializes new Editor instance with specified input document (as a full file path) and Editor settings |
-| [Editor](editor#constructor_5)(Stream, ILoadOptions) | Initializes new Editor instance with specified input document (as a stream) with its load options. |
-| [Editor](editor#constructor_7)(string, ILoadOptions) | Initializes new Editor instance with specified input document (as a full file path) with its load options. |
+| [Editor](editor#constructor_1)(Stream) | Initializes new Editor instance with specified input document (as a stream). |
+| [Editor](editor#constructor_3)(string) | Initializes new Editor instance with specified input document (as a full file path) and Editor settings |
+| [Editor](editor#constructor_2)(Stream, ILoadOptions) | Initializes new Editor instance with specified input document (as a stream) with its load options. |
+| [Editor](editor#constructor_4)(string, ILoadOptions) | Initializes new Editor instance with specified input document (as a full file path) with its load options. |
 
 ## Properties
 

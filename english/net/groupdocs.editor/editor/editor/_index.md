@@ -44,7 +44,7 @@ using (Editor editor = new Editor(format))
 
 ---
 
-## Editor(Stream) {#constructor_4}
+## Editor(Stream) {#constructor_1}
 
 Initializes new Editor instance with specified input document (as a stream).
 
@@ -83,7 +83,7 @@ using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Re
 
 ---
 
-## Editor(Stream, ILoadOptions) {#constructor_5}
+## Editor(Stream, ILoadOptions) {#constructor_2}
 
 Initializes new Editor instance with specified input document (as a stream) with its load options.
 
@@ -132,7 +132,7 @@ using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Re
 
 ---
 
-## Editor(string, ILoadOptions) {#constructor_7}
+## Editor(string, ILoadOptions) {#constructor_4}
 
 Initializes new Editor instance with specified input document (as a full file path) with its load options.
 
@@ -179,7 +179,7 @@ using (Editor editor = new Editor(filePath, loadOptions))
 
 ---
 
-## Editor(string) {#constructor_6}
+## Editor(string) {#constructor_3}
 
 Initializes new Editor instance with specified input document (as a full file path) and Editor settings
 

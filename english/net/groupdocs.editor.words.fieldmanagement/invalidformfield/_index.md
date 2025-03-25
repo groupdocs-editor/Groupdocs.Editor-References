@@ -3,7 +3,7 @@ title: InvalidFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents the update of invalid form field names during the FixInvalidFormFieldNames../groupdocs.editor/formfieldmanager/fixinvalidformfieldnames operation.
 type: docs
-weight: 1410
+weight: 1400
 url: /net/groupdocs.editor.words.fieldmanagement/invalidformfield/
 ---
 ## InvalidFormField class

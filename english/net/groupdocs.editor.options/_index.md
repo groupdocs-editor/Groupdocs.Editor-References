@@ -44,7 +44,6 @@ The GroupDocs.Editor.Options namespace provides interfaces for load and save opt
 | [XmlEditOptions](./xmleditoptions) | Allows to specify custom options for editing XML (eXtensible Markup Language) documents and converting them to the HTML |
 | [XmlFormatOptions](./xmlformatoptions) | Contains options, that allow to adjust the formatting of XML document, when it is represented as HTML |
 | [XmlHighlightOptions](./xmlhighlightoptions) | Contains options, that allow to customize the XML highlighting during XML-to-HTML conversion |
-| [XpsEditOptions](./xpseditoptions) | Allows to specify custom options for editing (XML Paper Specifications) documents |
 | [XpsSaveOptions](./xpssaveoptions) | Allows to specify custom options for generating and saving XPS (XML Paper Specifications) documents |
 ## Structures
 

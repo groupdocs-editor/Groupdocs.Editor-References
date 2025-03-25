@@ -3,7 +3,7 @@ title: TextFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field that accepts text input.
 type: docs
-weight: 1430
+weight: 1420
 url: /net/groupdocs.editor.words.fieldmanagement/textformfield/
 ---
 ## TextFormField class

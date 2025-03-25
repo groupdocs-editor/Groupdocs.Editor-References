@@ -3,7 +3,7 @@ title: FormFieldCollection
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a collection of form fields.
 type: docs
-weight: 1370
+weight: 1360
 url: /net/groupdocs.editor.words.fieldmanagement/formfieldcollection/
 ---
 ## FormFieldCollection class

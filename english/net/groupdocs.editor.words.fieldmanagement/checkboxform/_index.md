@@ -3,7 +3,7 @@ title: CheckBoxForm
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field that displays a checkbox.
 type: docs
-weight: 1320
+weight: 1310
 url: /net/groupdocs.editor.words.fieldmanagement/checkboxform/
 ---
 ## CheckBoxForm class

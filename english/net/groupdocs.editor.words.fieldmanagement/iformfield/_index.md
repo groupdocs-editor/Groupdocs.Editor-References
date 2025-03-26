@@ -3,7 +3,7 @@ title: IFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field.
 type: docs
-weight: 1400
+weight: 1390
 url: /net/groupdocs.editor.words.fieldmanagement/iformfield/
 ---
 ## IFormField interface

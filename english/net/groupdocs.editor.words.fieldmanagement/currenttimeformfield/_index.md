@@ -3,7 +3,7 @@ title: CurrentTimeFormField
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a form field that displays the current time.
 type: docs
-weight: 1340
+weight: 1330
 url: /net/groupdocs.editor.words.fieldmanagement/currenttimeformfield/
 ---
 ## CurrentTimeFormField class

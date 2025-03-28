@@ -59,7 +59,7 @@ Gets or sets the new name for the form field after repair. This name removes dup
 --------------------
 
 ```
-FixedName = string.Format("{0}_fixed", name) // as default value.
+FixedName = String.format("%s_fixed", name); // as default value.
 ```
 
 **Returns:**

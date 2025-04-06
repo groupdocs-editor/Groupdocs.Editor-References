@@ -39,7 +39,6 @@ Editor class should be considered as an entry point and the root object of the G
 
 | Method | Description |
 | --- | --- |
-| [getFormFieldManager()](#getFormFieldManager--) | Provides access to functionality for managing form fields within the document. |
 | [edit(IEditOptions editOptions)](#edit-com.groupdocs.editor.options.IEditOptions-) | Opens a previously loaded document for editing using specified format-specific options by generating and returning an instance of '' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [edit()](#edit--) | Opens a previously loaded document for editing using default options by generating and returning an instance of 'EditableDocument' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [save(EditableDocument inputDocument, OutputStream outputDocument, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.io.OutputStream-com.groupdocs.editor.options.ISaveOptions-) | Converts specified edited document, represented as instance of 'EditableDocument', to the resultant document of specified format and saves its content to specified stream |
@@ -156,20 +155,6 @@ Initializes new Editor instance with specified input document (as a full file pa
 [Developer Guide]: https://docs.groupdocs.com/editor/java/developer-guide/
 [Load and edit documents using GroupDocs.Editor]: https://docs.groupdocs.com/editor/java/load-document/ |
 
-### getFormFieldManager() {#getFormFieldManager--}
-```
-public FormFieldManager getFormFieldManager()
-```
-
-
-Provides access to functionality for managing form fields within the document.
-
-**Returns:**
-[FormFieldManager](../../com.groupdocs.editor/formfieldmanager) - A  FormFieldManager (\#getFormFieldManager.getFormFieldManager) instance for managing form fields within the document.
-
---------------------
-
-The  FormFieldManager (\#getFormFieldManager.getFormFieldManager) property creates a new instance of the  FormFieldManager (\#getFormFieldManager.getFormFieldManager) class, which allows access to methods and properties for managing form fields within the document. Form fields are interactive elements within the document that can capture user input or trigger actions. The  FormFieldManager (\#getFormFieldManager.getFormFieldManager) instance provides methods for various form field operations, including checking for invalid form fields, updating form field data, and fixing naming issues. It also facilitates the retrieval of form field names and their associated data. This property is useful for interacting with and manipulating form fields programmatically, enabling tasks such as form field validation, synchronization, and customization.
 ### edit(IEditOptions editOptions) {#edit-com.groupdocs.editor.options.IEditOptions-}
 ```
 public final EditableDocument edit(IEditOptions editOptions)

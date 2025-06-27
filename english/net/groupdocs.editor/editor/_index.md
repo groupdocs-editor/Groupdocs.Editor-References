@@ -40,9 +40,10 @@ public sealed class Editor : IAuxDisposable
 | [Edit](../../groupdocs.editor/editor/edit#edit_1)(IEditOptions) | Opens a previously loaded document for editing using specified format-specific options by generating and returning an instance of '[`EditableDocument`](../editabledocument)' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [GetDocumentInfo](../../groupdocs.editor/editor/getdocumentinfo)(string) | Returns metadata about the document, that was loaded to this 'Editor' instance |
 | [Save](../../groupdocs.editor/editor/save#save)(Stream) | Save the current document content to the specified output stream. |
+| [Save](../../groupdocs.editor/editor/save#save_3)(EditableDocument, string) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of format, determined from the filename extension, and saves its content to file by specified file path |
 | [Save](../../groupdocs.editor/editor/save#save_1)(Stream, WordProcessingSaveOptions) | Converts the original document after modification (for example, [`FormFieldManager`](./formfieldmanager)), to the resultant document of the specified format and saves its content to the provided stream. |
 | [Save](../../groupdocs.editor/editor/save#save_2)(EditableDocument, Stream, ISaveOptions) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of specified format and saves its content to specified stream |
-| [Save](../../groupdocs.editor/editor/save#save_3)(EditableDocument, string, ISaveOptions) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of specified format and saves its content to file by specified file path |
+| [Save](../../groupdocs.editor/editor/save#save_4)(EditableDocument, string, ISaveOptions) | Converts specified edited document, represented as instance of '[`EditableDocument`](../editabledocument)', to the resultant document of specified format and saves its content to file by specified file path |
 
 ## Events
 

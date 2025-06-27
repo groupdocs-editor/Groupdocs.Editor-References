@@ -30,7 +30,8 @@ public sealed class EditableDocument : IAuxDisposable
 | Name | Description |
 | --- | --- |
 | static [FromFile](../../groupdocs.editor/editabledocument/fromfile)(string, string) | Static factory, that creates an instance of EditableDocument from a HTML file, that is specified by a path to the *.html file itself and a folder with linked resources |
-| static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup)(string, IEnumerable&lt;IHtmlResource&gt;) | Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources |
+| static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup#frommarkup)(string) | Static factory, that creates an instance of [`EditableDocument`](../editabledocument) from specified HTML markup |
+| static [FromMarkup](../../groupdocs.editor/editabledocument/frommarkup#frommarkup_1)(string, IEnumerable&lt;IHtmlResource&gt;) | Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources |
 | static [FromMarkupAndResourceFolder](../../groupdocs.editor/editabledocument/frommarkupandresourcefolder)(string, string) | Static factory, that creates an instance of EditableDocument from a specified HTML markup and from resources, located in the folder, specified by the full path |
 | [Dispose](../../groupdocs.editor/editabledocument/dispose)() | Disposes this Editable document instance, disposing its content and making its methods and properties non-working |
 | [GetBodyContent](../../groupdocs.editor/editabledocument/getbodycontent#getbodycontent)() | Returns a body of the HTML document (inner content between opening and closing BODY tags without these tags) as a string. |

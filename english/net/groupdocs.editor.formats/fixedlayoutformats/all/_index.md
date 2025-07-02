@@ -1,22 +1,18 @@
 ---
 title: All
 second_title: GroupDocs.Editor for .NET API Reference
-description: Gets an enumerable collection of all FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats.
+description: Gets all available instances of FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats.
 type: docs
 weight: 30
 url: /net/groupdocs.editor.formats/fixedlayoutformats/all/
 ---
 ## FixedLayoutFormats.All property
 
-Gets an enumerable collection of all [`FixedLayoutFormats`](../../fixedlayoutformats).
+Gets all available instances of [`FixedLayoutFormats`](../../fixedlayoutformats).
 
 ```csharp
 public static IEnumerable<FixedLayoutFormats> All { get; }
 ```
-
-### Property Value
-
-An IEnumerable containing all instances of [`FixedLayoutFormats`](../../fixedlayoutformats).
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: FixedLayoutFormats
 second_title: GroupDocs.Editor for .NET API Reference
-description: Encapsulates all fixedlayout also known as fixedpage formats which includes PDF and XPS this does not include raster images.
+description: Represents fixedlayout fixedpage document formats such as PDF excluding raster image formats.
 type: docs
 weight: 100
 url: /net/groupdocs.editor.formats/fixedlayoutformats/
 ---
 ## FixedLayoutFormats class
 
-Encapsulates all fixed-layout (also known as "fixed-page") formats, which includes PDF and XPS (this does not include raster images).
+Represents fixed-layout (fixed-page) document formats, such as PDF, excluding raster image formats.
 
 ```csharp
 public class FixedLayoutFormats : DocumentFormatBase
@@ -23,29 +23,29 @@ public class FixedLayoutFormats : DocumentFormatBase
 | [Id](../../groupdocs.editor.formats.abstraction/formatfamilybase/id) { get; } | Gets the unique identifier for the format family. |
 | [Mime](../../groupdocs.editor.formats.abstraction/documentformatbase/mime) { get; } | Gets the MIME type of the document format. |
 | [Name](../../groupdocs.editor.formats.abstraction/formatfamilybase/name) { get; } | Gets the name of the format family. |
-| static [All](../../groupdocs.editor.formats/fixedlayoutformats/all) { get; } | Gets an enumerable collection of all [`FixedLayoutFormats`](../fixedlayoutformats). |
+| static [All](../../groupdocs.editor.formats/fixedlayoutformats/all) { get; } | Gets all available instances of [`FixedLayoutFormats`](../fixedlayoutformats). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Retrieves an instance of the specified type [`FixedLayoutFormats`](../fixedlayoutformats) that has the specified file extension. |
+| static [FromExtension](../../groupdocs.editor.formats/fixedlayoutformats/fromextension)(string) | Retrieves a [`FixedLayoutFormats`](../fixedlayoutformats) instance matching the specified file extension. |
 | [Equals](../../groupdocs.editor.formats.abstraction/formatfamilybase/equals)(FormatFamilyBase) | Determines whether this instance is equal to the specified [`FormatFamilyBase`](../../groupdocs.editor.formats.abstraction/formatfamilybase) instance. |
 | [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(IDocumentFormat) | Determines whether this instance is equal to the specified [`IDocumentFormat`](../../groupdocs.editor.formats.abstraction/idocumentformat) instance. |
 | override [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(object) | Determines whether this instance is equal to the specified [`DocumentFormatBase`](../../groupdocs.editor.formats.abstraction/documentformatbase) instance. |
 | override [GetHashCode](../../groupdocs.editor.formats.abstraction/documentformatbase/gethashcode)() | Returns a hash code for the current object. |
 | override [ToString](../../groupdocs.editor.formats.abstraction/formatfamilybase/tostring)() | Returns a string that represents the current object. |
-| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit) | Converts a string representing a file extension to a [`FixedLayoutFormats`](../fixedlayoutformats) object. |
+| [explicit operator](../../groupdocs.editor.formats/fixedlayoutformats/op_explicit) | Explicitly converts a file extension string to a [`FixedLayoutFormats`](../fixedlayoutformats) instance. |
 
 ## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here](https://docs.fileformat.com/pdf/). |
+| static readonly [Pdf](../../groupdocs.editor.formats/fixedlayoutformats/pdf) | Portable Document Format (PDF), introduced by Adobe, provides standardized representation of documents independent of software, hardware, and operating systems. For additional details, see: [PDF file format](https://docs.fileformat.com/pdf/). |
 
 ### Remarks
 
-Various document viewing or publishing applications allow users to open (Adobe Acrobat, XPS Viewer), and sometimes edit (Adobe InDesign) documents of specific formats. These applications typically produce so-called “fixed-page” format documents. Such a document format describes precisely where a document’s content is placed on every page. Internally, the PDF or XPS format contains a description of every page, as well as drawing instructions, specifying the layout of the content on the page. This is similar to image formats, describing where the content is shown either in raster or vector form.
+Fixed-layout formats precisely specify the placement and rendering of content on each page. Commonly used in document viewing, publishing, or editing applications like Adobe Acrobat and Adobe InDesign. These formats internally define page layouts and content positioning using vector graphics and text instructions.
 
 ### See Also
 

@@ -1,12 +1,46 @@
 ---
 title: FromMarkup
 second_title: GroupDocs.Editor for .NET API Reference
-description: Static factory that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources
+description: Static factory that creates an instance of EditableDocumentgroupdocs.editor/editabledocument from specified HTML markup
 type: docs
 weight: 20
 url: /net/groupdocs.editor/editabledocument/frommarkup/
 ---
-## EditableDocument.FromMarkup method
+## FromMarkup(string) {#frommarkup}
+
+Static factory, that creates an instance of [`EditableDocument`](../../editabledocument) from specified HTML markup
+
+```csharp
+public static EditableDocument FromMarkup(string newHtmlContent)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newHtmlContent | String | String, that contains raw HTML markup, that should be parsed. Cannot be NULL, empty or invalid. |
+
+### Return Value
+
+New non-null instance of EditableDocument
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | String with input raw HTML markup cannot be null or empty |
+
+### Remarks
+
+THis static method is useful for creating the [`EditableDocument`](../../editabledocument) instance from the single-string HTML markup, where all resources are embedded into it with base64 encoding.
+
+### See Also
+
+* class [EditableDocument](../../editabledocument)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## FromMarkup(string, IEnumerable&lt;IHtmlResource&gt;) {#frommarkup_1}
 
 Static factory, that creates an instance of EditableDocument from specified HTML markup and a set of corresponding linked resources
 

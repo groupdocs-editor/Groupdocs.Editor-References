@@ -1,14 +1,14 @@
 ---
 title: FromExtension
 second_title: GroupDocs.Editor for .NET API Reference
-description: Retrieves an instance of the specified type FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats that has the specified file extension.
+description: Retrieves a FixedLayoutFormatsgroupdocs.editor.formats/fixedlayoutformats instance matching the specified file extension.
 type: docs
 weight: 20
 url: /net/groupdocs.editor.formats/fixedlayoutformats/fromextension/
 ---
 ## FixedLayoutFormats.FromExtension method
 
-Retrieves an instance of the specified type [`FixedLayoutFormats`](../../fixedlayoutformats) that has the specified file extension.
+Retrieves a [`FixedLayoutFormats`](../../fixedlayoutformats) instance matching the specified file extension.
 
 ```csharp
 public static FixedLayoutFormats FromExtension(string extension)
@@ -16,17 +16,17 @@ public static FixedLayoutFormats FromExtension(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | The file extension of the document format. |
+| extension | String | File extension to match (e.g., "pdf"). |
 
 ### Return Value
 
-An instance of the specified type [`FixedLayoutFormats`](../../fixedlayoutformats) with the specified file extension.
+The matching [`FixedLayoutFormats`](../../fixedlayoutformats) instance.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown when no matching document format is found. |
+| InvalidOperationException | Thrown if no matching format is found. |
 
 ### See Also
 

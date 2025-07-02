@@ -36,7 +36,7 @@ public void Save(EditableDocument inputDocument, Stream outputDocument, ISaveOpt
 
 ---
 
-## Save(EditableDocument, string, ISaveOptions) {#save_3}
+## Save(EditableDocument, string, ISaveOptions) {#save_4}
 
 Converts specified edited document, represented as instance of '[`EditableDocument`](../../editabledocument)', to the resultant document of specified format and saves its content to file by specified file path
 
@@ -60,6 +60,28 @@ public void Save(EditableDocument inputDocument, string filePath, ISaveOptions s
 
 * class [EditableDocument](../../editabledocument)
 * interface [ISaveOptions](../../../groupdocs.editor.options/isaveoptions)
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Save(EditableDocument, string) {#save_3}
+
+Converts specified edited document, represented as instance of '[`EditableDocument`](../../editabledocument)', to the resultant document of format, determined from the filename extension, and saves its content to file by specified file path
+
+```csharp
+public void Save(EditableDocument inputDocument, string filePath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputDocument | EditableDocument | Version of the input document, that was edited in WYSIWYG HTML-editor and is stored as instance of '[`EditableDocument`](../../editabledocument)' class, which should be converted to output document of some specific format. Must not be null or disposed. |
+| filePath | String | Path to the file, in which the output document will be saved. It file with the same name exists, it will be completely rewritten. String with path must not be null, empty or contain only whitespaces. Because default save options and output format are determined from this filename, it must have the valid extension. |
+
+### See Also
+
+* class [EditableDocument](../../editabledocument)
 * class [Editor](../../editor)
 * namespace [GroupDocs.Editor](../../../groupdocs.editor)
 * assembly [GroupDocs.Editor](../../../)

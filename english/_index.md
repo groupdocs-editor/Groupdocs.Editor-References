@@ -77,7 +77,7 @@ The Java implementation brings the same powerful document editing capabilities t
 
 These are links to some useful resources:
 - [GroupDocs.Editor for Java API Reference](/editor/java/)
-- [GroupDocs.Editor for .NET API Tutorials](https://tutorials.groupdocs.com/editor/java/)
+- [GroupDocs.Editor for Java API Tutorials](https://tutorials.groupdocs.com/editor/java/)
 
 ## Why Choose GroupDocs.Editor APIs?
 

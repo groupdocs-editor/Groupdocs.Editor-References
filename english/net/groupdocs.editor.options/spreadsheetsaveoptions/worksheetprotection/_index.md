@@ -3,7 +3,7 @@ title: WorksheetProtection
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to enable a worksheet protection for the output Spreadsheet document. By default is NULL  protection is not applied. Not all formats support a worksheet protection.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.editor.options/spreadsheetsaveoptions/worksheetprotection/
 ---
 ## SpreadsheetSaveOptions.WorksheetProtection property

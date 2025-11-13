@@ -25,14 +25,15 @@ public sealed class PresentationSaveOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [InsertAsNewSlide](../../groupdocs.editor.options/presentationsaveoptions/insertasnewslide) { get; set; } | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the [`SlideNumber`](./slidenumber) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false — existing slide will be replaced. This property is ignored, if value of [`SlideNumber`](./slidenumber) property is set to '0'. |
+| [InsertAsNewSlide](../../groupdocs.editor.options/presentationsaveoptions/insertasnewslide) { get; set; } | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the [`SlideNumber`](./slidenumber) property, or it should be injected between existing slide and previous one, without replacing its content. By default is `false` — existing slide will be replaced. This property is ignored, if value of [`SlideNumber`](./slidenumber) property is set to `'0'`. |
 | [OutputFormat](../../groupdocs.editor.options/presentationsaveoptions/outputformat) { get; set; } | Allows to specify a Presentation format, which will be used for saving the document |
 | [Password](../../groupdocs.editor.options/presentationsaveoptions/password) { get; set; } | Allows to specify, modify and obtain the password, which will be used for encoding the resultant Presentation document. By default is NULL - password will not be set. Set to NULL or empty string in order to remove the password, if it was set previously. |
 | [SlideNumber](../../groupdocs.editor.options/presentationsaveoptions/slidenumber) { get; set; } | Allows to insert edited slide into existing presentation instead of creating a new single-slide presentation (default behavior). Slide number is a 1-based number of a slide in the presentation, loaded in the Editor class. If it is 0 (default value), the new presentation will be created with single edited slide. If it is greater or lesser then zero, and there is valid presentation, loaded in the Editor class, the edited slide, stored inside input EditableDocument instance, will be inserted into this presentation. |
+| [SlideNumbersToDelete](../../groupdocs.editor.options/presentationsaveoptions/slidenumberstodelete) { get; set; } | Allows to specify an array with 1-based numbers of slides that should be deleted from the presentation during its saving, in case when the edited slide is inserted into existing presentation |
 
 ### Remarks
 
-Instance of this class should be passed into the Save method in order to save edited presentation into the final document of some Presentation-specific format. Its constructor has one mandatory parameter — format of the output Presentation. All other parameters are optional and may be omitted.
+Instance of this class should be passed into the  method in order to save edited presentation into the final document of some Presentation-specific format. All other parameters are optional and may be omitted, by default the format of the saving presentation is PPTX, but it can be changed through constructor or property.
 
 ### See Also
 

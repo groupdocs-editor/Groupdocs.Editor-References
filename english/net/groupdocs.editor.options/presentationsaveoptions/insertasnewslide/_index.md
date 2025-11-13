@@ -8,7 +8,7 @@ url: /net/groupdocs.editor.options/presentationsaveoptions/insertasnewslide/
 ---
 ## PresentationSaveOptions.InsertAsNewSlide property
 
-Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the [`SlideNumber`](../slidenumber) property, or it should be injected between existing slide and previous one, without replacing its content. By default is false — existing slide will be replaced. This property is ignored, if value of [`SlideNumber`](../slidenumber) property is set to '0'.
+Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the [`SlideNumber`](../slidenumber) property, or it should be injected between existing slide and previous one, without replacing its content. By default is `false` — existing slide will be replaced. This property is ignored, if value of [`SlideNumber`](../slidenumber) property is set to `'0'`.
 
 ```csharp
 public bool InsertAsNewSlide { get; set; }

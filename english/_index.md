@@ -20,7 +20,7 @@ On Premise .NET API that helps your application to view, edit and then convert d
 These are links to some useful resources:
 
 - [GroupDocs.Editor for .NET API Reference](/editor/net/)
-
+- [Access additional details about the product](https://products.groupdocs.com/editor/net/)
 
 ## GroupDocs.Editor for Java
 
@@ -35,6 +35,7 @@ Document editing API for Microsoft Office, OpenOffice, HTML and other documents 
 These are links to some useful resources:
 
 - [GroupDocs.Editor for Java API Reference](/editor/java/)
+- [Discover more about what the product offers](https://products.groupdocs.com/editor/java/) 
 
 ## GroupDocs.Editor for Node.js via Java
 
@@ -49,3 +50,4 @@ Document editing API for Microsoft Office, OpenOffice, HTML and other documents 
 These are links to some useful resources:
 
 - [GroupDocs.Editor for for Node.js via Java API Reference](/editor/nodejs-java/)
+- [Learn more about the product](https://products.groupdocs.com/editor/nodejs-java/) 

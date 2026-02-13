@@ -34,6 +34,8 @@ Allows to specify custom options for generating and saving Presentation (PowerPo
 | [setInsertAsNewSlide(boolean value)](#setInsertAsNewSlide-boolean-) | Boolean flag, which specifies whether edited slide should replace the existing slide in original presentation on the position, specified by the  SlideNumber (\#getSlideNumber.getSlideNumber/\#setSlideNumber(int).setSlideNumber(int)) property, or it should be injected between existing slide and previous one, without replacing its content. |
 | [getOutputFormat()](#getOutputFormat--) | Allows to specify a Presentation format, which will be used for saving the document |
 | [setOutputFormat(PresentationFormats value)](#setOutputFormat-com.groupdocs.editor.formats.PresentationFormats-) | Allows to specify a Presentation format, which will be used for saving the document |
+| [getSlideNumbersToDelete()](#getSlideNumbersToDelete--) | Allows to specify an array with 1-based numbers of slides that should be deleted from the presentation during its saving, in case when the edited slide is inserted into existing presentation. |
+| [setSlideNumbersToDelete(int[] value)](#setSlideNumbersToDelete-int---) | Allows to specify an array with 1-based numbers of slides that should be deleted from the presentation during its saving, in case when the edited slide is inserted into existing presentation. |
 ### PresentationSaveOptions() {#PresentationSaveOptions--}
 ```
 public PresentationSaveOptions()
@@ -204,4 +206,27 @@ Output format is usually set in the constructor of this class, because it is man
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PresentationFormats](../../com.groupdocs.editor.formats/presentationformats) |  |
+
+### getSlideNumbersToDelete() {#getSlideNumbersToDelete--}
+```
+public final int[] getSlideNumbersToDelete()
+```
+
+
+Allows to specify an array with 1-based numbers of slides that should be deleted from the presentation during its saving, in case when the edited slide is inserted into existing presentation.When the edited slide is saved not as a new single-slide presentation (default behavior), but instead is saved into an existing presentation (using \#getSlideNumber().getSlideNumber() / \#setSlideNumber(int).setSlideNumber(int)), it is also possible to delete some particular slides from this presentation by specifying their numbers in this array. By default this array is  null  \\u2014 no slides will be deleted. However, when this array is non-null and non-empty, and it contains at least one valid slide number, after the output Presentation document is generated with the content of the edited slide, the slides with specified numbers will be deleted from the presentation right before writing its content to the output stream or file. Slide numbers in this array are 1-based, not 0-based. Invalid numbers (less than 1 or greater than the total number of slides) will be ignored.
+
+**Returns:**
+int[] - Array of 1-based slide numbers to delete, or  null  if nothing should be deleted.
+### setSlideNumbersToDelete(int[] value) {#setSlideNumbersToDelete-int---}
+```
+public final void setSlideNumbersToDelete(int[] value)
+```
+
+
+Allows to specify an array with 1-based numbers of slides that should be deleted from the presentation during its saving, in case when the edited slide is inserted into existing presentation.Slide numbers in this array are 1-based. Invalid numbers will be ignored.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int[] | Array of 1-based slide numbers to delete (may be  null  or empty). |
 

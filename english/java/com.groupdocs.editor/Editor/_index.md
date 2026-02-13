@@ -43,6 +43,7 @@ Editor class should be considered as an entry point and the root object of the G
 | [edit()](#edit--) | Opens a previously loaded document for editing using default options by generating and returning an instance of 'EditableDocument' class, that, in turn, contains methods for producing HTML markup and associated resources. |
 | [save(EditableDocument inputDocument, OutputStream outputDocument, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.io.OutputStream-com.groupdocs.editor.options.ISaveOptions-) | Converts specified edited document, represented as instance of 'EditableDocument', to the resultant document of specified format and saves its content to specified stream |
 | [save(EditableDocument inputDocument, String filePath, ISaveOptions saveOptions)](#save-com.groupdocs.editor.EditableDocument-java.lang.String-com.groupdocs.editor.options.ISaveOptions-) | Converts specified edited document, represented as instance of '', to the resultant document of specified format and saves its content to file by specified file path |
+| [save(EditableDocument inputDocument, String filePath)](#save-com.groupdocs.editor.EditableDocument-java.lang.String-) | Converts the specified edited document (represented by an [EditableDocument](../../com.groupdocs.editor/editabledocument)) to an output document whose format is determined from the filename extension, and saves it to the specified file path. |
 | [save(OutputStream outputDocument, WordProcessingSaveOptions saveOptions)](#save-java.io.OutputStream-com.groupdocs.editor.options.WordProcessingSaveOptions-) | Converts the original document after modification (for example,  FormFieldManager (\#getFormFieldManager.getFormFieldManager)), to the resultant document of the specified format and saves its content to the provided stream. |
 | [save(OutputStream outputDocument)](#save-java.io.OutputStream-) | Save the current document content to the specified output stream. |
 | [getDocumentInfo(String password)](#getDocumentInfo-java.lang.String-) | Returns metadata about the document, that was loaded to this 'Editor' instance |
@@ -243,6 +244,20 @@ Converts specified edited document, represented as instance of '', to the result
 
 
 [How to save edited document using GroupDocs.Editor]: https://docs.groupdocs.com/display/editornet/Save+document |
+
+### save(EditableDocument inputDocument, String filePath) {#save-com.groupdocs.editor.EditableDocument-java.lang.String-}
+```
+public final void save(EditableDocument inputDocument, String filePath)
+```
+
+
+Converts the specified edited document (represented by an [EditableDocument](../../com.groupdocs.editor/editabledocument)) to an output document whose format is determined from the filename extension, and saves it to the specified file path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputDocument | [EditableDocument](../../com.groupdocs.editor/editabledocument) | Version of the input document that was edited in a WYSIWYG HTML editor and is stored as an [EditableDocument](../../com.groupdocs.editor/editabledocument) instance. Must not be  null  or disposed. |
+| filePath | java.lang.String | Path to the file where the output document will be saved. If a file with the same name exists, it will be completely overwritten. The path string must not be  null , empty, or contain only whitespaces. Because the default save options and output format are determined from this filename, it must have a valid extension. |
 
 ### save(OutputStream outputDocument, WordProcessingSaveOptions saveOptions) {#save-java.io.OutputStream-com.groupdocs.editor.options.WordProcessingSaveOptions-}
 ```

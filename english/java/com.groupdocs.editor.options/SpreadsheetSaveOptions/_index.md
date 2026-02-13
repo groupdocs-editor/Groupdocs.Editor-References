@@ -36,6 +36,8 @@ Allows to specify custom options for generating and saving Spreadsheet (Excel-co
 | [setOutputFormat(SpreadsheetFormats value)](#setOutputFormat-com.groupdocs.editor.formats.SpreadsheetFormats-) | Allows to specify a Spreadsheet format, which will be used for saving the document |
 | [getWorksheetProtection()](#getWorksheetProtection--) | Allows to enable a worksheet protection for the output Spreadsheet document. |
 | [setWorksheetProtection(WorksheetProtection value)](#setWorksheetProtection-com.groupdocs.editor.options.WorksheetProtection-) | Allows to enable a worksheet protection for the output Spreadsheet document. |
+| [getWorksheetNumbersToDelete()](#getWorksheetNumbersToDelete--) | Allows to specify an array with 1-based numbers of worksheets that should be deleted from the spreadsheet during its saving, in case when the edited worksheet is inserted into existing spreadsheet. |
+| [setWorksheetNumbersToDelete(int[] value)](#setWorksheetNumbersToDelete-int---) | Allows to specify an array with 1-based numbers of worksheets that should be deleted from the spreadsheet during its saving, in case when the edited worksheet is inserted into existing spreadsheet. |
 ### SpreadsheetSaveOptions() {#SpreadsheetSaveOptions--}
 ```
 public SpreadsheetSaveOptions()
@@ -221,4 +223,27 @@ Allows to enable a worksheet protection for the output Spreadsheet document. By 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [WorksheetProtection](../../com.groupdocs.editor.options/worksheetprotection) |  |
+
+### getWorksheetNumbersToDelete() {#getWorksheetNumbersToDelete--}
+```
+public final int[] getWorksheetNumbersToDelete()
+```
+
+
+Allows to specify an array with 1-based numbers of worksheets that should be deleted from the spreadsheet during its saving, in case when the edited worksheet is inserted into existing spreadsheet.When the edited worksheet is saved not as a new single-worksheet spreadsheet (default behavior), but instead is saved into an existing spreadsheet (using \#getWorksheetNumber().getWorksheetNumber() / \#setWorksheetNumber(int).setWorksheetNumber(int)), it is also possible to delete some particular worksheets from this spreadsheet by specifying their numbers in this array. By default this array is  null  \\u2014 no worksheets will be deleted. However, when this array is non-null and non-empty, and it contains at least one valid worksheet number, after the output spreadsheet document is generated with the content of the edited worksheet, the worksheets with specified numbers will be deleted from the spreadsheet right before writing its content to the output stream or file. Worksheet numbers in this array are 1-based, not 0-based. Invalid numbers (less than 1 or greater than the total number of worksheets) will be ignored.
+
+**Returns:**
+int[] - Array of 1-based worksheet numbers to delete, or  null  if nothing should be deleted.
+### setWorksheetNumbersToDelete(int[] value) {#setWorksheetNumbersToDelete-int---}
+```
+public final void setWorksheetNumbersToDelete(int[] value)
+```
+
+
+Allows to specify an array with 1-based numbers of worksheets that should be deleted from the spreadsheet during its saving, in case when the edited worksheet is inserted into existing spreadsheet.Worksheet numbers in this array are 1-based. Invalid numbers will be ignored.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int[] | Array of 1-based worksheet numbers to delete (may be  null  or empty). |
 

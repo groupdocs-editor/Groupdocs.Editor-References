@@ -3,7 +3,7 @@ title: FileExtension
 second_title: GroupDocs.Editor for .NET API Reference
 description: Filename extension without dot character for this font type
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/fileextension/
 ---
 ## FontType.FileExtension property

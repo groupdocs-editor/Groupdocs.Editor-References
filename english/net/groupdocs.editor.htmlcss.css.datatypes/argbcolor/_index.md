@@ -22,6 +22,7 @@ public struct ArgbColor : ICssDataType, IEquatable<ArgbColor>
 | [Alpha](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/alpha) { get; } | Gets the alpha part of the color in percent (0..1). |
 | [B](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/b) { get; } | Gets the blue part of the color. |
 | [G](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/g) { get; } | Gets the green part of the color. |
+| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isdefault) { get; } | Indicates whether this [`ArgbColor`](../argbcolor) instance is default (Transparent) - all 4 channels are set to 0 |
 | [IsEmpty](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isempty) { get; } | Uninitialized color - all 4 channels are set to 0. Same as Default and Transparent. |
 | [IsFullyOpaque](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullyopaque) { get; } | Indicates whether this [`ArgbColor`](../argbcolor) instance is fully opaque, without transparency (its Alpha channel has max value) |
 | [IsFullyTransparent](../../groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullytransparent) { get; } | Indicates whether this [`ArgbColor`](../argbcolor) instance is fully transparent - its Alpha channel has the min (0) value, so other R, G, and B channels has no visible effect. |

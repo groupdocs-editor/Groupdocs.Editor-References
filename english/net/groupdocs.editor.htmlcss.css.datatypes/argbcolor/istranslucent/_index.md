@@ -3,7 +3,7 @@ title: IsTranslucent
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether this ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor instance is translucent not fully transparent but also not fully opaque
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/istranslucent/
 ---
 ## ArgbColor.IsTranslucent property

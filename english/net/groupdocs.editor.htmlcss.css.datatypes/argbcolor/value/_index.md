@@ -3,7 +3,7 @@ title: Value
 second_title: GroupDocs.Editor for .NET API Reference
 description: Gets the Int32 value of the color.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/value/
 ---
 ## ArgbColor.Value property

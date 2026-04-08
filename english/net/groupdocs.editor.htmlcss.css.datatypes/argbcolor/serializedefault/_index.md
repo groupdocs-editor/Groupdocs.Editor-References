@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: GroupDocs.Editor for .NET API Reference
 description: Serializes this ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor instance to the most appropriate CSS function notation depending on translucency
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/serializedefault/
 ---
 ## ArgbColor.SerializeDefault method

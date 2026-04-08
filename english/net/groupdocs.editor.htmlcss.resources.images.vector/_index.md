@@ -14,7 +14,7 @@ The GroupDocs.Editor.HtmlCss.Resources.Images.Vector namespace provides classes 
 | --- | --- |
 | [EmfImage](./emfimage) | Represents one vector image in Enhanced metafile format (EMF) format with its metadata and additional methods |
 | [MetaImageBase](./metaimagebase) | Base abstract class for WMF and EMF image formats |
-| [SvgImage](./svgimage) | Represents one vector image in SVG (Scalable Vector Graphics) format with its metadata and additional methods |
+| [SvgImage](./svgimage) | Represents one vector image in SVG (Scalable Vector Graphics) format with its metadata (dimensions) and additional methods (saving to PNG) |
 | [VectorImageResourceBase](./vectorimageresourcebase) | Base class for any supported vector image |
 | [WmfImage](./wmfimage) | Represents one vector image in WMF (Windows MetaFile) format with its metadata and additional methods |
 

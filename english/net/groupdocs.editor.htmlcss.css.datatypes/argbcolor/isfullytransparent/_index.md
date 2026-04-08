@@ -3,7 +3,7 @@ title: IsFullyTransparent
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether this ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor instance is fully transparent  its Alpha channel has the min 0 value so other R G and B channels has no visible effect.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullytransparent/
 ---
 ## ArgbColor.IsFullyTransparent property

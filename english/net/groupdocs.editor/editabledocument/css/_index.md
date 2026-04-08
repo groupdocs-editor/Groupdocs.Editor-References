@@ -1,18 +1,22 @@
 ---
 title: Css
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a list of CSS resources
+description: Allows to obtain stylesheet CSS resources both external and embedded but not inline which are used by this HTML document
 type: docs
 weight: 60
 url: /net/groupdocs.editor/editabledocument/css/
 ---
 ## EditableDocument.Css property
 
-Returns a list of CSS resources
+Allows to obtain stylesheet (CSS) resources (both external and embedded, but not inline), which are used by this HTML document
 
 ```csharp
 public List<CssText> Css { get; }
 ```
+
+### Remarks
+
+This method returns a swallow copy of all used stylesheet resources: `List` is a new instance for every call, but resource instances are the same.
 
 ### See Also
 

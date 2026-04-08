@@ -3,7 +3,7 @@ title: R
 second_title: GroupDocs.Editor for .NET API Reference
 description: Gets the red part of the color.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/r/
 ---
 ## ArgbColor.R property

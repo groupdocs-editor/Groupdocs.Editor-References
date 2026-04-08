@@ -3,7 +3,7 @@ title: SerializeDefault
 second_title: GroupDocs.Editor for .NET API Reference
 description: Should return a default string representation of the current value of the data type
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.editor.htmlcss.css.datatypes/icssdatatype/serializedefault/
 ---
 ## ICssDataType.SerializeDefault method

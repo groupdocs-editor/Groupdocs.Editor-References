@@ -1,14 +1,14 @@
 ---
 title: SvgImage
 second_title: GroupDocs.Editor for .NET API Reference
-description: Represents one vector image in SVG Scalable Vector Graphics format with its metadata and additional methods
+description: Represents one vector image in SVG Scalable Vector Graphics format with its metadata dimensions and additional methods saving to PNG
 type: docs
-weight: 570
+weight: 580
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/svgimage/
 ---
 ## SvgImage class
 
-Represents one vector image in SVG (Scalable Vector Graphics) format with its metadata and additional methods
+Represents one vector image in SVG (Scalable Vector Graphics) format with its metadata (dimensions) and additional methods (saving to PNG)
 
 ```csharp
 public sealed class SvgImage : VectorImageResourceBase
@@ -26,13 +26,13 @@ public sealed class SvgImage : VectorImageResourceBase
 | Name | Description |
 | --- | --- |
 | [AspectRatio](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/aspectratio) { get; } | Returns aspect ratio of this vector image |
-| override [ByteContent](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/bytecontent) { get; } | Returns a content of this SVG image as a binary stream |
+| override [ByteContent](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/bytecontent) { get; } | Returns a content of this SVG image as a binary stream with original position |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/filenamewithextension) { get; } | Returns correct filename of this vector image, which consists of name and extension. Theoretically can differ from the name. |
 | [IsDisposed](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/isdisposed) { get; } | Determines whether this raster image is disposed (`true`) or not (`false`) |
 | [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/lineardimensions) { get; } | Returns linear dimensions of this vector image (width and height) |
 | [Name](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/name) { get; } | Returns name of this vector image. Usually doesn't contain filename extension and theoretically can differ from filename. |
 | override [TextContent](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/textcontent) { get; } | Returns a content of this SVG image as a base64-encoded binary content (not as a raw text in XML format) |
-| override [Type](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/type) { get; } | Returns ImageType.Svg |
+| override [Type](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/type) { get; } | Returns [`Svg`](../../groupdocs.editor.htmlcss.resources.images/imagetype/svg) |
 | [XmlContent](../../groupdocs.editor.htmlcss.resources.images.vector/svgimage/xmlcontent) { get; } | Returns a content of this SVG image in its original XML-compliant textual form |
 
 ## Methods

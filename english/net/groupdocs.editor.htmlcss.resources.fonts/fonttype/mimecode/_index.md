@@ -3,7 +3,7 @@ title: MimeCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: MIME code of a particular font type
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/mimecode/
 ---
 ## FontType.MimeCode property

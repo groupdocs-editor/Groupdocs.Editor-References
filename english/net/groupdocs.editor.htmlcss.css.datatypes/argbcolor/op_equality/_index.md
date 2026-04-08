@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Compares two colors and returns a boolean indicating if the two do match.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_equality/
 ---
 ## ArgbColor Equality operator

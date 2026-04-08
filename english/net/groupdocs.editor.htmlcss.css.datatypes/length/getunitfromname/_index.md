@@ -3,7 +3,7 @@ title: GetUnitFromName
 second_title: GroupDocs.Editor for .NET API Reference
 description: Tries to parse specified unit name and return corresponding value of a Unit enum. Returns Unit.Unitless if cannot find appropriate unit.
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/getunitfromname/
 ---
 ## Length.GetUnitFromName method

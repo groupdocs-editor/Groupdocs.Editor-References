@@ -3,7 +3,7 @@ title: Woff
 second_title: GroupDocs.Editor for .NET API Reference
 description: Represents a WOFF Web Open Font Format font type
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/woff/
 ---
 ## FontType.Woff property

@@ -21,6 +21,7 @@ public struct Length : ICloneable, ICssDataType, IEquatable<Length>
 | [FloatValue](../../groupdocs.editor.htmlcss.css.datatypes/length/floatvalue) { get; } | Returns a float numeric value of the Length instance. Never throws an exception - converts Integer value to Float if necessary. |
 | [IntegerValue](../../groupdocs.editor.htmlcss.css.datatypes/length/integervalue) { get; } | Returns an integer numeric value of this Length instance, if it is internally stored as an integer, or throws an exception, if it was originally stored as a float number. |
 | [IsAbsolute](../../groupdocs.editor.htmlcss.css.datatypes/length/isabsolute) { get; } | Gets if the length is given in absolute units. Such a length may be converted to pixels. |
+| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/length/isdefault) { get; } | Indicates whether this Length instance has a default value — unitless zero. Same as IsUnitlessZero property. |
 | [IsFloat](../../groupdocs.editor.htmlcss.css.datatypes/length/isfloat) { get; } | Indicates whether the numeric value of this Length instance was originally specified and stored as a float (FP32) number |
 | [IsInteger](../../groupdocs.editor.htmlcss.css.datatypes/length/isinteger) { get; } | Indicates whether the numeric value of this Length instance was originally specified and stored as an integer (INT32) number |
 | [IsNegative](../../groupdocs.editor.htmlcss.css.datatypes/length/isnegative) { get; } | Determines whether the numeric value of this length is a negative number |

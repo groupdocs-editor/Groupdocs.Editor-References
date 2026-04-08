@@ -3,7 +3,7 @@ title: Calculate
 second_title: GroupDocs.Editor for .NET API Reference
 description: Calculates and returns this ratio as a single floating point number
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.editor.htmlcss.css.datatypes/ratio/calculate/
 ---
 ## Ratio.Calculate method

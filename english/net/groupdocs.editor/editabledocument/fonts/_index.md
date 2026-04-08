@@ -14,6 +14,10 @@ Allows to obtain external font resources, which are used by this HTML document
 public List<FontResourceBase> Fonts { get; }
 ```
 
+### Remarks
+
+This method returns a swallow copy of all used font resources: `List` is a new instance for every call, but resource instances are the same.
+
 ### See Also
 
 * class [FontResourceBase](../../../groupdocs.editor.htmlcss.resources.fonts/fontresourcebase)

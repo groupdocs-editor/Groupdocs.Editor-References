@@ -3,7 +3,7 @@ title: Undefined
 second_title: GroupDocs.Editor for .NET API Reference
 description: Special value which marks undefined unknown or unsupported font resource
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/undefined/
 ---
 ## FontType.Undefined property

@@ -14,6 +14,12 @@ Common interface for all CSS data types, which are used in the CSS properties
 public interface ICssDataType : IEquatable<ICssDataType>
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/icssdatatype/isdefault) { get; } | Should define whether the current value of the data type is the default value for this specific data type (true) or not (false) |
+
 ## Methods
 
 | Name | Description |

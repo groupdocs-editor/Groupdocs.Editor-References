@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor for .NET API Reference
 description: Determines whether this instance is equal with specified FontType instance
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/equals/
 ---
 ## Equals(FontType) {#equals}

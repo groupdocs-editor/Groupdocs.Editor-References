@@ -49,7 +49,7 @@ public void Save(string htmlFilePath, string resourcesFolderPath)
 
 ## Save(TextWriter, HtmlSaveOptions) {#save}
 
-Saves the content of this [`EditableDocument`](../../editabledocument) as the HTML document to the specified text writer, while the second options parameter allows to customize the saving procedure and resource saving callback
+Saves the content of this [`EditableDocument`](../../editabledocument) as the HTML document to the specified text writer, while the second options parameter allows to customize the saving procedure and specify the resource saving callback
 
 ```csharp
 public void Save(TextWriter htmlMarkup, HtmlSaveOptions saveOptions)
@@ -58,7 +58,13 @@ public void Save(TextWriter htmlMarkup, HtmlSaveOptions saveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | htmlMarkup | TextWriter | Implementation of the text writer, into which the HTML markup will be written. Can not be null. |
-| saveOptions | HtmlSaveOptions | HTML save options, that control the saving procedure: how and where will be saved CSS, resources, tag names and quote types. |
+| saveOptions | HtmlSaveOptions | HTML save options, that control the saving procedure: how the HTML-markup is stored (tag names, quote types) and how and where will be saved CSS and other resources like images or fonts. User should specify the inheritor of  interface in the [`SavingCallback`](../../../groupdocs.editor.options/htmlsaveoptions/savingcallback) property for controlling how resources should be saved and referenced from HTML-markup. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Any of specified arguments or `SavingCallback` property in *saveOptions* are `null` |
 
 ### See Also
 

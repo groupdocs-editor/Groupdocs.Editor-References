@@ -16,11 +16,15 @@ public string SaveOneResource(IHtmlResource resource)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resource | IHtmlResource | HTML resource of any kind (usually images and stylesheets), that is passed by the GroupDocs.Editor to the user-defined implementation, obtained by the user, and user is able to do any necessary procedures like saving, sending, converting it etc. It will never be NULL. |
+| resource | IHtmlResource | HTML resource of any kind (images and fonts, my be stylesheets if they are not embedded in the HTML markup), that is passed by the GroupDocs.Editor to the user-defined implementation of this interface, obtained by the user, and user is able to do any necessary procedures like saving, sending, converting it etc. GroupDocs.Editor will never pass a `null` HTML resource to this method. |
 
 ### Return Value
 
 A link (reference) to the resource, obtained in the *resource* parameter, that user must provide to the GroupDocs.Editor, so the GroupDocs.Editor will put this link to the HTML markup.
+
+### Remarks
+
+GroupDocs.Editor expects that the user-defined implementation of this method does not throw exception while execution. However, when exception do occur, GroupDocs.Editor will write a value of [`FilenameWithExtension`](../../../groupdocs.editor.htmlcss.resources/ihtmlresource/filenamewithextension) property to the HTML markup.
 
 ### See Also
 

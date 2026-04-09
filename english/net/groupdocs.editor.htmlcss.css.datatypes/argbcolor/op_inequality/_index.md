@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Compares two colors and returns a boolean indicating if the two do not match.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/op_inequality/
 ---
 ## ArgbColor Inequality operator

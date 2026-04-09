@@ -3,7 +3,7 @@ title: MetaImageBase
 second_title: GroupDocs.Editor for .NET API Reference
 description: Base abstract class for WMF and EMF image formats
 type: docs
-weight: 560
+weight: 570
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/
 ---
 ## MetaImageBase class
@@ -35,13 +35,17 @@ public abstract class MetaImageBase : VectorImageResourceBase
 | [Equals](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/equals)(IHtmlResource) | Checks this instance with specified on reference equality. |
 | abstract [Save](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/save)(string) | In implementing type should save this image to the disk by specified path |
 | abstract [SaveToPng](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/savetopng)(Stream) | In implementing type should save a current vector image to the raster PNG format into specified byte stream |
-| abstract [SaveToSvg](../../groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/savetosvg)(Stream) | In implementing type should save a current vector meta-image to the vector SVG format into specified byte stream |
+| abstract [SaveToSvg](../../groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/savetosvg)(Stream) | In implementing WMF or EMF type should save a current vector meta-image to the vector SVG format to the specified byte stream |
 
 ## Events
 
 | Name | Description |
 | --- | --- |
 | event [Disposed](../../groupdocs.editor.htmlcss.resources.images.vector/vectorimageresourcebase/disposed) | Event, which occurs when this raster image is disposed |
+
+### Remarks
+
+This abstract class is inherited by [`WmfImage`](../wmfimage) and [`EmfImage`](../emfimage)
 
 ### See Also
 

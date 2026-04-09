@@ -3,7 +3,7 @@ title: FontFormat
 second_title: GroupDocs.Editor for .NET API Reference
 description: Font format for fontface format
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/fontformat/
 ---
 ## FontType.FontFormat property

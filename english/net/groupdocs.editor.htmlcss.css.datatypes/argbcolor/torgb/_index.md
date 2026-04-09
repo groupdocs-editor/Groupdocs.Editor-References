@@ -3,7 +3,7 @@ title: ToRGB
 second_title: GroupDocs.Editor for .NET API Reference
 description: Serializes this ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor instance to the rgb CSS function notation
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/torgb/
 ---
 ## ArgbColor.ToRGB method

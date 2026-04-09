@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a hashcode which is a constant number for this specific value type
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/gethashcode/
 ---
 ## FontType.GetHashCode method

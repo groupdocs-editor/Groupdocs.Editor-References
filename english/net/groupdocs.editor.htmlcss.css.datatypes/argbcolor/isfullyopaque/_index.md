@@ -3,7 +3,7 @@ title: IsFullyOpaque
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether this ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor instance is fully opaque without transparency its Alpha channel has max value
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/isfullyopaque/
 ---
 ## ArgbColor.IsFullyOpaque property

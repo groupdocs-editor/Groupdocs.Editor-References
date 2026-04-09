@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks whether two FontType values are equal
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/op_equality/
 ---
 ## FontType Equality operator

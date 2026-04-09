@@ -3,7 +3,7 @@ title: IsFloat
 second_title: GroupDocs.Editor for .NET API Reference
 description: Indicates whether the numeric value of this Length instance was originally specified and stored as a float FP32 number
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.editor.htmlcss.css.datatypes/length/isfloat/
 ---
 ## Length.IsFloat property

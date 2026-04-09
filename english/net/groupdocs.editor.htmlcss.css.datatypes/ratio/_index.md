@@ -19,6 +19,7 @@ public struct Ratio : ICloneable, ICssDataType, IEquatable<Ratio>
 | Name | Description |
 | --- | --- |
 | [Denominator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/denominator) { get; } | Returns a denominator of this ratio |
+| [IsDefault](../../groupdocs.editor.htmlcss.css.datatypes/ratio/isdefault) { get; } | Determines whether this ratio has default value or is a "1/1" (Single) |
 | [Numerator](../../groupdocs.editor.htmlcss.css.datatypes/ratio/numerator) { get; } | Returns a numerator of this ratio |
 
 ## Methods

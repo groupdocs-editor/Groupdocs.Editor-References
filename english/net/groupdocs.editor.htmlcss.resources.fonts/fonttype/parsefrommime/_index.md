@@ -3,7 +3,7 @@ title: ParseFromMime
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns FontType value which is equivalent of specified MIMEcode
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefrommime/
 ---
 ## FontType.ParseFromMime method

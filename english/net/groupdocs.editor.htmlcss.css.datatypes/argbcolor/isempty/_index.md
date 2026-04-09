@@ -3,7 +3,7 @@ title: IsEmpty
 second_title: GroupDocs.Editor for .NET API Reference
 description: Uninitialized color  all 4 channels are set to 0. Same as Default and Transparent.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/isempty/
 ---
 ## ArgbColor.IsEmpty property

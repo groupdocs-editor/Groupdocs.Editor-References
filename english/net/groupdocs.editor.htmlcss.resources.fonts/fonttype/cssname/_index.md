@@ -3,7 +3,7 @@ title: CssName
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns CSScompatible name of this font type which is used in the fontface atrule
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/cssname/
 ---
 ## FontType.CssName property

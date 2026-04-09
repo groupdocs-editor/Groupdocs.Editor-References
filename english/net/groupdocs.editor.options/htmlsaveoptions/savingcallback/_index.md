@@ -1,18 +1,22 @@
 ---
 title: SavingCallback
 second_title: GroupDocs.Editor for .NET API Reference
-description: Interface which must be implemented by the enduser for saving all the external HTML resources
+description: Interface which must be implemented by the enduser for saving all the external HTML resources. This property must not be null otherwise the GroupDocs.Editor will throw an exception while saving EditableDocumentgroupdocs.editor/editabledocument to HTML format.
 type: docs
 weight: 50
 url: /net/groupdocs.editor.options/htmlsaveoptions/savingcallback/
 ---
 ## HtmlSaveOptions.SavingCallback property
 
-Interface, which must be implemented by the end-user for saving all the external HTML resources
+Interface, which must be implemented by the end-user for saving all the external HTML resources. This property **must** not be `null`, otherwise the GroupDocs.Editor will throw an exception while saving [`EditableDocument`](../../../groupdocs.editor/editabledocument) to HTML format.
 
 ```csharp
 public IHtmlSavingCallback SavingCallback { get; set; }
 ```
+
+### Remarks
+
+If the value of [`EmbedStylesheetsIntoMarkup`](../embedstylesheetsintomarkup) property is set to `true`, all the stylesheets will be embedded to the HTML markup and thus they will not be passed to this saving callback
 
 ### See Also
 

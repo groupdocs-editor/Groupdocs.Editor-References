@@ -3,7 +3,7 @@ title: GetFirstDefined
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns a first font type from specified set which is not an Undefined value or Undefined font type otherwise when all items are Undefined
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/getfirstdefined/
 ---
 ## FontType.GetFirstDefined method

@@ -14,6 +14,10 @@ Allows to obtain external image resources (raster and vector images), which are 
 public List<IImageResource> Images { get; }
 ```
 
+### Remarks
+
+This method returns a swallow copy of all used image resources: `List` is a new instance for every call, but resource instances are the same.
+
 ### See Also
 
 * interface [IImageResource](../../../groupdocs.editor.htmlcss.resources.images/iimageresource)

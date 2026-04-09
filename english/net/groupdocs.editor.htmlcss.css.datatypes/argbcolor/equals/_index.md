@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Editor for .NET API Reference
 description: Checks two ArgbColorgroupdocs.editor.htmlcss.css.datatypes/argbcolor colors for equality
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/equals/
 ---
 ## Equals(ArgbColor) {#equals}

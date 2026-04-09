@@ -15,6 +15,7 @@ The GroupDocs.Editor.HtmlCss.Resources.Fonts namespace provides classes that rep
 | [EotFont](./eotfont) | Represents one font in the EOT (Embedded OpenType) format |
 | [FontResourceBase](./fontresourcebase) | Base class for any supported font type as a resource for the HTML document with all its properties |
 | [OtfFont](./otffont) | Represents one font in the OTF (Open Type Format) format |
+| [TtcFont](./ttcfont) | Represents one font in the TTC (TrueType Collection) format |
 | [TtfFont](./ttffont) | Represents one font in the TTF (TrueType Font) format |
 | [Woff2Font](./woff2font) | Represents one font in the WOFF2 (Web Open Font Format) format |
 | [WoffFont](./wofffont) | Represents one font in the WOFF (Web Open Font Format) format |

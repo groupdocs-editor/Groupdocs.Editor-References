@@ -3,7 +3,7 @@ title: ParseFromFilenameWithExtension
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns FontType value which is equivalent of filename extension which is extracted from specified filename
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromfilenamewithextension/
 ---
 ## FontType.ParseFromFilenameWithExtension method

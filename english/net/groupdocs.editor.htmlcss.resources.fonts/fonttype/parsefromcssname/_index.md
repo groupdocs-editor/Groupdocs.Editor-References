@@ -3,7 +3,7 @@ title: ParseFromCssName
 second_title: GroupDocs.Editor for .NET API Reference
 description: Returns FontType value which is equivalent of specified CSScompatible name of the font type
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.editor.htmlcss.resources.fonts/fonttype/parsefromcssname/
 ---
 ## FontType.ParseFromCssName method

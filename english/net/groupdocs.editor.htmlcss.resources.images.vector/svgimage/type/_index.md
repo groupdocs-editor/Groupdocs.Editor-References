@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns ImageType.Svg
+description: Returns Svggroupdocs.editor.htmlcss.resources.images/imagetype/svg
 type: docs
 weight: 40
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/svgimage/type/
 ---
 ## SvgImage.Type property
 
-Returns ImageType.Svg
+Returns [`Svg`](../../../groupdocs.editor.htmlcss.resources.images/imagetype/svg)
 
 ```csharp
 public override ImageType Type { get; }

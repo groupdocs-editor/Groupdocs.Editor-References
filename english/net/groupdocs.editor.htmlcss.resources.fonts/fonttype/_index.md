@@ -20,6 +20,7 @@ public struct FontType : IEquatable<FontType>, IResourceType
 | --- | --- |
 | static [Eot](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/eot) { get; } | Represents a EOT (Embedded OpenType) font type |
 | static [Otf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/otf) { get; } | Represents a OTF (OpenType Font) font type |
+| static [Ttc](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/ttc) { get; } | Represents a TrueType Collection (TTC) font |
 | static [Ttf](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/ttf) { get; } | Represents a TTF (TrueType Font) font type |
 | static [Undefined](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/undefined) { get; } | Special value, which marks undefined, unknown or unsupported font resource |
 | static [Woff](../../groupdocs.editor.htmlcss.resources.fonts/fonttype/woff) { get; } | Represents a WOFF (Web Open Font Format) font type |

@@ -17,7 +17,7 @@ The GroupDocs.Editor.HtmlCss.Resources namespace provides classes that represent
 
 | Interface | Description |
 | --- | --- |
-| [IAuxDisposable](./iauxdisposable) | Expands the standard System.IDisposable interface, allows to obtain a current state of an object and subscribe to disposing event |
+| [IAuxDisposable](./iauxdisposable) | Expands the standard IDisposable interface, allows to obtain a current state of an object and subscribe to the disposing event |
 | [IHtmlResource](./ihtmlresource) | Represents one instance of the unknown HTML resource (raster or vector image, stylesheet, font, text resource (CSS, XML), audio etc.) |
 | [IResourceType](./iresourcetype) | Represents one instance of the unknown resource type/format (image, font, text) |
 

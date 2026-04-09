@@ -20,7 +20,7 @@ public sealed class EditableDocument : IAuxDisposable
 | --- | --- |
 | [AllResources](../../groupdocs.editor/editabledocument/allresources) { get; } | Returns a list of all existing resources: all stylesheets, images from HTML and all stylesheets, fonts, audio |
 | [Audio](../../groupdocs.editor/editabledocument/audio) { get; } | Returns a list of audio resources |
-| [Css](../../groupdocs.editor/editabledocument/css) { get; } | Returns a list of CSS resources |
+| [Css](../../groupdocs.editor/editabledocument/css) { get; } | Allows to obtain stylesheet (CSS) resources (both external and embedded, but not inline), which are used by this HTML document |
 | [Fonts](../../groupdocs.editor/editabledocument/fonts) { get; } | Allows to obtain external font resources, which are used by this HTML document |
 | [Images](../../groupdocs.editor/editabledocument/images) { get; } | Allows to obtain external image resources (raster and vector images), which are used by this HTML document |
 | [IsDisposed](../../groupdocs.editor/editabledocument/isdisposed) { get; } | Determines whether this Editable document was already disposed (true) or not (false) |
@@ -44,7 +44,7 @@ public sealed class EditableDocument : IAuxDisposable
 | [GetEmbeddedHtml](../../groupdocs.editor/editabledocument/getembeddedhtml)() | Returns all content of this HTML document with all related resources in a form of a single string, where all resources are embedded inside the HTML markup in a base64-encoded form. |
 | [Save](../../groupdocs.editor/editabledocument/save#save_1)(string) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources. |
 | [Save](../../groupdocs.editor/editabledocument/save#save_2)(string, string) | Saves this HTML document to the file on specified path, where HTML markup will be stored, and to the accompanying folder with resources, which is located on specified path. |
-| [Save](../../groupdocs.editor/editabledocument/save#save)(TextWriter, HtmlSaveOptions) | Saves the content of this [`EditableDocument`](../editabledocument) as the HTML document to the specified text writer, while the second options parameter allows to customize the saving procedure and resource saving callback |
+| [Save](../../groupdocs.editor/editabledocument/save#save)(TextWriter, HtmlSaveOptions) | Saves the content of this [`EditableDocument`](../editabledocument) as the HTML document to the specified text writer, while the second options parameter allows to customize the saving procedure and specify the resource saving callback |
 
 ## Events
 
@@ -54,7 +54,7 @@ public sealed class EditableDocument : IAuxDisposable
 
 ### Remarks
 
-Instance of EditableDocument class can be produced by the '[`Edit`](../editor/edit)' method or created by the user himself using static factories. EditableDocument internally stores document in its own closed format, which is compatible (convertible) with all import and export formats, that GroupDocs.Editor supports. In order to make document editable in any WYSIWYG client-side editor (like CKEditor or TinyMCE), EditableDocument provides methods for generating HTML markup and producing resources, that can be accepted by the user.
+Instance of `EditableDocument` class can be produced by the '[`Edit`](../editor/edit)' method or created by the user himself using static factories. `EditableDocument` internally stores document in its own closed format, which is compatible (convertible) with all import and export formats, that GroupDocs.Editor supports. In order to make document editable in any WYSIWYG client-side editor (like CKEditor or TinyMCE), `EditableDocument` provides methods for generating HTML markup and producing resources, that can be accepted by the user.
 
 ### See Also
 

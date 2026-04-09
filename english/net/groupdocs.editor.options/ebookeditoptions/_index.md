@@ -3,7 +3,7 @@ title: EbookEditOptions
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify and adjust custom options for editing Ebook documents in all supported formats ePub MOBI and AZW3.
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.editor.options/ebookeditoptions/
 ---
 ## EbookEditOptions class

@@ -1,14 +1,14 @@
 ---
 title: ByteContent
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns a content of this SVG image as a binary stream
+description: Returns a content of this SVG image as a binary stream with original position
 type: docs
 weight: 20
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/svgimage/bytecontent/
 ---
 ## SvgImage.ByteContent property
 
-Returns a content of this SVG image as a binary stream
+Returns a content of this SVG image as a binary stream with original position
 
 ```csharp
 public override Stream ByteContent { get; }

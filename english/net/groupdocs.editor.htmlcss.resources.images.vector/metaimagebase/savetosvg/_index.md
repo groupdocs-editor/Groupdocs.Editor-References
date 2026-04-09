@@ -1,14 +1,14 @@
 ---
 title: SaveToSvg
 second_title: GroupDocs.Editor for .NET API Reference
-description: In implementing type should save a current vector metaimage to the vector SVG format into specified byte stream
+description: In implementing WMF or EMF type should save a current vector metaimage to the vector SVG format to the specified byte stream
 type: docs
 weight: 10
 url: /net/groupdocs.editor.htmlcss.resources.images.vector/metaimagebase/savetosvg/
 ---
 ## MetaImageBase.SaveToSvg method
 
-In implementing type should save a current vector meta-image to the vector SVG format into specified byte stream
+In implementing WMF or EMF type should save a current vector meta-image to the vector SVG format to the specified byte stream
 
 ```csharp
 public abstract void SaveToSvg(Stream outputSvgContent)

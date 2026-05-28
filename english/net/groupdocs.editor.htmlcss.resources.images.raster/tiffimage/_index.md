@@ -28,13 +28,12 @@ public sealed class TiffImage : RasterImageResourceBase
 | [AspectRatio](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/aspectratio) { get; } | Returns an aspect ratio of this image as the width-to-height relation |
 | [ByteContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/bytecontent) { get; } | Returns content of this raster image as byte stream |
 | [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension) { get; } | Returns correct filename of this raster image, which consists of name and extension. Theoretically can differ from the name. |
-| [FramesCount](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/framescount) { get; } | Returns a number of frames (images) inside this TIFF image. Cannot be lesser then 1. |
 | [IsDisposed](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/isdisposed) { get; } | Determines whether this raster image is disposed or not |
 | [Length](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/length) { get; } | Returns the length of this raster image file in bytes |
 | [LinearDimensions](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/lineardimensions) { get; } | Returns linear dimensions of this raster image (width and height) |
 | [Name](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/name) { get; } | Returns name of this raster image. Usually doesn't contain filename extension and theoretically can differ from filename. |
 | [TextContent](../../groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/textcontent) { get; } | Returns content of this raster image as base64-encoded string |
-| override [Type](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/type) { get; } | Returns ImageType.Tiff |
+| override [Type](../../groupdocs.editor.htmlcss.resources.images.raster/tiffimage/type) { get; } | Returns [`Tiff`](../../groupdocs.editor.htmlcss.resources.images/imagetype/tiff) |
 
 ## Methods
 

@@ -1,14 +1,14 @@
 ---
 title: ArgbColor
 second_title: GroupDocs.Editor for .NET API Reference
-description: Represents one color value in ARGB format with converters and serializers
+description: Represents one color value in 32bit ARGB format 8 bits per channel including transparency with converters and serializers
 type: docs
 weight: 160
 url: /net/groupdocs.editor.htmlcss.css.datatypes/argbcolor/
 ---
 ## ArgbColor structure
 
-Represents one color value in ARGB format with converters and serializers
+Represents one color value in 32-bit ARGB format (8 bits per channel including transparency) with converters and serializers
 
 ```csharp
 public struct ArgbColor : ICssDataType, IEquatable<ArgbColor>

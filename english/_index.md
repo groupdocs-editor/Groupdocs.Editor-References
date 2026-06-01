@@ -9,7 +9,7 @@ url: /
 
 **GroupDocs.Editor** is a product that integrates advanced document processing features into your application, allowing you to edit and convert a wide range of document formats directly within your own system.
 
-Discover our .NET, Java, and Node.js solutions and choose the one that best meets your document-editing needs.
+Discover our .NET, Java, Node.js, and Python solutions and choose the one that best meets your document-editing needs.
 
 <div style="display: flex;flex-wrap: wrap;justify-content: left;gap: 10px;padding: 10px;">
     <a href="/editor/net/"
@@ -33,6 +33,13 @@ Discover our .NET, Java, and Node.js solutions and choose the one that best meet
         <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Editor for Node.js via Java</h3>
         <p style="font-size: 12px; color: #666; text-align: center;">GroupDocs.Editor API for Node.js applications</p>
     </a>
+    <a href="/editor/python-net/"
+        style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
+        <img src="gdocs_python.png"
+            alt="GroupDocs.Editor Icon" style="width: 70px; height: 70px; object-fit: contain;">
+        <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Editor for Python via .NET</h3>
+        <p style="font-size: 12px; color: #666; text-align: center;">GroupDocs.Editor API for Python applications</p>
+    </a>
 </div>
 
 ### Documentation
@@ -41,4 +48,5 @@ Learn how to seamlessly integrate GroupDocs.Editor into your application by expl
 
 - [GroupDocs.Editor for .NET](https://docs.groupdocs.com/editor/net/)  
 - [GroupDocs.Editor for Java](https://docs.groupdocs.com/editor/java/)  
-- [GroupDocs.Editor for Node.js via Java](https://docs.groupdocs.com/editor/nodejs-java/) 
+- [GroupDocs.Editor for Node.js via Java](https://docs.groupdocs.com/editor/nodejs-java/)  
+- [GroupDocs.Editor for Python via .NET](https://docs.groupdocs.com/editor/python-net/) 

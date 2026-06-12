@@ -3,7 +3,7 @@ title: WorksheetIndex
 second_title: GroupDocs.Editor for .NET API Reference
 description: Allows to specify the 0based index of the worksheet tab of the input Spreadsheet document which should be converted to the HTML see remarks.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.editor.options/spreadsheeteditoptions/worksheetindex/
 ---
 ## SpreadsheetEditOptions.WorksheetIndex property

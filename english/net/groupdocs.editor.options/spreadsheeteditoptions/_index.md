@@ -25,6 +25,8 @@ public class SpreadsheetEditOptions : IEditOptions
 | Name | Description |
 | --- | --- |
 | [ExcludeHiddenWorksheets](../../groupdocs.editor.options/spreadsheeteditoptions/excludehiddenworksheets) { get; set; } | Allows to exclude hidden worksheets in the input Spreadsheet document, so they will be totally ignored. Default is false - hidden worksheets are available and processed as normal. |
+| [ExportBogusRowData](../../groupdocs.editor.options/spreadsheeteditoptions/exportbogusrowdata) { get; set; } | When enabled, the HTML table in produced HTML document contains an empty bottom hidden row with zero height and empty cells, where only width is specified. This row with empty cells contains exact width values for each column and improves backward conversion from HTML to Spreadsheet. By default is enabled (`true`). |
+| [MergeEmptyAdjacentCells](../../groupdocs.editor.options/spreadsheeteditoptions/mergeemptyadjacentcells) { get; set; } | When enabled, the empty adjucent horizontal cells from the input Spreadsheet document will be represented in editable HTML document as merged into a single cell with corresponding `colspan` attribute. By default is disabled (`false`). |
 | [WorksheetIndex](../../groupdocs.editor.options/spreadsheeteditoptions/worksheetindex) { get; set; } | Allows to specify the 0-based index of the worksheet (tab) of the input Spreadsheet document, which should be converted to the HTML (see remarks). |
 
 ### See Also

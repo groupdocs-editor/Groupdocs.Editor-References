@@ -17,7 +17,7 @@ The GroupDocs.Editor.HtmlCss.Css.DataTypes namespace provides classes that repre
 
 | Structure | Description |
 | --- | --- |
-| [ArgbColor](./argbcolor) | Represents one color value in ARGB format with converters and serializers |
+| [ArgbColor](./argbcolor) | Represents one color value in 32-bit ARGB format (8 bits per channel including transparency) with converters and serializers |
 | [Length](./length) | Represents a CSS length value in any supportable unit, including percentage and unitless type. Values may be integer or float, negative, zero and positive. Immutable structure. |
 | [Ratio](./ratio) | Represents a "ratio" CSS data type, which is used for describing aspect ratios in media queries and for raster images by denoting the proportion between two unitless values called "numerator" and "denominator". Immutable struct. |
 ## Interfaces

@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: GroupDocs.Editor for .NET API Reference
-description: Returns ImageType.Tiff
+description: Returns Tiffgroupdocs.editor.htmlcss.resources.images/imagetype/tiff
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.editor.htmlcss.resources.images.raster/tiffimage/type/
 ---
 ## TiffImage.Type property
 
-Returns ImageType.Tiff
+Returns [`Tiff`](../../../groupdocs.editor.htmlcss.resources.images/imagetype/tiff)
 
 ```csharp
 public override ImageType Type { get; }

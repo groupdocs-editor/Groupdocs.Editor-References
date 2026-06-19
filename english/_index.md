@@ -13,20 +13,24 @@ lead: "Load, edit, and save documents through an HTML round-trip."
 platforms:
   - name: ".NET"
     version: "26.6.1"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.editor/26.6.1"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Editor"
   - name: "Java"
     version: "26.1"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-editor/26.1/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-editor"
   - name: "Node.js"
-    version: "25.3"
+    version: "26.1.0"
+    versionUrl: "https://www.npmjs.com/package/@groupdocs/groupdocs.editor/v/26.1.0"
     key: nodejs
     ref: "/nodejs-java/"
   - name: "Python via .NET"
     version: "26.5.0"
+    versionUrl: "https://pypi.org/project/groupdocs-editor-net/26.5.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-editor-net"

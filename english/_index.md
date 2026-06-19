@@ -1,44 +1,60 @@
 ---
-title: GroupDocs.Editor Product Family
-additionalTitle: GroupDocs API References
+title: "GroupDocs.Editor"
+linktitle: "GroupDocs.Editor"
+description: "GroupDocs.Editor API reference for .NET, Java, Node.js, and Python — Load, edit, and save documents through an HTML round-trip."
+keywords: "GroupDocs.Editor, editor API, API reference, .NET, Java, Python, document processing"
+additionalTitle: "GroupDocs API References"
 type: docs
+layout: family
 weight: 10
-description: "Seamlessly edit and manipulate various document formats as HTML within your applications using GroupDocs.Editor APIs."
 url: /
+lead: "Load, edit, and save documents through an HTML round-trip."
+
+platforms:
+  - name: ".NET"
+    version: "26.6.1"
+    key: net
+    ref: "/net/"
+    install: "dotnet add package GroupDocs.Editor"
+  - name: "Java"
+    version: "26.1"
+    key: java
+    ref: "/java/"
+    install: "com.groupdocs:groupdocs-editor"
+  - name: "Node.js"
+    version: "25.3"
+    key: nodejs
+    ref: "/nodejs-java/"
+  - name: "Python via .NET"
+    version: "26.5.0"
+    key: python
+    ref: "/python-net/"
+    install: "pip install groupdocs-editor-net"
+
+formats: ["Word", "Excel", "PowerPoint", "Text", "HTML", "Email"]
+
+capabilities:
+  - "Edit via HTML round-trip"
+  - "Load, edit & save documents"
+  - "Format-specific options"
+  - "Protect documents"
+  - "Extract content"
+  - "Word, Excel, PowerPoint & more"
+
+resources:
+  - name: "Documentation"
+    url: "https://docs.groupdocs.com/editor/"
+    icon: "api"
+  - name: "Code examples"
+    url: "https://github.com/groupdocs-editor"
+    icon: "code"
+  - name: "Releases & changelog"
+    url: "https://releases.groupdocs.com/editor/"
+    icon: "demos"
+  - name: "Support forum"
+    url: "https://forum.groupdocs.com/c/editor/"
+    icon: "free-support"
+  - name: "Product page"
+    url: "https://products.groupdocs.com/editor/"
+    icon: "total"
 ---
-
-**GroupDocs.Editor** is a product that integrates advanced document processing features into your application, allowing you to edit and convert a wide range of document formats directly within your own system.
-
-Discover our .NET, Java, and Node.js solutions and choose the one that best meets your document-editing needs.
-
-<div style="display: flex;flex-wrap: wrap;justify-content: left;gap: 10px;padding: 10px;">
-    <a href="/editor/net/"
-        style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
-        <img src="gdocs_net.png"
-            alt="GroupDocs.Editor Icon" style="width: 70px; height: 70px; object-fit: contain;">
-        <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Editor for .NET</h3>
-        <p style="font-size: 12px; color: #666; text-align: center;">GroupDocs.Editor API for .NET applications</p>
-    </a>    
-    <a href="/editor/java/"
-        style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
-        <img src="gdocs_java.png"
-            alt="GroupDocs.Editor Icon" style="width: 70px; height: 70px; object-fit: contain;">
-        <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Editor for Java</h3>
-        <p style="font-size: 12px; color: #666; text-align: center;">GroupDocs.Editor API for Java applications</p>
-    </a>    
-    <a href="/editor/nodejs-java/"
-        style="width: 190px; height: 220px;background-color: #f7f7f7;border: 1px solid #ccc;border-radius: 8px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;padding: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);transition: transform 0.3s ease;text-decoration: none;color: inherit;">
-        <img src="gdocs_nodejs.png"
-            alt="GroupDocs.Editor Icon" style="width: 70px; height: 70px; object-fit: contain;">
-        <h3 style="font-size: 16px; color: #333; margin: 10px 0; text-align: center;">GroupDocs.Editor for Node.js via Java</h3>
-        <p style="font-size: 12px; color: #666; text-align: center;">GroupDocs.Editor API for Node.js applications</p>
-    </a>
-</div>
-
-### Documentation
-
-Learn how to seamlessly integrate GroupDocs.Editor into your application by exploring our detailed documentation:
-
-- [GroupDocs.Editor for .NET](https://docs.groupdocs.com/editor/net/)  
-- [GroupDocs.Editor for Java](https://docs.groupdocs.com/editor/java/)  
-- [GroupDocs.Editor for Node.js via Java](https://docs.groupdocs.com/editor/nodejs-java/) 

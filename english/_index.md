@@ -36,6 +36,8 @@ platforms:
     install: "pip install groupdocs-editor-net"
 
 formats: ["Word", "Excel", "PowerPoint", "Text", "HTML", "Email"]
+formatsCount: "60+"
+formatsNote: "…and 50+ more word-processing, spreadsheet, and web formats."
 
 capabilities:
   - "Edit via HTML round-trip"

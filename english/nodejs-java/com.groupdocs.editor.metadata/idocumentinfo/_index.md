@@ -10,21 +10,32 @@ public interface IDocumentInfo
 ```
 
 Common interface for all file metadata wrappers
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageCount()](#getPageCount--) | In implementing type should return count (number) of pages or other similar format-dependent entities (tabs, slides etc.). |
-| [getSize()](#getSize--) | Document size in bytes |
-| [isEncrypted()](#isEncrypted--) | Indicates whether specific file is encrypted and requires password for opening. |
-| [getFormat()](#getFormat--) | Returns a document format |
+| [getPageCount()](#getPageCount--) | In implementing type should return count (number) of pages or other
+similar format-dependent entities (tabs, slides etc.).
+ |
+| [getSize()](#getSize--) | Document size in bytes
+ |
+| [isEncrypted()](#isEncrypted--) | Indicates whether specific file is encrypted and requires password for
+opening.
+ |
+| [getFormat()](#getFormat--) | Returns a document format
+ |
 ### getPageCount() {#getPageCount--}
 ```
 public abstract int getPageCount()
 ```
 
 
-In implementing type should return count (number) of pages or other similar format-dependent entities (tabs, slides etc.). For those family types, that don't have something similar (like plain text documents or XML) should return 1.
+In implementing type should return count (number) of pages or other
+similar format-dependent entities (tabs, slides etc.). For those family
+types, that don't have something similar (like plain text documents or
+XML) should return 1.
+
 
 **Returns:**
 int - 
@@ -36,6 +47,7 @@ public abstract long getSize()
 
 Document size in bytes
 
+
 **Returns:**
 long - 
 ### isEncrypted() {#isEncrypted--}
@@ -44,7 +56,10 @@ public abstract boolean isEncrypted()
 ```
 
 
-Indicates whether specific file is encrypted and requires password for opening. For the document types, that cannot be encrypted (like all text-based) should always return 'false'.
+Indicates whether specific file is encrypted and requires password for
+opening. For the document types, that cannot be encrypted (like all
+text-based) should always return 'false'.
+
 
 **Returns:**
 boolean - 
@@ -55,6 +70,7 @@ public abstract DocumentFormatBase getFormat()
 
 
 Returns a document format
+
 
 **Returns:**
 [DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase) - 

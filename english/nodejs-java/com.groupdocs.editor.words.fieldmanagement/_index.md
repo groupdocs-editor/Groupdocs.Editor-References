@@ -10,6 +10,7 @@ url: /nodejs-java/com.groupdocs.editor.words.fieldmanagement/
 The **com.groupdocs.editor.words.fieldmanagement** namespace contains classes and interfaces related to the management and manipulation of form fields within documents. This namespace provides functionality to work with various types of form fields, such as text fields, checkboxes, dropdowns, etc., allowing users to interact with and modify form fields programmatically.
 
 
+
 ## Classes
 
 | Class | Description |
@@ -22,7 +23,7 @@ The **com.groupdocs.editor.words.fieldmanagement** namespace contains classes an
 | [FormFieldCollection](../com.groupdocs.editor.words.fieldmanagement/formfieldcollection) | Represents a collection of form fields. |
 | [FormFieldType](../com.groupdocs.editor.words.fieldmanagement/formfieldtype) | Specifies the type of form field. |
 | [HelpText](../com.groupdocs.editor.words.fieldmanagement/helptext) | Represents help text for a form field. |
-| [InvalidFormField](../com.groupdocs.editor.words.fieldmanagement/invalidformfield) | Represents the update of invalid form field names during the  FormFieldManager.FixInvalidFormFieldNames  operation. |
+| [InvalidFormField](../com.groupdocs.editor.words.fieldmanagement/invalidformfield) | Represents the update of invalid form field names during the FormFieldManager.FixInvalidFormFieldNames operation. |
 | [NumberFormField](../com.groupdocs.editor.words.fieldmanagement/numberformfield) | Represents a form field that accepts a number input. |
 | [TextFormField](../com.groupdocs.editor.words.fieldmanagement/textformfield) | Represents a form field that accepts text input. |
 

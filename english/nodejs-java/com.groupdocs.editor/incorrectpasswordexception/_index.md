@@ -13,6 +13,7 @@ public final class IncorrectPasswordException extends RuntimeException
 ```
 
 The exception that is thrown when specified password is incorrect.
+
 ## Constructors
 
 | Constructor | Description |

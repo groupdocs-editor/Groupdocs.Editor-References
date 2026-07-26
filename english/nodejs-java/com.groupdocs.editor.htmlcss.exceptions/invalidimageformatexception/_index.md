@@ -12,13 +12,18 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class InvalidImageFormatException extends RuntimeException
 ```
 
-The exception that is thrown when trying to open, load, save or process somehow else some content, that presumably is an image (raster or vector), but actually is an image of unexpected type or not an image at all.
+The exception that is thrown when trying to open, load, save or process
+somehow else some content, that presumably is an image (raster or vector),
+but actually is an image of unexpected type or not an image at all.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [InvalidImageFormatException(String message)](#InvalidImageFormatException-java.lang.String-) | Creates new instance of InvalidImageFormatException with specified error message |
-| [InvalidImageFormatException(String message, RuntimeException innerException)](#InvalidImageFormatException-java.lang.String-java.lang.RuntimeException-) | Creates new instance of InvalidImageFormatException with specified error message and a reference to the inner exception that is the cause of this exception |
+| [InvalidImageFormatException(String message)](#InvalidImageFormatException-java.lang.String-) | Creates new instance of InvalidImageFormatException with specified error message
+ |
+| [InvalidImageFormatException(String message, RuntimeException innerException)](#InvalidImageFormatException-java.lang.String-java.lang.RuntimeException-) | Creates new instance of InvalidImageFormatException with specified error message and a reference to the inner exception that is the cause of this exception
+ |
 ### InvalidImageFormatException(String message) {#InvalidImageFormatException-java.lang.String-}
 ```
 public InvalidImageFormatException(String message)
@@ -27,10 +32,12 @@ public InvalidImageFormatException(String message)
 
 Creates new instance of InvalidImageFormatException with specified error message
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Textual message, that describes the error, can be null or empty |
+| message | java.lang.String | Textual message, that describes the error, can be null or empty
+ |
 
 ### InvalidImageFormatException(String message, RuntimeException innerException) {#InvalidImageFormatException-java.lang.String-java.lang.RuntimeException-}
 ```
@@ -40,9 +47,12 @@ public InvalidImageFormatException(String message, RuntimeException innerExcepti
 
 Creates new instance of InvalidImageFormatException with specified error message and a reference to the inner exception that is the cause of this exception
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | Textual message, that describes the error, can be null or empty |
-| innerException | java.lang.RuntimeException | The exception that is the cause of the current exception, or a null reference if no inner exception is specified. |
+| message | java.lang.String | Textual message, that describes the error, can be null or empty
+ |
+| innerException | java.lang.RuntimeException | The exception that is the cause of the current exception, or a null reference if no inner exception is specified.
+ |
 

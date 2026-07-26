@@ -12,7 +12,12 @@ java.lang.Object
 public class MarkdownImageLoadArgs
 ```
 
-Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  event.
+Provides data for the
+
+M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)
+
+event.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,11 +27,21 @@ Provides data for the  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.Pro
 
 | Method | Description |
 | --- | --- |
-| [getImageFileName()](#getImageFileName--) | Gets or sets the file name (as is in the Markdown document) that will be process. |
-| [setImageFileName(String value)](#setImageFileName-java.lang.String-) | Gets or sets the file name (as is in the Markdown document) that will be process. |
-| [isAbsoluteUri()](#isAbsoluteUri--) | Get a value indicating whether this image has absolute URI link. |
-| [setAbsoluteUri(boolean value)](#setAbsoluteUri-boolean-) | Get a value indicating whether this image has absolute URI link. |
-| [setData(byte[] data)](#setData-byte---) | Sets user provided data of the resource which is used if  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)  |
+| [getImageFileName()](#getImageFileName--) | Gets or sets the file name (as is in the Markdown document) that will be
+process.
+ |
+| [setImageFileName(String value)](#setImageFileName-java.lang.String-) | Gets or sets the file name (as is in the Markdown document) that will be
+process.
+ |
+| [isAbsoluteUri()](#isAbsoluteUri--) | Get a value indicating whether this image has absolute URI link.
+ |
+| [setAbsoluteUri(boolean value)](#setAbsoluteUri-boolean-) | Get a value indicating whether this image has absolute URI link.
+ |
+| [setData(byte[] data)](#setData-byte---) | Sets user provided data of the resource which is used if
+
+M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)
+
+ |
 ### MarkdownImageLoadArgs() {#MarkdownImageLoadArgs--}
 ```
 public MarkdownImageLoadArgs()
@@ -39,7 +54,9 @@ public final String getImageFileName()
 ```
 
 
-Gets or sets the file name (as is in the Markdown document) that will be process.
+Gets or sets the file name (as is in the Markdown document) that will be
+process.
+
 
 **Returns:**
 java.lang.String
@@ -49,7 +66,9 @@ public final void setImageFileName(String value)
 ```
 
 
-Gets or sets the file name (as is in the Markdown document) that will be process.
+Gets or sets the file name (as is in the Markdown document) that will be
+process.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -63,8 +82,8 @@ public final boolean isAbsoluteUri()
 
 
 Get a value indicating whether this image has absolute URI link.
-
 Value:  true  if this image has absolute URI link; otherwise,  false .
+
 
 **Returns:**
 boolean
@@ -75,8 +94,8 @@ public final void setAbsoluteUri(boolean value)
 
 
 Get a value indicating whether this image has absolute URI link.
-
 Value:  true  if this image has absolute URI link; otherwise,  false .
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -89,7 +108,11 @@ public final void setData(byte[] data)
 ```
 
 
-Sets user provided data of the resource which is used if  M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs) 
+Sets user provided data of the resource which is used if
+
+M:GroupDocs.Editor.Options.IMarkdownImageLoadCallback.ProcessImage(MarkdownImageLoadArgs)
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

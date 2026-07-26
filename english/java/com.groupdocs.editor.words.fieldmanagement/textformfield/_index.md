@@ -16,30 +16,51 @@ public final class TextFormField implements IFormField
 ```
 
 Represents a form field that accepts text input.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TextFormField(String stylesheet, String name)](#TextFormField-java.lang.String-java.lang.String-) | Initializes a new instance of the [TextFormField](../../com.groupdocs.editor.words.fieldmanagement/textformfield) class with the specified stylesheet and name. |
+| [TextFormField(String stylesheet, String name)](#TextFormField-java.lang.String-java.lang.String-) | Initializes a new instance of the [TextFormField](../../com.groupdocs.editor.words.fieldmanagement/textformfield) class with the specified stylesheet and name.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getStylesheet()](#getStylesheet--) | Gets the stylesheet applied to the form field. |
-| [getReadonly()](#getReadonly--) | Gets or sets a value indicating whether the form field is read-only. |
-| [setReadonly(boolean value)](#setReadonly-boolean-) | Gets or sets a value indicating whether the form field is read-only. |
-| [getName()](#getName--) | Gets the name of the form field. |
-| [getType()](#getType--) | Gets the type of the form field, which is always FormFieldType.Text for this class. |
-| [getLocaleId()](#getLocaleId--) | Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field. |
-| [getStatusText()](#getStatusText--) | Gets or sets the status text associated with the form field, the source of the text that's displayed in the status bar when a form field has the focus. |
-| [setStatusText(HelpText value)](#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | Gets or sets the status text associated with the form field, the source of the text that's displayed in the status bar when a form field has the focus. |
-| [getHelpText()](#getHelpText--) | Gets or sets the help text associated with the form field, the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
-| [setHelpText(HelpText value)](#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | Gets or sets the help text associated with the form field, the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
-| [getValue()](#getValue--) | Gets or sets the value of the form field, which represents the text input. |
-| [setValue(String value)](#setValue-java.lang.String-) | Gets or sets the value of the form field, which represents the text input. |
-| [getMaxLength()](#getMaxLength--) | Gets or sets the maximum length of the input for the form field. |
-| [setMaxLength(int value)](#setMaxLength-int-) | Gets or sets the maximum length of the input for the form field. |
+| [getStylesheet()](#getStylesheet--) | Gets the stylesheet applied to the form field.
+ |
+| [getReadonly()](#getReadonly--) | Gets or sets a value indicating whether the form field is read-only.
+ |
+| [setReadonly(boolean value)](#setReadonly-boolean-) | Gets or sets a value indicating whether the form field is read-only.
+ |
+| [getName()](#getName--) | Gets the name of the form field.
+ |
+| [getType()](#getType--) | Gets the type of the form field, which is always FormFieldType.Text for this class.
+ |
+| [getLocaleId()](#getLocaleId--) | Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field.
+ |
+| [setLocaleId(int value)](#setLocaleId-int-) | Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field.
+ |
+| [getStatusText()](#getStatusText--) | Gets or sets the status text associated with the form field,
+the source of the text that's displayed in the status bar when a form field has the focus.
+ |
+| [setStatusText(HelpText value)](#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | Gets or sets the status text associated with the form field,
+the source of the text that's displayed in the status bar when a form field has the focus.
+ |
+| [getHelpText()](#getHelpText--) | Gets or sets the help text associated with the form field,
+the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
+ |
+| [setHelpText(HelpText value)](#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | Gets or sets the help text associated with the form field,
+the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
+ |
+| [getValue()](#getValue--) | Gets or sets the value of the form field, which represents the text input.
+ |
+| [setValue(String value)](#setValue-java.lang.String-) | Gets or sets the value of the form field, which represents the text input.
+ |
+| [getMaxLength()](#getMaxLength--) | Gets or sets the maximum length of the input for the form field.
+ |
+| [setMaxLength(int value)](#setMaxLength-int-) | Gets or sets the maximum length of the input for the form field.
+ |
 ### TextFormField(String stylesheet, String name) {#TextFormField-java.lang.String-java.lang.String-}
 ```
 public TextFormField(String stylesheet, String name)
@@ -48,11 +69,14 @@ public TextFormField(String stylesheet, String name)
 
 Initializes a new instance of the [TextFormField](../../com.groupdocs.editor.words.fieldmanagement/textformfield) class with the specified stylesheet and name.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stylesheet | java.lang.String | The stylesheet to apply to the form field. |
-| name | java.lang.String | The name of the form field. |
+| stylesheet | java.lang.String | The stylesheet to apply to the form field.
+ |
+| name | java.lang.String | The name of the form field.
+ |
 
 ### getStylesheet() {#getStylesheet--}
 ```
@@ -61,6 +85,7 @@ public final String getStylesheet()
 
 
 Gets the stylesheet applied to the form field.
+
 
 **Returns:**
 java.lang.String
@@ -72,6 +97,7 @@ public final boolean getReadonly()
 
 Gets or sets a value indicating whether the form field is read-only.
 
+
 **Returns:**
 boolean
 ### setReadonly(boolean value) {#setReadonly-boolean-}
@@ -81,6 +107,7 @@ public final void setReadonly(boolean value)
 
 
 Gets or sets a value indicating whether the form field is read-only.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -95,6 +122,7 @@ public final String getName()
 
 Gets the name of the form field.
 
+
 **Returns:**
 java.lang.String
 ### getType() {#getType--}
@@ -104,6 +132,7 @@ public final int getType()
 
 
 Gets the type of the form field, which is always FormFieldType.Text for this class.
+
 
 **Returns:**
 int
@@ -115,18 +144,29 @@ public final int getLocaleId()
 
 Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 > ```
-> The following example demonstrates how to set the LocaleId property:
->  
->  Set the LocaleId to represent the English (United States) culture
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
 >  textField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
 > ```
 
---------------------
+<br />
+
+<br />
+
+*** ** * ** ***
 
 The LocaleId property specifies a locale identifier (LCID) that corresponds to a particular culture or region.
+
+<br />
+
+
 
 **Returns:**
 int
@@ -138,18 +178,29 @@ public final void setLocaleId(int value)
 
 Gets or sets the locale ID of the form field, which represents the culture or regional settings associated with the form field.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 > ```
-> The following example demonstrates how to set the LocaleId property:
->  
->  Set the LocaleId to represent the English (United States) culture
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
 >  textField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
 > ```
 
---------------------
+<br />
+
+<br />
+
+*** ** * ** ***
 
 The LocaleId property specifies a locale identifier (LCID) that corresponds to a particular culture or region.
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -162,11 +213,18 @@ public final HelpText getStatusText()
 ```
 
 
-Gets or sets the status text associated with the form field, the source of the text that's displayed in the status bar when a form field has the focus.
+Gets or sets the status text associated with the form field,
+the source of the text that's displayed in the status bar when a form field has the focus.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the status text will not be applied.
+
+<br />
+
+
 
 **Returns:**
 [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
@@ -176,11 +234,18 @@ public final void setStatusText(HelpText value)
 ```
 
 
-Gets or sets the status text associated with the form field, the source of the text that's displayed in the status bar when a form field has the focus.
+Gets or sets the status text associated with the form field,
+the source of the text that's displayed in the status bar when a form field has the focus.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the status text will not be applied.
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,11 +258,18 @@ public final HelpText getHelpText()
 ```
 
 
-Gets or sets the help text associated with the form field, the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
+Gets or sets the help text associated with the form field,
+the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the help text will not be applied.
+
+<br />
+
+
 
 **Returns:**
 [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
@@ -207,11 +279,18 @@ public final void setHelpText(HelpText value)
 ```
 
 
-Gets or sets the help text associated with the form field, the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
+Gets or sets the help text associated with the form field,
+the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the help text will not be applied.
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,6 +305,7 @@ public final String getValue()
 
 Gets or sets the value of the form field, which represents the text input.
 
+
 **Returns:**
 java.lang.String
 ### setValue(String value) {#setValue-java.lang.String-}
@@ -235,6 +315,7 @@ public final void setValue(String value)
 
 
 Gets or sets the value of the form field, which represents the text input.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -249,6 +330,7 @@ public final int getMaxLength()
 
 Gets or sets the maximum length of the input for the form field.
 
+
 **Returns:**
 int
 ### setMaxLength(int value) {#setMaxLength-int-}
@@ -258,6 +340,7 @@ public final void setMaxLength(int value)
 
 
 Gets or sets the maximum length of the input for the form field.
+
 
 **Parameters:**
 | Parameter | Type | Description |

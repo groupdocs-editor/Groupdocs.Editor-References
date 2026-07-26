@@ -13,11 +13,13 @@ public final class CssText extends TextResourceBase
 ```
 
 Represents one CSS textual resource
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Returns TextType.Css |
+| [getType()](#getType--) | Returns TextType.Css
+ |
 ### getType() {#getType--}
 ```
 public TextType getType()
@@ -25,6 +27,7 @@ public TextType getType()
 
 
 Returns TextType.Css
+
 
 **Returns:**
 [TextType](../../com.groupdocs.editor.htmlcss.resources.textual/texttype)

@@ -10,6 +10,7 @@ url: /java/com.groupdocs.editor.metadata/
 The **com.groupdocs.editor.metadata** namespace provides classes for describing basic document properties dependent on document type.
 
 
+
 ## Classes
 
 | Class | Description |
@@ -20,7 +21,7 @@ The **com.groupdocs.editor.metadata** namespace provides classes for describing 
 | [MarkdownDocumentInfo](../com.groupdocs.editor.metadata/markdowndocumentinfo) | Represents metadata of one Markdown document |
 | [PresentationDocumentInfo](../com.groupdocs.editor.metadata/presentationdocumentinfo) | Represents metadata of one Presentation document |
 | [SpreadsheetDocumentInfo](../com.groupdocs.editor.metadata/spreadsheetdocumentinfo) | Represents metadata of one Spreadsheet document |
-| [TextualDocumentInfo](../com.groupdocs.editor.metadata/textualdocumentinfo) | Represents metadata of one textual document like XML, HTML or plain text (TXT) |
+| [TextualDocumentInfo](../com.groupdocs.editor.metadata/textualdocumentinfo) | Represents metadata of one textual document like XML, HTML or plain text(TXT) |
 | [WordProcessingDocumentInfo](../com.groupdocs.editor.metadata/wordprocessingdocumentinfo) | Represents metadata of one WordProcessing document |
 
 ## Interfaces

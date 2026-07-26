@@ -13,19 +13,26 @@ public interface ICssDataType extends System.IEquatable<ICssDataType>
 ```
 
 Common interface for all CSS data types, which are used in the CSS properties
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [serializeDefault()](#serializeDefault--) | Should return a default string representation of the current value of the data type |
-| [isDefault()](#isDefault--) | Should define whether the current value of the data type is the default value for this specific data type or not |
+| [serializeDefault()](#serializeDefault--) | Should return a default string representation of the current value of the
+data type
+ |
+| [isDefault()](#isDefault--) | Should define whether the current value of the data type is the default
+value for this specific data type or not
+ |
 ### serializeDefault() {#serializeDefault--}
 ```
 public abstract String serializeDefault()
 ```
 
 
-Should return a default string representation of the current value of the data type
+Should return a default string representation of the current value of the
+data type
+
 
 **Returns:**
 java.lang.String - 
@@ -35,7 +42,9 @@ public abstract boolean isDefault()
 ```
 
 
-Should define whether the current value of the data type is the default value for this specific data type or not
+Should define whether the current value of the data type is the default
+value for this specific data type or not
+
 
 **Returns:**
 boolean - 

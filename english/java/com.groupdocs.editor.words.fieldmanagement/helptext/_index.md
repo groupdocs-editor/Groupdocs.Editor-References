@@ -13,6 +13,7 @@ public final class HelpText
 ```
 
 Represents help text for a form field.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,10 +23,14 @@ Represents help text for a form field.
 
 | Method | Description |
 | --- | --- |
-| [getUseOwn()](#getUseOwn--) | Gets or sets a value indicating whether the form field should use its own help text. |
-| [setUseOwn(boolean value)](#setUseOwn-boolean-) | Gets or sets a value indicating whether the form field should use its own help text. |
-| [getText()](#getText--) | Gets or sets the text content of the help text. |
-| [setText(String value)](#setText-java.lang.String-) | Gets or sets the text content of the help text. |
+| [getUseOwn()](#getUseOwn--) | Gets or sets a value indicating whether the form field should use its own help text.
+ |
+| [setUseOwn(boolean value)](#setUseOwn-boolean-) | Gets or sets a value indicating whether the form field should use its own help text.
+ |
+| [getText()](#getText--) | Gets or sets the text content of the help text.
+ |
+| [setText(String value)](#setText-java.lang.String-) | Gets or sets the text content of the help text.
+ |
 ### HelpText() {#HelpText--}
 ```
 public HelpText()
@@ -40,9 +45,15 @@ public final boolean getUseOwn()
 
 Gets or sets a value indicating whether the form field should use its own help text.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the help text will not be applied.
+
+<br />
+
+
 
 **Returns:**
 boolean
@@ -54,9 +65,15 @@ public final void setUseOwn(boolean value)
 
 Gets or sets a value indicating whether the form field should use its own help text.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 If set to  false , the help text will not be applied.
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -71,6 +88,7 @@ public final String getText()
 
 Gets or sets the text content of the help text.
 
+
 **Returns:**
 java.lang.String
 ### setText(String value) {#setText-java.lang.String-}
@@ -80,6 +98,7 @@ public final void setText(String value)
 
 
 Gets or sets the text content of the help text.
+
 
 **Parameters:**
 | Parameter | Type | Description |

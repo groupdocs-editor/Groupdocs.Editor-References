@@ -10,6 +10,7 @@ url: /nodejs-java/com.groupdocs.editor/
 The **com.groupdocs.editor** namespace is a root namespace, which provides classes for editing multiple document formats in your Java applications.
 
 
+
 ## Classes
 
 | Class | Description |
@@ -19,5 +20,5 @@ The **com.groupdocs.editor** namespace is a root namespace, which provides class
 | [EncryptedException](../com.groupdocs.editor/encryptedexception) | The exception that is thrown when user tries to open a document that was encrypted using the X509Certificates. |
 | [FormFieldManager](../com.groupdocs.editor/formfieldmanager) |  |
 | [IncorrectPasswordException](../com.groupdocs.editor/incorrectpasswordexception) | The exception that is thrown when specified password is incorrect. |
-| [InvalidFormatException](../com.groupdocs.editor/invalidformatexception) | The exception that is thrown when user tries to open some document with format-specific options that are incompatible with original document format. |
-| [PasswordRequiredException](../com.groupdocs.editor/passwordrequiredexception) | The exception that is thrown when user tries to open a password-protected encrypted document of some format and doesn't provide a password for opening this document. |
+| [InvalidFormatException](../com.groupdocs.editor/invalidformatexception) | The exception that is thrown when user tries to open some document withformat-specific options that are incompatible with original document format. |
+| [PasswordRequiredException](../com.groupdocs.editor/passwordrequiredexception) | The exception that is thrown when user tries to open a password-protectedencrypted document of some format and doesn't provide a password for openingthis document. |

@@ -13,11 +13,13 @@ public final class XmlText extends TextResourceBase
 ```
 
 Represents one textual resource, which is a XML.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Returns TextType.Xml |
+| [getType()](#getType--) | Returns TextType.Xml
+ |
 ### getType() {#getType--}
 ```
 public TextType getType()
@@ -25,6 +27,7 @@ public TextType getType()
 
 
 Returns TextType.Xml
+
 
 **Returns:**
 [TextType](../../com.groupdocs.editor.htmlcss.resources.textual/texttype)

@@ -16,22 +16,33 @@ public class MarkdownDocumentInfo implements IDocumentInfo
 ```
 
 Represents metadata of one Markdown document
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Returns a format of this Markdown document \\u2014 always is [TextualFormats.Md](../../com.groupdocs.editor.formats/textualformats\#Md) |
-| [getPageCount()](#getPageCount--) | Returns number of pages. |
-| [getSize()](#getSize--) | Returns size in bytes of this Markdown document |
-| [isEncrypted()](#isEncrypted--) | Because Markdown documents cannot be encrypted with password, this property always returns 'false' |
-| [equals(MarkdownDocumentInfo other)](#equals-com.groupdocs.editor.metadata.MarkdownDocumentInfo-) | Determines whether this instance is equal to the other specified [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance. |
+| [getFormat()](#getFormat--) | Returns a format of this Markdown document \\u2014 always is
+[TextualFormats.Md](../../com.groupdocs.editor.formats/textualformats#Md)
+ |
+| [getPageCount()](#getPageCount--) | Returns number of pages.
+ |
+| [getSize()](#getSize--) | Returns size in bytes of this Markdown document
+ |
+| [isEncrypted()](#isEncrypted--) | Because Markdown documents cannot be encrypted with password, this
+property always returns 'false'
+ |
+| [equals(MarkdownDocumentInfo other)](#equals-com.groupdocs.editor.metadata.MarkdownDocumentInfo-) | Determines whether this instance is equal to the other specified
+[MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance.
+ |
 ### getFormat() {#getFormat--}
 ```
 public final DocumentFormatBase getFormat()
 ```
 
 
-Returns a format of this Markdown document \\u2014 always is [TextualFormats.Md](../../com.groupdocs.editor.formats/textualformats\#Md)
+Returns a format of this Markdown document \\u2014 always is
+[TextualFormats.Md](../../com.groupdocs.editor.formats/textualformats#Md)
+
 
 **Returns:**
 [DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
@@ -41,7 +52,10 @@ public final int getPageCount()
 ```
 
 
-Returns number of pages. Markdown documents usually have no fixed pages and thus page count, so this number is calculated from standard page size set to A4 in portrait orientation.
+Returns number of pages. Markdown documents usually have no fixed pages
+and thus page count, so this number is calculated from standard page size
+set to A4 in portrait orientation.
+
 
 **Returns:**
 int
@@ -53,6 +67,7 @@ public final long getSize()
 
 Returns size in bytes of this Markdown document
 
+
 **Returns:**
 long
 ### isEncrypted() {#isEncrypted--}
@@ -61,7 +76,9 @@ public final boolean isEncrypted()
 ```
 
 
-Because Markdown documents cannot be encrypted with password, this property always returns 'false'
+Because Markdown documents cannot be encrypted with password, this
+property always returns 'false'
+
 
 **Returns:**
 boolean
@@ -71,12 +88,16 @@ public final boolean equals(MarkdownDocumentInfo other)
 ```
 
 
-Determines whether this instance is equal to the other specified [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance.
+Determines whether this instance is equal to the other specified
+[MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) | Other [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance, that should be checked on equality with this |
+| other | [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) | Other [MarkdownDocumentInfo](../../com.groupdocs.editor.metadata/markdowndocumentinfo) instance, that should be checked on equality with this
+ |
 
 **Returns:**
 boolean - True if are equal, false if are unequal
+

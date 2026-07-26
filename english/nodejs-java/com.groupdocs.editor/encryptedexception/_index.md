@@ -13,6 +13,7 @@ public final class EncryptedException extends System.Exception
 ```
 
 The exception that is thrown when user tries to open a document that was encrypted using the X509Certificates.
+
 ## Constructors
 
 | Constructor | Description |

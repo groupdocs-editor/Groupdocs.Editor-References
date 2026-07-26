@@ -15,42 +15,73 @@ java.lang.Object
 public final class DelimitedTextEditOptions implements IEditOptions
 ```
 
-Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter)
+Options for loading text-based Spreadsheet documents (CSV, Tab-based etc.),
+that use a separator (delimiter)
 
---------------------
 
-https://en.wikipedia.org/wiki/Delimiter-separated\_values
+*** ** * ** ***
+
+https://en.wikipedia.org/wiki/Delimiter-separated_values
+
+<br />
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DelimitedTextEditOptions(String separator)](#DelimitedTextEditOptions-java.lang.String-) | Creates an instance of options class for delimited text with mandatory separator (delimiter) |
+| [DelimitedTextEditOptions(String separator)](#DelimitedTextEditOptions-java.lang.String-) | Creates an instance of options class for delimited text with mandatory
+separator (delimiter)
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSeparator()](#getSeparator--) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
-| [getConvertDateTimeData()](#getConvertDateTimeData--) | Gets or sets a value that indicates whether the string in text-based document is converted to the date data. |
-| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Gets or sets a value that indicates whether the string in text-based document is converted to the date data. |
-| [getConvertNumericData()](#getConvertNumericData--) | Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. |
-| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. |
-| [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--) | Defines whether consecutive delimiters should be treated as one. |
-| [setTreatConsecutiveDelimitersAsOne(boolean value)](#setTreatConsecutiveDelimitersAsOne-boolean-) | Defines whether consecutive delimiters should be treated as one. |
-| [getOptimizeMemoryUsage()](#getOptimizeMemoryUsage--) | Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. |
-| [setOptimizeMemoryUsage(boolean value)](#setOptimizeMemoryUsage-boolean-) | Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. |
+| [getSeparator()](#getSeparator--) | Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+ |
+| [setSeparator(String value)](#setSeparator-java.lang.String-) | Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+ |
+| [getConvertDateTimeData()](#getConvertDateTimeData--) | Gets or sets a value that indicates whether the string in text-based
+document is converted to the date data.
+ |
+| [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Gets or sets a value that indicates whether the string in text-based
+document is converted to the date data.
+ |
+| [getConvertNumericData()](#getConvertNumericData--) | Gets or sets a value that indicates whether the string in text-based
+document is converted to numeric data.
+ |
+| [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Gets or sets a value that indicates whether the string in text-based
+document is converted to numeric data.
+ |
+| [getTreatConsecutiveDelimitersAsOne()](#getTreatConsecutiveDelimitersAsOne--) | Defines whether consecutive delimiters should be treated as one.
+ |
+| [setTreatConsecutiveDelimitersAsOne(boolean value)](#setTreatConsecutiveDelimitersAsOne-boolean-) | Defines whether consecutive delimiters should be treated as one.
+ |
+| [getOptimizeMemoryUsage()](#getOptimizeMemoryUsage--) | Enables memory optimization mechanisms during input document processing,
+which may degrade performance in some special cases, but on the other
+hand decrease memory usage.
+ |
+| [setOptimizeMemoryUsage(boolean value)](#setOptimizeMemoryUsage-boolean-) | Enables memory optimization mechanisms during input document processing,
+which may degrade performance in some special cases, but on the other
+hand decrease memory usage.
+ |
 ### DelimitedTextEditOptions(String separator) {#DelimitedTextEditOptions-java.lang.String-}
 ```
 public DelimitedTextEditOptions(String separator)
 ```
 
 
-Creates an instance of options class for delimited text with mandatory separator (delimiter)
+Creates an instance of options class for delimited text with mandatory
+separator (delimiter)
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | java.lang.String | Mandatory separator (delimiter), that cannot be NULL or empty |
+| separator | java.lang.String | Mandatory separator (delimiter), that cannot be NULL or empty
+ |
 
 ### getSeparator() {#getSeparator--}
 ```
@@ -58,7 +89,9 @@ public final String getSeparator()
 ```
 
 
-Allows to specify a string separator (delimiter) for text-based Spreadsheet documents
+Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+
 
 **Returns:**
 java.lang.String
@@ -68,7 +101,9 @@ public final void setSeparator(String value)
 ```
 
 
-Allows to specify a string separator (delimiter) for text-based Spreadsheet documents
+Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,7 +116,9 @@ public final boolean getConvertDateTimeData()
 ```
 
 
-Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is false.
+Gets or sets a value that indicates whether the string in text-based
+document is converted to the date data. Default is false.
+
 
 **Returns:**
 boolean
@@ -91,7 +128,9 @@ public final void setConvertDateTimeData(boolean value)
 ```
 
 
-Gets or sets a value that indicates whether the string in text-based document is converted to the date data. Default is false.
+Gets or sets a value that indicates whether the string in text-based
+document is converted to the date data. Default is false.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -104,7 +143,9 @@ public final boolean getConvertNumericData()
 ```
 
 
-Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is false.
+Gets or sets a value that indicates whether the string in text-based
+document is converted to numeric data. Default is false.
+
 
 **Returns:**
 boolean
@@ -114,7 +155,9 @@ public final void setConvertNumericData(boolean value)
 ```
 
 
-Gets or sets a value that indicates whether the string in text-based document is converted to numeric data. Default is false.
+Gets or sets a value that indicates whether the string in text-based
+document is converted to numeric data. Default is false.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -127,7 +170,9 @@ public final boolean getTreatConsecutiveDelimitersAsOne()
 ```
 
 
-Defines whether consecutive delimiters should be treated as one. By default is false.
+Defines whether consecutive delimiters should be treated as one. By
+default is false.
+
 
 **Returns:**
 boolean
@@ -137,7 +182,9 @@ public final void setTreatConsecutiveDelimitersAsOne(boolean value)
 ```
 
 
-Defines whether consecutive delimiters should be treated as one. By default is false.
+Defines whether consecutive delimiters should be treated as one. By
+default is false.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -150,7 +197,12 @@ public final boolean getOptimizeMemoryUsage()
 ```
 
 
-Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is false (memory optimization is disabled for the sake of better performance).
+Enables memory optimization mechanisms during input document processing,
+which may degrade performance in some special cases, but on the other
+hand decrease memory usage. Useful when processing huge documents and
+facing OutOfMemoryException. Default is false (memory optimization is
+disabled for the sake of better performance).
+
 
 **Returns:**
 boolean
@@ -160,7 +212,12 @@ public final void setOptimizeMemoryUsage(boolean value)
 ```
 
 
-Enables memory optimization mechanisms during input document processing, which may degrade performance in some special cases, but on the other hand decrease memory usage. Useful when processing huge documents and facing OutOfMemoryException. Default is false (memory optimization is disabled for the sake of better performance).
+Enables memory optimization mechanisms during input document processing,
+which may degrade performance in some special cases, but on the other
+hand decrease memory usage. Useful when processing huge documents and
+facing OutOfMemoryException. Default is false (memory optimization is
+disabled for the sake of better performance).
+
 
 **Parameters:**
 | Parameter | Type | Description |

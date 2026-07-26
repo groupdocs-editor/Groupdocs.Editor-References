@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: Allows to specify custom options for loading documents of all supportable Presentation formats like PPTX PPTM PPSX etc.
 type: docs
-weight: 31
+weight: 33
 url: /nodejs-java/com.groupdocs.editor.options/presentationloadoptions/
 ---
 **Inheritance:**
@@ -15,7 +15,9 @@ java.lang.Object
 public class PresentationLoadOptions implements ILoadOptions
 ```
 
-Allows to specify custom options for loading documents of all supportable Presentation formats like PPT(X), PPTM, PPS(X) etc.
+Allows to specify custom options for loading documents of all supportable
+Presentation formats like PPT(X), PPTM, PPS(X) etc.
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,8 +27,12 @@ Allows to specify custom options for loading documents of all supportable Presen
 
 | Method | Description |
 | --- | --- |
-| [getPassword()](#getPassword--) | Allows to specify, modify and obtain the password, which will be used for opening the Presentation document, if it is encoded. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Allows to specify, modify and obtain the password, which will be used for opening the Presentation document, if it is encoded. |
+| [getPassword()](#getPassword--) | Allows to specify, modify and obtain the password, which will be used for
+opening the Presentation document, if it is encoded.
+ |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Allows to specify, modify and obtain the password, which will be used for
+opening the Presentation document, if it is encoded.
+ |
 ### PresentationLoadOptions() {#PresentationLoadOptions--}
 ```
 public PresentationLoadOptions()
@@ -39,11 +45,18 @@ public final String getPassword()
 ```
 
 
-Allows to specify, modify and obtain the password, which will be used for opening the Presentation document, if it is encoded. Set to NULL or empty string in order to remove the password.
+Allows to specify, modify and obtain the password, which will be used for
+opening the Presentation document, if it is encoded. Set to NULL or empty
+string in order to remove the password.
 
---------------------
+
+*** ** * ** ***
 
 By default this property has NULL value \\u2014 password is not set. If input Presentation document is password-protected, the password is mandatory and an exception will be thrown if password is not specified or is invalid. If input Presentation document is NOT password-protected, but password is set, it will be ignored.
+
+<br />
+
+
 
 **Returns:**
 java.lang.String
@@ -53,11 +66,18 @@ public final void setPassword(String value)
 ```
 
 
-Allows to specify, modify and obtain the password, which will be used for opening the Presentation document, if it is encoded. Set to NULL or empty string in order to remove the password.
+Allows to specify, modify and obtain the password, which will be used for
+opening the Presentation document, if it is encoded. Set to NULL or empty
+string in order to remove the password.
 
---------------------
+
+*** ** * ** ***
 
 By default this property has NULL value \\u2014 password is not set. If input Presentation document is password-protected, the password is mandatory and an exception will be thrown if password is not specified or is invalid. If input Presentation document is NOT password-protected, but password is set, it will be ignored.
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

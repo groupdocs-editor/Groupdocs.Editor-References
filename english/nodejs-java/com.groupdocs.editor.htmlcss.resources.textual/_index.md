@@ -10,6 +10,7 @@ url: /nodejs-java/com.groupdocs.editor.htmlcss.resources.textual/
 The **com.groupdocs.editor.htmlcss.resources.textual** namespace provides classes that represent text resources.
 
 
+
 ## Classes
 
 | Class | Description |

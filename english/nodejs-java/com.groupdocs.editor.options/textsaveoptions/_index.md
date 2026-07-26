@@ -3,7 +3,7 @@ title: TextSaveOptions
 second_title: GroupDocs.Editor for Node.js via Java API Reference
 description: Allows to specify custom options for generating and saving plain text TXT documents
 type: docs
-weight: 39
+weight: 41
 url: /nodejs-java/com.groupdocs.editor.options/textsaveoptions/
 ---
 **Inheritance:**
@@ -15,7 +15,9 @@ java.lang.Object
 public final class TextSaveOptions implements ISaveOptions
 ```
 
-Allows to specify custom options for generating and saving plain text (TXT) documents
+Allows to specify custom options for generating and saving plain text (TXT)
+documents
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,12 +27,24 @@ Allows to specify custom options for generating and saving plain text (TXT) docu
 
 | Method | Description |
 | --- | --- |
-| [getEncoding()](#getEncoding--) | Character encoding of the text document, which will be applied for its saving |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Character encoding of the text document, which will be applied for its saving |
-| [getAddBidiMarks()](#getAddBidiMarks--) | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. |
-| [setAddBidiMarks(boolean value)](#setAddBidiMarks-boolean-) | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format |
-| [getPreserveTableLayout()](#getPreserveTableLayout--) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. |
-| [setPreserveTableLayout(boolean value)](#setPreserveTableLayout-boolean-) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. |
+| [getEncoding()](#getEncoding--) | Character encoding of the text document, which will be applied for its
+saving
+ |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Character encoding of the text document, which will be applied for its
+saving
+ |
+| [getAddBidiMarks()](#getAddBidiMarks--) | Specifies whether to add bi-directional marks before each BiDi run when
+exporting in plain text format.
+ |
+| [setAddBidiMarks(boolean value)](#setAddBidiMarks-boolean-) | Specifies whether to add bi-directional marks before each BiDi run when
+exporting in plain text format
+ |
+| [getPreserveTableLayout()](#getPreserveTableLayout--) | Specifies whether the program should attempt to preserve layout of tables
+when saving in the plain text format.
+ |
+| [setPreserveTableLayout(boolean value)](#setPreserveTableLayout-boolean-) | Specifies whether the program should attempt to preserve layout of tables
+when saving in the plain text format.
+ |
 ### TextSaveOptions() {#TextSaveOptions--}
 ```
 public TextSaveOptions()
@@ -43,7 +57,9 @@ public final Charset getEncoding()
 ```
 
 
-Character encoding of the text document, which will be applied for its saving
+Character encoding of the text document, which will be applied for its
+saving
+
 
 **Returns:**
 java.nio.charset.Charset - 
@@ -53,7 +69,9 @@ public final void setEncoding(Charset value)
 ```
 
 
-Character encoding of the text document, which will be applied for its saving
+Character encoding of the text document, which will be applied for its
+saving
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -66,7 +84,9 @@ public final boolean getAddBidiMarks()
 ```
 
 
-Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. Default is 'false' \\u2014 do not add BiDi marks.
+Specifies whether to add bi-directional marks before each BiDi run when
+exporting in plain text format. Default is 'false' \\u2014 do not add BiDi marks.
+
 
 **Returns:**
 boolean - 
@@ -76,7 +96,9 @@ public final void setAddBidiMarks(boolean value)
 ```
 
 
-Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format
+Specifies whether to add bi-directional marks before each BiDi run when
+exporting in plain text format
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -89,7 +111,9 @@ public final boolean getPreserveTableLayout()
 ```
 
 
-Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false.
+Specifies whether the program should attempt to preserve layout of tables
+when saving in the plain text format. The default value is false.
+
 
 **Returns:**
 boolean - 
@@ -99,7 +123,9 @@ public final void setPreserveTableLayout(boolean value)
 ```
 
 
-Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false.
+Specifies whether the program should attempt to preserve layout of tables
+when saving in the plain text format. The default value is false.
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -12,11 +12,17 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public final class InvalidFormatException extends RuntimeException
 ```
 
-The exception that is thrown when user tries to open some document with format-specific options that are incompatible with original document format.
+The exception that is thrown when user tries to open some document with
+format-specific options that are incompatible with original document format.
 
---------------------
+
+*** ** * ** ***
 
 For example, this exception will be thrown, if try to open Spreadsheet document with WordProcessing document options.
+
+<br />
+
+
 ## Constructors
 
 | Constructor | Description |

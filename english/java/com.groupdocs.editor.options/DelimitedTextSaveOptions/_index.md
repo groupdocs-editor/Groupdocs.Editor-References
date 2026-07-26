@@ -15,36 +15,62 @@ java.lang.Object
 public final class DelimitedTextSaveOptions implements ISaveOptions
 ```
 
-Contains options for generating and saving text-based Spreadsheet documents (CSV, Tab-based etc.), that use a separator (delimiter)
+Contains options for generating and saving text-based Spreadsheet documents
+(CSV, Tab-based etc.), that use a separator (delimiter)
 
---------------------
 
-https://en.wikipedia.org/wiki/Delimiter-separated\_values
+*** ** * ** ***
+
+https://en.wikipedia.org/wiki/Delimiter-separated_values
+
+<br />
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DelimitedTextSaveOptions()](#DelimitedTextSaveOptions--) | This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through  Separator (\#getSeparator.getSeparator/\#setSeparator(String).setSeparator(String)) property) |
-| [DelimitedTextSaveOptions(String separator)](#DelimitedTextSaveOptions-java.lang.String-) | Creates an instance of options class for delimited text with mandatory separator (delimiter) |
+| [DelimitedTextSaveOptions()](#DelimitedTextSaveOptions--) | This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through 
+Separator
+(#getSeparator.getSeparator/#setSeparator(String).setSeparator(String)) property)
+ |
+| [DelimitedTextSaveOptions(String separator)](#DelimitedTextSaveOptions-java.lang.String-) | Creates an instance of options class for delimited text with mandatory
+separator (delimiter)
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSeparator()](#getSeparator--) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Allows to specify a string separator (delimiter) for text-based Spreadsheet documents |
-| [getEncoding()](#getEncoding--) | Allows to set an encoding for the text-based Spreadsheet document. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Allows to set an encoding for the text-based Spreadsheet document. |
-| [getTrimLeadingBlankRowAndColumn()](#getTrimLeadingBlankRowAndColumn--) | Indicates whether leading blank rows and columns should be trimmed like what MS Excel does |
-| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | Indicates whether leading blank rows and columns should be trimmed like what MS Excel does |
-| [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row. |
-| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | Indicates whether separators should be output for blank row. |
+| [getSeparator()](#getSeparator--) | Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+ |
+| [setSeparator(String value)](#setSeparator-java.lang.String-) | Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+ |
+| [getEncoding()](#getEncoding--) | Allows to set an encoding for the text-based Spreadsheet document.
+ |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Allows to set an encoding for the text-based Spreadsheet document.
+ |
+| [getTrimLeadingBlankRowAndColumn()](#getTrimLeadingBlankRowAndColumn--) | Indicates whether leading blank rows and columns should be trimmed like
+what MS Excel does
+ |
+| [setTrimLeadingBlankRowAndColumn(boolean value)](#setTrimLeadingBlankRowAndColumn-boolean-) | Indicates whether leading blank rows and columns should be trimmed like
+what MS Excel does
+ |
+| [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row.
+ |
+| [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | Indicates whether separators should be output for blank row.
+ |
 ### DelimitedTextSaveOptions() {#DelimitedTextSaveOptions--}
 ```
 public DelimitedTextSaveOptions()
 ```
 
 
-This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through  Separator (\#getSeparator.getSeparator/\#setSeparator(String).setSeparator(String)) property)
+This parameterless constructor creates a new instance of DelimitedTextSaveOptions with a semicolon (;) default separator (can be modified then through 
+Separator
+(#getSeparator.getSeparator/#setSeparator(String).setSeparator(String)) property)
+
 
 ### DelimitedTextSaveOptions(String separator) {#DelimitedTextSaveOptions-java.lang.String-}
 ```
@@ -52,12 +78,15 @@ public DelimitedTextSaveOptions(String separator)
 ```
 
 
-Creates an instance of options class for delimited text with mandatory separator (delimiter)
+Creates an instance of options class for delimited text with mandatory
+separator (delimiter)
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | java.lang.String | String separator (delimiter) for text-based Spreadsheet documents |
+| separator | java.lang.String | String separator (delimiter) for text-based Spreadsheet documents
+ |
 
 ### getSeparator() {#getSeparator--}
 ```
@@ -65,7 +94,9 @@ public final String getSeparator()
 ```
 
 
-Allows to specify a string separator (delimiter) for text-based Spreadsheet documents
+Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+
 
 **Returns:**
 java.lang.String - 
@@ -75,7 +106,9 @@ public final void setSeparator(String value)
 ```
 
 
-Allows to specify a string separator (delimiter) for text-based Spreadsheet documents
+Allows to specify a string separator (delimiter) for text-based
+Spreadsheet documents
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -88,7 +121,9 @@ public final Charset getEncoding()
 ```
 
 
-Allows to set an encoding for the text-based Spreadsheet document. By default (and if not specified) is UTF8.
+Allows to set an encoding for the text-based Spreadsheet document. By
+default (and if not specified) is UTF8.
+
 
 **Returns:**
 java.nio.charset.Charset - 
@@ -98,7 +133,9 @@ public final void setEncoding(Charset value)
 ```
 
 
-Allows to set an encoding for the text-based Spreadsheet document. By default (and if not specified) is UTF8.
+Allows to set an encoding for the text-based Spreadsheet document. By
+default (and if not specified) is UTF8.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,7 +148,9 @@ public final boolean getTrimLeadingBlankRowAndColumn()
 ```
 
 
-Indicates whether leading blank rows and columns should be trimmed like what MS Excel does
+Indicates whether leading blank rows and columns should be trimmed like
+what MS Excel does
+
 
 **Returns:**
 boolean - 
@@ -121,7 +160,9 @@ public final void setTrimLeadingBlankRowAndColumn(boolean value)
 ```
 
 
-Indicates whether leading blank rows and columns should be trimmed like what MS Excel does
+Indicates whether leading blank rows and columns should be trimmed like
+what MS Excel does
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +175,9 @@ public final boolean getKeepSeparatorsForBlankRow()
 ```
 
 
-Indicates whether separators should be output for blank row. Default value is false which means the content for blank row will be empty.
+Indicates whether separators should be output for blank row. Default
+value is false which means the content for blank row will be empty.
+
 
 **Returns:**
 boolean - 
@@ -144,7 +187,9 @@ public final void setKeepSeparatorsForBlankRow(boolean value)
 ```
 
 
-Indicates whether separators should be output for blank row. Default value is false which means the content for blank row will be empty.
+Indicates whether separators should be output for blank row. Default
+value is false which means the content for blank row will be empty.
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -16,6 +16,7 @@ public class EmailDocumentInfo implements IDocumentInfo
 ```
 
 Represents metadata of one email document of any supported email format
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,11 +26,16 @@ Represents metadata of one email document of any supported email format
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Returns a format of this email document |
-| [getPageCount()](#getPageCount--) | Always returs 1, because email documents don't have paged view |
-| [getSize()](#getSize--) | Returns size in bytes of this email document |
-| [isEncrypted()](#isEncrypted--) | Because email documents cannot be encrypted with password, this property always returns 'false' |
-| [equals(EmailDocumentInfo other)](#equals-com.groupdocs.editor.metadata.EmailDocumentInfo-) | Determines whether this instance is equal to the other specified EmailDocumentInfo instance |
+| [getFormat()](#getFormat--) | Returns a format of this email document
+ |
+| [getPageCount()](#getPageCount--) | Always returs 1, because email documents don't have paged view
+ |
+| [getSize()](#getSize--) | Returns size in bytes of this email document
+ |
+| [isEncrypted()](#isEncrypted--) | Because email documents cannot be encrypted with password, this property always returns 'false'
+ |
+| [equals(EmailDocumentInfo other)](#equals-com.groupdocs.editor.metadata.EmailDocumentInfo-) | Determines whether this instance is equal to the other specified EmailDocumentInfo instance
+ |
 ### EmailDocumentInfo() {#EmailDocumentInfo--}
 ```
 public EmailDocumentInfo()
@@ -44,6 +50,7 @@ public final DocumentFormatBase getFormat()
 
 Returns a format of this email document
 
+
 **Returns:**
 [DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
@@ -53,6 +60,7 @@ public final int getPageCount()
 
 
 Always returs 1, because email documents don't have paged view
+
 
 **Returns:**
 int
@@ -64,6 +72,7 @@ public final long getSize()
 
 Returns size in bytes of this email document
 
+
 **Returns:**
 long
 ### isEncrypted() {#isEncrypted--}
@@ -73,6 +82,7 @@ public final boolean isEncrypted()
 
 
 Because email documents cannot be encrypted with password, this property always returns 'false'
+
 
 **Returns:**
 boolean
@@ -84,10 +94,13 @@ public final boolean equals(EmailDocumentInfo other)
 
 Determines whether this instance is equal to the other specified EmailDocumentInfo instance
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [EmailDocumentInfo](../../com.groupdocs.editor.metadata/emaildocumentinfo) | Other EmailDocumentInfo instance, that should be checked on equality with this |
+| other | [EmailDocumentInfo](../../com.groupdocs.editor.metadata/emaildocumentinfo) | Other EmailDocumentInfo instance, that should be checked on equality with this
+ |
 
 **Returns:**
 boolean - True if are equal, false if are unequal
+

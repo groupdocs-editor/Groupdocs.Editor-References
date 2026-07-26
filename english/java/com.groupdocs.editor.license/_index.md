@@ -7,10 +7,8 @@ weight: 24
 url: /java/com.groupdocs.editor.license/
 ---
 
-The **com.groupdocs.editor.license** Provides methods to license the component. Learn more about licensing [here][]
+The **com.groupdocs.editor.license** Provides methods to license the component. Learn more about licensing [here](../https://purchase.groupdocs.com/faqs/licensing)
 
-
-[here]: https://purchase.groupdocs.com/faqs/licensing
 
 
 ## Classes
@@ -18,4 +16,4 @@ The **com.groupdocs.editor.license** Provides methods to license the component. 
 | Class | Description |
 | --- | --- |
 | [License](../com.groupdocs.editor.license/license) | Provides methods to license the component. |
-| [Metered](../com.groupdocs.editor.license/metered) | Provides methods for applying [Metered][] license.[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered |
+| [Metered](../com.groupdocs.editor.license/metered) | Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license. |

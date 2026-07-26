@@ -12,19 +12,20 @@ java.lang.Object
 public class Metered
 ```
 
-Provides methods for applying [Metered][] license.
+Provides methods for applying [Metered](../https://purchase.groupdocs.com/faqs/licensing/metered) license.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 **Learn more**
 
- *  More about licensing: [GroupDocs Licensing FAQ][]
- *  More about GroupDocs.Editor licensing:[Evaluation Limitations and Licensing][]
+* More about licensing: [GroupDocs Licensing FAQ](../https://purchase.groupdocs.com/faqs/licensing)
+* More about GroupDocs.Editor licensing:[Evaluation Limitations and Licensing](../https://docs.groupdocs.com/editor/java/licensing-and-subscription/)
+
+<br />
 
 
-[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered
-[GroupDocs Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing
-[Evaluation Limitations and Licensing]: https://docs.groupdocs.com/editor/java/licensing-and-subscription/
 ## Constructors
 
 | Constructor | Description |
@@ -34,9 +35,12 @@ Provides methods for applying [Metered][] license.
 
 | Method | Description |
 | --- | --- |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates product with Metered keys. |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves amount of MBs processed. |
-| [getConsumptionCredit()](#getConsumptionCredit--) | Retrieves count of credits consumed. |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates product with Metered keys.
+ |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves amount of MBs processed.
+ |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Retrieves count of credits consumed.
+ |
 ### Metered() {#Metered--}
 ```
 public Metered()
@@ -51,22 +55,30 @@ public final void setMeteredKey(String publicKey, String privateKey)
 
 Activates product with Metered keys.
 
---------------------
+
+*** ** * ** ***
 
 > ```
-> Following example demonstrates how to activate product with Metered keys.
->  
->  String publicKey = "Public Key";
+>  Following example demonstrates how to activate product with Metered keys.
+>   String publicKey = "Public Key";
 >  String privateKey = "Private Key";
 >  Metered metered = new Metered();
 >  metered.setMeteredKey(publicKey, privateKey);
+>  
+>  
 > ```
+
+<br />
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| publicKey | java.lang.String | The public key. |
-| privateKey | java.lang.String | The private key. |
+| publicKey | java.lang.String | The public key.
+ |
+| privateKey | java.lang.String | The private key.
+ |
 
 ### getConsumptionQuantity() {#getConsumptionQuantity--}
 ```
@@ -76,18 +88,24 @@ public static BigDecimal getConsumptionQuantity()
 
 Retrieves amount of MBs processed.
 
---------------------
+
+*** ** * ** ***
 
 > ```
-> Following example demonstrates how to retrieve amount of MBs processed.
->   
->   String publicKey = "Public Key";
+>   Following example demonstrates how to retrieve amount of MBs processed.
+>     String publicKey = "Public Key";
 >   String privateKey = "Private Key";
-> 
+>
 >   Metered metered = new Metered();
 >   metered.setMeteredKey(publicKey, privateKey);
 >   double mbProcessed = metered.getConsumptionQuantity();
+>  
+>  
 > ```
+
+<br />
+
+
 
 **Returns:**
 java.math.BigDecimal
@@ -99,18 +117,25 @@ public static BigDecimal getConsumptionCredit()
 
 Retrieves count of credits consumed.
 
---------------------
+
+*** ** * ** ***
 
 > ```
-> Following example demonstrates how to retrieve count of credits consumed.
->   
->   String publicKey = "Public Key";
+>   Following example demonstrates how to retrieve count of credits consumed.
+>     String publicKey = "Public Key";
 >   String privateKey = "Private Key";
-> 
+>
 >   Metered metered = new Metered();
 >   metered.setMeteredKey(publicKey, privateKey);
 >   double creditsConsumed = metered.getConsumptionCredit();
+>  
+>  
 > ```
+
+<br />
+
+
 
 **Returns:**
 java.math.BigDecimal - Count of already used credits
+

@@ -16,6 +16,7 @@ public class FixedLayoutDocumentInfo extends Struct<FixedLayoutDocumentInfo> imp
 ```
 
 Represents metadata of one document with fixed layout format like PDF or XPS
+
 ## Constructors
 
 | Constructor | Description |
@@ -25,11 +26,16 @@ Represents metadata of one document with fixed layout format like PDF or XPS
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Returns a format of this fixed-layout format document |
-| [getPageCount()](#getPageCount--) | Returns number of pages |
-| [getSize()](#getSize--) | Returns size in bytes of this fixed-layout format document |
-| [isEncrypted()](#isEncrypted--) | Determines whether this specific fixed-layout format document in encrypted and requires password for opening |
-| [equals(FixedLayoutDocumentInfo other)](#equals-com.groupdocs.editor.metadata.FixedLayoutDocumentInfo-) | Determines whether this instance is equal to the other specified FixedLayoutDocumentInfo instance |
+| [getFormat()](#getFormat--) | Returns a format of this fixed-layout format document
+ |
+| [getPageCount()](#getPageCount--) | Returns number of pages
+ |
+| [getSize()](#getSize--) | Returns size in bytes of this fixed-layout format document
+ |
+| [isEncrypted()](#isEncrypted--) | Determines whether this specific fixed-layout format document in encrypted and requires password for opening
+ |
+| [equals(FixedLayoutDocumentInfo other)](#equals-com.groupdocs.editor.metadata.FixedLayoutDocumentInfo-) | Determines whether this instance is equal to the other specified FixedLayoutDocumentInfo instance
+ |
 ### FixedLayoutDocumentInfo() {#FixedLayoutDocumentInfo--}
 ```
 public FixedLayoutDocumentInfo()
@@ -44,6 +50,7 @@ public final DocumentFormatBase getFormat()
 
 Returns a format of this fixed-layout format document
 
+
 **Returns:**
 [DocumentFormatBase](../../com.groupdocs.editor.formats.abstraction/documentformatbase)
 ### getPageCount() {#getPageCount--}
@@ -53,6 +60,7 @@ public final int getPageCount()
 
 
 Returns number of pages
+
 
 **Returns:**
 int
@@ -64,6 +72,7 @@ public final long getSize()
 
 Returns size in bytes of this fixed-layout format document
 
+
 **Returns:**
 long
 ### isEncrypted() {#isEncrypted--}
@@ -73,6 +82,7 @@ public final boolean isEncrypted()
 
 
 Determines whether this specific fixed-layout format document in encrypted and requires password for opening
+
 
 **Returns:**
 boolean
@@ -84,10 +94,13 @@ public final boolean equals(FixedLayoutDocumentInfo other)
 
 Determines whether this instance is equal to the other specified FixedLayoutDocumentInfo instance
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [FixedLayoutDocumentInfo](../../com.groupdocs.editor.metadata/fixedlayoutdocumentinfo) | Other FixedLayoutDocumentInfo instance, that should be checked on equality with this |
+| other | [FixedLayoutDocumentInfo](../../com.groupdocs.editor.metadata/fixedlayoutdocumentinfo) | Other FixedLayoutDocumentInfo instance, that should be checked on equality with this
+ |
 
 **Returns:**
 boolean - True if are equal, false if are unequal
+

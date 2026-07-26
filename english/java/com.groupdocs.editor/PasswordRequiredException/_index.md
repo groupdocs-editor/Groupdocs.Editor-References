@@ -12,7 +12,10 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public final class PasswordRequiredException extends RuntimeException
 ```
 
-The exception that is thrown when user tries to open a password-protected encrypted document of some format and doesn't provide a password for opening this document.
+The exception that is thrown when user tries to open a password-protected
+encrypted document of some format and doesn't provide a password for opening
+this document.
+
 ## Constructors
 
 | Constructor | Description |

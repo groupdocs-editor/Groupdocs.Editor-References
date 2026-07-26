@@ -10,11 +10,12 @@ url: /java/com.groupdocs.editor.htmlcss.resources.images/
 The **com.groupdocs.editor.htmlcss.resources.images** namespace provides classes that represent image resources of all types in general.
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Dimensions](../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Represents the linear dimensions (width and height) of one raster rectangular image in arbitrary unit. |
+| [Dimensions](../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Represents the linear dimensions (width and height) of one raster rectangularimage in arbitrary unit. |
 | [ImageType](../com.groupdocs.editor.htmlcss.resources.images/imagetype) | Represents one supportable image type (format), supports both raster and vector formats |
 
 ## Interfaces

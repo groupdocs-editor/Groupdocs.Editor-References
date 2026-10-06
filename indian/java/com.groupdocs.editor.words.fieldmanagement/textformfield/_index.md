@@ -1,0 +1,349 @@
+---
+title: "TextFormField"
+second_title: "GroupDocs.Editor for Java API संदर्भ"
+description: "एक फ़ॉर्म फ़ील्ड को दर्शाता है जो टेक्स्ट इनपुट स्वीकार करता है।"
+type: docs
+weight: 20
+url: /hi/java/com.groupdocs.editor.words.fieldmanagement/textformfield/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.groupdocs.editor.words.fieldmanagement.IFormField](../../com.groupdocs.editor.words.fieldmanagement/iformfield)
+```
+public final class TextFormField implements IFormField
+```
+
+एक फ़ॉर्म फ़ील्ड को दर्शाता है जो टेक्स्ट इनपुट स्वीकार करता है।
+
+## कंस्ट्रक्टर्स
+
+| कंस्ट्रक्टर | विवरण |
+| --- | --- |
+|  | [TextFormField(String stylesheet, String name)](#TextFormField-java.lang.String-java.lang.String-) | निर्दिष्ट स्टाइलशीट और नाम के साथ [TextFormField](../../com.groupdocs.editor.words.fieldmanagement/textformfield) क्लास का नया उदाहरण प्रारंभ करता है। |
+|
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+|  | [getStylesheet()](#getStylesheet--) | फ़ॉर्म फ़ील्ड पर लागू stylesheet प्राप्त करता है। |
+|
+|  | [getReadonly()](#getReadonly--) | फ़ॉर्म फ़ील्ड केवल‑पढ़ने योग्य है या नहीं, यह दर्शाने वाला मान प्राप्त या सेट करता है। |
+|
+|  | [setReadonly(boolean value)](#setReadonly-boolean-) | फ़ॉर्म फ़ील्ड केवल‑पढ़ने योग्य है या नहीं, यह दर्शाने वाला मान प्राप्त या सेट करता है। |
+|
+|  | [getName()](#getName--) | फ़ॉर्म फ़ील्ड का नाम प्राप्त करता है। |
+|
+|  | [getType()](#getType--) | फ़ॉर्म फ़ील्ड का प्रकार प्राप्त करता है, जो इस क्लास के लिए हमेशा FormFieldType.Text होता है। |
+|
+|  | [getLocaleId()](#getLocaleId--) | फ़ॉर्म फ़ील्ड का locale ID प्राप्त या सेट करता है, जो फ़ॉर्म फ़ील्ड से जुड़ी संस्कृति या क्षेत्रीय सेटिंग्स को दर्शाता है। |
+|
+|  | [setLocaleId(int value)](#setLocaleId-int-) | फ़ॉर्म फ़ील्ड का locale ID प्राप्त या सेट करता है, जो फ़ॉर्म फ़ील्ड से जुड़ी संस्कृति या क्षेत्रीय सेटिंग्स को दर्शाता है। |
+|
+|  | [getStatusText()](#getStatusText--) | फ़ॉर्म फ़ील्ड से जुड़ा स्थिति पाठ प्राप्त करता है या सेट करता है, |
+जब फ़ॉर्म फ़ील्ड फोकस में हो तो स्थिति बार में प्रदर्शित होने वाले पाठ का स्रोत।
+|
+|  | [setStatusText(HelpText value)](#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | फ़ॉर्म फ़ील्ड से जुड़ा स्थिति पाठ प्राप्त करता है या सेट करता है, |
+जब फ़ॉर्म फ़ील्ड फोकस में हो तो स्थिति बार में प्रदर्शित होने वाले पाठ का स्रोत।
+|
+|  | [getHelpText()](#getHelpText--) | फ़ॉर्म फ़ील्ड से जुड़ा सहायता पाठ प्राप्त करता है या सेट करता है, |
+जब फ़ॉर्म फ़ील्ड फोकस में हो और उपयोगकर्ता F1 दबाए तो संदेश बॉक्स में प्रदर्शित होने वाले पाठ का स्रोत।
+|
+|  | [setHelpText(HelpText value)](#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | फ़ॉर्म फ़ील्ड से जुड़ा सहायता पाठ प्राप्त करता है या सेट करता है, |
+जब फ़ॉर्म फ़ील्ड फोकस में हो और उपयोगकर्ता F1 दबाए तो संदेश बॉक्स में प्रदर्शित होने वाले पाठ का स्रोत।
+|
+|  | [getValue()](#getValue--) | फ़ॉर्म फ़ील्ड का मान प्राप्त करता है या सेट करता है, जो पाठ इनपुट का प्रतिनिधित्व करता है। |
+|
+|  | [setValue(String value)](#setValue-java.lang.String-) | फ़ॉर्म फ़ील्ड का मान प्राप्त करता है या सेट करता है, जो पाठ इनपुट का प्रतिनिधित्व करता है। |
+|
+|  | [getMaxLength()](#getMaxLength--) | फ़ॉर्म फ़ील्ड के इनपुट की अधिकतम लंबाई प्राप्त करता है या सेट करता है। |
+|
+|  | [setMaxLength(int value)](#setMaxLength-int-) | फ़ॉर्म फ़ील्ड के इनपुट की अधिकतम लंबाई प्राप्त करता है या सेट करता है। |
+|
+### TextFormField(String stylesheet, String name) {#TextFormField-java.lang.String-java.lang.String-}
+```
+public TextFormField(String stylesheet, String name)
+```
+
+
+निर्दिष्ट स्टाइलशीट और नाम के साथ [TextFormField](../../com.groupdocs.editor.words.fieldmanagement/textformfield) क्लास का नया उदाहरण प्रारंभ करता है।
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+|  | stylesheet | java.lang.String | फ़ॉर्म फ़ील्ड पर लागू करने के लिए stylesheet। |
+|
+|  | नाम | java.lang.String | फ़ॉर्म फ़ील्ड का नाम। |
+|
+
+### getStylesheet() {#getStylesheet--}
+```
+public final String getStylesheet()
+```
+
+
+फ़ॉर्म फ़ील्ड पर लागू stylesheet प्राप्त करता है।
+
+
+**Returns:**
+java.lang.String
+### getReadonly() {#getReadonly--}
+```
+public final boolean getReadonly()
+```
+
+
+फ़ॉर्म फ़ील्ड केवल‑पढ़ने योग्य है या नहीं, यह दर्शाने वाला मान प्राप्त या सेट करता है।
+
+
+**Returns:**
+boolean
+### setReadonly(boolean value) {#setReadonly-boolean-}
+```
+public final void setReadonly(boolean value)
+```
+
+
+फ़ॉर्म फ़ील्ड केवल‑पढ़ने योग्य है या नहीं, यह दर्शाने वाला मान प्राप्त या सेट करता है।
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| मान | boolean |  |
+
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+फ़ॉर्म फ़ील्ड का नाम प्राप्त करता है।
+
+
+**Returns:**
+java.lang.String
+### getType() {#getType--}
+```
+public final int getType()
+```
+
+
+फ़ॉर्म फ़ील्ड का प्रकार प्राप्त करता है, जो इस क्लास के लिए हमेशा FormFieldType.Text होता है।
+
+
+**Returns:**
+int
+### getLocaleId() {#getLocaleId--}
+```
+public final int getLocaleId()
+```
+
+
+फ़ॉर्म फ़ील्ड का locale ID प्राप्त या सेट करता है, जो फ़ॉर्म फ़ील्ड से जुड़ी संस्कृति या क्षेत्रीय सेटिंग्स को दर्शाता है।
+
+<br />
+
+*** ** * ** ***
+
+> ```
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
+>  textField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
+> ```
+
+<br />
+
+<br />
+
+*** ** * ** ***
+
+LocaleId प्रॉपर्टी एक लोकेल पहचानकर्ता (LCID) निर्दिष्ट करती है जो किसी विशिष्ट संस्कृति या क्षेत्र से संबंधित होता है।
+
+<br />
+
+
+
+**Returns:**
+int
+### setLocaleId(int value) {#setLocaleId-int-}
+```
+public final void setLocaleId(int value)
+```
+
+
+फ़ॉर्म फ़ील्ड का locale ID प्राप्त या सेट करता है, जो फ़ॉर्म फ़ील्ड से जुड़ी संस्कृति या क्षेत्रीय सेटिंग्स को दर्शाता है।
+
+<br />
+
+*** ** * ** ***
+
+> ```
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
+>  textField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
+> ```
+
+<br />
+
+<br />
+
+*** ** * ** ***
+
+LocaleId प्रॉपर्टी एक लोकेल पहचानकर्ता (LCID) निर्दिष्ट करती है जो किसी विशिष्ट संस्कृति या क्षेत्र से संबंधित होता है।
+
+<br />
+
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+### getStatusText() {#getStatusText--}
+```
+public final HelpText getStatusText()
+```
+
+
+फ़ॉर्म फ़ील्ड से जुड़ा स्थिति पाठ प्राप्त करता है या सेट करता है,
+जब फ़ॉर्म फ़ील्ड फोकस में हो तो स्थिति बार में प्रदर्शित होने वाले पाठ का स्रोत।
+
+<br />
+
+*** ** * ** ***
+
+यदि इसे false पर सेट किया जाता है, तो स्थिति पाठ लागू नहीं होगा।
+
+<br />
+
+
+
+**Returns:**
+[HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
+### setStatusText(HelpText value) {#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-}
+```
+public final void setStatusText(HelpText value)
+```
+
+
+फ़ॉर्म फ़ील्ड से जुड़ा स्थिति पाठ प्राप्त करता है या सेट करता है,
+जब फ़ॉर्म फ़ील्ड फोकस में हो तो स्थिति बार में प्रदर्शित होने वाले पाठ का स्रोत।
+
+<br />
+
+*** ** * ** ***
+
+यदि इसे false पर सेट किया जाता है, तो स्थिति पाठ लागू नहीं होगा।
+
+<br />
+
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| value | [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext) |  |
+
+### getHelpText() {#getHelpText--}
+```
+public final HelpText getHelpText()
+```
+
+
+फ़ॉर्म फ़ील्ड से जुड़ा सहायता पाठ प्राप्त करता है या सेट करता है,
+जब फ़ॉर्म फ़ील्ड फोकस में हो और उपयोगकर्ता F1 दबाए तो संदेश बॉक्स में प्रदर्शित होने वाले पाठ का स्रोत।
+
+<br />
+
+*** ** * ** ***
+
+यदि इसे false पर सेट किया जाता है, तो सहायता पाठ लागू नहीं होगा।
+
+<br />
+
+
+
+**Returns:**
+[HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
+### setHelpText(HelpText value) {#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-}
+```
+public final void setHelpText(HelpText value)
+```
+
+
+फ़ॉर्म फ़ील्ड से जुड़ा सहायता पाठ प्राप्त करता है या सेट करता है,
+जब फ़ॉर्म फ़ील्ड फोकस में हो और उपयोगकर्ता F1 दबाए तो संदेश बॉक्स में प्रदर्शित होने वाले पाठ का स्रोत।
+
+<br />
+
+*** ** * ** ***
+
+यदि इसे false पर सेट किया जाता है, तो सहायता पाठ लागू नहीं होगा।
+
+<br />
+
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| value | [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext) |  |
+
+### getValue() {#getValue--}
+```
+public final String getValue()
+```
+
+
+फ़ॉर्म फ़ील्ड का मान प्राप्त करता है या सेट करता है, जो पाठ इनपुट का प्रतिनिधित्व करता है।
+
+
+**Returns:**
+java.lang.String
+### setValue(String value) {#setValue-java.lang.String-}
+```
+public final void setValue(String value)
+```
+
+
+फ़ॉर्म फ़ील्ड का मान प्राप्त करता है या सेट करता है, जो पाठ इनपुट का प्रतिनिधित्व करता है।
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| मान | java.lang.String |  |
+
+### getMaxLength() {#getMaxLength--}
+```
+public final int getMaxLength()
+```
+
+
+फ़ॉर्म फ़ील्ड के इनपुट की अधिकतम लंबाई प्राप्त करता है या सेट करता है।
+
+
+**Returns:**
+int
+### setMaxLength(int value) {#setMaxLength-int-}
+```
+public final void setMaxLength(int value)
+```
+
+
+फ़ॉर्म फ़ील्ड के इनपुट की अधिकतम लंबाई प्राप्त करता है या सेट करता है।
+
+
+**Parameters:**
+| पैरामीटर | टाइप | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+

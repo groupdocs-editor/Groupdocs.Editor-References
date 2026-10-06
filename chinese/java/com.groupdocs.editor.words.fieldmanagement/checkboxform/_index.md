@@ -1,0 +1,312 @@
+---
+title: "CheckBoxForm"
+second_title: "GroupDocs.Editor for Java API 参考"
+description: "表示显示复选框的表单字段。"
+type: docs
+weight: 10
+url: /zh/java/com.groupdocs.editor.words.fieldmanagement/checkboxform/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.groupdocs.editor.words.fieldmanagement.IFormField](../../com.groupdocs.editor.words.fieldmanagement/iformfield)
+```
+public final class CheckBoxForm implements IFormField
+```
+
+表示显示复选框的表单字段。
+
+## 构造函数
+
+| 构造函数 | 描述 |
+| --- | --- |
+|  | [CheckBoxForm(String stylesheet, String name)](#CheckBoxForm-java.lang.String-java.lang.String-) | 使用指定的样式表和名称初始化 [CheckBoxForm](../../com.groupdocs.editor.words.fieldmanagement/checkboxform) 类的新实例。 |
+|
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+|  | [getStylesheet()](#getStylesheet--) | 获取应用于表单字段的样式表。 |
+|
+|  | [getReadonly()](#getReadonly--) | 获取或设置一个值，指示表单字段是否为只读。 |
+|
+|  | [setReadonly(boolean value)](#setReadonly-boolean-) | 获取或设置一个值，指示表单字段是否为只读。 |
+|
+|  | [getName()](#getName--) | 获取表单字段的名称。 |
+|
+|  | [getType()](#getType--) | 获取表单字段的类型，对于此类始终为 FormFieldType.CheckBox。 |
+|
+|  | [getLocaleId()](#getLocaleId--) | 获取或设置表单字段的区域设置标识符，表示与表单字段关联的文化或地区设置。 |
+|
+|  | [setLocaleId(int value)](#setLocaleId-int-) | 获取或设置表单字段的区域设置标识符，表示与表单字段关联的文化或地区设置。 |
+|
+|  | [getStatusText()](#getStatusText--) | 获取或设置与表单字段关联的状态文本，即当表单字段获得焦点时显示在状态栏中的文本来源。 |
+|
+|  | [setStatusText(HelpText value)](#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | 获取或设置与表单字段关联的状态文本，即当表单字段获得焦点时显示在状态栏中的文本来源。 |
+|
+|  | [getHelpText()](#getHelpText--) | 获取或设置与表单字段关联的帮助文本，即当表单字段获得焦点且用户按下 F1 时显示在消息框中的文本来源。 |
+|
+|  | [setHelpText(HelpText value)](#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-) | 获取或设置与表单字段关联的帮助文本，即当表单字段获得焦点且用户按下 F1 时显示在消息框中的文本来源。 |
+|
+|  | [getValue()](#getValue--) | 获取或设置表单字段的值，该值表示复选框的状态。 |
+|
+|  | [setValue(boolean value)](#setValue-boolean-) | 获取或设置表单字段的值，该值表示复选框的状态。 |
+|
+### CheckBoxForm(String stylesheet, String name) {#CheckBoxForm-java.lang.String-java.lang.String-}
+```
+public CheckBoxForm(String stylesheet, String name)
+```
+
+
+使用指定的样式表和名称初始化 [CheckBoxForm](../../com.groupdocs.editor.words.fieldmanagement/checkboxform) 类的新实例。
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+|  | 样式表 | java.lang.String | 要应用于表单字段的样式表。 |
+|
+|  | 名称 | java.lang.String | 表单字段的名称。 |
+|
+
+### getStylesheet() {#getStylesheet--}
+```
+public final String getStylesheet()
+```
+
+
+获取应用于表单字段的样式表。
+
+
+**Returns:**
+java.lang.String
+### getReadonly() {#getReadonly--}
+```
+public final boolean getReadonly()
+```
+
+
+获取或设置一个值，指示表单字段是否为只读。
+
+
+**Returns:**
+boolean
+### setReadonly(boolean value) {#setReadonly-boolean-}
+```
+public final void setReadonly(boolean value)
+```
+
+
+获取或设置一个值，指示表单字段是否为只读。
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+获取表单字段的名称。
+
+
+**Returns:**
+java.lang.String
+### getType() {#getType--}
+```
+public final int getType()
+```
+
+
+获取表单字段的类型，对于此类始终为 FormFieldType.CheckBox。
+
+
+**Returns:**
+int
+### getLocaleId() {#getLocaleId--}
+```
+public final int getLocaleId()
+```
+
+
+获取或设置表单字段的区域设置标识符，表示与表单字段关联的文化或地区设置。
+
+<br />
+
+*** ** * ** ***
+
+> ```
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
+>  checkBoxField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
+> ```
+
+<br />
+
+<br />
+
+*** ** * ** ***
+
+LocaleId 属性指定一个区域标识符 (LCID)，该标识符对应特定的文化或地区。
+
+<br />
+
+
+
+**Returns:**
+int
+### setLocaleId(int value) {#setLocaleId-int-}
+```
+public final void setLocaleId(int value)
+```
+
+
+获取或设置表单字段的区域设置标识符，表示与表单字段关联的文化或地区设置。
+
+<br />
+
+*** ** * ** ***
+
+> ```
+>  The following example demonstrates how to set the LocaleId property:
+>   Set the LocaleId to represent the English (United States) culture
+>  checkBoxField.LocaleId = new CultureInfo("en-US").LCID;
+>  
+>  
+> ```
+
+<br />
+
+<br />
+
+*** ** * ** ***
+
+LocaleId 属性指定一个区域标识符 (LCID)，该标识符对应特定的文化或地区。
+
+<br />
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | int |  |
+
+### getStatusText() {#getStatusText--}
+```
+public final HelpText getStatusText()
+```
+
+
+获取或设置与表单字段关联的状态文本，即当表单字段获得焦点时显示在状态栏中的文本来源。
+
+<br />
+
+*** ** * ** ***
+
+如果设置为 false，则状态文本将不被应用。
+
+<br />
+
+
+
+**Returns:**
+[HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
+### setStatusText(HelpText value) {#setStatusText-com.groupdocs.editor.words.fieldmanagement.HelpText-}
+```
+public final void setStatusText(HelpText value)
+```
+
+
+获取或设置与表单字段关联的状态文本，即当表单字段获得焦点时显示在状态栏中的文本来源。
+
+<br />
+
+*** ** * ** ***
+
+如果设置为 false，则状态文本将不被应用。
+
+<br />
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext) |  |
+
+### getHelpText() {#getHelpText--}
+```
+public final HelpText getHelpText()
+```
+
+
+获取或设置与表单字段关联的帮助文本，即当表单字段获得焦点且用户按下 F1 时显示在消息框中的文本来源。
+
+<br />
+
+*** ** * ** ***
+
+如果设置为 false，则帮助文本将不被应用。
+
+<br />
+
+
+
+**Returns:**
+[HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext)
+### setHelpText(HelpText value) {#setHelpText-com.groupdocs.editor.words.fieldmanagement.HelpText-}
+```
+public final void setHelpText(HelpText value)
+```
+
+
+获取或设置与表单字段关联的帮助文本，即当表单字段获得焦点且用户按下 F1 时显示在消息框中的文本来源。
+
+<br />
+
+*** ** * ** ***
+
+如果设置为 false，则帮助文本将不被应用。
+
+<br />
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [HelpText](../../com.groupdocs.editor.words.fieldmanagement/helptext) |  |
+
+### getValue() {#getValue--}
+```
+public final boolean getValue()
+```
+
+
+获取或设置表单字段的值，该值表示复选框的状态。
+
+
+**Returns:**
+boolean
+### setValue(boolean value) {#setValue-boolean-}
+```
+public final void setValue(boolean value)
+```
+
+
+获取或设置表单字段的值，该值表示复选框的状态。
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+

@@ -1,0 +1,325 @@
+---
+title: "Διαστάσεις"
+second_title: "Αναφορά API του GroupDocs.Editor για Java"
+description: "Αντιπροσωπεύει τις γραμμικές διαστάσεις πλάτος και ύψος μιας ορθογώνιας raster εικόνας σε αυθαίρετη μονάδα."
+type: docs
+weight: 10
+url: /el/java/com.groupdocs.editor.htmlcss.resources.images/dimensions/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class Dimensions
+```
+
+Αντιπροσωπεύει τις γραμμικές διαστάσεις (πλάτος και ύψος) ενός ορθογώνιου raster
+εικόνα σε αυθαίρετη μονάδα. Αμετάβλητη δομή.
+
+## Κατασκευαστές
+
+| Κατασκευαστής | Περιγραφή |
+| --- | --- |
+|  | [Dimensions(int width, int height)](#Dimensions-int-int-) | Δημιουργεί ένα νέο αντικείμενο από το καθορισμένο πλάτος και ύψος |
+|
+## Μέθοδοι
+
+| Μέθοδος | Περιγραφή |
+| --- | --- |
+|  | [getWidth()](#getWidth--) | Επιστρέφει το πλάτος της εικόνας |
+|
+|  | [getHeight()](#getHeight--) | Επιστρέφει το ύψος της εικόνας |
+|
+|  | [isSquare()](#isSquare--) | Καθορίζει εάν το καθορισμένο 'Dimensions' αντιπροσωπεύει τετράγωνο, δηλαδή |
+|
+|  | [getArea()](#getArea--) | Επιστρέφει μια περιοχή (Πλάτος x Ύψος) |
+|
+|  | [isEmpty()](#isEmpty--) | Καθορίζει εάν αυτή η "Dimensions" παρουσία είναι κενή και προεπιλεγμένη, δηλαδή |
+|
+|  | [getAspectRatio()](#getAspectRatio--) | Αναλογία διαστάσεων ως πλάτος/ύψος |
+|
+|  | [proportionallyResizeForNewWidth(int targetWidth)](#proportionallyResizeForNewWidth-int-) | Δημιουργεί και επιστρέφει μια νέα "Dimensions" παρουσία, η οποία είναι αναλογικά |
+αλλάζει μέγεθος από το τρέχον, βάσει του καθορισμένου πλάτους
+|
+|  | [proportionallyResizeForNewHeight(int targetHeight)](#proportionallyResizeForNewHeight-int-) | Δημιουργεί και επιστρέφει μια νέα "Dimensions" παρουσία, η οποία είναι αναλογικά |
+αλλάζει μέγεθος από το τρέχον, βάσει του καθορισμένου ύψους
+|
+|  | [equals(Dimensions other)](#equals-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Καθορίζει εάν αυτή η παρουσία είναι ίση με το καθορισμένο "Dimensions" |
+αντικείμενο
+|
+|  | [equals(Object obj)](#equals-java.lang.Object-) | Καθορίζει αν αυτή η περίπτωση είναι ίση με το καθορισμένο μη μετατρεπόμενο αντικείμενο, |
+που προφανώς είναι μια άλλη "Dimensions" παρουσία
+|
+|  | [hashCode()](#hashCode--) | Επιστρέφει έναν hashcode για αυτήν την παρουσία, ο οποίος δεν μπορεί να αλλάξει κατά τη διάρκεια του |
+διάρκειας
+|
+|  | [op_Equality(Dimensions first, Dimensions second)](#op-Equality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Ελέγχει εάν δύο τιμές "Dimensions" είναι ίσες, δηλαδή |
+|
+|  | [op_Inequality(Dimensions first, Dimensions second)](#op-Inequality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-) | Ελέγχει εάν δύο τιμές "Dimensions" δεν είναι ίσες, δηλαδή |
+|
+|  | [toString()](#toString--) | Επιστρέφει μια αναπαράσταση συμβολοσειράς αυτής της "Dimensions" |
+|
+|  | [deepClone()](#deepClone--) | Επιστρέφει ένα πλήρες αντίγραφο αυτής της παρουσίας |
+|
+|  | [getEmpty()](#getEmpty--) | Επιστρέφει μια κενή παρουσία Dimensions |
+|
+### Dimensions(int width, int height) {#Dimensions-int-int-}
+```
+public Dimensions(int width, int height)
+```
+
+
+Δημιουργεί ένα νέο αντικείμενο από το καθορισμένο πλάτος και ύψος
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | πλάτος | int | Πλάτος εικόνας |
+|
+|  | ύψος | int | Ύψος εικόνας |
+|
+
+### getWidth() {#getWidth--}
+```
+public final int getWidth()
+```
+
+
+Επιστρέφει το πλάτος της εικόνας
+
+
+**Returns:**
+int
+### getHeight() {#getHeight--}
+```
+public final int getHeight()
+```
+
+
+Επιστρέφει το ύψος της εικόνας
+
+
+**Returns:**
+int
+### isSquare() {#isSquare--}
+```
+public final boolean isSquare()
+```
+
+
+Καθορίζει εάν το καθορισμένο 'Dimensions' αντιπροσωπεύει τετράγωνο, δηλαδή αν
+το πλάτος είναι ίσο με το ύψος
+
+
+**Returns:**
+boolean
+### getArea() {#getArea--}
+```
+public final long getArea()
+```
+
+
+Επιστρέφει μια περιοχή (Πλάτος x Ύψος)
+
+
+**Returns:**
+long
+### isEmpty() {#isEmpty--}
+```
+public final boolean isEmpty()
+```
+
+
+Καθορίζει εάν αυτή η "Dimensions" παρουσία είναι κενή και προεπιλεγμένη, δηλαδή
+δεν αποθηκεύει σωστά το πλάτος και το ύψος
+
+
+**Returns:**
+boolean
+### getAspectRatio() {#getAspectRatio--}
+```
+public final Ratio getAspectRatio()
+```
+
+
+Αναλογία διαστάσεων ως πλάτος/ύψος
+
+
+**Returns:**
+[Ratio](../../com.groupdocs.editor.htmlcss.css.datatypes/ratio)
+### proportionallyResizeForNewWidth(int targetWidth) {#proportionallyResizeForNewWidth-int-}
+```
+public final Dimensions proportionallyResizeForNewWidth(int targetWidth)
+```
+
+
+Δημιουργεί και επιστρέφει μια νέα "Dimensions" παρουσία, η οποία είναι αναλογικά
+αλλάζει μέγεθος από το τρέχον, βάσει του καθορισμένου πλάτους
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | targetWidth | int | Νέο πλάτος στόχου, που θα είναι παρόν στο προκύπτον Dimension |
+|
+
+**Returns:**
+[Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) - New "Dimensions" instance with specified target width and proportionally resized height
+
+### proportionallyResizeForNewHeight(int targetHeight) {#proportionallyResizeForNewHeight-int-}
+```
+public final Dimensions proportionallyResizeForNewHeight(int targetHeight)
+```
+
+
+Δημιουργεί και επιστρέφει μια νέα "Dimensions" παρουσία, η οποία είναι αναλογικά
+αλλάζει μέγεθος από το τρέχον, βάσει του καθορισμένου ύψους
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | targetHeight | int | Νέο ύψος στόχου, που θα είναι παρόν στο προκύπτον Dimension |
+|
+
+**Returns:**
+[Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) - New "Dimensions" instance with specified target height and proportionally resized width
+
+### equals(Dimensions other) {#equals-com.groupdocs.editor.htmlcss.resources.images.Dimensions-}
+```
+public final boolean equals(Dimensions other)
+```
+
+
+Καθορίζει εάν αυτή η παρουσία είναι ίση με το καθορισμένο "Dimensions"
+αντικείμενο
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | other | [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Άλλη "Dimensions" παρουσία για έλεγχο ισότητας |
+|
+
+**Returns:**
+boolean - True αν είναι ίσες, false αν δεν είναι ίσες
+
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Καθορίζει αν αυτή η περίπτωση είναι ίση με το καθορισμένο μη μετατρεπόμενο αντικείμενο,
+που προφανώς είναι μια άλλη "Dimensions" παρουσία
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | obj | java.lang.Object | Άλλο αντικείμενο, που προφανώς είναι τύπου "Dimensions", το οποίο πρέπει να ελεγχθεί για ισότητα με αυτό |
+|
+
+**Returns:**
+boolean - True αν είναι ίσες, false αν δεν είναι ίσες
+
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Επιστρέφει έναν hashcode για αυτήν την παρουσία, ο οποίος δεν μπορεί να αλλάξει κατά τη διάρκεια του
+διάρκειας
+
+
+**Returns:**
+int - Αμετάβλητος (για αυτήν την παρουσία) κώδικας κατακερματισμού ως υπογεγραμμένος 4-ψήφιος ακέραιος
+
+### op_Equality(Dimensions first, Dimensions second) {#op-Equality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-}
+```
+public static boolean op_Equality(Dimensions first, Dimensions second)
+```
+
+
+Ελέγχει αν δύο τιμές "Dimensions" είναι ίσες, δηλαδή έχουν ίσες
+το πλάτος και το ύψος, ή και τα δύο είναι κενά
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | first | [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Πρώτη παρουσία για έλεγχο |
+|
+|  | second | [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Δεύτερη παρουσία για έλεγχο |
+|
+
+**Returns:**
+boolean - True αν είναι ίσες, false αν δεν είναι ίσες
+
+### op_Inequality(Dimensions first, Dimensions second) {#op-Inequality-com.groupdocs.editor.htmlcss.resources.images.Dimensions-com.groupdocs.editor.htmlcss.resources.images.Dimensions-}
+```
+public static boolean op_Inequality(Dimensions first, Dimensions second)
+```
+
+
+Ελέγχει αν δύο τιμές "Dimensions" δεν είναι ίσες, δηλαδή οι
+σχετικές διαστάσεις πλάτους και/ή ύψους είναι διαφορετικές
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+|  | first | [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Πρώτη παρουσία για έλεγχο |
+|
+|  | second | [Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) | Δεύτερη παρουσία για έλεγχο |
+|
+
+**Returns:**
+boolean - True αν είναι διαφορετικές, false αν είναι ίσες
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Επιστρέφει μια αναπαράσταση συμβολοσειράς αυτής της "Dimensions"
+
+*** ** * ** ***
+
+
+> ```
+> W640×H480
+> ```
+
+<br />
+
+
+
+**Returns:**
+java.lang.String - Παρουσία String, που περιέχει πλάτος και ύψος σε μορφή W:(width)×H:(height)
+
+### deepClone() {#deepClone--}
+```
+public final Dimensions deepClone()
+```
+
+
+Επιστρέφει ένα πλήρες αντίγραφο αυτής της παρουσίας
+
+
+**Returns:**
+[Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions) - New instance, that is a full and deep copy of this one
+
+### getEmpty() {#getEmpty--}
+```
+public static Dimensions getEmpty()
+```
+
+
+Επιστρέφει μια κενή παρουσία Dimensions
+
+
+**Returns:**
+[Dimensions](../../com.groupdocs.editor.htmlcss.resources.images/dimensions)

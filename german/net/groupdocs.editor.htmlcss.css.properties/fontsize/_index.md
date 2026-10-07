@@ -1,0 +1,59 @@
+---
+title: "FontSize"
+second_title: "GroupDocs.Editor für .NET API-Referenz"
+description: "Stellt eine Schriftgröße als spezielle Einheit oder Längenwert dar, der historisch die Breite des Großbuchstabens M angibt."
+type: docs
+weight: 260
+url: /de/net/groupdocs.editor.htmlcss.css.properties/fontsize/
+---
+## FontSize structure
+
+Stellt eine Schriftgröße als spezielle Einheit oder Längenwert dar, der die Größe der Schrift (historisch die Breite des Großbuchstabens "M") angibt.
+
+```csharp
+public struct FontSize : IEquatable<FontSize>
+```
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [IsAbsoluteSize](../../groupdocs.editor.htmlcss.css.properties/fontsize/isabsolutesize) { get; } | Gibt an, ob diese font-size mit einer absoluten Größe als Schlüsselwort definiert ist, basierend auf der Standard‑Schriftgröße des Benutzers (die mittel ist) |
+| [IsInitial](../../groupdocs.editor.htmlcss.css.properties/fontsize/isinitial) { get; } | Gibt an, ob diese font-size einen Anfangswert (Medium) hat |
+| [IsLengthDefined](../../groupdocs.editor.htmlcss.css.properties/fontsize/islengthdefined) { get; } | Gibt an, ob diese Schriftgröße mit einem [`Length`](../../groupdocs.editor.htmlcss.css.datatypes/length)-Wert definiert ist |
+| [IsRelativeSize](../../groupdocs.editor.htmlcss.css.properties/fontsize/isrelativesize) { get; } | Gibt an, ob diese Schriftgröße mit einer relativen Größe als Schlüsselwort definiert ist. Die Schrift wird relativ zur Schriftgröße des übergeordneten Elements größer oder kleiner sein, ungefähr im Verhältnis, das zur Trennung der absoluten Größen‑Schlüsselwörter verwendet wird. |
+| [Length](../../groupdocs.editor.htmlcss.css.properties/fontsize/length) { get; } | Ein Längenwert, falls diese Schriftgröße damit definiert wurde, andernfalls wird eine Ausnahme ausgelöst. |
+| [Value](../../groupdocs.editor.htmlcss.css.properties/fontsize/value) { get; } | Gibt den Wert dieser Schriftgröße als Zeichenkette zurück. |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| static [FromLength](../../groupdocs.editor.htmlcss.css.properties/fontsize/fromlength)(Length) | Erstellt eine Schriftgröße aus der angegebenen Länge. |
+| [Equals](../../groupdocs.editor.htmlcss.css.properties/fontsize/equals#equals)(FontSize) | Bestimmt, ob diese Schriftgrößen‑Instanz der angegebenen entspricht. |
+| override [Equals](../../groupdocs.editor.htmlcss.css.properties/fontsize/equals#equals_1)(object) | Bestimmt, ob diese Schriftgrößen‑Instanz der nicht gecasteten angegebenen entspricht. |
+| override [GetHashCode](../../groupdocs.editor.htmlcss.css.properties/fontsize/gethashcode)() | Gibt einen Hash‑Code für diese Instanz zurück |
+| static [TryParse](../../groupdocs.editor.htmlcss.css.properties/fontsize/tryparse)(string, out FontSize) | Versucht, ein angegebenes Schlüsselwort als gültigen Schlüsselwortwert von 'font-size' zu erkennen und gibt es bei Erfolg zurück, andernfalls NULL. |
+| [operator ==](../../groupdocs.editor.htmlcss.css.properties/fontsize/op_equality) | Prüft, ob zwei \"FontSize\"‑Werte gleich sind. |
+| [operator !=](../../groupdocs.editor.htmlcss.css.properties/fontsize/op_inequality) | Prüft, ob zwei \"FontSize\"‑Werte ungleich sind. |
+
+## Felder
+
+| Name | Beschreibung |
+| --- | --- |
+| static readonly [Large](../../groupdocs.editor.htmlcss.css.properties/fontsize/large) | Die normalerweise große absolute Größe. |
+| static readonly [Larger](../../groupdocs.editor.htmlcss.css.properties/fontsize/larger) | Größere relative Größe – die Schrift wird relativ zur Schriftgröße des übergeordneten Elements größer sein, ungefähr im Verhältnis, das zur Trennung der oben genannten absoluten Größen‑Schlüsselwörter verwendet wird. |
+| static readonly [Medium](../../groupdocs.editor.htmlcss.css.properties/fontsize/medium) | Mittlere Größe. Anfangswert. |
+| static readonly [Small](../../groupdocs.editor.htmlcss.css.properties/fontsize/small) | Die normalerweise kleine absolute Größe. |
+| static readonly [Smaller](../../groupdocs.editor.htmlcss.css.properties/fontsize/smaller) | Kleinere relative Größe – die Schrift wird relativ zur Schriftgröße des übergeordneten Elements kleiner sein, ungefähr im Verhältnis, das zur Trennung der oben genannten absoluten Größen‑Schlüsselwörter verwendet wird. |
+| static readonly [XLarge](../../groupdocs.editor.htmlcss.css.properties/fontsize/xlarge) | Die durchschnittlich große absolute Größe. |
+| static readonly [XSmall](../../groupdocs.editor.htmlcss.css.properties/fontsize/xsmall) | Die durchschnittlich kleine absolute Größe. |
+| static readonly [XxLarge](../../groupdocs.editor.htmlcss.css.properties/fontsize/xxlarge) | Die sehr große absolute Größe. |
+| static readonly [XxSmall](../../groupdocs.editor.htmlcss.css.properties/fontsize/xxsmall) | Die sehr kleine absolute Größe. |
+
+### Siehe auch
+
+* namespace [GroupDocs.Editor.HtmlCss.Css.Properties](../../groupdocs.editor.htmlcss.css.properties)
+* assembly [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.editor.dll -->

@@ -1,0 +1,56 @@
+---
+title: "IResourceType"
+second_title: "GroupDocs.Editor for Java API Reference"
+description: "Representa una instancia del tipo/recurso desconocido de formato imagen, fuente, texto"
+type: docs
+weight: 13
+url: /es/java/com.groupdocs.editor.htmlcss.resources/iresourcetype/
+---```
+public interface IResourceType
+```
+
+Represents one instance of the unknown resource type/format (image, font, text)
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getFormalName()](#getFormalName--) | Formal name of the resource type
+ |
+| [getFileExtension()](#getFileExtension--) | File extension for the specified resource type without dot divider
+ |
+| [getMimeCode()](#getMimeCode--) | MIME code for the specific resource type
+ |
+### getFormalName() {#getFormalName--}
+```
+public abstract String getFormalName()
+```
+
+
+Formal name of the resource type
+
+
+**Returns:**
+java.lang.String
+### getFileExtension() {#getFileExtension--}
+```
+public abstract String getFileExtension()
+```
+
+
+File extension for the specified resource type without dot divider
+
+
+**Returns:**
+java.lang.String
+### getMimeCode() {#getMimeCode--}
+```
+public abstract String getMimeCode()
+```
+
+
+MIME code for the specific resource type
+
+
+**Returns:**
+java.lang.String

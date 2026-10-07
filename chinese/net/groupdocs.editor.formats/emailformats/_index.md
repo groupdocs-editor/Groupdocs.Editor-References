@@ -1,0 +1,67 @@
+---
+title: "EmailFormats"
+second_title: "GroupDocs.Editor for .NET API 参考"
+description: "封装所有电子邮件格式。包括以下文件类型 Tnef./emailformats/tnef Eml./emailformats/eml Emlx./emailformats/emlx Msg./emailformats/msg Html./emailformats/html Mhtml./emailformats/mhtml。"
+type: docs
+weight: 90
+url: /zh/net/groupdocs.editor.formats/emailformats/
+---
+## EmailFormats class
+
+封装所有电子邮件格式。包括以下文件类型：[`Tnef`](./tnef)、[`Eml`](./eml)、[`Emlx`](./emlx)、[`Msg`](./msg)、[`Html`](./html)、[`Mhtml`](./mhtml)。
+
+```csharp
+public class EmailFormats : DocumentFormatBase
+```
+
+## 属性
+
+| 名称 | 描述 |
+| --- | --- |
+| [Extension](../../groupdocs.editor.formats.abstraction/documentformatbase/extension) { get; } | 获取文档格式的文件扩展名。 |
+| [FormatFamily](../../groupdocs.editor.formats.abstraction/documentformatbase/formatfamily) { get; } | 获取文档格式所属的格式族。 |
+| [Id](../../groupdocs.editor.formats.abstraction/formatfamilybase/id) { get; } | 获取格式族的唯一标识符。 |
+| [Mime](../../groupdocs.editor.formats.abstraction/documentformatbase/mime) { get; } | 获取文档格式的 MIME 类型。 |
+| [Name](../../groupdocs.editor.formats.abstraction/formatfamilybase/name) { get; } | 获取格式族的名称。 |
+| static [All](../../groupdocs.editor.formats/emailformats/all) { get; } | 获取所有[`EmailFormats`](../emailformats)的可枚举集合。 |
+
+## 方法
+
+| 名称 | 描述 |
+| --- | --- |
+| static [FromExtension](../../groupdocs.editor.formats/emailformats/fromextension)(string) | 检索具有指定文件扩展名的指定类型[`EmailFormats`](../emailformats)的实例。 |
+| [Equals](../../groupdocs.editor.formats.abstraction/formatfamilybase/equals)(FormatFamilyBase) | 确定此实例是否等于指定的 [`FormatFamilyBase`](../../groupdocs.editor.formats.abstraction/formatfamilybase) 实例。 |
+| [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(IDocumentFormat) | 确定此实例是否等于指定的 [`IDocumentFormat`](../../groupdocs.editor.formats.abstraction/idocumentformat) 实例。 |
+| override [Equals](../../groupdocs.editor.formats.abstraction/documentformatbase/equals)(object) | 确定此实例是否等于指定的 [`DocumentFormatBase`](../../groupdocs.editor.formats.abstraction/documentformatbase) 实例。 |
+| override [GetHashCode](../../groupdocs.editor.formats.abstraction/documentformatbase/gethashcode)() | 返回当前对象的哈希码。 |
+| override [ToString](../../groupdocs.editor.formats.abstraction/formatfamilybase/tostring)() | 返回表示当前对象的字符串。 |
+| [explicit operator](../../groupdocs.editor.formats/emailformats/op_explicit) | 将表示文件扩展名的字符串转换为[`EmailFormats`](../emailformats)对象。 |
+
+## 字段
+
+| 名称 | 描述 |
+| --- | --- |
+| static readonly [Eml](../../groupdocs.editor.formats/emailformats/eml) | EML 文件格式表示使用 Outlook 和其他相关应用程序保存的电子邮件消息。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/eml/)。 |
+| static readonly [Emlx](../../groupdocs.editor.formats/emailformats/emlx) | EMLX 文件格式由 Apple 实现和开发。Apple Mail 应用程序使用 EMLX 文件格式导出电子邮件。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/emlx/)。 |
+| static readonly [Html](../../groupdocs.editor.formats/emailformats/html) | HTML 格式的电子邮件。 |
+| static readonly [Ics](../../groupdocs.editor.formats/emailformats/ics) | Internet Calendaring and Scheduling Core Object Specification（iCalendar）是一项用于交换和部署日历事件与调度的互联网标准（RFC 2445）。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/ics/)。 |
+| static readonly [Mbox](../../groupdocs.editor.formats/emailformats/mbox) | MBox 文件格式是表示电子邮件消息集合容器的通用术语。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/mbox/)。 |
+| static readonly [Mhtml](../../groupdocs.editor.formats/emailformats/mhtml) | MHTML，是 "MIME encapsulation of aggregate HTML documents" 的缩写。 |
+| static readonly [Msg](../../groupdocs.editor.formats/emailformats/msg) | MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件、联系人、约会或其他任务的文件格式。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/msg/)。 |
+| static readonly [Oft](../../groupdocs.editor.formats/emailformats/oft) | .oft 扩展名的文件是使用 Microsoft Outlook 创建的模板文件。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/oft/)。 |
+| static readonly [Ost](../../groupdocs.editor.formats/emailformats/ost) | 离线存储表 (OST) 文件表示用户在使用 Microsoft Outlook 注册 Exchange Server 后，在本地机器上离线模式下的邮箱数据。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/ost/)。 |
+| static readonly [Pst](../../groupdocs.editor.formats/emailformats/pst) | .pst 扩展名的文件代表 Outlook 个人存储文件（也称为个人存储表），用于存储各种用户信息。了解更多关于此文件格式的信息[此处](https://docs.fileformat.com/email/pst/)。 |
+| static readonly [Tnef](../../groupdocs.editor.formats/emailformats/tnef) | Transport Neutral Encapsulation Format (TNEF) 是 Microsoft 的专有格式，基于消息应用程序编程接口 (MAPI) 用于封装电子邮件附件。了解更多关于此文件格式的信息，请访问[here](https://docs.fileformat.com/email/tnef/)。 |
+| static readonly [Vcf](../../groupdocs.editor.formats/emailformats/vcf) | VCF（Virtual Card Format）或 vCard 是一种用于存储联系信息的数字文件格式。了解更多关于此文件格式的信息，请访问[here](https://docs.fileformat.com/email/vcf/)。 |
+
+### 备注
+
+了解更多关于电子邮件格式的信息，请访问[here](https://docs.fileformat.com/email/)。
+
+### 另请参见
+
+* class [DocumentFormatBase](../../groupdocs.editor.formats.abstraction/documentformatbase)
+* namespace [GroupDocs.Editor.Formats](../../groupdocs.editor.formats)
+* assembly [GroupDocs.Editor](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.editor.dll -->

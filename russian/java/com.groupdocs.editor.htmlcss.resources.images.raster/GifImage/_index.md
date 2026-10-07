@@ -1,0 +1,135 @@
+---
+title: "GifImage"
+second_title: "GroupDocs.Editor for Java API Справка"
+description: "Представляет одно изображение в формате GIF Graphics Interchange Format с его метаданными и дополнительными методами."
+type: docs
+weight: 11
+url: /ru/java/com.groupdocs.editor.htmlcss.resources.images.raster/gifimage/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.editor.htmlcss.resources.images.raster.RasterImageResourceBase](../../com.groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase)
+```
+public final class GifImage extends RasterImageResourceBase
+```
+
+Представляет одно изображение в формате GIF (Graphics Interchange Format) с его
+метаданными и дополнительными методами
+
+## Конструкторы
+
+| Конструктор | Описание |
+| --- | --- |
+|  | [GifImage(String name, String contentInBase64)](#GifImage-java.lang.String-java.lang.String-) | Создает новый экземпляр GifImage из содержимого, представленного в виде base64-кодированного |
+строки и с указанным именем
+|
+|  | [GifImage(String name, InputStream binaryContent)](#GifImage-java.lang.String-java.io.InputStream-) | Создает новый экземпляр GifImage из содержимого, представленного в виде потока байтов, |
+и с указанным именем
+|
+## Методы
+
+| Метод | Описание |
+| --- | --- |
+|  | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Проверяет, является ли указанный поток действительным GIF‑изображением |
+|
+|  | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Проверяет, является ли указанная base64‑закодированная строка действительным GIF‑изображением |
+|
+|  | [getType()](#getType--) | Возвращает ImageType.Gif |
+|
+|  | [getVersion()](#getVersion--) | Возвращает внутреннюю версию этого GIF‑изображения (версия извлекается из |
+заголовка)
+|
+### GifImage(String name, String contentInBase64) {#GifImage-java.lang.String-java.lang.String-}
+```
+public GifImage(String name, String contentInBase64)
+```
+
+
+Создает новый экземпляр GifImage из содержимого, представленного в виде base64-кодированного
+строки и с указанным именем
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | name | java.lang.String | Имя GIF‑изображения. Не может быть null, пустым или состоять только из пробелов. |
+|
+|  | contentInBase64 | java.lang.String | Содержимое в виде строки, закодированной base64. Не может быть null, пустым или состоять только из пробелов. Если это не содержимое GIF, будет выброшено исключение. |
+|
+
+### GifImage(String name, InputStream binaryContent) {#GifImage-java.lang.String-java.io.InputStream-}
+```
+public GifImage(String name, InputStream binaryContent)
+```
+
+
+Создает новый экземпляр GifImage из содержимого, представленного в виде потока байтов,
+и с указанным именем
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | name | java.lang.String | Имя GIF‑изображения. Не может быть null, пустым или состоять только из пробелов. |
+|
+|  | binaryContent | java.io.InputStream | Содержимое в виде байтового потока. Чтение начинается с исходной позиции. Не может быть null. Должен быть читаемым и поддерживать перемещение. Если этот экземпляр будет освобождён, этот поток также будет освобождён. |
+|
+
+### isValid(InputStream binaryContent) {#isValid-java.io.InputStream-}
+```
+public static boolean isValid(InputStream binaryContent)
+```
+
+
+Проверяет, является ли указанный поток действительным GIF‑изображением
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | binaryContent | java.io.InputStream | Поток байтов, который, предположительно, содержит изображение GIF |
+|
+
+**Returns:**
+boolean - True, если указанный поток содержит корректное изображение GIF, иначе false
+
+### isValid(String contentInBase64) {#isValid-java.lang.String-}
+```
+public static boolean isValid(String contentInBase64)
+```
+
+
+Проверяет, является ли указанная base64‑закодированная строка действительным GIF‑изображением
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | contentInBase64 | java.lang.String | Содержимое предположительно GIF‑изображения в виде строки, закодированной base64 |
+|
+
+**Returns:**
+boolean - True, если указанная строка содержит корректное изображение GIF, иначе false
+
+### getType() {#getType--}
+```
+public ImageType getType()
+```
+
+
+Возвращает ImageType.Gif
+
+
+**Returns:**
+[ImageType](../../com.groupdocs.editor.htmlcss.resources.images/imagetype)
+### getVersion() {#getVersion--}
+```
+public final String getVersion()
+```
+
+
+Возвращает внутреннюю версию этого GIF‑изображения (версия извлекается из
+заголовка)
+
+
+**Returns:**
+java.lang.String

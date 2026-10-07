@@ -1,0 +1,200 @@
+---
+title: "Editor"
+second_title: "GroupDocs.Editor for .NET API 参考"
+description: "初始化 Editorgroupdocs.editor/editor 类的新实例，并基于指定格式创建一个新的空文档。"
+type: docs
+weight: 10
+url: /zh/net/groupdocs.editor/editor/editor/
+---
+## Editor(DocumentFormatBase) {#constructor}
+
+初始化 [`Editor`](../../editor) 类的新实例，并基于指定的格式创建一个新的空文档。
+
+```csharp
+public Editor(DocumentFormatBase format)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 格式 | DocumentFormatBase | 表示将要创建的文档的文件格式。 |
+
+### 备注
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### 示例
+
+```csharp
+IDocumentFormat format = new WordProcessingFormats.Docx();
+using (Editor editor = new Editor(format))
+{
+    // 使用编辑器实例编辑并保存文档
+}
+```
+
+### 另请参见
+
+* class [DocumentFormatBase](../../../groupdocs.editor.formats.abstraction/documentformatbase)
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Editor(Stream) {#constructor_1}
+
+使用指定的输入文档（流）初始化新的 Editor 实例。
+
+```csharp
+public Editor(Stream document)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 文档 | Stream | 包含文档内容的流。不能为空。 |
+
+### 备注
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### 示例
+
+```csharp
+using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Read))
+{
+    using (Editor editor = new Editor(fs))
+    {
+        // 使用编辑器实例编辑并保存文档
+    }
+}
+```
+
+### 另请参见
+
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Editor(Stream, ILoadOptions) {#constructor_2}
+
+使用指定的输入文档（流）及其加载选项初始化新的 Editor 实例。
+
+```csharp
+public Editor(Stream document, ILoadOptions loadOptions)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 文档 | Stream | 包含文档内容的流。不能为空。 |
+| loadOptions | ILoadOptions | 文档加载选项。可以为 null。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 当文档流为 null 时抛出。 |
+| ArgumentException | 当文档流无效时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### 示例
+
+```csharp
+using (FileStream fs = new FileStream("input.docx", FileMode.Open, FileAccess.Read))
+{
+    ILoadOptions loadOptions = new WordProcessingLoadOptions();
+    using (Editor editor = new Editor(fs, loadOptions))
+    {
+        // 使用编辑器实例编辑并保存文档
+    }
+}
+```
+
+### 另请参见
+
+* interface [ILoadOptions](../../../groupdocs.editor.options/iloadoptions)
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Editor(string, ILoadOptions) {#constructor_4}
+
+使用指定的输入文档（完整文件路径）及其加载选项初始化新的 Editor 实例。
+
+```csharp
+public Editor(string filePath, ILoadOptions loadOptions)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| filePath | String | 文件的完整路径。不能为空、空字符串或仅包含空白字符。应为有效路径，且文件必须存在。 |
+| loadOptions | ILoadOptions | 文档加载选项。可以为 null。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentException | 当文件路径无效时抛出。 |
+| FileNotFoundException | 当文件不存在时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about file types supported by GroupDocs.Editor: [Document formats supported by GroupDocs.Editor](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats)
+* More about GroupDocs.Editor for .NET features: [Developer Guide](https://docs.groupdocs.com/display/editornet/Developer+Guide)
+
+### 示例
+
+```csharp
+string filePath = "input.docx";
+ILoadOptions loadOptions = new WordProcessingLoadOptions();
+using (Editor editor = new Editor(filePath, loadOptions))
+{
+    // 使用编辑器实例编辑并保存文档
+}
+```
+
+### 另请参见
+
+* interface [ILoadOptions](../../../groupdocs.editor.options/iloadoptions)
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Editor(string) {#constructor_3}
+
+使用指定的输入文档（完整文件路径）和 Editor 设置初始化新的 Editor 实例
+
+```csharp
+public Editor(string filePath)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| filePath | String | 文件的完整路径。应为 NULL。应为有效路径，且文件必须存在。 |
+
+### 另请参见
+
+* class [Editor](../../editor)
+* namespace [GroupDocs.Editor](../../../groupdocs.editor)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.editor.dll -->

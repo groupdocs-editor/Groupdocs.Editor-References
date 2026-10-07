@@ -1,0 +1,90 @@
+---
+title: "WordProcessingProtectionType"
+second_title: "GroupDocs.Editor Java için API Referansı"
+description: "WordProcessing belgesinin tüm mevcut koruma türlerini temsil eder."
+type: docs
+weight: 47
+url: /tr/java/com.groupdocs.editor.options/wordprocessingprotectiontype/
+---
+**Inheritance:**
+java.lang.Object
+```
+public final class WordProcessingProtectionType
+```
+
+WordProcessing belgesinin tüm mevcut koruma türlerini temsil eder.
+
+## Alanlar
+
+| Alan | Açıklama |
+| --- | --- |
+|  | [NoProtection](#NoProtection) | Belge korunmamış. |
+|
+|  | [AllowOnlyRevisions](#AllowOnlyRevisions) | Kullanıcı yalnızca belgeye revizyon işaretleri ekleyebilir |
+|
+|  | [AllowOnlyComments](#AllowOnlyComments) | Kullanıcı yalnızca belgede yorumları değiştirebilir |
+|
+|  | [AllowOnlyFormFields](#AllowOnlyFormFields) | Kullanıcı yalnızca belgede form alanlarına veri girebilir |
+|
+|  | [ReadOnly](#ReadOnly) | Belgeye hiçbir değişiklik yapılmasına izin verilmez |
+|
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [getAll()](#getAll--) |  |
+### NoProtection {#NoProtection}
+```
+public static final int NoProtection
+```
+
+
+Belge korunmamış. Varsayılan değer.
+
+
+### AllowOnlyRevisions {#AllowOnlyRevisions}
+```
+public static final int AllowOnlyRevisions
+```
+
+
+Kullanıcı yalnızca belgeye revizyon işaretleri ekleyebilir
+
+
+### AllowOnlyComments {#AllowOnlyComments}
+```
+public static final int AllowOnlyComments
+```
+
+
+Kullanıcı yalnızca belgede yorumları değiştirebilir
+
+
+### AllowOnlyFormFields {#AllowOnlyFormFields}
+```
+public static final int AllowOnlyFormFields
+```
+
+
+Kullanıcı yalnızca belgede form alanlarına veri girebilir
+
+
+### ReadOnly {#ReadOnly}
+```
+public static final int ReadOnly
+```
+
+
+Belgeye hiçbir değişiklik yapılmasına izin verilmez
+
+
+### getAll() {#getAll--}
+```
+public static Map<Integer,String> getAll()
+```
+
+
+
+
+**Returns:**
+java.util.Map<java.lang.Integer,java.lang.String>

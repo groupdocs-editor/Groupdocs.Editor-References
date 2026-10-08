@@ -1,0 +1,23 @@
+---
+title: "IsDisposed"
+second_title: "Referensi API GroupDocs.Editor untuk .NET"
+description: "Menentukan apakah font ini telah dibuang atau tidak"
+type: docs
+weight: 30
+url: /id/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/isdisposed/
+---
+## FontResourceBase.IsDisposed property
+
+Menentukan apakah font ini telah dibuang atau tidak
+
+```csharp
+public bool IsDisposed { get; }
+```
+
+### Lihat Juga
+
+* class [FontResourceBase](../../fontresourcebase)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Fonts](../../../groupdocs.editor.htmlcss.resources.fonts)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- JANGAN SUNTING: dihasilkan oleh xmldocmd untuk GroupDocs.editor.dll -->

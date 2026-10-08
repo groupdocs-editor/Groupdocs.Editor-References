@@ -1,0 +1,28 @@
+---
+title: "StatusText"
+second_title: "GroupDocs.Editor for .NET API リファレンス"
+description: "フォームフィールドに関連付けられたステータステキストを取得または設定します。このテキストは、フォームフィールドがフォーカスを持つとステータスバーに表示されるテキストのソースです。"
+type: docs
+weight: 60
+url: /ja/net/groupdocs.editor.words.fieldmanagement/currentdateformfield/statustext/
+---
+## CurrentDateFormField.StatusText property
+
+フォームフィールドに関連付けられたステータステキストを取得または設定します。これは、フォームフィールドがフォーカスを持ったときにステータスバーに表示されるテキストのソースです..
+
+```csharp
+public HelpText StatusText { get; set; }
+```
+
+### 備考
+
+`false` に設定された場合、ステータステキストは適用されません。
+
+### 参照
+
+* class [HelpText](../../helptext)
+* class [CurrentDateFormField](../../currentdateformfield)
+* namespace [GroupDocs.Editor.Words.FieldManagement](../../../groupdocs.editor.words.fieldmanagement)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- 編集しないでください: xmldocmd によって GroupDocs.editor.dll 用に生成されました -->

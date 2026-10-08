@@ -1,0 +1,23 @@
+---
+title: "FilenameWithExtension"
+second_title: "Referensi API GroupDocs.Editor untuk .NET"
+description: "Mengembalikan nama file yang benar dari gambar raster ini yang terdiri dari nama dan ekstensi. Secara teoritis dapat berbeda dari nama."
+type: docs
+weight: 30
+url: /id/net/groupdocs.editor.htmlcss.resources.images.raster/rasterimageresourcebase/filenamewithextension/
+---
+## RasterImageResourceBase.FilenameWithExtension property
+
+Mengembalikan nama file yang benar dari gambar raster ini, yang terdiri dari nama dan ekstensi. Secara teoritis dapat berbeda dari nama.
+
+```csharp
+public string FilenameWithExtension { get; }
+```
+
+### Lihat Juga
+
+* class [RasterImageResourceBase](../../rasterimageresourcebase)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Images.Raster](../../../groupdocs.editor.htmlcss.resources.images.raster)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- JANGAN SUNTING: dihasilkan oleh xmldocmd untuk GroupDocs.editor.dll -->

@@ -1,0 +1,63 @@
+---
+title: "Woff2Font"
+second_title: "GroupDocs.Editor के लिए .NET API रेफ़रेंस"
+description: "base64-encoded स्ट्रिंग के रूप में प्रतिनिधित्व की गई सामग्री और निर्दिष्ट नाम के साथ नया Woff2Font क्लास बनाता है"
+type: docs
+weight: 10
+url: /hi/net/groupdocs.editor.htmlcss.resources.fonts/woff2font/woff2font/
+---
+## Woff2Font(string, string) {#constructor_1}
+
+सामग्री से, जो base64-एन्कोडेड स्ट्रिंग के रूप में प्रस्तुत है, और निर्दिष्ट नाम के साथ, नया Woff2Font क्लास बनाता है
+
+```csharp
+public Woff2Font(string name, string contentInBase64)
+```
+
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| name | String | WOFF2 फ़ॉन्ट का नाम। null, खाली या व्हाइटस्पेस नहीं हो सकता। |
+| contentInBase64 | String | सामग्री base64-encoded स्ट्रिंग के रूप में। null, खाली या व्हाइटस्पेस नहीं हो सकता। यदि यह WOFF2 सामग्री नहीं है, तो अपवाद फेंका जाएगा। |
+
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| ArgumentException |  |
+| [InvalidImageFormatException](../../../groupdocs.editor.htmlcss.exceptions/invalidimageformatexception) |  |
+
+### संबंधित देखें
+
+* class [Woff2Font](../../woff2font)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Fonts](../../../groupdocs.editor.htmlcss.resources.fonts)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## Woff2Font(string, Stream) {#constructor}
+
+सामग्री से, जो बाइट स्ट्रीम के रूप में प्रस्तुत है, और निर्दिष्ट नाम के साथ, नया Woff2Font क्लास बनाता है
+
+```csharp
+public Woff2Font(string name, Stream binaryContent)
+```
+
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| name | String | WOFF2 फ़ॉन्ट का नाम। null, खाली या व्हाइटस्पेस नहीं हो सकता। |
+| binaryContent | Stream | सामग्री को बाइट स्ट्रीम के रूप में। पढ़ना मूल स्थिति से शुरू होता है। null नहीं हो सकता। पढ़ने योग्य और seekable होना चाहिए। यदि यह इंस्टेंस नष्ट किया जाता है, तो यह स्ट्रीम भी नष्ट हो जाएगा। |
+
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| ArgumentException |  |
+| [InvalidImageFormatException](../../../groupdocs.editor.htmlcss.exceptions/invalidimageformatexception) |  |
+
+### संबंधित देखें
+
+* class [Woff2Font](../../woff2font)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Fonts](../../../groupdocs.editor.htmlcss.resources.fonts)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.editor.dll के लिए उत्पन्न किया गया -->

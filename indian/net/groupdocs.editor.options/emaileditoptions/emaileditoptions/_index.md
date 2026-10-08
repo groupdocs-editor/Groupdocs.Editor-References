@@ -1,0 +1,44 @@
+---
+title: "EmailEditOptions"
+second_title: "GroupDocs.Editor के लिए .NET API रेफ़रेंस"
+description: "EmailEditOptionsgroupdocs.editor.options/emaileditoptions क्लास का नया इंस्टेंस इनिशियलाइज़ करता है जहाँ सभी विकल्प डिफ़ॉल्ट मानों पर सेट होते हैं।"
+type: docs
+weight: 10
+url: /hi/net/groupdocs.editor.options/emaileditoptions/emaileditoptions/
+---
+## EmailEditOptions() {#constructor}
+
+[`EmailEditOptions`](../../emaileditoptions) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है, जहाँ सभी विकल्प डिफ़ॉल्ट मानों पर सेट होते हैं।
+
+```csharp
+public EmailEditOptions()
+```
+
+### संबंधित देखें
+
+* class [EmailEditOptions](../../emaileditoptions)
+* namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
+* assembly [GroupDocs.Editor](../../../)
+
+---
+
+## EmailEditOptions(MailMessageOutput) {#constructor_1}
+
+[`EmailEditOptions`](../../emaileditoptions) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है जिसमें [`MailMessageOutput`](../mailmessageoutput) पैरामीटर होता है।
+
+```csharp
+public EmailEditOptions(MailMessageOutput mailMessageOutput)
+```
+
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| mailMessageOutput | MailMessageOutput | मेल संदेश आउटपुट, जिसे प्रॉपर्टी के माध्यम से भी निर्दिष्ट किया जा सकता है |
+
+### संबंधित देखें
+
+* enum [MailMessageOutput](../../mailmessageoutput)
+* class [EmailEditOptions](../../emaileditoptions)
+* namespace [GroupDocs.Editor.Options](../../../groupdocs.editor.options)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.editor.dll के लिए उत्पन्न किया गया -->

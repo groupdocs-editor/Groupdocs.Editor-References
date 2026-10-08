@@ -1,0 +1,23 @@
+---
+title: "FilenameWithExtension"
+second_title: "GroupDocs.Editor para .NET Referencia de API"
+description: "Devuelve el nombre de archivo correcto de este recurso de fuente, que consiste en nombre y extensión. Teóricamente puede diferir del nombre."
+type: docs
+weight: 20
+url: /es/net/groupdocs.editor.htmlcss.resources.fonts/fontresourcebase/filenamewithextension/
+---
+## FontResourceBase.FilenameWithExtension property
+
+Devuelve el nombre de archivo correcto de este recurso de fuente, que consiste en el nombre y la extensión. Teóricamente puede diferir del nombre.
+
+```csharp
+public string FilenameWithExtension { get; }
+```
+
+### Ver también
+
+* class [FontResourceBase](../../fontresourcebase)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Fonts](../../../groupdocs.editor.htmlcss.resources.fonts)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.editor.dll -->

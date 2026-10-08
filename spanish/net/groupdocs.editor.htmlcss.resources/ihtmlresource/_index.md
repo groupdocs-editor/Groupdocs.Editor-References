@@ -1,0 +1,39 @@
+---
+title: "IHtmlResource"
+second_title: "GroupDocs.Editor para .NET Referencia de API"
+description: "Representa una instancia del recurso HTML desconocido raster o vectorial, imagen, hoja de estilo, fuente, recurso de texto, CSS, XML, audio, etc."
+type: docs
+weight: 430
+url: /es/net/groupdocs.editor.htmlcss.resources/ihtmlresource/
+---
+## IHtmlResource interface
+
+Representa una instancia del recurso HTML desconocido (imagen raster o vectorial, hoja de estilo, fuente, recurso de texto (CSS, XML), audio, etc.)
+
+```csharp
+public interface IHtmlResource : IAuxDisposable, IEquatable<IHtmlResource>
+```
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [ByteContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/bytecontent) { get; } | Contenido del recurso HTML en forma de flujo de bytes |
+| [FilenameWithExtension](../../groupdocs.editor.htmlcss.resources/ihtmlresource/filenamewithextension) { get; } | Nombre de archivo correcto del recurso especificado con la extensión de archivo apropiada |
+| [Name](../../groupdocs.editor.htmlcss.resources/ihtmlresource/name) { get; } | Nombre del recurso HTML |
+| [TextContent](../../groupdocs.editor.htmlcss.resources/ihtmlresource/textcontent) { get; } | Contenido del recurso HTML en forma de cadena de texto codificada en base64 para recursos binarios o texto simple para recursos textuales |
+| [Type](../../groupdocs.editor.htmlcss.resources/ihtmlresource/type) { get; } | Tipo del recurso HTML |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [Save](../../groupdocs.editor.htmlcss.resources/ihtmlresource/save)(string) | Guarda un recurso actual en el archivo especificado |
+
+### Ver también
+
+* interface [IAuxDisposable](../iauxdisposable)
+* namespace [GroupDocs.Editor.HtmlCss.Resources](../../groupdocs.editor.htmlcss.resources)
+* assembly [GroupDocs.Editor](../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.editor.dll -->

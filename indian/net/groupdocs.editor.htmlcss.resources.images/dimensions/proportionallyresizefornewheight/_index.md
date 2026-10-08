@@ -1,0 +1,31 @@
+---
+title: "ProportionallyResizeForNewHeight"
+second_title: "GroupDocs.Editor के लिए .NET API रेफ़रेंस"
+description: "निर्दिष्ट ऊँचाई के आधार पर वर्तमान से अनुपातिक रूप से आकार बदलकर नया Dimensions उदाहरण बनाता और लौटाता है"
+type: docs
+weight: 120
+url: /hi/net/groupdocs.editor.htmlcss.resources.images/dimensions/proportionallyresizefornewheight/
+---
+## Dimensions.ProportionallyResizeForNewHeight method
+
+एक नया "Dimensions" इंस्टेंस बनाता और लौटाता है, जो वर्तमान से अनुपातिक रूप से निर्दिष्ट ऊँचाई के आधार पर आकार बदलता है
+
+```csharp
+public Dimensions ProportionallyResizeForNewHeight(ushort targetHeight)
+```
+
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| targetHeight | UInt16 | नया लक्ष्य ऊँचाई, जो परिणामी Dimension में उपस्थित होगी |
+
+### रिटर्न मान
+
+निर्दिष्ट लक्ष्य ऊँचाई और अनुपातिक रूप से बदलित चौड़ाई के साथ नया "Dimensions" उदाहरण
+
+### संबंधित देखें
+
+* struct [Dimensions](../../dimensions)
+* namespace [GroupDocs.Editor.HtmlCss.Resources.Images](../../../groupdocs.editor.htmlcss.resources.images)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.editor.dll के लिए उत्पन्न किया गया -->

@@ -1,0 +1,23 @@
+---
+title: "Xlsb"
+second_title: "GroupDocs.Editor के लिए .NET API रेफ़रेंस"
+description: "Excel बाइनरी वर्कबुक XLSB। इस फ़ाइल फ़ॉर्मेट के बारे में अधिक जानें यहाँhttps//wiki.fileformat.com/spreadsheet/xlsb."
+type: docs
+weight: 100
+url: /hi/net/groupdocs.editor.formats/spreadsheetformats/xlsb/
+---
+## SpreadsheetFormats.Xlsb field
+
+एक्सेल बाइनरी वर्कबुक (XLSB)। इस फ़ाइल फ़ॉर्मेट के बारे में अधिक जानकारी के लिए [यहाँ](https://wiki.fileformat.com/spreadsheet/xlsb) देखें।
+
+```csharp
+public static readonly SpreadsheetFormats Xlsb;
+```
+
+### संबंधित देखें
+
+* class [SpreadsheetFormats](../../spreadsheetformats)
+* namespace [GroupDocs.Editor.Formats](../../../groupdocs.editor.formats)
+* assembly [GroupDocs.Editor](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.editor.dll के लिए उत्पन्न किया गया -->

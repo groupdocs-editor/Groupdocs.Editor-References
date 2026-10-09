@@ -1,0 +1,22 @@
+---
+title: "format proprietà"
+second_title: "Riferimenti API di GroupDocs.Editor per Python via .NET"
+description: 
+type: docs
+url: /it/python-net/groupdocs.editor.metadata/fixedlayoutdocumentinfo/format/
+is_root: false
+weight: 2010
+---
+
+
+## format property
+
+### Definition:
+```python
+@property
+def format(self):
+    ...
+```
+
+### Vedi anche
+* class [`FixedLayoutDocumentInfo`](/editor/python-net/groupdocs.editor.metadata/fixedlayoutdocumentinfo/)

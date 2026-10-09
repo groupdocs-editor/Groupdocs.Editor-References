@@ -1,0 +1,134 @@
+---
+title: "EotFont"
+second_title: "Référence d'API GroupDocs.Editor pour Node.js via Java"
+description: "Représente une police dans le format EOT Embedded OpenType"
+type: docs
+weight: 10
+url: /fr/nodejs-java/com.groupdocs.editor.htmlcss.resources.fonts/eotfont/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.editor.htmlcss.resources.fonts.FontResourceBase](../../com.groupdocs.editor.htmlcss.resources.fonts/fontresourcebase)
+```
+public final class EotFont extends FontResourceBase
+```
+
+Représente une police au format EOT (Embedded OpenType).
+
+## Constructeurs
+
+| Constructeur | Description |
+| --- | --- |
+|  | [EotFont(String name, String contentInBase64)](#EotFont-java.lang.String-java.lang.String-) | Crée une nouvelle classe EotFont à partir du contenu, représenté en base64 |
+chaîne, et avec le nom spécifié
+|
+|  | [EotFont(String name, InputStream binaryContent)](#EotFont-java.lang.String-java.io.InputStream-) | Crée une nouvelle classe EotFont à partir du contenu, représenté sous forme de flux d'octets, et |
+avec le nom spécifié
+|
+## Champs
+
+| Champ | Description |
+| --- | --- |
+|  | [RequiredHeaderSize](#RequiredHeaderSize) | Taille de l'en-tête EOT (en octets), requise pour sa validation |
+|
+## Méthodes
+
+| Méthode | Description |
+| --- | --- |
+|  | [isValid(InputStream binaryContent)](#isValid-java.io.InputStream-) | Vérifie si le flux spécifié est une police EOT valide |
+|
+|  | [isValid(String contentInBase64)](#isValid-java.lang.String-) | Vérifie si la chaîne encodée en base64 spécifiée est une police EOT valide |
+|
+|  | [getType()](#getType--) | Renvoie FontType.Eot |
+|
+### EotFont(String name, String contentInBase64) {#EotFont-java.lang.String-java.lang.String-}
+```
+public EotFont(String name, String contentInBase64)
+```
+
+
+Crée une nouvelle classe EotFont à partir du contenu, représenté en base64
+chaîne, et avec le nom spécifié
+
+
+**Parameters:**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+|  | name | java.lang.String | Nom de la police EOT. Ne peut pas être nul, vide ou contenir uniquement des espaces. |
+|
+|  | contentInBase64 | java.lang.String | Contenu sous forme de chaîne encodée en base64. Ne peut pas être nul, vide ou contenir uniquement des espaces. Si ce n'est pas un contenu EOT, une exception sera levée. |
+|
+
+### EotFont(String name, InputStream binaryContent) {#EotFont-java.lang.String-java.io.InputStream-}
+```
+public EotFont(String name, InputStream binaryContent)
+```
+
+
+Crée une nouvelle classe EotFont à partir du contenu, représenté sous forme de flux d'octets, et
+avec le nom spécifié
+
+
+**Parameters:**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+|  | name | java.lang.String | Nom de la police EOT. Ne peut pas être nul, vide ou contenir uniquement des espaces. |
+|
+|  | binaryContent | java.io.InputStream | Contenu sous forme de flux d'octets. La lecture commence à partir de la position d'origine. Ne peut pas être nul. Doit être lisible et recherchable. Si cette instance est libérée, ce flux sera également libéré. |
+|
+
+### RequiredHeaderSize {#RequiredHeaderSize}
+```
+public static final int RequiredHeaderSize
+```
+
+
+Taille de l'en-tête EOT (en octets), requise pour sa validation
+
+
+### isValid(InputStream binaryContent) {#isValid-java.io.InputStream-}
+```
+public static boolean isValid(InputStream binaryContent)
+```
+
+
+Vérifie si le flux spécifié est une police EOT valide
+
+
+**Parameters:**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+|  | binaryContent | java.io.InputStream | Flux d'octets, qui contient probablement une ressource EOT |
+|
+
+**Returns:**
+booléen - True si le flux spécifié contient une police EOT valide, false sinon
+
+### isValid(String contentInBase64) {#isValid-java.lang.String-}
+```
+public static boolean isValid(String contentInBase64)
+```
+
+
+Vérifie si la chaîne encodée en base64 spécifiée est une police EOT valide
+
+
+**Parameters:**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+|  | contentInBase64 | java.lang.String | Contenu de la police EOT supposée sous forme de chaîne encodée en base64 |
+|
+
+**Returns:**
+booléen - True si la chaîne spécifiée contient une police EOT valide, false sinon
+
+### getType() {#getType--}
+```
+public FontType getType()
+```
+
+
+Renvoie FontType.Eot
+
+
+**Returns:**
+[FontType](../../com.groupdocs.editor.htmlcss.resources.fonts/fonttype)

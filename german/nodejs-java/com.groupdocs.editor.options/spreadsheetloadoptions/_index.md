@@ -1,0 +1,115 @@
+---
+title: "SpreadsheetLoadOptions"
+second_title: "GroupDocs.Editor für Node.js über Java API-Referenz"
+description: "Enthält Optionen zum Laden binärer Spreadsheet Cells Excel‑kompatibler Dokumente wie XLSX, ODS usw."
+type: docs
+weight: 36
+url: /de/nodejs-java/com.groupdocs.editor.options/spreadsheetloadoptions/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.groupdocs.editor.options.ILoadOptions](../../com.groupdocs.editor.options/iloadoptions)
+```
+public final class SpreadsheetLoadOptions implements ILoadOptions
+```
+
+Enthält Optionen zum Laden binärer Spreadsheet (Cells, Excel‑kompatibel)
+Dokumente wie XLS(X), ODS usw. in die Editor‑Klasse
+
+## Konstruktoren
+
+| Konstruktor | Beschreibung |
+| --- | --- |
+|  | [SpreadsheetLoadOptions()](#SpreadsheetLoadOptions--) | Standard‑Konstruktor ohne Parameter – alle Parameter haben Standardwerte |
+|
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+|  | [getPassword()](#getPassword--) | Ermöglicht das Angeben, Ändern und Abrufen des Passworts, das verwendet wird für |
+Öffnen des Spreadsheet‑Dokuments, falls es kodiert ist.
+|
+|  | [setPassword(String value)](#setPassword-java.lang.String-) | Ermöglicht das Angeben, Ändern und Abrufen des Passworts, das verwendet wird für |
+Öffnen des Spreadsheet‑Dokuments, falls es kodiert ist.
+|
+|  | [getOptimizeMemoryUsage()](#getOptimizeMemoryUsage--) | Aktiviert Speicheroptimierungs‑Mechanismen während der Verarbeitung des Eingabedokuments, |
+die in einigen Sonderfällen die Leistung mindern können, aber andererseits
+die den Speicherverbrauch reduzieren.
+|
+|  | [setOptimizeMemoryUsage(boolean value)](#setOptimizeMemoryUsage-boolean-) | Aktiviert Speicheroptimierungs‑Mechanismen während der Verarbeitung des Eingabedokuments, |
+die in einigen Sonderfällen die Leistung mindern können, aber andererseits
+die den Speicherverbrauch reduzieren.
+|
+### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
+```
+public SpreadsheetLoadOptions()
+```
+
+
+Standard‑Konstruktor ohne Parameter – alle Parameter haben Standardwerte
+
+
+### getPassword() {#getPassword--}
+```
+public final String getPassword()
+```
+
+
+Ermöglicht das Angeben, Ändern und Abrufen des Passworts, das verwendet wird für
+Öffnen des Spreadsheet‑Dokuments, falls es kodiert ist. Auf NULL oder leer setzen.
+Zeichenkette, um das Passwort nicht zu verwenden (Standardwert).
+
+
+**Returns:**
+java.lang.String
+### setPassword(String value) {#setPassword-java.lang.String-}
+```
+public final void setPassword(String value)
+```
+
+
+Ermöglicht das Angeben, Ändern und Abrufen des Passworts, das verwendet wird für
+Öffnen des Spreadsheet‑Dokuments, falls es kodiert ist. Auf NULL oder leer setzen.
+Zeichenkette, um das Passwort nicht zu verwenden (Standardwert).
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | java.lang.String |  |
+
+### getOptimizeMemoryUsage() {#getOptimizeMemoryUsage--}
+```
+public final boolean getOptimizeMemoryUsage()
+```
+
+
+Aktiviert Speicheroptimierungs‑Mechanismen während der Verarbeitung des Eingabedokuments,
+die in einigen Sonderfällen die Leistung mindern können, aber andererseits
+die den Speicherverbrauch reduzieren. Nützlich beim Verarbeiten riesiger Dokumente und
+bei Auftreten einer OutOfMemoryException. Standard ist false (Speicheroptimierung ist
+deaktiviert, um eine bessere Leistung zu erzielen).
+
+
+**Returns:**
+boolesch
+### setOptimizeMemoryUsage(boolean value) {#setOptimizeMemoryUsage-boolean-}
+```
+public final void setOptimizeMemoryUsage(boolean value)
+```
+
+
+Aktiviert Speicheroptimierungs‑Mechanismen während der Verarbeitung des Eingabedokuments,
+die in einigen Sonderfällen die Leistung mindern können, aber andererseits
+die den Speicherverbrauch reduzieren. Nützlich beim Verarbeiten riesiger Dokumente und
+bei Auftreten einer OutOfMemoryException. Standard ist false (Speicheroptimierung ist
+deaktiviert, um eine bessere Leistung zu erzielen).
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolesch |  |
+
